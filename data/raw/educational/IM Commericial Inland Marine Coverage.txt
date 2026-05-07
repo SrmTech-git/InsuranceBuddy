@@ -1,0 +1,64 @@
+# Commercial Inland Marine - Coverage Overview
+LOB: Inland Marine (IM)
+Type: Commercial
+Source: Industry Training Material
+
+## WHAT IT IS:
+Commercial Inland Marine is an "a la carte" insurance product. No coverage is included simply by having 
+a policy — coverages must be individually selected. Each selected Coverage Part includes some coverage 
+by default, but individual items can be added, upgraded, limited, or excluded depending on the coverage 
+part chosen.
+
+## HOW IT WORKS:
+Commercial Inland Marine is structured around Coverage Parts — each one designed to cover a specific 
+type of property or business exposure. There are 36 coverage parts available. A customer selects one or 
+more Coverage Parts based on their business needs and exposures. Customization options vary by 
+coverage part.
+
+## COVERAGE PARTS — EXAMPLES BY INDUSTRY:
+- Art and Entertainment: Theatrical Property, Musical Instruments, Fine Arts
+- Construction: Builder's Risk, Contractor's Equipment, Installation Floater
+- Other: Golf Course, Physicians' and Dentists' Equipment
+
+Some coverage parts have multiple variations available. Selection depends on the customer's business 
+needs and the specific exposures they have.
+
+## FORM STRUCTURE:
+Inland Marine forms typically separate legal verbiage (coverage details) from schedules of items 
+(where limits and/or covered locations/buildings are listed). When a coverage part is added to a policy, 
+this most often triggers two forms to be included — one for legal verbiage and one for the schedule.
+
+## DECLARATIONS (DEC) vs QUOTE:
+- The Dec and Quote use very similar layouts
+- The Dec will most often reference a form number (e.g. "Refer to IM 99 99") rather than displaying 
+  the limit directly
+- The Quote page generally shows limits and deductibles
+- In some cases where the schedule form lacks legal verbiage implying coverage, the Quote will also 
+  say "Refer to IM 99 99"
+
+## WHAT IT COVERS:
+Coverage varies entirely by Coverage Part selected. Examples include:
+- Musical instruments and fine arts
+- Theatrical property
+- Contractor's equipment
+- Builder's risk during construction
+- Installation floaters
+- Golf course property
+- Medical and dental equipment
+
+## WHAT IT DOESN'T COVER:
+- No coverage is included by default — all coverage must be affirmatively selected
+- Each Coverage Part has its own exclusions and limitations
+- Customization options and available additions vary by Coverage Part
+
+## RELATED COVERAGES:
+- Commercial General Liability (CGL) — often paired with IM on a commercial account
+- Businessowners Policy (BOP) — may include some inland marine type coverage for smaller risks
+- Commercial Package Policy (CPP) — IM is commonly a component of a CPP
+
+## KEY TERMS:
+- Coverage Part: The individual unit of coverage within an IM policy, each covering a specific 
+  property type or exposure
+- Schedule: The form listing specific items, limits, and/or locations covered
+- A La Carte: No coverage is automatic — each Coverage Part must be selected individually
+- Floater: A type of inland marine coverage that follows property regardless of location

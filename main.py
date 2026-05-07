@@ -1,0 +1,90 @@
+import argparse
+import sys
+from pathlib import Path
+
+# Make src/ importable regardless of working directory
+sys.path.insert(0, str(Path(__file__).parent / "src"))
+
+
+def cmd_chat(_args: argparse.Namespace) -> None:
+    from chat import ask
+
+    print("Insurance Document Assistant (type 'quit' to exit)\n")
+    while True:
+        try:
+            question = input("You: ").strip()
+        except (EOFError, KeyboardInterrupt):
+            print("\nGoodbye!")
+            break
+
+        if not question:
+            continue
+        if question.lower() == "quit":
+            print("Goodbye!")
+            break
+
+        print(f"\n{ask(question)}\n")
+
+
+def cmd_ingest(args: argparse.Namespace) -> None:
+    from ingest_batch import ingest_all
+
+    ingest_all(force=args.force, collection_override=args.collection)
+
+
+def cmd_scrape(args: argparse.Namespace) -> None:
+    from scrape_orc import detect_code_type, fetch_chapter_page, find_pdf_sections, download_pdfs
+
+    code_type = detect_code_type(args.url)
+    print(f"Code type detected: {code_type}")
+    soup = fetch_chapter_page(args.url)
+    sections = find_pdf_sections(soup, code_type)
+
+    if not sections:
+        print("No PDF links found on the page.")
+    else:
+        print(f"\nFound {len(sections)} PDF links.\n")
+        download_pdfs(sections, code_type)
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(
+        prog="insurance-rag",
+        description="Insurance RAG — chat, ingest, and scrape Ohio insurance documents.",
+    )
+    subparsers = parser.add_subparsers(dest="command", metavar="<command>")
+    subparsers.required = True
+
+    # chat
+    subparsers.add_parser("chat", help="Start the interactive Q&A assistant")
+
+    # ingest
+    ingest_parser = subparsers.add_parser("ingest", help="Batch-embed documents from data/raw/")
+    ingest_parser.add_argument(
+        "--collection",
+        choices=["regulatory", "educational"],
+        default=None,
+        help="Only ingest this collection (default: all subfolders)",
+    )
+    ingest_parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Overwrite documents that already exist in the database",
+    )
+
+    # scrape
+    scrape_parser = subparsers.add_parser("scrape", help="Download authenticated PDFs from codes.ohio.gov")
+    scrape_parser.add_argument(
+        "url",
+        nargs="?",
+        default="https://codes.ohio.gov/ohio-revised-code/chapter-3937",
+        help="Chapter page URL (default: ORC chapter 3937)",
+    )
+
+    args = parser.parse_args()
+    dispatch = {"chat": cmd_chat, "ingest": cmd_ingest, "scrape": cmd_scrape}
+    dispatch[args.command](args)
+
+
+if __name__ == "__main__":
+    main()
