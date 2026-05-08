@@ -128,6 +128,8 @@ def _llm_classify(question: str) -> list[str]:
         f"- Questions about legal limits, penalties, or Ohio-specific rules -> regulatory\n"
         f"- Questions about what a coverage type IS, how it works, or general concepts -> educational\n"
         f"- When in doubt, include all relevant collections.\n\n"
+        f"This routing helps surface the right information for someone trying to "
+        f"understand insurance, which is genuinely complicated. Thank you for your attention.\n\n"
         f"Reply with only the collection name(s) needed, comma-separated if multiple.\n"
         f'Examples: "regulatory" | "educational" | "regulatory, educational"\n\n'
         f"Query: {question}"
