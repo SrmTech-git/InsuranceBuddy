@@ -8,6 +8,13 @@ import anthropic
 from retrieve import query, find_form, list_all_forms
 from abbreviations import expand_abbreviations
 from states import STATE_MAP
+from config import (
+    GENERATION_MODEL,
+    CHUNKS_PER_COLLECTION,
+    CONTEXT_CAP,
+    CLASSIFIER_MAX_TOKENS,
+    ANSWER_MAX_TOKENS,
+)
 
 load_dotenv(override=True)
 
@@ -54,10 +61,6 @@ COLLECTION_REGISTRY: dict[str, str] = {
     "regulatory": "Ohio statutes (ORC/OAC), compliance requirements, filing rules, penalties, legal limits",
     "educational": "conceptual explanations of insurance products, coverage types, and industry terms",
 }
-
-# Retrieval tuning
-_CHUNKS_PER_COLLECTION = 8   # how many chunks to pull from each collection
-_CONTEXT_CAP = 10            # how many to keep after cross-collection re-ranking
 
 # Known form-number prefixes in the regulatory collection.
 # Used to resolve bare section numbers like "4509.51" -> "ORC4509.51".
@@ -130,15 +133,17 @@ def _llm_classify(question: str) -> list[str]:
         f"Query: {question}"
     )
     response = _get_client().messages.create(
-        model="claude-haiku-4-5-20251001",
-        max_tokens=20,
+        model=GENERATION_MODEL,
+        max_tokens=CLASSIFIER_MAX_TOKENS,
         messages=[{"role": "user", "content": prompt}],
     )
     raw = response.content[0].text.strip().lower()
     valid = set(COLLECTION_REGISTRY.keys())
     result = [token.strip().rstrip(".") for token in raw.split(",")]
     result = [c for c in result if c in valid]
-    return result if result else ["regulatory"]
+    # Safer fallback: if the LLM mangles the response, search every
+    # collection rather than guessing one. Re-ranking sorts it out.
+    return result if result else list(COLLECTION_REGISTRY.keys())
 
 
 def detect_collection(text: str) -> list[str]:
@@ -284,7 +289,7 @@ def _retrieve_chunks(
     collections: list[str],
     filters: dict | None,
 ) -> tuple[list[str], list[dict], list[str]]:
-    """Query each collection, merge results, re-rank by L2 distance, return top _CONTEXT_CAP."""
+    """Query each collection, merge results, re-rank by L2 distance, return top CONTEXT_CAP."""
     all_docs: list[str] = []
     all_metas: list[dict] = []
     all_labels: list[str] = []
@@ -292,7 +297,7 @@ def _retrieve_chunks(
 
     for coll in collections:
         try:
-            results = query(question, n_results=_CHUNKS_PER_COLLECTION, filters=filters, collection_name=coll)
+            results = query(question, n_results=CHUNKS_PER_COLLECTION, filters=filters, collection_name=coll)
             docs = results["documents"][0]
             metas = results["metadatas"][0]
             distances = results["distances"][0]
@@ -300,17 +305,20 @@ def _retrieve_chunks(
             all_metas.extend(metas)
             all_labels.extend([coll] * len(docs))
             all_distances.extend(distances)
-        except Exception:
+        except Exception as e:
+            # Don't kill the whole query if one collection misbehaves —
+            # but make the failure visible so it can be diagnosed.
+            logger.warning("Query failed for collection %r: %s", coll, e)
             continue
 
     if not all_docs:
         return [], [], []
 
-    # Sort by L2 distance ascending (lower = more relevant), keep top _CONTEXT_CAP
+    # Sort by L2 distance ascending (lower = more relevant), keep top CONTEXT_CAP
     ranked = sorted(
         zip(all_distances, all_docs, all_metas, all_labels),
         key=lambda x: x[0],
-    )[:_CONTEXT_CAP]
+    )[:CONTEXT_CAP]
 
     _, documents, metadatas, labels = zip(*ranked)
     return list(documents), list(metadatas), list(labels)
@@ -356,8 +364,8 @@ def _call_llm(question: str, context: str, sources_str: str, collections_searche
     )
 
     response = _get_client().messages.create(
-        model="claude-haiku-4-5-20251001",
-        max_tokens=1024,
+        model=GENERATION_MODEL,
+        max_tokens=ANSWER_MAX_TOKENS,
         system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": user_message}],
     )

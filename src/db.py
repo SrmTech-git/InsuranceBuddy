@@ -4,8 +4,10 @@ import chromadb
 from chromadb.utils import embedding_functions
 from pathlib import Path
 
+from config import EMBEDDING_MODEL
+
+# DB path stays local — it's a derived path, not a tunable.
 CHROMA_DB_PATH = str(Path(__file__).parent.parent / "chroma_db")
-EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 
 _client: chromadb.ClientAPI | None = None
 _embedding_fn: embedding_functions.EmbeddingFunction | None = None

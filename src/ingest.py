@@ -5,6 +5,8 @@ from langchain_community.document_loaders import PyPDFLoader, TextLoader
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
+from config import CHUNK_SIZE, CHUNK_OVERLAP
+
 
 def parse_filename(file_path: str) -> dict:
     """Extract form number, edition date, and description from a PDF filename.
@@ -137,8 +139,8 @@ def load_and_split(file_path: str) -> list:
 
     # Split pages into smaller chunks for better retrieval
     splitter = RecursiveCharacterTextSplitter(
-        chunk_size=1000,
-        chunk_overlap=100,
+        chunk_size=CHUNK_SIZE,
+        chunk_overlap=CHUNK_OVERLAP,
     )
     chunks = splitter.split_documents(pages)
 

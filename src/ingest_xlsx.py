@@ -5,6 +5,7 @@ from pathlib import Path
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from states import STATE_MAP
+from config import CHUNK_SIZE, CHUNK_OVERLAP
 
 # Spreadsheet column headers use Title Case ("Ohio"); STATE_MAP keys are
 # lowercase ("ohio") to match folder names. Derive once so adding a state
@@ -23,6 +24,42 @@ def _find_state_columns(ws, header_row: int = 4) -> dict[int, str]:
         if header in _HEADER_TO_STATE:
             state_cols[col] = _HEADER_TO_STATE[header]
     return state_cols
+
+
+def _parse_quick_reference(ws, state_lines: dict[str, list[str]]) -> None:
+    """Append the 'Quick Reference' sheet rows to each state's lines.
+
+    Layout: row 1 = title, row 2 = header (col 0 = label, cols 1+ = state names),
+    rows 3+ = one summary value per state per row. Mutates state_lines in place.
+    """
+    rows = list(ws.iter_rows(values_only=True))
+    if len(rows) < 3:
+        return  # nothing usable
+
+    header = rows[1]
+    state_cols: dict[int, str] = {}
+    for i, val in enumerate(header):
+        if val and str(val).strip() in _HEADER_TO_STATE:
+            state_cols[i] = _HEADER_TO_STATE[str(val).strip()]
+    if not state_cols:
+        return
+
+    # Section break so the LLM sees a clear boundary
+    for code in set(state_cols.values()):
+        if code in state_lines:
+            state_lines[code].append("\nQUICK REFERENCE")
+
+    for row in rows[2:]:
+        label = row[0]
+        if not label:
+            continue
+        label_str = str(label).strip()
+        for col_idx, code in state_cols.items():
+            if col_idx >= len(row) or code not in state_lines:
+                continue
+            cell = row[col_idx]
+            value = str(cell).strip() if cell is not None else "N/A"
+            state_lines[code].append(f"  {label_str}: {value}")
 
 
 def _find_notes_column(ws, header_row: int = 4) -> int | None:
@@ -113,8 +150,15 @@ def load_xlsx_by_state(file_path: str) -> list[tuple[str, list[Document]]]:
             label = f"{current_category} — {data_point}" if current_category else data_point
             state_lines[state_code].append(f"  {label}: {value}{notes}")
 
+    # Append Sheet 2 ("Quick Reference") if present — compact state-by-state
+    # summary that complements the detailed Sheet 1 data. Sheet 3 ("Notes &
+    # Sources") is intentionally skipped: it's maintainer disclaimers, not
+    # retrieval material.
+    if "Quick Reference" in wb.sheetnames:
+        _parse_quick_reference(wb["Quick Reference"], state_lines)
+
     # Build one Document per state, then chunk it
-    splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
+    splitter = RecursiveCharacterTextSplitter(chunk_size=CHUNK_SIZE, chunk_overlap=CHUNK_OVERLAP)
     results: list[tuple[str, list[Document]]] = []
 
     for state_code, lines in state_lines.items():
