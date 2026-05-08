@@ -7,7 +7,7 @@ from embed import embed_document, get_collection, document_exists
 from ingest import parse_filename
 
 RAW_DIR = Path("data/raw")
-SUPPORTED_EXTENSIONS = {".pdf", ".txt", ".docx"}
+SUPPORTED_EXTENSIONS = {".pdf", ".txt", ".docx", ".xlsx"}
 
 
 def find_files(collection_override: str | None = None) -> list[tuple[Path, str]]:

@@ -102,10 +102,176 @@ def _load_docx(file_path: str) -> list[Document]:
     return [Document(page_content=text, metadata={"source": file_path})]
 
 
+def _load_xlsx(file_path: str) -> list[Document]:
+    """Convert an Excel spreadsheet into natural-language Document chunks.
+
+    Designed for the StateSpreadSheet format: tabular state-by-state data
+    with categories in rows and states in columns.  Each state + category
+    combination becomes one chunk so that queries like "What are Ohio's
+    liability minimums?" retrieve a compact, semantically meaningful block.
+    """
+    import openpyxl
+
+    wb = openpyxl.load_workbook(file_path, read_only=True)
+    filename = re.split(r"[\\/]", file_path)[-1]
+    docs: list[Document] = []
+
+    # ------------------------------------------------------------------
+    # Sheet 1: "State Auto Requirements" — detailed per-category data
+    # ------------------------------------------------------------------
+    ws = wb.worksheets[0]
+    rows = list(ws.iter_rows(values_only=True))
+
+    # Build a map of column index -> state name from the header row (index 3).
+    header = rows[3]
+    state_cols: dict[int, str] = {}
+    skip_labels = {"Category", "Data Point", "Notes / Key Differences", "", None}
+    for i, val in enumerate(header):
+        if val and str(val).strip() not in skip_labels:
+            state_cols[i] = str(val).strip()
+
+    # Find the notes column (if present).
+    notes_col: int | None = None
+    for i, val in enumerate(header):
+        if val and "Notes" in str(val):
+            notes_col = i
+            break
+
+    # Walk data rows, grouping by category.  Column 0 = category (carried
+    # forward when blank), column 1 = data point.  Rows where column 1 is
+    # blank or equals "Data Point" are section headers — skip them.
+    current_category = ""
+    # {state: [(data_point, value, notes), ...]}
+    category_rows: dict[str, list[tuple[str, str, str]]] = {}
+
+    def _flush_category() -> None:
+        """Emit one Document per state for the current category group."""
+        nonlocal category_rows
+        if not current_category or not category_rows:
+            category_rows = {}
+            return
+        for state, entries in category_rows.items():
+            lines = [f"{state} — {current_category}"]
+            for dp, val, note in entries:
+                lines.append(f"{dp}: {val}")
+                if note:
+                    lines.append(f"  Note: {note}")
+            text = "\n".join(lines)
+            docs.append(Document(
+                page_content=text,
+                metadata={
+                    "source": file_path,
+                    "form_number": f"StateReq-{state}",
+                    "edition_date": "",
+                    "description": current_category,
+                    "filename": filename,
+                    "parsed": True,
+                },
+            ))
+        category_rows = {}
+
+    for row in rows[4:]:  # skip title rows 0-3
+        cat_cell = str(row[0]).strip() if row[0] else ""
+        dp_cell = str(row[1]).strip() if row[1] else ""
+
+        # Skip section dividers and repeated headers.
+        if not dp_cell or dp_cell == "Data Point":
+            # A new section title with no data point means a new category
+            # group is about to start — flush what we have.
+            if cat_cell and cat_cell != "Category":
+                _flush_category()
+            continue
+
+        # Track the current category.
+        if cat_cell and cat_cell != "Category":
+            if cat_cell != current_category:
+                _flush_category()
+                current_category = cat_cell
+
+        # Collect this data point for every state.
+        notes_val = str(row[notes_col]).strip() if notes_col and row[notes_col] else ""
+        for col_idx, state_name in state_cols.items():
+            val = str(row[col_idx]).strip() if row[col_idx] else ""
+            if not val:
+                continue
+            category_rows.setdefault(state_name, []).append(
+                (dp_cell, val, notes_val)
+            )
+
+    _flush_category()  # flush the last group
+
+    # ------------------------------------------------------------------
+    # Sheet 2: "Quick Reference" — one chunk per state
+    # ------------------------------------------------------------------
+    if len(wb.worksheets) >= 2:
+        ws2 = wb.worksheets[1]
+        rows2 = list(ws2.iter_rows(values_only=True))
+        if len(rows2) > 2:
+            # Row 1 is the header: col 0 = label, cols 1..N = state names
+            qr_header = rows2[1]
+            qr_states: dict[int, str] = {}
+            for i, val in enumerate(qr_header):
+                if i == 0 or not val:
+                    continue
+                qr_states[i] = str(val).strip()
+
+            for col_idx, state_name in qr_states.items():
+                lines = [f"{state_name} — Quick Reference"]
+                for row in rows2[2:]:
+                    label = str(row[0]).strip() if row[0] else ""
+                    val = str(row[col_idx]).strip() if col_idx < len(row) and row[col_idx] else ""
+                    if label and val:
+                        lines.append(f"{label}: {val}")
+                if len(lines) > 1:
+                    docs.append(Document(
+                        page_content="\n".join(lines),
+                        metadata={
+                            "source": file_path,
+                            "form_number": f"StateReq-{state_name}",
+                            "edition_date": "",
+                            "description": "Quick Reference",
+                            "filename": filename,
+                            "parsed": True,
+                        },
+                    ))
+
+    # ------------------------------------------------------------------
+    # Sheet 3: "Notes & Sources" — one single chunk
+    # ------------------------------------------------------------------
+    if len(wb.worksheets) >= 3:
+        ws3 = wb.worksheets[2]
+        rows3 = list(ws3.iter_rows(values_only=True))
+        lines = ["State Auto Insurance — Notes & Sources"]
+        for row in rows3[2:]:  # skip title and header
+            topic = str(row[0]).strip() if row[0] else ""
+            note = str(row[1]).strip() if len(row) > 1 and row[1] else ""
+            url = str(row[2]).strip() if len(row) > 2 and row[2] else ""
+            if topic:
+                entry = f"{topic}: {note}"
+                if url:
+                    entry += f" ({url})"
+                lines.append(entry)
+        if len(lines) > 1:
+            docs.append(Document(
+                page_content="\n".join(lines),
+                metadata={
+                    "source": file_path,
+                    "form_number": "StateReq-Notes",
+                    "edition_date": "",
+                    "description": "Notes & Sources",
+                    "filename": filename,
+                    "parsed": True,
+                },
+            ))
+
+    wb.close()
+    return docs
+
+
 def load_and_split(file_path: str) -> list:
     """Load a document and split it into chunks with parsed filename metadata.
 
-    Supports .pdf, .txt, and .docx files.
+    Supports .pdf, .txt, .docx, and .xlsx files.
     """
 
     # Parse metadata from the filename
@@ -125,8 +291,15 @@ def load_and_split(file_path: str) -> list:
         pages = loader.load()
     elif ext == "docx":
         pages = _load_docx(file_path)
+    elif ext == "xlsx":
+        # Excel chunks are pre-sized by the loader (one per state + category),
+        # so we skip the text splitter and return directly.
+        chunks = _load_xlsx(file_path)
+        print(f"\nLoaded {len(chunks)} chunk(s) from {file_path}")
+        print(f"Created {len(chunks)} chunks")
+        return chunks
     else:
-        raise ValueError(f"Unsupported file type: .{ext} — supported: .pdf, .txt, .docx")
+        raise ValueError(f"Unsupported file type: .{ext} — supported: .pdf, .txt, .docx, .xlsx")
 
     print(f"\nLoaded {len(pages)} page(s) from {file_path}")
 
