@@ -269,6 +269,16 @@ class TestParseFilename(unittest.TestCase):
         self.assertIn("Watermark", meta["description"])
         self.assertTrue(meta["parsed"])
 
+    def test_no_edition_in_filename(self):
+        """Forms without an edition date in parens (e.g. ACORD watermark paper).
+        Falls through to the partial-match path; description still populates."""
+        path = r"data\raw\forms\general\ACORD 350 Watermark Paper – 20 # ID Card Stock (4-part perforation).txt"
+        meta = self.parse(path)
+        self.assertEqual(meta["form_number"], "ACORD 350")
+        self.assertEqual(meta["edition_date"], "")
+        self.assertIn("Watermark", meta["description"])
+        self.assertTrue(meta["parsed"])
+
 
 class TestDetectFormNumber(unittest.TestCase):
     def setUp(self):

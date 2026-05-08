@@ -299,3 +299,38 @@ Lesson: when chunks are uniformly structured (as a card catalog is), **the user'
 - `forms` collection: 75 vectors (one per card)
 - Total across all collections: 1,873 (regulatory) + 53 (educational) + 75 (forms) = **2,001 vectors**
 - Re-ingestion of forms after un-padding: ~17 seconds
+
+---
+
+## Session 8 — National Forms Backfill
+
+Loaded the rest of the national ACORD forms from the COUNTRYWIDE P&C index (the "continued" pages). 105 new entries — forms 141 through 877 — covering crime, transportation, builders risk, business owners, NFIP flood, aviation, agriculture, surety, specialty/E&O lines, professional liability, and consumer-report disclosures.
+
+### Build script tweaks
+- **Empty edition support** — three forms in the index (350, 360, 370) are watermark paper stock with no edition date. Updated `build_card` and `build_filename` to handle empty `edition`: filename omits the `(date)` segment and the card content shows `Edition: (not specified)`.
+- One new `parse_filename` test (`test_no_edition_in_filename`) locks in the partial-match path that handles this case.
+
+### Re-ingestion was a one-liner
+The dedup-skip on filename made the re-ingest trivial:
+- Existing 75 cards: unchanged content → skipped
+- New 105 cards: embedded fresh
+- Total runtime: ~20 seconds
+
+### Smoke check
+5 of 6 sample queries resolved cleanly:
+| Query | Result |
+|---|---|
+| "What's ACORD 25?" | ✅ Cert of Liability Insurance, 2025-12 |
+| "What's the current edition of ACORD 130?" | ✅ Workers Comp App, 2026-01 |
+| "Is there an ACORD form for cyber coverage?" | ✅ ACORD 834 (2014-12) |
+| "Show me ACORD aviation forms" | ✅ Listed 325, 329, 330... |
+| "What's form 877?" | ❌ Returned 876 instead — fuzziness at 180 uniform cards |
+| "What forms cover NFIP flood insurance?" | ✅ Listed 301, 302, 303... |
+
+The 877 miss is the precision-vs-recall tradeoff we accepted in Session 7 ("fine until it's not"). At 180 cards with near-identical structure, semantic similarity returns numerically-adjacent forms when the query is just a bare number. Filed for future revisit if it becomes a real problem in daily use.
+
+### Stats
+- `forms` collection: 180 vectors
+- Total across all collections: 1,873 (regulatory) + 53 (educational) + 180 (forms) = **2,106 vectors**
+- 82 tests passing (one new for the no-edition path)
+- National ACORD forms backlog: complete
