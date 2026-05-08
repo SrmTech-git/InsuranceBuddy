@@ -65,7 +65,9 @@ INSURANCE_ABBREVIATIONS = {
     "NCCI": "National Council on Compensation Insurance",
     "FEMA": "Federal Emergency Management Agency",
     "NHTSA": "National Highway Traffic Safety Administration",
-    "ACORD": "Association for Cooperative Operations Research and Development",
+    # Note: "ACORD" is intentionally NOT expanded — it appears in form
+    # names ("ACORD 25") that need to flow through to retrieval as-is.
+    # Expanding it would mangle form-number queries.
 
     # Common Insurance Terms
     "ACV": "actual cash value",

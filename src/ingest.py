@@ -24,11 +24,12 @@ def parse_filename(file_path: str) -> dict:
     parsed = True
 
     # Master pattern that captures all three parts in one pass:
-    #   form_number  = 2-4 uppercase letters + optional space + digits
+    #   form_number  = 2-6 uppercase letters + optional space + digits
+    #                  + optional alphabetic suffix (e.g. ACORD 0050WM)
     #   edition_date = parenthesized group right after the form number
     #   description  = whatever text follows
     pattern = (
-        r"([A-Z]{2,4}\s?\d+(?:[.\-]\d+)*)"   # group 1: form number
+        r"([A-Z]{2,6}\s?\d+[A-Z]*(?:[.\-]\d+)*)"   # group 1: form number
         r"\s*\(([^)]+)\)"        # group 2: edition date in parens
         r"\s*(.+?)\.(?:pdf|txt|docx)"    # group 3: description before extension
     )
@@ -41,7 +42,7 @@ def parse_filename(file_path: str) -> dict:
     else:
         # Try matching just a form number (no edition date)
         partial = re.search(
-            r"([A-Z]{2,4}\s?\d+(?:[.\-]\d+)*)\s*(.+?)\.(?:pdf|txt|docx)",
+            r"([A-Z]{2,6}\s?\d+[A-Z]*(?:[.\-]\d+)*)\s*(.+?)\.(?:pdf|txt|docx)",
             file_path, re.IGNORECASE,
         )
         if partial:

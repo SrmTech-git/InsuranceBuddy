@@ -251,6 +251,24 @@ class TestParseFilename(unittest.TestCase):
         self.assertNotIn("\\", meta["filename"])
         self.assertNotIn("Users", meta["filename"])
 
+    def test_acord_prefix(self):
+        """5-letter prefix (ACORD) must parse correctly — was a bug at {2,4}."""
+        path = r"data\raw\forms\general\ACORD 0001 (2019-07) Property Loss Notice.txt"
+        meta = self.parse(path)
+        self.assertEqual(meta["form_number"], "ACORD 0001")
+        self.assertEqual(meta["edition_date"], "2019-07")
+        self.assertEqual(meta["description"], "Property Loss Notice")
+        self.assertTrue(meta["parsed"])
+
+    def test_acord_with_suffix(self):
+        """ACORD form with alphabetic suffix (e.g. 50 WM, 60 US)."""
+        path = r"data\raw\forms\general\ACORD 0050WM (2024-08) Automobile Insurance ID Card with Watermark.txt"
+        meta = self.parse(path)
+        self.assertEqual(meta["form_number"], "ACORD 0050WM")
+        self.assertEqual(meta["edition_date"], "2024-08")
+        self.assertIn("Watermark", meta["description"])
+        self.assertTrue(meta["parsed"])
+
 
 class TestDetectFormNumber(unittest.TestCase):
     def setUp(self):

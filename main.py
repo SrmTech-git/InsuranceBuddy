@@ -68,11 +68,13 @@ def main() -> None:
     # chat
     subparsers.add_parser("chat", help="Start the interactive Q&A assistant")
 
-    # ingest
+    # ingest — choices are sourced from chat.COLLECTION_REGISTRY so adding
+    # a new collection there automatically extends this CLI.
+    from chat import COLLECTION_REGISTRY
     ingest_parser = subparsers.add_parser("ingest", help="Batch-embed documents from data/raw/")
     ingest_parser.add_argument(
         "--collection",
-        choices=["regulatory", "educational"],
+        choices=list(COLLECTION_REGISTRY.keys()),
         default=None,
         help="Only ingest this collection (default: all subfolders)",
     )

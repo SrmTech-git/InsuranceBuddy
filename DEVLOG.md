@@ -248,3 +248,54 @@ The mixed-routing case is the interesting one — a UM rejection question is par
 - 79 tests passing (3 new tests added)
 - `forms` collection: 0 vectors (awaiting content)
 - Drop PDFs/docs into `data/raw/forms/general/` or `data/raw/forms/{state}/` then run `python main.py ingest` — no other code changes needed.
+
+---
+
+## Session 7 — Forms Collection: First Content (ACORD National Index)
+
+Loaded the first 75 forms into the new `forms` collection from a snapshot of the COUNTRYWIDE P&C FORMS index. Spent the session deciding what goes into the collection, what doesn't, and tuning retrieval until short-form-number queries resolved cleanly.
+
+### Strategic decision: card catalog over full text
+
+We initially planned to ingest the actual ACORD PDFs alongside descriptions. After a dry-run revealed that PyPDFLoader on fillable forms produces field-label garbage (`CIVIL UNION (if applicable)MARITAL STATUS /FEINPHONE #CELL...`), we reframed:
+
+- **The forms collection is a card catalog, not a full-text index.** Field labels aren't useful for retrieval — what matters is *which forms exist, what they're for, when they're used, what edition is current, what states they apply to.*
+- PDFs of the actual forms can live in a separate human-reference library if/when we want them — they're not what the AI needs to know about.
+
+This also scales: 75 short cards → ~75 vectors. If the index grows to thousands of forms, we're still fine.
+
+### What got built
+
+- **`tools/build_acord_cards.py`** — one-time generator that emits one `.txt` library card per form into `data/raw/forms/general/`. Inline data table covers all 75 national forms from the COUNTRYWIDE P&C index.
+- **75 library cards** with the structure:
+  ```
+  ACORD 25 (2025-12) — Certificate of Liability Insurance
+  =======================================================
+  Form number: ACORD 25
+  Edition: 2025-12
+  Title: Certificate of Liability Insurance
+  Type: Insurance form (ACORD industry standard)
+  States: All
+  ```
+
+### Bug fixes uncovered along the way
+
+- **`parse_filename` regex capped prefixes at 4 letters.** "ACORD" (5 letters) parsed as "CORD". Bumped `[A-Z]{2,4}` → `[A-Z]{2,6}`.
+- **No alphabetic suffix support** in form number patterns — broke for forms like `50 WM` and `60 US`. Added `[A-Z]*` after `\d+` in the regex.
+- **`ACORD` was in `INSURANCE_ABBREVIATIONS`** as "Association for Cooperative Operations Research and Development". `expand_abbreviations` would mangle "ACORD 25" → "Association for ... 25" before form lookup. Removed the entry with a comment explaining why.
+- **`main.py` hardcoded `--collection {regulatory,educational}`** — adding "forms" required a CLI fix. Now sources choices from `COLLECTION_REGISTRY` so future collections extend automatically.
+
+### Retrieval tuning: dropped zero-padding
+
+First-pass smoke test exposed a precision issue: cards used `ACORD 0025` (zero-padded), but users naturally type `ACORD 25`. With 75 highly uniform cards, semantic similarity returned numerically-adjacent forms but missed the exact one asked for. Dropped the padding — `ACORD 0025` → `ACORD 25` — and re-ingested. After the change, *"What's the current edition of ACORD 25?"* and *"What's form 88?"* both resolve cleanly to the right form.
+
+Lesson: when chunks are uniformly structured (as a card catalog is), **the user's natural query phrasing must appear verbatim** in the card. Padding made sense visually but hurt retrieval.
+
+### Tests
+- New `parse_filename` tests for ACORD prefix and suffix-form variants
+- 81 tests passing total
+
+### Stats
+- `forms` collection: 75 vectors (one per card)
+- Total across all collections: 1,873 (regulatory) + 53 (educational) + 75 (forms) = **2,001 vectors**
+- Re-ingestion of forms after un-padding: ~17 seconds
