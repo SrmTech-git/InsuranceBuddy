@@ -250,11 +250,14 @@ def _resolve_form_filter(question: str) -> tuple[dict | None, str | None, str | 
     if not form_number:
         return None, None, None
 
-    if find_form(form_number, "regulatory"):
-        collection_name = "regulatory"
-    elif find_form(form_number, "educational"):
-        collection_name = "educational"
-    else:
+    # Search every registered collection — adding a new one to
+    # COLLECTION_REGISTRY automatically extends form-number lookup.
+    collection_name = next(
+        (coll for coll in COLLECTION_REGISTRY if find_form(form_number, coll)),
+        None,
+    )
+
+    if collection_name is None:
         # Form number not found — fall through to semantic search
         # instead of hard-failing, since the query text itself is still useful.
         print(f"[Form {form_number} not found — falling back to semantic search]")

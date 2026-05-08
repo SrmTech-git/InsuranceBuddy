@@ -4,21 +4,12 @@ import openpyxl
 from pathlib import Path
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
+from states import STATE_MAP
 
-# Maps spreadsheet column header names to state abbreviations
-_HEADER_TO_STATE: dict[str, str] = {
-    "Ohio": "OH",
-    "Indiana": "IN",
-    "Illinois": "IL",
-    "Kentucky": "KY",
-    "Minnesota": "MN",
-    "Virginia": "VA",
-    "Michigan": "MI",
-    "Georgia": "GA",
-    "Tennessee": "TN",
-    "Iowa": "IA",
-    "Wisconsin": "WI",
-}
+# Spreadsheet column headers use Title Case ("Ohio"); STATE_MAP keys are
+# lowercase ("ohio") to match folder names. Derive once so adding a state
+# in states.py is the only change needed.
+_HEADER_TO_STATE: dict[str, str] = {name.title(): code for name, code in STATE_MAP.items()}
 
 # Row types to skip when parsing data rows
 _SKIP_DATA_POINTS = {"Data Point", None}

@@ -11,7 +11,8 @@ from bs4 import BeautifulSoup
 
 BASE_URL = "https://codes.ohio.gov"
 DEFAULT_CHAPTER_URL = f"{BASE_URL}/ohio-revised-code/chapter-3937"
-OUTPUT_DIR = Path("data/raw/regulatory")
+# Ohio statutes only — OUTPUT_DIR matches the multi-state folder layout.
+OUTPUT_DIR = Path("data/raw/regulatory/ohio")
 
 # Be a polite scraper
 DELAY = 1  # seconds between downloads

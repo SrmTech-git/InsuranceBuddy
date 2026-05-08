@@ -123,5 +123,6 @@ def embed_document(
 
 
 if __name__ == "__main__":
-    pdf_path = "data/raw/2020 - Residential Purchase Contract (CBR)  (28).pdf"
-    embed_document(pdf_path)
+    # Use the batch ingester instead of running this directly:
+    #   python main.py ingest
+    print("Run `python main.py ingest` to embed documents from data/raw/.")

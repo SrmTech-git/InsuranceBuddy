@@ -1,10 +1,14 @@
-# migrate_state_tags.py — one-time script to back-fill state metadata on
-# existing regulatory chunks that were ingested before state tagging was added.
+# migrate_state_tags.py — back-fill state metadata on chunks that lack it.
 #
-# Run from the project root:
-#   python src/migrate_state_tags.py
+# Run via the CLI:
+#   python main.py migrate                                  # default: regulatory + OH
+#   python main.py migrate --collection regulatory --state IN
+#   python main.py migrate --dry-run                        # preview only
 #
-# Safe to run multiple times — only updates chunks that have no state tag.
+# Originally written as a one-shot to tag pre-existing Ohio chunks, but kept
+# around as a generic utility since it's idempotent — only chunks with no
+# state tag are touched. Useful any time a collection gets bulk-imported
+# without state metadata.
 
 import sys
 from pathlib import Path

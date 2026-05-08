@@ -53,6 +53,18 @@ class TestStatesModule(unittest.TestCase):
             self.assertEqual(val, val.upper(), f"Value '{val}' should be uppercase")
             self.assertEqual(len(val), 2, f"State code '{val}' should be 2 characters")
 
+    def test_xlsx_header_map_derived_from_canonical(self):
+        """ingest_xlsx must derive its header map from STATE_MAP, not hardcode it."""
+        from ingest_xlsx import _HEADER_TO_STATE
+        # Same set of state codes
+        self.assertEqual(set(_HEADER_TO_STATE.values()), set(self.canonical.values()))
+        # Title-cased keys ("Ohio") match the spreadsheet column headers
+        for header, code in _HEADER_TO_STATE.items():
+            self.assertEqual(header, header.title(),
+                             f"Header '{header}' should be Title Case")
+            self.assertEqual(self.canonical.get(header.lower()), code,
+                             f"Header '{header}' code mismatch with STATE_MAP")
+
 
 class TestAbbreviations(unittest.TestCase):
     def setUp(self):
