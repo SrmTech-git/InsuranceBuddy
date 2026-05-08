@@ -297,14 +297,11 @@ def _retrieve_chunks(
 
     for coll in collections:
         try:
-            results = query(question, n_results=CHUNKS_PER_COLLECTION, filters=filters, collection_name=coll)
-            docs = results["documents"][0]
-            metas = results["metadatas"][0]
-            distances = results["distances"][0]
-            all_docs.extend(docs)
-            all_metas.extend(metas)
-            all_labels.extend([coll] * len(docs))
-            all_distances.extend(distances)
+            result = query(question, n_results=CHUNKS_PER_COLLECTION, filters=filters, collection_name=coll)
+            all_docs.extend(result.documents)
+            all_metas.extend(result.metadatas)
+            all_labels.extend([coll] * len(result))
+            all_distances.extend(result.distances)
         except Exception as e:
             # Don't kill the whole query if one collection misbehaves —
             # but make the failure visible so it can be diagnosed.

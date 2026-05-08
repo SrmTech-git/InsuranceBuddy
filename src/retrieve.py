@@ -1,7 +1,32 @@
 # querying the vector store
 
+from dataclasses import dataclass
 import chromadb
 from db import get_collection
+
+
+# ---------------------------------------------------------------------------
+# Result type
+# ---------------------------------------------------------------------------
+
+@dataclass(frozen=True)
+class QueryResult:
+    """Single-query view of ChromaDB's batched query response.
+
+    ChromaDB's native shape is `{"documents": [[...]], "distances": [[...]], ...}`
+    where the outer list is one entry per query text. We only ever pass a single
+    query, so this dataclass strips that outer layer and exposes the three
+    parallel lists directly. Iterate with `for doc, meta, dist in result:`.
+    """
+    documents: list[str]
+    metadatas: list[dict]
+    distances: list[float]
+
+    def __len__(self) -> int:
+        return len(self.documents)
+
+    def __iter__(self):
+        return zip(self.documents, self.metadatas, self.distances)
 
 
 # ---------------------------------------------------------------------------
@@ -9,7 +34,7 @@ from db import get_collection
 # ---------------------------------------------------------------------------
 
 def query(query_text: str, n_results: int = 8, filters: dict | None = None,
-          collection_name: str = "regulatory") -> dict:
+          collection_name: str = "regulatory") -> QueryResult:
     """Search for the most relevant chunks by meaning.
 
     Args:
@@ -25,27 +50,27 @@ def query(query_text: str, n_results: int = 8, filters: dict | None = None,
     # Build a ChromaDB 'where' clause from the filters dict
     where = _build_where(filters) if filters else None
 
-    results = collection.query(
+    raw = collection.query(
         query_texts=[query_text],
         n_results=n_results,
         where=where,
     )
 
-    return results
+    return QueryResult(
+        documents=raw["documents"][0],
+        metadatas=raw["metadatas"][0],
+        distances=raw["distances"][0],
+    )
 
 
-def print_results(results: dict) -> None:
+def print_results(results: QueryResult) -> None:
     """Pretty-print query results with scores and text."""
 
-    documents = results["documents"][0]
-    distances = results["distances"][0]
-    metadatas = results["metadatas"][0]
-
-    if not documents:
+    if not results:
         print("  (no results)")
         return
 
-    for i, (doc, distance, meta) in enumerate(zip(documents, distances, metadatas)):
+    for i, (doc, meta, distance) in enumerate(results):
         form = meta.get("form_number", "")
         label = f" [{form}]" if form else ""
         # ChromaDB returns L2 distance — lower is more relevant

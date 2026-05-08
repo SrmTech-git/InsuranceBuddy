@@ -18,6 +18,29 @@ OUTPUT_DIR = Path("data/raw/regulatory/ohio")
 
 HEADERS = {"User-Agent": "insurance-rag-research/1.0"}
 
+# Retry config — total attempts including the first try.
+_MAX_ATTEMPTS = 3
+_BACKOFF_SECONDS = 2  # doubled each retry: 2, 4, 8...
+
+
+def _download_with_retry(url: str) -> bytes:
+    """GET the URL, retrying on transient failures with exponential backoff.
+    Returns the raw bytes on success, raises the last exception on failure."""
+    last_exc: Exception | None = None
+    for attempt in range(1, _MAX_ATTEMPTS + 1):
+        try:
+            resp = requests.get(url, headers=HEADERS, timeout=30)
+            resp.raise_for_status()
+            return resp.content
+        except requests.RequestException as e:
+            last_exc = e
+            if attempt < _MAX_ATTEMPTS:
+                wait = _BACKOFF_SECONDS * (2 ** (attempt - 1))
+                print(f"         Attempt {attempt} failed: {e} — retrying in {wait}s...")
+                time.sleep(wait)
+    assert last_exc is not None
+    raise last_exc
+
 
 def detect_code_type(url: str) -> str:
     """Determine whether the URL points to revised code or administrative code."""
@@ -31,9 +54,8 @@ def fetch_chapter_page(chapter_url: str) -> BeautifulSoup:
     """Fetch the chapter page and return parsed HTML."""
 
     print(f"Fetching chapter page: {chapter_url}")
-    resp = requests.get(chapter_url, headers=HEADERS, timeout=30)
-    resp.raise_for_status()
-    return BeautifulSoup(resp.text, "html.parser")
+    content = _download_with_retry(chapter_url)
+    return BeautifulSoup(content, "html.parser")
 
 
 def find_pdf_sections(soup: BeautifulSoup, code_type: str) -> list[dict]:
@@ -125,15 +147,18 @@ def download_pdfs(sections: list[dict], code_type: str) -> None:
             continue
 
         try:
-            resp = requests.get(pdf_url, headers=HEADERS, timeout=30)
-            resp.raise_for_status()
+            content = _download_with_retry(pdf_url)
 
-            filepath.write_bytes(resp.content)
-            print(f"         Saved: {filepath} ({len(resp.content):,} bytes)")
+            # Atomic write: stage to *.tmp then rename, so an interrupted
+            # download can never leave a half-written PDF behind.
+            tmp_path = filepath.with_suffix(filepath.suffix + ".tmp")
+            tmp_path.write_bytes(content)
+            tmp_path.replace(filepath)
+            print(f"         Saved: {filepath} ({len(content):,} bytes)")
             success += 1
 
         except requests.RequestException as e:
-            print(f"         FAILED: {e}")
+            print(f"         FAILED after {_MAX_ATTEMPTS} attempts: {e}")
             failed += 1
 
         if i < total:

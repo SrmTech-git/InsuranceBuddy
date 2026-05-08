@@ -107,6 +107,112 @@ class TestAbbreviations(unittest.TestCase):
         self.assertIn("medical payments coverage", result)
 
 
+class TestXlsxParser(unittest.TestCase):
+    """Tests load_xlsx_by_state against a programmatically built spreadsheet.
+
+    Building the workbook in-memory keeps the test self-contained — no binary
+    fixture file to commit, and the structure being tested is right there in
+    the setUp.
+    """
+
+    def setUp(self):
+        import tempfile
+        import openpyxl
+        from ingest_xlsx import load_xlsx_by_state
+        self.load = load_xlsx_by_state
+
+        wb = openpyxl.Workbook()
+
+        # Sheet 1: "State Auto Requirements" — header row at row 4
+        ws1 = wb.active
+        ws1.title = "State Auto Requirements"
+        ws1.append(["Title row"])                              # row 1
+        ws1.append([])                                          # row 2
+        ws1.append([])                                          # row 3
+        ws1.append(["Category", "Data Point", "Ohio", "Indiana",
+                    "Notes / Key Differences"])                 # row 4 (header)
+        ws1.append(["LIABILITY", "BI per Person", "$25,000",
+                    "$25,000", "Same minimum"])                  # row 5
+        ws1.append([None, "BI per Accident", "$50,000",
+                    "$50,000", None])                           # row 6 (forward-fill)
+        ws1.append(["UM/UIM", "UM Required?", "Yes", "No", None])  # row 7
+
+        # Sheet 2: "Quick Reference" — header row at row 2
+        ws2 = wb.create_sheet("Quick Reference")
+        ws2.append(["Title row"])                              # row 1
+        ws2.append(["Coverage / Requirement", "Ohio", "Indiana"])  # row 2 (header)
+        ws2.append(["Min Liability", "25/50/25", "25/50/25"])  # row 3
+
+        # Sheet 3: "Notes & Sources" — should be ignored
+        ws3 = wb.create_sheet("Notes & Sources")
+        ws3.append(["This sheet should be ignored"])
+
+        with tempfile.NamedTemporaryFile(suffix=".xlsx", delete=False) as f:
+            self.tmp_path = Path(f.name)
+        wb.save(self.tmp_path)
+        wb.close()
+
+    def tearDown(self):
+        self.tmp_path.unlink(missing_ok=True)
+
+    def test_parses_two_states(self):
+        results = self.load(str(self.tmp_path))
+        codes = {state for state, _ in results}
+        self.assertEqual(codes, {"OH", "IN"})
+
+    def test_chunks_have_expected_metadata(self):
+        results = self.load(str(self.tmp_path))
+        for state, chunks in results:
+            self.assertGreater(len(chunks), 0, f"No chunks for {state}")
+            meta = chunks[0].metadata
+            self.assertEqual(meta["state"], state)
+            self.assertEqual(meta["filename"], f"{self.tmp_path.stem}_{state}")
+            self.assertEqual(meta["form_number"], "")  # xlsx docs have no form#
+            self.assertTrue(meta["parsed"])
+
+    def test_sheet1_data_present(self):
+        results = self.load(str(self.tmp_path))
+        oh_text = "\n".join(c.page_content for c in next(c for s, c in results if s == "OH"))
+        self.assertIn("BI per Person", oh_text)
+        self.assertIn("$25,000", oh_text)
+        self.assertIn("UM Required?", oh_text)
+
+    def test_sheet1_notes_attached(self):
+        results = self.load(str(self.tmp_path))
+        oh_text = "\n".join(c.page_content for c in next(c for s, c in results if s == "OH"))
+        self.assertIn("Same minimum", oh_text)
+
+    def test_sheet1_category_forward_fill(self):
+        """A blank Category cell should inherit from the previous row."""
+        results = self.load(str(self.tmp_path))
+        oh_text = "\n".join(c.page_content for c in next(c for s, c in results if s == "OH"))
+        # BI per Accident is on a row with blank category; it should still be
+        # labelled "LIABILITY" via forward-fill
+        self.assertIn("LIABILITY — BI per Accident", oh_text)
+
+    def test_sheet2_quick_reference_present(self):
+        results = self.load(str(self.tmp_path))
+        for state, chunks in results:
+            text = "\n".join(c.page_content for c in chunks)
+            self.assertIn("QUICK REFERENCE", text,
+                          f"{state} missing Quick Reference section")
+            self.assertIn("Min Liability", text)
+            self.assertIn("25/50/25", text)
+
+    def test_sheet3_ignored(self):
+        results = self.load(str(self.tmp_path))
+        for state, chunks in results:
+            text = "\n".join(c.page_content for c in chunks)
+            self.assertNotIn("This sheet should be ignored", text)
+
+    def test_per_state_value_isolation(self):
+        """Indiana's UM Required? = 'No' must not leak into Ohio's chunks."""
+        results = self.load(str(self.tmp_path))
+        oh_text = "\n".join(c.page_content for c in next(c for s, c in results if s == "OH"))
+        # Ohio's UM line should say Yes, not No
+        self.assertIn("UM Required?: Yes", oh_text)
+
+
 class TestParseFilename(unittest.TestCase):
     def setUp(self):
         from ingest import parse_filename
@@ -380,26 +486,33 @@ class TestRetrieve(unittest.TestCase):
         self.assertIsNone(result)
 
     def test_semantic_query_returns_results(self):
-        results = self.query("uninsured motorist coverage", n_results=5, collection_name="regulatory")
-        docs = results["documents"][0]
-        self.assertGreater(len(docs), 0, "Should return at least one result")
+        result = self.query("uninsured motorist coverage", n_results=5, collection_name="regulatory")
+        self.assertGreater(len(result), 0, "Should return at least one result")
 
     def test_state_filter_ohio(self):
         from retrieve import query
-        results = query(
+        result = query(
             "uninsured motorist coverage",
             n_results=5,
             filters={"state": "OH"},
             collection_name="regulatory",
         )
-        metas = results["metadatas"][0]
-        for meta in metas:
+        for meta in result.metadatas:
             self.assertEqual(meta.get("state"), "OH", f"Expected state=OH, got: {meta.get('state')}")
 
     def test_educational_query(self):
-        results = self.query("what is inland marine coverage", n_results=3, collection_name="educational")
-        docs = results["documents"][0]
-        self.assertGreater(len(docs), 0)
+        result = self.query("what is inland marine coverage", n_results=3, collection_name="educational")
+        self.assertGreater(len(result), 0)
+
+    def test_query_result_iter(self):
+        """QueryResult should iterate as (doc, meta, distance) triples."""
+        result = self.query("uninsured motorist coverage", n_results=2, collection_name="regulatory")
+        triples = list(result)
+        self.assertEqual(len(triples), len(result))
+        for doc, meta, distance in triples:
+            self.assertIsInstance(doc, str)
+            self.assertIsInstance(meta, dict)
+            self.assertIsInstance(distance, float)
 
 
 # =============================================================================
@@ -469,6 +582,7 @@ if __name__ == "__main__":
     for cls in [
         TestStatesModule,
         TestAbbreviations,
+        TestXlsxParser,
         TestParseFilename,
         TestDetectFormNumber,
         TestIsInventoryQuery,
