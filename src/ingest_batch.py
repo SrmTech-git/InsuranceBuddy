@@ -13,26 +13,14 @@ from pathlib import Path
 from embed import embed_document, embed_chunks, get_collection, document_exists
 from ingest import parse_filename
 from ingest_xlsx import load_xlsx_by_state
+from states import STATE_MAP
 
 RAW_DIR = Path("data/raw")
 SUPPORTED_EXTENSIONS = {".pdf", ".txt", ".docx"}
 XLSX_EXTENSIONS = {".xlsx"}
 
-# Maps state subfolder names → two-letter state codes.
-# Add entries here as new state folders are created.
-STATE_FOLDER_MAP: dict[str, str] = {
-    "ohio": "OH",
-    "indiana": "IN",
-    "illinois": "IL",
-    "kentucky": "KY",
-    "minnesota": "MN",
-    "virginia": "VA",
-    "michigan": "MI",
-    "georgia": "GA",
-    "tennessee": "TN",
-    "iowa": "IA",
-    "wisconsin": "WI",
-}
+# STATE_FOLDER_MAP is the authoritative state registry — see src/states.py.
+STATE_FOLDER_MAP = STATE_MAP
 
 # Subfolders whose files carry their own per-chunk state tags (xlsx processing)
 SELF_TAGGED_FOLDERS = {"reference"}

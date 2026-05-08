@@ -1,12 +1,22 @@
 # the actual Q&A interface
 
+import os
 import re
 from dotenv import load_dotenv
 import anthropic
 from retrieve import query, find_form, list_all_forms
 from abbreviations import expand_abbreviations
+from states import STATE_MAP
 
-load_dotenv()
+load_dotenv(override=True)
+
+_api_key = os.getenv("ANTHROPIC_API_KEY")
+if not _api_key:
+    raise EnvironmentError(
+        "ANTHROPIC_API_KEY is not set or is empty.\n"
+        "Create a .env file in the project root with:\n"
+        "  ANTHROPIC_API_KEY=sk-ant-..."
+    )
 
 SYSTEM_PROMPT = """You are an insurance document assistant. Your job is to answer
 questions using ONLY the provided context from insurance documents.
@@ -136,23 +146,11 @@ def detect_collection(text: str) -> list[str]:
 # State detection
 # ---------------------------------------------------------------------------
 
-# Full state names → abbreviations. Matched case-insensitively.
-_STATE_NAME_MAP: dict[str, str] = {
-    "ohio": "OH",
-    "indiana": "IN",
-    "illinois": "IL",
-    "kentucky": "KY",
-    "minnesota": "MN",
-    "virginia": "VA",
-    "michigan": "MI",
-    "georgia": "GA",
-    "tennessee": "TN",
-    "iowa": "IA",
-    "wisconsin": "WI",
-}
-
-# Uppercase-only abbreviations matched strictly (avoids "in", "oh", "ia" false positives)
-_STATE_ABBR_MAP: dict[str, str] = {v: v for v in _STATE_NAME_MAP.values()}
+# State name → code maps derived from the single source of truth in states.py.
+# Full state names matched case-insensitively; abbreviations uppercase-only
+# (avoids false positives on common words like "in", "oh", "ia").
+_STATE_NAME_MAP: dict[str, str] = STATE_MAP
+_STATE_ABBR_MAP: dict[str, str] = {v: v for v in STATE_MAP.values()}
 
 
 def detect_states(text: str) -> list[str]:

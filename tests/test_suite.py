@@ -17,6 +17,43 @@ sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 # 1. UNIT TESTS — pure Python, no DB, no API
 # =============================================================================
 
+class TestStatesModule(unittest.TestCase):
+    """Verify states.py is the single source of truth used everywhere."""
+
+    def setUp(self):
+        from states import STATE_MAP
+        from ingest_batch import STATE_FOLDER_MAP
+        from chat import _STATE_NAME_MAP
+        self.canonical = STATE_MAP
+        self.folder_map = STATE_FOLDER_MAP
+        self.name_map = _STATE_NAME_MAP
+
+    def test_state_map_nonempty(self):
+        self.assertGreater(len(self.canonical), 0)
+
+    def test_ingest_batch_uses_canonical_map(self):
+        self.assertIs(self.folder_map, self.canonical,
+                      "STATE_FOLDER_MAP in ingest_batch should be the same object as STATE_MAP")
+
+    def test_chat_uses_canonical_map(self):
+        self.assertIs(self.name_map, self.canonical,
+                      "_STATE_NAME_MAP in chat should be the same object as STATE_MAP")
+
+    def test_all_known_states_present(self):
+        expected = {"OH", "IN", "IL", "KY", "MN", "VA", "MI", "GA", "TN", "IA", "WI"}
+        actual = set(self.canonical.values())
+        self.assertEqual(expected, actual)
+
+    def test_keys_are_lowercase(self):
+        for key in self.canonical:
+            self.assertEqual(key, key.lower(), f"Key '{key}' should be lowercase")
+
+    def test_values_are_uppercase(self):
+        for val in self.canonical.values():
+            self.assertEqual(val, val.upper(), f"Value '{val}' should be uppercase")
+            self.assertEqual(len(val), 2, f"State code '{val}' should be 2 characters")
+
+
 class TestAbbreviations(unittest.TestCase):
     def setUp(self):
         from abbreviations import expand_abbreviations
@@ -412,6 +449,7 @@ if __name__ == "__main__":
 
     # Load in display order
     for cls in [
+        TestStatesModule,
         TestAbbreviations,
         TestParseFilename,
         TestDetectFormNumber,
