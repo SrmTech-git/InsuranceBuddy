@@ -141,7 +141,63 @@ data/raw/regulatory/
 
 ---
 
-## Session 4 — Prompt Tuning
+## Session 4 — Code Review & Cleanup
+
+A top-down audit after Session 3 surfaced a cluster of small issues — band-aids, hardcoded values that risked drift, dead code, missing tests, leaky abstractions. None individually scary; together they were starting to add up. Worked through them in priority order while keeping the codebase lean.
+
+### Test suite (`tests/test_suite.py`)
+- Three tiers: unit (no DB, no API), DB integration (ChromaDB only), end-to-end API (live Haiku calls)
+- `--skip-api` flag for fast local runs (~11 sec); full suite ~25 sec
+- Grew from 0 → 76 tests over the session as fixes added their own coverage
+- Fixture-based xlsx test builds an in-memory spreadsheet — no binary fixture committed
+
+### Single source of truth: `src/states.py`
+- Three places held identical state dicts: `_STATE_NAME_MAP` in `chat.py`, `STATE_FOLDER_MAP` in `ingest_batch.py`, `_HEADER_TO_STATE` in `ingest_xlsx.py`
+- Consolidated into one `STATE_MAP` — the other three now derive from it
+- Adding a state is a one-line change in `states.py`
+- Tests assert the import chain with `assertIs` so re-introducing a local copy would fail the suite
+
+### Central config: `src/config.py`
+- Pulled chunk sizes, model names, retrieval caps, max_tokens budgets, and scrape delay into one module
+- Removes drift risk between e.g. the chunk sizes used in `ingest.py` and `ingest_xlsx.py` (which had been duplicated `1000`/`100` literals)
+
+### Bug fixes
+- **Dead `_load_xlsx` in `ingest.py`** (~165 lines) — was unreachable AND produced different metadata than the live `ingest_xlsx.py` path. Removed.
+- **`_resolve_form_filter` hardcoded the two collections** — now iterates `COLLECTION_REGISTRY` so adding a new collection automatically extends form-number lookup
+- **`scrape_orc.py:OUTPUT_DIR`** still pointed at the pre-state-restructure flat layout — fixed to `data/raw/regulatory/ohio/`
+- **`pyproject.toml` listed `openpyxl` twice** — deduplicated
+- **`__main__` demo blocks** in `embed.py` and `ingest.py` referenced files that were moved during the state restructure — fixed
+
+### Robustness
+- **Lazy Anthropic client** (`_get_client()` in `chat.py`) — importing chat no longer requires a working API key, only calling `ask()` does
+- **Logging** replaced `print()` breadcrumbs in `chat.py` library code; `main.py` configures `basicConfig` so the CLI still surfaces them
+- **Explicit API key validation** at module load with a clear `EnvironmentError` instead of failing cryptically later (replaces the previous `load_dotenv(override=True)` band-aid)
+- **`_retrieve_chunks` now logs collection-level query failures** instead of swallowing them silently
+- **`_llm_classify` falls back to all collections** if the LLM mangles its routing response — re-ranking sorts it out (was: defaulted to `["regulatory"]`)
+- **Abbreviation expansion iterates longest-first** — defends against future overlapping entries (e.g. adding `"MED"` won't clobber `"MED PAY"`)
+
+### Scraper hardening (`scrape_orc.py`)
+- **Retry with exponential backoff** — 3 attempts at 2s, 4s, 8s delays on transient `requests.RequestException`
+- **Atomic writes** — stage to `*.tmp`, then `replace()` — an interrupted download can never leave a corrupt PDF behind
+- **Skip-existing** — re-runs no longer re-download the same 300+ files
+
+### Cleaner abstractions
+- **`QueryResult` dataclass in `retrieve.py`** replaces ChromaDB's nested batched-query return shape. Iterates as `(doc, meta, distance)` triples. `chat.py:_retrieve_chunks` and three tests now use the clean shape.
+
+### xlsx Sheet 2 restored
+- The dead `_load_xlsx` in `ingest.py` had parsed Sheet 2 ("Quick Reference") and Sheet 3 ("Notes & Sources"); the live `ingest_xlsx.py` was only parsing Sheet 1
+- **Sheet 2 restored** — adds compact state-by-state summary content to each state's chunks (Ohio doc went from ~6,500 → 11,500 chars)
+- **Sheet 3 deliberately skipped** — maintainer disclaimers, not retrieval material
+- Re-ingested the 11 spreadsheet entries; PDFs dedup-skipped automatically. Final regulatory collection: 1,873 vectors.
+
+### Final stats
+- 76 tests passing (5 live API tests included)
+- 12 focused modules in `src/`: `abbreviations`, `chat`, `config`, `db`, `embed`, `ingest`, `ingest_batch`, `ingest_xlsx`, `migrate_state_tags`, `retrieve`, `scrape_orc`, `states`
+- Net diff across the cleanup arc: more capability, fewer lines
+
+---
+
+## Session 5 — Prompt Tuning
 
 Both AI calls (the Haiku classifier and the Haiku answerer) got a small but meaningful rewrite: a brief "why" statement explaining the purpose, an appreciative thank-you to the model, and slightly more context about who's on the receiving end. The goal was to lift quality without adding tokens.
 
