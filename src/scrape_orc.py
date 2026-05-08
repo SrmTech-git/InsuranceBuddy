@@ -105,6 +105,7 @@ def download_pdfs(sections: list[dict], code_type: str) -> None:
 
     total = len(sections)
     success = 0
+    skipped = 0
     failed = 0
 
     for i, sec in enumerate(sections, 1):
@@ -117,6 +118,11 @@ def download_pdfs(sections: list[dict], code_type: str) -> None:
         filepath = OUTPUT_DIR / filename
 
         print(f"[{i}/{total}] {section} — {title or '(no title)'}")
+
+        if filepath.exists():
+            print(f"         Skipped (already downloaded): {filename}")
+            skipped += 1
+            continue
 
         try:
             resp = requests.get(pdf_url, headers=HEADERS, timeout=30)
@@ -135,7 +141,7 @@ def download_pdfs(sections: list[dict], code_type: str) -> None:
 
     print()
     print("=" * 60)
-    print(f"Done! {success} downloaded, {failed} failed, {total} total.")
+    print(f"Done! {success} downloaded, {skipped} skipped, {failed} failed, {total} total.")
     print("=" * 60)
 
 

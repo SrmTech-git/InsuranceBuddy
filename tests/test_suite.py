@@ -100,6 +100,12 @@ class TestAbbreviations(unittest.TestCase):
         # "CLUED" should NOT be touched — 'CLUE' only matches as whole word
         self.assertNotIn("comprehensive loss underwriting exchange", result)
 
+    def test_multiword_abbreviation_wins_over_substring(self):
+        # "MED PAY" must expand as the multi-word entry, not piecewise.
+        # Defends against future overlapping additions (e.g. adding "MED" alone).
+        result = self.expand("Does MED PAY cover ambulance?")
+        self.assertIn("medical payments coverage", result)
+
 
 class TestParseFilename(unittest.TestCase):
     def setUp(self):

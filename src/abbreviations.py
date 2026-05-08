@@ -3,6 +3,8 @@
 # Company-specific systems, designations, and internal programs removed
 # Expand this dictionary as needed
 
+import re
+
 INSURANCE_ABBREVIATIONS = {
     # Coverage Types
     "UM": "uninsured motorist coverage",
@@ -112,11 +114,14 @@ def expand_abbreviations(query: str) -> str:
     Expand insurance abbreviations in a query string to their full terms.
     Case insensitive matching, preserves original case of surrounding text.
     Returns the expanded query string.
+
+    Iterates longest-first so multi-word abbreviations like "MED PAY" are
+    matched before any shorter overlap could clobber them.
     """
-    import re
     expanded = query
 
-    for abbrev, full_term in INSURANCE_ABBREVIATIONS.items():
+    for abbrev in sorted(INSURANCE_ABBREVIATIONS, key=len, reverse=True):
+        full_term = INSURANCE_ABBREVIATIONS[abbrev]
         # Match whole words only, case insensitive
         pattern = r'\b' + re.escape(abbrev) + r'\b'
         expanded = re.sub(pattern, full_term, expanded, flags=re.IGNORECASE)

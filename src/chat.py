@@ -1,5 +1,6 @@
 # the actual Q&A interface
 
+import logging
 import os
 import re
 from dotenv import load_dotenv
@@ -18,6 +19,8 @@ if not _api_key:
         "  ANTHROPIC_API_KEY=sk-ant-..."
     )
 
+logger = logging.getLogger(__name__)
+
 SYSTEM_PROMPT = """You are an insurance document assistant. Your job is to answer
 questions using ONLY the provided context from insurance documents.
 
@@ -30,7 +33,16 @@ Rules:
   edition date, or filename from the chunk metadata).
 - Keep answers clear and concise."""
 
-_client = anthropic.Anthropic()
+_client: anthropic.Anthropic | None = None
+
+
+def _get_client() -> anthropic.Anthropic:
+    """Lazy-instantiate the Anthropic client so importing this module
+    doesn't require a working API key (only calling ask() does)."""
+    global _client
+    if _client is None:
+        _client = anthropic.Anthropic()
+    return _client
 
 # ---------------------------------------------------------------------------
 # Collection registry — add new collections here as they are created.
@@ -117,7 +129,7 @@ def _llm_classify(question: str) -> list[str]:
         f'Examples: "regulatory" | "educational" | "regulatory, educational"\n\n'
         f"Query: {question}"
     )
-    response = _client.messages.create(
+    response = _get_client().messages.create(
         model="claude-haiku-4-5-20251001",
         max_tokens=20,
         messages=[{"role": "user", "content": prompt}],
@@ -242,7 +254,7 @@ def _resolve_form_filter(question: str) -> tuple[dict | None, str | None, str | 
                 for coll in COLLECTION_REGISTRY:
                     if find_form(candidate, coll):
                         form_number = candidate
-                        print(f"[Resolved bare section {bare} -> {candidate}]")
+                        logger.info("Resolved bare section %s -> %s", bare, candidate)
                         break
                 if form_number:
                     break
@@ -260,10 +272,10 @@ def _resolve_form_filter(question: str) -> tuple[dict | None, str | None, str | 
     if collection_name is None:
         # Form number not found — fall through to semantic search
         # instead of hard-failing, since the query text itself is still useful.
-        print(f"[Form {form_number} not found — falling back to semantic search]")
+        logger.info("Form %s not found — falling back to semantic search", form_number)
         return None, None, None
 
-    print(f"[Searching {collection_name}: {form_number}]")
+    logger.info("Searching %s: %s", collection_name, form_number)
     return {"form_number": form_number}, collection_name, None
 
 
@@ -343,7 +355,7 @@ def _call_llm(question: str, context: str, sources_str: str, collections_searche
         f"Remember: Tell the user which document(s) the answer came from."
     )
 
-    response = _client.messages.create(
+    response = _get_client().messages.create(
         model="claude-haiku-4-5-20251001",
         max_tokens=1024,
         system=SYSTEM_PROMPT,

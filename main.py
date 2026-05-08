@@ -1,9 +1,14 @@
 import argparse
+import logging
 import sys
 from pathlib import Path
 
 # Make src/ importable regardless of working directory
 sys.path.insert(0, str(Path(__file__).parent / "src"))
+
+# Show INFO-level breadcrumbs from src/* without log-level prefixes.
+# Library users who want different formatting can reconfigure.
+logging.basicConfig(level=logging.INFO, format="%(message)s")
 
 
 def cmd_chat(_args: argparse.Namespace) -> None:
