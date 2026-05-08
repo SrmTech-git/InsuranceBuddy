@@ -408,6 +408,21 @@ class TestMergeFilters(unittest.TestCase):
         self.assertEqual(result, f)
 
 
+class TestCollectionRegistry(unittest.TestCase):
+    """Verify the expected set of collections is registered."""
+
+    def test_expected_collections_registered(self):
+        from chat import COLLECTION_REGISTRY
+        expected = {"regulatory", "educational", "forms"}
+        self.assertEqual(set(COLLECTION_REGISTRY.keys()), expected)
+
+    def test_each_collection_has_nonempty_description(self):
+        from chat import COLLECTION_REGISTRY
+        for name, desc in COLLECTION_REGISTRY.items():
+            self.assertGreater(len(desc), 20,
+                               f"Collection {name!r} has a too-short description")
+
+
 class TestComparisonRouting(unittest.TestCase):
     """detect_collection comparison fast-path — no API call needed."""
     def setUp(self):
@@ -454,6 +469,13 @@ class TestDatabase(unittest.TestCase):
         col = self.get_collection("educational")
         count = col.count()
         self.assertGreater(count, 0, "educational collection should have at least 1 vector")
+
+    def test_forms_collection_exists(self):
+        # Forms collection is created on first access. Doesn't have to
+        # be populated yet — just needs to be reachable.
+        col = self.get_collection("forms")
+        self.assertIsNotNone(col)
+        self.assertGreaterEqual(col.count(), 0)
 
 
 class TestRetrieve(unittest.TestCase):
@@ -589,6 +611,7 @@ if __name__ == "__main__":
         TestDetectStates,
         TestBuildStateFilter,
         TestMergeFilters,
+        TestCollectionRegistry,
         TestComparisonRouting,
         TestDatabase,
         TestRetrieve,

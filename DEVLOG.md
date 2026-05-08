@@ -216,3 +216,35 @@ Both AI calls (the Haiku classifier and the Haiku answerer) got a small but mean
 - **Routing got more deliberate on ambiguous queries.** Before: "What are BI minimums?" would have leaned toward one collection. After: routes to both regulatory and educational — accepts the ambiguity instead of guessing.
 - **Answers kept their citation discipline but gained a warmer voice.** Statute summaries now naturally include framing like *"Your actual policy may have higher limits"* — the empathy implicit in the new system prompt is showing up in the output.
 - **Net change to `chat.py`:** -3 lines across both edits combined. Cleaner *and* better.
+
+---
+
+## Session 6 — Forms Collection
+
+Added a third collection for insurance forms — the documents people actually work with day-to-day. Distinct from regulatory (statutes) and educational (concepts).
+
+### What lives here
+- General industry forms: ACORD applications, ISO standardized forms (CG 00 01, CA 00 01), endorsement templates, dec page boilerplate
+- State-specific mandatory forms: state-required notice forms, UM rejection forms, etc.
+
+### Code changes
+- One line in `COLLECTION_REGISTRY` registering `"forms"` with a description.
+- One line in the classifier prompt's routing rules: *"Questions about what a specific FORM contains, what a dec page includes, or how a particular document is structured -> forms"*
+- New folder layout under `data/raw/forms/`: `general/` (state="") and `ohio/` (state="OH"). Add more state subfolders as needed; `STATE_FOLDER_MAP` already covers all 11 states.
+- New `TestCollectionRegistry` test class enforces the expected three-collection set. Adding a fourth collection will fail this test until updated — forces deliberate registration.
+- New `test_forms_collection_exists` in `TestDatabase` confirms the collection is reachable in ChromaDB even before any documents are ingested.
+
+### Routing examples
+| Query | Routes to |
+|---|---|
+| "What does a dec package contain?" | forms |
+| "What's on an ACORD 25?" | forms |
+| "What forms exist for UM rejection in Ohio?" | regulatory + forms (mixed) |
+| "Compare a CG 00 01 and a CA 00 01" | all three (comparison fast-path) |
+
+The mixed-routing case is the interesting one — a UM rejection question is partly statutory (what's required) and partly forms (which document). Cross-collection re-ranking handles it naturally.
+
+### Stats
+- 79 tests passing (3 new tests added)
+- `forms` collection: 0 vectors (awaiting content)
+- Drop PDFs/docs into `data/raw/forms/general/` or `data/raw/forms/{state}/` then run `python main.py ingest` — no other code changes needed.

@@ -58,6 +58,7 @@ def _get_client() -> anthropic.Anthropic:
 COLLECTION_REGISTRY: dict[str, str] = {
     "regulatory": "state statutes and administrative code (e.g. Ohio ORC/OAC), compliance requirements, filing rules, penalties, legal limits",
     "educational": "conceptual explanations of insurance products, coverage types, and industry terms",
+    "forms": "insurance forms and document templates — declarations pages, applications, endorsements, certificates of insurance, ACORD/ISO forms, and state-required notice forms",
 }
 
 # Known form-number prefixes in the regulatory collection.
@@ -125,6 +126,7 @@ def _llm_classify(question: str) -> list[str]:
         f"- Questions about whether coverage is REQUIRED, mandatory, or legally necessary -> regulatory\n"
         f"- Questions about legal limits, penalties, or state-specific rules and statutes -> regulatory\n"
         f"- Questions about what a coverage type IS, how it works, or general concepts -> educational\n"
+        f"- Questions about what a specific FORM contains, what a dec page includes, or how a particular document is structured -> forms\n"
         f"- When in doubt, include all relevant collections.\n\n"
         f"This routing helps surface the right information for someone trying to "
         f"understand insurance, which is genuinely complicated. Thank you for your attention.\n\n"

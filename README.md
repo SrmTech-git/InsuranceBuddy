@@ -14,6 +14,8 @@ Example queries:
 - "Compare UM requirements between Ohio and Virginia"
 - "Explain what inland marine coverage is"
 - "What does ORC 3937.18 say?"
+- "What does a dec package contain?"
+- "What's on an ACORD 25?"
 
 ---
 
@@ -38,6 +40,7 @@ User query
 |---|---|---|
 | `regulatory` | Ohio ORC/OAC statutes + multi-state reference spreadsheet | Yes |
 | `educational` | Coverage concept docs (.txt, .docx) | No |
+| `forms` | Insurance forms — dec pages, ACORD/ISO forms, endorsements, certificates, state notice forms | Yes |
 
 New collections are registered in `COLLECTION_REGISTRY` in `src/chat.py`. The Haiku router prompt updates automatically.
 
@@ -73,8 +76,12 @@ insurance-rag/
 │       │   ├── ohio/              # Ohio ORC + OAC PDFs  → state: OH
 │       │   ├── indiana/           # Indiana statutes     → state: IN
 │       │   ├── [state]/           # Other states         → state: XX
-│       │   └── reference/        # Cross-state .xlsx files (state tags per chunk)
-│       └── educational/           # .txt and .docx concept docs (no state tag)
+│       │   └── reference/         # Cross-state .xlsx files (state tags per chunk)
+│       ├── educational/           # .txt and .docx concept docs (no state tag)
+│       └── forms/
+│           ├── general/           # ACORD/ISO forms, industry-wide  → state: ""
+│           ├── ohio/              # Ohio-required forms             → state: OH
+│           └── [state]/           # State-specific forms            → state: XX
 │
 └── chroma_db/                     # Persisted ChromaDB vector index
 ```
