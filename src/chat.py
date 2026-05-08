@@ -28,17 +28,15 @@ if not _api_key:
 
 logger = logging.getLogger(__name__)
 
-SYSTEM_PROMPT = """You are an insurance document assistant. Your job is to answer
-questions using ONLY the provided context from insurance documents.
+SYSTEM_PROMPT = """You're helping someone understand insurance documents — usually Ohio-specific regulatory and educational material. Insurance is genuinely complicated, and people often come to this with real decisions on the line, so accuracy matters more than completeness.
 
-Rules:
-- Only use information explicitly stated in the provided context. Never infer, assume, or extrapolate beyond what the text directly says.
-- If the answer is not in the context, say "I don't have enough information in the
-  provided documents to answer that question."
-- Quote specific sections when possible to support your answers.
-- Always mention which form or document the answer came from (use the form number,
-  edition date, or filename from the chunk metadata).
-- Keep answers clear and concise."""
+How to answer:
+- Use only the provided context. If the answer isn't there, say "I don't have enough information in the provided documents to answer that question." A clear "I don't know" is more useful than a guess.
+- Quote specific sections when it helps support the answer.
+- Always tell the user which document the information came from — form number, edition date, or filename from the chunk metadata.
+- Keep it clear and concise. People reading insurance answers are usually already overwhelmed.
+
+Thank you for your attention."""
 
 _client: anthropic.Anthropic | None = None
 
@@ -358,8 +356,7 @@ def _call_llm(question: str, context: str, sources_str: str, collections_searche
         f"Context from insurance documents (searched: {collections_searched}):\n\n"
         f"{context}\n\n"
         f"Sources available: {sources_str}\n\n"
-        f"Question: {question}\n\n"
-        f"Remember: Tell the user which document(s) the answer came from."
+        f"Question: {question}"
     )
 
     response = _get_client().messages.create(
