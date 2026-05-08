@@ -138,3 +138,25 @@ data/raw/regulatory/
 ### load_dotenv fix
 - `ANTHROPIC_API_KEY` was being set as an empty string in the OS environment, causing `load_dotenv()` to silently skip the `.env` file
 - Fixed: `load_dotenv(override=True)` in `src/chat.py`
+
+---
+
+## Session 4 — Prompt Tuning
+
+Both AI calls (the Haiku classifier and the Haiku answerer) got a small but meaningful rewrite: a brief "why" statement explaining the purpose, an appreciative thank-you to the model, and slightly more context about who's on the receiving end. The goal was to lift quality without adding tokens.
+
+### Classifier prompt (`_llm_classify` in `chat.py`)
+- Added a "why" sentence: *"This routing helps surface the right information for someone trying to understand insurance, which is genuinely complicated. Thank you for your attention."*
+- Generalized "Ohio-specific rules" → "state-specific rules and statutes" so the prompt scales as more state regulatory content is added.
+- `COLLECTION_REGISTRY` description for `regulatory` updated from `"Ohio statutes (ORC/OAC)"` to `"state statutes and administrative code (e.g. Ohio ORC/OAC)"` — keeps Ohio as a concrete anchor without excluding other states.
+
+### Answerer prompt (`SYSTEM_PROMPT` + user message in `_call_llm`)
+- Replaced the "rules" framing with a stakes-aware opening: *"people often come to this with real decisions on the line, so accuracy matters more than completeness."*
+- Added a clearer fallback instruction: *"A clear 'I don't know' is more useful than a guess."*
+- Closes with *"Thank you for your attention."*
+- Dropped the trailing `"Remember: Tell the user which document(s) the answer came from"` line from the user message — the system prompt already covers sourcing, no need to repeat per call.
+
+### Observed results
+- **Routing got more deliberate on ambiguous queries.** Before: "What are BI minimums?" would have leaned toward one collection. After: routes to both regulatory and educational — accepts the ambiguity instead of guessing.
+- **Answers kept their citation discipline but gained a warmer voice.** Statute summaries now naturally include framing like *"Your actual policy may have higher limits"* — the empathy implicit in the new system prompt is showing up in the output.
+- **Net change to `chat.py`:** -3 lines across both edits combined. Cleaner *and* better.
