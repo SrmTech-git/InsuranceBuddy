@@ -133,6 +133,68 @@ def detect_collection(text: str) -> list[str]:
 
 
 # ---------------------------------------------------------------------------
+# State detection
+# ---------------------------------------------------------------------------
+
+# Full state names → abbreviations. Matched case-insensitively.
+_STATE_NAME_MAP: dict[str, str] = {
+    "ohio": "OH",
+    "indiana": "IN",
+    "illinois": "IL",
+    "kentucky": "KY",
+    "minnesota": "MN",
+    "virginia": "VA",
+    "michigan": "MI",
+    "georgia": "GA",
+    "tennessee": "TN",
+    "iowa": "IA",
+    "wisconsin": "WI",
+}
+
+# Uppercase-only abbreviations matched strictly (avoids "in", "oh", "ia" false positives)
+_STATE_ABBR_MAP: dict[str, str] = {v: v for v in _STATE_NAME_MAP.values()}
+
+
+def detect_states(text: str) -> list[str]:
+    """Return sorted list of state codes mentioned in the query.
+
+    Matches full state names (case-insensitive) and uppercase abbreviations
+    (e.g. OH, IN) as standalone words. Short abbreviations are only matched
+    uppercase to avoid false positives on common words.
+    """
+    found: set[str] = set()
+
+    for name, code in _STATE_NAME_MAP.items():
+        if re.search(rf"\b{re.escape(name)}\b", text, re.IGNORECASE):
+            found.add(code)
+
+    for abbr, code in _STATE_ABBR_MAP.items():
+        if re.search(rf"\b{abbr}\b", text):  # case-sensitive — uppercase only
+            found.add(code)
+
+    return sorted(found)
+
+
+def _build_state_filter(states: list[str]) -> dict | None:
+    """Build a ChromaDB where-clause for one or more state codes."""
+    if not states:
+        return None
+    if len(states) == 1:
+        return {"state": states[0]}
+    return {"$or": [{"state": s} for s in states]}
+
+
+def _merge_filters(*filters: dict | None) -> dict | None:
+    """AND together multiple ChromaDB filter dicts, ignoring None values."""
+    active = [f for f in filters if f]
+    if not active:
+        return None
+    if len(active) == 1:
+        return active[0]
+    return {"$and": active}
+
+
+# ---------------------------------------------------------------------------
 # ask() helpers
 # ---------------------------------------------------------------------------
 
@@ -308,7 +370,12 @@ def ask(question: str) -> str:
     if form_collection:
         collections = [form_collection]
 
-    documents, metadatas, labels = _retrieve_chunks(question, collections, filters)
+    # Detect states and combine with any form-number filter
+    states = detect_states(question)
+    state_filter = _build_state_filter(states)
+    combined_filters = _merge_filters(filters, state_filter)
+
+    documents, metadatas, labels = _retrieve_chunks(question, collections, combined_filters)
 
     if not documents:
         return "No relevant results found in the database."

@@ -32,6 +32,11 @@ def cmd_ingest(args: argparse.Namespace) -> None:
     ingest_all(force=args.force, collection_override=args.collection)
 
 
+def cmd_migrate(args: argparse.Namespace) -> None:
+    from migrate_state_tags import migrate
+    migrate(args.collection, args.state, dry_run=args.dry_run)
+
+
 def cmd_scrape(args: argparse.Namespace) -> None:
     from scrape_orc import detect_code_type, fetch_chapter_page, find_pdf_sections, download_pdfs
 
@@ -72,6 +77,12 @@ def main() -> None:
         help="Overwrite documents that already exist in the database",
     )
 
+    # migrate
+    migrate_parser = subparsers.add_parser("migrate", help="Back-fill state tags on existing chunks")
+    migrate_parser.add_argument("--collection", default="regulatory", help="Collection to migrate (default: regulatory)")
+    migrate_parser.add_argument("--state", default="OH", help="State code to apply to untagged chunks (default: OH)")
+    migrate_parser.add_argument("--dry-run", action="store_true", help="Preview without writing")
+
     # scrape
     scrape_parser = subparsers.add_parser("scrape", help="Download authenticated PDFs from codes.ohio.gov")
     scrape_parser.add_argument(
@@ -82,7 +93,7 @@ def main() -> None:
     )
 
     args = parser.parse_args()
-    dispatch = {"chat": cmd_chat, "ingest": cmd_ingest, "scrape": cmd_scrape}
+    dispatch = {"chat": cmd_chat, "ingest": cmd_ingest, "migrate": cmd_migrate, "scrape": cmd_scrape}
     dispatch[args.command](args)
 
 

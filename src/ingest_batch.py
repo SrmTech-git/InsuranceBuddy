@@ -1,50 +1,133 @@
 # ingest_batch.py — scan data/raw/ subfolders and embed into ChromaDB
-# Subfolder name determines collection: regulatory/ -> regulatory, educational/ -> educational
+#
+# Folder layout:
+#   data/raw/{collection}/                    → flat collection, no state tag
+#   data/raw/{collection}/{state_folder}/     → collection + state tag
+#   data/raw/regulatory/reference/            → xlsx files, state tags applied per-chunk
+#
+# Collection is always inferred from the top-level subfolder name.
+# State is inferred from the second-level subfolder name via STATE_FOLDER_MAP.
 
 import argparse
 from pathlib import Path
-from embed import embed_document, get_collection, document_exists
+from embed import embed_document, embed_chunks, get_collection, document_exists
 from ingest import parse_filename
+from ingest_xlsx import load_xlsx_by_state
 
 RAW_DIR = Path("data/raw")
-SUPPORTED_EXTENSIONS = {".pdf", ".txt", ".docx", ".xlsx"}
+SUPPORTED_EXTENSIONS = {".pdf", ".txt", ".docx"}
+XLSX_EXTENSIONS = {".xlsx"}
+
+# Maps state subfolder names → two-letter state codes.
+# Add entries here as new state folders are created.
+STATE_FOLDER_MAP: dict[str, str] = {
+    "ohio": "OH",
+    "indiana": "IN",
+    "illinois": "IL",
+    "kentucky": "KY",
+    "minnesota": "MN",
+    "virginia": "VA",
+    "michigan": "MI",
+    "georgia": "GA",
+    "tennessee": "TN",
+    "iowa": "IA",
+    "wisconsin": "WI",
+}
+
+# Subfolders whose files carry their own per-chunk state tags (xlsx processing)
+SELF_TAGGED_FOLDERS = {"reference"}
 
 
-def find_files(collection_override: str | None = None) -> list[tuple[Path, str]]:
-    """Scan data/raw/ subfolders and return (file_path, collection_name) pairs.
+def find_files(
+    collection_override: str | None = None,
+) -> list[tuple[Path, str, str]]:
+    """Scan data/raw/ and return (file_path, collection_name, state_code) triples.
 
-    If collection_override is set, only scan that subfolder.
-    Otherwise, scan all subfolders and infer collection from folder name.
+    Handles two layouts:
+      - Flat:   data/raw/educational/doc.txt   → ("educational", "")
+      - Nested: data/raw/regulatory/ohio/f.pdf → ("regulatory", "OH")
+      - Ref:    data/raw/regulatory/reference/ → ("regulatory", "SELF") — xlsx only
     """
+    files: list[tuple[Path, str, str]] = []
 
-    files = []
+    top_dirs = (
+        [RAW_DIR / collection_override]
+        if collection_override
+        else sorted(p for p in RAW_DIR.iterdir() if p.is_dir())
+    )
 
-    if collection_override:
-        # Only scan the specified subfolder
-        subfolders = [RAW_DIR / collection_override]
-    else:
-        # Scan all subfolders
-        subfolders = sorted(
-            p for p in RAW_DIR.iterdir() if p.is_dir()
-        )
-
-    for subfolder in subfolders:
-        if not subfolder.exists():
-            print(f"Warning: {subfolder} does not exist, skipping.")
+    for top_dir in top_dirs:
+        if not top_dir.exists():
+            print(f"Warning: {top_dir} does not exist, skipping.")
             continue
 
-        collection_name = subfolder.name
+        collection_name = top_dir.name
 
-        for filepath in sorted(subfolder.iterdir()):
-            if filepath.suffix.lower() in SUPPORTED_EXTENSIONS:
-                files.append((filepath, collection_name))
+        for entry in sorted(top_dir.iterdir()):
+            if entry.is_file():
+                # Flat layout — file directly in collection folder
+                ext = entry.suffix.lower()
+                if ext in SUPPORTED_EXTENSIONS or ext in XLSX_EXTENSIONS:
+                    files.append((entry, collection_name, ""))
+
+            elif entry.is_dir():
+                # Nested layout — subfolder = state or reference
+                subfolder = entry.name.lower()
+                if subfolder in SELF_TAGGED_FOLDERS:
+                    state_code = "SELF"  # xlsx handles its own state tags
+                else:
+                    state_code = STATE_FOLDER_MAP.get(subfolder, "")
+
+                for filepath in sorted(entry.iterdir()):
+                    ext = filepath.suffix.lower()
+                    if ext in SUPPORTED_EXTENSIONS or ext in XLSX_EXTENSIONS:
+                        files.append((filepath, collection_name, state_code))
 
     return files
 
 
-def ingest_all(force: bool = False, collection_override: str | None = None) -> None:
-    """Find all supported files in data/raw/ subfolders and embed each one."""
+def _ingest_xlsx(
+    filepath: Path,
+    collection_name: str,
+    force: bool,
+) -> tuple[int, int, int]:
+    """Ingest a multi-state xlsx file. Returns (succeeded, skipped, failed) counts."""
+    succeeded = skipped = failed = 0
 
+    try:
+        state_docs = load_xlsx_by_state(str(filepath))
+    except Exception as e:
+        print(f"         FAILED to parse xlsx: {e}\n")
+        return 0, 0, 1
+
+    collection = get_collection(collection_name)
+
+    for state_code, chunks in state_docs:
+        if not chunks:
+            continue
+
+        state_filename = chunks[0].metadata.get("filename", "")
+        print(f"         [{state_code}] {len(chunks)} chunk(s) -> {state_filename}")
+
+        if not force:
+            existing = document_exists(collection, "", state_filename)
+            if existing:
+                print(f"         Skipped (duplicate: {state_filename})")
+                skipped += 1
+                continue
+
+        try:
+            embed_chunks(chunks, collection_name=collection_name, state=state_code, force=force)
+            succeeded += 1
+        except Exception as e:
+            print(f"         FAILED [{state_code}]: {e}")
+            failed += 1
+
+    return succeeded, skipped, failed
+
+
+def ingest_all(force: bool = False, collection_override: str | None = None) -> None:
+    """Find all supported files in data/raw/ and embed each one."""
     files = find_files(collection_override)
 
     if not files:
@@ -52,20 +135,24 @@ def ingest_all(force: bool = False, collection_override: str | None = None) -> N
         return
 
     total = len(files)
-    succeeded = 0
-    skipped = 0
-    failed = 0
+    succeeded = skipped = failed = 0
 
     print(f"Found {total} file(s) to process\n")
 
-    for i, (filepath, collection_name) in enumerate(files, 1):
-        filename = filepath.name
-        subfolder = filepath.parent.name
-        print(f"[{i}/{total}] {subfolder}/ -> {collection_name}")
-        print(f"         {filename}")
+    for i, (filepath, collection_name, state_code) in enumerate(files, 1):
+        state_label = f" [{state_code}]" if state_code and state_code != "SELF" else ""
+        print(f"[{i}/{total}] {collection_name}/{filepath.parent.name}/{filepath.name}{state_label}")
+
+        # xlsx files in reference/ get special per-state processing
+        if filepath.suffix.lower() in XLSX_EXTENSIONS:
+            s, sk, f = _ingest_xlsx(filepath, collection_name, force)
+            succeeded += s
+            skipped += sk
+            failed += f
+            print()
+            continue
 
         try:
-            # Quick duplicate check before doing the full load-and-split
             meta = parse_filename(str(filepath))
             form_number = meta.get("form_number", "")
             filename = meta.get("filename", "")
@@ -79,8 +166,12 @@ def ingest_all(force: bool = False, collection_override: str | None = None) -> N
                     skipped += 1
                     continue
 
-            # Run the full embed pipeline
-            embed_document(str(filepath), force=force, collection_name=collection_name)
+            embed_document(
+                str(filepath),
+                force=force,
+                collection_name=collection_name,
+                state=state_code,
+            )
             succeeded += 1
 
         except Exception as e:
@@ -89,13 +180,9 @@ def ingest_all(force: bool = False, collection_override: str | None = None) -> N
 
         print()
 
-    # Final summary
     print("=" * 60)
     print("Batch ingestion complete!")
-    if collection_override:
-        print(f"  Collection: {collection_override}")
-    else:
-        print("  Collections: inferred from subfolders")
+    print(f"  Collection: {collection_override or 'all'}")
     print(f"  Succeeded: {succeeded}")
     print(f"  Skipped:   {skipped} (duplicates)")
     print(f"  Failed:    {failed}")
@@ -107,7 +194,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Batch ingest files into ChromaDB")
     parser.add_argument(
         "--collection",
-        choices=["regulatory", "educational"],
         default=None,
         help="Override collection (default: infer from subfolder name)",
     )
@@ -117,5 +203,4 @@ if __name__ == "__main__":
         help="Overwrite existing documents",
     )
     args = parser.parse_args()
-
     ingest_all(force=args.force, collection_override=args.collection)
