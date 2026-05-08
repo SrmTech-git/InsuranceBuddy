@@ -58,7 +58,7 @@ def _get_client() -> anthropic.Anthropic:
 # ---------------------------------------------------------------------------
 
 COLLECTION_REGISTRY: dict[str, str] = {
-    "regulatory": "Ohio statutes (ORC/OAC), compliance requirements, filing rules, penalties, legal limits",
+    "regulatory": "state statutes and administrative code (e.g. Ohio ORC/OAC), compliance requirements, filing rules, penalties, legal limits",
     "educational": "conceptual explanations of insurance products, coverage types, and industry terms",
 }
 
@@ -125,7 +125,7 @@ def _llm_classify(question: str) -> list[str]:
         f"Available collections:\n{collection_lines}\n\n"
         f"Routing rules:\n"
         f"- Questions about whether coverage is REQUIRED, mandatory, or legally necessary -> regulatory\n"
-        f"- Questions about legal limits, penalties, or Ohio-specific rules -> regulatory\n"
+        f"- Questions about legal limits, penalties, or state-specific rules and statutes -> regulatory\n"
         f"- Questions about what a coverage type IS, how it works, or general concepts -> educational\n"
         f"- When in doubt, include all relevant collections.\n\n"
         f"This routing helps surface the right information for someone trying to "
