@@ -5,3 +5,30 @@ Edition: 2012-02
 Title: NFIP – Credit Card Payment Form
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (payment authorization)
+Transaction types: Premium payment authorization (NFIP)
+
+Purpose:
+Authorization form for credit card payment of NFIP flood insurance
+premiums. Used when the insured pays NFIP premium by credit card
+rather than check, ACH, or escrow.
+
+Captures:
+- Reference to NFIP policy or application
+- Cardholder name
+- Card type (Visa, MasterCard, Discover, AMEX)
+- Card number, expiration date, security code
+- Billing address
+- Authorized payment amount
+- Insured signature authorizing the charge
+
+When used:
+- New NFIP policy where insured pays premium directly by card
+- Renewal premium payment by card
+- Endorsement-driven additional premium
+
+Notes:
+- PCI-DSS compliance considerations apply when collecting card
+  data; many agencies now use online payment portals instead of
+  paper forms
+- Pairs with ACORD 301 (NFIP Application)

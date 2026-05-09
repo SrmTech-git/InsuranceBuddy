@@ -5,3 +5,35 @@ Edition: 2015-04
 Title: NFIP – Flood Insurance General Change Endorsement
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (existing NFIP policy)
+Transaction types: Mid-term change / endorsement on NFIP policy
+
+Purpose:
+General change endorsement form for active NFIP policies. Used to
+update coverage limits, deductibles, mortgagee information,
+property characteristics, or other policy details mid-term.
+
+Captures:
+- Reference to underlying NFIP policy (policy number, insured)
+- Effective date of change
+- Type of change requested:
+  * Coverage limit changes (building, contents)
+  * Deductible changes
+  * Mortgagee additions / changes
+  * Property characteristic updates (occupancy, elevation, etc.)
+  * Address changes
+  * Insured name changes
+- Description of change
+- Premium impact
+- Insured signature
+
+When used:
+- Mid-term coverage adjustments on NFIP policies
+- Mortgagee change after loan transfer
+- Property updates affecting rating
+
+Notes:
+- NFIP changes have specific waiting periods — coverage increases
+  often require 30-day waiting period
+- Pairs with ACORD 301 (NFIP Application) — change is to the
+  policy issued from that application

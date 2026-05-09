@@ -5,3 +5,49 @@ Edition: 2024-06
 Title: Commercial Marine Insurance Supplement Hull & Machinery & Protection & Indemnity
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical commercial term)
+Transaction types: New business / renewal underwriting (commercial marine)
+
+Purpose:
+Underwriting supplement for commercial marine vessels covering Hull
+& Machinery (H&M) and Protection & Indemnity (P&I) — the two core
+commercial marine coverages. Captures vessel, voyage, crew, and
+operational detail beyond what the certificate (ACORD 31) provides.
+
+Captures:
+- Reference to ACORD 125
+- Vessel information:
+  * Name, official number, IMO number, MMSI
+  * Type (cargo, tanker, tug, fishing, passenger, offshore supply)
+  * Year built, builder, country of build
+  * Tonnage (gross, net, deadweight)
+  * Length, beam, draft
+  * Classification society
+  * Class certificates and surveys
+  * Insured value (H&M)
+- Trading area / routes
+- Crew complement and qualifications
+- Cargo carried (where applicable)
+- Hull & Machinery coverage:
+  * Agreed value
+  * Deductible
+  * War / strikes coverage
+  * Increased value coverage
+- Protection & Indemnity:
+  * P&I club membership (or fixed-premium market)
+  * P&I limits
+  * Pollution coverage
+  * Crew coverage / Jones Act exposure
+- Loss history
+
+When used:
+- Commercial vessel new business
+- Renewal of marine programs
+- Vessel acquisition or fleet additions
+- Jones Act / maritime employer exposure
+
+Notes:
+- P&I clubs (mutual insurance) operate differently from fixed-
+  premium markets — captured detail differs accordingly
+- Pairs with ACORD 31 (Certificate of Marine / Energy Insurance)
+  for evidence to charterers and lenders

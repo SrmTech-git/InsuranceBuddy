@@ -5,3 +5,35 @@ Edition: 2015-04
 Title: NFIP – Flood Insurance Preferred Risk Policy Application
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (NFIP standard)
+Transaction types: New business, renewal (Preferred Risk Policy variant)
+
+Purpose:
+Application for the NFIP Preferred Risk Policy (PRP) — a low-cost
+flood insurance option for properties in low-to-moderate risk flood
+zones (B, C, X). Streamlined version of ACORD 301 with limited
+coverage options at preferred rates.
+
+Captures:
+- Producer / agency information
+- Applicant / policyholder
+- Property address
+- Flood zone (must be B, C, or X for PRP eligibility)
+- Property type (1-4 family residential, non-residential)
+- Occupancy
+- Coverage tier selected (PRP offers fixed coverage tiers rather
+  than custom limits)
+- Mortgagee / loss payee
+- Loss history (limited NFIP losses; properties with significant
+  loss history may not qualify)
+
+When used:
+- Low-risk-zone flood insurance new business
+- Customers wanting basic flood coverage at affordable rates
+- Renewal of PRP policies
+
+Notes:
+- PRP is being phased out / merged into Risk Rating 2.0 — available
+  policies may still exist but new business directives have changed
+- Properties that experience repetitive flood losses lose PRP
+  eligibility

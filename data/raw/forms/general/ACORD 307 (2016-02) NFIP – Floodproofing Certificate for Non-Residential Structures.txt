@@ -5,3 +5,37 @@ Edition: 2016-02
 Title: NFIP – Floodproofing Certificate for Non-Residential Structures
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (rating documentation)
+Transaction types: Rating support documentation (NFIP non-residential)
+
+Purpose:
+Floodproofing certificate documenting that a non-residential
+structure has been floodproofed to NFIP-approved standards.
+Floodproofing — making a building water-tight to a specified
+elevation — can qualify a non-residential structure for rating as
+if it were elevated, significantly reducing flood premium.
+
+Captures:
+- Reference to NFIP policy or application
+- Property address
+- Building characteristics
+- Floodproofing design:
+  * Floodproofing elevation (must be at or above BFE + 1 foot)
+  * Sealants, barriers, closures
+  * Sump pumps, drainage
+  * Engineered design certification
+- Certifying engineer or architect (license, signature)
+- Annual inspection / maintenance plan
+- Operations and maintenance manual reference
+- Photographs and design drawings (typically attached)
+
+When used:
+- Non-residential properties in SFHAs that have been floodproofed
+- New construction designed with floodproofing
+- Existing buildings retrofitted for floodproofing
+
+Notes:
+- Floodproofing is only allowed on non-residential structures —
+  residential floodproofing is prohibited under NFIP rules
+- Annual recertification of floodproofing is typically required
+- Engineer / architect must be licensed in the state of the property

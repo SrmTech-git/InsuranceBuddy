@@ -5,3 +5,41 @@ Edition: 2016-05
 Title: Personal Inland Marine Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Line-of-business section for personal inland marine coverage when
+endorsed onto a homeowners or other personal lines policy. Captures
+scheduled and blanket personal property coverage detail without
+requiring a separate stand-alone IM application (ACORD 81).
+
+Captures:
+- Reference to underlying personal lines policy
+- Scheduled items:
+  * Description, value, year acquired
+  * Appraisal date and appraiser
+  * Photographs available
+  * Storage location
+- Blanket coverage on unscheduled categories:
+  * Jewelry blanket sublimit
+  * Fine arts blanket
+  * Silverware
+  * Other personal property
+- Coverage form (all-risk, named perils)
+- Deductibles
+- Loss history on personal property
+- Security: alarms, safes, vault
+
+When used:
+- Endorsing personal IM onto an existing HO policy
+- Adding scheduled jewelry, fine art, or collectibles
+- Renewal review of scheduled values
+- After major personal property purchases
+
+Notes:
+- Pairs with ACORD 80 (Homeowner Application) or ACORD 81
+  (Personal Inland Marine Application) depending on whether IM is
+  an endorsement or stand-alone policy
+- Appraisals typically required for items above carrier thresholds
+  (often $5,000+)

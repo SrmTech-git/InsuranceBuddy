@@ -5,3 +5,42 @@ Edition: 2016-03
 Title: Aviation Insurance Binder
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: Typically 30-90 days (binder validity period)
+Transaction types: Temporary aviation coverage at policy inception
+
+Purpose:
+Temporary evidence of aviation insurance coverage in force pending
+issuance of the formal aviation policy. Aviation-specific binder
+form parallel to ACORD 75 (general Insurance Binder) but tailored to
+aviation underwriting requirements (aircraft identification, pilot
+qualifications, navigation limits).
+
+Captures:
+- Producer / agency information
+- Insured / aircraft owner / operator
+- Insurer(s) and NAIC numbers
+- Aircraft information: N-number, make, model, year, serial number
+- Pilot in command information
+- Coverage parts bound:
+  * Hull (agreed value, deductible)
+  * Liability (each occurrence, per passenger seat, PD)
+  * Hangarkeepers, premises, products
+  * War risk (where applicable)
+- Limits and deductibles
+- Effective date and binder expiration
+- Mortgagee / loss payee / additional insured
+- Underwriter approval
+
+When used:
+- Aircraft purchase requiring immediate coverage
+- Closing on aircraft financing or lease
+- Court-ordered coverage on aviation assets
+- Bridge between policy negotiation and formal issuance
+
+Notes:
+- Aviation binders typically have stricter underwriter approval
+  requirements than standard property/casualty binders
+- Pairs with ACORD 75 (general binder) — used in lieu of when the
+  exposure is aviation-specific
+- Often paired with ACORD 21 (Certificate of Aircraft Insurance)
+  once policy issues

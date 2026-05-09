@@ -5,3 +5,41 @@ Edition: 2025-07
 Title: Watercraft Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical, may be seasonal in northern markets)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Line-of-business section for personal watercraft coverage when
+endorsed onto a personal lines policy package. Captures the
+watercraft, use, navigation area, and coverage detail. Used as a
+section within a multi-line personal submission rather than the
+stand-alone ACORD 82 (Watercraft Application).
+
+Captures:
+- Reference to underlying personal lines policy
+- Watercraft information: year, make, model, length, hull material,
+  propulsion, HIN
+- Trailer (if applicable): year, make, value
+- Use: pleasure, fishing, racing
+- Navigation area: lakes, coastal, ocean, US/international
+- Storage: in water, dry storage, trailered
+- Operator information: experience, USCG license, prior losses
+- Coverage:
+  * Hull (agreed value, ACV, deductible)
+  * Liability limit
+  * Medical payments
+  * Uninsured boater
+  * On-water towing
+- Loss history
+
+When used:
+- Adding watercraft to a multi-line personal package
+- Renewal review of watercraft coverage
+- Pairs with ACORD 82 (Watercraft Application) for stand-alone
+  policies
+
+Notes:
+- For larger yachts (typically 26+ feet), use ACORD 210 (Yacht
+  Section) instead
+- 2025-07 edition reflects current market practices for personal
+  watercraft underwriting

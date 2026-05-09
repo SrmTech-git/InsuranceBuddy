@@ -5,3 +5,38 @@ Edition: 2022-12
 Title: NFIP – Flood Insurance Cancellation / Nullification
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (existing NFIP policy)
+Transaction types: Cancellation or nullification of NFIP policy
+
+Purpose:
+Cancellation or nullification request for active NFIP policies.
+Documents the specific NFIP-approved cancellation reason and the
+effective date. Unlike many private market policies, NFIP requires
+specific reason codes for cancellation.
+
+Captures:
+- Reference to NFIP policy
+- Cancellation effective date
+- NFIP-approved cancellation reason code:
+  * Sale of property
+  * Duplicate NFIP policy
+  * Insured no longer has insurable interest
+  * Policy condemned / property destroyed
+  * Mistake in writing the policy
+  * Other approved reason
+- Refund calculation (NFIP has specific refund rules by reason)
+- Mortgagee notification (often required for federally backed loans)
+- Insured signature
+
+When used:
+- Property sold and new owner gets their own policy
+- Property destroyed and rebuilding not planned
+- Duplicate coverage discovered
+- Mortgage paid off and no other requirement for flood coverage
+
+Notes:
+- NFIP cancellation reasons are strictly defined; not every reason
+  is eligible for refund
+- Mortgagee on federally backed loans may have rights that affect
+  cancellation timing
+- Pairs with ACORD 301 (NFIP Application) for the underlying policy

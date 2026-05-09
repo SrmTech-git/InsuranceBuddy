@@ -5,3 +5,39 @@ Edition: 2015-04
 Title: NFIP – Residential Basement Floodproofing Certificate
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (rating documentation)
+Transaction types: Rating support documentation (NFIP residential basement)
+
+Purpose:
+Floodproofing certificate for residential basements in
+NFIP-participating communities that have been granted FEMA exception
+for residential basement floodproofing. A limited program — most
+residential basement floodproofing is not allowed under NFIP, but
+specific communities have approved exceptions.
+
+Captures:
+- Reference to NFIP policy or application
+- Property address
+- Community NFIP participation status
+- Community-granted floodproofing exception (must be in effect)
+- Basement floodproofing details:
+  * Floodproofing elevation
+  * Sealants, barriers
+  * Sump pumps, drainage
+  * Mechanical equipment elevation
+- Certifying engineer or architect
+- Annual maintenance plan
+
+When used:
+- Residential properties in communities with NFIP-approved
+  basement floodproofing exceptions
+- New construction or retrofits in eligible communities
+- Rare — most communities don't have basement floodproofing
+  exceptions
+
+Notes:
+- Most residential basement floodproofing is NOT allowed under NFIP
+  rules; check community participation and exception status before
+  using this form
+- Pairs with ACORD 307 (Non-Residential Floodproofing Certificate)
+  which covers the more common non-residential use case

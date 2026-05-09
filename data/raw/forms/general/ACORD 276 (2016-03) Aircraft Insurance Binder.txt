@@ -5,3 +5,35 @@ Edition: 2016-03
 Title: Aircraft Insurance Binder
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: Typically 30-90 days (binder validity period)
+Transaction types: Temporary aircraft coverage at policy inception
+
+Purpose:
+Aircraft-specific binder for temporary evidence of insurance on a
+particular aircraft. More focused than ACORD 275 (Aviation Insurance
+Binder) — captures the specific aircraft and the hull and liability
+coverage on it pending formal policy issuance.
+
+Captures:
+- Producer / agency information
+- Insured / aircraft owner / operator
+- Aircraft: N-number, make, model, year, serial number
+- Insurer(s)
+- Hull coverage (agreed value, deductibles)
+- Liability coverage (each occurrence, per passenger, PD)
+- Pilot information
+- Effective date and binder expiration
+- Lender / lessor / loss payee
+- Underwriter approval
+
+When used:
+- Aircraft purchase closing requiring immediate proof of insurance
+- Aircraft delivery from manufacturer or seller
+- Lender-required temporary coverage
+- Bridge to formal policy issuance
+
+Notes:
+- Pairs with ACORD 21 (Certificate of Aircraft Insurance) issued
+  once the policy is bound
+- Distinct from ACORD 275 (general aviation binder) which can
+  cover broader operations rather than a specific aircraft

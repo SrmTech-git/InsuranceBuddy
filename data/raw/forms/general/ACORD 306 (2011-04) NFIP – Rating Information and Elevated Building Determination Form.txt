@@ -5,3 +5,44 @@ Edition: 2011-04
 Title: NFIP – Rating Information and Elevated Building Determination Form
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (rating documentation)
+Transaction types: Rating support documentation (NFIP)
+
+Purpose:
+Rating information form for NFIP policies on elevated buildings —
+buildings raised on pilings, piers, posts, or columns above grade.
+Captures the elevation and construction characteristics that drive
+NFIP elevated building rating, particularly important in coastal V
+and VE zones.
+
+Captures:
+- Reference to NFIP policy or application
+- Property address
+- Flood zone (V, VE, AE, etc.)
+- Building elevation:
+  * Lowest floor elevation
+  * Lowest adjacent grade
+  * Base flood elevation (BFE) from FIRM
+  * Elevation of machinery and equipment
+- Foundation type:
+  * Pilings, piers, posts, columns
+  * Number and spacing of supports
+  * Foundation walls (if applicable)
+- Enclosure characteristics:
+  * Enclosed area below the elevated floor
+  * Use (parking, storage, machinery, finished living)
+  * Breakaway walls (V zone requirement)
+  * Flood vents / openings
+- Elevation Certificate reference
+- Diagram of building section (often attached)
+
+When used:
+- New NFIP business on elevated buildings (especially coastal)
+- Rating verification on existing policies
+- Substantial improvements / additions to elevated buildings
+- Re-rating after FIRM revisions
+
+Notes:
+- Elevation Certificate (FEMA Form 81-31) is the foundational
+  document; ACORD 306 supplements it for NFIP rating
+- Critical for V-zone and post-FIRM AE-zone rating

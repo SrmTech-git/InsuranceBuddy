@@ -5,3 +5,50 @@ Edition: 2022-12
 Title: National Flood Insurance Program Flood Insurance Application
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (NFIP standard)
+Transaction types: New business, renewal (NFIP / Write Your Own carriers)
+
+Purpose:
+Application for flood insurance under the National Flood Insurance
+Program (NFIP). Used by NFIP direct policies and Write Your Own
+(WYO) carriers to issue NFIP-backed flood coverage on residential
+and commercial properties.
+
+Captures:
+- Producer / agency information
+- Applicant / policyholder
+- Property address (with FEMA flood zone designation)
+- Community participation status (NFIP-participating community)
+- Flood zone (X, A, AE, AH, AO, V, VE, etc.)
+- Elevation Certificate information (where required)
+- Property occupancy:
+  * Single-family, 2-4 family, multi-family, residential
+    condominium, non-residential, mobile home
+  * Primary, secondary, rental, business
+- Building characteristics:
+  * Year built (pre-FIRM vs. post-FIRM)
+  * Number of floors, basement, crawl space
+  * Foundation type
+  * Square footage
+- Coverage requested:
+  * Building coverage
+  * Contents coverage
+  * Building deductible
+  * Contents deductible
+- Mortgagee / loss payee
+- Risk Rating 2.0 information
+- Loss history (NFIP and private flood)
+
+When used:
+- New flood insurance business
+- Required when properties in SFHAs have federally backed mortgages
+- Renewal (annual)
+- Mortgagee changes
+
+Notes:
+- NFIP transitioned to Risk Rating 2.0 in 2021 — premiums based on
+  individual property characteristics rather than flood zone alone
+- Pairs with ACORD 29 (Evidence of Flood Insurance) for mortgagee
+  evidence
+- Pre-FIRM vs. post-FIRM (FIRM = Flood Insurance Rate Map) status
+  affects rates and grandfathering

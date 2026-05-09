@@ -5,3 +5,40 @@ Edition: 2025-07
 Title: Personal Umbrella Application Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Line-of-business section for personal umbrella coverage when
+endorsed onto a personal lines package. Captures household, vehicles,
+properties, and underlying policies the umbrella sits over. Used as
+a section within a multi-line personal submission rather than the
+stand-alone ACORD 83 (Personal Umbrella Application).
+
+Captures:
+- Reference to underlying personal lines policies
+- Umbrella limit requested ($1M, $2M, $5M, higher)
+- Underlying policies (auto, HO, watercraft, etc.):
+  * Carriers
+  * Limits (must meet umbrella underlying requirements)
+  * Effective dates
+- Household members and drivers
+- Vehicles (autos, motorcycles, RVs, ATVs)
+- Watercraft, aircraft (where applicable)
+- Rental properties owned
+- Business activities, board / officer positions
+- Domestic employees
+- Loss history
+- Animals, special exposures (pools, trampolines, etc.)
+- Underwriting questions (foreign travel, criminal history, etc.)
+
+When used:
+- Adding umbrella to a multi-line personal package
+- Renewal review of umbrella limits
+- Pairs with ACORD 83 (Personal Umbrella Application) for
+  stand-alone policies
+
+Notes:
+- Underlying limits requirement is strict (typically $250/500/100K
+  auto and $300K HO)
+- 2025-07 edition reflects current carrier requirements

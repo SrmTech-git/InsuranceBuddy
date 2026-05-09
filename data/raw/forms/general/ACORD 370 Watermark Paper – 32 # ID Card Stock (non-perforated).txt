@@ -5,3 +5,31 @@ Edition: (not specified)
 Title: Watermark Paper – 32 # ID Card Stock (non-perforated)
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (physical material)
+Transaction types: N/A (physical material)
+
+Purpose:
+Physical paper stock — watermarked, 32-pound weight, without
+perforations — used for printing automobile insurance ID cards
+when the cards are cut to size by a printer or trimmer rather than
+separated by hand at perforations. For high-volume or
+custom-printed environments.
+
+Captures:
+- This is a physical paper specification, not a data form
+- Stock characteristics:
+  * 32 # weight (heavier, more durable)
+  * Watermark (fraud-prevention feature)
+  * Non-perforated (cut to size by printer / trimmer)
+
+When used:
+- High-volume ID card printing environments where mechanical cutting
+  is more efficient than hand-separation
+- Custom card layouts that don't fit the standard 4-part perforation
+- Producer offices with appropriate paper trimming equipment
+
+Notes:
+- Physical material rather than a data-bearing form
+- Pairs with ACORD 350 (20 # 4-part) and ACORD 360 (32 # 4-part)
+- Choice between perforated and non-perforated depends on the
+  printing workflow
