@@ -1,0 +1,239 @@
+Insurance Coverage Basics: Foundational Coverage Types
+======================================================
+
+This document explains the foundational coverage building blocks that
+make up most personal and commercial insurance policies. These are the
+concepts that show up everywhere in policy language, applications,
+declarations pages, and certificates — the "what does X mean?"
+reference for the most common abbreviations and coverage terms.
+
+This is a general industry-level overview. Specific policy language,
+limits, and exclusions vary by carrier, state, and form — always
+defer to the actual policy and applicable statutes for binding
+coverage determinations.
+
+
+LIABILITY FOUNDATIONS
+=====================
+
+Bodily Injury (BI)
+------------------
+Bodily Injury coverage pays for physical injury, sickness, or disease
+— including death — that an insured causes to others. It typically
+covers medical expenses, lost wages, pain and suffering, and other
+damages a claimant can recover for personal harm.
+
+In an auto policy, BI is the part of liability that responds when the
+insured driver is at fault for an accident that injures someone else.
+In a general liability policy, it covers injuries to third parties
+arising from the insured's premises, operations, or products.
+
+BI limits are usually expressed as two numbers: per-person and
+per-accident (sometimes called per-occurrence). For example,
+"100/300" means $100,000 per person and $300,000 per accident. The
+per-person limit caps any one claimant's recovery; the per-accident
+limit caps total recovery across all injured parties from a single
+event.
+
+BI does NOT cover injuries to the insured themselves — those go to
+Medical Payments, PIP, health insurance, or workers compensation
+depending on context.
+
+
+Property Damage (PD)
+--------------------
+Property Damage liability covers damage the insured causes to other
+people's property — buildings, vehicles, contents, fences, anything
+that isn't a person's body. PD is the companion to BI in liability
+coverage; together they form the bulk of standard liability protection.
+
+Auto PD typically pays to repair or replace another driver's vehicle,
+road signs the insured hits, fences, mailboxes, and similar property.
+Commercial GL PD covers damage to a customer's property at the
+insured's premises, damage caused by the insured's products after they
+leave, or damage during operations on someone else's property.
+
+PD limits are usually expressed as a single per-accident number —
+"25" in "100/300/25" means $25,000 of property damage coverage per
+accident.
+
+
+Combined Single Limit (CSL)
+---------------------------
+A Combined Single Limit replaces the BI per-person, BI per-accident,
+and PD limits with one shared bucket. For example, a $1,000,000 CSL
+means up to $1M total can be paid for any combination of BI and PD
+from one accident — no internal sublimits.
+
+CSL is more flexible than split limits because the full limit can
+apply to a single person if needed, but it usually costs more for
+equivalent overall protection.
+
+
+Medical Payments (MP / Med Pay)
+-------------------------------
+Medical Payments is no-fault coverage that pays medical bills for the
+insured, passengers (in an auto policy), or guests on the premises (in
+a homeowners policy), regardless of who was at fault. It's typically a
+smaller limit ($1,000 to $10,000 is common) and pays quickly without
+litigation.
+
+MP fills gaps that BI doesn't address. If a passenger is injured in
+the insured's car, BI might not respond if no one is legally liable,
+but MP pays the medical bills anyway. In a homeowners policy, MP pays
+for guests who are injured on the property.
+
+
+Premises Liability
+------------------
+Premises liability is the part of general liability covering injuries
+that happen on, or as a result of, the insured's physical premises.
+Slips and falls, trips, falling objects, inadequate maintenance —
+these are premises claims. Premises liability is usually the bulk of a
+small business's GL exposure.
+
+
+Products and Completed Operations
+---------------------------------
+This part of GL covers injuries or damage caused by the insured's
+products after they leave the insured's possession, or by the
+insured's work after the job is complete. A contractor whose installed
+deck collapses six months later, a manufacturer whose product injures
+a consumer, a restaurant whose food causes illness — these are
+products / completed operations claims.
+
+This coverage typically has its own aggregate limit separate from the
+general aggregate.
+
+
+Personal and Advertising Injury
+-------------------------------
+This part of GL covers a specific list of "personal" wrongs — false
+arrest, malicious prosecution, wrongful eviction, defamation (libel
+and slander), violation of right of privacy — and "advertising"
+wrongs like copyright infringement in advertising or use of another's
+advertising idea.
+
+Despite the name, "personal injury" here doesn't mean bodily injury
+(the standard auto/GL definition is different). It's a separate
+category of intentional-tort-like exposures.
+
+
+General Liability (GL)
+----------------------
+General Liability is the broad category of coverage protecting a
+business from third-party claims for bodily injury, property damage,
+and personal/advertising injury arising out of premises, operations,
+products, and completed operations. It does NOT cover injuries to the
+insured's own employees (workers compensation territory), professional
+errors (E&O / professional liability), or auto-related liability
+(commercial auto).
+
+Most commercial businesses carry GL as a baseline. The standard ISO
+Commercial General Liability form (CGL) bundles premises, operations,
+products / completed operations, personal & advertising injury, and
+medical payments under one policy.
+
+
+AUTO-SPECIFIC COVERAGES
+=======================
+
+Uninsured Motorist (UM)
+-----------------------
+Uninsured Motorist coverage protects the insured when they're injured
+by a driver who has no liability insurance. Since the at-fault driver
+can't pay (no insurance), UM steps in and pays the insured for their
+bodily injury — essentially reaching into the insured's own policy as
+a substitute for the missing liable party's coverage.
+
+UM is required in some states and optional in others. Where optional,
+it's typically offered at limits matching the policy's BI limits
+unless the insured rejects it in writing.
+
+
+Underinsured Motorist (UIM)
+---------------------------
+Underinsured Motorist covers the gap when an at-fault driver has SOME
+insurance but not enough. If the insured's damages exceed the at-fault
+driver's limits, UIM picks up the difference up to the UIM limit. UM
+and UIM are commonly bundled as "UM/UIM" since the structure and
+rationale are nearly identical.
+
+
+Personal Injury Protection (PIP)
+--------------------------------
+PIP is no-fault medical and economic loss coverage on auto policies,
+primarily found in no-fault states (Florida, Michigan, New York, New
+Jersey, and others). It pays the insured's medical bills, lost wages,
+and sometimes essential services costs after an accident — regardless
+of who was at fault — up to the PIP limit.
+
+PIP requirements and structure vary heavily by state. Some states
+make PIP mandatory; others make it optional with rejection
+requirements; a few don't have PIP at all.
+
+
+Collision (Coll)
+----------------
+Collision pays for damage to the insured's own vehicle from impact —
+hitting another vehicle, object, or rolling over — regardless of
+fault. Subject to a deductible.
+
+
+Comprehensive / Other Than Collision (OTC)
+------------------------------------------
+Comprehensive (sometimes called "Other Than Collision") covers damage
+to the insured's vehicle from causes other than collision: fire,
+theft, vandalism, hail, flood, hitting an animal, falling objects.
+Subject to a deductible, often lower than collision.
+
+Together, Collision and Comprehensive are the "physical damage"
+portion of an auto policy — they protect the vehicle itself rather
+than third parties.
+
+
+LIMIT STRUCTURES
+================
+
+Split Limits
+------------
+Split limits express liability coverage as three numbers: BI per
+person / BI per accident / PD per accident. Example: 25/50/25 means
+$25,000 per person BI, $50,000 per accident BI, $25,000 PD per
+accident. Split limits are common on personal auto and small
+commercial auto.
+
+
+Aggregate Limits
+----------------
+An aggregate limit caps the total amount the policy will pay during a
+policy period (usually 12 months) regardless of how many claims
+occur. GL policies typically have a general aggregate (for premises
+and operations) and a separate products / completed operations
+aggregate. Once the aggregate is exhausted, the policy doesn't pay
+further claims that period — even if individual per-occurrence limits
+remain.
+
+
+Per-Occurrence Limits
+---------------------
+The most a policy will pay for any one occurrence (event triggering
+coverage). Each new occurrence has its own per-occurrence limit, but
+each one also draws from the aggregate.
+
+
+Deductibles, Self-Insured Retentions (SIR), and Coinsurance
+-----------------------------------------------------------
+Deductible: the insured pays the first dollar amount of a covered
+loss before the policy responds. The carrier handles defense and
+pays losses, then bills the insured for the deductible.
+
+Self-Insured Retention (SIR): similar to a deductible, but the
+insured handles the loss (including defense) up to the retention
+amount; the carrier doesn't get involved until the SIR is exhausted.
+
+Coinsurance: a property insurance concept — if the insured doesn't
+carry coverage at the percentage of value required (e.g. 80% or 90%),
+partial losses get penalized. A 90% coinsurance clause says the
+insured must carry coverage at 90% of replacement cost; carrying less
+means losses are paid at a reduced ratio.
