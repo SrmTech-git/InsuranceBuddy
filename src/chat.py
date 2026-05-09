@@ -277,19 +277,20 @@ def _handle_inventory(question: str, collections: list[str]) -> str | None:
     return "\n".join(lines)
 
 
-def _resolve_form_filter(question: str) -> tuple[dict | None, str | None, str | None]:
+def _resolve_form_filter(question: str) -> tuple[dict | None, list[str] | None, str | None]:
     """If the question names form numbers, locate them and return routing info.
 
-    Multi-form comparison queries (e.g. "What's the difference between
-    ACORD 24 and ACORD 28?") return an $or filter over all detected forms,
-    scoped to the single collection they share. If detected forms span
-    multiple collections, falls through to semantic search so the
-    comparison fast-path can handle it.
+    Single-form / single-collection: scope retrieval to that collection.
+    Multi-form same-collection: $or filter scoped to the shared collection.
+    Multi-form cross-collection: $or filter spanning the relevant collections.
+        Each chunk's form_number metadata only matches one $or branch, so
+        chunks from each collection are correctly filtered while semantic
+        search still operates broadly.
 
     Returns:
-        (filters, collection_name, None)  — form(s) found; use these for retrieval
-        (None, None, None)                — no form number, OR cross-collection,
-                                             OR detected forms not found in DB
+        (filters, collections_list, None)  — form(s) found; use these for retrieval
+        (None, None, None)                  — no form number OR detected forms
+                                              not found in DB
     """
     form_numbers = detect_form_numbers(question)
 
@@ -325,24 +326,16 @@ def _resolve_form_filter(question: str) -> tuple[dict | None, str | None, str | 
                     ", ".join(form_numbers))
         return None, None, None
 
-    # If forms span multiple collections, fall through. The cross-collection
-    # re-ranker will pull relevant chunks via semantic search.
-    collections = set(found_in.values())
-    if len(collections) > 1:
-        logger.info("Forms span multiple collections (%s) — falling back to semantic search",
-                    ", ".join(sorted(collections)))
-        return None, None, None
-
-    collection_name = next(iter(collections))
     matched_forms = list(found_in.keys())
+    collections = sorted(set(found_in.values()))  # deterministic order
 
     if len(matched_forms) == 1:
         filters: dict = {"form_number": matched_forms[0]}
     else:
         filters = {"$or": [{"form_number": fn} for fn in matched_forms]}
 
-    logger.info("Searching %s: %s", collection_name, ", ".join(matched_forms))
-    return filters, collection_name, None
+    logger.info("Searching %s: %s", " + ".join(collections), ", ".join(matched_forms))
+    return filters, collections, None
 
 
 def _retrieve_chunks(
@@ -442,11 +435,11 @@ def ask(question: str) -> str:
     if inventory_response is not None:
         return inventory_response
 
-    filters, form_collection, error = _resolve_form_filter(question)
+    filters, form_collections, error = _resolve_form_filter(question)
     if error:
         return error
-    if form_collection:
-        collections = [form_collection]
+    if form_collections:
+        collections = form_collections
 
     # Detect states and combine with any form-number filter
     states = detect_states(question)
