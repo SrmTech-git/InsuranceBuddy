@@ -61,9 +61,14 @@ COLLECTION_REGISTRY: dict[str, str] = {
     "forms": "insurance forms and document templates — declarations pages, applications, endorsements, certificates of insurance, ACORD/ISO forms, and state-required notice forms",
 }
 
-# Known form-number prefixes in the regulatory collection.
-# Used to resolve bare section numbers like "4509.51" -> "ORC4509.51".
-_KNOWN_PREFIXES = ("ORC", "OAC")
+# Known form-number prefixes across collections.
+# - ORC/OAC: regulatory (Ohio statutes / admin code) — stored without
+#   spaces (e.g. "ORC3937.18", "OAC3901-1-54")
+# - ACORD: forms (industry-standard ACORD forms) — stored with a
+#   single space (e.g. "ACORD 25", "ACORD 50WM")
+# detect_form_number normalizes user queries to match the stored format
+# of whichever prefix it sees.
+_KNOWN_PREFIXES = ("ORC", "OAC", "ACORD")
 
 
 # ---------------------------------------------------------------------------
@@ -71,17 +76,28 @@ _KNOWN_PREFIXES = ("ORC", "OAC")
 # ---------------------------------------------------------------------------
 
 def detect_form_number(text: str) -> str | None:
-    """Return a normalized form number if the query contains one, else None."""
-    # Only match known prefixes (ORC, OAC) to avoid false positives on
-    # common English words like "does", "can", "from", "code", etc.
+    """Return a normalized form number if the query contains one, else None.
+
+    Normalization matches how each prefix is stored in metadata:
+    - ORC/OAC strip spaces ("ORC 3937.18" -> "ORC3937.18")
+    - ACORD preserves a single space ("ACORD25" or "acord 25" -> "ACORD 25")
+
+    The regex allows an alphabetic suffix after the digits to handle
+    ACORD forms like 50WM, 60US, 64US.
+    """
     prefixes = "|".join(_KNOWN_PREFIXES)
     match = re.search(
-        rf"\b((?:{prefixes})\s?\d+(?:[.\-]\d+)*)\b", text, re.IGNORECASE
+        rf"\b((?:{prefixes})\s*\d+[A-Z]*(?:[.\-]\d+)*)\b", text, re.IGNORECASE
     )
     if not match:
         return None
-    # Normalize: uppercase and collapse any spaces (e.g. "ORC 3937.18" -> "ORC3937.18")
-    return match.group(1).upper().replace(" ", "")
+    raw = match.group(1).strip().upper()
+    if raw.startswith("ACORD"):
+        # ACORD stored as "ACORD <number>" — collapse any whitespace
+        # variants in the user's query to a single space.
+        return f"ACORD {raw[5:].lstrip()}"
+    # ORC / OAC stored without spaces.
+    return raw.replace(" ", "")
 
 
 def detect_bare_section(text: str) -> str | None:

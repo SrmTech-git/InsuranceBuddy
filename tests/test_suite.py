@@ -315,6 +315,31 @@ class TestDetectFormNumber(unittest.TestCase):
         result = self.detect_bare("What is the 12 month rule?")
         self.assertIsNone(result)
 
+    def test_acord_with_space(self):
+        """ACORD detection preserves the space (matches stored format)."""
+        result = self.detect("What is ACORD 25?")
+        self.assertEqual(result, "ACORD 25")
+
+    def test_acord_without_space(self):
+        """ACORD25 should normalize to "ACORD 25" with a single space."""
+        result = self.detect("Tell me about ACORD25")
+        self.assertEqual(result, "ACORD 25")
+
+    def test_acord_with_alpha_suffix(self):
+        """ACORD with a suffix like 50WM, 60US should resolve cleanly."""
+        result = self.detect("What about ACORD 50WM?")
+        self.assertEqual(result, "ACORD 50WM")
+
+    def test_acord_lowercase(self):
+        """Case-insensitive matching: lowercase 'acord 25' -> 'ACORD 25'."""
+        result = self.detect("explain acord 25 please")
+        self.assertEqual(result, "ACORD 25")
+
+    def test_orc_still_strips_space(self):
+        """Adding ACORD must not change ORC's no-space normalization."""
+        result = self.detect("What does ORC 3937.18 say?")
+        self.assertEqual(result, "ORC3937.18")
+
 
 class TestIsInventoryQuery(unittest.TestCase):
     def setUp(self):
