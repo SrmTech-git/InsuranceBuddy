@@ -5,3 +5,46 @@ Edition: 2016-03
 Title: Directors & Officers Liability Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical, claims-made)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Line-of-business section for Directors and Officers (D&O) liability
+coverage — protects company directors and officers from personal
+liability arising from their decisions in those capacities. Coverage
+parts typically include Side A (individual D&O), Side B
+(reimbursement to corporation), and Side C (entity coverage for
+public companies).
+
+Captures:
+- Reference to ACORD 125
+- Entity type (public, private, non-profit)
+- Industry / business operations
+- Annual revenue, market cap (public)
+- Number of directors and officers
+- Subsidiaries / joint ventures
+- Foreign operations
+- Recent transactions (M&A, IPO, secondary offerings)
+- Litigation history (current, threatened, recent settled)
+- Regulatory investigations / enforcement actions
+- Coverage parts requested:
+  * Side A (non-indemnifiable D&O)
+  * Side B (corporate reimbursement)
+  * Side C (entity coverage for securities claims, public)
+  * EPL (employment practices) — often packaged with D&O
+- Limits and self-insured retentions
+- Claims-made retroactive date
+- Loss history (D&O specific)
+
+When used:
+- Public company D&O
+- Private company D&O
+- Non-profit D&O
+- D&O placement at IPO
+- Renewal review
+
+Notes:
+- D&O is virtually always claims-made; retroactive date and tail
+  coverage matter
+- Side A coverage (non-indemnifiable) is critical for individual
+  directors when the company can't or won't indemnify

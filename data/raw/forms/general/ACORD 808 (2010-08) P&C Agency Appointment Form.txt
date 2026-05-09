@@ -5,3 +5,31 @@ Edition: 2010-08
 Title: P&C Agency Appointment Form
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (administrative form)
+Transaction types: Producer / agency appointment with carrier
+
+Purpose:
+Carrier-issued agency appointment form establishing a property and
+casualty agency's authority to write business with the carrier.
+Captures the agency's licensing, authorities, and contractual
+arrangement with the carrier.
+
+Captures:
+- Agency name, address, FEIN
+- Producer / individual agents to be appointed
+- Lines of authority (P&C, surplus lines, etc.)
+- Geographic territory
+- Commission structure
+- Production goals / minimums
+- Authorized signatories
+- E&O insurance details
+- Compliance certifications
+
+When used:
+- New agency appointments with a carrier
+- Adding individual agents to an existing agency appointment
+- Renewal / recertification
+
+Notes:
+- Pairs with ACORD 200 (Producer Account)
+- State-specific appointment filings may also be required

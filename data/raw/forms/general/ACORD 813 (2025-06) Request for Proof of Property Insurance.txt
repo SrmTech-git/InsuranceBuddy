@@ -5,3 +5,35 @@ Edition: 2025-06
 Title: Request for Proof of Property Insurance
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (administrative request)
+Transaction types: Property insurance proof request
+
+Purpose:
+Form used to request proof of property insurance from an insured
+or producer — typically by a mortgagee, lessor, or contracting
+party who needs evidence of coverage. Captures what documentation
+the requester needs and where to send it.
+
+Captures:
+- Requester name, contact, role (mortgagee, lessor, vendor)
+- Insured / property reference
+- Property location
+- Loan / lease / contract reference
+- Type of proof requested:
+  * ACORD 24 (Certificate of Property Insurance)
+  * ACORD 27 / 28 (Evidence of Property Insurance)
+  * ACORD 29 (Evidence of Flood Insurance)
+- Specific coverage requirements (limits, deductibles, mortgagee
+  clause, additional insured)
+- Where / how to deliver the proof
+- Deadline for delivery
+
+When used:
+- Mortgagees requesting evidence at loan inception or renewal
+- Lessors requiring proof of tenant insurance
+- Contracting parties requesting insurance evidence
+- Loan servicing transfers requiring re-issuance to new servicer
+
+Notes:
+- Initiates issuance of ACORD 24, 27, 28, or 29 depending on the
+  type of proof required

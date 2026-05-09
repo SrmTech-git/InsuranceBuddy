@@ -5,3 +5,33 @@ Edition: 2015-12
 Title: Additional Premises Information Schedule
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: Matches underlying policy
+Transaction types: Attached to new business / renewal / mid-term change
+
+Purpose:
+Schedule capturing additional commercial premises beyond what the
+primary application accommodates. Used for multi-location operations
+where ACORD 125 / 140 doesn't have space for all locations, or for
+adding premises mid-term.
+
+Captures:
+- Reference to underlying commercial application
+- For each additional premises:
+  * Address
+  * Building number / suite / unit
+  * Construction (COPE: construction, occupancy, protection,
+    exposure)
+  * Year built, square footage
+  * Building value, BPP value, BI value
+  * Coverage form
+  * Deductibles
+  * Local protection (FD, hydrants, alarms, sprinklers)
+  * Mortgagee / additional interest
+
+When used:
+- Multi-location commercial property submissions
+- Mid-term acquisitions adding premises
+- Lease additions (new tenant locations)
+
+Notes:
+- Pairs with ACORD 140 (Property Section) and ACORD 139 (SOV)

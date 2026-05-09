@@ -5,3 +5,34 @@ Edition: 2015-10
 Title: Producer Information Form (PIF)
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (administrative form)
+Transaction types: Producer onboarding / appointment maintenance
+
+Purpose:
+Producer Information Form used to capture and maintain individual
+producer information for carrier appointments — the agent or broker
+acting under an agency contract. Pairs with ACORD 808 (P&C Agency
+Appointment Form) which appoints the agency itself; PIF maintains
+the individual producers under that agency.
+
+Captures:
+- Producer name, address, contact
+- National Producer Number (NPN)
+- State licenses (state, license number, lines of authority,
+  expiration)
+- Continuing education compliance
+- Date of birth (for license verification)
+- Employment history with insurance industry
+- Disciplinary / regulatory history
+- E&O coverage details
+
+When used:
+- Adding individual producers to an agency appointment
+- Annual license verification
+- Producer transitions between agencies
+
+Notes:
+- NPN is a unique identifier maintained by NIPR for cross-state
+  producer tracking
+- Pairs with ACORD 808 (Agency Appointment) and ACORD 200 (Producer
+  Account)

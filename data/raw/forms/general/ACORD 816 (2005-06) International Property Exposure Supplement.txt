@@ -5,3 +5,36 @@ Edition: 2005-06
 Title: International Property Exposure Supplement
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical commercial term)
+Transaction types: New business / renewal underwriting (international property)
+
+Purpose:
+Underwriting supplement for international property exposures —
+foreign-located property, property in transit internationally, and
+property of US-based businesses operating abroad. Captures
+locations, values, and protection details for international
+property risk.
+
+Captures:
+- Reference to ACORD 125 / 140
+- Foreign property locations:
+  * Address / city / country
+  * Type (office, manufacturing, warehouse, retail)
+  * Building value, BPP value, BI value
+  * Construction, occupancy, protection
+- Local protection class (varies dramatically by country)
+- Catastrophe exposure (earthquake, typhoon, political risk)
+- Local insurance requirements / Admitted vs. non-admitted coverage
+- Master / DIC structure (Difference in Conditions)
+- Cargo in transit internationally
+- Loss history
+
+When used:
+- Multinational property programs
+- Foreign subsidiary operations
+- International expansion underwriting
+
+Notes:
+- Many countries require admitted (locally licensed) insurance,
+  with US program providing DIC / DIL coverage on top
+- Pairs with ACORD 815 (International Liability Exposure)

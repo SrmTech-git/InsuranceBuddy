@@ -5,3 +5,40 @@ Edition: 2015-10
 Title: Disclosure of Intent to Obtain Consumer Report or Investigative Consumer Report (except California)
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (disclosure document)
+Transaction types: FCRA-required disclosure prior to obtaining consumer reports
+
+Purpose:
+Federally required disclosure under the Fair Credit Reporting Act
+(FCRA) informing the consumer that the insurer intends to obtain a
+consumer report or investigative consumer report. Must be provided
+before the report is obtained. Specifically excludes California,
+which has its own enhanced disclosure requirements (ICRAA).
+
+Captures:
+- Consumer (insured / applicant) name and contact
+- Disclosure that a consumer report and/or investigative consumer
+  report will be obtained
+- Purpose of the report (underwriting, employment, etc.)
+- Consumer's rights under FCRA:
+  * Right to request additional information about the
+    investigative report
+  * Right to a free copy if adverse action is taken based on the
+    report
+  * Right to dispute inaccurate information
+- Disclosure of consumer reporting agency (where known)
+- Effective date
+
+When used:
+- Personal lines underwriting using credit-based insurance scoring
+- Pre-employment screening (where insurance is involved)
+- Claim investigation involving consumer reports
+- New producer appointment due diligence
+
+Notes:
+- California has separate ICRAA disclosure requirements; this form
+  applies in all other states
+- Pairs with ACORD 876 (Background Check Authorization) — disclosure
+  precedes authorization
+- Adverse action notices have separate requirements when reports
+  result in unfavorable underwriting decisions

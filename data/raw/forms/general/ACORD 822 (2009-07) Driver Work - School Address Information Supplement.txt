@@ -5,3 +5,35 @@ Edition: 2009-07
 Title: Driver Work / School Address Information Supplement
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: Matches underlying auto policy
+Transaction types: New business / renewal underwriting (driver garaging)
+
+Purpose:
+Supplement capturing driver work and school addresses for personal
+auto underwriting — particularly relevant for college students
+attending out-of-state schools, employees with long commutes, and
+households where vehicles are garaged at non-residence addresses
+during the day or workweek.
+
+Captures:
+- Reference to underlying auto policy
+- For each driver:
+  * Home / residence address
+  * Work address (employer, location)
+  * School address (where applicable, for student drivers)
+  * Days / hours per week at each location
+  * Vehicle assigned / driven to each location
+  * Out-of-state college status
+  * Garaging at work / school (overnight, weekday, weekend)
+
+When used:
+- Personal auto with college students attending out-of-state
+- Long-distance commuters
+- Employees garaging vehicles at work
+- Mid-term driver / address changes
+
+Notes:
+- Garaging address can affect rates substantially — territory
+  rating uses primary garaging address
+- Out-of-state college student status requires specific carrier
+  endorsement in many states

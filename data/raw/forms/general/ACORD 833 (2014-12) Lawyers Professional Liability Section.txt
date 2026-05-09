@@ -5,3 +5,57 @@ Edition: 2014-12
 Title: Lawyers Professional Liability Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical, claims-made)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Line-of-business section for Lawyers Professional Liability (LPL)
+coverage — protects attorneys, law firms, and legal staff from
+malpractice claims arising from legal services. Captures the
+practice-specific detail driving LPL underwriting.
+
+Captures:
+- Reference to ACORD 825
+- Firm structure (solo, partnership, PLLC, professional corporation)
+- Number of attorneys (partners, associates, of counsel,
+  contractors)
+- Bar admission states
+- Years in practice
+- Revenue
+- Practice areas (% of revenue):
+  * Corporate / transactional
+  * Litigation / trial work
+  * Real estate
+  * Wills, trusts, estates
+  * Tax
+  * IP
+  * Securities
+  * Personal injury (plaintiff or defense)
+  * Family law
+  * Criminal defense
+  * Other specialties
+- High-risk practice areas (often subject to surcharge or exclusion):
+  * Securities
+  * Patent
+  * Class actions
+  * Foreign / international
+- Client matter management:
+  * Conflict checks
+  * Engagement letters
+  * Statute of limitations docketing
+  * Trust account procedures
+- Bar association disciplinary / grievance history
+- Claims history (open, closed, reserves)
+- Claims-made retroactive date and tail provisions
+
+When used:
+- Solo practitioner LPL
+- Firm LPL submissions
+- Renewal review
+- New attorneys joining a firm
+
+Notes:
+- LPL is heavily state-specific — bar association requirements,
+  disciplinary procedures, and minimum coverage rules vary
+- Tail / Extended Reporting Period at policy expiration is
+  critical for retiring attorneys

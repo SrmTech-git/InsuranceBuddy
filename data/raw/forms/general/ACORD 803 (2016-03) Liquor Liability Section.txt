@@ -5,3 +5,43 @@ Edition: 2016-03
 Title: Liquor Liability Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical commercial term)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Line-of-business section for liquor liability (dram shop) coverage —
+required by establishments serving alcoholic beverages. Covers the
+unique liability exposure of selling, serving, or furnishing alcohol
+to a patron who later causes injury or property damage.
+
+Captures:
+- Reference to ACORD 125 / 185 (Restaurant / Tavern Supplement)
+- Type of operation (restaurant, bar, tavern, nightclub, brewery,
+  package store)
+- Annual liquor sales / total sales (% from alcohol)
+- Hours of operation (especially late-night service)
+- Service practices:
+  * TIPS / responsible service training
+  * ID checking procedures
+  * Refusal of service policies
+- Age / geographic limitations
+- Entertainment (live music, DJ, dance floor — increases late-night
+  liquor exposure)
+- BYOB or off-premises sales
+- Coverage limits (each occurrence, aggregate)
+- Defense within or outside limits
+- Loss history (dram shop claims)
+
+When used:
+- Restaurants and bars
+- Hotels with bar / lounge
+- Liquor stores (off-premises)
+- Caterers serving alcohol
+- Special event hosts
+
+Notes:
+- Dram shop laws are heavily state-specific — some states (Texas,
+  some others) have very high statutory damages, others have caps
+  or limit liability
+- Pairs with ACORD 185 (Restaurant / Tavern Supplement) and ACORD
+  802 (Hotel / Motel Supplement)

@@ -5,3 +5,40 @@ Edition: 2016-05
 Title: Professional / Specialty Insurance Application – For Use in Management, Executive & Professional Lines Applicant Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical, claims-made for most lines)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Master applicant information section for professional and specialty
+lines submissions — D&O, EPL, fiduciary, employed lawyers, miscellaneous
+professional, errors and omissions. Counterpart to ACORD 125 for
+management / executive / professional lines coverage rather than
+standard commercial P&C.
+
+Captures:
+- Producer / agency information
+- Applicant entity name, FEIN, state of incorporation
+- Entity type (public, private, non-profit, governmental, mutual)
+- Industry / SIC / NAICS
+- Annual revenue / total assets / market cap (public)
+- Number of employees, directors, officers
+- Subsidiaries and JVs
+- Recent corporate transactions
+- Foreign operations
+- Stock ownership structure (institutional, insider, public float)
+- Recent litigation, regulatory, or enforcement actions
+- Existing coverages (D&O, EPL, fiduciary, E&O)
+- Coverage requested (with cross-reference to specific section)
+- Loss history (claims, regulatory matters, complaints)
+
+When used:
+- D&O submissions (pairs with ACORD 807)
+- Employment Practices Liability submissions (pairs with ACORD 827)
+- Fiduciary Liability (pairs with ACORD 828)
+- Professional / specialty E&O (pairs with ACORD 832, 833, 838)
+- Cyber and privacy (pairs with ACORD 834)
+
+Notes:
+- Distinct from ACORD 125 — captures the executive-line-specific
+  exposures (corporate governance, financial structure, public
+  filings) that traditional commercial submissions don't

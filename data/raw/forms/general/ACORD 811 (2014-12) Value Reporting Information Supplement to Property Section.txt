@@ -5,3 +5,40 @@ Edition: 2014-12
 Title: Value Reporting Information Supplement to Property Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical, with monthly / quarterly reporting)
+Transaction types: Reporting form policy underwriting / monthly value reports
+
+Purpose:
+Underwriting and reporting supplement for value-reporting commercial
+property policies — typically used by businesses with fluctuating
+inventory values (retail, manufacturing, distribution) where flat
+limits don't fit. Captures the reporting structure and historical
+values needed to set reporting policy parameters.
+
+Captures:
+- Reference to ACORD 140 (Property Section)
+- Reporting form selected:
+  * Monthly value reporting
+  * Quarterly value reporting
+  * Annual value reporting
+- Maximum (or "limit of insurance") values per location
+- Premium calculation (deposit premium based on average value;
+  audit at end of term)
+- Historical inventory / value patterns:
+  * Seasonal peaks and valleys
+  * Year-over-year growth trends
+- Locations covered
+- Reporting forms / process
+
+When used:
+- Retailers with seasonal inventory swings (toys, holiday goods)
+- Manufacturers with WIP and finished goods variability
+- Distributors and wholesalers
+- Multi-location operations with shifting inventory
+
+Notes:
+- Reporting forms can save premium for businesses with major
+  seasonal swings vs. flat limits
+- Failure to report timely can trigger reduced coverage (penalty
+  clause)
+- Pairs with ACORD 140 and ACORD 810

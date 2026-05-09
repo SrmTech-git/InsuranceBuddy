@@ -5,3 +5,38 @@ Edition: 2006-02
 Title: Agency Questionnaire
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (administrative questionnaire)
+Transaction types: Carrier appointment / due diligence
+
+Purpose:
+Detailed questionnaire issued by a carrier to an agency as part of
+the appointment due-diligence process. Captures the agency's
+operations, ownership, financial condition, and compliance posture
+beyond the basic ACORD 200 / 808 appointment forms.
+
+Captures:
+- Agency ownership structure (principals, % ownership)
+- Years in business
+- Number of employees and producers
+- Specialties / classes of business written
+- Carriers represented (current and recent)
+- E&O insurance details (carrier, limits, any claims)
+- Financial information (revenue, profitability, premium volume)
+- Sub-producers / downline producers
+- Office locations
+- Trust account / premium handling procedures
+- Compliance with state regulations
+- Disciplinary / regulatory history
+- References
+
+When used:
+- New agency appointments
+- Carrier due diligence on existing appointments
+- Annual recertification with carriers
+- Acquisition due diligence on agency targets
+
+Notes:
+- Pairs with ACORD 200 (Producer Account) and ACORD 808 (P&C
+  Agency Appointment Form)
+- Edition is from 2006 — many carriers have proprietary
+  questionnaires now

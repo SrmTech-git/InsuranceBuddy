@@ -5,3 +5,45 @@ Edition: 2019-09
 Title: Professional / Specialty Insurance Notice of Incident / Claim
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (claim notification)
+Transaction types: N/A (claim / incident notification)
+
+Purpose:
+First Notice of Loss / Incident form for professional and specialty
+lines policies — D&O, E&O, EPL, fiduciary, cyber, professional
+liability. Captures incident or formal claim details on claims-made
+policies, where timely notice during the policy period is a
+coverage condition.
+
+Captures:
+- Producer / agency information
+- Insured name, policy number
+- Notice type:
+  * Notice of incident (potential claim, no demand yet)
+  * Notice of claim (formal demand, suit, regulatory action)
+- Date of incident vs. date insured first became aware
+- Date insured was first contacted by claimant / regulator
+- Description of incident or claim:
+  * For E&O / professional: alleged error, omission, or wrongful act
+  * For D&O: alleged breach of duty, mismanagement
+  * For EPL: alleged employment practice violation
+  * For cyber: nature of breach, data affected
+- Claimant information (claimant, attorney, regulator)
+- Demand amount or alleged damages
+- Authorities contacted
+- Witnesses
+- Insured's initial response
+
+When used:
+- All claims-made specialty lines (D&O, EPL, fiduciary, cyber, E&O)
+- Notice of circumstances that could become claims
+- Pre-suit demand letters
+- Regulatory investigations / enforcement actions
+
+Notes:
+- Claims-made policies require notice WITHIN the policy period —
+  late notice is the leading cause of coverage denial
+- "Notice of incident" path preserves coverage even before a
+  formal claim is made
+- Pairs with ACORD 825 (and the line-specific sections 807, 827,
+  828, 832, 833, 834, 838)

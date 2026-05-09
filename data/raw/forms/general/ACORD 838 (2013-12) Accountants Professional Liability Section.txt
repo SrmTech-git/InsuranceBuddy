@@ -5,3 +5,55 @@ Edition: 2013-12
 Title: Accountants Professional Liability Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical, claims-made)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Line-of-business section for Accountants Professional Liability —
+protects CPAs, accounting firms, and accounting staff from
+malpractice claims arising from accounting, tax, audit, and
+advisory services.
+
+Captures:
+- Reference to ACORD 825
+- Firm structure
+- Number of professionals (CPAs, EAs, staff)
+- State licensing
+- Years in practice
+- Revenue
+- Service mix (% of revenue):
+  * Audit / attest (highest risk)
+  * Tax preparation and planning
+  * Bookkeeping / write-up
+  * Consulting / advisory
+  * Personal financial planning
+  * Forensic / litigation support
+  * Business valuation
+- Audit clients:
+  * Public companies (SEC registrants — typically excluded or
+    carefully underwritten)
+  * Non-profits (single audits / Yellow Book)
+  * Government entities
+  * Privately held companies
+  * Sizes (revenue ranges)
+- Tax practice:
+  * Individual vs. business tax returns
+  * IRS audit representation
+  * High-risk areas (offshore, complex partnerships, R&D credits)
+- Quality control:
+  * Peer review compliance
+  * Engagement letters
+  * Documentation standards
+- Claims history
+- Claims-made retroactive date
+
+When used:
+- CPA firm new business
+- Renewal review
+- Firm transitions (mergers, splits)
+
+Notes:
+- Audit work is the highest-risk service line — many carriers
+  surcharge or exclude SEC audit work
+- Peer review compliance (AICPA / state) is critical for
+  underwriting

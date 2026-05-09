@@ -5,3 +5,44 @@ Edition: 2009-02
 Title: International Liability Exposure Supplement
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical commercial term)
+Transaction types: New business / renewal underwriting (international liability)
+
+Purpose:
+Underwriting supplement for businesses with international liability
+exposure — foreign operations, foreign sales, international travel
+of employees, products distributed abroad. Captures geographic
+distribution and exposure detail that drives international liability
+and foreign voluntary workers compensation rating.
+
+Captures:
+- Reference to ACORD 125 / 126
+- Foreign operations:
+  * Countries with offices / facilities
+  * Number of employees abroad (US nationals, third country
+    nationals, local hires)
+  * Business activities in each country
+- Foreign sales / exports:
+  * Countries shipped to
+  * Annual export sales by region
+  * Products exported
+- Employee international travel:
+  * Frequency, destinations
+  * Business purpose
+- Coverage requested:
+  * Foreign liability (CGL extended overseas)
+  * Foreign voluntary WC
+  * Defense base act (where applicable)
+  * Kidnap and ransom
+  * Political risk
+- Loss history (international claims)
+
+When used:
+- Domestic businesses with foreign sales / operations
+- Multinational enterprises
+- Renewal review of international footprint
+
+Notes:
+- Pairs with ACORD 816 (International Property Exposure Supplement)
+- Foreign Voluntary WC is critical — domestic WC typically doesn't
+  cover injuries abroad

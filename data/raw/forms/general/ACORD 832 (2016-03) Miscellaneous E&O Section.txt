@@ -5,3 +5,39 @@ Edition: 2016-03
 Title: Miscellaneous E&O Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical, claims-made)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Generic professional / errors and omissions section for professions
+without dedicated forms — consultants, real estate professionals,
+property managers, insurance agents (where applicable), various
+service professionals. Captures profession-specific exposures
+modularly.
+
+Captures:
+- Reference to ACORD 825
+- Profession / services performed
+- Annual revenue and number of professionals
+- Years in practice
+- Services performed in detail (descriptions, % of revenue)
+- Client mix and industries served
+- Geographic scope
+- Claims-made retroactive date and tail provisions
+- Coverage limits and deductible / SIR
+- Defense within or outside limits
+- Subcontractor / independent contractor use
+- Engagement letter / contract practices
+- Quality control / peer review
+- Loss history (E&O claims, regulatory complaints)
+
+When used:
+- Generic E&O for professions without dedicated forms
+- Hybrid service professions (consultants, advisors)
+- Renewal review
+
+Notes:
+- Specific professions have dedicated forms (833 lawyers, 838
+  accountants, 196 medical, etc.) — use those when available
+- Pairs with ACORD 187 (Professional Liability Supplement) for
+  detailed risk profile

@@ -5,3 +5,35 @@ Edition: 2009-05
 Title: Forms and Endorsements Schedule
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: Matches underlying policy
+Transaction types: Documentation of policy forms and endorsements
+
+Purpose:
+Schedule listing all forms and endorsements attached to a commercial
+insurance policy. Provides a roadmap to the policy's actual coverage
+structure — base form, mandatory endorsements, optional endorsements,
+state-specific amendatory endorsements.
+
+Captures:
+- Reference to underlying policy
+- For each form / endorsement attached:
+  * Form number (ISO, AAIS, carrier-proprietary)
+  * Form title / description
+  * Edition date
+  * Type (base coverage form, declaration page, exclusion,
+    enhancement, state amendatory)
+  * Effective date
+  * Reason for inclusion (mandatory, optional, state-required)
+
+When used:
+- Policy issuance documentation
+- Renewal review of forms attached
+- Coverage analysis after a loss
+- Carrier transitions (matching forms across markets)
+
+Notes:
+- Critical document for understanding actual coverage — the named
+  insured agreement is just the start; endorsements modify almost
+  every aspect of coverage
+- ISO, AAIS, and carrier-proprietary forms each have their own
+  numbering conventions

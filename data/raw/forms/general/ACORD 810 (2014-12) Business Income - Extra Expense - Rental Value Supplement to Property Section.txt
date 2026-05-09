@@ -5,3 +5,47 @@ Edition: 2014-12
 Title: Business Income / Extra Expense / Rental Value Supplement to Property Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical, matches underlying property)
+Transaction types: New business / renewal underwriting (BI / EE / RV detail)
+
+Purpose:
+Underwriting supplement for Business Income (BI), Extra Expense
+(EE), and Rental Value (RV) coverages on commercial property
+policies. Captures the financial detail needed to set BI / EE / RV
+limits — historical revenue, expense structure, dependencies, and
+recovery time after a loss.
+
+Captures:
+- Reference to ACORD 125 / 140
+- BI worksheet:
+  * Annual gross sales / revenue
+  * Cost of goods sold
+  * Continuing expenses during shutdown
+  * Non-continuing expenses
+  * Net income
+  * Period of restoration estimate (recovery time)
+- BI limit selected (12-month, 18-month, custom)
+- Coinsurance election (50%, 80%, 90%, 100%, agreed value)
+- Extra Expense:
+  * Costs to continue operations during recovery
+  * Temporary location costs
+  * Expedited repair / replacement
+- Rental Value (for landlords):
+  * Annual rental income
+  * Loss of rents period
+- Dependent properties (suppliers, customers, attraction
+  properties)
+- Loss history
+
+When used:
+- Commercial property submissions with significant BI exposure
+- Manufacturers, retailers, service businesses
+- Multi-tenant landlords
+- Renewal review of BI limits
+
+Notes:
+- BI is one of the most under-purchased coverages — actual recovery
+  often exceeds purchased limits because business owners
+  underestimate restoration time
+- Pairs with ACORD 140 (Property Section) and ACORD 811 (Value
+  Reporting Information Supplement)

@@ -5,3 +5,45 @@ Edition: 2016-03
 Title: Employment Practices Liability Insurance Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical, claims-made)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Line-of-business section for Employment Practices Liability (EPL)
+coverage — protects employers from claims by employees, former
+employees, and applicants for discrimination, harassment, wrongful
+termination, retaliation, and related employment claims.
+
+Captures:
+- Reference to ACORD 825
+- Employer information (revenue, # employees by location)
+- HR practices:
+  * Written employee handbook
+  * Anti-harassment / discrimination training
+  * Performance review process
+  * Termination procedures
+  * Background check practices
+- Employment claims history (claims, complaints, EEOC charges)
+- Recent layoffs / RIFs
+- Class action exposure
+- Coverage parts:
+  * Discrimination
+  * Harassment (sexual and otherwise)
+  * Wrongful termination
+  * Retaliation
+  * Wage and hour (often sublimited or excluded)
+  * Third-party liability (EPL extended to vendors, customers)
+- Limits and SIR / deductible
+- Defense provisions (in or outside limit)
+- Claims-made retroactive date
+
+When used:
+- All commercial employers
+- Public and private companies
+- Non-profits and governmental entities
+- Renewal review
+
+Notes:
+- Wage and hour claims (FLSA, state wage laws) often sublimited or
+  excluded; separate wage and hour coverage may be needed
+- Often packaged with D&O for private and non-profit accounts

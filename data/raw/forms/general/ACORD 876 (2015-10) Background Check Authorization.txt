@@ -5,3 +5,40 @@ Edition: 2015-10
 Title: Background Check Authorization
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (consent document)
+Transaction types: Underwriting / employment / claim investigation consent
+
+Purpose:
+Insured's signed authorization for the insurer (or its agents) to
+conduct a background check — credit report, criminal history,
+motor vehicle records, employment verification, prior insurance
+history. Required under federal Fair Credit Reporting Act (FCRA)
+and similar state laws before consumer reports can be obtained.
+
+Captures:
+- Insured / applicant name, DOB, SSN
+- Address history
+- Authorization for specific report types:
+  * Credit report (consumer or specialty insurance score)
+  * Criminal background check
+  * Motor vehicle records
+  * Employment verification
+  * Prior insurance loss history (CLUE, MIB)
+- Purpose of the report (underwriting, claim investigation,
+  appointment due diligence)
+- Insured signature with date
+- Witness or notary (where required)
+- FCRA disclosures (rights to copy of report, dispute process)
+
+When used:
+- Personal auto / homeowner underwriting (credit-based insurance
+  scoring)
+- Workers compensation underwriting (some carriers)
+- Producer appointment due diligence
+- Claim investigation
+- Bond underwriting
+
+Notes:
+- Required under FCRA before pulling consumer reports
+- Pairs with ACORD 877 (Disclosure of Intent to Obtain Consumer
+  Report) which is the FCRA disclosure

@@ -5,3 +5,34 @@ Edition: 2026-03
 Title: Property Insurance Card
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: Matches underlying property policy
+Transaction types: Issued at policy inception, renewal, or mid-term changes affecting evidence
+
+Purpose:
+Compact wallet-sized card or printable summary providing quick
+evidence of property insurance — analog to the auto ID card
+(ACORD 50) but for property coverage. Used for situations where
+abbreviated proof of property insurance is needed without issuing
+a full ACORD 24 / 27 / 28.
+
+Captures:
+- Insurer name and contact
+- Policy number
+- Insured name
+- Property location
+- Policy effective and expiration dates
+- Coverage summary (limits, type)
+- Producer / agency contact
+- Claims reporting information
+
+When used:
+- Quick on-property reference for the insured
+- Permit applications requiring proof of property coverage
+- Light-touch evidence requirements
+- Insured's records
+
+Notes:
+- 2026-03 edition reflects current standardized format
+- Less detailed than ACORD 24 / 27 / 28 — intended for the
+  insured's reference, not third-party mortgagee or lender
+  evidence

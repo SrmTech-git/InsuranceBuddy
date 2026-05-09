@@ -5,3 +5,47 @@ Edition: 2016-03
 Title: Fiduciary Liability Coverage Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical, claims-made)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Line-of-business section for Fiduciary Liability coverage —
+protects employers, plan sponsors, and individual fiduciaries from
+liability arising from breach of ERISA fiduciary duties on employee
+benefit plans (401(k), pension, health, welfare plans).
+
+Captures:
+- Reference to ACORD 825
+- Plans sponsored:
+  * Type (401(k), pension, defined benefit, defined contribution,
+    health & welfare, NQDC)
+  * Number of plans
+  * Plan assets per plan
+  * Number of participants per plan
+  * Plan administrator
+- Plan investments:
+  * Investment options
+  * Use of investment advisors
+  * Company stock in plan (concentration risk)
+- Plan governance:
+  * Plan committees
+  * Investment policy statements
+  * Fiduciary training
+- Recent plan changes (mergers, terminations, restatements)
+- Claims history (fiduciary claims, DOL investigations,
+  participant lawsuits)
+- Coverage limits, SIR, defense provisions
+- Claims-made retroactive date
+
+When used:
+- Employers with employee benefit plans subject to ERISA
+- Multi-employer plan sponsors
+- Plan trustees and committees
+- Renewal review
+
+Notes:
+- Distinct from ERISA fidelity bond (ACORD 503 type) — fidelity
+  covers theft / misappropriation of plan assets; fiduciary covers
+  liability for fiduciary breaches
+- ERISA fiduciary duties include duty of loyalty, prudence, plan
+  document compliance, and reasonable expense management

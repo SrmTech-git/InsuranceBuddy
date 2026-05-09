@@ -5,3 +5,42 @@ Edition: 2011-09
 Title: Hotel / Motel Supplement
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical commercial term)
+Transaction types: New business / renewal underwriting (hotel / motel exposure)
+
+Purpose:
+Underwriting supplement for hotels, motels, inns, B&Bs, and
+hospitality operations. Captures occupancy, amenities, food service,
+liquor service, pool / spa, and event hosting exposures specific to
+lodging operations.
+
+Captures:
+- Reference to ACORD 125
+- Property type (hotel, motel, inn, B&B, resort, extended stay)
+- Number of rooms / units, average occupancy
+- Average daily rate / annual revenue
+- Building characteristics (already on ACORD 140 / 160)
+- Amenities:
+  * Pool, spa, hot tub
+  * Fitness center, sauna
+  * Restaurant / bar / lounge (revenue %)
+  * Catering, event spaces, banquet
+  * Conference / meeting rooms
+- Liquor service (% of revenue, late-night service, dram shop
+  exposure)
+- Food service (kitchen equipment, hood / suppression — reference
+  ACORD 185)
+- Guest activities (tours, transportation, recreational equipment)
+- Security (staff, cameras, key cards)
+- Loss history (slips/falls, food-related, liquor-related, theft,
+  fire)
+
+When used:
+- Hotel / motel new business
+- Renewal review of operational changes
+- Acquisitions of hospitality properties
+
+Notes:
+- Pools and recreational amenities are major liability concerns —
+  drowning, slip and fall claims
+- Liquor service triggers dram shop liability (state-specific)

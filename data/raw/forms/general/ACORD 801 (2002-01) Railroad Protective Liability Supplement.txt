@@ -5,3 +5,39 @@ Edition: 2002-01
 Title: Railroad Protective Liability Supplement
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: Project term (typically duration of work near railroad)
+Transaction types: New business / project underwriting (railroad protective liability)
+
+Purpose:
+Underwriting supplement for Railroad Protective Liability (RPL)
+coverage — required when a contractor or other party performs work
+on or near railroad property. Protects the railroad against liability
+arising from the contractor's operations near tracks. Captures the
+specific work, location, and railroad relationship that drive RPL
+underwriting.
+
+Captures:
+- Reference to ACORD 125 / underlying CGL
+- Railroad name, division, mile post location
+- Project description and scope
+- Distance to active rail (typically within 50 feet triggers RPL
+  requirement)
+- Project start and completion dates
+- Contractor performing work (named insured)
+- Railroad as designated insured / additional insured
+- Limits required (typically $2M-$10M each occurrence)
+- Permit reference (railroad work permit)
+- Loss history near rail operations
+
+When used:
+- Construction near railroad tracks (utility installation,
+  excavation, grading)
+- Highway / bridge work crossing or paralleling rail
+- Temporary work on rail property
+- Required when railroad is the obligee on the project
+
+Notes:
+- RPL is mandated by railroads on virtually all near-rail work;
+  the railroad specifies the form, limits, and named insured
+- Distinct from CGL — RPL specifically protects the railroad,
+  not the contractor

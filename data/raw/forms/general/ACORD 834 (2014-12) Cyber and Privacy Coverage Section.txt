@@ -5,3 +5,57 @@ Edition: 2014-12
 Title: Cyber and Privacy Coverage Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical, claims-made for liability components)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Line-of-business section for Cyber Liability and Privacy coverage —
+protects organizations from data breaches, network security
+failures, privacy violations, ransomware, and related cyber
+incidents. Captures both first-party (insured's own losses) and
+third-party (liability to affected parties) cyber exposures.
+
+Captures:
+- Reference to ACORD 825
+- Operations and data exposure:
+  * Number of records (PII, PHI, PCI)
+  * Type of data held (customer, employee, financial, health,
+    payment card)
+  * Use of cloud services / SaaS providers
+  * Outsourced IT / managed service providers
+  * Use of vendors with data access
+- Security posture:
+  * Multi-factor authentication
+  * Endpoint protection
+  * Email security / phishing protection
+  * Encryption (at rest, in transit)
+  * Backup procedures and offline backups
+  * Incident response plan
+  * Employee training
+- Compliance frameworks (PCI, HIPAA, SOC 2, ISO 27001, NIST)
+- Coverage parts:
+  * Network Security Liability (third-party)
+  * Privacy Liability (third-party)
+  * Regulatory Defense and Penalties
+  * Breach Response Costs (notification, credit monitoring,
+    forensics, PR)
+  * Network Business Interruption (first-party)
+  * Cyber Extortion / Ransomware
+  * Data Restoration
+  * Social Engineering / Funds Transfer Fraud
+  * Reputational Harm
+- Limits, sublimits, retention
+- Claims-made retroactive date for liability components
+- Loss history (incidents, ransomware events, regulatory inquiries)
+
+When used:
+- Most commercial accounts (cyber is now near-universal exposure)
+- Healthcare, financial services, retail (high-data industries)
+- Renewal review (rates moving rapidly with the threat landscape)
+
+Notes:
+- Cyber rates have changed dramatically over recent years; carrier
+  appetite tightened then loosened with market cycles
+- Sublimits often apply to ransomware, social engineering, and
+  some other coverage parts
+- Pairs with ACORD 180 (Tech E&O) for tech service operations
