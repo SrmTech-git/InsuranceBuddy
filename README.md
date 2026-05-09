@@ -25,10 +25,20 @@ Example queries:
 User query
     │
     ├─ Abbreviation expansion (UM → uninsured motorist coverage, etc.)
+    ├─ Form-number detection (ACORD 25, ORC 3937.18, OAC 3901-1-54, etc.)
     ├─ State detection       (Ohio → OH, Indiana → IN, etc.)
-    ├─ Collection routing    (Haiku fast call → regulatory / educational / both)
+    ├─ Routing classifier    (single Haiku call returns "<collections> | <intent>")
+    │     ├─ collections: which collection(s) to search
+    │     └─ intent:      "subject" / "context" / "none"
+    │                     (skip the form filter when forms are mentioned only as context
+    │                      for a conceptual question)
     │
-    ├─ ChromaDB vector search (top 8 per collection, filtered by state if detected)
+    ├─ Filter resolution
+    │     ├─ form_number filter when intent is "subject" (single, $or for multi-form, or
+    │     │   $or spanning collections for cross-collection comparisons)
+    │     └─ state filter when states are detected
+    │
+    ├─ ChromaDB vector search (top 8 per collection, filtered as above)
     ├─ Cross-collection re-rank by L2 distance → top 10 chunks
     │
     └─ Claude Haiku generation (context-only, sources cited)
@@ -48,6 +58,20 @@ New collections are registered in `COLLECTION_REGISTRY` in `src/chat.py`. The Ha
 
 Every regulatory chunk carries a `state` metadata field (e.g. `OH`, `IN`). When a state is mentioned in a query, it is added as a ChromaDB filter so results are scoped to the relevant state(s). Queries with no state mention search across all states.
 
+### Form-Number Recognition
+
+The query pipeline recognizes form numbers across three prefix families:
+
+| Prefix | Collection | Stored format | Example query |
+|---|---|---|---|
+| `ORC` | regulatory | `"ORC3937.18"` (no space) | "What does ORC 3937.18 say?" |
+| `OAC` | regulatory | `"OAC3901-1-54"` (no space) | "What is OAC 3901-1-54 about?" |
+| `ACORD` | forms | `"ACORD 25"` (single space) | "What does ACORD 25 contain?" |
+
+Detection is case-insensitive and tolerates spacing variations (`acord25` / `ACORD 25` / `Acord  25` all normalize to the stored format). When a query mentions multiple forms ("Compare ACORD 24 and ACORD 28"), all are detected and a `$or` filter retrieves chunks from each. When forms span collections, the filter spans collections too.
+
+When the routing classifier judges that a form is mentioned only as **context** for a conceptual question ("Per ACORD 25 standards, what is general liability?"), the form filter is skipped so semantic search can find the conceptual content instead of being trapped in form-specific chunks.
+
 ---
 
 ## Folder Structure
@@ -59,16 +83,23 @@ insurance-rag/
 ├── .env                           # ANTHROPIC_API_KEY (never commit)
 │
 ├── src/
+│   ├── chat.py                    # Query pipeline: classify → retrieve → generate
+│   ├── config.py                  # Central tunables — model names, chunk sizes, token budgets
+│   ├── states.py                  # Single source of truth for state name → code mapping
 │   ├── db.py                      # Shared ChromaDB client + embedding function (singleton)
+│   ├── retrieve.py                # Vector search & metadata lookup (QueryResult dataclass)
 │   ├── ingest.py                  # Document loading & chunking (.pdf, .txt, .docx)
 │   ├── ingest_xlsx.py             # Multi-state Excel spreadsheet parser
 │   ├── ingest_batch.py            # Batch ingestion — scans data/raw/ folder tree
 │   ├── embed.py                   # Embedding & ChromaDB storage
-│   ├── retrieve.py                # Vector search & metadata lookup
-│   ├── chat.py                    # Query pipeline: classify → retrieve → generate
 │   ├── abbreviations.py           # Insurance abbreviation expansion (60+ terms)
-│   ├── scrape_orc.py              # Scraper for codes.ohio.gov PDFs
-│   └── migrate_state_tags.py      # One-time migration: back-fill state metadata
+│   ├── scrape_orc.py              # Scraper for codes.ohio.gov PDFs (atomic + retrying)
+│   └── migrate_state_tags.py      # Back-fill state metadata on existing chunks
+│
+├── tools/
+│   ├── build_acord_cards.py       # Generates the 180 ACORD library cards from inline index
+│   └── _enrich_batch*.py          # One-off scripts that applied per-batch card enrichment
+│                                  # (kept as a record of what content went into each card)
 │
 ├── data/
 │   └── raw/
@@ -88,11 +119,10 @@ insurance-rag/
 
 ### Adding a New State
 
-1. Create `data/raw/regulatory/{state_name}/` (e.g. `data/raw/regulatory/kentucky/`)
-2. Add `"kentucky": "KY"` to `STATE_FOLDER_MAP` in `src/ingest_batch.py`
-3. Add `"kentucky": "KY"` to `_STATE_NAME_MAP` in `src/chat.py`
-4. Drop PDFs or text files into the folder
-5. Run `python main.py ingest`
+1. Add `"kentucky": "KY"` to `STATE_MAP` in `src/states.py` — this is the **single source of truth** for state mappings; `ingest_batch`, `chat`, and `ingest_xlsx` all import from here, so adding it once is enough.
+2. Create `data/raw/regulatory/{state_name}/` (e.g. `data/raw/regulatory/kentucky/`)
+3. Drop PDFs or text files into the folder
+4. Run `python main.py ingest`
 
 ### Adding a New Collection
 
@@ -196,7 +226,9 @@ python main.py migrate --collection regulatory --state IN
 
 ## Generation Model
 
-`claude-haiku-4-5-20251001` — used for both collection routing (fast, max_tokens=20) and answer generation (max_tokens=1024).
+`claude-haiku-4-5-20251001` — used for both the routing classifier (`max_tokens=30`, returns `<collections> | <intent>`) and answer generation (`max_tokens=1024`, full prose answer with citations).
+
+All token budgets and model identifiers live in `src/config.py`.
 
 ---
 

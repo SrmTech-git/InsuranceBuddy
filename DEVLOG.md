@@ -334,3 +334,149 @@ The 877 miss is the precision-vs-recall tradeoff we accepted in Session 7 ("fine
 - Total across all collections: 1,873 (regulatory) + 53 (educational) + 180 (forms) = **2,106 vectors**
 - 82 tests passing (one new for the no-edition path)
 - National ACORD forms backlog: complete
+
+---
+
+## Session 9 — Card Enrichment (180 ACORD Cards Get Real Descriptions)
+
+The library cards from Session 7-8 had only metadata: form number, edition, title, type, states. Useful for "what's the current edition of X?" but anemic for "what does X capture?" or "when is X used?". This session: enrich every card with **Purpose**, **Captures**, **When used**, **Notes**, plus two metadata lines requested specifically — `Policy term` and `Transaction types` — that surface a form's term length (6 mo / 12 mo / N/A) and what kind of transaction it supports (new business / renewal / cancellation / etc.).
+
+### Workflow
+
+Worked in **12 thematic batches** rather than per-form or all-at-once. Each batch grouped related forms (loss notices, certificates, personal-lines applications, commercial sections, aviation, surety, etc.) so the writing stayed consistent within a batch. For each batch:
+
+1. Drafted all cards in chat for review
+2. User approved
+3. A small one-off `tools/_enrich_batchN.py` script applied the enrichment to the matching `.txt` files
+4. Re-ingested with `--force`
+5. Smoke-tested, committed
+
+The per-batch script approach gave us auto-computed underline lengths (no off-by-one issues) and a reproducible artifact — the script itself records exactly what content went into each card.
+
+### Format consistency rule we adopted
+
+For `Policy term:` and `Transaction types:` we explicitly preferred **always-present "N/A (reason)" lines over omission** when a form doesn't have those fields. Silence implies "we forgot"; explicit "N/A — issued on demand" tells the reader "yes, we checked, it's not on this form, here's what to look at instead." This was a user-driven design call and it produced cleaner card output across the catalog.
+
+### Batch breakdown
+
+| Batch | Theme | Count |
+|---|---|---|
+| Pilot | ACORD 25, 80, 88, 125, 126 — well-known forms to validate template | 5 |
+| 2 | Loss notices and witness forms | 10 |
+| 3 | Certificates and evidence | 11 |
+| 4 | Cancellations, ID cards, financial responsibility | 12 |
+| 5 | Flood, fraud, terrorism, electronic delivery | 7 |
+| 6 | Personal lines apps and supplements | 21 |
+| 7 | Commercial line-of-business sections | 22 |
+| 8 | Specialty commercial supplements | 17 |
+| 9 | Marine, NFIP, watermark stock | 17 |
+| 10 | Aviation forms (apps, sections, change requests) | 17 |
+| 11 | Agriculture, surety, premium | 15 |
+| 12 | Professional liability, E&O, consumer report | 26 |
+
+180 of 180 cards enriched. Cross-references between related forms are now dense — applications point to their line-of-business sections, certificates point to their evidence variants, change-request forms point to their parent sections, etc.
+
+### Stats
+- `forms` collection: 180 vectors (richer content per chunk)
+- All 12 enrichment scripts preserved as `tools/_enrich_batch*.py` for the historical record
+
+---
+
+## Session 10 — Retrieval Precision Improvements
+
+After enrichment, an adversarial smoke test revealed three failure modes:
+1. Bare-form-number queries (e.g. "What is ACORD 25?") were getting fuzzy retrieval — the LLM saw similar adjacent forms but not the exact one
+2. Multi-form comparison queries (e.g. "Difference between ACORD 24 and ACORD 28?") only detected the first form
+3. Cross-collection comparisons (e.g. "ACORD 25 vs ORC 3937.18") and form-as-context queries (e.g. "Per ACORD 25 standards, what is GL?") failed entirely
+
+This session worked through all of these.
+
+### Fix 1 — Add ACORD to `_KNOWN_PREFIXES` with prefix-aware normalization
+
+The form-detection regex was gated to ORC/OAC. Added ACORD with care: ORC/OAC stored without spaces (`"ORC3937.18"`) because their filenames have no space; ACORD stored with a single space (`"ACORD 25"`) because that's how ACORD filenames format. So `detect_form_number` normalizes per-prefix:
+
+```python
+if raw.startswith("ACORD"):
+    return f"ACORD {raw[5:].lstrip()}"
+return raw.replace(" ", "")
+```
+
+Plus a regex bump (`\s?` → `\s*`, added `[A-Z]*` after digits) to handle alphabetic suffixes like ACORD 50WM. **No re-ingestion needed** — normalization is at query time. Queries like "What is ACORD 25?" now trigger exact metadata lookup and return the right form on the first try.
+
+### Fix 2 — Detect ALL form numbers in a query (not just the first)
+
+`re.search` returns one match. `re.findall` returns all. Added `detect_form_numbers` (plural) that returns every form mentioned, deduped, in order. Refactored `detect_form_number` (singular) to a thin wrapper returning the first.
+
+`_resolve_form_filter` now builds either:
+- Single form → `{"form_number": "ACORD 25"}`
+- Multiple forms → `{"$or": [{"form_number": "ACORD 24"}, {"form_number": "ACORD 28"}]}`
+
+Comparison queries now retrieve chunks from all named forms and the LLM produces a real side-by-side comparison.
+
+### Fix 3 — Cross-collection comparison
+
+When forms span collections (e.g. `ACORD 25` in `forms` + `ORC 3937.18` in `regulatory`), the previous code dropped the form filter entirely and fell through to plain semantic search — which often returned weak content from neither form. The fix: build the `$or` filter anyway and route to *both* collections. ChromaDB's `$or` works correctly across collections because each chunk's `form_number` only matches one branch.
+
+`_resolve_form_filter` signature changed from returning a single collection name to a list — so it can express "search regulatory AND forms with this combined filter."
+
+### Fix 4 — Form-intent classification (the big one)
+
+Even with all the above, queries like *"Per ACORD 25 standards, what is general liability coverage?"* still failed: the form-detection logic saw ACORD 25, applied the filter, and trapped retrieval inside ACORD 25's chunks — which describe coverage limits but don't define GL. The user's actual intent was conceptual, not form-specific.
+
+The fix: **make the existing Haiku call do two classifications in one shot.** Same call, same number of tokens-ish, marginally richer output:
+
+```
+forms | subject       (user is asking ABOUT the form)
+educational | context (forms mentioned but the question is conceptual)
+regulatory | none     (no forms detected)
+```
+
+When intent is `context`, `ask()` skips the form filter entirely so semantic search can find the conceptual content. When intent is `subject` (or absent), the existing form-filter logic runs.
+
+This was a clean win because **we were already paying for the LLM call** — having it produce a 2-element classification instead of a 1-element classification cost almost nothing.
+
+### Implementation notes
+- `_llm_classify` renamed to `_llm_route` to reflect its broader role
+- New `_parse_route_response` helper extracted for testability — robust against malformed LLM output
+- `detect_collection` signature changed to return `(collections, intent)` tuple
+- `CLASSIFIER_MAX_TOKENS` bumped from 20 → 30 to fit the longer response
+- Every fallback path defaults to "never get worse than before" — if the parser can't extract intent, it defaults to `subject` (apply filter, original behavior)
+
+### Tests
+- `TestDetectFormNumbers` — multi-form detection, dedup, ordering, mixed prefixes
+- `TestParseRouteResponse` — 10 cases covering happy path, malformed output, intent fallback rules, case normalization
+- 107 tests passing total
+
+### Adversarial verification
+Re-ran the original 11-case adversarial probe after all four fixes. **11 of 11 logic issues addressed.** Remaining gaps were content-only (educational definitions for BI, GL — addressed in Session 11).
+
+---
+
+## Session 11 — Educational Content Gap Fill
+
+The adversarial probe surfaced two recurring patterns where queries returned "I don't have enough information":
+- **BI (Bodily Injury)** — referenced everywhere, defined nowhere
+- **GL (General Liability)** at the conceptual level — the existing GL doc covered operational structure (sublines, class codes, dec page appearance) but didn't define what GL fundamentally is
+
+Same for PD, MP, UM, UIM, PIP, collision/comprehensive, premises liability, products & completed ops, personal & advertising injury, deductibles vs SIRs vs coinsurance.
+
+### Fix: one new educational doc
+
+Drafted **`data/raw/educational/Insurance Coverage Basics.txt`** (~1,500 words) — a foundational coverage glossary covering 15+ concepts. Each concept has its own labeled section so the chunker breaks cleanly. Industry-level overview only — no carrier-specific terminology, class codes, or limits. Plain-English voice matching existing educational doc style.
+
+### Verification
+Smoke tested 7 queries that previously fell into content gaps:
+- "What is BI coverage?" — full BI section retrieved
+- "What is general liability coverage?" — clean GL definition with BI/PD/Personal Injury distinction
+- "Difference between collision and comprehensive?" — both defined
+- "What does UM stand for?" — full section
+- "Difference between deductible and SIR?" — both defined cleanly
+- "What is PIP?" — full section with no-fault state context
+
+### Stats
+- `educational` collection: 60 vectors (was 53)
+- Total across all collections: 1,873 (regulatory) + 60 (educational) + 180 (forms) = **2,113 vectors**
+
+### Honest note about a remaining quirk
+
+*"Per ACORD 25 standards, what is general liability coverage?"* still returns "I don't have enough information" — but for an interesting reason. The form-intent classifier correctly routes to `educational` with intent `context`, retrieves the GL content, and the LLM is being scrupulously literal: it doesn't have anything titled "ACORD 25 standards." The system is being technically correct (there is no "ACORD 25 standard for GL" — ACORD 25 just documents coverage limits, it doesn't define GL). The same query without "Per ACORD 25 standards" answers cleanly. Filed as a phrasing-literalism quirk, not a content or routing issue.
