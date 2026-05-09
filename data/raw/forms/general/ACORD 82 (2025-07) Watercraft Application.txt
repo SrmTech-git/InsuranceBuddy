@@ -5,3 +5,45 @@ Edition: 2025-07
 Title: Watercraft Application
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical, may be seasonal in some markets)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Application for personal watercraft (boat) insurance covering hull,
+liability, medical payments, and uninsured boater coverages. Used
+for pleasure craft — runabouts, sailboats, fishing boats,
+houseboats, personal watercraft (jet skis), and small yachts.
+
+Captures:
+- Producer / agency information
+- Applicant name, address, contact
+- Watercraft information:
+  * Year, make, model, length
+  * Hull material, propulsion (inboard, outboard, sail, PWC)
+  * Hull / motor identification numbers
+  * Horsepower, top speed
+  * Trailer (year, make, value)
+- Use: pleasure, fishing, racing, charter, commercial
+- Navigation area (lakes, coastal, ocean, US/international)
+- Storage: in water, dry storage, trailered
+- Operator information: experience, USCG license, prior boating
+  losses
+- Coverage requested:
+  * Hull (agreed value, ACV, deductible)
+  * Liability limit
+  * Medical payments
+  * Uninsured boater
+  * On-water towing
+- Loss history
+- Insured signature
+
+When used:
+- New business on personal watercraft
+- Renewal review with seasonal/use changes
+- Adding watercraft to existing personal lines portfolio
+
+Notes:
+- Larger yachts (typically 26+ feet) often go to specialty marine
+  markets rather than standard personal watercraft policies
+- Pairs with ACORD 282 (Watercraft Section) and ACORD 283 (Personal
+  Umbrella Application Section) for specialty coverage details

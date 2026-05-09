@@ -5,3 +5,35 @@ Edition: 2012-03
 Title: Medical Statement
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: Matches underlying policy
+Transaction types: New business / renewal underwriting (medical disclosure)
+
+Purpose:
+Insured's signed medical statement disclosing medical conditions
+relevant to underwriting decisions on personal lines (auto medical,
+disability, certain health-adjacent products) or supporting claim
+investigations.
+
+Captures:
+- Insured / claimant name, DOB
+- Underlying policy / claim reference
+- Medical history:
+  * Current conditions and treatments
+  * Medications
+  * Recent hospitalizations or surgeries
+  * Treating physicians
+- Authorization to release medical records (HIPAA-compliant
+  language)
+- Specific questions relevant to the underwriting or claim context
+- Insured signature with date and witness (if required)
+
+When used:
+- Underwriting personal lines products with medical questions
+- Auto medical payments claim investigation
+- Disability or related coverage claim follow-up
+
+Notes:
+- Medical authorizations have specific HIPAA requirements; the form
+  language must comply with current federal and state privacy law
+- Often used in conjunction with separate HIPAA authorization
+  forms

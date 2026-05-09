@@ -5,3 +5,44 @@ Edition: 2016-11
 Title: Dwelling Fire Application
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Application for dwelling fire (DP-1, DP-2, DP-3) coverage —
+typically used for non-owner-occupied residential properties such as
+rental properties, secondary homes, or properties under renovation
+where a homeowners policy isn't appropriate.
+
+Captures:
+- Producer / agency information
+- Applicant name, address, contact
+- Property location and description
+- Occupancy: owner-occupied, tenant-occupied, vacant, seasonal
+- Number of units / families
+- Construction, year built, square footage, roof
+- Coverage requested:
+  * Coverage A (dwelling)
+  * Coverage B (other structures)
+  * Coverage C (personal property — usually limited on DP)
+  * Coverage D (loss of rents / loss of use)
+  * Liability (Coverage L) and medical payments (Coverage M) where
+    available
+- Form selection: DP-1 (basic), DP-2 (broad), DP-3 (special)
+- Deductibles
+- Mortgagee / additional interest information
+- Tenant information (if applicable)
+- Prior insurance and loss history
+
+When used:
+- Rental property new business
+- Vacant property coverage
+- Property under renovation
+- Secondary / seasonal homes that don't meet HO occupancy
+  requirements
+
+Notes:
+- DP-3 is the most common form (special perils named on dwelling,
+  named perils on contents)
+- Pairs with ACORD 80 (Homeowner Application) when an applicant has
+  both a primary residence and rental properties

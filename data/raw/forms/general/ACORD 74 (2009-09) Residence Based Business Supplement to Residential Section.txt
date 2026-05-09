@@ -5,3 +5,38 @@ Edition: 2009-09
 Title: Residence Based Business Supplement to Residential Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (underwriting supplement)
+Transaction types: New business / renewal underwriting
+
+Purpose:
+Supplement disclosing in-home business activity on a residential
+property. Most homeowners policies exclude or limit business
+exposures; this form lets the underwriter assess the activity and
+either accept it (often with an endorsement), exclude it, or refer
+it to commercial lines.
+
+Captures:
+- Insured / property location
+- Type of business activity (occupation, services provided)
+- Annual revenue
+- Number of employees / contractors
+- Customer / client visits to the residence (frequency, parking,
+  signage)
+- Business property kept on premises (computers, inventory,
+  equipment)
+- Business vehicles
+- Professional licenses
+- Whether the business is incorporated / LLC
+
+When used:
+- HO new business where any in-home business is disclosed
+- Mid-term endorsement when an insured starts a home business
+- Renewal review where business activity changes
+
+Notes:
+- Many activities can be covered with a home business endorsement
+  (HO 04 42 or similar); larger operations require a BOP or other
+  commercial policy
+- Failure to disclose can void coverage on business-related claims
+- Pairs with ACORD 89 (Residential Section) and ACORD 80
+  (Homeowner Application)

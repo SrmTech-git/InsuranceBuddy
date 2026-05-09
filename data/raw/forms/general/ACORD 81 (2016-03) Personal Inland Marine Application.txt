@@ -5,3 +5,39 @@ Edition: 2016-03
 Title: Personal Inland Marine Application
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Application for personal inland marine coverage — scheduled and
+unscheduled personal property requiring specialized coverage that
+exceeds standard homeowners limits. Used for jewelry, fine art,
+collectibles, musical instruments, cameras, sports equipment, and
+similar high-value personal property.
+
+Captures:
+- Producer / agency information
+- Applicant name, address, contact, occupation
+- Whether applicant has homeowners coverage and with what carrier
+- Items to be scheduled:
+  * Description, value, year acquired
+  * Appraisal date and appraiser
+  * Photographs available
+  * Storage location (home, safe deposit box, traveling)
+  * Whether item is worn / used regularly
+- Blanket coverage on unscheduled property (sublimits)
+- Loss history on personal property
+- Security: alarms, safes, vault, lock systems
+- Insured signature
+
+When used:
+- New business for stand-alone personal IM policies
+- Adding scheduled property to an HO via IM endorsement
+- Renewal review of scheduled values
+- After major purchases (engagement ring, art acquisition)
+
+Notes:
+- Pairs with ACORD 80 (Homeowner Application) when IM is endorsed
+  to a homeowners policy
+- Appraisals are typically required for items above carrier
+  thresholds (often $5,000 or higher per piece)

@@ -5,3 +5,40 @@ Edition: 2016-08
 Title: Personal Auto Policy Change Request
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (existing policy)
+Transaction types: Mid-term change / endorsement (personal auto)
+
+Purpose:
+Mid-term change request specifically for personal auto policies.
+Captures vehicle, driver, and coverage changes the insured wants
+applied to their auto policy.
+
+Captures:
+- Producer / agency information
+- Insured name, policy number
+- Effective date of change
+- Vehicle changes (add / delete / replace):
+  * Year, make, model, VIN
+  * Annual mileage, garaging address, use
+  * Lienholder / loss payee
+- Driver changes (add / delete):
+  * Name, DOB, license number, relationship
+  * Driver training, good student, defensive driving credits
+- Coverage changes:
+  * Liability limits (BI, PD)
+  * UM/UIM / med pay / PIP
+  * Comp / collision deductibles
+  * Towing, rental, gap
+- Insured signature
+
+When used:
+- Adding or removing vehicles
+- Adding or removing drivers
+- Changing coverage limits or deductibles
+- Garaging address changes
+- Lienholder updates after vehicle financing changes
+
+Notes:
+- Pairs with ACORD 70 (non-auto personal lines changes)
+- ID card (ACORD 50) reissued automatically when vehicle or
+  effective dates change

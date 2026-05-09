@@ -5,3 +5,40 @@ Edition: 2016-08
 Title: Young Driver Questionnaire
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: Matches underlying auto policy
+Transaction types: New business / mid-term change (adding a young driver)
+
+Purpose:
+Underwriting questionnaire for young or newly licensed drivers being
+added to a personal auto policy. Captures driving history,
+education, and household context that drive rating and underwriting
+decisions on the riskiest segment of personal auto.
+
+Captures:
+- Insured / parent name, policy number
+- Young driver name, DOB, license number, license issue date
+- Driver education / training:
+  * State-approved teen course completion
+  * Driver's ed grade
+  * Defensive driving courses
+- Academic standing (good student qualification — see ACORD 91)
+- Vehicle assigned (or principal driver of multiple)
+- Anticipated annual mileage
+- Vehicle access (own car, shared, occasional)
+- Out-of-state college student (where applicable)
+- Driving history:
+  * Prior accidents (at-fault, not at-fault)
+  * Prior violations
+  * SR-22 / FR filings
+- Insured / parent signature
+
+When used:
+- Adding a teen driver to a household policy
+- New business with young drivers in household
+- Renewal review when driver status changes
+
+Notes:
+- Pairs with ACORD 91 (Good Student Driver Training) when credit
+  qualification applies
+- Some carriers require this for any driver under a specified age
+  (typically 25)

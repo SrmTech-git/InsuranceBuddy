@@ -5,3 +5,30 @@ Edition: 2008-01
 Title: Additional Remarks Schedule
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (attaches to underlying form)
+Transaction types: Continuation / supplement of remarks on any application
+
+Purpose:
+Generic continuation page for capturing additional remarks,
+explanations, or notes that exceed the space available on the
+primary application or supplement. Used across personal and
+commercial lines as a "spillover" or annotation page.
+
+Captures:
+- Reference to primary form (form number, applicant)
+- Section / field being continued
+- Free-text remarks
+- Additional disclosures or explanations
+- Signatures (where supporting underlying disclosures)
+
+When used:
+- Any application or supplement requiring more space than provided
+- Long-form explanations for prior losses, lapses, or
+  cancellations
+- Detailed narrative for unique exposures
+
+Notes:
+- Treated as part of the underlying application for misrepresentation
+  purposes — content here has the same effect as on the primary form
+- Most modern AMS systems handle this digitally; the paper form
+  exists for consistent format

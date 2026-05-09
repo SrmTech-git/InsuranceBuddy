@@ -5,3 +5,45 @@ Edition: 2025-07
 Title: Personal Umbrella Application
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Application for personal umbrella liability insurance — excess
+liability coverage sitting above the limits of underlying personal
+auto, homeowner, watercraft, and other personal liability policies.
+Provides additional protection against catastrophic liability
+claims and certain coverages not available in primary policies.
+
+Captures:
+- Producer / agency information
+- Applicant name, address, contact, occupation
+- Spouse / co-applicant information
+- Umbrella limit requested ($1M, $2M, $5M, higher)
+- Underlying policies (auto, HO, watercraft, motorcycle, ATV):
+  * Carrier
+  * Limits (must meet umbrella underlying requirements)
+  * Policy effective dates
+- Household members and drivers
+- Vehicles: autos, motorcycles, RVs, ATVs
+- Watercraft, aircraft (where applicable)
+- Rental properties owned
+- Business activities, board / officer positions
+- Domestic employees
+- Loss history (auto, HO, prior umbrella)
+- Animals (especially "vicious breeds" listed by carrier)
+- Underwriting questions: trampolines, swimming pools, foreign
+  travel, criminal history
+- Insured signature
+
+When used:
+- High-net-worth or above-average liability exposure
+- Customers with multiple primary policies wanting consolidated
+  excess coverage
+- Replacing or upgrading existing umbrella
+
+Notes:
+- Underlying limits requirement is strict — typically $250K/500K/100K
+  on auto and $300K on HO; failing to maintain underlying coverage
+  voids the umbrella
+- Pairs with ACORD 283 (Personal Umbrella Application Section)

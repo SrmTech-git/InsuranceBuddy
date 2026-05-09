@@ -5,3 +5,43 @@ Edition: 2016-11
 Title: Mobile Home Application
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Application for mobile / manufactured home insurance. Captures the
+specific characteristics of mobile homes that drive underwriting and
+rating differently than conventional dwellings.
+
+Captures:
+- Producer / agency information
+- Applicant name, address, contact
+- Mobile home information: year, make, model, serial / HUD number
+- Dimensions (length, width)
+- Single-wide / double-wide / triple-wide
+- Foundation, tie-down, skirting (see ACORD 72 for detailed
+  supplement)
+- Park or owned land
+- Occupancy
+- Coverage requested:
+  * Coverage A (dwelling) at replacement cost or ACV
+  * Coverage B (other structures)
+  * Coverage C (personal property)
+  * Coverage D (loss of use)
+  * Personal liability and medical payments
+- Deductibles (all-other-perils, wind/hail)
+- Prior insurance and loss history
+- Mortgagee / additional interest
+- Underwriting questions
+
+When used:
+- New business for mobile / manufactured home owners
+- Renewal review
+- Pairs with ACORD 72 (Mobile Home Supplement) for detailed
+  characteristics
+
+Notes:
+- HUD-code (post-1976) homes are far easier to insure than
+  pre-HUD-code homes; some carriers won't write pre-HUD
+- Wind / tie-down characteristics drive rates substantially
+  in coastal and tornado-prone states

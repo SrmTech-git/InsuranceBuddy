@@ -5,3 +5,39 @@ Edition: 2009-07
 Title: Solid Fuel Questionnaire – Supplement to Residential Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (underwriting supplement)
+Transaction types: New business / renewal underwriting
+
+Purpose:
+Supplement collecting information on wood stoves, pellet stoves,
+fireplaces, and other solid-fuel heating devices on a residential
+property. Solid fuel devices are a leading cause of home fires;
+carriers underwrite them carefully and may require specific
+installation, clearance, and inspection criteria.
+
+Captures:
+- Insured / property location
+- Type of solid fuel device (wood stove, pellet stove, fireplace,
+  insert, outdoor wood furnace)
+- Make, model, age
+- Installation:
+  * Installer (professional vs. self)
+  * Permit and inspection records
+  * Clearance from combustibles (floor, walls, ceiling)
+  * Floor protection (hearth pad, masonry)
+  * Wall protection
+- Chimney type, age, last cleaning, last inspection
+- Use frequency (primary heat, supplemental, decorative)
+- Smoke detectors, carbon monoxide detectors
+- Fire extinguisher availability
+
+When used:
+- HO new business with solid fuel devices on the property
+- Renewal review where solid fuel device added mid-term
+- Underwriting of country / rural homes with wood heat
+
+Notes:
+- Some carriers won't write or will surcharge homes with solid
+  fuel as primary heat
+- Pairs with ACORD 89 (Residential Section) for the underlying
+  property data

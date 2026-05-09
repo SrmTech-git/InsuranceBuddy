@@ -5,3 +5,36 @@ Edition: 2012-06
 Title: Apartment Building Supplement
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical)
+Transaction types: New business / renewal underwriting (commercial residential supplement)
+
+Purpose:
+Supplement capturing the operational and structural detail of
+apartment buildings being underwritten as commercial property. Used
+when the property is large enough that ACORD 84 (Dwelling Fire) or
+HO doesn't apply — typically 4+ units or commercial ownership.
+
+Captures:
+- Insured / property location
+- Number of buildings, units, stories
+- Construction, year built, square footage
+- Roof type, age, last replacement
+- Heating, plumbing, electrical updates
+- Protection: smoke detectors, sprinklers, alarms, distance to FD
+- Occupancy: percent occupied, tenant mix (residential / commercial)
+- Tenant screening procedures
+- On-site management / maintenance
+- Common areas (pools, fitness, laundry, parking)
+- Pet policy
+- Loss history (claims, fires, water damage, liability)
+- Mortgagee / additional interests
+
+When used:
+- Commercial property new business on apartment buildings
+- Renewal review for multifamily properties
+- Acquisition / portfolio additions
+
+Notes:
+- Pairs with ACORD 140 (Property Section) for the underlying
+  commercial property exposure
+- Pairs with ACORD 126 (CGL Section) for premises liability detail

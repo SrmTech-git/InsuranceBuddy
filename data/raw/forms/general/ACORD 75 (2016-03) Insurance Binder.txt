@@ -5,3 +5,42 @@ Edition: 2016-03
 Title: Insurance Binder
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: Typically up to 30-90 days (binder validity period)
+Transaction types: Temporary coverage at policy inception (pending formal policy issuance)
+
+Purpose:
+Temporary evidence of insurance coverage in force pending issuance
+of the formal policy. Binds coverage immediately upon agreement
+between the producer and insured (or carrier and insured), with the
+formal policy issued later. Used when insurance must be in effect
+before the policy can be physically issued — closings, court orders,
+contractual deadlines.
+
+Captures:
+- Producer / agency information
+- Insured name, address
+- Insurer name(s) and NAIC numbers
+- Type of insurance and coverage form
+- Coverage limits and deductibles
+- Premium (estimated or final)
+- Property / vehicle / risk being covered
+- Effective date and expiration of the binder
+- Mortgagee / loss payee / additional insured
+- Producer / authorized representative signature
+- Underwriter approval (where required)
+
+When used:
+- Real estate closings requiring proof of insurance at closing
+- Vehicle purchases where the buyer needs immediate insurance to
+  drive off the lot
+- Court-ordered coverage with a deadline
+- Commercial transactions requiring coverage before formal policy
+  issuance
+
+Notes:
+- A binder is enforceable evidence of coverage with the same legal
+  effect as the policy for the binder period
+- Most binders are valid 30-90 days; if the formal policy isn't
+  issued by then, the binder may need to be renewed
+- Distinct from ACORD 27/28 (evidence forms) which are issued AFTER
+  the policy is in force; the binder is the bridge document

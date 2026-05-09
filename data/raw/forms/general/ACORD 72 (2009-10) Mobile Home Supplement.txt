@@ -5,3 +5,38 @@ Edition: 2009-10
 Title: Mobile Home Supplement
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 6 or 12 months (matches underlying policy)
+Transaction types: New business / renewal underwriting (supplement to mobile home application)
+
+Purpose:
+Underwriting supplement specific to mobile / manufactured homes.
+Captures the structural, foundation, and tie-down characteristics
+that distinguish mobile homes from conventional dwellings and drive
+their unique exposure profile.
+
+Captures:
+- Insured / property location
+- Mobile home identification: make, model, year, serial / HUD number
+- Dimensions (length, width, square footage)
+- Single-wide vs. double-wide vs. triple-wide
+- Foundation type (permanent, pier, slab, basement)
+- Tie-down / anchoring system
+- Skirting type and condition
+- Park name (if in mobile home park) or owned land
+- Distance to fire department, hydrant
+- Roof type and age
+- Heating, plumbing, electrical
+- Updates and improvements
+- Other dwellings on the same lot
+
+When used:
+- New mobile / manufactured home business
+- Renewal review
+- Coverage moves between policy forms (DP-1 to DP-3, etc.)
+- Pairs with ACORD 85 (Mobile Home Application)
+
+Notes:
+- Mobile home rates and underwriting differ substantially from
+  conventional homes — wind / tie-down / age factors matter heavily
+- Pre-1976 mobile homes (pre-HUD code) face very different
+  underwriting than post-1976 manufactured homes

@@ -5,3 +5,35 @@ Edition: 1993-09
 Title: Binder Log
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (administrative log)
+Transaction types: N/A (administrative tracking of issued binders)
+
+Purpose:
+Internal agency log tracking insurance binders issued. Provides an
+audit trail of who received which binder, when, and for what
+coverage — paired with policy issuance tracking to ensure binders
+don't expire without the formal policy being in place.
+
+Captures:
+- Producer / agency information
+- For each binder issued:
+  * Binder number / sequence
+  * Date issued
+  * Insured name
+  * Type of coverage
+  * Insurer
+  * Binder effective and expiration dates
+  * Date formal policy issued (closing the binder)
+  * Authorized representative
+
+When used:
+- Agency administrative recordkeeping for binders
+- E&O compliance / audit trail
+- Identifying binders approaching expiration without policy issuance
+
+Notes:
+- Edition is from 1993 — most agencies now track binders in their
+  AMS rather than on paper logs
+- Critical E&O exposure: an expired binder without a formal policy
+  in place leaves the insured uncovered
+- Companion to ACORD 75 (Insurance Binder)

@@ -5,3 +5,39 @@ Edition: 2009-10
 Title: Good Student Driver Training
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: Matches underlying auto policy
+Transaction types: New business / renewal underwriting (rate credit qualification)
+
+Purpose:
+Documentation supporting good student and driver training rate
+credits on personal auto policies. Captures the academic standing or
+training course completion that qualifies a young driver for a
+discount.
+
+Captures:
+- Insured / driver name, DOB, license number
+- Underlying auto policy information
+- Good student credit:
+  * School name and address
+  * GPA or class rank
+  * Term / period covered
+  * Verification (transcript, school official signature)
+- Driver training credit:
+  * Course name, provider, location
+  * Completion date
+  * Course type (defensive driving, accident prevention,
+    state-approved teen course)
+  * Certificate number
+- Insured / parent signature
+
+When used:
+- New business for households with high school or college-age
+  drivers
+- Renewal review when grades or course completion change
+  qualification status
+- Adding a young driver to an existing policy
+
+Notes:
+- State and carrier credits vary; the form supports the broadest
+  set of typical credit programs
+- Most carriers re-verify good student credits at renewal

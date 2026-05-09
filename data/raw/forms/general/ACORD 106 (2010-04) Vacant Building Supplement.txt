@@ -5,3 +5,40 @@ Edition: 2010-04
 Title: Vacant Building Supplement
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (often shorter; vacant policies sometimes 3-6 month terms)
+Transaction types: New business / renewal underwriting (specialty / non-standard market)
+
+Purpose:
+Supplement underwriting vacant or unoccupied buildings, which
+present elevated risks (vandalism, theft, undetected water damage,
+fire) that standard property markets may decline. Vacant building
+coverage often goes to specialty markets with specific underwriting
+requirements.
+
+Captures:
+- Insured / property location
+- Reason for vacancy (renovation, for sale, for lease, abandoned)
+- Length of vacancy (current and projected)
+- Prior occupancy (residential, commercial, industrial)
+- Building condition: structural integrity, roof, windows, doors
+- Security: locks, fencing, lighting, alarm, monitoring service,
+  caretaker / property manager visits
+- Utilities status (electric, gas, water shut off or maintained)
+- Heating during winter (to prevent freeze damage)
+- Renovation activity, contractor info, permits
+- Distance to fire department
+- Loss history including any prior vacant-period claims
+
+When used:
+- Vacant property new business
+- Renewal of vacancy policies (usually shorter terms than standard
+  HO/CP)
+- Properties between tenants undergoing renovation
+
+Notes:
+- Many standard markets exclude or limit vacant property coverage
+  beyond 30-60 days; specialty markets pick up the longer-vacancy
+  exposure
+- Vacancy often triggers coverage exclusions (e.g., vandalism,
+  glass, water damage) on standard property forms — the supplement
+  documents the underwriter's awareness of the vacancy

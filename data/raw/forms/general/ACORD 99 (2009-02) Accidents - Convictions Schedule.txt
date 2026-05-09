@@ -5,3 +5,40 @@ Edition: 2009-02
 Title: Accidents / Convictions Schedule
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (attaches to underlying policy)
+Transaction types: New business / renewal underwriting (loss history)
+
+Purpose:
+Schedule capturing all auto accidents and motor vehicle convictions
+for each driver on a personal auto policy. Provides the loss history
+detail that carriers use for rating, surcharging, or accept/decline
+decisions.
+
+Captures:
+- Underlying auto policy / insured information
+- For each driver, for each accident:
+  * Date, location
+  * Description of accident
+  * At-fault determination
+  * Bodily injury and property damage amounts
+  * Citation issued
+  * Insurance company that paid
+- For each driver, for each conviction:
+  * Date, location
+  * Type of violation (moving, non-moving, DUI, reckless)
+  * Citation / case number
+  * Disposition (guilty, no contest, dismissed)
+- Driver signatures attesting to accuracy
+
+When used:
+- New business loss history disclosure
+- Renewal review where MVR changes prompt re-rating
+- Resolving discrepancies between insured-disclosed history and
+  carrier-pulled MVRs / CLUE reports
+
+Notes:
+- Carriers verify against MVR (Motor Vehicle Report) and CLUE
+  (Comprehensive Loss Underwriting Exchange); discrepancies
+  between disclosed and verified history trigger underwriting
+  review
+- Material misrepresentation can void coverage

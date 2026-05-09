@@ -5,3 +5,36 @@ Edition: 2015-09
 Title: Personal Policy Change Request (Except Auto)
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (existing policy)
+Transaction types: Mid-term change / endorsement (personal lines, except auto)
+
+Purpose:
+Mid-term change request for personal lines policies OTHER than
+auto — homeowners, dwelling fire, personal umbrella, watercraft,
+inland marine. Captures what the insured wants to change so the
+carrier can issue an endorsement. Auto changes use ACORD 71.
+
+Captures:
+- Producer / agency information
+- Insured name, policy number, policy type
+- Effective date of change
+- Description of change requested:
+  * Coverage limit changes (Coverage A increase, deductible change)
+  * Add / remove additional interests (mortgagees, loss payees)
+  * Property updates (renovations, new outbuildings, alarms)
+  * Location changes
+  * Endorsement additions (water backup, scheduled property,
+    identity theft)
+- Insured signature
+
+When used:
+- Insured-initiated mid-term changes on HO, DF, umbrella,
+  watercraft, IM
+- Annual review-driven endorsements
+- Lender/mortgagee requirement changes triggering policy edits
+
+Notes:
+- Pairs with ACORD 71 (Personal Auto Policy Change Request) — use
+  the auto form for auto-specific changes
+- Some carriers accept oral or AMS-driven change requests instead;
+  ACORD 70 documents the change request formally for the file

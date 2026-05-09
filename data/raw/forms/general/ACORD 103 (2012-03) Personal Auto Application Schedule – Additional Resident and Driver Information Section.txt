@@ -5,3 +5,35 @@ Edition: 2012-03
 Title: Personal Auto Application Schedule – Additional Resident and Driver Information Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: Matches underlying auto policy
+Transaction types: New business / renewal underwriting (additional drivers / residents)
+
+Purpose:
+Continuation schedule for personal auto applications with more
+drivers or household residents than the main application form
+accommodates. Captures the same information per driver/resident as
+the main app.
+
+Captures:
+- Reference to primary auto application (insured, policy)
+- For each additional driver / resident:
+  * Name, DOB, gender, marital status
+  * Relationship to named insured
+  * License number and state
+  * Years licensed
+  * Occupation, employer, education
+  * Good student status, driver training
+  * Excluded driver status (where applicable)
+  * Vehicle assigned / principal operator
+- Signatures
+
+When used:
+- Households with 4+ drivers or residents
+- Multi-generational households
+- Auto policies with multiple covered or excluded drivers
+
+Notes:
+- Most AMS systems generate this automatically when driver count
+  exceeds the primary form's capacity
+- Pairs with ACORD 99 (Accidents / Convictions Schedule) where
+  loss history detail also requires continuation

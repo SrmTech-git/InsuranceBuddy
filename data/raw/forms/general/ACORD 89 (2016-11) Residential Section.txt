@@ -5,3 +5,44 @@ Edition: 2016-11
 Title: Residential Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: Matches underlying personal lines policy
+Transaction types: New business / renewal underwriting (residential exposure detail)
+
+Purpose:
+Modular section capturing residential property underwriting detail
+that attaches to a personal lines application (homeowners, dwelling
+fire, etc.). Allows the underwriter to assess the structure,
+protection, and exposure characteristics in a standardized format.
+
+Captures:
+- Insured / property location
+- Property characteristics:
+  * Year built, year of major updates
+  * Square footage, number of stories
+  * Construction type (frame, masonry veneer, masonry)
+  * Foundation type
+  * Roof type, material, age
+  * Heating type and age
+  * Plumbing and electrical updates
+- Protection:
+  * Distance to fire department
+  * Distance to fire hydrant
+  * Protection class
+  * Smoke detectors, fire extinguishers, sprinklers
+  * Burglar alarm (local, central station)
+- Occupancy and use
+- Special features (pool, trampoline, deck, outbuildings)
+- Animals, business activities, prior cancellations
+
+When used:
+- HO new business as the residential exposure detail
+- Renewal review of structure and protection class
+- Pairs with ACORD 80 (Homeowner Application), ACORD 84 (Dwelling
+  Fire), ACORD 85 (Mobile Home), ACORD 88 (Personal Insurance
+  Application)
+
+Notes:
+- Often pre-populated by data feeds (CoreLogic, etc.) and confirmed
+  by the producer rather than re-keyed
+- Drives Coverage A replacement cost calculation when paired with
+  ACORD 42
