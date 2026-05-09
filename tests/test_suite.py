@@ -341,6 +341,44 @@ class TestDetectFormNumber(unittest.TestCase):
         self.assertEqual(result, "ORC3937.18")
 
 
+class TestDetectFormNumbers(unittest.TestCase):
+    """Multi-form detection — finds every form number in a query, deduped."""
+
+    def setUp(self):
+        from chat import detect_form_numbers
+        self.detect = detect_form_numbers
+
+    def test_no_forms(self):
+        self.assertEqual(self.detect("What is uninsured motorist coverage?"), [])
+
+    def test_single_form(self):
+        self.assertEqual(self.detect("What is ACORD 25?"), ["ACORD 25"])
+
+    def test_two_acord_forms(self):
+        result = self.detect("What's the difference between ACORD 24 and ACORD 28?")
+        self.assertEqual(result, ["ACORD 24", "ACORD 28"])
+
+    def test_three_acord_forms(self):
+        result = self.detect("Compare ACORD 25, ACORD 27, and ACORD 28")
+        self.assertEqual(result, ["ACORD 25", "ACORD 27", "ACORD 28"])
+
+    def test_dedup(self):
+        result = self.detect("ACORD 25 — and again ACORD 25")
+        self.assertEqual(result, ["ACORD 25"])
+
+    def test_mixed_prefixes(self):
+        result = self.detect("How does ACORD 25 relate to ORC 3937.18?")
+        self.assertEqual(result, ["ACORD 25", "ORC3937.18"])
+
+    def test_preserves_order(self):
+        result = self.detect("First ACORD 28, then ACORD 24")
+        self.assertEqual(result, ["ACORD 28", "ACORD 24"])
+
+    def test_acord_with_alpha_suffix(self):
+        result = self.detect("Compare ACORD 50 to ACORD 50WM")
+        self.assertEqual(result, ["ACORD 50", "ACORD 50WM"])
+
+
 class TestIsInventoryQuery(unittest.TestCase):
     def setUp(self):
         from chat import is_inventory_query
@@ -660,6 +698,7 @@ if __name__ == "__main__":
         TestXlsxParser,
         TestParseFilename,
         TestDetectFormNumber,
+        TestDetectFormNumbers,
         TestIsInventoryQuery,
         TestDetectStates,
         TestBuildStateFilter,

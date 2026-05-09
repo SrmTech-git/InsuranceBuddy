@@ -75,8 +75,13 @@ _KNOWN_PREFIXES = ("ORC", "OAC", "ACORD")
 # Query classification
 # ---------------------------------------------------------------------------
 
-def detect_form_number(text: str) -> str | None:
-    """Return a normalized form number if the query contains one, else None.
+def detect_form_numbers(text: str) -> list[str]:
+    """Return ALL normalized form numbers found in the query, in order, deduped.
+
+    Returns an empty list if none are present. Use this when a query may
+    reference multiple forms (e.g. "What's the difference between ACORD 24
+    and ACORD 28?"). For single-form-or-none cases, detect_form_number is
+    a thin wrapper that returns the first match.
 
     Normalization matches how each prefix is stored in metadata:
     - ORC/OAC strip spaces ("ORC 3937.18" -> "ORC3937.18")
@@ -86,18 +91,32 @@ def detect_form_number(text: str) -> str | None:
     ACORD forms like 50WM, 60US, 64US.
     """
     prefixes = "|".join(_KNOWN_PREFIXES)
-    match = re.search(
+    raw_matches = re.findall(
         rf"\b((?:{prefixes})\s*\d+[A-Z]*(?:[.\-]\d+)*)\b", text, re.IGNORECASE
     )
-    if not match:
-        return None
-    raw = match.group(1).strip().upper()
-    if raw.startswith("ACORD"):
-        # ACORD stored as "ACORD <number>" — collapse any whitespace
-        # variants in the user's query to a single space.
-        return f"ACORD {raw[5:].lstrip()}"
-    # ORC / OAC stored without spaces.
-    return raw.replace(" ", "")
+    seen: set[str] = set()
+    result: list[str] = []
+    for raw_match in raw_matches:
+        raw = raw_match.strip().upper()
+        if raw.startswith("ACORD"):
+            normalized = f"ACORD {raw[5:].lstrip()}"
+        else:
+            normalized = raw.replace(" ", "")
+        if normalized not in seen:
+            seen.add(normalized)
+            result.append(normalized)
+    return result
+
+
+def detect_form_number(text: str) -> str | None:
+    """Return the first normalized form number in the query, or None.
+
+    Thin wrapper over detect_form_numbers — use this when only the first
+    match matters. Most callers should use detect_form_numbers to handle
+    multi-form comparison queries cleanly.
+    """
+    forms = detect_form_numbers(text)
+    return forms[0] if forms else None
 
 
 def detect_bare_section(text: str) -> str | None:
@@ -259,47 +278,71 @@ def _handle_inventory(question: str, collections: list[str]) -> str | None:
 
 
 def _resolve_form_filter(question: str) -> tuple[dict | None, str | None, str | None]:
-    """If the question names a form number, locate it and return routing info.
+    """If the question names form numbers, locate them and return routing info.
+
+    Multi-form comparison queries (e.g. "What's the difference between
+    ACORD 24 and ACORD 28?") return an $or filter over all detected forms,
+    scoped to the single collection they share. If detected forms span
+    multiple collections, falls through to semantic search so the
+    comparison fast-path can handle it.
 
     Returns:
-        (filters, collection_name, None)  — form found; use these for retrieval
-        (None, None, error_message)       — form named but not in the database
-        (None, None, None)                — no form number in the question
+        (filters, collection_name, None)  — form(s) found; use these for retrieval
+        (None, None, None)                — no form number, OR cross-collection,
+                                             OR detected forms not found in DB
     """
-    form_number = detect_form_number(question)
+    form_numbers = detect_form_numbers(question)
 
-    # Fallback: try bare section numbers with known prefixes
-    if not form_number:
+    # Fallback: try bare section numbers with known prefixes (single only).
+    if not form_numbers:
         bare = detect_bare_section(question)
         if bare:
             for prefix in _KNOWN_PREFIXES:
                 candidate = f"{prefix}{bare}"
                 for coll in COLLECTION_REGISTRY:
                     if find_form(candidate, coll):
-                        form_number = candidate
+                        form_numbers = [candidate]
                         logger.info("Resolved bare section %s -> %s", bare, candidate)
                         break
-                if form_number:
+                if form_numbers:
                     break
 
-    if not form_number:
+    if not form_numbers:
         return None, None, None
 
-    # Search every registered collection — adding a new one to
-    # COLLECTION_REGISTRY automatically extends form-number lookup.
-    collection_name = next(
-        (coll for coll in COLLECTION_REGISTRY if find_form(form_number, coll)),
-        None,
-    )
+    # Map each detected form to the first collection where it exists.
+    # Forms not found in any collection are silently dropped — they'd have
+    # no chunks to retrieve anyway.
+    found_in: dict[str, str] = {}
+    for fn in form_numbers:
+        for coll in COLLECTION_REGISTRY:
+            if find_form(fn, coll):
+                found_in[fn] = coll
+                break
 
-    if collection_name is None:
-        # Form number not found — fall through to semantic search
-        # instead of hard-failing, since the query text itself is still useful.
-        logger.info("Form %s not found — falling back to semantic search", form_number)
+    if not found_in:
+        logger.info("No detected forms found in DB (%s) — falling back to semantic search",
+                    ", ".join(form_numbers))
         return None, None, None
 
-    logger.info("Searching %s: %s", collection_name, form_number)
-    return {"form_number": form_number}, collection_name, None
+    # If forms span multiple collections, fall through. The cross-collection
+    # re-ranker will pull relevant chunks via semantic search.
+    collections = set(found_in.values())
+    if len(collections) > 1:
+        logger.info("Forms span multiple collections (%s) — falling back to semantic search",
+                    ", ".join(sorted(collections)))
+        return None, None, None
+
+    collection_name = next(iter(collections))
+    matched_forms = list(found_in.keys())
+
+    if len(matched_forms) == 1:
+        filters: dict = {"form_number": matched_forms[0]}
+    else:
+        filters = {"$or": [{"form_number": fn} for fn in matched_forms]}
+
+    logger.info("Searching %s: %s", collection_name, ", ".join(matched_forms))
+    return filters, collection_name, None
 
 
 def _retrieve_chunks(
