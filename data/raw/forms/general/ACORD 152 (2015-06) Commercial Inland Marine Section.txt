@@ -5,3 +5,38 @@ Edition: 2015-06
 Title: Commercial Inland Marine Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical commercial term)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+General line-of-business section for commercial inland marine
+coverage. Captures IM exposures that don't fit the more specialized
+sections (transportation, glass/sign, AR/valuable papers, EDP,
+dealers, builders risk). Used as the catch-all IM intake.
+
+Captures:
+- Reference to ACORD 125
+- IM coverage parts requested:
+  * Contractors equipment floater
+  * Tools floater
+  * Equipment dealers / fine arts / camera (if not on ACORD 149)
+  * Bailees coverage
+  * Mobile equipment
+  * Specialty exposures (athletic equipment, theatrical property,
+    professional offices, etc.)
+- Per-coverage limits and deductibles
+- Schedule of equipment / property
+- Locations covered, in-transit, off-premises
+- Loss history
+
+When used:
+- Contractors with equipment floaters
+- Mobile equipment operators
+- Catch-all IM exposures not fitting specialized sections
+- Renewal review
+
+Notes:
+- Use specialized sections when applicable (143 transportation, 144
+  glass/sign, 145 AR/VP, 147 builders risk, 148 EDP, 149 dealers)
+- Many IM coverages have their own ISO floaters; this section is the
+  ACORD intake regardless of which specific floater applies

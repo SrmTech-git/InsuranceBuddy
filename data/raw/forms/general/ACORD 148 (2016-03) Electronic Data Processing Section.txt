@@ -5,3 +5,44 @@ Edition: 2016-03
 Title: Electronic Data Processing Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical commercial term)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Line-of-business section for electronic data processing (EDP)
+inland marine coverage. Covers computer hardware, software,
+electronic data, and the business income loss from EDP system
+breakdown — exposures that traditional commercial property doesn't
+fully cover.
+
+Captures:
+- Reference to ACORD 125
+- Hardware coverage:
+  * Owned vs. leased equipment
+  * Schedule or blanket
+  * Replacement cost or ACV
+  * Off-premises coverage (laptops, mobile devices)
+- Software coverage:
+  * Off-the-shelf vs. custom software
+  * Cost to reproduce / replace
+- Data coverage:
+  * Backup procedures
+  * Cost to recreate data
+  * Transit and off-site storage
+- Extra expense (continuing operations during outage)
+- Business income from EDP breakdown
+- Mechanical / electrical breakdown coverage (or referred to
+  ACORD 155)
+- Cyber exclusions and where cyber coverage applies separately
+
+When used:
+- Operations with significant computer / data exposure
+- Tech companies, professional services, financial firms
+- Data-heavy businesses (healthcare, legal, accounting)
+
+Notes:
+- Distinct from cyber liability — EDP covers the hardware / software /
+  data themselves; cyber covers the liability and response costs
+  for breaches and attacks
+- Pairs with ACORD 834 (Cyber and Privacy Coverage Section) for
+  cyber liability

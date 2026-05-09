@@ -5,3 +5,40 @@ Edition: 2015-12
 Title: Statement / Schedule of Values
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: Matches underlying policy
+Transaction types: Attached to new business, renewal, or audit
+
+Purpose:
+Schedule of values (SOV) listing buildings, contents, business
+income, and other property values by location. Used for blanket
+property programs, scheduled property programs, and large commercial
+accounts where total insurable value drives rating.
+
+Captures:
+- Insured / policy reference
+- For each location:
+  * Address, building number / description
+  * Construction type (frame, joisted masonry, non-combustible,
+    masonry non-combustible, modified fire-resistive, fire-resistive)
+  * Occupancy type (office, retail, manufacturing, warehouse, etc.)
+  * Year built, square footage
+  * Protection class (PPC), distance to fire department / hydrant
+  * Building value (RC or ACV)
+  * Business personal property value
+  * Business income / extra expense value
+  * Equipment, EDP, stock values
+- Total insurable value (TIV) summary
+- Coinsurance percentages
+- Blanket vs. scheduled limits
+
+When used:
+- Large commercial property submissions (blanket programs)
+- Annual renewal SOV updates
+- Property value audits
+- Mid-term acquisitions adding locations
+
+Notes:
+- Drives blanket rate calculation — TIV at each location is the
+  rating exposure
+- Pairs with ACORD 140 (Property Section) and ACORD 159 (Schedule
+  of Property Limits) for full property submissions

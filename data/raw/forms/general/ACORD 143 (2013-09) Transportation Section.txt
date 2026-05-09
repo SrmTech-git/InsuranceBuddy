@@ -5,3 +5,38 @@ Edition: 2013-09
 Title: Transportation Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical commercial term)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Line-of-business section for transportation inland marine coverage —
+motor truck cargo (carrier's own goods or for-hire cargo),
+transit coverage, processing risks, shipper's interest. Distinct
+from ACORD 132 (Truckers / Motor Carriers Section) which covers the
+full motor carrier exposure.
+
+Captures:
+- Reference to ACORD 125 (insured info)
+- Coverage type: motor truck cargo, transit (annual or trip),
+  processing, shipper's interest
+- Commodities transported / processed (description, value)
+- Limit per conveyance / per occurrence
+- Aggregate limit
+- Deductible
+- Routes / radius of operations
+- Owned vs. hired vehicles, contracted carriers
+- Refrigeration / temperature control (where applicable)
+- Loading and unloading
+- Storage in transit (warehouse, terminals)
+- Loss history
+
+When used:
+- Commercial inland marine new business focused on transportation
+- Manufacturers shipping their own goods
+- Logistics / 3PL operations
+- Renewal review
+
+Notes:
+- For motor carrier (for-hire trucking) operations, use ACORD 132
+- Pairs with ACORD 152 (Commercial Inland Marine) for broader IM
+  exposures

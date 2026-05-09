@@ -5,3 +5,35 @@ Edition: 2014-09
 Title: Schedule of Property Limits
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: Matches underlying policy
+Transaction types: Attached to new business, renewal, or audit
+
+Purpose:
+Continuation schedule for property limits when the property section
+or SOV needs more space, or when limits need to be broken down by
+sublimit / coverage extension. Captures per-location, per-coverage
+limits in detail.
+
+Captures:
+- Reference to underlying policy / application
+- For each location and coverage:
+  * Building limit
+  * BPP limit
+  * BI / extra expense limit
+  * Per-coverage extension limits (ordinance, debris, sign, etc.)
+  * Sublimits (theft, water damage, etc.)
+  * Per-occurrence vs. annual aggregate limits
+- Deductibles per coverage
+- Coinsurance percentages
+- Special perils sublimits (earthquake, wind/hail, flood)
+
+When used:
+- Large commercial property submissions
+- Blanket programs requiring per-location detail
+- Sublimit-heavy policies (extensions, endorsements)
+- Renewal reviews
+
+Notes:
+- Pairs with ACORD 140 (Property Section) and ACORD 139 (SOV) — 159
+  fills in detail when 139 alone isn't granular enough
+- Useful for verifying coinsurance compliance per location

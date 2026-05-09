@@ -5,3 +5,40 @@ Edition: 2016-09
 Title: Equipment Breakdown Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical commercial term)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Line-of-business section for equipment breakdown coverage (formerly
+"boiler & machinery"). Covers physical damage and resulting business
+income loss from sudden mechanical / electrical breakdown of
+boilers, pressure vessels, HVAC, electrical systems, production
+equipment, and computers.
+
+Captures:
+- Reference to ACORD 125
+- Coverage parts:
+  * Direct damage (limit, deductible)
+  * Business income / extra expense from breakdown
+  * Spoilage (perishables affected by breakdown)
+  * Service interruption (utility breakdown causing BI)
+  * Production equipment (where applicable)
+- Equipment schedule (boilers, vessels, refrigeration, computers,
+  electrical) or blanket coverage
+- Inspection requirements
+- Existing inspections / certifications
+- Loss history
+
+When used:
+- Manufacturing operations
+- Restaurants and food service (refrigeration / freezers)
+- Buildings with significant HVAC / boiler exposure
+- Data-dependent operations (servers, electrical, cooling)
+
+Notes:
+- Equipment breakdown is one of the few coverages that includes
+  inspection services — carriers send inspectors to check pressure
+  vessels and other regulated equipment
+- Pairs with ACORD 140 (Property Section) — equipment breakdown
+  fills a gap that standard CP excludes (mechanical breakdown,
+  artificially generated current)

@@ -5,3 +5,43 @@ Edition: 2016-09
 Title: Business Owners Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical BOP term)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Line-of-business section for Business Owners Policy (BOP) — a
+package combining commercial property and general liability for
+small to mid-sized businesses meeting BOP eligibility criteria.
+Pairs with ACORD 125 to form a complete BOP submission.
+
+Captures:
+- Reference to ACORD 125
+- BOP eligibility class (carrier-specific or ISO BOP class)
+- Property:
+  * Per-location detail (address, COPE, building value, BPP value)
+  * Coverage form (Standard or Special)
+  * BI / extra expense (typically built-in for BOP)
+  * Deductibles
+- Liability:
+  * Each occurrence / aggregate
+  * Products / completed operations
+  * Personal and advertising injury
+  * Medical payments
+  * Hired and non-owned auto (where included)
+- Optional coverages:
+  * Equipment breakdown
+  * Cyber / data compromise (often included or sublimit)
+  * Employment practices liability (where offered)
+- Loss history
+
+When used:
+- Small to mid-sized commercial submissions eligible for BOP
+- Office, retail, restaurant, light manufacturing, service
+- Renewal review
+
+Notes:
+- BOP eligibility varies by carrier — generally limited by class
+  (some classes excluded), revenue, square footage, and exposure
+  type
+- For larger or non-BOP-eligible accounts, use separate ACORD 140
+  (Property) and ACORD 126 (CGL)

@@ -5,3 +5,45 @@ Edition: 2016-03
 Title: Crime Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical commercial term)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Line-of-business section for commercial crime coverage — employee
+dishonesty, computer fraud, money / securities, forgery, funds
+transfer fraud, social engineering. Pairs with ACORD 125 for a full
+commercial crime submission.
+
+Captures:
+- Reference to ACORD 125 (insured info, operations)
+- Crime policy form (typically ISO CR 00 21 Commercial Crime
+  Coverage Form)
+- Coverage parts and limits requested:
+  * Employee Theft
+  * Forgery or Alteration
+  * Inside the Premises — Theft of Money and Securities
+  * Inside the Premises — Robbery or Safe Burglary of Other Property
+  * Outside the Premises
+  * Computer Fraud
+  * Funds Transfer Fraud
+  * Money Orders and Counterfeit Money
+  * Social Engineering Fraud (often sublimited)
+- Deductibles per coverage part
+- Number of employees, locations, ERISA fidelity bond requirement
+- Cash on premises and in transit
+- Internal controls (segregation of duties, dual authorization,
+  audits, background checks)
+- Loss history
+
+When used:
+- New business with money handling, employee theft exposure
+- Renewal review of crime limits
+- ERISA fidelity bond requirements (employee benefit plans)
+
+Notes:
+- Social engineering fraud is increasingly important — many policies
+  sublimit it heavily
+- ERISA requires fidelity bond at 10% of plan assets up to $500K
+  ($1M for plans holding employer securities)
+- Pairs with ACORD 140 (Property Section) where crime is part of a
+  property package

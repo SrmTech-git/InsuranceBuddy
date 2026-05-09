@@ -5,3 +5,44 @@ Edition: 2015-12
 Title: Truckers / Motor Carriers Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical commercial term)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Line-of-business section for motor carriers / trucking operations.
+Captures the unique exposure of for-hire trucking — auto liability,
+motor truck cargo, trailer interchange, non-trucking liability —
+that ACORD 127 (Business Auto) doesn't fully cover.
+
+Captures:
+- Reference to ACORD 125 (insured info)
+- Motor carrier / authority info: MC#, DOT#, intrastate authority
+- Operation type: for-hire, private, owner-operator, broker
+- Commodity hauled (general freight, hazmat, household goods,
+  livestock, refrigerated, etc.)
+- Radius of operations (local, intermediate, long-haul)
+- Power units (tractors), trailers, owner-operators
+- Drivers (count, MVRs, CDL status, hours-of-service compliance)
+- Coverage requested:
+  * Auto liability (BIPD or CSL, typically $750K-$5M for ICC/MCS-90)
+  * Motor truck cargo (limit, deductible, commodity coverage)
+  * Trailer interchange / non-owned trailer
+  * Physical damage (comp/coll, agreed value or ACV)
+  * Non-trucking liability (bobtail) for owner-operators
+  * General liability
+  * Workers compensation
+- Filing requirements (MCS-90, BMC-91, state filings)
+- Loss history
+
+When used:
+- Trucking new business
+- Owner-operator submissions
+- Motor carrier renewals
+
+Notes:
+- MCS-90 endorsement is federal financial responsibility — required
+  on for-hire interstate trucking and triggers minimum auto
+  liability limits ($750K-$5M depending on commodity)
+- Pairs with ACORD 22 (Intermodal Interchange Certificate) for
+  intermodal operations and ACORD 194 (Truckers Supplement) for
+  additional exposure detail

@@ -5,3 +5,44 @@ Edition: 2016-03
 Title: Installation / Builders Risk Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: Project term (3, 6, 12 months typical) or annual reporting
+Transaction types: New business / renewal (project-based)
+
+Purpose:
+Line-of-business section for installation floater (covering
+property of contractors during installation) and builders risk
+(covering structures during construction). Inland marine coverage
+specific to construction and installation exposures.
+
+Captures:
+- Reference to ACORD 125
+- Coverage form: Installation Floater, Builders Risk, or both
+- For Installation Floater:
+  * Description of installation work
+  * Maximum value at any one location
+  * Maximum in transit
+  * Annual receipts (volume of installation work)
+- For Builders Risk:
+  * Project address and description
+  * Construction type, height, square footage
+  * Estimated completed value
+  * Projected start and completion dates
+  * Existing structures (renovation vs. new construction)
+  * Soft costs coverage (delay in completion)
+- Coverage extensions: testing, debris removal, scaffolding,
+  temporary structures, fire protection during construction
+- Deductibles
+- Loss history (construction-specific)
+
+When used:
+- New construction projects (commercial and residential)
+- Renovation / remodeling projects
+- Contractors with significant installation exposure
+- Renewal of annual reporting installation policies
+
+Notes:
+- Coverage typically terminates at occupancy or completion (whichever
+  is earlier); CP coverage takes over once the building is
+  operational
+- Soft costs (lost rents, additional financing) often need separate
+  coverage

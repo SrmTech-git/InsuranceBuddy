@@ -5,3 +5,38 @@ Edition: 2012-06
 Title: Commercial Auto Driver Information Schedule
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: Matches underlying auto policy
+Transaction types: Attached to new business, renewal, or mid-term driver changes
+
+Purpose:
+Schedule of drivers covered under a commercial / business auto
+policy. Captures the personal and driving history detail needed for
+underwriting and rating each driver. Used as an attachment when
+ACORD 127 / 132 doesn't accommodate enough drivers.
+
+Captures:
+- Reference to underlying policy / application
+- For each driver:
+  * Name, DOB, gender, marital status
+  * Driver's license number, state, issue date, class (CDL where
+    applicable)
+  * Years licensed
+  * Position / job title (operator, mechanic, supervisor, etc.)
+  * Hire date
+  * Hours of service compliance (CDL drivers)
+  * Whether driver is owner / officer / family member
+  * Excluded driver status (where applicable)
+- 3-5 year MVR / loss history (accidents, violations, suspensions)
+- Driver training / safety program participation
+
+When used:
+- Commercial / business auto with multiple drivers
+- Trucking with CDL drivers and DOT-required driver files
+- Mid-term driver additions or removals
+- Renewal driver review
+
+Notes:
+- For trucking operations, additional driver detail (DOT
+  qualifications, hours of service) may be required beyond ACORD 163
+- Pairs with ACORD 127 (Business Auto) and ACORD 132 (Truckers /
+  Motor Carriers)

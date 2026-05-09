@@ -5,3 +5,39 @@ Edition: 2013-09
 Title: Accounts Receivable / Valuable Papers
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical commercial term)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Line-of-business section for accounts receivable and valuable papers
+inland marine coverage. Covers the cost of reconstructing damaged or
+destroyed AR records and valuable papers (contracts, manuscripts,
+plans, drawings, deeds, books).
+
+Captures:
+- Reference to ACORD 125
+- Accounts Receivable coverage:
+  * Maximum AR balance
+  * Average AR balance
+  * AR aging
+  * Where records are kept (on-premises, off-site, electronic)
+  * Backup procedures and frequency
+- Valuable Papers coverage:
+  * Description of valuable papers
+  * Storage (on-premises, off-site, fireproof safe)
+  * Cost to reconstruct
+  * Specific items (originals, masters, plates, dies)
+- Limits per location and aggregate
+- Deductibles
+- Loss history
+
+When used:
+- Service businesses, professional offices, manufacturers
+- Operations with significant credit / AR exposure
+- Architects, engineers, attorneys (for plans and files)
+
+Notes:
+- Electronic data is typically covered under ACORD 148 (EDP
+  Section); valuable papers focuses on hard-copy documents
+- Off-site backups dramatically reduce both AR and valuable papers
+  reconstruction costs

@@ -5,3 +5,42 @@ Edition: 2015-12
 Title: Business Auto Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical commercial term)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Line-of-business section for commercial / business auto coverage.
+Pairs with ACORD 125 (Applicant Information Section) to form a
+complete commercial auto submission. Captures vehicles, drivers,
+coverages, and exposures for non-trucking commercial fleets.
+
+Captures:
+- Reference to ACORD 125 (insured info, business operations)
+- Business auto coverage form (BAC) selection
+- Covered autos symbols (1=any, 2=owned, 7=specifically described,
+  8=hired, 9=non-owned, etc.)
+- Vehicle schedule reference (often ACORD 129)
+- Driver schedule reference (often ACORD 163)
+- Coverage limits requested:
+  * Liability (BI/PD or CSL)
+  * Medical Payments
+  * UM/UIM (state-specific)
+  * Personal Injury Protection (no-fault states)
+  * Comprehensive and collision (deductibles)
+  * Hired auto, non-owned auto liability
+  * Towing and labor
+- Garaging locations and radius of operation
+- Loss history (auto-specific)
+- Drive-other-car / extended named insured endorsements
+
+When used:
+- Commercial auto new business (non-trucking)
+- Commercial auto renewal
+- Adding business auto to a multi-line commercial submission
+
+Notes:
+- Use ACORD 132 (Truckers / Motor Carriers Section) for trucking
+  operations — they need different exposure detail
+- Pairs with ACORD 129 (Vehicle Schedule) and ACORD 163 (Commercial
+  Auto Driver Information Schedule) for the underlying detail
+- Pairs with ACORD 125 always — never submitted standalone

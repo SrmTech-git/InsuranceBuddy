@@ -5,3 +5,38 @@ Edition: 2025-05
 Title: Workers Compensation Insurance Plan – Assigned Risk Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (per assigned risk pool rules)
+Transaction types: New business / renewal in residual market (assigned risk pool)
+
+Purpose:
+Supplement to ACORD 130 used when an employer is being placed in
+the residual market — the state-administered Workers Compensation
+Insurance Plan for risks that voluntary markets won't write.
+Captures the additional disclosures the assigned risk pool requires
+to accept and assign the risk.
+
+Captures:
+- Reference to ACORD 130 (the underlying WC application)
+- Reason for assigned risk submission (declined by voluntary
+  carriers, prior cancellation, high mod factor, hazardous class)
+- Voluntary market submission history (carriers approached,
+  decline reasons)
+- Specific assigned risk pool rules disclosures
+- Premium financing arrangements
+- Safety program commitments
+- Compliance with state WC laws and assigned risk rules
+- Officer / owner attestations
+- Producer disclosures (commission caps in assigned risk markets)
+
+When used:
+- Submitting to NCCI's Assigned Risk Plan or state-specific plans
+- Renewal of assigned risk coverage
+- Transitioning from voluntary to residual market
+
+Notes:
+- Most states use NCCI's Assigned Risk Plan; some have their own
+  (CA, MI, NJ, NY, others)
+- Producer commissions in assigned risk markets are typically
+  capped below voluntary market rates
+- Pairs with ACORD 130 (Workers Compensation Application) — never
+  submitted alone

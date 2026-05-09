@@ -5,3 +5,38 @@ Edition: 2013-09
 Title: Glass and Sign Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical commercial term)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Line-of-business section for glass and sign inland marine coverage.
+Covers physical damage to glass (windows, doors, mirrors, display
+cases) and signs (on-premise and off-premise) on a scheduled or
+blanket basis.
+
+Captures:
+- Reference to ACORD 125
+- Glass coverage:
+  * Per-pane limit / aggregate
+  * Lettering and ornamentation
+  * Boarding-up costs
+  * Replacement vs. repair valuation
+- Sign coverage:
+  * On-premise signs (description, location, value)
+  * Off-premise signs (billboards, location-specific)
+  * Neon, electronic, illuminated signs (separate sublimits)
+- Deductibles per coverage
+- Locations covered
+- Loss history (glass / sign claims)
+
+When used:
+- Retail operations with significant glass exposure
+- Restaurants, dealerships, banks, jewelers
+- Properties with valuable signage (digital billboards, neon, etc.)
+
+Notes:
+- Often included in BOP or commercial property as a sublimit; this
+  form is for stand-alone or scheduled coverage when the BOP/CP
+  sublimit is insufficient
+- Pairs with ACORD 152 (Commercial Inland Marine) for broader IM
+  package

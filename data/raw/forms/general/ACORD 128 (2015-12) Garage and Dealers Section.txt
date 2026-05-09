@@ -5,3 +5,51 @@ Edition: 2015-12
 Title: Garage and Dealers Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical commercial term)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Line-of-business section for garage operations and auto dealers —
+new and used car dealers, body shops, repair facilities, service
+stations, towing operations, valet parking. Captures the unique
+combined exposure of operating ON customer vehicles AND owning /
+selling vehicles for inventory.
+
+Captures:
+- Reference to ACORD 125 (insured info, operations)
+- Garage operation type (new dealer, used dealer, body shop,
+  service, towing, valet, parking lot)
+- Inventory description (number of vehicles, average value, max
+  value, location)
+- Garage Liability:
+  * Limits (each accident / aggregate)
+  * Auto medical payments
+  * UM/UIM
+- Garagekeepers Coverage:
+  * Coverage form (Legal Liability, Direct Primary, Direct Excess)
+  * Limits per vehicle / aggregate
+  * Comprehensive and collision deductibles
+- Dealers Open Lot (for inventory):
+  * Limit per vehicle / max per location
+  * Catastrophe limit (fire, hail, flood, theft)
+  * Deductibles
+- False Pretense coverage
+- Operations radius
+- Drivers / employees / volunteers
+- Loss history
+
+When used:
+- Auto dealer new business
+- Body shop / repair facility submissions
+- Towing operator submissions
+- Renewal of garage operations
+
+Notes:
+- Garagekeepers coverage form (Legal Liability vs. Direct
+  Primary/Excess) is a critical coverage decision — Legal Liability
+  only pays when the garage is legally liable; Direct Primary/Excess
+  pays for damage to customer vehicles regardless of fault
+- Pairs with ACORD 30 (Certificate of Garage Insurance) for
+  third-party evidence
+- Different from ACORD 127 (Business Auto) — garage policies have
+  unique coverage parts that BAC doesn't model

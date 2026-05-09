@@ -5,3 +5,37 @@ Edition: 2009-11
 Title: Vehicle Schedule
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: Matches underlying policy
+Transaction types: Attached to new business, renewal, or mid-term endorsement
+
+Purpose:
+Schedule listing vehicles covered under a commercial auto policy.
+Used as an attachment when there are more vehicles than the primary
+section accommodates, or as the master vehicle list for fleets.
+
+Captures:
+- Reference to underlying policy / application
+- For each vehicle:
+  * Year, make, model, body type
+  * VIN
+  * Original cost / agreed value
+  * Garaging address
+  * Use (business, pleasure, livery, retail/service)
+  * Radius (local, intermediate, long-distance)
+  * Vehicle weight / GVWR
+  * Coverage parts requested per vehicle (liability, comp, coll)
+  * Comprehensive and collision deductibles
+  * Lienholder / loss payee
+  * Effective date for the vehicle's coverage
+
+When used:
+- Commercial auto with 5+ vehicles
+- Trucking fleets
+- Mid-term vehicle additions / deletions
+- Renewal vehicle review
+
+Notes:
+- Pairs with ACORD 127 (Business Auto Section) or ACORD 132
+  (Truckers Section) as the master vehicle list
+- AMS-generated for large fleets; the form structure is the
+  industry standard for fleet-level data

@@ -5,3 +5,44 @@ Edition: 2013-09
 Title: Dealers Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical commercial term)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Line-of-business section for dealers inland marine — coverage for
+the inventory of jewelry dealers, equipment dealers, fine art
+dealers, musical instrument dealers, and similar operations whose
+"stock" is high-value movable property requiring specialized IM
+coverage.
+
+Captures:
+- Reference to ACORD 125
+- Type of dealer (jeweler, equipment, fine art, instruments, coins,
+  stamps, antiques, etc.)
+- Inventory description and average / maximum values
+- Locations: retail, warehouse, off-premises, in-transit, at shows
+- Security:
+  * Vault, safe specifications (TL/TRTL ratings)
+  * Alarm (UL grade, central station)
+  * Surveillance, access control
+  * Employee background checks
+- Coverage parts:
+  * Stock at premises
+  * Stock at exhibitions / trade shows
+  * In transit (carrier, armored car, mail, bonded courier)
+  * Customer goods (consigned, taken in trade)
+- Limits per location / per occurrence / annual aggregate
+- Deductibles
+- Loss history
+
+When used:
+- Jewelers Block coverage for retail jewelers
+- Equipment / fine art / antique dealers
+- Renewal review of inventory values and security
+- New business with high-value inventory
+
+Notes:
+- Jewelers Block is a specialty coverage with its own market and
+  underwriting; ACORD 149 is the standard intake form
+- Security upgrades (vault grade, alarm grade, employee
+  qualifications) materially affect rate and capacity

@@ -5,3 +5,38 @@ Edition: 2016-03
 Title: Commercial Policy Change Request
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (existing policy)
+Transaction types: Mid-term change / endorsement (commercial)
+
+Purpose:
+Mid-term change request for commercial policies — property, GL,
+auto, umbrella, WC, package, BOP, specialty. Counterpart to ACORD
+70 / 71 for personal lines. Captures what the insured wants changed
+so the carrier can issue an endorsement.
+
+Captures:
+- Producer / agency information
+- Insured name, policy number, policy type / line of business
+- Effective date of change
+- Description of change requested:
+  * Coverage limit changes
+  * Adding / removing locations or operations
+  * Adding / removing vehicles, drivers, equipment
+  * Adding / removing additional insureds, loss payees, mortgagees
+  * Endorsement additions or deletions
+  * Named insured changes
+  * Premium audit-driven adjustments
+  * Mid-term renewal effective date changes
+- Insured signature
+
+When used:
+- Commercial mid-term changes across all lines of business
+- Acquisition or divestiture of business operations
+- Change in business operations triggering coverage adjustments
+- Lender / contract requirement changes
+
+Notes:
+- Pairs with ACORD 70 (personal non-auto changes) and ACORD 71
+  (personal auto changes) — this is the commercial equivalent
+- Often pre-populated by AMS systems and signed by the insured to
+  document authorization

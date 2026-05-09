@@ -5,3 +5,42 @@ Edition: 2017-11
 Title: Umbrella Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical commercial term)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Line-of-business section for commercial umbrella / excess liability
+coverage. Sits above underlying CGL, business auto, employers
+liability (under WC), and other liability policies. Pairs with
+ACORD 125 to form a complete umbrella submission.
+
+Captures:
+- Reference to ACORD 125 (insured info, operations)
+- Umbrella limit requested ($1M, $5M, $10M, higher)
+- Self-insured retention (SIR) / deductible
+- Underlying policies and required limits:
+  * CGL (typically $1M each occurrence / $2M aggregate)
+  * Auto liability (typically $1M CSL)
+  * Employers liability (typically $500K/$500K/$500K)
+  * Other (foreign liability, liquor, professional, etc.)
+- Carrier and policy numbers for each underlying policy
+- Coverage form (follow-form vs. self-contained)
+- Underlying limits compliance
+- Loss history (umbrella attaching, primary)
+- Subsidiaries, joint ventures, additional named insureds
+- Foreign operations, watercraft, aircraft, professional liability
+  exposure
+
+When used:
+- Commercial umbrella new business
+- Renewal review
+- Adding umbrella to existing primary lines
+
+Notes:
+- Underlying limits MUST be maintained — if primary cancels, umbrella
+  may drop down or void
+- "Follow-form" umbrellas inherit primary coverage terms; "self-
+  contained" umbrellas have their own form and may exclude what
+  primary covers
+- Pairs with ACORD 212 (Commercial Umbrella Underlying Schedule)
+  for the detailed list of underlying policies

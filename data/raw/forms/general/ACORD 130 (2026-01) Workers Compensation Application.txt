@@ -5,3 +5,45 @@ Edition: 2026-01
 Title: Workers Compensation Application
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical; some states allow 3-year terms)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Standalone workers compensation application capturing the employer,
+operations, payroll by class code, and loss history needed to quote
+and issue a WC policy. Can be submitted with ACORD 125 or
+standalone depending on whether the carrier writes WC alongside
+other lines.
+
+Captures:
+- Producer / agency information
+- Employer (named insured) name, address, FEIN
+- Business description, operations, NAICS, SIC
+- Years in business, number of employees
+- Locations (each state / each location)
+- Payroll by:
+  * Class code (NCCI or state-specific)
+  * Employee classification description
+  * Payroll amount
+  * Number of employees
+- Officer / partner inclusion / exclusion elections
+- Subcontractor / 1099 contractor exposure
+- Prior carrier and 5-year experience modification factor
+- 3-5 year loss history (paid, reserved, by year)
+- Safety programs, drug testing, return-to-work
+- Additional insureds, waiver of subrogation requirements
+- General information (other policies, foreign operations, prior
+  cancellations)
+
+When used:
+- WC new business
+- WC renewal
+- Audit-driven policy adjustments
+
+Notes:
+- 2026-01 edition reflects current carrier and NCCI requirements
+- WC is heavily state-regulated; some states use monopolistic state
+  funds (ND, OH, WA, WY) that require state-specific applications
+  rather than ACORD 130
+- Experience modification (mod) factor is critical — captured here
+  and verified via NCCI / state rating bureau

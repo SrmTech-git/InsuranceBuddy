@@ -5,3 +5,44 @@ Edition: 2016-03
 Title: Property Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical commercial term)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Line-of-business section for commercial property coverage. Pairs
+with ACORD 125 to form a complete commercial property submission.
+Captures locations, building characteristics, coverage limits, and
+property exposures.
+
+Captures:
+- Reference to ACORD 125 (insured info, operations)
+- Coverage form requested (CP — Commercial Property): Special
+  (causes-of-loss CP 10 30), Broad (CP 10 20), Basic (CP 10 10)
+- Per-location detail (often via ACORD 139 SOV):
+  * Address, building number
+  * Construction, occupancy, protection, exposure (COPE)
+  * Building value, BPP value, BI/EE value
+  * Coinsurance percentage
+  * Deductibles
+- Coverage extensions:
+  * Equipment breakdown (or referred to ACORD 155)
+  * Ordinance or law
+  * Spoilage
+  * Crime (or referred to ACORD 141)
+  * Inland marine (or referred to ACORD 152)
+- Catastrophe perils: wind/hail, earthquake, flood (separate
+  coverage or excluded)
+- Property valuation (RC, ACV, agreed value, functional)
+- Loss history (property-specific)
+
+When used:
+- Commercial property new business
+- Renewal review
+- Adding property to multi-line commercial submission
+- Mid-term additions of locations
+
+Notes:
+- Pairs with ACORD 139 (Statement / Schedule of Values), ACORD 155
+  (Equipment Breakdown), ACORD 141 (Crime), ACORD 152 (Commercial
+  Inland Marine) where those exposures are present
+- For BOP-eligible smaller commercial, use ACORD 160 instead
