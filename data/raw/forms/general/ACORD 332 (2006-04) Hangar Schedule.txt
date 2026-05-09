@@ -5,3 +5,36 @@ Edition: 2006-04
 Title: Hangar Schedule
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: Matches underlying policy
+Transaction types: Attached to new business, renewal, or mid-term changes
+
+Purpose:
+Schedule listing hangars covered under an aviation policy. Used as
+a continuation when the airport property supplement (ACORD 326)
+needs more space or when hangars span multiple locations.
+
+Captures:
+- Reference to underlying policy
+- For each hangar:
+  * Airport / location
+  * Hangar number / identifier
+  * Construction (steel, concrete, fabric, wood)
+  * Year built
+  * Square footage / dimensions
+  * Capacity (number / type of aircraft)
+  * Tenant aircraft (if leased to others)
+  * Building value
+  * Contents value (tools, equipment, owner-occupied items)
+  * Fire protection
+  * Doors (manual, motorized, bi-fold)
+- Tenant lease information (where applicable)
+
+When used:
+- Multi-hangar operations
+- FBOs / airports with several hangar buildings
+- Renewal review of hangar values
+
+Notes:
+- Pairs with ACORD 326 (Airport Property Supplement)
+- Hangar collapse and fire are major property concerns; construction
+  and protection details drive rating

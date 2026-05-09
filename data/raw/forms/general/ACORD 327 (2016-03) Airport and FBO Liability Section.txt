@@ -5,3 +5,46 @@ Edition: 2016-03
 Title: Airport and FBO Liability Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical commercial term)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Line-of-business section for airport and Fixed-Base Operator (FBO)
+liability coverage. Captures the unique liability exposure of
+operating an airport, FBO, or aircraft service facility — premises
+liability, products and completed operations on aviation services,
+hangarkeepers liability for aircraft in custody.
+
+Captures:
+- Reference to ACORD 325
+- Operation type: airport, FBO, fueling, maintenance, flight school,
+  charter
+- Coverage parts requested:
+  * Premises and operations liability (each occurrence, aggregate)
+  * Products and completed operations
+  * Personal and advertising injury
+  * Hangarkeepers liability (each aircraft, aggregate)
+  * Aircraft fueling liability
+  * Aircraft sales liability
+  * Lessors liability (where applicable)
+  * Contractual liability
+- Limits and deductibles
+- Annual revenue by service line
+- Number of aircraft serviced, fueled, maintained per year
+- Aircraft in custody (max value, average value)
+- Pilot training / flight school (hours, students, instructors)
+- Subcontractors and their insurance
+- Loss history (premises, operations, hangarkeepers)
+
+When used:
+- Airport / FBO new business
+- Aviation service operator submissions
+- Aircraft maintenance facility coverage
+
+Notes:
+- Hangarkeepers liability covers aircraft in the FBO's custody for
+  service / storage — a significant exposure
+- Fueling operations are a major liability concern (fueling errors
+  can cause engine failure)
+- Pairs with ACORD 326 (Airport Property Supplement) and ACORD 20
+  (Certificate of Aviation Liability)

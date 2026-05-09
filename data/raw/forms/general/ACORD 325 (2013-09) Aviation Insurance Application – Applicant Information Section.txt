@@ -5,3 +5,45 @@ Edition: 2013-09
 Title: Aviation Insurance Application – Applicant Information Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Applicant information section for aviation insurance — the aviation-
+specific counterpart to ACORD 125 (Commercial Insurance Application
+Applicant Information Section). Captures the operator, ownership,
+operational characteristics, and prior coverage that drive aviation
+underwriting.
+
+Captures:
+- Producer / agency information
+- Insured / aircraft owner / operator name and contact
+- Type of operation:
+  * Pleasure / business
+  * Industrial aid
+  * Charter / commercial passenger
+  * Aerial application (crop dusting, fire suppression)
+  * Flight school / instruction
+  * Aircraft management / FBO
+- Operating organization (sole proprietor, LLC, corp, partnership)
+- Years in aviation
+- Number of aircraft, hangars, locations
+- Number of pilots and flight hours flown annually
+- Prior aviation insurance carriers (5+ year history)
+- Prior aviation losses
+- Geographic operating area
+- Use restrictions / regulatory authorizations (Part 91, 121, 135)
+- Subsidiaries, joint ventures, related entities
+- Certificate holder / lender / lessor relationships
+
+When used:
+- All aviation submissions — pairs with line-specific sections
+  (ACORD 330 Aircraft Section, ACORD 327 Airport / FBO Liability,
+  etc.)
+- Renewal review of operational changes
+- New business across all aviation lines
+
+Notes:
+- Pairs with line-of-business sections rather than ACORD 125 —
+  aviation has its own application family
+- Industry / operation type drives carrier appetite significantly

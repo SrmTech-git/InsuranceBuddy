@@ -5,3 +5,39 @@ Edition: 2016-03
 Title: Aircraft Change Request
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (existing aviation policy)
+Transaction types: Mid-term change / endorsement (aircraft / hull / liability)
+
+Purpose:
+Mid-term change request for aircraft on an existing aviation policy
+— adding, deleting, or modifying aircraft coverage. Counterpart to
+ACORD 71 (Personal Auto Policy Change Request) for the aviation
+context.
+
+Captures:
+- Reference to underlying aviation policy and ACORD 330 / 333
+- Effective date of change
+- Change requested:
+  * Adding new aircraft (with full ACORD 333 detail)
+  * Deleting aircraft (sold, totaled, retired)
+  * Hull value changes (purchase price changes, depreciation,
+    appreciation on collectible aircraft)
+  * Coverage limit changes
+  * Use changes (e.g., personal to business, business to charter)
+  * Geographic operating area changes
+  * Lender / lessor / loss payable changes
+- Insured signature
+
+When used:
+- Aircraft acquisition or sale
+- Annual hull value reviews (especially for collectible / vintage
+  aircraft)
+- Use changes (often triggered by FAA certificate changes)
+- Mid-term coverage adjustments
+
+Notes:
+- Aircraft purchases / sales typically require coverage to be in
+  place at closing — often handled via ACORD 276 (Aircraft Insurance
+  Binder) and then formalized with this change request
+- Pairs with ACORD 330 (Aircraft Section) and ACORD 333 (Aircraft
+  Schedule)

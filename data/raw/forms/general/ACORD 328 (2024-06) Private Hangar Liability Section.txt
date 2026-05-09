@@ -5,3 +5,36 @@ Edition: 2024-06
 Title: Private Hangar Liability Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Liability section for private hangars — typically owned by aircraft
+owners or small flight departments rather than commercial FBOs.
+Covers premises liability and limited hangarkeepers exposure for
+the owner's own aircraft and occasional guest aircraft.
+
+Captures:
+- Reference to ACORD 325
+- Hangar location (airport, address)
+- Hangar ownership (insured, leased, condo)
+- Aircraft typically housed (own vs. guest)
+- Coverage:
+  * Premises liability (each occurrence, aggregate)
+  * Hangarkeepers (limited — usually for guest aircraft)
+  * Personal and advertising injury
+  * Medical payments
+- Annual hangar use (frequency, hours)
+- Other tenants in shared hangars
+- Maintenance activity in the hangar (self vs. contracted)
+- Loss history
+
+When used:
+- Private aircraft owners with hangars
+- Small flight departments
+- Aircraft owners renting hangar space at airports
+
+Notes:
+- Distinct from ACORD 327 (Airport and FBO Liability) — 328 is for
+  private use rather than commercial operation
+- Hangarkeepers exposure is much lower than commercial FBOs

@@ -5,3 +5,36 @@ Edition: 2009-06
 Title: Aviation Policy Change Request – Applicant Information Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (existing aviation policy)
+Transaction types: Mid-term change / endorsement (aviation applicant information)
+
+Purpose:
+Aviation policy change request capturing applicant information
+updates — name changes, address changes, ownership changes,
+operational changes that affect the underlying ACORD 325 (Aviation
+Insurance Application – Applicant Information Section).
+
+Captures:
+- Reference to underlying aviation policy
+- Effective date of change
+- Change in:
+  * Insured name (legal name change, entity restructuring)
+  * Mailing / business address
+  * Operating organization type
+  * Primary operations / use
+  * Geographic operating area
+  * Subsidiaries / related entities
+- Insured signature
+
+When used:
+- Mid-term applicant information changes
+- Entity restructuring affecting aviation policies
+- Operational changes that affect underwriting basis
+
+Notes:
+- Pairs with ACORD 325 (the underlying applicant information
+  section)
+- Other aviation change requests cover specific exposures (336
+  airport property, 337 airport/FBO liability, 338 private hangar
+  liability, 339 aviation products, 340 aircraft, 341 pilot
+  experience, 342 hangar)

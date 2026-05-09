@@ -5,3 +5,36 @@ Edition: 2009-05
 Title: Aircraft Schedule
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: Matches underlying aviation policy
+Transaction types: Attached to new business, renewal, or mid-term changes
+
+Purpose:
+Schedule of aircraft covered under an aviation policy. Used as a
+continuation when the Aircraft Section (ACORD 330) needs more space
+or when fleets are large enough to warrant a master schedule.
+
+Captures:
+- Reference to underlying aviation policy
+- For each aircraft:
+  * Registration (N-number)
+  * Make, model, year, serial number
+  * Type of operation
+  * Total time on airframe / engines
+  * Hull value (agreed / stated)
+  * Hull deductibles (in motion / not in motion)
+  * Liability limits applicable
+  * Use limitations
+  * Hangared location
+  * Lender / lessor / loss payable
+  * Effective date for the aircraft
+
+When used:
+- Multi-aircraft fleets
+- Charter / FBO / flight school fleets
+- Mid-term aircraft additions / deletions
+- Renewal fleet review
+
+Notes:
+- Pairs with ACORD 330 (Aircraft Section) and ACORD 331 (Pilot
+  Experience)
+- Often AMS-generated for large fleets

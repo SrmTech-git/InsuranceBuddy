@@ -5,3 +5,32 @@ Edition: 2009-06
 Title: Private Hangar Liability Change Request
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (existing aviation policy)
+Transaction types: Mid-term change / endorsement (private hangar liability)
+
+Purpose:
+Mid-term change request for private hangar liability — for aircraft
+owners and small flight departments with private hangar coverage
+under ACORD 328 (Private Hangar Liability Section).
+
+Captures:
+- Reference to underlying aviation policy and ACORD 328
+- Effective date of change
+- Change requested:
+  * Coverage limit adjustments
+  * Adding or removing hangars
+  * Changing hangar tenants (own vs. shared)
+  * Updating hangarkeepers exposure for guest aircraft
+  * Liability limit changes
+- Insured signature
+
+When used:
+- Acquiring new hangar space
+- Releasing hangar space
+- Changing aircraft housed in the hangar
+- Adjusting liability limits
+
+Notes:
+- Pairs with ACORD 328 (Private Hangar Liability Section)
+- Smaller and simpler than the FBO change (337) — private hangar
+  use is less complex

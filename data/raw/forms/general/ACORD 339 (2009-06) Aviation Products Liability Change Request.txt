@@ -5,3 +5,35 @@ Edition: 2009-06
 Title: Aviation Products Liability Change Request
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (existing aviation products policy)
+Transaction types: Mid-term change / endorsement (aviation products liability)
+
+Purpose:
+Mid-term change request for aviation products liability coverage —
+for manufacturers, distributors, MROs, and STC holders adjusting
+coverage on the products policy issued via ACORD 329.
+
+Captures:
+- Reference to underlying aviation products policy and ACORD 329
+- Effective date of change
+- Change requested:
+  * Coverage limit adjustments
+  * Adding or removing product lines
+  * Adding or removing services (manufacturing, distribution,
+    overhaul, STC)
+  * Geographic distribution changes
+  * FAA certification additions (new PMA, new STC, repair station
+    authorization)
+  * Retroactive date adjustments (claims-made)
+- Insured signature
+
+When used:
+- New product introductions
+- Acquiring or divesting product lines
+- Adding new services (e.g., distributor adding STC business)
+- Coverage limit changes driven by contracts or regulatory needs
+
+Notes:
+- Aviation products mid-term changes can have significant pricing
+  impact — additional product lines add tail exposure
+- Pairs with ACORD 329 (Aviation Products Liability)

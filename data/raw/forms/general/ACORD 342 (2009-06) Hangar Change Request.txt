@@ -5,3 +5,32 @@ Edition: 2009-06
 Title: Hangar Change Request
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (existing aviation policy)
+Transaction types: Mid-term change / endorsement (hangar coverage)
+
+Purpose:
+Mid-term change request for hangar coverage on an existing aviation
+policy — adding, deleting, or modifying hangar exposure documented
+on ACORD 332 (Hangar Schedule).
+
+Captures:
+- Reference to underlying aviation policy and ACORD 332
+- Effective date of change
+- Change requested:
+  * Adding new hangars
+  * Deleting hangars
+  * Building / contents value updates
+  * Tenant changes (occupancy mix)
+  * Construction or improvement updates
+  * Fire protection updates
+- Insured signature
+
+When used:
+- New hangar acquisition or construction
+- Hangar disposal
+- Improvements affecting value or rating
+- Tenant changes affecting occupancy mix
+
+Notes:
+- Pairs with ACORD 332 (Hangar Schedule) and ACORD 326 (Airport
+  Property Supplement)

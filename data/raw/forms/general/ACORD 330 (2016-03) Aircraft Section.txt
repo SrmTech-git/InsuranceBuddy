@@ -5,3 +5,49 @@ Edition: 2016-03
 Title: Aircraft Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Line-of-business section for aircraft hull and liability coverage —
+the core aviation policy section. Captures the specific aircraft,
+pilots, use, and coverage detail that drive aviation underwriting.
+
+Captures:
+- Reference to ACORD 325
+- Aircraft information:
+  * Registration (N-number)
+  * Make, model, year, serial number
+  * Engine type and total time
+  * Airframe total time
+  * Type of operation (Part 91 personal/business, Part 135 charter,
+    Part 121 air carrier)
+- Hull coverage:
+  * Agreed value or stated value
+  * Deductible (in motion / not in motion)
+- Liability coverage:
+  * Each occurrence
+  * Per-passenger seat
+  * Property damage / passenger property
+  * Bodily injury (passenger and non-passenger)
+- Use limitations (pleasure, business, commercial, instruction)
+- Geographic operating area / international approvals
+- Pilot information (referenced separately on ACORD 331 Pilot
+  Experience):
+  * Named pilots and qualifications
+  * Open pilot warranty (minimum hours, ratings, type training)
+- Storage location (hangared vs. tied down)
+- Lender / lessor / loss payable
+- Loss history
+
+When used:
+- Aircraft new business
+- Renewal review
+- Adding aircraft to existing aviation programs
+- Mid-term changes (referred to ACORD 340)
+
+Notes:
+- Pairs with ACORD 331 (Pilot Experience) for pilot detail and
+  ACORD 333 (Aircraft Schedule) for fleet detail
+- Open pilot warranty is critical — pilots must meet warranty
+  qualifications or coverage may not apply

@@ -5,3 +5,35 @@ Edition: 2011-11
 Title: Pilot Experience Change Request
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (existing aviation policy)
+Transaction types: Mid-term change / endorsement (pilot additions or changes)
+
+Purpose:
+Mid-term change request for pilot information on an existing
+aviation policy — adding new pilots, deleting pilots, or updating
+pilot qualifications and currency.
+
+Captures:
+- Reference to underlying aviation policy and ACORD 331 (Pilot
+  Experience)
+- Effective date of change
+- Change requested:
+  * Adding new named pilot (with full ACORD 331 detail)
+  * Deleting pilot
+  * Updating pilot qualifications (new ratings, type ratings,
+    additional hours)
+  * Recurrent training updates
+  * Medical certificate updates
+- Insured signature
+
+When used:
+- Adding a new pilot to a policy mid-term
+- Pilot retirements or departures
+- Annual qualification updates as hours accumulate
+- New ratings / type training completed
+
+Notes:
+- Aviation policies often have pilot warranties — adding a pilot
+  who doesn't meet warranty requirements may require carrier
+  approval before coverage applies
+- Pairs with ACORD 331 (Pilot Experience)

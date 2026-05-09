@@ -5,3 +5,41 @@ Edition: 2006-04
 Title: Airport Property Supplement
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical commercial term)
+Transaction types: New business / renewal underwriting (airport property)
+
+Purpose:
+Underwriting supplement for airport property exposures — buildings,
+runways, hangars, FBO facilities, hangar contents. Captures the
+property characteristics specific to airport operations beyond what
+the standard property section accommodates.
+
+Captures:
+- Reference to ACORD 325
+- Airport identification (FAA identifier, name, location)
+- Airport type (private, public, towered, untowered)
+- Property to be insured:
+  * Buildings (terminal, hangars, FBO, maintenance, fuel facilities)
+  * Construction, year built, square footage
+  * Building values
+  * Contents values
+- Runway and taxiway exposure (paved length, condition)
+- Fueling operations:
+  * Fuel storage (tanks, capacity, type — Avgas, Jet-A)
+  * Fuel handling equipment
+  * Fuel-related liability
+- Aircraft handling / ground operations
+- Tenant aircraft (number, value, occupancy of hangars)
+- Protection: fire suppression, alarm, on-airport firefighting
+- Loss history (property and aviation-related)
+
+When used:
+- Airport / FBO new business
+- Renewal review of property values and exposures
+- Pairs with ACORD 327 (Airport and FBO Liability Section)
+
+Notes:
+- Airport property has unique exposures — fueling, runway, hangar
+  collapse — that standard CP doesn't fully address
+- Fuel storage / handling is heavily regulated and a major
+  underwriting concern

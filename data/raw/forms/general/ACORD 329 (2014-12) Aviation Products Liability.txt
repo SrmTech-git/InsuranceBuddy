@@ -5,3 +5,48 @@ Edition: 2014-12
 Title: Aviation Products Liability
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical, often claims-made for products)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Aviation products liability section for manufacturers, distributors,
+service centers, and overhaulers of aviation products — engines,
+airframes, avionics, parts, accessories. Aviation products
+liability is a specialty market with extreme stakes (product failure
+can cause fatal accidents).
+
+Captures:
+- Reference to ACORD 325
+- Type of operation:
+  * Manufacturer (OEM, parts)
+  * Distributor / dealer
+  * Maintenance / service / overhaul
+  * STC (Supplemental Type Certificate) holder
+  * Component repair
+- Products manufactured / distributed / serviced
+- Annual revenue by product line
+- Geographic distribution
+- FAA certifications (PMA, STC, repair station authorization)
+- Quality control / testing programs
+- Product traceability and serial number tracking
+- Service bulletins and AD compliance
+- Coverage:
+  * Each occurrence / aggregate
+  * Products / completed operations
+  * Defense provisions
+- Claims-made retroactive date (where applicable)
+- Loss history (product claims, recalls, AD-driven losses)
+
+When used:
+- Aviation product manufacturers
+- Parts distributors
+- Maintenance / repair / overhaul (MRO) operations
+- Component overhaul shops
+
+Notes:
+- Aviation products liability is one of the highest-stakes E&O / PL
+  exposures — single product failure can cause multiple fatalities
+- Aviation product claims often involve lengthy investigations
+  (NTSB, FAA) that can extend tail liability
+- Pairs with ACORD 339 (Aviation Products Liability Change Request)
+  for mid-term changes

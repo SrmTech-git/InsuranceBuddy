@@ -5,3 +5,38 @@ Edition: 2011-11
 Title: Pilot Experience
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: Matches underlying aviation policy
+Transaction types: Attached to new business, renewal, or mid-term pilot changes
+
+Purpose:
+Schedule of pilot experience for each named pilot on an aviation
+policy. Aviation underwriting is heavily pilot-driven — total
+hours, ratings, type-specific experience, and recent currency are
+material factors in coverage acceptance and rates.
+
+Captures:
+- Reference to underlying aviation policy
+- For each pilot:
+  * Name, DOB
+  * Pilot certificate (Private, Commercial, ATP)
+  * Ratings (instrument, multi-engine, ATP, type ratings)
+  * Medical certificate (1st, 2nd, 3rd class, expiration)
+  * Flight Review / IPC currency
+  * Total flight hours (logbook)
+  * Hours in make / model
+  * Last 90 days, last 12 months
+  * Hours as PIC vs. SIC
+  * Type-specific training (factory, simulator, type rating school)
+  * Prior aviation accidents / incidents / violations
+
+When used:
+- New aviation policies for each named pilot
+- Pilot additions / changes mid-term
+- Annual renewal updates as hours accumulate
+
+Notes:
+- Pairs with ACORD 330 (Aircraft Section)
+- Open pilot warranty in the policy specifies minimum experience —
+  named pilots may have different requirements
+- Recurrent training (annual or biennial flight review) is often
+  a coverage condition
