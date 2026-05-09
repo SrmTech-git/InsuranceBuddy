@@ -5,3 +5,34 @@ Edition: 2002-01
 Title: Policy Certification Log
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (administrative log)
+Transaction types: N/A (administrative tracking)
+
+Purpose:
+Internal agency log used to track certificates of insurance issued
+against a policy. Provides an audit trail of who received which
+certificate, when, and for what coverage — useful for compliance
+review, renewal management, and reissuance tracking.
+
+Captures:
+- Insured / policy reference (named insured, policy number)
+- For each certificate issued:
+  * Certificate number / sequence
+  * Date issued
+  * Certificate holder name and address
+  * Type of coverage certified
+  * Form used (ACORD 25, 24, etc.)
+  * Issuer / authorized representative
+  * Reissuance flags (renewal, replacement, etc.)
+
+When used:
+- Agency administrative recordkeeping
+- E&O compliance / audit trail
+- Renewal time review of who received what
+- Tracking certificate volume per account
+
+Notes:
+- Edition is from 2002 and predates most agency management systems
+  that now track this data automatically — many agencies maintain
+  the equivalent log in their AMS rather than on paper
+- Not issued to third parties; purely an internal document

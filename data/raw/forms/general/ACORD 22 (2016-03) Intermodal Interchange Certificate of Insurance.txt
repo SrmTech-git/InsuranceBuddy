@@ -3,5 +3,38 @@ ACORD 22 (2016-03) — Intermodal Interchange Certificate of Insurance
 Form number: ACORD 22
 Edition: 2016-03
 Title: Intermodal Interchange Certificate of Insurance
-Type: Insurance form (ACORD industry standard)
+Type: Insurance certificate (ACORD industry standard)
 States: All
+Policy term: N/A (reflects underlying policies)
+Transaction types: N/A (issued on demand)
+
+Purpose:
+Specialty certificate proving a motor carrier has the insurance
+coverage required by an Intermodal Equipment Provider (IEP) under
+the Uniform Intermodal Interchange Agreement (UIIA). Required when
+a trucker picks up or drops off intermodal containers, chassis, or
+trailers from steamship lines, terminal operators, or equipment
+leasing companies.
+
+Captures:
+- Producer / agency information
+- Motor carrier name, address, MC and DOT numbers
+- Intermodal Equipment Provider (certificate holder)
+- Auto liability coverage (typically $1M CSL minimum per UIIA)
+- Trailer interchange / non-owned trailer coverage with limit
+- Cargo / motor truck cargo coverage
+- Physical damage on intermodal equipment
+- General liability (where applicable)
+- Workers compensation (where applicable)
+- Effective and expiration dates
+
+When used:
+- Submitting carrier credentials to UIIA
+- Periodic re-verification with IEPs
+- Adding new IEPs to a carrier's authorized list
+
+Notes:
+- UIIA requirements set the minimum limits; individual IEPs may
+  require higher limits or additional coverages
+- Filed via UIIA's online system in addition to (or instead of)
+  manual delivery to the IEP

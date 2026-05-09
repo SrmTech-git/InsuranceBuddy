@@ -3,5 +3,46 @@ ACORD 20 (2016-03) — Certificate of Aviation Liability Insurance
 Form number: ACORD 20
 Edition: 2016-03
 Title: Certificate of Aviation Liability Insurance
-Type: Insurance form (ACORD industry standard)
+Type: Insurance certificate (ACORD industry standard)
 States: All
+Policy term: N/A (reflects underlying policies)
+Transaction types: N/A (issued on demand)
+
+Purpose:
+Provides evidence of aviation liability insurance to a third party
+(certificate holder). Used in lieu of ACORD 25 when the underlying
+exposure is aviation-related — airport tenants, FBOs, charter
+operators, aircraft owners — because aviation policies have
+distinct coverage parts and limits structures (per-passenger limits,
+products-completed operations for aviation, war risk indicators)
+that the standard ACORD 25 doesn't capture.
+
+Captures:
+- Producer / agency information
+- Named insured
+- Insurer(s) affording coverage with NAIC numbers
+- Certificate holder name and address
+- Aviation policy number, effective and expiration dates
+- Coverage parts:
+  * Aircraft Liability (each occurrence, per passenger seat)
+  * Hangarkeepers Liability (sublimit per aircraft, aggregate)
+  * Premises / Products-Completed Operations
+  * Personal Injury / Advertising Injury
+  * Medical Payments
+  * War Risk indicator (if covered)
+- Description of operations / aircraft / locations
+- Additional Insured / Loss Payee / Cancellation indicators
+
+When used:
+- Airport tenant lease compliance
+- FBO operations and ground service agreements
+- Aircraft charter and management contracts
+- Aircraft lender / lessor requirements
+- Government airport operations contracts
+
+Notes:
+- Aviation policies have substantially different coverage structure
+  than general liability — uses dedicated certificate rather than
+  ACORD 25 to avoid mislabeling limits
+- Often paired with ACORD 21 (Certificate of Aircraft Insurance) when
+  both hull and broader liability evidence is needed
