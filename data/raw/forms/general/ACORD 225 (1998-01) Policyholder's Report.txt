@@ -5,3 +5,41 @@ Edition: 1998-01
 Title: Policyholder's Report
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (audit document)
+Transaction types: Premium audit reporting (typically annual)
+
+Purpose:
+Policyholder's self-report of audit-basis exposures (payroll, gross
+sales, units) for premium audit purposes. Used to true up actual
+exposures against estimated exposures for policies rated on auditable
+bases — typically commercial GL, workers comp, business auto, and
+package policies.
+
+Captures:
+- Insured / policy reference
+- Audit period (typically 12 months matching policy term)
+- For each class / exposure base:
+  * Estimated exposure (per policy)
+  * Actual exposure (audit period)
+  * Variance
+- Payroll detail (where audited):
+  * Total payroll by class
+  * Officer / owner exclusions or inclusions
+  * Overtime treatment
+- Gross sales detail (where audited):
+  * Total receipts
+  * Tax exclusions
+- Subcontractor costs (where audited)
+- Insured signature attesting to accuracy
+- Producer / auditor verification
+
+When used:
+- Annual premium audit on auditable policies
+- Mid-term audits triggered by significant exposure changes
+- Final audit on cancelled policies
+
+Notes:
+- Edition is from 1998 — most carriers use proprietary audit forms
+  or online portals now, but ACORD 225 remains a baseline standard
+- Material understatement of exposures can trigger additional
+  premium and possibly fraud allegations

@@ -5,3 +5,36 @@ Edition: 1993-03
 Title: Producer Account Discrepancy Notice
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (administrative form)
+Transaction types: Producer / carrier account reconciliation
+
+Purpose:
+Notice from a producer to a carrier (or vice versa) identifying a
+discrepancy in producer account records — commission calculations,
+premium remittance, policy fee applications, or similar accounting
+issues requiring reconciliation.
+
+Captures:
+- Reference to producer account (ACORD 200 reference)
+- Period covered by the discrepancy
+- Specific discrepancy items:
+  * Commissions claimed vs. paid
+  * Premium remittance differences
+  * Policy fees / surcharges
+  * Endorsement adjustments
+  * Cancellation refunds
+- Supporting documentation references
+- Producer / carrier contact
+- Resolution requested
+- Authorized signature
+
+When used:
+- Producer reconciliation of monthly / quarterly statements
+- Disputed commission calculations
+- Premium accounting differences
+- Annual audits
+
+Notes:
+- Edition is from 1993 — most carriers handle account discrepancies
+  through producer portals or AMS integrations now
+- Pairs with ACORD 200 (Producer Account)

@@ -5,3 +5,35 @@ Edition: 2016-09
 Title: Schedule of Hazards
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: Matches underlying policy
+Transaction types: Attached to new business, renewal, or audit
+
+Purpose:
+Schedule of CGL classification codes and rating exposures by
+location and operation. Used to capture the rating-by-class structure
+of commercial general liability exposures — separate exposure bases
+(payroll, gross sales, area, units) for each class code at each
+location.
+
+Captures:
+- Reference to underlying CGL application
+- For each location and class code:
+  * Class code (ISO or carrier-specific)
+  * Class description
+  * Premium basis (payroll, sales, area, etc.)
+  * Exposure amount
+  * Rate per unit
+  * Annual premium
+- Sub-totals by location
+- Aggregate totals
+
+When used:
+- Multi-class CGL submissions
+- Multi-location commercial accounts
+- Renewal audit reconciliation
+- Premium audit documentation
+
+Notes:
+- Pairs with ACORD 126 (CGL Section) — 211 provides the per-class
+  exposure detail that drives CGL premium calculation
+- Critical for premium audit accuracy and reconciliation

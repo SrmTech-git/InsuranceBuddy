@@ -5,3 +5,41 @@ Edition: 2013-09
 Title: Supplemental Property Application
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical commercial term)
+Transaction types: New business / renewal underwriting (additional property detail)
+
+Purpose:
+Supplement to ACORD 140 (Property Section) capturing additional
+property underwriting detail not accommodated by the main property
+section. Used when the property exposure has unique characteristics
+or risk factors requiring deeper underwriting.
+
+Captures:
+- Reference to ACORD 125 / 140
+- Specific property features needing additional disclosure:
+  * Special construction (heavy timber, fire-resistive, mixed)
+  * Specialty occupancies (warehouse, manufacturing, processing)
+  * High-value contents requiring scheduled coverage
+  * Spoilage / temperature control exposure
+  * Vacancy or partial occupancy
+  * Renovation activity
+- Protection details:
+  * Sprinkler coverage (% of building, dry vs. wet, monitoring)
+  * Fire alarm (central station, local, monitored)
+  * Burglar alarm (UL grade)
+  * Watchman / security
+- Catastrophe exposure detail (hurricane, earthquake, wildfire,
+  flood)
+- Building code / ordinance compliance
+- Recent inspections / engineering reports
+- Loss control recommendations from prior carriers
+
+When used:
+- Complex commercial property submissions
+- Properties with unusual exposures or recent claims
+- Schedule of large or high-value buildings
+- Carrier-specific underwriting requests
+
+Notes:
+- Pairs with ACORD 140 (Property Section) and ACORD 139 (SOV)
+- Often a carrier-specific or specialty market requirement

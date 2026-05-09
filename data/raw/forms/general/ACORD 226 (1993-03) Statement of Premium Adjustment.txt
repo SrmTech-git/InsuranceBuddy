@@ -5,3 +5,35 @@ Edition: 1993-03
 Title: Statement of Premium Adjustment
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (audit document)
+Transaction types: Premium audit settlement / adjustment notification
+
+Purpose:
+Carrier-issued statement of premium adjustment following a premium
+audit. Notifies the insured (and producer) of the audit results —
+additional premium owed, refund due, or no change — and the basis
+for the adjustment.
+
+Captures:
+- Insured / policy reference
+- Audit period
+- Original policy premium (estimated)
+- Audited premium (actual)
+- Premium adjustment (additional or return)
+- Detail by class / exposure:
+  * Estimated vs. audited exposure
+  * Estimated vs. audited premium
+- Reason for adjustment
+- Carrier / auditor contact
+- Dispute / appeal process
+
+When used:
+- Issued at completion of premium audit
+- Follow-up to ACORD 225 (Policyholder's Report)
+- Final audit on cancelled policies
+
+Notes:
+- Edition is from 1993 — superseded by carrier-specific notices in
+  most modern audits
+- Insured has appeal rights for disputed audit results; specific
+  processes vary by carrier and state

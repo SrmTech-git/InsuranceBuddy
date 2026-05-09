@@ -5,3 +5,44 @@ Edition: 1996-10
 Title: Design Professional's Individual Property Survey
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: Project-based or matched to underlying policy
+Transaction types: Project review / underwriting documentation
+
+Purpose:
+Property survey form completed by a design professional (architect,
+engineer) documenting a building's characteristics for insurance
+underwriting purposes. Used when a building's value or condition
+needs to be established by a professional rather than relying on
+self-reported information.
+
+Captures:
+- Property location and description
+- Design professional information (license, firm, contact)
+- Building characteristics:
+  * Construction type and quality
+  * Age, additions, renovations
+  * Structural integrity
+  * Mechanical / electrical / plumbing
+  * Roof condition and remaining life
+  * Foundation
+- Replacement cost analysis:
+  * Construction quality
+  * Building code requirements
+  * Site conditions
+  * Calculated replacement cost per square foot
+- Recommended coverage limits
+- Conditions / deficiencies noted
+- Estimated repair / improvement costs
+
+When used:
+- High-value properties requiring professional valuation
+- Historic buildings or unusual construction
+- Disputed coverage limits / coinsurance issues
+- After-loss disputes where construction cost is contested
+
+Notes:
+- Edition is from 1996 — modern carriers typically use proprietary
+  appraisal services or reconstruction cost software rather than
+  this form; still occasionally used for unique buildings
+- Distinct from ACORD 42 (Residential Property Replacement Cost)
+  which is for residential underwriting

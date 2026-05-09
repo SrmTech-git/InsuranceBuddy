@@ -5,3 +5,43 @@ Edition: 2009-03
 Title: Open Cargo Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical, with annual reporting)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Line-of-business section for open cargo (ocean and inland marine
+cargo) coverage on a continuous, all-risk basis. Used for shippers
+and consignees who move goods regularly and need ongoing coverage
+rather than trip-by-trip insurance.
+
+Captures:
+- Reference to ACORD 125
+- Cargo coverage details:
+  * Commodities shipped (description, special hazards)
+  * Annual shipment volume / values
+  * Maximum value per conveyance
+  * Mode (ocean, air, motor truck, rail, intermodal)
+  * Geographic origins and destinations
+- Coverage form:
+  * Institute Cargo Clauses (A, B, C) for ocean
+  * All risk vs. named perils
+  * Warehouse-to-warehouse coverage
+- Limits per occurrence and aggregate
+- Deductible
+- Refrigeration / temperature control
+- Storage in transit (terminals, warehouses)
+- Reporting / declaration requirements
+- War, strikes, riots, civil commotion (often separate)
+- Loss history
+
+When used:
+- Manufacturers, distributors, importers / exporters
+- Logistics and freight forwarders (cargo on customers' behalf)
+- Renewal of open cargo policies
+
+Notes:
+- Distinct from ACORD 143 (Transportation Section) which focuses on
+  motor truck cargo for domestic carriers; ACORD 193 covers the
+  shipper / consignee side and includes ocean cargo
+- Pairs with ACORD 31 (Certificate of Marine / Energy Insurance)
+  for evidence to third parties

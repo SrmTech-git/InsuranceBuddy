@@ -5,3 +5,39 @@ Edition: 1999-01
 Title: Application Supplement – Undertaking
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: Matches underlying policy
+Transaction types: New business / renewal underwriting (formal undertaking / disclosure)
+
+Purpose:
+Insured's signed undertaking (formal acknowledgment) of specific
+underwriting representations, conditions, or commitments. Used when
+the underwriter requires the insured to attest under penalty of
+misrepresentation to specific facts or commitments — beyond what's
+on the standard application.
+
+Captures:
+- Reference to underlying application / policy
+- Insured / applicant identification
+- Specific undertakings being made:
+  * Compliance with code requirements / building updates
+  * Implementation of safety / security measures
+  * Maintenance of specific procedures
+  * Disclosure of specific facts (prior losses, conditions, etc.)
+  * Acknowledgment of policy exclusions / conditions
+- Effective date of the undertaking
+- Insured signature with date
+- Witness signature (where required)
+
+When used:
+- Underwriting accommodations conditional on specific commitments
+- Reinstatement following lapse with specific conditions
+- High-hazard or specialty submissions requiring additional
+  representations
+- Backdating coverage with specific representations
+
+Notes:
+- Edition is from 1999 and the form sees less use today — most
+  modern undertakings are captured via specific endorsement
+  conditions or carrier-specific forms
+- Material misrepresentation in an undertaking generally voids
+  coverage in the same way as misrepresentation on the application

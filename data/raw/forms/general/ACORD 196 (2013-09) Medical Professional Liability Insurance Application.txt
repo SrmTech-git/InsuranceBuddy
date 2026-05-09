@@ -5,3 +5,50 @@ Edition: 2013-09
 Title: Medical Professional Liability Insurance Application
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical, usually claims-made)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Application for medical professional liability (medical malpractice)
+insurance covering physicians, surgeons, allied health professionals,
+and medical groups. Captures the practice characteristics, procedures
+performed, and risk management practices that drive med-mal
+underwriting.
+
+Captures:
+- Producer / agency information
+- Applicant / insured (individual physician, group, facility)
+- Specialty / specialties practiced
+- Medical license details (state, license #, year licensed)
+- Board certifications
+- Hospital affiliations and privileges
+- Procedures performed and frequency:
+  * High-risk procedures (especially surgical)
+  * Office-based vs. hospital-based
+- Patient volume (annual visits, surgeries, deliveries)
+- Practice setting (solo, group, employed, locum tenens)
+- Prior carriers and continuous coverage
+- Claims-made retroactive date
+- Tail / Extended Reporting Period requirements
+- Coverage limits:
+  * Per claim / annual aggregate
+  * Defense within or outside limits
+- Deductible / SIR
+- Subcontracted physicians, residents, fellows
+- Non-physician staff (NPs, PAs, RNs, technicians)
+- Risk management practices (peer review, EMR, informed consent)
+- Loss history (claims, settlements, adverse outcomes, disciplinary
+  actions)
+- Sanctions, restrictions, license actions
+
+When used:
+- Physician new business
+- Group / facility med-mal submissions
+- Renewal review with retroactive date considerations
+- Carrier transitions requiring tail or nose coverage
+
+Notes:
+- Med-mal is heavily state-specific and specialty-specific —
+  underwriting and rates vary dramatically by state and specialty
+- Tail coverage at policy expiration can be costly; non-renewal
+  planning is critical

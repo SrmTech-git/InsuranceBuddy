@@ -5,3 +5,51 @@ Edition: 2009-03
 Title: Truckers / Motor Carrier Supplement
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical commercial term)
+Transaction types: New business / renewal underwriting (additional trucking detail)
+
+Purpose:
+Supplement to ACORD 132 (Truckers / Motor Carriers Section)
+capturing additional underwriting detail specific to motor carrier
+operations. Used when the standard ACORD 132 doesn't capture enough
+trucking-specific exposure information.
+
+Captures:
+- Reference to ACORD 125 / 132
+- Operating authority detail:
+  * Federal MC# and DOT# verification
+  * State authorities held
+  * Hazmat endorsements
+  * Operating jurisdictions
+- Fleet detail beyond ACORD 132:
+  * Power units by type (tractor, straight truck, day cab, sleeper)
+  * Trailers by type (van, reefer, flatbed, tank, intermodal)
+  * Average vehicle age / value
+  * Owner-operators vs. company drivers
+- Driver detail:
+  * Driver hiring criteria
+  * Drug and alcohol testing program
+  * Hours of service compliance
+  * Driver retention rate
+  * MVR review frequency
+- DOT compliance:
+  * Safety rating (Satisfactory, Conditional, Unsatisfactory)
+  * BASIC scores (Behavior Analysis Safety Improvement Categories)
+  * CSA scores
+  * DOT compliance reviews / audits
+  * Out-of-service rates
+- Cargo handling:
+  * Freight types
+  * High-theft commodities (electronics, pharmaceuticals)
+  * Special handling (hazmat, oversize, refrigerated)
+- Loss history detail beyond ACORD 132
+
+When used:
+- Standard motor carrier submissions
+- Hazmat carriers requiring additional disclosure
+- Carriers with prior DOT compliance issues
+
+Notes:
+- Pairs with ACORD 132 — supplemental detail rather than standalone
+- DOT BASIC scores and Safety Rating are critical underwriting
+  factors

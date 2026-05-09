@@ -5,3 +5,51 @@ Edition: 2016-03
 Title: Yacht Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical, may be seasonal in northern markets)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Line-of-business section for yacht insurance — typically applied to
+larger watercraft (often 26+ feet) requiring specialty marine
+underwriting beyond standard personal watercraft coverage.
+
+Captures:
+- Reference to ACORD 125 / personal lines application
+- Yacht information:
+  * Year, make, model, length, beam, draft
+  * Hull material (fiberglass, aluminum, wood, composite)
+  * Propulsion (inboard, sterndrive, sail, twin)
+  * Hull / motor identification (HIN, MMSI)
+  * Survey date and surveyor
+  * Agreed value
+- Use: pleasure, charter, racing, commercial
+- Navigation area:
+  * Inland, coastal, ocean
+  * Specific cruising grounds
+  * Hurricane plan / lay-up
+- Mooring / storage:
+  * Marina, mooring, dry storage, trailered
+  * Hurricane plan
+- Operator detail:
+  * Captain (full-time, hired)
+  * Owner experience, USCG license
+  * Crew complement
+- Coverage:
+  * Hull (agreed value, deductible)
+  * Liability (P&I)
+  * Medical payments
+  * Uninsured boater
+  * On-water towing
+  * Personal effects
+- Loss history
+
+When used:
+- Yachts above standard personal watercraft thresholds
+- Specialty marine markets
+- Charter operations
+- Renewal review
+
+Notes:
+- Pairs with ACORD 82 (Watercraft Application) and ACORD 282
+  (Watercraft Section) for full submission package
+- Survey requirements depend on vessel age and value

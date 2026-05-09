@@ -5,3 +5,46 @@ Edition: 2016-03
 Title: Professional Liability Supplement
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical, usually claims-made)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Generic professional liability (errors & omissions) supplement for
+service professions — accountants, consultants, real estate agents,
+insurance agents, and other professionals whose work product creates
+financial-loss exposure to clients.
+
+Captures:
+- Reference to ACORD 125
+- Profession / services provided
+- Annual gross revenue and number of professionals
+- Years in practice
+- Claims-made vs. occurrence form
+- Retroactive date (claims-made)
+- Extended Reporting Period (tail) requirements
+- Coverage limits:
+  * Each claim
+  * Aggregate
+  * Defense in or outside the limit
+- Deductible / SIR
+- Services performed in detail (descriptions, % of revenue per
+  service)
+- Geographic scope
+- Client mix (corporate, individual, government, regulatory)
+- Quality control: peer review, supervision, documentation
+- Use of subcontractors / independent contractors
+- Engagement letter practices
+- Loss history (E&O claims, regulatory complaints, disciplinary
+  actions)
+
+When used:
+- Generic E&O new business for professions without dedicated forms
+- Renewal review for ongoing E&O policies
+- Coverage transitions (claims-made retroactive date considerations)
+
+Notes:
+- Specific professions have dedicated forms (ACORD 196 medical
+  professional liability, 825 management/executive lines, 833
+  lawyers, 838 accountants, etc.) — use those when available
+- Claims-made retroactive date is critical — coverage gaps between
+  prior and new policies expose the insured

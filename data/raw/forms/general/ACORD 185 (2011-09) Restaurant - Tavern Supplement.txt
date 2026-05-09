@@ -5,3 +5,44 @@ Edition: 2011-09
 Title: Restaurant / Tavern Supplement
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical commercial term)
+Transaction types: New business / renewal underwriting (specialty exposure detail)
+
+Purpose:
+Underwriting supplement for restaurants, taverns, bars, and food
+service operations. Captures the operational characteristics that
+drive both property and liability rating — kitchen equipment, alcohol
+service, hours of operation, entertainment, food preparation type.
+
+Captures:
+- Reference to ACORD 125 / 140 / 160 (BOP often used for restaurants)
+- Operation type (full-service restaurant, fast food, tavern,
+  brewpub, nightclub, catering)
+- Annual revenue, revenue mix (food vs. alcohol)
+- Hours of operation (especially late-night exposure)
+- Kitchen and cooking equipment:
+  * Type of cooking (deep frying, broiling, charbroiling)
+  * Hood / suppression system (UL 300, Ansul, last service)
+  * Grease management
+- Alcohol service:
+  * % of sales from alcohol
+  * Liquor liability coverage
+  * TIPS / responsible service training
+  * Late-night service
+- Entertainment (live music, DJ, dance floor, karaoke)
+- Outdoor seating, patio
+- Off-premise catering
+- Delivery operations (auto exposure)
+- Loss history (slips/falls, food liability, liquor, fire)
+
+When used:
+- Restaurant / tavern new business
+- BOP submissions for food service
+- Renewal review
+- Adding liquor liability to existing restaurant policy
+
+Notes:
+- Hood / fire suppression maintenance is a key underwriting
+  question — expired suppression systems are a major fire risk
+- Liquor liability ("dram shop") is heavily state-regulated; some
+  states have very high statutory damages

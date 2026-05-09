@@ -5,3 +5,41 @@ Edition: 2017-09
 Title: Commercial Umbrella Underlying Schedule
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: Matches underlying umbrella policy
+Transaction types: New business / renewal underwriting (commercial umbrella)
+
+Purpose:
+Schedule listing all underlying primary policies that support a
+commercial umbrella. Captures carriers, policy numbers, limits, and
+effective dates for each underlying policy so the umbrella
+underwriter can verify required limits are met and identify
+coverage gaps.
+
+Captures:
+- Reference to ACORD 131 (Umbrella Section)
+- For each underlying policy:
+  * Coverage type (CGL, auto, employers liability, foreign liability,
+    liquor, professional, marine, etc.)
+  * Carrier name and NAIC
+  * Policy number
+  * Policy effective and expiration dates
+  * Per-occurrence / per-claim limits
+  * Aggregate limits (where applicable)
+  * Self-insured retention or deductible
+  * Whether claims-made or occurrence
+  * Whether following form
+- Required underlying limits for the umbrella
+- Compliance check (does each underlying meet umbrella minimums?)
+- Authorized signature
+
+When used:
+- Commercial umbrella new business submissions
+- Renewal review when underlying carriers change
+- Annual verification that underlying limits are maintained
+- Claim handling when umbrella attaches
+
+Notes:
+- Pairs with ACORD 131 (Umbrella Section) — 212 is the detailed
+  underlying schedule
+- Failure to maintain underlying coverage at the required limits
+  creates coverage gaps that the umbrella may not bridge

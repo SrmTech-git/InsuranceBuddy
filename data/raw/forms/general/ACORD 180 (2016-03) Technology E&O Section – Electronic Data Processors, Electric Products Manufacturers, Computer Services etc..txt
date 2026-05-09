@@ -5,3 +5,45 @@ Edition: 2016-03
 Title: Technology E&O Section – Electronic Data Processors, Electric Products Manufacturers, Computer Services etc.
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical commercial term)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Line-of-business section for technology errors and omissions
+(tech E&O) coverage. Captures the unique professional liability
+exposure of technology service providers — software developers, IT
+consultants, electronic data processors, computer services,
+electronics manufacturers — whose errors can cause financial loss
+to clients without bodily injury or property damage.
+
+Captures:
+- Reference to ACORD 125
+- Tech E&O coverage parts:
+  * Professional liability (errors and omissions)
+  * Technology products liability
+  * Network security / privacy (often referred to ACORD 834)
+  * Media liability (where applicable)
+- Services performed:
+  * Software development / customization
+  * IT consulting / managed services
+  * Hardware sales / installation / maintenance
+  * Cloud / SaaS / hosting
+  * Data processing / electronic records
+- Annual revenue by service line
+- Client industries served
+- Contract terms (LoL caps, indemnification, hold harmless)
+- Quality control: testing, version control, documentation
+- Subcontractor / outsourcing arrangements
+- Loss history (E&O claims, near-misses)
+
+When used:
+- Tech E&O new business
+- Renewal review
+- Adding tech E&O to existing commercial submissions
+
+Notes:
+- Distinct from cyber liability (ACORD 834) — tech E&O covers
+  professional service errors; cyber covers data breach response
+  and security failures
+- Many carriers package tech E&O with cyber as a "tech / cyber"
+  product

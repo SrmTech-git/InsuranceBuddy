@@ -5,3 +5,43 @@ Edition: 2011-10
 Title: Contractors Supplement
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical commercial term)
+Transaction types: New business / renewal underwriting (specialty exposure detail)
+
+Purpose:
+Underwriting supplement for contractors and construction operations.
+Captures the trade type, work performed, subcontracting practices,
+and exposure mix that drive contractor general liability and
+contractors equipment underwriting.
+
+Captures:
+- Reference to ACORD 125 / 126 (CGL)
+- Contractor type (general, subcontractor, specialty trade)
+- Trades performed (% of revenue per trade):
+  * Roofing, framing, electrical, plumbing, HVAC
+  * Concrete, masonry, drywall, painting
+  * Excavation, demolition, paving
+  * Specialty (waterproofing, scaffolding, crane, blasting, etc.)
+- Residential vs. commercial vs. industrial mix
+- New construction vs. renovation / remodeling vs. service work
+- Annual revenue and payroll
+- Subcontractor usage (% of work subbed out, certificate of
+  insurance requirements, hold harmless agreements)
+- Work at heights, in confined spaces, with hazardous materials
+- Use of cranes, hoists, scaffolding, mobile equipment
+- Geographic operating area
+- Quality control / safety programs (OSHA recordable incidents)
+- Loss history (CGL, auto, WC, equipment)
+
+When used:
+- Contractor new business
+- Renewal review
+- Multi-line contractor submissions (CGL + auto + WC + equipment)
+
+Notes:
+- Subcontractor controls are critical — uninsured subs become the
+  GC's exposure on losses
+- Pairs with ACORD 147 (Installation / Builders Risk) where the
+  contractor takes property risk
+- Heavy underwriting focus on prior loss frequency, especially
+  water damage / construction defect
