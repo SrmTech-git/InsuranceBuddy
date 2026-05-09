@@ -5,3 +5,43 @@ Edition: 2019-06
 Title: Electronic Delivery Supplement – Electronic Selection, Rejection Form
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (consent / preference document)
+Transaction types: New business / renewal consent (electronic delivery election)
+
+Purpose:
+Insured's election or rejection of electronic delivery for policy
+documents, notices, and other insurance communications. Required
+under the federal E-SIGN Act and various state laws for the insurer
+to deliver documents electronically (rather than by mail) with the
+same legal effect.
+
+Captures:
+- Insured name, address
+- Producer / agency information
+- Email address(es) for electronic delivery
+- Selection of which document categories to receive electronically:
+  * Policy documents and endorsements
+  * Renewal notices
+  * Cancellation and non-renewal notices
+  * Billing and payment notices
+  * Privacy notices
+  * Marketing communications
+- Acknowledgment of the right to receive paper copies on request
+- Hardware/software requirements acknowledgment (E-SIGN Act
+  requirement)
+- Insured signature with date
+- Effective date
+
+When used:
+- New business when the insured wants electronic delivery
+- Renewal where electronic delivery preferences are being updated
+- Mid-term changes to delivery preference
+
+Notes:
+- E-SIGN Act requires affirmative consent and disclosure of hardware
+  / software requirements before electronic delivery is legally
+  effective
+- Some state cancellation / non-renewal notices have special
+  electronic delivery rules — they may still need to be delivered
+  on paper even if other notices are electronic
+- Insured can revoke electronic consent at any time

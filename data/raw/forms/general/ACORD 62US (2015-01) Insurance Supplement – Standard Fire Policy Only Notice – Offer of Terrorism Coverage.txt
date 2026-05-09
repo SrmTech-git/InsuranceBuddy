@@ -5,3 +5,36 @@ Edition: 2015-01
 Title: Insurance Supplement – Standard Fire Policy Only Notice – Offer of Terrorism Coverage
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (disclosure / acknowledgment)
+Transaction types: New business / renewal disclosure (TRIA-required, fire-policy variant)
+
+Purpose:
+TRIA terrorism offering disclosure tailored to states that mandate
+the Standard Fire Policy. Some states require terrorism coverage to
+be embedded in property policies issued under the SFP framework
+rather than offered separately. This form documents the offering and
+acknowledgment in those jurisdictions.
+
+Captures:
+- Insured name, address
+- Producer / agency information
+- Insurer / policy reference
+- TRIA disclosures (federal share, insurer deductible/copay)
+- Standard Fire Policy context — that the SFP framework requires
+  certain perils including fire be covered without exclusion
+- Selection: accept or reject terrorism coverage where election is
+  available; acknowledgment where embedded
+- Insured signature
+- Effective dates
+
+When used:
+- Property policies issued in Standard Fire Policy states
+- Where state law conflicts with TRIA's optional offering structure
+
+Notes:
+- Variant of ACORD 60 US for SFP states; same TRIA disclosures with
+  additional SFP-specific language
+- Standard Fire Policy states historically include New York, New
+  Jersey, North Carolina, and others — though specific requirements
+  have evolved
+- Pairs with ACORD 60 US (general TRIA) and ACORD 64 US (workers comp)

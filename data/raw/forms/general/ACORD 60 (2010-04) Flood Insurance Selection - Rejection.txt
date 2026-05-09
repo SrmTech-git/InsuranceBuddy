@@ -5,3 +5,37 @@ Edition: 2010-04
 Title: Flood Insurance Selection / Rejection
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (acknowledgment document)
+Transaction types: New business / renewal acknowledgment
+
+Purpose:
+Insured's signed selection or rejection of flood insurance coverage.
+Documents that the insured was offered flood coverage (NFIP or
+private market) and either accepted at a specific limit or declined.
+Used to establish the agent's E&O record on flood offering.
+
+Captures:
+- Insured name, address
+- Property location
+- Producer / agency information
+- Whether the property is in a Special Flood Hazard Area (SFHA)
+- Federal flood zone designation (where known)
+- Coverage offered: NFIP, private market, or both
+- Selection: limits selected (building, contents) OR rejection
+- Insured signature with date
+- Producer signature
+
+When used:
+- New homeowner / commercial property business in any flood zone
+- Renewal review where flood election needs re-confirmation
+- Documentation when a known flood zone risk is declined
+
+Notes:
+- Distinct from ACORD 29 (Evidence of Flood Insurance), which proves
+  flood coverage to a mortgagee — ACORD 60 documents the OFFER and
+  the insured's CHOICE
+- E&O exposure on flood is significant; this form is the standard
+  defense when an agent is later accused of failing to recommend
+  flood coverage
+- Even properties outside SFHAs flood — the form is recommended for
+  every property, not just high-risk zones

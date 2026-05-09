@@ -5,3 +5,42 @@ Edition: 2011-05
 Title: Personal Insurance Supplement – Extraordinary Life Circumstances
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (underwriting supplement)
+Transaction types: New business / renewal underwriting (rate impact mitigation)
+
+Purpose:
+Supplemental form documenting "extraordinary life circumstances"
+that may have negatively affected an applicant's credit-based
+insurance score, allowing the underwriter to mitigate or set aside
+the credit impact when rating personal lines insurance. Required by
+laws in many states regulating insurance scoring.
+
+Captures:
+- Insured / applicant name, contact
+- Identification of the extraordinary life circumstance:
+  * Catastrophic illness or injury (self or family)
+  * Death of a spouse, child, or parent
+  * Divorce or involuntary loss of employment
+  * Identity theft
+  * Military deployment
+  * Other circumstances allowed under state law
+- Time period during which the circumstance occurred
+- Supporting documentation reference (death certificates, medical
+  records, court orders, etc.)
+- Producer attestation
+- Insured signature
+
+When used:
+- Personal auto / homeowner new business or renewal where the
+  applicant believes their credit-based insurance score reflects an
+  extraordinary circumstance
+- Adverse action notice follow-up after credit-based rating
+- Mid-term re-rating requests
+
+Notes:
+- State laws vary significantly on which circumstances qualify and
+  the documentation required
+- Carriers must respond within statutorily defined timeframes
+  (typically 30 days)
+- Pairs with adverse action notices required by FCRA and state
+  insurance scoring laws

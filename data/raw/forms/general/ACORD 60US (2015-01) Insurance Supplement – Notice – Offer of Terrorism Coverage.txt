@@ -5,3 +5,40 @@ Edition: 2015-01
 Title: Insurance Supplement – Notice – Offer of Terrorism Coverage
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (disclosure / acknowledgment)
+Transaction types: New business / renewal disclosure (TRIA-required)
+
+Purpose:
+Federally mandated notice of terrorism risk insurance offering under
+the Terrorism Risk Insurance Act (TRIA). Insurers must offer
+terrorism coverage on commercial property and casualty policies and
+disclose the federal government's share of insured losses.
+Documents that the offer was made and the insured's acceptance or
+rejection.
+
+Captures:
+- Insured name, address
+- Producer / agency information
+- Insurer / policy reference
+- TRIA-required disclosures:
+  * Federal share of insured losses
+  * Insurer deductible and copay levels under TRIA
+  * Premium charge for terrorism coverage (or that the offer is at
+    no additional premium, where applicable)
+- Selection: accept or reject terrorism coverage
+- Insured signature acknowledging the disclosure
+- Effective dates
+
+When used:
+- New commercial property and casualty business
+- Renewal of TRIA-eligible policies
+- Mid-term changes affecting terrorism election
+
+Notes:
+- TRIA covers commercial lines only — not personal lines, workers
+  comp (which has separate handling), or surety
+- Pairs with ACORD 62 US (Standard Fire Policy variant) and ACORD
+  64 US (Workers Compensation variant)
+- Disclosure is REQUIRED even if terrorism coverage is provided at
+  no additional premium — the insured must be informed of the
+  federal backstop

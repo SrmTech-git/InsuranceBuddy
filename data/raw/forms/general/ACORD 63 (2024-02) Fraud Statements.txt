@@ -5,3 +5,36 @@ Edition: 2024-02
 Title: Fraud Statements
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (statutory disclosure)
+Transaction types: New business / claim filing disclosure
+
+Purpose:
+Compendium of state-mandated fraud warning statements that must
+appear on insurance applications, claim forms, or both. Each state
+has its own required language warning the applicant or claimant that
+materially false statements constitute insurance fraud and may carry
+criminal penalties.
+
+Captures:
+- State-by-state fraud warning statements (varies by jurisdiction)
+- Distinct warnings for application context vs. claim context
+- Specific statutory references for each state's fraud language
+- Effective dates and updates as state laws change
+
+When used:
+- Attached to applications and claim forms
+- Updated when state insurance laws change fraud warning
+  requirements
+- Referenced by carriers for compliance with each state's
+  application and claim disclosure requirements
+
+Notes:
+- This form is a reference document — the actual warnings are
+  included on the relevant ACORD applications and claim forms; this
+  form aggregates the source language
+- States periodically revise fraud language; producers should use
+  the most current ACORD 63 to confirm warnings on outgoing forms
+  reflect current state law
+- Some states have very specific language requirements (font size,
+  exact wording) — close attention to state-specific requirements
+  is critical

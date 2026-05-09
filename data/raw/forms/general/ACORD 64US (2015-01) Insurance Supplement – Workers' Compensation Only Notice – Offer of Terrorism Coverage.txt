@@ -5,3 +5,40 @@ Edition: 2015-01
 Title: Insurance Supplement – Workers' Compensation Only Notice – Offer of Terrorism Coverage
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (disclosure / acknowledgment)
+Transaction types: New business / renewal disclosure (TRIA-required, WC variant)
+
+Purpose:
+TRIA terrorism offering disclosure tailored specifically to workers
+compensation policies. Workers comp has unique TRIA treatment
+because terrorism coverage cannot be excluded from a WC policy —
+employees injured in a terrorist event are still entitled to WC
+benefits. This form documents the disclosure and any premium charge
+for the federal backstop.
+
+Captures:
+- Insured / employer name, address
+- Producer / agency information
+- Insurer / policy reference
+- TRIA disclosures specific to workers compensation:
+  * Federal share and insurer share for WC terrorism losses
+  * Premium charge for terrorism (if any)
+- Acknowledgment that terrorism coverage is included as required by
+  state WC law (cannot be rejected on a WC policy)
+- Insured signature
+- Effective dates
+
+When used:
+- New workers compensation business
+- Renewal of WC policies
+- Required for every WC policy regardless of whether the employer
+  perceives terrorism risk
+
+Notes:
+- Unlike commercial property/GL where terrorism can be rejected,
+  workers comp terrorism coverage is mandatory — the form documents
+  disclosure rather than offering a choice
+- Pairs with ACORD 60 US (commercial P&C) and ACORD 62 US (Standard
+  Fire Policy variant)
+- TRIA assessments and recoupment provisions for WC differ from
+  other lines; the disclosure reflects this
