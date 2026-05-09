@@ -145,28 +145,93 @@ def is_inventory_query(text: str) -> bool:
     return any(re.search(p, lower) for p in patterns)
 
 
-def _llm_classify(question: str) -> list[str]:
-    """Call Haiku to determine which collection(s) to search.
+def _parse_route_response(raw: str, detected_forms: list[str] | None = None) -> tuple[list[str], str]:
+    """Parse the LLM router's "<collections> | <intent>" response.
 
-    Returns a list of one or more collection names from COLLECTION_REGISTRY.
-    Falls back to ["regulatory"] if the response can't be parsed.
+    Robust against malformed responses — falls back to all collections if
+    the routing part is unparseable, and to "none" intent (or "subject" if
+    forms were detected) if the intent part is unparseable.
+
+    Returns (collections, intent) where intent is "subject", "context", or
+    "none".
+    """
+    valid_colls = set(COLLECTION_REGISTRY.keys())
+    valid_intents = {"subject", "context", "none"}
+
+    raw = raw.strip().lower()
+    if "|" in raw:
+        coll_part, intent_part = raw.split("|", 1)
+    else:
+        coll_part, intent_part = raw, "none"
+
+    collections = [c.strip().rstrip(".") for c in coll_part.split(",")]
+    collections = [c for c in collections if c in valid_colls]
+
+    intent = intent_part.strip().rstrip(".")
+    if intent not in valid_intents:
+        intent = "none"
+
+    # Fallback if LLM mangled the routing — search broadly rather than guess
+    if not collections:
+        collections = list(COLLECTION_REGISTRY.keys())
+
+    # If forms were detected but intent didn't classify them, default to
+    # "subject" so the form filter still applies. This preserves the prior
+    # behavior — we never get worse than before this change.
+    if detected_forms and intent == "none":
+        intent = "subject"
+
+    return collections, intent
+
+
+def _llm_route(question: str, detected_forms: list[str] | None = None) -> tuple[list[str], str]:
+    """Call Haiku to classify the query along two dimensions in one shot:
+
+    1. Which collection(s) to search
+    2. If forms are mentioned, whether they're the SUBJECT of the query
+       or just CONTEXT for a conceptual question
+
+    Returns (collections, intent). See _parse_route_response for shape.
     """
     collection_lines = "\n".join(
         f"- {name}: {desc}" for name, desc in COLLECTION_REGISTRY.items()
     )
+
+    if detected_forms:
+        forms_block = (
+            f"\nForms mentioned in this query: {', '.join(detected_forms)}\n"
+            f"Decide whether the user is asking ABOUT these forms (subject) "
+            f"or whether they're mentioned as context for a conceptual question (context):\n"
+            f"  - subject: \"What does ACORD 25 contain?\", \"Show me ACORD 130\"\n"
+            f"  - context: \"Per ACORD 25 standards, what is general liability?\", "
+            f"\"Under ORC 3937.18, what is UM coverage?\"\n"
+        )
+        intent_label = "subject | context"
+    else:
+        forms_block = ""
+        intent_label = "none"
+
     prompt = (
-        f"You route insurance queries to the correct document collection(s).\n\n"
+        f"You classify insurance queries on two dimensions: which "
+        f"collection(s) to search, and form intent (when forms are mentioned).\n\n"
         f"Available collections:\n{collection_lines}\n\n"
         f"Routing rules:\n"
         f"- Questions about whether coverage is REQUIRED, mandatory, or legally necessary -> regulatory\n"
         f"- Questions about legal limits, penalties, or state-specific rules and statutes -> regulatory\n"
         f"- Questions about what a coverage type IS, how it works, or general concepts -> educational\n"
         f"- Questions about what a specific FORM contains, what a dec page includes, or how a particular document is structured -> forms\n"
-        f"- When in doubt, include all relevant collections.\n\n"
+        f"- When in doubt, include all relevant collections.\n"
+        f"{forms_block}\n"
         f"This routing helps surface the right information for someone trying to "
         f"understand insurance, which is genuinely complicated. Thank you for your attention.\n\n"
-        f"Reply with only the collection name(s) needed, comma-separated if multiple.\n"
-        f'Examples: "regulatory" | "educational" | "regulatory, educational"\n\n'
+        f"Reply on ONE line in this exact format:\n"
+        f"<collection>[, <collection>...] | <intent>\n"
+        f"where intent is one of: {intent_label}\n\n"
+        f"Examples:\n"
+        f"  regulatory | none\n"
+        f"  forms | subject\n"
+        f"  educational | context\n"
+        f"  forms, regulatory | subject\n\n"
         f"Query: {question}"
     )
     response = _get_client().messages.create(
@@ -174,26 +239,22 @@ def _llm_classify(question: str) -> list[str]:
         max_tokens=CLASSIFIER_MAX_TOKENS,
         messages=[{"role": "user", "content": prompt}],
     )
-    raw = response.content[0].text.strip().lower()
-    valid = set(COLLECTION_REGISTRY.keys())
-    result = [token.strip().rstrip(".") for token in raw.split(",")]
-    result = [c for c in result if c in valid]
-    # Safer fallback: if the LLM mangles the response, search every
-    # collection rather than guessing one. Re-ranking sorts it out.
-    return result if result else list(COLLECTION_REGISTRY.keys())
+    return _parse_route_response(response.content[0].text, detected_forms)
 
 
-def detect_collection(text: str) -> list[str]:
-    """Return which collection(s) to search for this query.
+def detect_collection(text: str, detected_forms: list[str] | None = None) -> tuple[list[str], str]:
+    """Return (collections, form_intent) for this query.
 
     Comparison queries (vs, compare, difference between) always get all
-    collections via fast regex. Everything else is routed by Haiku so that
-    routing stays correct as new collections are added.
+    collections via fast regex; intent defaults to "subject" when forms
+    are detected so the form filter still applies. Everything else is
+    routed by Haiku, which also classifies the form intent.
     """
     comparison_patterns = [r"\bdifference\s+between\b", r"\bcompare\b", r"\bvs\.?\b"]
     if any(re.search(p, text, re.IGNORECASE) for p in comparison_patterns):
-        return list(COLLECTION_REGISTRY.keys())
-    return _llm_classify(text)
+        intent = "subject" if detected_forms else "none"
+        return list(COLLECTION_REGISTRY.keys()), intent
+    return _llm_route(text, detected_forms)
 
 
 # ---------------------------------------------------------------------------
@@ -429,15 +490,26 @@ def _call_llm(question: str, context: str, sources_str: str, collections_searche
 def ask(question: str) -> str:
     """Classify the query, retrieve relevant context, and return an answer."""
     question = expand_abbreviations(question)
-    collections = detect_collection(question)
+    detected_forms = detect_form_numbers(question)
+    collections, intent = detect_collection(question, detected_forms)
 
     inventory_response = _handle_inventory(question, collections)
     if inventory_response is not None:
         return inventory_response
 
-    filters, form_collections, error = _resolve_form_filter(question)
-    if error:
-        return error
+    # Apply the form filter only when the LLM classifier judged the forms
+    # are the subject of the query. When the intent is "context" (forms
+    # mentioned in passing for a conceptual question), skip the filter so
+    # semantic search can find the conceptual content.
+    if intent == "context":
+        filters: dict | None = None
+        form_collections: list[str] | None = None
+        logger.info("Form intent is context — skipping form filter")
+    else:
+        filters, form_collections, error = _resolve_form_filter(question)
+        if error:
+            return error
+
     if form_collections:
         collections = form_collections
 

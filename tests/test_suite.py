@@ -522,16 +522,87 @@ class TestComparisonRouting(unittest.TestCase):
         self.all_collections = list(COLLECTION_REGISTRY.keys())
 
     def test_vs_returns_all_collections(self):
-        result = self.detect("UM coverage in Ohio vs Indiana")
-        self.assertEqual(sorted(result), sorted(self.all_collections))
+        collections, _ = self.detect("UM coverage in Ohio vs Indiana", None)
+        self.assertEqual(sorted(collections), sorted(self.all_collections))
 
     def test_compare_returns_all_collections(self):
-        result = self.detect("Compare Ohio and Indiana BI limits")
-        self.assertEqual(sorted(result), sorted(self.all_collections))
+        collections, _ = self.detect("Compare Ohio and Indiana BI limits", None)
+        self.assertEqual(sorted(collections), sorted(self.all_collections))
 
     def test_difference_between_returns_all_collections(self):
-        result = self.detect("What is the difference between UM and UIM?")
-        self.assertEqual(sorted(result), sorted(self.all_collections))
+        collections, _ = self.detect("What is the difference between UM and UIM?", None)
+        self.assertEqual(sorted(collections), sorted(self.all_collections))
+
+    def test_intent_subject_when_forms_detected_in_comparison(self):
+        """Comparison + forms detected should default intent to 'subject'."""
+        _, intent = self.detect("Compare ACORD 24 and ACORD 28", ["ACORD 24", "ACORD 28"])
+        self.assertEqual(intent, "subject")
+
+    def test_intent_none_when_no_forms(self):
+        """Comparison with no forms detected should yield intent='none'."""
+        _, intent = self.detect("Compare UM and UIM coverage", None)
+        self.assertEqual(intent, "none")
+
+
+class TestParseRouteResponse(unittest.TestCase):
+    """Parser tests for the LLM router output. No API calls needed."""
+
+    def setUp(self):
+        from chat import _parse_route_response
+        self.parse = _parse_route_response
+
+    def test_routing_with_intent_none(self):
+        collections, intent = self.parse("regulatory | none", None)
+        self.assertEqual(collections, ["regulatory"])
+        self.assertEqual(intent, "none")
+
+    def test_forms_subject(self):
+        collections, intent = self.parse("forms | subject", ["ACORD 25"])
+        self.assertEqual(collections, ["forms"])
+        self.assertEqual(intent, "subject")
+
+    def test_forms_context(self):
+        collections, intent = self.parse("educational | context", ["ACORD 25"])
+        self.assertEqual(collections, ["educational"])
+        self.assertEqual(intent, "context")
+
+    def test_multi_collection_response(self):
+        collections, intent = self.parse("forms, regulatory | subject", ["ACORD 25"])
+        self.assertEqual(set(collections), {"forms", "regulatory"})
+        self.assertEqual(intent, "subject")
+
+    def test_invalid_intent_defaults_to_none(self):
+        collections, intent = self.parse("regulatory | weird", None)
+        self.assertEqual(collections, ["regulatory"])
+        self.assertEqual(intent, "none")
+
+    def test_no_pipe_separator(self):
+        """If LLM forgets the |, treat the whole response as collections."""
+        collections, intent = self.parse("regulatory", None)
+        self.assertEqual(collections, ["regulatory"])
+        self.assertEqual(intent, "none")
+
+    def test_forms_detected_intent_none_promoted_to_subject(self):
+        """Defensive: forms detected + intent=none → promote to subject."""
+        collections, intent = self.parse("forms", ["ACORD 25"])
+        self.assertEqual(collections, ["forms"])
+        self.assertEqual(intent, "subject")
+
+    def test_invalid_collections_fallback_to_all(self):
+        """Mangled routing → search all collections as a safer fallback."""
+        collections, intent = self.parse("nonsense | subject", None)
+        self.assertEqual(set(collections), {"regulatory", "educational", "forms"})
+        self.assertEqual(intent, "subject")
+
+    def test_uppercase_input_normalized(self):
+        collections, intent = self.parse("FORMS | SUBJECT", ["ACORD 25"])
+        self.assertEqual(collections, ["forms"])
+        self.assertEqual(intent, "subject")
+
+    def test_trailing_punctuation(self):
+        collections, intent = self.parse("regulatory. | subject.", None)
+        self.assertEqual(collections, ["regulatory"])
+        self.assertEqual(intent, "subject")
 
 
 # =============================================================================
@@ -641,12 +712,12 @@ class TestAskEndToEnd(unittest.TestCase):
         self.detect_collection = detect_collection
 
     def test_llm_routes_regulatory_question(self):
-        result = self.detect_collection("Does Ohio require uninsured motorist coverage by law?")
-        self.assertIn("regulatory", result)
+        collections, _ = self.detect_collection("Does Ohio require uninsured motorist coverage by law?", None)
+        self.assertIn("regulatory", collections)
 
     def test_llm_routes_educational_question(self):
-        result = self.detect_collection("What is inland marine coverage and how does it work?")
-        self.assertIn("educational", result)
+        collections, _ = self.detect_collection("What is inland marine coverage and how does it work?", None)
+        self.assertIn("educational", collections)
 
     def test_ask_ohio_um_requirement(self):
         answer = self.ask("Does Ohio require uninsured motorist coverage?")
@@ -705,6 +776,7 @@ if __name__ == "__main__":
         TestMergeFilters,
         TestCollectionRegistry,
         TestComparisonRouting,
+        TestParseRouteResponse,
         TestDatabase,
         TestRetrieve,
         TestAskEndToEnd,

@@ -22,7 +22,7 @@ CONTEXT_CAP = 10              # how many to keep after re-ranking
 # ---------------------------------------------------------------------------
 # LLM token budgets
 # ---------------------------------------------------------------------------
-CLASSIFIER_MAX_TOKENS = 20    # routing call — short answer
+CLASSIFIER_MAX_TOKENS = 30    # routing + form intent — short structured answer
 ANSWER_MAX_TOKENS = 1024      # final answer to user
 
 # ---------------------------------------------------------------------------
