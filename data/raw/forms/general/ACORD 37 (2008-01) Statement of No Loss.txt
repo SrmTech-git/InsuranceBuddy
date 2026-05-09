@@ -5,3 +5,34 @@ Edition: 2008-01
 Title: Statement of No Loss
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (statement document)
+Transaction types: Reinstatement, new business after lapse, backdating
+
+Purpose:
+Insured's signed statement that no losses have occurred during a
+coverage gap or specified period. Used to bind, reinstate, or
+backdate coverage after a lapse without the carrier inheriting an
+unreported claim.
+
+Captures:
+- Insured name, address
+- Policy number / coverage being bound or reinstated
+- Lapse period or "no loss" date range covered by the statement
+- Description of property / vehicles / operations covered
+- Insured's affirmation (under penalty of misrepresentation) that
+  no losses occurred during the specified period
+- Insured signature with date
+- Witness signature (where required)
+
+When used:
+- Reinstating a policy after a non-payment cancellation
+- Binding new coverage after a coverage gap
+- Backdating coverage to an effective date prior to the binding date
+- Mid-term replacement of coverage where prior coverage lapsed
+
+Notes:
+- A material misrepresentation on this form (signing despite a known
+  loss) generally voids coverage and may constitute fraud
+- Carriers vary in how far back they'll accept a statement of no
+  loss — some won't honor any lapse beyond a few days; specialty
+  markets may accept longer gaps

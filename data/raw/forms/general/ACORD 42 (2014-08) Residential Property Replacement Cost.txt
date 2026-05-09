@@ -5,3 +5,43 @@ Edition: 2014-08
 Title: Residential Property Replacement Cost
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (underwriting worksheet)
+Transaction types: New business / renewal underwriting
+
+Purpose:
+Worksheet for calculating the replacement cost of a residential
+dwelling, supporting the Coverage A limit on a homeowners policy.
+Captures property characteristics — square footage, construction,
+materials, features — that drive a per-square-foot replacement cost
+calculation.
+
+Captures:
+- Insured / property location
+- Year built, year of significant updates
+- Square footage (above grade, basement)
+- Construction type (frame, masonry veneer, masonry)
+- Number of stories / units
+- Foundation type (basement, crawl, slab)
+- Roof type and material
+- Heating, plumbing, electrical features
+- Interior features (kitchen quality, bath count, fireplace,
+  hardwood, etc.)
+- Garage type (attached / detached, number of bays)
+- Special features (deck, porch, pool, outbuildings)
+- Calculated replacement cost (often via 360Value, MSB, or carrier
+  worksheet)
+
+When used:
+- New homeowner business underwriting
+- Renewal review of Coverage A adequacy
+- Coverage adjustments after major renovations
+- Insurance-to-value (ITV) audits
+
+Notes:
+- Most carriers use proprietary tools (360Value, MSB) rather than
+  ACORD 42 directly, but the data captured is the same
+- Coverage A inadequacy is a leading cause of underinsurance disputes
+  after a total loss; ACORD 42 documents the basis for the limit
+  selected
+- Pairs with ACORD 80 (Homeowner Application) where Coverage A is
+  set

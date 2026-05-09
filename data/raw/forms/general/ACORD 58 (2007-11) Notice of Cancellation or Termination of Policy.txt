@@ -5,3 +5,40 @@ Edition: 2007-11
 Title: Notice of Cancellation or Termination of Policy
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (existing policy)
+Transaction types: Cancellation, non-renewal, termination
+
+Purpose:
+Carrier-issued notice of cancellation, non-renewal, or termination,
+sent to the insured AND to interested parties (mortgagees,
+additional insureds, certificate holders, loss payees) who are
+entitled to advance notice under the policy or contract.
+
+Captures:
+- Insurer name, NAIC code
+- Producer / agency information
+- Insured name, policy number, policy type
+- Cancellation / non-renewal effective date
+- Reason for cancellation (non-payment, underwriting, insured
+  request, etc.)
+- Recipient name and address (insured, mortgagee, additional
+  insured, certificate holder)
+- Statutory or contractual notice period referenced
+- Reinstatement procedure (where applicable)
+
+When used:
+- Carrier-initiated cancellation for non-payment of premium
+- Cancellation for material misrepresentation or substantial change
+  in risk
+- Non-renewal at expiration
+- Termination at insured's written request (carrier confirmation)
+- Required notice to mortgagees and additional insureds with notice
+  rights
+
+Notes:
+- Distinct from ACORD 35 (Cancellation Request / Policy Release),
+  which is the INSURED's request — ACORD 58 is the CARRIER's notice
+- Statutory notice periods vary by state and reason (e.g., 10 days
+  for non-payment vs. 30-60 days for underwriting cancellations)
+- Mortgagees and certain additional insureds have separate, often
+  longer notice rights

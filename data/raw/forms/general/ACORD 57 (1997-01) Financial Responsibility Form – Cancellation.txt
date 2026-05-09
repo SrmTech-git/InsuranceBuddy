@@ -5,3 +5,34 @@ Edition: 1997-01
 Title: Financial Responsibility Form – Cancellation
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (existing policy)
+Transaction types: Cancellation of state DMV financial responsibility filing
+
+Purpose:
+Cancellation notice filed with a state DMV ending an active
+financial responsibility (SR-22 / ACORD 54) filing. Used when the
+underlying policy cancels, lapses, or no longer covers the affected
+driver.
+
+Captures:
+- Insurer name, NAIC code
+- Insured / driver name, address, license number
+- Original ACORD 54 filing reference
+- Underlying policy number
+- Cancellation effective date
+- Reason for cancellation (policy cancelled, driver removed, filing
+  no longer required)
+- State DMV reference
+
+When used:
+- Underlying policy cancels for non-payment, replacement, or insured
+  request
+- Insured no longer required to maintain financial responsibility
+  filing
+- Driver removed from a policy that maintained the filing
+
+Notes:
+- Filing this form may trigger automatic license suspension if the
+  insured's filing requirement is still active and no replacement
+  filing is in place
+- Counterpart to ACORD 54 — same data, opposite direction

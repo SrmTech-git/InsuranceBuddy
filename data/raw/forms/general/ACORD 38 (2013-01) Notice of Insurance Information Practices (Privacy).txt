@@ -5,3 +5,40 @@ Edition: 2013-01
 Title: Notice of Insurance Information Practices (Privacy)
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (disclosure document)
+Transaction types: New business / renewal disclosure
+
+Purpose:
+Privacy disclosure delivered to applicants and insureds describing
+how the insurer collects, uses, and shares personal information.
+Required under state insurance information and privacy protection
+acts (modeled on the NAIC Insurance Information and Privacy
+Protection Model Act).
+
+Captures:
+- Insurer / producer information
+- Insured / applicant name
+- Description of:
+  * What personal information is collected
+  * Sources of the information (the applicant, third parties, MIB,
+    motor vehicle reports, consumer reports)
+  * How the information is used (underwriting, claim handling,
+    marketing)
+  * To whom it may be disclosed without authorization
+  * The applicant's rights to access and correct their information
+- Acknowledgment of receipt (insured signature, optional)
+
+When used:
+- New business applications
+- Renewal in states that require ongoing notice
+- When the insurer obtains consumer reports or investigative reports
+- Triggered by FCRA-related disclosures and state privacy law
+  requirements
+
+Notes:
+- Required by many states under their adoption of the NAIC privacy
+  model act; California, New York, and others have enhanced versions
+- Delivery requirements vary by state (with the application,
+  separately, by mail)
+- Distinct from the federal Gramm-Leach-Bliley privacy notice that
+  carriers also provide separately

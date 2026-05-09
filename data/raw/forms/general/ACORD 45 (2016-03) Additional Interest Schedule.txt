@@ -5,3 +5,38 @@ Edition: 2016-03
 Title: Additional Interest Schedule
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (attaches to policy)
+Transaction types: New business, mid-term endorsement
+
+Purpose:
+Schedule listing all additional interests on a policy — additional
+insureds, mortgagees, loss payees, lienholders, lessors, certificate
+holders. Used as an attachment when there are more additional
+interests than the main application form provides space for, or to
+track them as a single reference document.
+
+Captures:
+- Insured / policy information
+- For each additional interest:
+  * Name and full address
+  * Type (mortgagee, additional insured, loss payee, lienholder,
+    certificate holder, lessor)
+  * Reference (loan number, lease ID, contract reference)
+  * Position (1st mortgagee, 2nd mortgagee, etc.)
+  * Specific property / vehicle / equipment the interest applies to
+  * Effective date
+  * Whether the additional interest receives notice of cancellation
+
+When used:
+- New business with multiple additional interests
+- Mid-term endorsement adding or changing additional interests
+- Renewal review of additional interests
+- Commercial accounts with many lenders / mortgagees / certificate
+  holders
+
+Notes:
+- Additional interest treatment differs by type — a "mortgagee" gets
+  specific contractual protections (mortgage clause, notice of
+  cancellation) that an "additional insured" doesn't, and vice versa
+- Often referenced by ACORD 27/28/29 (evidence forms), which list
+  the specific mortgagee being evidenced

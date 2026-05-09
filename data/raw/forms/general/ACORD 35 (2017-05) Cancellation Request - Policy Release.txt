@@ -5,3 +5,34 @@ Edition: 2017-05
 Title: Cancellation Request / Policy Release
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (existing policy)
+Transaction types: Cancellation (insured-initiated)
+
+Purpose:
+Insured's request to cancel a policy mid-term. Documents the
+cancellation date, reason, and the handling of any return premium.
+Used by the insured (not the carrier) to initiate cancellation.
+
+Captures:
+- Producer / agency information
+- Insured name, address, contact
+- Policy number, type, effective dates
+- Insurer name
+- Cancellation effective date
+- Reason for cancellation (replaced, sold, no longer needed, etc.)
+- Return premium handling (refund to insured, retain with producer)
+- Insured signature
+- Producer signature / acknowledgment
+
+When used:
+- Insured-initiated mid-term cancellation
+- Replacement of coverage with another carrier
+- Cancellation of vehicle / property no longer owned
+- Termination at insured's request
+
+Notes:
+- Distinct from ACORD 58 (Notice of Cancellation or Termination of
+  Policy), which is the CARRIER's notice — ACORD 35 is the INSURED's
+  request
+- Most carriers require this signed by the insured to process the
+  cancellation; some accept other written authorization

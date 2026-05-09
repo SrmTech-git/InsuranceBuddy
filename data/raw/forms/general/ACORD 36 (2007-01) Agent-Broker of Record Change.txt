@@ -5,3 +5,33 @@ Edition: 2007-01
 Title: Agent/Broker of Record Change
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (existing policy)
+Transaction types: Agent of Record change (mid-term, no coverage change)
+
+Purpose:
+Insured's authorization to change which agent or broker has
+servicing rights on a policy. Establishes that all future
+correspondence, commissions, and policy servicing should go to the
+new agent/broker as of the change effective date.
+
+Captures:
+- Insured name, address
+- Policy number(s) affected
+- Insurer name
+- Current (former) agent/broker information
+- New agent/broker information
+- Effective date of the change
+- Insured signature with date
+
+When used:
+- Insured switching agents mid-term
+- Acquisition of an account by a new producer
+- Producer transitions or retirements
+- Specialty market access (BOR change to access E&S markets)
+
+Notes:
+- Coverage doesn't change — only the agent of record does
+- BOR changes typically take effect 5 business days after the carrier
+  receives the signed letter; some carriers accept "BOR letters" as
+  alternatives to ACORD 36 specifically
+- Triggers commission redirection to the new producer

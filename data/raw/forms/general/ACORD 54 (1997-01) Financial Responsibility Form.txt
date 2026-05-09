@@ -5,3 +5,37 @@ Edition: 1997-01
 Title: Financial Responsibility Form
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: Matches underlying auto policy
+Transaction types: New filing, maintenance, or update of state DMV financial responsibility filing
+
+Purpose:
+Filing with a state Department of Motor Vehicles certifying that an
+insured carries the minimum auto insurance limits required for
+financial responsibility. Used for SR-22-style filings:
+court-ordered, post-suspension reinstatement, or high-risk driver
+requirements.
+
+Captures:
+- Insurer name, NAIC code
+- Insured / driver name, address, date of birth
+- Driver's license number and state
+- Vehicle information (where applicable)
+- Policy number, effective dates
+- Coverage limits being certified
+- State DMV / DOT reference (case number, suspension reference)
+- Insurer attestation that coverage is in force at the certified
+  limits
+
+When used:
+- Filing required after a license suspension (DUI, uninsured
+  accident, etc.)
+- Court-ordered financial responsibility filings
+- Reinstatement of driving privileges
+- High-risk / non-standard auto policies
+
+Notes:
+- Many states use their own SR-22 form rather than ACORD 54; check
+  state DMV requirements
+- Filing is typically required for 3 years from the triggering event
+- Pairs with ACORD 57 (Financial Responsibility Form – Cancellation)
+  when coverage ends and the filing must be released

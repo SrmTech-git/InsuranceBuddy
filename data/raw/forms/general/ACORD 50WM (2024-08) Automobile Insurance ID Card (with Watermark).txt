@@ -5,3 +5,34 @@ Edition: 2024-08
 Title: Automobile Insurance ID Card (with Watermark)
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 6 or 12 months (matches underlying auto policy)
+Transaction types: Issued at policy inception, renewal, and mid-term changes affecting vehicles or dates
+
+Purpose:
+Watermark version of the standard ACORD 50 auto insurance ID card.
+Printed on watermarked paper stock to deter fraudulent duplication.
+Required by certain states or carriers in lieu of (or in addition
+to) plain ACORD 50.
+
+Captures:
+- Same data as ACORD 50:
+  * Insurer name, NAIC code
+  * Producer / agency information
+  * Insured name, address
+  * Vehicle identification (year, make, model, VIN)
+  * Policy number
+  * Effective and expiration dates
+- Printed on watermarked paper stock (see ACORD 350/360 for the
+  underlying paper)
+
+When used:
+- Issued in states or by carriers requiring watermark stock
+- Same trigger points as ACORD 50: policy inception, renewal,
+  mid-term vehicle changes
+
+Notes:
+- Watermarked stock is a fraud-prevention measure; some carriers no
+  longer use it given electronic verification systems are now
+  broadly adopted
+- Pairs with ACORD 50 WM Set when carbon-copy / multi-part formats
+  are needed

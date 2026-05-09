@@ -5,3 +5,28 @@ Edition: 2024-09
 Title: Automobile Insurance ID Card (with Watermark)
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 6 or 12 months (matches underlying auto policy)
+Transaction types: Issued at policy inception, renewal, and mid-term changes affecting vehicles or dates
+
+Purpose:
+Multi-part / set version of the watermark auto ID card. Designed to
+produce multiple copies in one printing pass — one for the insured,
+one for the agency file, etc. Functionally identical to ACORD 50 WM
+but in a different physical format.
+
+Captures:
+- Same data as ACORD 50 WM (insurer, producer, insured, vehicle,
+  policy)
+- Multi-part stock with carbon or NCR (no carbon required)
+  duplication
+
+When used:
+- Producer offices issuing physical ID cards that need multiple
+  copies
+- Agencies retaining a copy for the file
+- Same trigger points as ACORD 50 / 50 WM
+
+Notes:
+- Increasingly rare as electronic ID card delivery has become
+  standard
+- The "set" variant exists for legacy paper-workflow agencies

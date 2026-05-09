@@ -5,3 +5,35 @@ Edition: 2007-02
 Title: Automobile Insurance ID Card
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 6 or 12 months (matches underlying auto policy)
+Transaction types: Issued at policy inception, renewal, and mid-term changes affecting vehicles or dates
+
+Purpose:
+Proof-of-insurance card for an insured vehicle. Required by every
+state to be carried in the vehicle (or accessible electronically);
+presented to law enforcement, at registration renewal, and after
+accidents to demonstrate financial responsibility.
+
+Captures:
+- Insurer name, NAIC code
+- Producer / agency information
+- Insured name, address
+- Vehicle identification: year, make, model, VIN
+- Policy number
+- Policy effective and expiration dates
+- Where applicable: limits or coverage indicator (some states
+  require limits shown)
+
+When used:
+- Issued automatically at policy inception and at each renewal
+- Reissued mid-term for vehicle additions or replacements
+- Reissued on policy changes affecting effective dates
+- Delivered to insured to carry in vehicle (paper or electronic)
+
+Notes:
+- Every state has its own requirements for what must appear on an
+  auto ID card; ACORD 50 is the industry baseline but state-specific
+  variants exist
+- Many states now accept electronic ID cards in addition to paper
+- Distinct from ACORD 50 WM and 50 WM Set (watermark stock variants
+  for fraud prevention)
