@@ -5,3 +5,46 @@ Edition: 2016-03
 Title: Small Farm / Ranch Application
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Streamlined application for small farm and ranch operations —
+hobby farms, small-acreage operations with limited livestock or
+crops, country properties with farm-like exposure. Simpler than the
+full ACORD 401 (Agriculture Application) but more comprehensive than
+a homeowners application.
+
+Captures:
+- Producer / agency information
+- Applicant / property owner
+- Property location and acreage (typically under specified threshold
+  for "small farm" definition)
+- Operation type:
+  * Hobby farm
+  * Part-time small-scale agriculture
+  * Country property with limited livestock
+  * Personal use with farm-like exposures
+- Annual gross farm income (typically below carrier threshold for
+  full ag program)
+- Dwelling
+- Outbuildings (limited inventory)
+- Livestock (limited count, owner-use focus)
+- Equipment (limited)
+- Coverage requested:
+  * Dwelling and contents
+  * Outbuildings
+  * Limited farm liability
+  * Optional farm property and equipment
+- Loss history
+
+When used:
+- Hobby farms not eligible for HO due to farm exposure
+- Small-acreage country properties with farm characteristics
+- Limited commercial farm exposure (under carrier-set thresholds)
+
+Notes:
+- Eligibility thresholds vary by carrier — some require minimum or
+  maximum acreage / income to qualify
+- For larger commercial operations, use ACORD 401 (Agriculture
+  Application)

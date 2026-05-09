@@ -5,3 +5,36 @@ Edition: 2016-06
 Title: Additional Entity Schedule
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: Matches underlying bond / policy
+Transaction types: Attached to bond or insurance submission
+
+Purpose:
+Schedule listing additional entities — corporations, LLCs,
+partnerships, individuals — that should be included as principals,
+indemnitors, additional insureds, or other status on a bond or
+insurance submission.
+
+Captures:
+- Reference to underlying bond or insurance application
+- For each additional entity:
+  * Entity name and type (corp, LLC, partnership, individual)
+  * Tax ID / FEIN
+  * Address
+  * State of incorporation / formation
+  * Relationship to primary principal / insured (subsidiary,
+    affiliate, sister company, joint venture)
+  * Status on the bond / policy (principal, indemnitor, additional
+    insured, named insured)
+  * Effective date
+
+When used:
+- Surety bonds with multiple principals or indemnitors
+- Insurance applications with multiple named insureds
+- Holding company / subsidiary structures
+- Joint ventures
+
+Notes:
+- Pairs with ACORD 502 / 503 for surety, ACORD 125 for commercial
+  insurance applications
+- Critical for ensuring all related entities have proper bond /
+  insurance status

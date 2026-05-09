@@ -5,3 +5,41 @@ Edition: 2015-12
 Title: Premium Payment Supplement
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: Matches underlying policy
+Transaction types: Premium payment processing
+
+Purpose:
+Supplement capturing premium payment information for an insurance
+policy — payment plan selected, billing arrangements, financing,
+and any premium-related arrangements that don't fit on the primary
+application.
+
+Captures:
+- Reference to underlying policy / application
+- Premium payment plan:
+  * Annual / semi-annual / quarterly / monthly
+  * Direct bill (carrier bills insured)
+  * Agency bill (producer collects and remits)
+  * Insured bill
+- Premium financing:
+  * Premium finance company name and contact
+  * Loan number
+  * Down payment, balance financed
+  * Power of Attorney for cancellation
+- Payment method:
+  * Check, ACH, credit card, wire
+  * Recurring payment authorization
+- Mortgagee escrow billing (where applicable)
+- Audit billing (commercial)
+
+When used:
+- New business with non-standard payment arrangements
+- Premium-financed policies
+- Mortgagee escrow billing setups
+- Mid-term changes to payment plan
+
+Notes:
+- Premium finance companies use Power of Attorney for cancellation —
+  if the loan defaults, the finance company can cancel the policy
+- Distinct from ACORD 305 (NFIP Credit Card Payment) which is
+  NFIP-specific

@@ -5,3 +5,43 @@ Edition: 2016-06
 Title: Commercial or Miscellaneous Bond Request Form
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: Bond term (varies by bond type)
+Transaction types: Bond submission (commercial / miscellaneous surety)
+
+Purpose:
+Application form for commercial and miscellaneous surety bonds —
+license bonds, permit bonds, court bonds, fiduciary bonds, public
+official bonds, and other non-contract surety. Captures the bond
+type, principal, obligee, and bond amount specific to the type of
+bond requested.
+
+Captures:
+- Producer / agency information
+- Principal (the party needing the bond)
+- Bond type:
+  * License bonds (insurance license, contractor license, etc.)
+  * Permit bonds (sales tax, fuel tax)
+  * Court bonds (appeal, supersedeas, replevin)
+  * Fiduciary bonds (executor, administrator, guardian)
+  * Public official bonds
+  * Notary bonds
+  * ERISA fidelity bonds
+  * Customs / federal bonds
+- Obligee (state, court, federal agency, etc.)
+- Bond amount / penal sum
+- Effective date and term
+- Principal information (relevant to bond type)
+- Indemnitor / financial information
+
+When used:
+- License and permit bond requirements
+- Court-ordered bonds
+- Fiduciary appointments requiring bond
+- Public official appointments
+
+Notes:
+- Each bond type has its own underwriting considerations — court
+  bonds focus on litigation context; license bonds on regulatory
+  compliance; fiduciary on personal financial responsibility
+- Pairs with ACORD 504 (Additional Entity Schedule) for bonds with
+  multiple principals

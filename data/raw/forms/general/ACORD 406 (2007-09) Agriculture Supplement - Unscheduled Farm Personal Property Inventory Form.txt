@@ -5,3 +5,35 @@ Edition: 2007-09
 Title: Agriculture Supplement - Unscheduled Farm Personal Property Inventory Form
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: Matches underlying farm policy
+Transaction types: Underwriting documentation (FPP inventory)
+
+Purpose:
+Inventory form for unscheduled farm personal property — provides a
+detailed list of farm machinery, equipment, tools, and supplies
+covered under blanket FPP coverage. Used to support underwriting
+decisions on blanket limits and coinsurance.
+
+Captures:
+- Reference to ACORD 401 / 402 / 403
+- Inventory of unscheduled FPP:
+  * Tractors and farm machinery (year, make, model, value)
+  * Hay and forage equipment (balers, mowers, rakes)
+  * Tillage equipment (plows, discs, planters)
+  * Livestock equipment (feeders, waterers, milking equipment)
+  * Tools and supplies
+  * Stored feed, hay, grain
+  * Fuels and chemicals
+- Total declared value
+- Storage locations
+- Replacement vs. ACV valuation
+
+When used:
+- Underwriting documentation for blanket FPP coverage
+- Renewal updates as equipment is bought / sold
+- After-loss claim documentation
+
+Notes:
+- Pairs with ACORD 403 (Agriculture Property Section Scheduled /
+  Unscheduled Personal Property)
+- Coinsurance compliance depends on accurate inventory valuation

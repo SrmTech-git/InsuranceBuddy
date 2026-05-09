@@ -5,3 +5,43 @@ Edition: 2007-09
 Title: Equine Liability Supplement
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical)
+Transaction types: New business / renewal underwriting (equine liability detail)
+
+Purpose:
+Liability supplement specific to equine operations — boarding
+stables, riding lessons, trail rides, breeding farms, training
+facilities. Captures the unique liability exposure of operating
+businesses involving horses and members of the public.
+
+Captures:
+- Reference to ACORD 401 / 404
+- Equine operation type:
+  * Boarding stable
+  * Riding lessons / instruction
+  * Trail rides / guided rides
+  * Training / breaking
+  * Breeding / standing stallions
+  * Show / event hosting
+- Number of horses owned vs. boarded
+- Public exposure (number of riders, students, visitors per year)
+- Riding programs:
+  * Beginner vs. advanced
+  * Children programs
+  * Trail rides (length, terrain)
+- Equine activity statute compliance (release / waiver
+  documentation)
+- Helmet policies, instructor qualifications
+- Loss history (rider injuries, horse-related claims)
+
+When used:
+- Equine business new business
+- Renewal review
+- Operations adding lessons, trail rides, or other public exposure
+
+Notes:
+- Equine activity statutes in most states limit liability for
+  inherent equine risks if the operation provides proper warnings
+  and waivers — the form documents compliance
+- Pairs with ACORD 407 (Livestock Mortality) when valuable horses
+  are individually insured

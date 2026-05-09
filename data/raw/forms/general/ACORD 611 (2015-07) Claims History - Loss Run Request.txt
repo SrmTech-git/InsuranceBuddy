@@ -5,3 +5,31 @@ Edition: 2015-07
 Title: Claims History / Loss Run Request
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (administrative request)
+Transaction types: Claims history / loss run documentation request
+
+Purpose:
+Insured's request to a current or prior carrier for a loss run —
+the official record of claims history under a policy. Loss runs are
+required by new carriers during underwriting to verify the insured's
+claims experience.
+
+Captures:
+- Insured / policy reference (current or prior policy)
+- Producer making the request
+- Carrier being requested (current or prior)
+- Period of loss run requested (typically 3-5 years)
+- Where to send the loss run (producer, new carrier, insured)
+- Insured signature authorizing the request
+
+When used:
+- Marketing / quoting new business — new carriers request loss runs
+- Renewal underwriting reviews
+- Mid-term carrier transitions
+- Claim auditing
+
+Notes:
+- Carriers are generally required to provide loss runs to their
+  insureds within reasonable timeframes (varies by state)
+- Loss runs are critical underwriting documents — multiple losses
+  or large losses may make the risk unattractive to new carriers

@@ -5,3 +5,38 @@ Edition: 2016-03
 Title: Agriculture Property Section Scheduled / Unscheduled Personal Property
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical)
+Transaction types: New business / renewal underwriting (farm personal property detail)
+
+Purpose:
+Schedule of farm personal property for ACORD 402 (Agriculture
+Property Section) — used when the operation has significant
+scheduled or unscheduled FPP that needs detailed valuation. Captures
+livestock, machinery, stored crops, and other movable farm property.
+
+Captures:
+- Reference to ACORD 401 / 402
+- Scheduled items:
+  * Specific farm machinery with serial numbers and values
+  * Specialty equipment (irrigation, automated systems)
+  * Specific livestock by ID / breed / value
+- Unscheduled blanket coverage:
+  * General farm personal property
+  * Stored grain (with location and quantity limits)
+  * Hay and feed
+  * Supplies and inventory
+  * Blanket equipment / tools
+- Per-item and aggregate limits
+- Deductibles by category
+
+When used:
+- Larger farms with significant FPP exposure
+- Operations with valuable specialty equipment
+- Renewal review of scheduled values
+
+Notes:
+- Pairs with ACORD 402 (Agriculture Property Section) and ACORD 406
+  (Agriculture Supplement - Unscheduled Farm Personal Property
+  Inventory Form)
+- Stored grain has specific underwriting concerns (quantity,
+  storage type, monitoring) that affect coverage

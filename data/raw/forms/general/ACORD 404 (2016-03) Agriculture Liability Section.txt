@@ -5,3 +5,40 @@ Edition: 2016-03
 Title: Agriculture Liability Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Liability line-of-business section for farm policies — captures
+premises, operations, products (farm goods sold direct), pollution,
+and farm-specific liability exposures. Pairs with ACORD 401 to form
+a complete farm liability submission.
+
+Captures:
+- Reference to ACORD 401
+- Liability coverage parts:
+  * Premises liability (each occurrence, aggregate)
+  * Farm operations
+  * Products / completed operations (farm products sold direct)
+  * Personal and advertising injury
+  * Medical payments
+  * Pollution liability (chemical application, manure management)
+- Special exposures:
+  * U-pick / agritourism operations
+  * Farm stand / farmers market sales
+  * Custom farming for others
+  * Animal-related liability (livestock escape, equine activities)
+  * Hunting / fishing on farm property
+- Limits and deductibles
+- Additional insureds (landlords, lenders, custom operators)
+
+When used:
+- Farm new business
+- Renewal review
+- Operations with significant public exposure (agritourism)
+
+Notes:
+- Equine activities have specific liability statutes in many states
+  (limitations on liability for inherent equine risks)
+- Pesticide and chemical exposure can trigger pollution liability
+  questions

@@ -5,3 +5,51 @@ Edition: 2016-03
 Title: Agriculture Application
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical, sometimes seasonal for crop programs)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Master application for agricultural / farm insurance — captures the
+farm operation, ownership, livestock, crops, equipment, and
+exposures that drive farm program rating. Used in lieu of ACORD 80
+(homeowner) when the property has significant farm exposure.
+
+Captures:
+- Producer / agency information
+- Applicant / farm owner / operator
+- Farm location and acreage
+- Type of operation:
+  * Crop farming (grain, fruit, vegetables, specialty)
+  * Livestock (cattle, hogs, poultry, dairy, equine)
+  * Dairy operations
+  * Aquaculture
+  * Mixed operations
+  * Hobby farm vs. commercial farm
+- Annual farm revenue
+- Number of farm employees
+- Farm dwelling(s) (separate from personal HO)
+- Farm structures (barns, silos, sheds, equipment storage)
+- Farm equipment / machinery
+- Livestock counts and values
+- Crops and stored grain values
+- Coverage requested:
+  * Farm dwelling and contents
+  * Farm structures
+  * Farm personal property
+  * Farm liability
+  * Equipment / machinery
+  * Livestock mortality
+  * Crop coverage (or referred to crop insurance)
+- Loss history
+
+When used:
+- Farm new business
+- Renewal review
+- Pairs with ACORD 402 (Agriculture Property Section), 404
+  (Agriculture Liability Section), and other ag-specific sections
+
+Notes:
+- Federal crop insurance (RMA-administered) is separate from this
+  form — for crop insurance, a different application family applies
+- Hobby vs. commercial farm distinction matters for coverage
+  eligibility

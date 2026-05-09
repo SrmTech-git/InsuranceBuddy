@@ -5,3 +5,38 @@ Edition: 2007-09
 Title: Agriculture Premises Diagram
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: Matches underlying farm policy
+Transaction types: Underwriting documentation (farm premises layout)
+
+Purpose:
+Diagram form used to depict the layout of farm premises — buildings,
+structures, fields, livestock areas, fuel and chemical storage, and
+distance relationships. Provides the underwriter with spatial
+context that text descriptions can't convey.
+
+Captures:
+- Reference to underlying farm application
+- Drawing of premises layout including:
+  * Farm dwelling
+  * Farm buildings (barns, silos, sheds)
+  * Livestock facilities
+  * Fuel storage tanks
+  * Chemical storage
+  * Stored grain / hay
+  * Distances between structures (fire spread risk)
+  * Distance to highways, neighboring properties
+  * Access roads, water sources
+- Annotation of construction types, fire protection, hazardous
+  storage
+
+When used:
+- Larger farm submissions
+- Properties with multiple high-value structures
+- Operations with hazardous storage (fuel, fertilizer, chemicals)
+- Renewal review when significant changes have occurred
+
+Notes:
+- Often replaced by aerial photography or satellite imagery in
+  modern submissions; the form persists for older agency workflows
+- Spatial relationships (distances, structure clustering) drive
+  fire spread risk underwriting

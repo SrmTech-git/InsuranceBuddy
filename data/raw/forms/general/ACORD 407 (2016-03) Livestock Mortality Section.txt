@@ -5,3 +5,46 @@ Edition: 2016-03
 Title: Livestock Mortality Section
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: 12 months (typical)
+Transaction types: New business, renewal (Quote / Bound / Issue Policy status)
+
+Purpose:
+Line-of-business section for livestock mortality coverage —
+specialty coverage for high-value individual animals (breeding stock,
+show animals, racehorses, valuable bulls / dairy cows) that
+warrants per-animal underwriting beyond blanket farm livestock
+coverage.
+
+Captures:
+- Reference to ACORD 401 (or stand-alone equine application)
+- Animal information:
+  * Species, breed
+  * Age, gender, color, markings
+  * Registration / pedigree
+  * ID (microchip, tattoo, brand)
+  * Insured value
+  * Use (breeding, show, racing, dairy, performance)
+- Veterinary information:
+  * Pre-insurance vet exam
+  * Vaccinations / health history
+  * Known medical conditions
+- Coverage type:
+  * Mortality (death from any cause)
+  * Limited mortality (specified perils)
+  * Theft and straying
+  * Major medical / surgical (often separate)
+  * Loss of use (specific to equine)
+- Per-animal limits and aggregate limits
+- Deductibles (% of value typical for some breeds)
+- Loss history
+
+When used:
+- Stand-alone or endorsed coverage for valuable individual animals
+- Equine operations (racing, breeding, show)
+- Dairy / breeding operations with high-value individuals
+- Renewal review
+
+Notes:
+- Pairs with ACORD 408 (Equine Liability Supplement) for equine
+  operations with public exposure
+- Vet exam typically required for high-value animals

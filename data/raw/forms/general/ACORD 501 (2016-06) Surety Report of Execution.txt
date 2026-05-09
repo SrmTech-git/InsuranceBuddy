@@ -5,3 +5,36 @@ Edition: 2016-06
 Title: Surety Report of Execution
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: Bond term (varies; typically 1-3 years for contract bonds)
+Transaction types: Bond execution reporting
+
+Purpose:
+Producer / agency report to a surety carrier confirming the
+execution of a surety bond on behalf of a principal. Documents the
+bond issuance, principal, obligee, bond amount, and term — the
+core information the surety needs for record-keeping and reporting
+to the obligee.
+
+Captures:
+- Producer / agency information
+- Surety carrier
+- Principal (the party purchasing the bond)
+- Obligee (the party requiring the bond, beneficiary)
+- Bond type (contract, license, court, fiduciary, public official,
+  etc.)
+- Bond amount / penal sum
+- Effective date and expiration / cancellation provisions
+- Premium charged
+- Indemnitor information (where applicable)
+- Bond number / reference
+
+When used:
+- Initial bond execution
+- Bond renewal / continuation
+- Reporting to the surety carrier after bond issuance
+
+Notes:
+- Surety bonds are NOT insurance — they are guarantees of
+  performance with three parties (principal, obligee, surety)
+- Pairs with ACORD 502 (Contract Bond Request Form) and ACORD 503
+  (Commercial or Miscellaneous Bond Request Form)

@@ -5,3 +5,48 @@ Edition: 2018-08
 Title: Contract Bond Request Form
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: Project / contract term
+Transaction types: Bond submission (bid bonds, performance bonds, payment bonds)
+
+Purpose:
+Application form for contract surety bonds — bid bonds, performance
+bonds, and payment bonds — used by contractors bidding on or
+executing public works contracts and many private construction
+projects. Captures the contract, contractor, and project specifics
+the surety needs to underwrite the bond.
+
+Captures:
+- Producer / agency information
+- Principal (contractor) name, address, FEIN
+- Contractor information:
+  * Years in business
+  * Contractor type (general, subcontractor, specialty trade)
+  * Bonding capacity (single project / aggregate)
+  * Surety credit history
+- Obligee / project owner
+- Project information:
+  * Project name and location
+  * Contract amount
+  * Contract term
+  * Scope of work
+  * Bid date (bid bond) or contract execution date
+- Bond requested:
+  * Bid bond (typically 5-20% of bid)
+  * Performance bond (typically 100% of contract)
+  * Payment bond (typically 100% of contract)
+  * Maintenance / warranty bond
+- Indemnitor information (corporate, personal)
+- Financial information (often references separate financial
+  statements)
+
+When used:
+- Contractor bid bond requests
+- Performance / payment bond requests at contract execution
+- Bond capacity establishment with a new surety
+
+Notes:
+- Surety underwriting is heavily based on contractor financial
+  strength and project history — financial statements typically
+  required separately
+- Federal Miller Act and state Little Miller Acts require P&P bonds
+  on public works above specified thresholds
