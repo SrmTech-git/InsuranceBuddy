@@ -5,3 +5,34 @@ Edition: 2009-05
 Title: Aviation Injured Schedule
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (incident document)
+Transaction types: N/A (claim documentation)
+
+Purpose:
+Schedule of individuals injured in an aviation incident or accident.
+Captures injury details, medical providers, and treatment information
+to support claim handling and coverage analysis under aviation
+liability and medical payments coverages.
+
+Captures:
+- Loss reference (date, location, aircraft N-number)
+- For each injured person:
+  * Name, address, contact, date of birth
+  * Relationship to flight (passenger, crew, third party, ground)
+  * Description of injuries (body parts, severity)
+  * Whether the person was hospitalized
+  * Hospital / medical provider name and contact
+  * Initial diagnosis or treatment
+  * Whether attorney representation has been retained
+  * Status (alive, deceased, transferred, etc.)
+
+When used:
+- Submitted alongside ACORD 5 (Aircraft Loss Notice) and ACORD 6
+  (Witness / Passenger Schedule) when there are injuries
+- Updated as additional medical information becomes available
+
+Notes:
+- Triggers medical payments coverage analysis under aviation
+  liability policies
+- Typically used in conjunction with formal claim files maintained
+  by the aviation adjuster or specialty TPA

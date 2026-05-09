@@ -5,3 +5,33 @@ Edition: 1995-02
 Title: Exchange of Information Form
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (incident document)
+Transaction types: N/A (claim documentation)
+
+Purpose:
+Two-party information exchange form for drivers involved in an auto
+accident. Each driver fills out their side; the forms are exchanged
+so that both parties leave the scene with the other's identity,
+insurance, and contact info — the minimum needed to file claims with
+each other's carriers.
+
+Captures:
+- Driver name, address, phone, email
+- Driver's license number and state
+- Vehicle year, make, model, plate, state, VIN
+- Vehicle owner (if different from driver)
+- Insurance company name and policy number
+- Insurance company phone / claims number
+- Producer / agency name and contact
+- Brief description of damage to driver's vehicle
+
+When used:
+- At the scene of an auto accident, exchanged between drivers
+- Replaces ad-hoc napkin scribbles with a standardized minimum
+  data set
+
+Notes:
+- Edition is from 1995; widely superseded by smartphone photos of
+  insurance cards and licenses, but still seen in glove-box kits
+- Complements ACORD 11 (Auto Accident Information Form) which
+  captures broader scene details

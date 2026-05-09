@@ -5,3 +5,37 @@ Edition: 2019-07
 Title: Automobile Loss Notice
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (claim/loss event)
+Transaction types: N/A (loss notification)
+
+Purpose:
+First Notice of Loss (FNOL) form for automobile claims. Captures
+the basic facts of an auto accident or loss so the carrier can
+establish a claim, assign an adjuster, and begin investigation.
+
+Captures:
+- Producer / agency information
+- Insured name, address, contact
+- Policy number, policy type, effective dates, coverage details
+  (liability limits, comp/coll deductibles, UM/UIM)
+- Driver of insured vehicle (name, license, relationship to insured)
+- Insured vehicle (year, make, model, VIN, plate, damage description)
+- Loss date, time, and location
+- How the accident occurred (description, diagram)
+- Other vehicle(s) involved: owner, driver, vehicle info, insurance,
+  damage description
+- Injuries: names, contact, injury descriptions, medical providers
+- Witnesses (names, contact)
+- Police agency and report number, citations issued
+- Towing, storage, and repair shop info
+
+When used:
+- Reporting an auto accident or loss to the carrier
+- Initial claim setup before adjuster assignment
+- Filed by the insured, driver, agent, or claims contact
+
+Notes:
+- Pairs with ACORD 11 (Auto Accident Information Form) and ACORD 12
+  (Exchange of Information) for at-scene documentation
+- Some carriers require their own FNOL form or online intake; ACORD 2
+  is widely accepted but check carrier-specific requirements

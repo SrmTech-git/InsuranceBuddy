@@ -5,3 +5,41 @@ Edition: 2019-09
 Title: Aircraft Loss Notice
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (claim/loss event)
+Transaction types: N/A (loss notification)
+
+Purpose:
+First Notice of Loss for aviation hull and/or liability claims.
+Captures the facts of an aircraft incident or accident so the
+carrier can begin claim handling and coordinate with the FAA, NTSB,
+and other regulatory agencies as required.
+
+Captures:
+- Producer / agency information
+- Named insured / aircraft owner / operator
+- Policy number, policy type (hull, liability, both), effective
+  dates, limits
+- Aircraft information: registration (N-number), make, model, year,
+  serial number, type of operation
+- Pilot in command: name, license, ratings, total hours, hours in
+  type, medical certificate
+- Loss date, time, location (airport / off-airport)
+- Phase of flight (taxi, takeoff, en route, approach, landing,
+  parked, etc.)
+- Description of the incident or accident
+- Damage description (hull damage)
+- Persons aboard, injuries, fatalities
+- Cargo / property damage
+- FAA and NTSB notification status
+- Weather conditions, ATC contact
+- Authorities contacted
+
+When used:
+- Reporting an aviation hull or liability loss
+- Initial claim setup and regulatory coordination
+
+Notes:
+- Aviation losses typically trigger FAA and (for accidents) NTSB
+  notification requirements separate from carrier reporting
+- Often filed alongside ACORD 6 (Aviation Witness / Passenger
+  Schedule) and ACORD 7 (Aviation Injured Schedule)

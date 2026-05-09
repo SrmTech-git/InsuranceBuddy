@@ -5,3 +5,31 @@ Edition: 1995-02
 Title: Witness Card
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (incident document)
+Transaction types: N/A (claim documentation)
+
+Purpose:
+Pocket-sized card for capturing a witness's identity, contact
+information, and brief statement at the scene of an accident or
+incident. Designed to be filled out quickly while the witness is
+still present and willing to provide information.
+
+Captures:
+- Witness name
+- Address
+- Phone (home, work, cell)
+- Email (where applicable)
+- Brief statement of what the witness observed
+- Date, time, and location of the incident witnessed
+- Reporter name (who collected the statement)
+
+When used:
+- At the scene of an auto accident or other incident
+- Adjuster or claim investigator field tool
+- Insured field documentation when collecting witnesses' info
+
+Notes:
+- Edition is from 1995; the compact card format reflects pre-digital
+  field practices but remains useful for quick witness intake
+- Witness statements gathered via ACORD 13 are typically supplemented
+  later with full recorded statements during formal investigation

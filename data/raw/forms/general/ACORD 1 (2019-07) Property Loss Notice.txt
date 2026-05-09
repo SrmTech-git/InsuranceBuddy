@@ -5,3 +5,37 @@ Edition: 2019-07
 Title: Property Loss Notice
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (claim/loss event)
+Transaction types: N/A (loss notification)
+
+Purpose:
+First Notice of Loss (FNOL) form for property claims. Provides the
+carrier with the information needed to set up a claim file, assign
+an adjuster, and begin investigating the loss.
+
+Captures:
+- Producer / agency information
+- Insured name, address, contact
+- Policy number, policy type, effective dates, deductible
+- Loss date, time, and location
+- Type of loss (fire, water, theft, vandalism, weather, etc.)
+- Description of how the loss occurred
+- Property damaged (building, contents, business personal property)
+- Estimated dollar amount of loss
+- Police / fire department report numbers
+- Witness names and contact info
+- Authority contacted (police, fire, etc.)
+- Reporter name and relationship to insured
+- Whether the property is occupied / vacant / under repair
+
+When used:
+- Reporting a property loss to the carrier
+- Initial claim setup before adjuster assignment
+- Submitted by the insured, agent, or adjuster
+
+Notes:
+- Some carriers accept ACORD 1 directly; others require their own
+  proprietary FNOL form
+- Used for residential and commercial property claims; commercial
+  losses may require additional documentation (BI calculations,
+  inventory schedules, etc.)

@@ -5,3 +5,32 @@ Edition: 2009-05
 Title: Aviation Witness / Passenger Schedule
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (incident document)
+Transaction types: N/A (claim documentation)
+
+Purpose:
+Schedule of witnesses and/or passengers associated with an aviation
+incident or accident. Provides contact information and brief
+statements for each individual to support the carrier's
+investigation and any subsequent claim handling.
+
+Captures:
+- Loss reference (date, location, aircraft N-number)
+- For each witness or passenger:
+  * Name
+  * Address
+  * Phone / contact information
+  * Date of birth (passengers)
+  * Relationship to flight (passenger, ground witness, crew, etc.)
+  * Brief statement / observation
+  * Whether the person was injured (and if so, refers to ACORD 7)
+
+When used:
+- Submitted alongside ACORD 5 (Aircraft Loss Notice) when there are
+  passengers or witnesses to document
+- Updated as additional witnesses are identified during investigation
+
+Notes:
+- Used for both accident scenes and incidents (e.g. hard landings,
+  near-misses, ground events)
+- Pairs with ACORD 7 for any individuals who suffered injuries

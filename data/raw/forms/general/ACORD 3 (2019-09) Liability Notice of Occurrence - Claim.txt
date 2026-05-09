@@ -5,3 +5,40 @@ Edition: 2019-09
 Title: Liability Notice of Occurrence / Claim
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (claim/loss event)
+Transaction types: N/A (loss notification)
+
+Purpose:
+First Notice of Loss for general liability incidents — slips and
+falls, product liability, premises injuries, third-party property
+damage. Distinguishes between a notice of OCCURRENCE (potential
+claim, no demand yet) and a CLAIM (formal demand received) so the
+carrier can respond appropriately.
+
+Captures:
+- Producer / agency information
+- Insured name, address, contact
+- Policy number, policy type, effective dates, limits
+- Notice type: occurrence vs. claim
+- Date of occurrence, date insured received notice
+- Location of occurrence
+- Description of how the incident occurred
+- Claimant information (name, address, contact, age, occupation)
+- Description of injuries or damages alleged
+- Property damaged (if applicable) and amount of damages
+- Whether claimant is represented by attorney
+- Suit / demand information if any
+- Witnesses
+- Authorities contacted (police, fire, OSHA, etc.)
+- Other parties potentially responsible
+
+When used:
+- Reporting a GL occurrence or formal claim to the carrier
+- Triggering carrier investigation and reservation of rights
+- Filed promptly to avoid late-notice coverage issues
+
+Notes:
+- Timely notice is a coverage condition under most GL policies —
+  ACORD 3 is often filed even when liability is unclear or contested
+- The "Notice of Occurrence" path documents potential claims that
+  haven't yet been formalized; useful for preserving coverage

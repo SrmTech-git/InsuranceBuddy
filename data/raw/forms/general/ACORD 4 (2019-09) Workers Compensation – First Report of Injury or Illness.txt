@@ -5,3 +5,43 @@ Edition: 2019-09
 Title: Workers Compensation – First Report of Injury or Illness
 Type: Insurance form (ACORD industry standard)
 States: All
+Policy term: N/A (claim/loss event)
+Transaction types: N/A (workers compensation claim)
+
+Purpose:
+First Report of Injury (FROI) for workers compensation claims.
+Captures the employee, employer, and injury details needed to open
+a WC claim and initiate medical and indemnity benefits.
+
+Captures:
+- Producer / agency information
+- Employer name, address, FEIN, NAICS, SIC, location of incident
+- WC carrier, policy number, effective dates
+- Employee information: name, address, DOB, SSN, gender, marital
+  status, dependents
+- Employment details: hire date, occupation, department, employment
+  status (full/part-time), wage information (rate and frequency),
+  hours per day/week
+- Injury details: date and time of injury, date employer notified,
+  date of last day worked, location of injury, body part(s) affected,
+  nature of injury, cause/source
+- Description of how the injury occurred
+- Whether the injury was witnessed; witness contact info
+- Initial medical treatment: provider, date, hospital
+- Whether the injury resulted in lost time, restricted duty, or
+  fatality
+- Authority contacted (police, OSHA, etc.)
+
+When used:
+- Reporting a workplace injury or occupational illness
+- Filed promptly (often within 24-72 hours, varies by state)
+- Submitted by employer, supervisor, or HR
+
+Notes:
+- Many states have their own jurisdictional First Report forms that
+  must be used instead of (or in addition to) ACORD 4 — check state
+  WC requirements before relying on ACORD 4 alone
+- Time limits for filing vary by state and carrier; late filing can
+  trigger employer penalties
+- Pairs with subsequent forms during claim management (medical-only
+  vs. lost-time tracking, return-to-work documentation, etc.)
