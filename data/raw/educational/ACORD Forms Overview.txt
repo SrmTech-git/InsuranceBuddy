@@ -1,0 +1,219 @@
+ACORD Forms: What They Are and How They're Used
+================================================
+
+This document explains what ACORD forms are, who controls them, and
+where they fit into the insurance transaction lifecycle. This is a
+companion to the forms collection (which catalogs specific national
+ACORD forms by number); this doc covers the conceptual layer.
+
+
+WHAT IS ACORD?
+==============
+
+ACORD (Association for Cooperative Operations Research and
+Development) is a non-profit standards organization for the insurance
+industry. Founded in 1970, ACORD develops and maintains a set of
+standardized forms, data definitions, and electronic transaction
+standards that allow agents, carriers, and customers to exchange
+insurance information in a consistent format across the industry.
+
+ACORD's mission is to reduce friction in insurance transactions.
+Before standardization, every carrier had its own application forms,
+claim forms, and policy administration forms. An independent agent
+representing 10 carriers had to learn 10 different formats for the
+same underlying task. ACORD's forms are the lingua franca that makes
+multi-carrier agency operations practical.
+
+ACORD itself is funded by members — primarily insurance carriers,
+agents, brokers, and technology providers. Membership funds the
+ongoing development, maintenance, and revision of forms and
+standards.
+
+
+WHAT IS AN ACORD FORM?
+======================
+
+An ACORD form is a standardized document for a specific insurance
+transaction, identified by a number (and sometimes a letter suffix)
+and an edition date. The form number identifies what the form is for;
+the edition date identifies which version is current.
+
+Example: ACORD 25 (2025-12) — Certificate of Liability Insurance.
+- "ACORD 25" identifies the form (Certificate of Liability Insurance)
+- "(2025-12)" identifies the edition (December 2025 revision)
+
+ACORD numbering follows rough conventions:
+- 1-19: claim and loss notice forms (Property Loss Notice, Automobile
+  Loss Notice, Liability Notice of Occurrence, etc.)
+- 20-31: certificates and evidence (Certificate of Liability
+  Insurance, Evidence of Property Insurance, etc.)
+- 35-58: policy administration (Cancellation Request, Notice of
+  Cancellation, Auto ID Cards, Financial Responsibility filings)
+- 60s: supplements and special notices (Flood Selection, Terrorism
+  Coverage Offerings, etc.)
+- 70s: change requests (Personal Auto Policy Change Request, etc.)
+- 80-89: personal lines applications (Homeowner, Personal Inland
+  Marine, Watercraft, Personal Umbrella, etc.)
+- 125+: commercial line-of-business sections (Applicant Information,
+  CGL, Business Auto, Workers Comp, Property, BOP)
+- 325-342: aviation forms (Aircraft Section, Pilot Experience, etc.)
+- 401-410: agriculture / farm
+- 501-504: surety bonds
+- 801-877: specialty lines (E&O, D&O, Cyber, Professional Liability,
+  Background Check, etc.)
+
+
+WHO CONTROLS ACORD FORMS?
+=========================
+
+ACORD itself controls the form templates, numbering system, and
+periodic revisions. New editions of forms are released when industry
+needs change — for example, cyber liability coverage being added,
+TRIA terrorism disclosures being revised, or state law changes being
+incorporated.
+
+Individual states do NOT control ACORD forms directly — but state
+insurance regulators may require specific information to be captured
+on certain forms (e.g. fraud warning language, privacy disclosures,
+or financial responsibility filings). ACORD typically integrates
+these state-specific requirements into the form so a single form
+satisfies most state needs. Where state requirements diverge
+significantly, ACORD may publish state-specific variants or
+supplements.
+
+Carriers cannot modify ACORD forms unilaterally. They can supplement
+ACORD forms with their own proprietary applications and
+questionnaires, but the ACORD form itself maintains its standardized
+structure.
+
+
+WHERE ACORD FORMS FIT IN THE TRANSACTION LIFECYCLE
+==================================================
+
+ACORD forms appear at every stage of an insurance transaction:
+
+Quote stage:
+- Applications (ACORD 80 Homeowner, ACORD 84 Dwelling Fire, ACORD 125
+  Commercial Applicant Information, ACORD 130 Workers Comp, etc.)
+  capture the information underwriters need to quote a policy.
+- Supplements (ACORD 73 Solid Fuel Questionnaire, ACORD 74 Residence-
+  Based Business, ACORD 185 Restaurant/Tavern, etc.) add detail for
+  unusual exposures.
+
+Bind / Issue stage:
+- Binders (ACORD 75, 275, 276) provide temporary evidence of coverage
+  while the formal policy is being issued.
+- Auto Insurance ID Cards (ACORD 50, 50WM, 50WMSET) are issued at
+  policy inception so the insured can demonstrate coverage to law
+  enforcement.
+
+Active policy:
+- Certificates (ACORD 25 Liability, ACORD 24 Property, ACORD 30
+  Garage, ACORD 31 Marine/Energy, etc.) provide proof of insurance to
+  third parties — vendors, lessors, contracting parties.
+- Evidence forms (ACORD 27 Personal Property, ACORD 28 Commercial
+  Property, ACORD 29 Flood) provide ongoing proof to mortgagees and
+  lenders.
+
+Mid-term changes:
+- Change requests (ACORD 70 Personal Non-Auto, ACORD 71 Personal
+  Auto, ACORD 175 Commercial) document insured-requested changes to
+  a policy.
+- Agent of Record changes (ACORD 36) transfer servicing authority.
+
+Claims:
+- Loss notices (ACORD 1 Property, 2 Automobile, 3 Liability, 4
+  Workers Comp, 5 Aircraft) file First Notice of Loss.
+- Supplemental schedules (ACORD 6 Aviation Witness/Passenger, ACORD 7
+  Aviation Injured) provide additional claim detail.
+
+End / Cancellation:
+- Cancellation Request (ACORD 35) documents an insured-initiated
+  cancellation.
+- Notice of Cancellation or Termination (ACORD 58) is the carrier's
+  cancellation notice.
+- Financial Responsibility Cancellation (ACORD 57) ends an active
+  SR-22 filing.
+
+
+WHAT'S USUALLY IN A DEC PACKAGE?
+================================
+
+A "dec package" — the packet of documents an insured receives when a
+policy is bound or renewed — typically contains:
+
+- The carrier's policy declarations page itself (NOT an ACORD form —
+  this is carrier-proprietary). The dec page summarizes named
+  insured, policy period, premium, coverage limits, deductibles,
+  applicable endorsements, and additional interests.
+- Auto ID cards (ACORD 50 or 50WM) for auto policies.
+- Evidence forms (ACORD 27, 28, or 29) for property policies with a
+  mortgagee.
+- Certificates (ACORD 25 or 24) if the insured requested them, or
+  needs to provide them to third parties.
+- Carrier-specific forms, endorsements, and notices (privacy notices,
+  state-required disclosures, etc.) that aren't ACORD forms but are
+  attached to the policy.
+
+ACORD forms in the dec package are typically the certificates, ID
+cards, and evidence forms — proof documents the insured will use or
+distribute. The carrier's policy form itself (the actual contract
+language) is not an ACORD form — it's the carrier's own contract or
+an ISO/AAIS coverage form licensed to the carrier.
+
+
+WHAT'S USUALLY IN A QUOTE PACKAGE?
+==================================
+
+A quote package — the documents an agent submits to a carrier to
+request a quote — typically contains:
+
+- The relevant ACORD application(s) for the lines of business being
+  quoted (ACORD 80 Homeowner, ACORD 125 Commercial Applicant
+  Information plus line-specific sections like 126 CGL, 127 Business
+  Auto, etc.)
+- Supporting supplements for unusual exposures (ACORD 186 Contractors
+  Supplement, ACORD 185 Restaurant/Tavern, etc.)
+- Loss runs from prior carriers (often requested via ACORD 611)
+- Replacement cost worksheets (ACORD 42) for property
+- Schedule of values (ACORD 139) for multi-location commercial
+- Any carrier-specific supplemental questionnaires
+
+Quote packages are almost entirely ACORD-based on the agent side —
+that's the whole point of standardization. Different carriers will
+respond with their own quote letters, proposals, and binders, but the
+information going INTO the carrier comes in standardized ACORD
+format.
+
+
+ACORD FORMS vs. CARRIER FORMS vs. ISO FORMS
+============================================
+
+It's worth distinguishing three types of standardized insurance
+documents you'll encounter:
+
+ACORD forms: standardized administrative and transactional forms
+(applications, certificates, change requests, claim notices). ACORD-
+controlled, used across carriers.
+
+ISO / AAIS forms: standardized coverage forms — the actual policy
+language defining what is and isn't covered. ISO (Insurance Services
+Office) and AAIS (American Association of Insurance Services) develop
+these. Examples: CG 00 01 (Commercial General Liability Coverage
+Form), CA 00 01 (Business Auto Coverage Form), CP 00 10 (Building and
+Personal Property Coverage Form).
+
+Carrier forms: proprietary forms a carrier uses in addition to (or
+instead of) ACORD/ISO. These vary by carrier — some carriers use
+almost entirely ACORD; others have extensive proprietary forms for
+specialty lines.
+
+A typical policy will have:
+- An ACORD application captured at the front (administrative)
+- ISO or AAIS coverage forms as the policy contract (substantive)
+- Carrier-specific endorsements modifying coverage (substantive)
+- ACORD certificates / ID cards / evidence forms issued for use
+  during the policy period (administrative)
+
+ACORD doesn't define WHAT is covered. ACORD defines HOW information
+about the policy and its administration is exchanged.
