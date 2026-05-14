@@ -590,3 +590,83 @@ Regression-tested 8 previously-working queries: all still passing.
 ### Architectural payoff
 
 Adding a new chunker is now a single function + registry entry. Phases 3 (forms-atomic chunker — never split a library card) and 4 (regulatory statute-section chunker) are deferred since those collections aren't currently failing, but the scaffolding is in place when retrieval quality on them becomes the bottleneck.
+
+---
+
+## Session 14 — Eval Framework + Eval-Driven Bug Hunt
+
+Smoke testing has been ad-hoc all along — inline Python one-liners, eyeball the answers. That works for fast iteration but doesn't catch regressions and doesn't give quality a number. Built a proper eval framework, ran it, then chased down everything the framework surfaced.
+
+### Eval framework v0
+
+Built `eval/` as a focused harness:
+
+- `cases.json` — 21 test cases tagged by category (regression, routing, content, state-specific, negative). Each case specifies `expected_sources` (any-of match), `expected_content` (66% phrase threshold), and `should_have_info` (does the system answer or refuse).
+- `scorer.py` — deterministic scoring on three dimensions: source recall, content recall, refusal correctness. No LLM-as-judge in v0; substring matching is enough to catch the failures we actually see.
+- `run_eval.py` — runner with markdown report generation. Per-run reports gitignored; baseline checked in for trend tracking.
+- `main.py eval` subcommand with `--tags` filter and `--baseline` flag.
+
+To enable scoring, refactored `chat.py` to expose `ask_traced()` returning an `AskTrace` dataclass with pipeline state (collections, intent, detected forms/states, retrieved sources). `ask()` is now a thin wrapper — no behavior change for the chat path.
+
+### Baseline: 18/21 (86%)
+
+Three real failures, all informative:
+
+1. **`regression-late-notice`** — answer was correct but came from Claims Process + OAC, not Exclusions/Conditions as my test case insisted. Test-case-too-strict.
+2. **`form-as-context`** — "Per ACORD 25 standards, what is GL?" — system refused. Documented in session 11 as a "phrasing literalism quirk." The eval revealed this was actually a real defect, not a quirk: the router correctly classified the form as context, retrieval pulled the right educational chunks, both source and content recall hit 1.0, but the LLM still refused because the literal query mentioned "ACORD 25 standards" and no retrieved doc was titled that.
+3. **`cross-state-comparison`** — Ohio + Indiana UM comparison. Single state filter dominated by Ohio's richer ORC content; Indiana was squeezed out entirely. Plus the state filter accidentally excluded educational content (which has `state=""`) on every state-scoped query — a hidden bug nothing had surfaced.
+
+### Fix 1 — Strip form-context prefix before LLM (commit `980e059`)
+
+When intent is `context` and forms are detected, strip leading form-reference clauses from the query before the LLM call. Retrieval still uses the original query (semantic match benefits from the form keyword); only the LLM sees the cleaned version. Patterns covered: "Per ACORD X,", "Under ORC Y,", "According to ACORD Z,", "In accordance with ACORD X form,", "Based on ORC Y,", "As described in ACORD Z," etc.
+
+Result: 18/21 → 19/21.
+
+### Fix 2 — Multi-state retrieval balance + educational inclusion (commit `57d6fae`)
+
+Two compounding bugs in one fix:
+
+a) `_build_state_filter` always includes `state=""` alongside detected states. Untagged content (educational concepts, industry-general forms) is conceptually always relevant — filtering it out on state-scoped queries was a hidden bug.
+
+b) New `_retrieve_chunks_multistate` path activates when 2+ states detected. Runs separate per-state queries (each state gets a budget) plus a state-agnostic pull for untagged content. Results merged, deduplicated by chunk text (lowest-distance wins), re-ranked by L2 distance to the final cap. Each state now gets fair representation.
+
+Also widened the late-notice test case to accept either Exclusions/Conditions OR Claims Process OR OAC3901 as valid grounding, and changed scorer's source recall from "all expected sources" to "any expected source" — a correct answer can legitimately be grounded in multiple valid documents.
+
+Result: 19/21 → 20–21/21 depending on LLM flicker.
+
+### Fix 3 — Temperature=0 on both LLM calls (commit `bb6449e`)
+
+After fixes 1 and 2, the retrieval was correct but the LLM occasionally chose to refuse on the cross-state case (and once on a routine ACORD 25 lookup). Verified the flicker wasn't retrieval-side — same query, same retrieved docs, different LLM decisions.
+
+Set `temperature=0` on both the router call and the answer call. Router routing should be deterministic by definition; grounded RAG answers should faithfully report retrieved context rather than be creative.
+
+Five-run stability after the change:
+```
+Run 1: 21/21
+Run 2: 21/21
+Run 3: 21/21
+Run 4: 20/21  (form-lookup-acord-25 — one-off refusal)
+Run 5: 21/21
+```
+
+= 104/105 case-runs pass (99%). Anthropic notes temp=0 isn't fully deterministic on their infra due to GPU floating-point ordering, and we see roughly 1% residual flicker hitting arbitrary cases. Acceptable; could be mitigated by multi-run majority voting in the eval if we ever need to.
+
+### What the eval session actually taught
+
+Going in, I thought we had three known failures plus a quirk. Coming out:
+
+- Two of the "failures" were real bugs (form-context refusal, state filter excluding educational) that I'd hand-waved as quirks or hadn't noticed at all
+- One was test-case brittleness (late-notice expecting a specific source)
+- One was LLM non-determinism that the system architecture couldn't fix on its own
+- The temperature=0 setting was a one-line change that probably should have been there from the start
+
+The state-filter-excluding-educational bug is the one I'm gladdest the eval caught. It would have quietly degraded every state-scoped query as content grew. Nothing previously visible — single-state Ohio queries had enough ORC content to answer without educational anyway.
+
+### Stats
+
+- Eval suite: 21 cases across 6 categories
+- Stability: 99% case-run pass rate (104/105 across 5 full runs)
+- Four commits this session: eval framework, form-context strip, multi-state retrieval, temperature=0
+- Real bugs closed: 2 (form-context, state-filter exclusion of educational)
+- Architecture additions: 1 (per-state retrieval split)
+- Test methodology improvements: 1 (any-of source matching)

@@ -36,12 +36,19 @@ User query
     ├─ Filter resolution
     │     ├─ form_number filter when intent is "subject" (single, $or for multi-form, or
     │     │   $or spanning collections for cross-collection comparisons)
-    │     └─ state filter when states are detected
+    │     └─ state filter when states are detected — always includes state="" so
+    │       untagged content (educational concepts) survives the filter
     │
     ├─ ChromaDB vector search (top 8 per collection, filtered as above)
+    │     └─ Multi-state queries (2+ states detected) use per-state retrieval so one
+    │       semantically-richer state can't squeeze out the others
     ├─ Cross-collection re-rank by L2 distance → top 10 chunks
     │
-    └─ Claude Haiku generation (context-only, sources cited)
+    ├─ Form-context query rewriting — if the form was classified as "context",
+    │   strip the form-reference prefix ("Per ACORD 25 standards, …") before
+    │   sending to the LLM so it doesn't refuse on literalism grounds
+    │
+    └─ Claude Haiku generation, temperature=0 (context-only, sources cited)
 ```
 
 The routing classifier is encouraged to pick **multiple collections** for conceptual questions that happen to name a form or statute (e.g. "What is CG 20 10?" → `forms, educational`; "What is late notice?" → `regulatory, educational`). Pure form lookups (`show me ACORD 25`) and pure statute lookups (`what does ORC 3937.18 say`) stay single-collection.
@@ -153,6 +160,13 @@ insurance-rag/
 │       ├── default.py             # Generic char-based chunker (fallback)
 │       └── educational.py         # Section-aware breadcrumbed chunker for .txt concept docs
 │
+├── eval/                          # Eval framework — track quality over time
+│   ├── cases.json                 # Test cases (query, expected sources, expected content)
+│   ├── scorer.py                  # Deterministic scoring (source recall, content recall, refusal)
+│   ├── run_eval.py                # Runner — loads cases, executes, writes markdown report
+│   ├── baseline.md                # Latest run, checked in for trend tracking
+│   └── reports/                   # Per-run timestamped reports (gitignored)
+│
 ├── tools/
 │   ├── build_acord_cards.py       # Generates the 180 ACORD library cards from inline index
 │   └── _enrich_batch*.py          # One-off scripts that applied per-batch card enrichment
@@ -246,6 +260,27 @@ python main.py ingest --force
 Supported file types: `.pdf`, `.txt`, `.docx`, `.xlsx`
 
 Excel files in `data/raw/regulatory/reference/` are automatically parsed into per-state chunks — each state gets its own document tagged with its state code.
+
+### Eval
+
+```bash
+# Run the full suite, write a timestamped report to eval/reports/
+python main.py eval
+
+# Run only cases tagged with a specific label (comma-separated)
+python main.py eval --tags regression,routing
+
+# Also overwrite eval/baseline.md (the checked-in latest run)
+python main.py eval --baseline
+```
+
+The eval suite is 21 deterministic test cases covering regression tests, routing edge cases, content queries, state-specific queries, and should-refuse negative cases. Each case specifies:
+
+- `expected_sources` — at least one must appear in retrieved chunks (any-of, not all-of)
+- `expected_content` — at least 66% of phrases must appear in the answer
+- `should_have_info` — whether the system should answer or correctly refuse
+
+Cases that fail include diagnostic notes showing which expectations weren't met. Run reports go to `eval/reports/` (gitignored); the latest baseline is checked in for trend tracking.
 
 ### Scrape Ohio Statutes
 
