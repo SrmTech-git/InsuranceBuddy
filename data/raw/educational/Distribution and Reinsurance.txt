@@ -1,0 +1,408 @@
+Insurance Distribution and Reinsurance
+=======================================
+
+This document explains how insurance is distributed — the agents,
+brokers, wholesalers, and program administrators that connect
+buyers with carriers — and how reinsurance works behind the
+scenes to spread risk among carriers. This is the "how policies
+actually get placed and how the industry stays solvent" layer
+that sits beneath any specific policy.
+
+
+DISTRIBUTION CHANNELS — HOW POLICIES REACH THE BUYER
+=====================================================
+
+Insurance reaches consumers through several distinct channels.
+The same coverage might be sold five different ways depending
+on the carrier's distribution strategy.
+
+Independent agents:
+Agencies that represent multiple carriers and place each
+client's business with whichever carrier best fits. The
+independent agent owns the customer relationship and the
+expirations (the right to renew the business). Independent
+agents dominate commercial lines and have a strong share of
+personal lines in many regions. Common arrangements include
+direct appointments with carriers and access to additional
+markets through wholesalers and aggregators.
+
+Captive agents:
+Agents who represent a single carrier exclusively. The carrier
+owns the customer relationship; the agent is essentially a
+distribution arm. Common in personal lines — large mass-market
+carriers run national captive agent forces. Captive agents
+typically can't shop competitors' rates for the client.
+
+Direct writers:
+Carriers that sell directly to consumers without an agent
+intermediary — through phone, web, mobile app, or company-
+employed sales representatives. Common in personal auto (the
+"direct" segment of the personal auto market is a substantial
+share of premium). Some direct writers also work through
+agents in parallel.
+
+Brokers (commercial):
+In the commercial market, "broker" usually refers to a retail
+producer representing the buyer (the insured), not the carrier.
+Commercial brokers shop the market on the client's behalf,
+negotiate terms, and place the business with whichever carrier
+offers the best fit. Large national and global brokers
+(several major firms dominate this space) handle the largest
+commercial accounts; mid-market and small commercial work
+through smaller regional brokerages.
+
+Managing General Agents (MGAs) and Managing General
+Underwriters (MGUs):
+Specialized intermediaries that hold underwriting authority
+delegated by a carrier. MGAs/MGUs can quote, bind, issue
+policies, and sometimes handle claims on the carrier's behalf,
+within the parameters of a binding authority agreement. They
+specialize by program, line of business, or geography —
+allowing carriers to access niche markets without building
+in-house expertise. The carrier still bears the underwriting
+risk; the MGA earns a commission plus often a profit share
+contingent on loss ratio.
+
+Wholesale brokers:
+Intermediaries between retail agents/brokers and surplus lines
+carriers (and some specialty admitted carriers). The retail
+agent doesn't have direct access to the specialty market;
+they bring the account to a wholesaler, who shops the surplus
+lines and specialty market and places the business. The
+wholesaler is paid by the carrier and shares commission with
+the retail agent. Wholesale distribution is the backbone of
+the surplus lines market.
+
+Program administrators:
+A specialized form of MGA running a "program" — a focused
+underwriting platform for a specific industry or class
+(restaurants, contractors, real estate, professional firms,
+tow trucks, etc.). The program administrator has carrier
+backing, defined appetite, and often proprietary risk-scoring.
+Retail agents access the program directly or through
+wholesalers.
+
+Insurtech and digital channels:
+Newer entrants combining technology with one of the above
+models. Some are direct-to-consumer carriers; some are
+digital MGAs writing on traditional carrier paper; some are
+agency platforms streamlining the placement process for
+small commercial. Distribution increasingly mixes digital
+quoting with human service for complex needs.
+
+Bank assurance and affinity programs:
+Insurance sold through a bank, credit union, employer, or
+affinity group (alumni association, professional society,
+auto club). The distributor leverages an existing customer
+relationship; the carrier provides the product. Common in
+personal lines and some small commercial.
+
+
+AGENT vs BROKER — THE LEGAL DISTINCTION
+========================================
+
+In strict legal terms, "agent" and "broker" describe different
+fiduciary relationships:
+
+Agent: represents the carrier. Has legal authority to bind
+coverage on the carrier's behalf within the appointment's
+limits. Owes a duty of loyalty primarily to the carrier.
+
+Broker: represents the insured (the buyer). Shops the market
+on the buyer's behalf. Doesn't have automatic binding
+authority — has to procure coverage through carriers.
+
+In practice, US states blur the distinction substantially.
+Most states issue a single producer license rather than
+separate agent and broker licenses. The same person may
+function as agent on one transaction (carrier-appointed,
+binding authority) and broker on another (acting for the
+client, going to market). Independent agents are usually
+"agents" by license but often function as brokers in spirit —
+shopping multiple markets for the client.
+
+In commercial and surplus lines, the terminology more often
+holds: a "broker" is shopping the market for the insured; an
+"underwriter" or "MGA" is the carrier-side counterpart.
+
+
+THE LONDON MARKET AND LLOYD'S
+==============================
+
+Lloyd's of London is not a single insurance company — it's a
+specialized marketplace, structured around syndicates that
+underwrite risks brought into the market by brokers.
+
+How Lloyd's works:
+- Capital is provided by members (corporate members and
+  historically individual "Names" — the corporate capital share
+  has grown substantially over time)
+- Syndicates are formed from member capital, run by managing
+  agents, and underwrite specific lines of business
+- Brokers bring risks to the market and walk them around
+  syndicates to assemble subscriptions
+- A "lead" syndicate underwrites first and sets terms;
+  "following" syndicates take portions on the same terms
+- Lloyd's itself operates as a regulator and central market
+  facility — it doesn't underwrite, but it provides oversight,
+  central settlement, and the Central Fund backing of
+  syndicate solvency
+
+Why Lloyd's matters:
+- Specialty, marine, aviation, energy, political risk, and
+  large complex risks heavily ride on Lloyd's paper
+- For US surplus lines, Lloyd's syndicates are among the
+  largest sources of capacity for hard-to-place commercial
+  risks
+- The "Lloyd's of London" brand carries weight even when the
+  actual risk is being underwritten by a US-based syndicate
+- Coverholders / binding authorities — US-based MGAs and
+  underwriters operate under delegated authority from Lloyd's
+  syndicates, allowing local underwriting against syndicate
+  capital
+
+
+REINSURANCE — INSURANCE FOR INSURERS
+=====================================
+
+Reinsurance is insurance purchased by an insurance company to
+cede a portion of its underwriting risk to another insurer
+(the reinsurer). It's how the industry distributes catastrophic
+risk and frees up capacity to write more business.
+
+Why carriers buy reinsurance:
+- Cap their exposure to any single loss or catastrophe
+- Free up surplus to write additional business
+- Smooth earnings volatility across years
+- Access expertise on unusual risks
+- Manage regulatory capital requirements (RBC)
+
+The ceding carrier (the "cedant") still issues the policy and
+owes the insured. The reinsurance contract is between the
+ceding carrier and the reinsurer; the policyholder typically
+has no direct relationship with the reinsurer. From the
+insured's perspective, the carrier on the policy is still on
+the hook.
+
+
+TREATY vs FACULTATIVE
+======================
+
+Reinsurance comes in two structural forms based on how risks
+are assigned:
+
+Treaty reinsurance:
+A contract covering a defined book of business — all the
+business the cedant writes in a class, line, or geography,
+automatically ceded under pre-agreed terms. The reinsurer
+takes whatever the cedant writes that meets the treaty
+parameters, without individually underwriting each risk.
+Efficient for large volumes of similar risks.
+
+Facultative reinsurance:
+Risk-by-risk reinsurance. The cedant offers a specific
+individual risk to the reinsurer, the reinsurer underwrites
+it individually, and either accepts or declines. Used for
+unusual risks, risks that exceed treaty capacity, or risks
+the treaty excludes. More expensive per dollar of capacity
+than treaty.
+
+Most carriers use a combination — treaties for the bulk of
+their book and facultative for the outliers.
+
+
+PROPORTIONAL vs NON-PROPORTIONAL REINSURANCE
+=============================================
+
+The other major structural axis is how losses are shared:
+
+Proportional (pro-rata) reinsurance:
+The reinsurer shares premiums and losses in proportion. Two
+common forms:
+
+- Quota share: cedant cedes a fixed percentage of every risk
+  (e.g. 30% quota share — reinsurer takes 30% of premium and
+  pays 30% of losses). Simple, predictable, and used to
+  manage surplus.
+- Surplus share: cedant retains a defined "line" on each
+  risk and cedes the excess above that line up to a multiple.
+  Variable cession by risk size — small risks fully retained,
+  large risks largely ceded.
+
+Non-proportional (excess of loss) reinsurance:
+The reinsurer pays only when losses exceed a defined retention
+("attachment point"), up to a limit. Common forms:
+
+- Per-risk excess of loss: covers losses above retention on
+  each individual risk
+- Per-occurrence excess of loss: covers losses above retention
+  on each individual loss event (a hurricane, an explosion, a
+  liability event affecting multiple policies)
+- Aggregate excess of loss / stop-loss: covers when total
+  losses for a period exceed an aggregate retention
+- Catastrophe (cat) cover: a specialized per-occurrence layer
+  triggered by named catastrophe events
+
+Layering is common: a carrier might buy a per-risk XOL above a
+$1M retention, a cat cover above $50M per event, and an
+aggregate stop-loss above an 85% loss ratio.
+
+
+THE REINSURANCE MARKET
+=======================
+
+Major global reinsurers:
+The reinsurance market is concentrated among a relatively small
+number of major reinsurers, plus Lloyd's syndicates and a
+number of specialty and regional reinsurers. Bermuda is a major
+domicile for reinsurance capital, particularly catastrophe
+reinsurance. Continental European reinsurers, Lloyd's, and US-
+domiciled reinsurers all participate actively.
+
+Retrocession:
+Reinsurers themselves buy reinsurance — called retrocession —
+to manage their own concentrations. The retrocession market is
+smaller and more concentrated than primary reinsurance.
+
+Alternative capital:
+A meaningful share of catastrophe reinsurance capacity now
+comes from non-traditional sources — catastrophe bonds, ILS
+(insurance-linked securities) funds, sidecars — capital from
+pension funds, hedge funds, and other institutional investors
+seeking returns uncorrelated with broader financial markets.
+
+
+WHY REINSURANCE AFFECTS THE RETAIL CONSUMER
+============================================
+
+Reinsurance is invisible to most insureds, but it has direct
+effects on the retail market:
+
+Capacity availability:
+When reinsurance is plentiful and cheap, primary carriers can
+write more business and offer higher limits. When reinsurance
+tightens, primary carriers shrink their appetite — declining
+risks, lowering limits, raising rates.
+
+Pricing volatility after catastrophes:
+A major hurricane or earthquake can move global reinsurance
+pricing significantly. Those increases flow through to primary
+carriers, who pass them through to retail rates over time.
+Hard markets in property insurance often originate in the
+reinsurance layer.
+
+Carrier insolvency exposure:
+A reinsurer failure can leave the primary carrier holding the
+bag — the primary still owes the insured, but its expected
+reinsurance recovery is at risk. This is one reason regulators
+monitor reinsurer credit quality and limit the proportion of
+a carrier's surplus that can be supported by recoverables from
+any single reinsurer.
+
+
+MARKET CYCLES — HARD vs SOFT MARKETS
+=====================================
+
+The insurance market cycles between "hard" and "soft"
+conditions:
+
+Soft market:
+- Abundant capital and competition
+- Rates flat or declining
+- Carriers expanding appetite, taking more classes of risk
+- Broader terms, more concessions to clients
+- Higher commissions for producers
+- New entrants opening
+
+Hard market:
+- Constrained capital, often after major losses or investment
+  setbacks
+- Rates rising, sometimes sharply
+- Carriers contracting appetite, declining classes of risk
+- Tighter terms, more exclusions, lower limits
+- Premium audit and underwriting scrutiny intensify
+- Reinsurance pricing leads the way
+
+Cycle drivers:
+Major catastrophes deplete industry surplus. Investment
+returns affect carriers' need to make underwriting profit.
+Reinsurance availability and pricing flow through to primary
+carriers. Regulatory and judicial changes (large verdicts,
+expanded liability theories) can compress capacity. Capital
+inflows from outside the industry can soften markets even
+after losses.
+
+What hard markets look like in practice:
+- Renewals come back with rate increases of 10%-50%+ on
+  certain classes
+- Some classes lose admitted-market capacity entirely and
+  shift to surplus lines
+- Higher attachment points on excess and umbrella layers
+- Tightened terms (sub-limits, exclusions, coinsurance
+  provisions)
+- Specific lines may go through "dislocations" — temporary
+  market disruptions in cyber, D&O, habitational property,
+  or wildfire-exposed property, for example
+
+
+PRODUCER COMPENSATION
+======================
+
+How agents, brokers, MGAs, and wholesalers get paid:
+
+Commission:
+A percentage of premium, paid by the carrier. Standard
+commercial commission ranges from 8% to 20% depending on line,
+size, and channel. Personal lines commissions vary by carrier
+and channel. New business often pays more than renewals.
+
+Contingent commission / profit sharing:
+Additional compensation based on the carrier's profitability
+on the producer's book. Common in independent agency channels.
+Aligns producer incentives with carrier loss experience over
+the long term.
+
+Override commission:
+Additional commission paid to wholesalers, MGAs, or aggregators
+on top of the base commission paid to the retail producer.
+
+Fee-based:
+Some large commercial brokers charge the insured a fee for
+services rather than (or in addition to) carrier-paid
+commission. Increasingly common at the upper end of the
+commercial market where the broker is doing substantial
+risk-management consulting beyond mere placement.
+
+Disclosure requirements vary by state, but contingent
+commission disclosure became more standardized after early-
+2000s investigations into broker compensation practices.
+
+
+PUTTING IT TOGETHER — A SIMPLE MENTAL MODEL
+============================================
+
+A commercial policy placed through a retail broker, on
+surplus lines paper, supported by reinsurance:
+
+1. Insured engages a retail broker to find coverage
+2. Broker can't find admitted appetite, goes to a wholesaler
+3. Wholesaler shops surplus lines underwriters — including
+   MGAs operating under Lloyd's binding authority and US
+   surplus carriers
+4. An MGA quotes on behalf of its carrier; broker accepts
+5. The MGA's carrier issues the policy
+6. The carrier's treaty reinsurance automatically cedes a
+   portion of the risk to its reinsurers
+7. If the loss exceeds treaty retention or hits an
+   excess-of-loss layer, additional reinsurance attaches
+8. The insured deals only with the broker; the broker deals
+   with the wholesaler; the wholesaler dealt with the MGA;
+   the MGA acts for the carrier; the carrier separately
+   manages its reinsurance — multiple invisible layers
+   between the insured and the ultimate capital paying the
+   loss
+
+Distribution and reinsurance together explain why a
+seemingly simple commercial policy can involve five or more
+parties between the buyer and the capital ultimately bearing
+the risk.

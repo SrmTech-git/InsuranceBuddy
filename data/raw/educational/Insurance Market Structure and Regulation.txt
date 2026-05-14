@@ -1,0 +1,389 @@
+Insurance Market Structure and Regulation
+==========================================
+
+This document explains how the US insurance market is organized —
+the types of carriers that write business, how they're regulated,
+the difference between admitted and surplus lines, the safety nets
+that protect consumers when carriers fail, and the rating agencies
+that grade carrier financial strength. This is the "who and how"
+layer that sits above any specific policy or coverage.
+
+
+THE CENTRAL FACT: INSURANCE IS STATE-REGULATED
+===============================================
+
+Insurance in the United States is regulated primarily by the
+states, not by the federal government. This was settled by the
+McCarran-Ferguson Act of 1945, which gave states the authority to
+regulate the business of insurance and exempted insurance from
+most federal antitrust law (so long as the states regulate it).
+
+Practical consequences:
+- Each state has its own insurance department (sometimes called
+  the Department of Insurance, Division of Insurance, or
+  Insurance Commissioner's office)
+- Each state licenses its own carriers, agents, and brokers
+- Each state approves its own rates and policy forms (or chooses
+  not to — file-and-use vs prior-approval regimes)
+- Each state runs its own guaranty fund
+- Each state defines its own minimum coverage requirements (auto
+  liability limits, workers comp scope, etc.)
+
+A carrier wanting to write in all fifty states needs licensing,
+rate filings, and ongoing compliance in all fifty — a substantial
+operational lift, which is one reason many carriers focus
+regionally.
+
+
+THE NAIC — COORDINATION, NOT REGULATION
+========================================
+
+The National Association of Insurance Commissioners (NAIC) is a
+voluntary organization of the state insurance commissioners. The
+NAIC does NOT regulate carriers directly — it has no statutory
+authority. What it does:
+
+- Develops "model laws" and "model regulations" that states can
+  adopt to harmonize regulation
+- Operates the NAIC accreditation program, which sets minimum
+  standards for state insurance department operations
+- Maintains shared financial data systems used by state regulators
+- Runs IRIS (Insurance Regulatory Information System) — financial
+  ratios used to flag carriers for additional scrutiny
+- Coordinates multi-state market conduct examinations
+
+The NAIC is the closest thing to national insurance regulation,
+but it operates by persuasion and adoption rather than mandate.
+When you see something described as "the NAIC model" — that's a
+template, not a binding rule, until a state adopts it.
+
+
+CARRIER TYPES
+=============
+
+Insurance carriers come in several legal and structural forms:
+
+Stock insurers:
+Owned by shareholders, profit-motivated, capital raised by issuing
+stock. The most common structure for large commercial and personal
+lines carriers. Examples: most publicly traded insurers.
+
+Mutual insurers:
+Owned by their policyholders. Surplus belongs to policyholders;
+"dividends" paid to policyholders are technically refunds of
+overpaid premium. Tend to be conservative in underwriting and
+investment, often regionally focused. Common in farm and
+agricultural lines, some auto and life carriers.
+
+Reciprocal exchanges:
+An unincorporated association of subscribers (policyholders) who
+exchange insurance with each other through an attorney-in-fact
+that runs the operation. Less common but present in personal auto
+and some specialty lines. Subscribers share in profits and may be
+assessable for losses depending on the form.
+
+Lloyd's syndicates:
+Lloyd's of London is a marketplace, not a single carrier.
+Underwriting syndicates — backed by corporate capital and
+individual "Names" — write risks in the Lloyd's market. Lloyd's
+is dominant in specialty, marine, aviation, and large complex
+risks. (See the companion Distribution and Reinsurance overview
+for more on how Lloyd's actually operates.)
+
+Captive insurers:
+Insurance companies formed to write the risks of their parent
+organization or a defined group:
+- Single-parent (pure) captives: insure only the parent
+- Group captives: insure a group of related companies sharing
+  risk
+- Cell captives: rented "cells" within a sponsored captive,
+  each cell isolated from the others
+- Risk Retention Groups (RRGs): federally authorized group
+  captives under the Liability Risk Retention Act, restricted to
+  liability lines, licensed in one state but able to operate in
+  all states
+
+Captives let larger insureds self-insure in a tax-efficient,
+ring-fenced structure. Bermuda, Vermont, Cayman, and Hawaii are
+common captive domiciles.
+
+Self-insurance:
+Not technically insurance — the entity simply pays its own losses
+out of operating funds or a dedicated reserve. Common for workers
+comp and general liability among large employers. Often paired
+with stop-loss reinsurance for catastrophic claims.
+
+
+DOMESTIC, FOREIGN, AND ALIEN INSURERS
+======================================
+
+Carrier domicile terminology:
+
+Domestic:
+A carrier domiciled in the state where the policy is being
+written. (Domestic in Ohio = chartered in Ohio.)
+
+Foreign:
+A carrier domiciled in another US state. (Foreign in Ohio = an
+Illinois-chartered carrier writing in Ohio.)
+
+Alien:
+A carrier domiciled outside the US. (Alien in Ohio = a Bermuda
+or UK carrier writing in Ohio.)
+
+The terminology is from the state's perspective — the same
+carrier is "domestic" in its home state and "foreign" everywhere
+else.
+
+
+ADMITTED vs NON-ADMITTED (SURPLUS LINES / E&S)
+===============================================
+
+The single most important market distinction. Every carrier
+writing in a state is either admitted or non-admitted.
+
+Admitted carriers:
+- Hold a Certificate of Authority from the state
+- File rates and forms with the state (for approval or
+  notification depending on the regime)
+- Subject to ongoing financial solvency oversight by the state
+- Policyholders are covered by the state guaranty fund if the
+  carrier becomes insolvent
+- Bound by the state's policy form approvals (less flexibility)
+- Subject to market conduct examinations
+
+Non-admitted carriers (surplus lines / Excess and Surplus / E&S):
+- Not licensed in the state but eligible to write surplus lines
+  business (they appear on the state's "white list" of approved
+  surplus lines carriers)
+- Free to use their own policy forms and set their own rates
+- Can write risks the admitted market won't (unusual, hazardous,
+  high-limit, or simply outside admitted carrier appetite)
+- NOT backed by the state guaranty fund — this is the central
+  consumer trade-off
+- Subject to a surplus lines tax (state-specific, typically 3%-6%
+  of premium)
+- Often domiciled offshore or in a state friendly to surplus
+  lines carriers (London, Bermuda, certain US domiciles)
+
+When business goes to surplus lines:
+Most states require a "diligent search" of the admitted market
+before a risk can be placed with surplus lines. The surplus
+lines broker documents declinations from typically three or more
+admitted carriers, attesting that the risk could not be placed
+in the admitted market on reasonable terms. Some classes of
+risk are pre-approved for surplus lines without a diligent
+search ("export list" — risks the regulator has acknowledged
+won't find admitted capacity).
+
+Why surplus lines exists:
+The admitted market is constrained by its own form and rate
+filings — a carrier can't easily underwrite a one-off complex
+risk without a corresponding filing. Surplus lines fills the
+gap with flexible underwriting and bespoke wording. Most
+specialty, high-hazard, and large commercial risks ride on
+surplus lines paper.
+
+Surplus lines tax:
+The surplus lines broker collects the tax from the insured and
+remits it to the state. Under the Nonadmitted and Reinsurance
+Reform Act (NRRA, 2010), the insured's HOME STATE collects 100%
+of the tax for multi-state risks — eliminating earlier multi-
+state allocation disputes.
+
+
+HOW CARRIERS GET LICENSED — CERTIFICATE OF AUTHORITY
+=====================================================
+
+To become admitted in a state, a carrier must:
+- Demonstrate minimum capital and surplus (varies by line of
+  business and state — typically several million dollars per
+  line)
+- File a plan of operations
+- Submit policy forms and rates for approval (or notification,
+  depending on regime)
+- Designate a registered agent in the state for service of
+  process
+- Submit ongoing financial reports (annual and quarterly
+  statements in NAIC format)
+- Pay licensing and renewal fees
+
+Rate and form approval regimes vary:
+- Prior approval: file and wait for affirmative regulator OK
+  before using
+- File and use: file and use immediately, subject to disapproval
+- Use and file: use immediately and file shortly after
+- No-file / open competition: rate and form flexibility with
+  limited regulator review (more common for commercial lines)
+
+Workers comp, personal auto, and homeowners tend toward prior
+approval. Large commercial lines tend toward more flexibility.
+
+
+FINANCIAL SOLVENCY OVERSIGHT
+=============================
+
+State regulators monitor admitted carrier solvency through:
+
+Risk-Based Capital (RBC):
+A formula that calculates a carrier's required minimum capital
+based on the risk profile of its assets, underwriting, and
+operations. If actual capital falls below specified RBC ratios,
+the regulator escalates intervention — from company-level
+corrective action plans to mandatory rehabilitation to
+liquidation.
+
+Statutory accounting (SAP):
+Insurance carriers use Statutory Accounting Principles for
+regulatory reporting, distinct from GAAP. SAP is more
+conservative — it focuses on policyholder protection rather than
+investor information. Reserves are stricter, certain assets are
+non-admitted (can't be counted toward surplus).
+
+NAIC IRIS ratios:
+Twelve financial ratios calculated annually for every admitted
+carrier. Carriers with ratios outside "usual" ranges get
+flagged for further regulator attention.
+
+Market conduct examinations:
+Periodic regulatory reviews of how a carrier handles claims,
+underwriting, policyholder communications, and complaints —
+not just whether it's solvent, but whether it's treating
+policyholders fairly.
+
+
+GUARANTY FUNDS — THE SAFETY NET
+================================
+
+If an admitted carrier becomes insolvent, the state's guaranty
+fund (sometimes called a guaranty association) steps in to pay
+covered claims up to statutory limits. Every state has at least
+one (some have separate funds for property/casualty, life/health,
+and workers comp).
+
+How it works:
+- Guaranty funds are funded by post-insolvency assessments on
+  remaining admitted carriers in the state, pro-rated by market
+  share
+- The fund picks up unpaid claims of the insolvent carrier, up
+  to per-claim caps (typically $300K for most P&C claims,
+  unlimited for workers comp benefits in most states)
+- Refund of unearned premium also covered, often capped at
+  $25K-$50K
+- High-net-worth individuals may have claims exceeding caps and
+  bear the loss themselves above the cap
+
+What guaranty funds do NOT cover:
+- Surplus lines policies (the consumer trade-off for the
+  flexibility)
+- Self-insurance, captives, RRGs (each has its own
+  framework)
+- Some specialty programs (ocean marine, certain reinsurance
+  arrangements)
+- Claims above statutory caps
+
+Guaranty fund coverage is one major reason admitted-market
+placement matters for risks where the consumer needs that
+backstop — personal lines, small commercial, and any contract
+where minimum rating requirements or guaranty-fund coverage are
+specified.
+
+
+RESIDUAL AND SHARED MARKETS
+============================
+
+When a risk can't get coverage in the voluntary admitted market
+(too hazardous, too large, geographically constrained), the
+state often provides an insurer of last resort. These are
+collectively called residual markets or shared markets.
+
+Auto assigned-risk plans:
+Every state has a mechanism to insure drivers who can't get
+coverage voluntarily — typically an assigned-risk plan that
+allocates these drivers to admitted carriers in proportion to
+their market share. Premiums are higher than voluntary market.
+
+FAIR plans:
+Fair Access to Insurance Requirements plans provide property
+insurance in geographic areas where the voluntary market has
+withdrawn (urban areas, wildfire zones, brush areas). Coverage
+is typically named-perils, more limited than standard
+homeowners. Most US states have FAIR plans for residential and
+sometimes commercial property.
+
+Beach and Windstorm Pools:
+Coastal states (TX, NC, SC, FL, AL, MS) have specialized pools
+covering wind/hail in hurricane-exposed coastal counties where
+voluntary carriers won't write the wind peril.
+
+Workers comp residual market:
+Every state has a mechanism to insure employers who can't get
+voluntary workers comp coverage — either through the NCCI
+National Workers Compensation Reinsurance Pool (in NCCI
+states), through state-specific pools, or through state-
+operated funds. In a few states (e.g. North Dakota, Ohio,
+Washington, Wyoming), the state itself is the only workers
+comp insurer — these are "monopolistic" state funds.
+
+Residual markets function as insurer of last resort. Premiums
+are generally higher than voluntary market and coverage may be
+narrower. The existence of a functioning residual market is part
+of what makes mandatory insurance requirements (auto, workers
+comp) workable — there's always somewhere to place coverage.
+
+
+RATING AGENCIES AND FINANCIAL STRENGTH
+=======================================
+
+Carrier financial strength is graded by independent rating
+agencies. The major P&C rating agencies:
+
+A.M. Best:
+The dominant rating agency for insurance, focused exclusively
+on the insurance industry. Ratings run from A++ (Superior) down
+through A+, A, A-, B++, B+, B, B-, C++, C+, C, C-, D, E, F. Most
+admitted carriers carry an A- or better. Best's also publishes
+a Financial Size Category (FSC) from I to XV, indicating
+adjusted policyholders' surplus.
+
+Standard & Poor's, Moody's, Fitch:
+General-purpose rating agencies that also rate insurers.
+Ratings parallel their corporate ratings — AAA, AA, A, BBB,
+etc.
+
+Demotech:
+A rating agency focused on smaller and regional carriers,
+particularly significant in Florida property where the voluntary
+market relies heavily on Demotech-rated carriers.
+
+Why ratings matter in practice:
+- Mortgage requirements: many mortgages require the homeowners
+  policy to be from an A- or better rated carrier
+- Contractual requirements: commercial contracts often specify
+  minimum ratings (e.g. "Best's A-VII or better")
+- Lender approvals on financed property
+- Government contract qualification
+- Public entity coverage requirements
+
+A carrier whose rating drops can lose substantial business —
+agents may be required to move accounts off downgraded paper to
+maintain contractual compliance.
+
+
+PUTTING IT TOGETHER — A SIMPLE MENTAL MODEL
+============================================
+
+When evaluating a risk, the questions in order are:
+1. Will the admitted market write it? (preferred — rate
+   approval, form approval, guaranty fund coverage)
+2. If not, can surplus lines write it? (flexibility at the
+   cost of guaranty fund protection)
+3. If neither, is there a residual market? (assigned risk,
+   FAIR, beach/wind pools, state fund)
+4. For very large or unique risks: captive, RRG, or self-
+   insurance?
+
+The "where the policy is placed" question is upstream of every
+specific coverage question — and it determines the regulatory
+framework, consumer protections, and pricing dynamics that
+apply.
