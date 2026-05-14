@@ -65,7 +65,45 @@ Chunkers are pluggable per collection (`src/chunkers/`). Each collection's docum
 | `educational` | `educational_chunker` | Parses `===`-underlined section structure in .txt docs and emits chunks with breadcrumb prefixes: `[Doc Title > MAJOR SECTION > Subsection]\n\nbody`. The breadcrumb gives short keyword queries (`Part C`, `duty to cooperate`) a direct token match and gives the LLM clear context about which section it's reading. Falls back to the default chunker for docs without recognizable structure (most .docx). |
 | everything else | `default_chunker` | Wraps `RecursiveCharacterTextSplitter` (`CHUNK_SIZE=1000`, `CHUNK_OVERLAP=100`). |
 
-Adding a new chunker: write a function matching the `Chunker` protocol in `src/chunkers/base.py` and register it in `CHUNKER_REGISTRY` (`src/chunkers/__init__.py`). Unregistered collections fall back to the default chunker, so the system never regresses on already-working content during transitions.
+#### Writing an educational .txt doc
+
+To benefit from the breadcrumbed chunker, structure new educational .txt files this way:
+
+```
+Document Title
+==============
+
+Optional intro paragraph.
+
+
+MAJOR SECTION HEADER
+====================
+
+Body of the major section.
+
+Subsection name:
+Body of the subsection. Multiple paragraphs allowed.
+
+Another subsection:
+More body content.
+
+
+SECOND MAJOR SECTION
+====================
+...
+```
+
+Rules:
+- **Document title** — first non-blank line, underlined with three or more `=` chars
+- **Major sections** — header line (usually ALL CAPS, but any text works) followed immediately by a `===` underline. Separated from previous content by blank lines.
+- **Subsections** — a standalone line ending in `:` at column 0, length under ~100 chars, no period before the colon. Examples: `Part C — UM/UIM:`, `Duty to cooperate:`, `Why it matters:`
+- A subsection's body extends until the next subsection header or the next major section
+
+Docs that don't follow this convention still ingest fine — the chunker falls back to the default character-based splitter — but they lose the breadcrumb benefit and may have retrieval issues on short keyword queries.
+
+#### Adding a new chunker
+
+Write a function matching the `Chunker` protocol in `src/chunkers/base.py` and register it in `CHUNKER_REGISTRY` (`src/chunkers/__init__.py`). Unregistered collections fall back to the default chunker, so the system never regresses on already-working content during transitions.
 
 ### State Metadata
 
