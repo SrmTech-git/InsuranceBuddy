@@ -1,0 +1,551 @@
+The Claims Process: From First Notice to Closed File
+======================================================
+
+This document explains how an insurance claim moves from the
+moment of loss through final resolution — who does what, what
+documents and decisions appear at each stage, and the common
+branches the process can take. It's written conceptually and
+deliberately avoids form numbers so it stays useful for general
+"how do claims work" questions.
+
+
+CLAIMS PROCESS — STEP MAP
+==========================
+
+1. LOSS EVENT
+       v
+2. FIRST NOTICE OF LOSS (FNOL)
+   insured notifies carrier or agent
+       v
+3. CLAIM SETUP & ASSIGNMENT
+   claim number issued, adjuster assigned
+       v
+4. INVESTIGATION
+   coverage analysis · liability · damages · statements
+       v
+5. COVERAGE DECISION
+   covered      ->  proceed to resolution
+   uncertain    ->  Reservation of Rights letter, defend + reserve
+   not covered  ->  Denial letter, appeal rights
+       v
+6. RESERVE SET
+   carrier estimates ultimate claim cost
+       v
+7. RESOLUTION (branches)
+   First-party:  ACV or RCV payment, ALE, proof of loss, appraisal
+   Third-party:  investigate liability, negotiate, settle or defend
+       v
+8. POST-PAYMENT
+   subrogation, salvage, reserves trued up
+       v
+9. CLAIM CLOSED
+
+
+STAGE 1 — THE LOSS EVENT
+=========================
+
+A claim starts with a loss — an event that causes damage,
+injury, or financial harm potentially covered by an insurance
+policy. Common categories:
+
+First-party losses: damage to the insured's own property or
+expenses the insured incurs (a kitchen fire, a stolen vehicle,
+storm damage, additional living expense while displaced). The
+insured is collecting on their own policy.
+
+Third-party losses: the insured allegedly caused harm to
+someone else, and that someone else is making a claim or
+filing suit. The insured's liability coverage responds to
+defend and indemnify (a guest slips on the insured's
+property, an at-fault auto accident, a contractor damages
+the customer's building).
+
+Workers compensation losses: an employee is injured on the
+job. The employer's WC carrier responds to pay medical and
+indemnity benefits regardless of fault.
+
+The category drives which coverage part responds and what the
+process looks like — first-party claims are an indemnity
+transaction with the insured; third-party claims involve a
+claimant outside the insured-carrier relationship.
+
+
+STAGE 2 — FIRST NOTICE OF LOSS (FNOL)
+======================================
+
+FNOL is the moment the carrier first learns about the claim.
+It can come through several channels:
+
+- Insured calls the carrier directly (800 number, mobile app,
+  website)
+- Insured reports to the agent, who forwards to the carrier
+- Third-party claimant or claimant's attorney contacts the
+  carrier
+- Carrier learns through litigation (a complaint is served
+  before the insured reports)
+- Police report or other public record routed to the carrier
+
+What's captured at FNOL:
+- Date, time, and location of loss
+- Description of what happened
+- Property involved or person injured
+- Witnesses
+- Police or fire report numbers if applicable
+- Initial estimate of damage or injury severity
+- Insured's contact information and policy number
+
+Why prompt notice matters:
+Most policies require "prompt" notice of loss as a condition
+of coverage. Unreasonable delay can prejudice the carrier's
+investigation rights and, in extreme cases, void coverage for
+that claim. Some policies specify timeframes (e.g., notice
+within 30 days); others use the "as soon as practicable"
+standard. Practically, faster notice means better evidence
+preservation, faster investigation, and faster resolution.
+
+For third-party claims, the insured's duty to cooperate
+extends beyond initial notice — the insured must forward any
+suit papers, demand letters, or correspondence from the
+claimant to the carrier immediately. Failure to do so can
+jeopardize defense coverage.
+
+
+STAGE 3 — CLAIM SETUP AND ASSIGNMENT
+=====================================
+
+Once the carrier receives FNOL:
+
+Claim number issued:
+A unique identifier for tracking the file across the carrier's
+systems. The claim number is referenced on every subsequent
+document, communication, and payment.
+
+Adjuster assigned:
+The adjuster is the carrier representative responsible for
+investigating, evaluating, and resolving the claim. Three
+common types:
+
+- Staff adjusters: employed directly by the carrier. Most
+  routine claims.
+- Independent adjusters: contracted by the carrier on a
+  per-claim basis. Common for catastrophe response, geographic
+  overflow, or specialized loss types.
+- Public adjusters: hired by the INSURED, not the carrier, to
+  represent the insured's interests in a first-party property
+  claim. Public adjusters are licensed separately and paid by
+  the insured (usually a percentage of recovery).
+
+Acknowledgment to the insured:
+The carrier sends an acknowledgment letter or email confirming
+the claim was received, providing the claim number and
+adjuster contact info, and outlining what happens next.
+Acknowledgment timeframes are often regulated by state unfair
+claims practices statutes (typically 10-15 days from FNOL).
+
+Severity triage:
+Carriers categorize incoming claims by complexity. Simple,
+clear-cut claims (a windshield crack, a minor fender-bender)
+may be handled by lower-tier adjusters or even resolved
+through self-service. Complex claims (large losses, fatalities,
+coverage disputes, suspected fraud) are routed to senior
+adjusters or specialty units.
+
+
+STAGE 4 — INVESTIGATION
+========================
+
+The investigation establishes the facts the carrier needs to
+make a coverage decision and value the claim.
+
+Coverage analysis:
+The adjuster (with management or counsel support on complex
+files) compares the alleged loss to the policy:
+- Is the loss event a covered cause of loss?
+- Is the damaged property or injured party covered?
+- Is the loss within the policy period?
+- Do any exclusions apply?
+- Has the insured complied with policy conditions (prompt
+  notice, cooperation, etc.)?
+
+The output of coverage analysis is one of three positions —
+covered, uncertain, or not covered — driving the path through
+stage 5.
+
+Liability investigation (third-party claims):
+Was the insured at fault? To what degree? What's the
+comparative fault of other parties? Liability investigation
+typically includes:
+- Insured's statement
+- Claimant's statement (when obtainable)
+- Witness statements
+- Police reports, accident reconstruction
+- Site inspection, photos
+- Review of records (driving records, prior claims,
+  surveillance video)
+
+Damage assessment (first-party claims):
+What was lost? What's it worth?
+- Property inspection by the adjuster or a contracted
+  estimator
+- Itemized inventory for contents losses
+- Repair estimates from contractors
+- Appraisals for unique items (jewelry, art, classic vehicles)
+- For business income claims: financial records establishing
+  pre-loss revenue and projected period-of-restoration losses
+
+Statements and records:
+Recorded statements are routinely taken from insureds and
+claimants in liability claims. For larger or disputed claims,
+the carrier may demand an Examination Under Oath (EUO) — a
+formal sworn statement, often with counsel present on both
+sides. EUOs are most common in suspected fraud cases or
+substantial first-party property losses.
+
+Reservation of rights pending investigation:
+If the carrier needs to investigate further before deciding
+coverage, it may issue a Reservation of Rights letter (see
+stage 5) so that any defense or payment provided pending
+investigation doesn't waive the carrier's right to deny later
+if coverage facts develop differently.
+
+SIU and fraud investigation:
+Special Investigations Units (SIU) handle suspected fraud —
+red flags include staged losses, inflated claims, claimant
+inconsistencies, and patterns across multiple claims. SIU
+work runs in parallel to standard adjusting and may involve
+surveillance, expert review, and coordinated reporting to
+state insurance fraud bureaus.
+
+
+STAGE 5 — COVERAGE DECISION
+============================
+
+Three outcomes:
+
+Covered (clear):
+The loss is plainly within coverage. The carrier proceeds to
+valuation and payment / defense without coverage caveats.
+
+Coverage uncertain — Reservation of Rights:
+The carrier identifies one or more potential coverage issues
+but isn't ready to deny. To avoid waiving its right to deny
+later, the carrier issues a Reservation of Rights (ROR)
+letter:
+- Identifies the specific coverage issues
+- Confirms the carrier will continue handling (often including
+  defense in third-party claims) pending resolution
+- Reserves the carrier's right to deny coverage or withdraw
+  defense if facts develop adversely
+- Sometimes accompanied by a request for the insured to
+  acknowledge the ROR
+
+In third-party claims, an ROR may give the insured the right
+to independent (insured-chosen) defense counsel paid by the
+carrier — the rationale being that carrier-appointed counsel
+has a conflict of interest when the carrier is reserving the
+right to walk away. State law varies on when independent
+counsel is required.
+
+Coverage declaratory judgment:
+For high-stakes coverage disputes, either the carrier or the
+insured may file a declaratory judgment action — a separate
+lawsuit asking a court to rule on whether coverage applies.
+Common in complex commercial liability claims.
+
+Not covered — Denial:
+The carrier issues a written denial letter:
+- States the loss is not covered
+- Cites the specific policy language relied on
+- Identifies the appeal process and the insured's rights
+  (varies by state — often includes the right to complain to
+  the state insurance department, the right to litigate, and
+  in some states specific internal appeal procedures)
+
+Bad faith exposure:
+A wrongful denial — or any unreasonable handling — can expose
+the carrier to extra-contractual liability under state bad-
+faith laws. Damages can exceed the policy limit and include
+emotional distress, attorneys' fees, and in some states
+punitive damages. Bad-faith exposure is the structural
+incentive for carriers to handle claims thoroughly and fairly
+even when the answer is denial.
+
+
+STAGE 6 — RESERVE SETTING
+==========================
+
+A reserve is the carrier's estimate of what the claim will
+ultimately cost. Reserves are set early and adjusted as the
+file develops.
+
+Components of a reserve:
+- Indemnity reserve (the expected payment to insured or
+  claimant)
+- Defense and cost containment reserve (for third-party
+  claims expected to go into litigation)
+- Adjuster expense (allocated loss adjustment expense, ALAE)
+- Subrogation / salvage recovery offset (estimated)
+
+Why reserves matter operationally:
+- Reserves drive carrier financial reporting and reserve
+  development is a leading indicator of carrier financial
+  health
+- Reserves trigger different authority levels — claims above
+  certain reserve thresholds require senior approval to
+  settle
+- Reserve adequacy is part of the loss ratio metrics that
+  affect renewal pricing for the underlying policy and the
+  carrier's overall book
+
+Reserves are reviewed and updated throughout the life of the
+file. A claim that initially looked small ($5K reserve) but
+turns into a serious injury claim ($500K+ reserve) gets the
+reserve increased as facts develop. This is "reserve
+strengthening" or "adverse development."
+
+
+STAGE 7 — RESOLUTION
+=====================
+
+The resolution path depends fundamentally on whether the claim
+is first-party or third-party.
+
+FIRST-PARTY RESOLUTION:
+
+Valuation:
+- Actual Cash Value (ACV): replacement cost minus depreciation
+- Replacement Cost Value (RCV): cost to replace with new
+  property of like kind and quality, often paid in two steps
+  — ACV first, depreciation holdback paid after actual
+  replacement is documented
+
+Proof of loss:
+For property claims, a sworn proof of loss formally documents
+what was lost and what the insured is claiming. Most policies
+require a proof of loss within a specified timeframe (often
+60 days from request).
+
+Additional Living Expense (ALE) / Loss of Use:
+For homeowners and similar policies, ALE pays the extra cost
+of living elsewhere while the home is uninhabitable — hotel,
+restaurant meals over normal grocery costs, temporary rental.
+
+Business Income / Time Element:
+For commercial property, lost net income and continuing
+expenses during the period of restoration are paid under
+business income coverage. Calculation requires financial
+records demonstrating pre-loss earnings and the period needed
+to restore operations.
+
+Appraisal:
+When the insured and carrier disagree on the AMOUNT of loss
+(not whether it's covered), most property policies include an
+appraisal clause. Each side selects an appraiser; the two
+appraisers select an umpire; the panel determines the value.
+Appraisal binds the amount but does not resolve coverage
+disputes.
+
+Payment:
+Once the value is agreed, the carrier issues payment. For
+property losses with a mortgagee, the check is typically made
+payable to both the insured and the mortgagee.
+
+THIRD-PARTY RESOLUTION:
+
+Liability evaluation:
+Based on investigation, the carrier evaluates the insured's
+exposure: clear liability, comparative fault, defenses
+available, jurisdictional damages trends.
+
+Negotiation and settlement:
+Most third-party claims settle without litigation. The
+adjuster negotiates with the claimant or claimant's counsel,
+typically resolving the claim with a release in exchange for
+payment. Settlement authority levels are tied to reserves and
+internal approval rules.
+
+Suit and defense:
+If the claimant files suit (or threatens to), the carrier
+appoints defense counsel under its duty to defend. The duty
+to defend is broader than the duty to indemnify — the carrier
+defends whenever the complaint potentially alleges a covered
+claim, even if the underlying facts ultimately turn out not
+to be covered.
+
+Verdict or settlement:
+Litigation resolves either by settlement (most cases) or by
+verdict. Verdicts in excess of policy limits can trigger bad-
+faith claims if the carrier had an opportunity to settle
+within limits and didn't.
+
+Policy limits demands:
+A claimant may make a time-limited demand to settle within
+policy limits. Failure to accept a reasonable within-limits
+demand can expose the carrier to bad-faith liability for the
+entire judgment, including amounts above the policy limit.
+
+
+STAGE 8 — POST-PAYMENT
+=======================
+
+Several activities continue or initiate after the primary
+payment.
+
+Subrogation:
+If a third party caused the loss, the carrier — having paid
+the insured — steps into the insured's shoes and pursues
+recovery from the responsible party. Common subrogation
+scenarios:
+- Auto property damage paid to the insured, then subrogated
+  against the at-fault driver's carrier
+- Property damage paid for a fire caused by a defective
+  product, then subrogated against the manufacturer
+- Workers comp benefits paid to an injured employee, then
+  subrogated against a third party whose negligence caused
+  the injury
+
+Subrogation recoveries reduce the net cost of the claim and
+can return the insured's deductible if the carrier recovers
+in full.
+
+Waiver of subrogation: many contracts (construction,
+commercial leases) require parties to waive subrogation
+against each other. When a waiver of subrogation endorsement
+applies, the carrier gives up its subrogation right against
+the specified party.
+
+Salvage:
+For property claims paid as a total loss, the carrier takes
+ownership of the damaged property and sells what value
+remains. A totaled vehicle goes to salvage auction; damaged
+inventory may be sold to salvage buyers. Salvage proceeds
+also reduce net claim cost.
+
+Reserve closure:
+As payments are made and recoveries pursued, reserves are
+trued up to actual results. Final reserve becomes part of
+the closed-file accounting that flows into the carrier's
+loss ratio calculation.
+
+Reopening:
+A closed claim can be reopened if new facts emerge — a
+property loss that turns out to have hidden damage discovered
+during repair, a settled liability claim where the claimant
+develops complications. Reopen procedures and timeframes
+vary by carrier and state.
+
+
+STAGE 9 — CLAIM CLOSED
+=======================
+
+The file closes when:
+- All payments have been issued
+- Subrogation and salvage recoveries are completed or
+  abandoned
+- Releases (third-party) or proofs of loss (first-party) are
+  on file
+- Reserves are reconciled to actual payments and recoveries
+
+Closed claims still affect downstream activity:
+- Loss history affects renewal underwriting and pricing
+- Loss runs document the claim history for new-carrier
+  applications
+- Trending and analytics on closed claims feed carrier
+  reserving, pricing, and product development
+
+
+KEY ROLES IN THE CLAIMS PROCESS
+================================
+
+Adjuster (staff, independent, or public):
+Investigates and evaluates. Different parties — carrier-side
+(staff/independent) vs insured-side (public) — have different
+loyalties.
+
+Claims examiner / supervisor:
+Reviews and approves significant reserve changes, settlement
+authority, and coverage decisions. Higher-authority files
+escalate up the management chain.
+
+Coverage counsel:
+Lawyers retained by the carrier to advise on coverage
+analysis, especially for complex policies, novel issues, or
+contested ROR situations.
+
+Defense counsel:
+Lawyers retained by the carrier to defend the insured in
+third-party suits. Defense counsel's primary duty is to the
+insured even though paid by the carrier — an area where
+ethical rules can create tension in coverage-disputed cases.
+
+Insured:
+Has duties to cooperate, provide statements, allow
+inspection, produce records, attend EUOs if demanded, and
+forward suit papers promptly.
+
+Claimant (third-party claims):
+Not a party to the insurance contract but the person seeking
+recovery against the insured. The carrier's relationship to
+the claimant is adversarial, not fiduciary — but state law
+imposes good-faith claims-handling duties even toward
+claimants in many jurisdictions.
+
+Public adjuster (first-party):
+Optional. Represents the insured in negotiating the claim
+value with the carrier. Adds expertise but also adds a fee
+out of the recovery.
+
+
+COMMON CLAIMS-PROCESS DOCUMENTS
+================================
+
+- Acknowledgment letter (carrier to insured)
+- Recorded statement (insured, claimant, witnesses)
+- Examination Under Oath (EUO) transcript
+- Reservation of Rights (ROR) letter
+- Denial letter
+- Proof of Loss (insured to carrier, first-party)
+- Sworn statement in proof of loss
+- Demand letter (claimant or counsel to carrier)
+- Release (settling claimant releases insured and carrier)
+- Subrogation demand and pursuit correspondence
+- Loss runs (claim history summary for underwriting)
+
+
+WHEN THE PROCESS GOES SIDEWAYS
+===============================
+
+Common failure modes:
+
+Late notice:
+Insured delays reporting; carrier asserts prejudice; coverage
+gets disputed before substance is even reached.
+
+Failure to cooperate:
+Insured refuses to provide statements, attend EUO, or produce
+documents; carrier may deny based on breach of cooperation
+condition.
+
+Coverage gap discovered at claim time:
+The exclusion or endorsement that matters wasn't read until
+after the loss. By then the placement decisions are locked.
+
+Reservation of Rights handled poorly:
+ROR not issued when it should have been, or issued too
+broadly, can either waive the carrier's coverage defenses or
+trigger independent counsel obligations.
+
+Settlement authority issues:
+Adjuster lacks authority to settle for what the case is worth;
+case drifts toward verdict; insured exposed to excess judgment
+risk.
+
+Bad-faith claim exposure:
+Unreasonable delay, inadequate investigation, wrongful denial,
+or failure to settle a within-limits demand can all expose the
+carrier to bad-faith liability beyond the policy limit.
+
+The claims process exists to balance prompt indemnification
+against accurate coverage determination — and the failure
+modes mostly arise when one side of that balance gets
+neglected.
