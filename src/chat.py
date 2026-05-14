@@ -351,12 +351,18 @@ def detect_states(text: str) -> list[str]:
 
 
 def _build_state_filter(states: list[str]) -> dict | None:
-    """Build a ChromaDB where-clause for one or more state codes."""
+    """Build a ChromaDB where-clause for one or more state codes.
+
+    Always includes state="" alongside the detected states so that
+    untagged content (educational concepts, industry-general forms) is
+    not filtered out of state-scoped queries. The state filter narrows
+    *state-tagged* content to the relevant state(s) without sweeping
+    away the conceptual layer.
+    """
     if not states:
         return None
-    if len(states) == 1:
-        return {"state": states[0]}
-    return {"$or": [{"state": s} for s in states]}
+    options = [{"state": s} for s in states] + [{"state": ""}]
+    return {"$or": options}
 
 
 def _merge_filters(*filters: dict | None) -> dict | None:
@@ -498,6 +504,76 @@ def _retrieve_chunks(
     return list(documents), list(metadatas), list(labels)
 
 
+def _retrieve_chunks_multistate(
+    question: str,
+    collections: list[str],
+    base_filters: dict | None,
+    states: list[str],
+) -> tuple[list[str], list[dict], list[str]]:
+    """Multi-state retrieval with per-state balance.
+
+    When the query mentions 2+ states, a single OR-filtered query lets
+    the semantically-richer state dominate the top results (e.g. Ohio's
+    detailed ORC chapters squeeze out Indiana's sparser content). To
+    ensure each state gets representation, run a separate per-state
+    query for each state, plus a state-agnostic query to surface
+    untagged content (educational concepts).
+
+    Results are merged and re-ranked by L2 distance, then capped at
+    CONTEXT_CAP — so the final ranking is still distance-based but each
+    state had a fair shot at contributing candidates.
+    """
+    # Budget per call — leave room for the state-agnostic pull too
+    per_call = max(2, CHUNKS_PER_COLLECTION // (len(states) + 1))
+
+    all_docs: list[str] = []
+    all_metas: list[dict] = []
+    all_labels: list[str] = []
+    all_distances: list[float] = []
+
+    def _run(filters: dict | None) -> None:
+        for coll in collections:
+            try:
+                result = query(question, n_results=per_call, filters=filters, collection_name=coll)
+                all_docs.extend(result.documents)
+                all_metas.extend(result.metadatas)
+                all_labels.extend([coll] * len(result))
+                all_distances.extend(result.distances)
+            except Exception as e:
+                logger.warning("Multi-state query failed (%s): %s", coll, e)
+
+    # Per-state pulls — each state gets its own quota
+    for state in states:
+        state_only = {"$or": [{"state": state}, {"state": ""}]}
+        _run(_merge_filters(base_filters, state_only))
+
+    # State-agnostic pull — catches untagged content if it ranked weakly
+    # against the per-state filtered pools
+    untagged_only = {"state": ""}
+    _run(_merge_filters(base_filters, untagged_only))
+
+    if not all_docs:
+        return [], [], []
+
+    # Deduplicate while preserving lowest distance — chunks can show up
+    # in multiple per-state pulls if state="" matched
+    seen: dict[str, int] = {}  # chunk text -> index into lists
+    for i, doc in enumerate(all_docs):
+        if doc in seen:
+            existing = seen[doc]
+            if all_distances[i] < all_distances[existing]:
+                seen[doc] = i
+        else:
+            seen[doc] = i
+
+    indices = sorted(seen.values(), key=lambda i: all_distances[i])[:CONTEXT_CAP]
+    return (
+        [all_docs[i] for i in indices],
+        [all_metas[i] for i in indices],
+        [all_labels[i] for i in indices],
+    )
+
+
 def _build_context(
     documents: list[str],
     metadatas: list[dict],
@@ -602,10 +678,17 @@ def ask_traced(question: str) -> AskTrace:
     if form_collections:
         collections = form_collections
 
-    state_filter = _build_state_filter(states)
-    combined_filters = _merge_filters(filters, state_filter)
-
-    documents, metadatas, labels = _retrieve_chunks(expanded, collections, combined_filters)
+    # For multi-state queries, use balanced per-state retrieval so one
+    # semantically-rich state doesn't squeeze out the others. Single-state
+    # and stateless queries take the normal path.
+    if len(states) >= 2:
+        documents, metadatas, labels = _retrieve_chunks_multistate(
+            expanded, collections, filters, states
+        )
+    else:
+        state_filter = _build_state_filter(states)
+        combined_filters = _merge_filters(filters, state_filter)
+        documents, metadatas, labels = _retrieve_chunks(expanded, collections, combined_filters)
 
     if not documents:
         return AskTrace(

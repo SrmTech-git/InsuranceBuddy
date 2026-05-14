@@ -46,10 +46,19 @@ def _answer_is_refusal(answer: str) -> bool:
 
 
 def _source_recall(expected_sources: list[str], retrieved_sources: list[dict]) -> tuple[float, list[str]]:
-    """Compute fraction of expected sources that appear in retrieved chunks.
+    """Return 1.0 if ANY expected source matched a retrieved chunk, else 0.0.
 
-    Matching is case-insensitive substring against either the filename or
-    form_number of each retrieved chunk. Returns (recall, missing_sources).
+    Treating expected_sources as "any-of" rather than "all-of" reflects
+    the reality that a correct answer can often be sourced from multiple
+    documents — e.g. the duty-to-cooperate answer is fully present in
+    Exclusions/Conditions AND in Claims Process, and either is a valid
+    grounding. Source recall is binary: at least one expected source is
+    retrieved (pass) or none are (fail).
+
+    Matching is case-insensitive substring against the filename or
+    form_number of each retrieved chunk. Returns (recall, missing_list)
+    where missing_list contains the unmatched expected sources for
+    diagnostic display when the case still failed for other reasons.
     """
     if not expected_sources:
         return 1.0, []  # nothing expected = trivially met
@@ -58,16 +67,17 @@ def _source_recall(expected_sources: list[str], retrieved_sources: list[dict]) -
         f"{s.get('filename', '')} {s.get('form_number', '')}".lower()
         for s in retrieved_sources
     ]
-    found_count = 0
+    matched = []
     missing = []
     for expected in expected_sources:
         e = expected.lower()
         if any(e in r for r in retrieved_strings):
-            found_count += 1
+            matched.append(expected)
         else:
             missing.append(expected)
 
-    return found_count / len(expected_sources), missing
+    recall = 1.0 if matched else 0.0
+    return recall, missing
 
 
 def _content_recall(expected_content: list[str], answer: str) -> tuple[float, list[str]]:

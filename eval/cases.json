@@ -43,7 +43,7 @@
     "id": "regression-late-notice",
     "tags": ["regression", "routing", "statute-shaped-concept"],
     "query": "What happens if I give late notice of a claim?",
-    "expected_sources": ["Exclusions and Conditions Overview"],
+    "expected_sources": ["Exclusions and Conditions Overview", "Claims Process Overview", "OAC3901"],
     "expected_content": ["prejudice", "notice"],
     "should_have_info": true
   },
