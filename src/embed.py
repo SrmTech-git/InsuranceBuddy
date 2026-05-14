@@ -115,7 +115,7 @@ def embed_document(
     state: str = "",
 ) -> chromadb.Collection:
     """Embed a single document end-to-end: parse, chunk, embed, store."""
-    chunks = load_and_split(file_path)
+    chunks = load_and_split(file_path, collection_name=collection_name)
     if not chunks:
         print("No chunks created — nothing to store.")
         return get_collection(collection_name)

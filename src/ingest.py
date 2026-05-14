@@ -3,9 +3,8 @@
 import re
 from langchain_community.document_loaders import PyPDFLoader, TextLoader
 from langchain_core.documents import Document
-from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-from config import CHUNK_SIZE, CHUNK_OVERLAP
+from chunkers import get_chunker
 
 
 def parse_filename(file_path: str) -> dict:
@@ -105,12 +104,16 @@ def _load_docx(file_path: str) -> list[Document]:
     return [Document(page_content=text, metadata={"source": file_path})]
 
 
-def load_and_split(file_path: str) -> list:
+def load_and_split(file_path: str, collection_name: str = "") -> list:
     """Load a document and split it into chunks with parsed filename metadata.
 
     Supports .pdf, .txt, and .docx files. For .xlsx, use
     `ingest_xlsx.load_xlsx_by_state()` directly — its per-state output
     shape doesn't fit this function's flat list[Document] return type.
+
+    The chunker is selected by collection_name via the chunkers registry.
+    Unregistered collections (or empty collection_name) fall back to the
+    default character-based chunker.
     """
 
     # Parse metadata from the filename
@@ -138,16 +141,10 @@ def load_and_split(file_path: str) -> list:
 
     print(f"\nLoaded {len(pages)} page(s) from {file_path}")
 
-    # Split pages into smaller chunks for better retrieval
-    splitter = RecursiveCharacterTextSplitter(
-        chunk_size=CHUNK_SIZE,
-        chunk_overlap=CHUNK_OVERLAP,
-    )
-    chunks = splitter.split_documents(pages)
-
-    # Attach our parsed metadata to every chunk
-    for chunk in chunks:
-        chunk.metadata.update(file_metadata)
+    # Look up the chunker for this collection — falls back to default
+    # for unregistered collections.
+    chunker = get_chunker(collection_name)
+    chunks = chunker(pages, file_metadata)
 
     print(f"Created {len(chunks)} chunks")
 
