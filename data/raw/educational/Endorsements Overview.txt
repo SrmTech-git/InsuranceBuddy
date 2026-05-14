@@ -1,0 +1,233 @@
+Endorsements: How Policies Get Modified
+========================================
+
+This document explains what insurance endorsements are, why they
+exist, how they're identified, and the most common types you'll
+encounter. Endorsements are the mechanism by which the standard
+policy contract gets customized — adding coverage, removing coverage,
+adjusting terms, naming additional parties, or complying with state
+law requirements.
+
+
+WHAT IS AN ENDORSEMENT?
+=======================
+
+An endorsement is a written amendment to an insurance policy. It
+modifies, adds to, or removes part of the standard policy contract.
+Once attached, an endorsement becomes part of the policy and is
+legally binding — it has the same contractual force as the base
+policy form.
+
+Endorsements exist because no two insureds have exactly the same
+risk. The standard policy is the starting point; endorsements are
+how the carrier (and the agent) tune that starting point to the
+specific exposures, requirements, and preferences of an individual
+account. A contractor's CGL policy might have ten or more
+endorsements; a simple homeowners policy might have just two or
+three.
+
+Key principle: endorsements take precedence over the unmodified
+policy form. If an endorsement contradicts the base form, the
+endorsement controls — because it's the more specific document.
+
+
+HOW ARE ENDORSEMENTS IDENTIFIED?
+================================
+
+Every endorsement carries:
+- A form number identifying what the endorsement does
+- An edition date showing which version of that endorsement is being
+  used
+- An effective date showing when it attached to the policy
+- Sometimes a schedule listing specific items (additional insureds,
+  locations, vehicles, etc.)
+
+Endorsement numbering conventions:
+- ISO endorsements use codes like CG 20 10 (Commercial General
+  Liability — Additional Insured — Owners, Lessees, or Contractors —
+  Scheduled Person or Organization)
+- AAIS endorsements use similar conventions
+- Carrier-proprietary endorsements use carrier-specific numbering
+
+The form number tells you what the endorsement is FOR. The edition
+date tells you which version is on the policy — endorsement wording
+changes over time, sometimes materially. A contract requiring "CG 20
+10" without specifying an edition leaves room for argument about
+whether the carrier issued the right version.
+
+
+WHO ISSUES ENDORSEMENTS?
+========================
+
+Endorsements are issued by the insurance carrier, not the insured.
+The insured can REQUEST a change (typically via an ACORD change
+request — ACORD 70 for personal non-auto, ACORD 71 for personal
+auto, ACORD 175 for commercial), but the carrier writes and attaches
+the endorsement that effects the change.
+
+For standardized endorsements (ISO/AAIS), the carrier uses an
+off-the-shelf form. For unusual requests, the carrier may issue a
+"manuscript" endorsement — custom wording for that specific
+situation. Manuscript endorsements get more underwriting scrutiny
+because they introduce non-standard language into the contract.
+
+
+WHEN DO ENDORSEMENTS ATTACH TO A POLICY?
+========================================
+
+There are three primary times endorsements get added:
+
+At policy inception:
+Some endorsements are part of the initial policy — coverage
+extensions selected at quoting, mandatory state amendatory
+endorsements, standard package endorsements the carrier always
+attaches. These attach effective the policy inception date.
+
+Mid-term:
+Changes the insured requests after the policy is bound — adding a
+vehicle, adding a mortgagee, increasing a limit, adding an
+additional insured for a new contract. The endorsement has a
+mid-term effective date and stays in force for the remainder of the
+policy period.
+
+At renewal:
+The carrier may add, remove, or change endorsements at renewal as
+part of underwriting review. Renewal endorsement changes can affect
+coverage materially, so renewals warrant a careful comparison of the
+expiring policy's endorsements to the renewing policy's
+endorsements.
+
+
+COMMON ENDORSEMENT CATEGORIES
+=============================
+
+Additional Insured endorsements:
+The most common contractually-required endorsement. Names a third
+party (vendor, landlord, customer, general contractor) as an
+"additional insured" on the policy, extending coverage to them for
+liability arising from the named insured's operations. Common ISO
+versions:
+- CG 20 10: Additional Insured — Owners, Lessees, or Contractors —
+  Scheduled (ongoing operations)
+- CG 20 37: Additional Insured — Owners, Lessees, or Contractors —
+  Completed Operations (post-completion exposure)
+- CG 20 26: Additional Insured — Designated Person or Organization
+
+Different AI endorsement editions provide materially different
+coverage. CG 20 10 10 01 is broader than CG 20 10 04 13, for example.
+Contracts requiring "additional insured status" without specifying
+form and edition can leave room for argument.
+
+Waiver of Subrogation endorsements:
+Subrogation is the carrier's right to pursue recovery from a third
+party who caused a loss. A "waiver of subrogation" endorsement gives
+up that right against a specified party — typically required by
+contracts where the parties have agreed not to sue each other.
+
+Primary and Non-Contributory endorsements:
+Specifies that the named insured's policy responds first (primary)
+and doesn't share the loss with any other policy the additional
+insured might have (non-contributory). Standard contractual
+requirement on construction and vendor contracts.
+
+Per Project / Per Location Aggregate endorsements:
+By default, a CGL policy has a single general aggregate limit shared
+across all projects/locations. A per-project (CG 25 03) or
+per-location (CG 25 04) aggregate endorsement gives each project or
+location its own separate aggregate, multiplying available capacity
+for accounts with multiple projects.
+
+Coverage-adding endorsements:
+Examples — Water Backup of Sewers and Drains (HO 04 95), Equipment
+Breakdown, Identity Theft, Scheduled Personal Property, Earthquake,
+Ordinance or Law, Service Line Coverage. These add coverage that
+wasn't in the base form.
+
+Coverage-restricting / exclusion endorsements:
+Examples — Total Pollution Exclusion, Asbestos Exclusion,
+Communicable Disease Exclusion (added widely post-COVID), Lead-Based
+Paint Exclusion, Designated Operations Exclusion. These remove
+coverage the base form provided.
+
+State amendatory endorsements:
+Modify the base policy to comply with state-specific laws. Every
+state requires some adjustments — fraud warning language,
+cancellation notice requirements, specific definitions. These are
+typically mandatory and non-negotiable.
+
+Administrative endorsements:
+Named insured changes, address changes, mortgagee changes, loss
+payee changes. These don't modify coverage substantively — they
+update administrative facts on the policy.
+
+
+ENDORSEMENTS vs OTHER POLICY COMPONENTS
+=======================================
+
+A complete insurance policy is built from several layers:
+
+Declarations page (dec page):
+The cover-sheet summary — named insured, policy period, premium,
+coverage limits and deductibles, applicable forms and endorsements.
+The dec page references everything else but doesn't itself contain
+coverage language.
+
+Coverage form:
+The substantive contract defining what is and isn't covered (ISO
+forms like CG 00 01, CA 00 01, CP 00 10, or AAIS or carrier
+equivalents). This is the "base" policy.
+
+Endorsements:
+Modifications layered on top of the coverage form. May add, remove,
+or change coverage.
+
+Conditions:
+Rules that apply to all coverage parts — duties after loss, premium
+audit, cancellation procedures, subrogation. Usually built into the
+coverage form rather than separate endorsements.
+
+Exclusions:
+What the policy doesn't cover. May be in the base form, in
+endorsements, or both. Endorsement exclusions often override base
+form coverage — for example, the base form might cover pollution
+broadly, but a Total Pollution Exclusion endorsement removes most of
+that coverage.
+
+Order of reading: a complete coverage analysis requires reading the
+declarations to identify what's attached, then the coverage form for
+the baseline, then each endorsement in turn to see what's been
+added, removed, or modified.
+
+
+WHEN AN ENDORSEMENT GOES WRONG
+==============================
+
+Common endorsement issues:
+- Wrong form number issued (contract required CG 20 10, carrier
+  issued CG 20 33)
+- Wrong edition issued (contract required CG 20 10 10 01, carrier
+  issued CG 20 10 04 13 with materially narrower coverage)
+- Effective date mismatch (endorsement effective the day after the
+  loss it was supposed to cover)
+- Missing schedule (Additional Insured endorsement requires a
+  schedule listing the AI's name; blank schedule = no coverage)
+- Conflicting endorsements (two endorsements on the same policy
+  saying different things; courts generally read them together but
+  ambiguity favors the insured)
+
+Compare the endorsement language against the contractual
+requirement. Don't assume the form number alone is sufficient —
+verify the edition date and any required schedule entries.
+
+
+HOW ENDORSEMENTS GET TRACKED
+============================
+
+The Forms and Endorsements Schedule (ACORD 829) is the policy's
+roadmap — it lists every form and endorsement attached, with form
+numbers, edition dates, and titles. For coverage analysis after a
+loss or at renewal, the ACORD 829 (or carrier equivalent) is the
+starting point: identify what's on the policy, then read each piece.
+
+Most carriers also maintain endorsement issuance tracking internally
+so endorsements can be reissued, voided, or amended as needed.
