@@ -1,0 +1,267 @@
+Personal Auto Insurance: Policy Structure and Coverage
+=======================================================
+
+This document explains how the Personal Auto Policy (PAP) is
+structured, what each coverage part does, who counts as an insured,
+what's typically excluded, and the common endorsements that
+modify the standard contract.
+
+
+WHAT THE PAP IS
+===============
+
+The Personal Auto Policy is the standard contract for individual
+and family-owned private passenger vehicles. ISO publishes the
+model PAP form (PP 00 01); most carriers either use the ISO form
+directly or use a substantially similar proprietary form. The PAP
+is one contract with multiple coverage "Parts" — each part covers
+a different aspect of auto exposure.
+
+
+POLICY STRUCTURE — THE SIX PARTS
+=================================
+
+Part A — Liability Coverage:
+Pays for bodily injury (BI) and property damage (PD) the insured
+becomes legally responsible for. Defense costs are typically paid
+in addition to the limit. Limits are written as split limits
+(e.g. 100/300/100 = $100K per person BI / $300K per accident BI /
+$100K PD per accident) or as a combined single limit (e.g. CSL
+$500K). State minimums vary widely — 25/50/25 is a common minimum
+floor; 100/300/100 is a common quoted level; serious drivers carry
+250/500/100 or higher with an umbrella stacked on top.
+
+Part B — Medical Payments:
+Pays medical expenses for the insured and passengers regardless of
+fault, up to the per-person limit. Common limits: $1K, $5K,
+$10K, $25K. Not required in all states; replaced by PIP in no-
+fault states.
+
+Part C — Uninsured / Underinsured Motorist (UM/UIM):
+Pays the insured's own damages when the at-fault driver has no
+insurance (UM) or insufficient insurance (UIM). State law dictates
+whether UM/UIM is mandatory, must be offered, can be waived, and
+how it stacks across vehicles. Often the most state-variable part
+of a PAP.
+
+Part D — Coverage for Damage to Your Auto (physical damage):
+Two sub-coverages:
+- Collision: damage from impact with another vehicle or object,
+  or overturning. Subject to a deductible (typical: $500, $1,000,
+  $2,500).
+- Other Than Collision (Comprehensive): all other physical damage
+  — theft, vandalism, fire, hail, falling objects, animal strike,
+  glass breakage. Subject to a deductible (often lower than
+  collision; sometimes $0 glass deductible).
+Physical damage is optional except when required by a lienholder
+or lessor.
+
+Part E — Duties After an Accident or Loss:
+The insured's contractual obligations — notify the carrier
+promptly, cooperate with investigation, submit to examination
+under oath, protect the vehicle from further damage. Failure to
+comply can void coverage for that loss.
+
+Part F — General Provisions:
+Cancellation, transfer of interest, fraud, legal action against
+the company, our right to recover (subrogation), choice of law.
+The administrative spine of the contract.
+
+
+WHO IS AN INSURED
+=================
+
+Named insured:
+The person(s) listed on the declarations. The named insured is
+covered for any covered auto and for any non-owned auto they
+operate (subject to exclusions).
+
+Family member:
+A resident of the named insured's household related by blood,
+marriage, or adoption (includes wards and foster children). Family
+members get coverage similar to the named insured.
+
+Anyone using a covered auto:
+Permissive users — neighbors, friends, mechanics — are covered
+when using the insured's vehicle with permission. Coverage may be
+narrower than for the named insured (some carriers exclude or
+sub-limit permissive users by endorsement).
+
+Any "covered auto":
+The PAP covers vehicles listed on the declarations PLUS:
+- Newly acquired autos for a stated period (often 14-30 days,
+  varies by carrier and policy form)
+- Trailers owned by the insured
+- Temporary substitutes when a covered auto is out of service
+  for repair
+
+Anyone for whom the insured is legally responsible:
+The carrier defends and pays for liability the insured incurs
+because of someone else's actions — for example, when a permissive
+user causes a loss.
+
+
+SPLIT LIMITS vs COMBINED SINGLE LIMIT
+======================================
+
+Split limits (e.g. 100/300/100):
+- $100,000 BI per person
+- $300,000 BI per accident (cap regardless of number injured)
+- $100,000 PD per accident
+
+Combined Single Limit (e.g. CSL $500K):
+A single pool of money available to pay BI and PD combined, with
+no per-person or per-coverage sub-limit. Simpler and often more
+favorable in a high-injury single-claimant scenario.
+
+State minimums are almost always quoted as split limits. Most
+quoted coverage in the personal market is split limits. CSL is
+more common on commercial auto.
+
+
+UM/UIM MECHANICS
+================
+
+UM (uninsured motorist):
+Pays the insured's damages when the at-fault driver has no
+liability insurance, can't be identified (hit-and-run, in many
+states), or is otherwise uncollectible.
+
+UIM (underinsured motorist):
+Pays the insured's damages when the at-fault driver's liability
+limits are exhausted but the insured's damages exceed them.
+
+State variations:
+- Mandatory in some states, must-offer in others, fully optional
+  in a few
+- Some states require UM = liability limit unless waived in
+  writing
+- "Stacking" of UM across multiple vehicles is allowed in some
+  states, prohibited in others
+- UIM may be "limit-to-limit" (the UIM limit is reduced by the
+  at-fault driver's payment) or "excess" (UIM stacks on top of
+  the at-fault driver's payment)
+
+UM/UIM is the most state-variable part of personal auto coverage
+— always check the specific state's statutes (in our case, ORC
+3937.18 for Ohio and equivalent statutes in other states).
+
+
+NO-FAULT AND PIP
+================
+
+In no-fault states, drivers carry Personal Injury Protection (PIP)
+that pays the insured's own medical expenses, lost wages, and
+sometimes essential services regardless of fault. PIP limits and
+benefits vary widely by state. No-fault doesn't eliminate
+liability coverage — it limits when one driver can sue another
+(typically only above a "threshold" of injury severity).
+
+States with mandatory PIP / no-fault: FL, HI, KS, KY, MA, MI,
+MN, NJ, NY, ND, PA, UT, plus optional/add-on in others.
+
+
+COMMON PAP EXCLUSIONS
+=====================
+
+The PAP excludes (among other things):
+- Intentional injury or damage
+- Property owned by or transported by the insured (use Part D
+  instead)
+- Use as a public livery / for-hire carrier (taxi, ridesharing
+  for compensation — see TNC endorsement)
+- Damage to a vehicle while being raced or in a speed contest
+- Damage to a covered auto while leased or rented to others
+- Vehicles owned by the insured but not listed on the policy (the
+  "owned but not insured" exclusion — prevents an insured from
+  carrying coverage on one vehicle and driving an uninsured one
+  in the same household)
+- Business use beyond commuting and incidental personal-vehicle
+  business (use Business Auto for sales/delivery use)
+- Nuclear / war
+- Damage caused by wear and tear, mechanical failure, road damage
+  to tires (covered under Part D if caused by an otherwise
+  covered peril)
+
+
+COMMON ENDORSEMENTS
+===================
+
+Towing and Labor:
+Reimbursement for towing and on-site labor after a breakdown.
+Often capped at $50-$100 per occurrence.
+
+Rental Reimbursement:
+Pays for a rental car while a covered auto is being repaired
+after a covered loss. Daily limit and maximum (e.g. $40/day, $1,200
+max).
+
+Custom Equipment / Special Equipment:
+Coverage for aftermarket modifications (sound systems, lift kits,
+custom wheels) beyond a base PAP sub-limit.
+
+Named Driver Exclusion:
+Excludes a specific named individual from coverage — often used
+when a household member has a poor driving record that would
+otherwise make the policy uninsurable.
+
+Transportation Network Company (TNC) Endorsement:
+Restores coverage during ridesharing app activity (Uber, Lyft).
+Standard PAP excludes use as a livery, so without this endorsement
+or the TNC's own contingent coverage, there's a coverage gap
+during app-on periods.
+
+OEM Parts / Original Equipment Endorsement:
+Requires repairs to use OEM parts rather than aftermarket. Useful
+for newer or luxury vehicles.
+
+Gap Coverage / Loan-Lease Payoff:
+If a financed/leased vehicle is totaled, comprehensive/collision
+pays actual cash value — which may be less than the loan balance.
+Gap coverage pays the difference. Sometimes carried on the loan
+itself rather than the policy.
+
+Roadside Assistance:
+Bundles towing, lockout, jump-start, fuel delivery, flat tire
+service. May overlap with auto club memberships.
+
+Accident Forgiveness:
+Carrier's promise not to surcharge for the first at-fault accident
+(carrier-specific feature, not an ISO endorsement).
+
+
+FINANCIAL RESPONSIBILITY FILINGS
+=================================
+
+SR-22:
+A state filing the carrier makes on behalf of the insured proving
+the insured carries at least state-minimum liability coverage.
+Required after certain violations (DUI, repeat offenses, driving
+uninsured). The carrier notifies the state if the policy
+cancels — which can trigger license suspension.
+
+FR-44:
+Higher-limit version required in Florida and Virginia after
+certain serious violations — typically requires double the state
+minimum limits.
+
+SR-50 / SR-21:
+Less common state-specific filings.
+
+
+WHEN A PAP IS NOT THE RIGHT FIT
+================================
+
+- Vehicles used primarily for business: Business Auto Policy
+- Commercial fleets: Business Auto / fleet program
+- Vehicles owned by a corporation or LLC: typically Business Auto
+  (even if used personally)
+- Motorcycles, ATVs, snowmobiles: motorcycle policy or recreational
+  vehicle policy — not the PAP
+- Antique/classic vehicles driven occasionally: classic car
+  policies with agreed value
+- Rideshare drivers regularly app-on: TNC-specific policy or
+  commercial auto, not just an endorsement
+- Drivers without a home address / "non-owner" coverage: non-
+  owner policy (covers liability only, when driving others'
+  vehicles)

@@ -1,0 +1,306 @@
+Flood Insurance: NFIP and Private Market
+=========================================
+
+This document explains how flood insurance works in the United
+States — why it's separate from homeowners, how the National Flood
+Insurance Program (NFIP) is structured, the standard SFIP forms,
+flood zones, the private flood market, and the mandatory purchase
+requirement.
+
+
+WHY FLOOD IS A SEPARATE POLICY
+===============================
+
+Flood is excluded from virtually every standard homeowners,
+dwelling, and commercial property policy. Reasons:
+
+- Adverse selection: only people in flood-prone areas would buy,
+  making it actuarially difficult to price
+- Catastrophic concentration: a single flood event can cause
+  widespread correlated losses, hard for a private carrier to
+  absorb
+- Historical: after the 1965 Betsy / 1968 floods, the private
+  market largely withdrew from flood coverage
+
+The federal government stepped in via the National Flood
+Insurance Program (NFIP), created by the National Flood
+Insurance Act of 1968. NFIP made flood insurance broadly
+available where private carriers wouldn't write it.
+
+
+WHAT FLOOD MEANS UNDER NFIP
+============================
+
+NFIP defines "flood" specifically — and the definition matters
+because not all water damage is flood damage. A flood under SFIP
+is:
+
+"A general and temporary condition of partial or complete
+inundation of two or more acres of normally dry land area or of
+two or more properties (at least one of which is the policyholder's
+property) from:
+- Overflow of inland or tidal waters
+- Unusual and rapid accumulation or runoff of surface waters
+  from any source
+- Mudflow
+- Collapse or subsidence of land along the shore of a lake or
+  similar body of water as a result of erosion or undermining
+  caused by waves or currents of water exceeding anticipated
+  cyclical levels"
+
+What this means in practice:
+- A burst pipe inside the home is NOT flood — it's covered (or
+  excluded) under the homeowners policy.
+- A sewer backup is NOT flood — it's covered under the HO water
+  backup endorsement (HO 04 95) if added; otherwise excluded.
+- Surface water entering from outside — heavy rain causing yard
+  runoff into the basement — IS flood under SFIP.
+- Storm surge from a hurricane IS flood (a recurring source of
+  litigation after coastal hurricanes — wind damage covered by
+  HO/commercial, water damage covered only by flood).
+
+
+HOW NFIP IS STRUCTURED
+======================
+
+Administering agency:
+FEMA (Federal Emergency Management Agency) administers NFIP. FEMA
+sets rates, defines maps, and underwrites the program.
+
+Distribution:
+NFIP policies are written through two channels:
+- Direct from NFIP via the NFIP Direct Servicing Agent
+- Through "Write Your Own" (WYO) carriers — private carriers that
+  issue NFIP policies under their own brand, administer them, and
+  handle claims, but the federal government bears the risk
+
+The insured experiences NFIP through WYO carriers — but the
+contract is the federally defined SFIP, the rates are federally
+set, and the claim is federally funded.
+
+Community participation:
+NFIP coverage is only available in communities that participate
+in the program by adopting floodplain management standards. Most
+US communities participate.
+
+
+SFIP — STANDARD FLOOD INSURANCE POLICY
+=======================================
+
+Three SFIP forms:
+
+Dwelling Form:
+For 1-4 family residential structures the insured owns and
+occupies (or rents out). Most homeowners flood policies.
+
+General Property Form:
+For non-residential structures, residential structures with 5+
+units, and certain other risks. Commercial flood policies.
+
+Residential Condominium Building Association Policy (RCBAP):
+Written to the condo association for the entire residential
+condo building (5+ units). Unit owners may then carry separate
+SFIPs for their contents and improvements.
+
+
+NFIP COVERAGE LIMITS
+====================
+
+NFIP has STATUTORY MAXIMUM LIMITS — caps Congress sets, not
+underwriting choices:
+
+Dwelling Form (1-4 family):
+- $250,000 building coverage
+- $100,000 contents coverage
+
+General Property Form (non-residential):
+- $500,000 building coverage
+- $500,000 contents coverage
+
+RCBAP (condo association):
+- $250,000 × number of units, up to the replacement cost of the
+  building
+
+Insureds whose exposure exceeds NFIP caps need supplemental
+"excess flood" coverage from the private market.
+
+
+FLOOD ZONES AND MAPS
+====================
+
+FEMA publishes Flood Insurance Rate Maps (FIRMs) that classify
+every property's flood risk. Common zone designations:
+
+Zone X (or Zone C / Zone B on older maps):
+Minimal flood hazard — areas outside the 500-year floodplain.
+Flood insurance is OPTIONAL and typically inexpensive.
+
+Zone X (shaded):
+Moderate flood hazard — between the 100-year and 500-year
+floodplains. Coverage optional, modestly priced.
+
+Zone A / AE / AH / AO / AR:
+Special Flood Hazard Area (SFHA) — within the 100-year
+floodplain (1% annual chance of flooding). Coverage is REQUIRED
+for federally-backed mortgages. Higher premium.
+
+Zone V / VE:
+Coastal SFHA — wave action exposure on top of inundation. Highest
+premium tier.
+
+Zone D:
+Undetermined risk.
+
+The 100-year flood is the federal regulatory boundary — properties
+inside it must carry flood insurance if they have a federally
+backed mortgage. "100-year" doesn't mean the flood happens once
+a century — it means a 1% chance EACH YEAR, which over a 30-year
+mortgage gives roughly a 26% cumulative chance.
+
+
+MANDATORY PURCHASE REQUIREMENT
+===============================
+
+The Flood Disaster Protection Act of 1973 and subsequent
+legislation require federally-regulated lenders to demand flood
+insurance on properties in SFHAs (Zone A or V). Specifically:
+
+- If the property is in an SFHA AND
+- The mortgage is from a federally-regulated lender OR backed by
+  a federal agency (FHA, VA, USDA, Fannie Mae, Freddie Mac)
+- Then flood insurance covering at least the mortgage balance or
+  the maximum NFIP limit (whichever is less) must be maintained
+  for the life of the loan
+
+Failure to maintain triggers force-placed flood insurance by the
+lender — much more expensive than NFIP-direct.
+
+Lenders verify flood-zone determinations at closing using a Flood
+Hazard Determination Form. Mid-mortgage map changes can trigger
+new requirements.
+
+
+WAITING PERIOD
+==============
+
+NFIP policies have a 30-DAY WAITING PERIOD before coverage
+attaches. Exceptions:
+
+- Coverage tied to a mortgage closing (effective at closing)
+- Coverage tied to a map change putting the property in a new
+  SFHA (1-day waiting period if purchased within 13 months of
+  the map change)
+- Renewals (no waiting period)
+
+The waiting period prevents buying flood insurance the day a
+storm is forecast. It also catches insureds who delayed —
+hurricane forecasts that are 4 weeks out are too close to closing
+the gap.
+
+
+RISK RATING 2.0
+================
+
+In October 2021, FEMA shifted NFIP from zone-based pricing to
+"Risk Rating 2.0" — a property-specific pricing model that
+considers:
+- Distance to the nearest flooding source
+- Elevation
+- Construction type and foundation
+- Cost to rebuild
+- Frequency of flooding at the specific property
+
+The shift was designed to make pricing more actuarially accurate.
+Premiums for previously under-priced properties rose; premiums for
+properties further from flooding fell. Premium increases are
+phased in (capped annual increase of 18%) to avoid sticker shock.
+
+
+INCREASED COST OF COMPLIANCE (ICC)
+===================================
+
+SFIPs include up to $30,000 of Increased Cost of Compliance
+coverage. If a property is "substantially damaged" (damage at
+least 50% of pre-loss market value) by a flood AND local
+regulations require it to be rebuilt to current floodplain
+standards (elevation, demolition, relocation), ICC pays toward
+those code-required improvements.
+
+ICC is critical in repetitive-loss properties — rebuilding to
+current code may be expensive, and without ICC the homeowner
+absorbs the cost.
+
+
+PRIVATE FLOOD MARKET
+====================
+
+Since the late 2010s, a private flood insurance market has
+developed offering:
+
+- Excess flood — fills the gap above NFIP's statutory caps
+- Primary flood — competes directly with NFIP at higher limits,
+  sometimes broader coverage (e.g. additional living expense,
+  pool repair, replacement cost on contents)
+- High-net-worth flood — packaged by Chubb, AIG Private Client,
+  PURE for high-value homes
+
+Private flood has grown rapidly in coastal Florida, the Gulf
+states, and other high-exposure markets. Lenders increasingly
+accept private flood policies as satisfying the mandatory
+purchase requirement, though acceptance has historically been
+uneven and was clarified by the 2019 Private Flood Insurance
+Final Rule.
+
+
+SFIP EXCLUSIONS
+===============
+
+NFIP SFIP excludes:
+- Damage from water from a source inside the home (burst pipes,
+  appliance leaks) — that's HO
+- Additional living expense (NFIP DOES NOT cover loss of use —
+  a major gap; private flood often does)
+- Loss of business income (commercial flood likewise)
+- Property in basements above limited contents categories (washer,
+  dryer, freezer, water heater, fuel tank, items installed in
+  their functioning location — but not personal property like
+  furniture, electronics, or finished walls/ceilings)
+- Mold/mildew not caused by flooding
+- Land, lawn, trees, shrubs, fences
+- Currency, precious metals, valuable papers
+- Loss caused by sewer backup not directly attributable to a
+  flood event
+- Earth movement (covered separately by earthquake or excluded
+  entirely)
+
+
+WHEN FLOOD COVERAGE IS NOT ENOUGH
+==================================
+
+Common gaps:
+- Property worth more than $250K building / $100K contents in a
+  1-4 family — need excess flood
+- Property needs loss-of-use coverage — base SFIP doesn't include
+  ALE; private flood often does
+- Basement-heavy losses — SFIP limits basement contents
+  significantly; HO water backup might be a better fit for some
+  causes
+- Storm surge in a no-mandatory-purchase area — coverage is
+  optional but storm surge claims are denied under HO
+
+
+KEY TAKEAWAYS
+=============
+
+- Flood is excluded from HO and commercial property policies
+- NFIP through FEMA is the primary US flood market, supplemented
+  by private flood
+- SFHA properties with federally backed mortgages must carry
+  flood
+- NFIP caps coverage at $250K/$100K for 1-4 family — excess
+  flood fills gaps above that
+- 30-day waiting period applies except at mortgage closing
+- "Flood" has a specific NFIP definition — surface water from
+  outside, not internal plumbing failures
+- Risk Rating 2.0 is the current pricing methodology — property-
+  specific, not just zone-based

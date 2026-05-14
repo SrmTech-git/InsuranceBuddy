@@ -1,0 +1,280 @@
+Homeowners Insurance: Policy Structure and Coverage
+=====================================================
+
+This document explains how homeowners policies are structured, what
+the standard forms cover, the key coverage parts, common
+endorsements, and what's typically excluded. Homeowners is a package
+policy — it combines property and liability coverage for a residence
+into a single contract.
+
+
+WHAT A HOMEOWNERS POLICY IS
+===========================
+
+A homeowners (HO) policy is a package contract covering:
+- The dwelling itself
+- Other structures on the premises (detached garage, shed, fence)
+- Personal property (contents)
+- Loss of use (additional living expense when the home is
+  uninhabitable)
+- Personal liability (lawsuits arising from the insured's
+  negligence)
+- Medical payments to others (no-fault payments for injuries on
+  premises)
+
+The owner-occupant is the typical named insured. Resident family
+members are usually covered automatically. Tenants, roommates, and
+non-resident family members are NOT covered unless specifically
+added.
+
+
+STANDARD HO FORMS
+=================
+
+ISO publishes a family of homeowners forms, each tailored to a
+different occupancy or coverage scope:
+
+HO-2 (Broad Form):
+Named-perils policy. Covers the dwelling and personal property only
+against perils specifically listed (fire, lightning, windstorm,
+hail, explosion, riot, vehicles, smoke, vandalism, theft, falling
+objects, weight of ice/snow, accidental water discharge, freezing,
+artificially generated electricity, volcanic eruption). If a peril
+isn't listed, it isn't covered.
+
+HO-3 (Special Form):
+The most common homeowners form. The dwelling and other structures
+are covered on an open-perils ("all-risk") basis — covered for any
+cause of loss not specifically excluded. Personal property is
+covered on a named-perils basis (the HO-2 list). HO-3 is the
+default for most owner-occupied single-family homes.
+
+HO-5 (Comprehensive Form):
+Like HO-3, but personal property is ALSO covered on an open-perils
+basis. Broader than HO-3, costs a bit more. Typical for higher-
+value homes or insureds who want maximum personal property coverage.
+
+HO-4 (Contents Broad / Renters):
+For tenants. Covers personal property, liability, loss of use, and
+medical payments. Does NOT cover the building (that's the
+landlord's responsibility). See the separate Renters and Condo
+overview.
+
+HO-6 (Unit-Owners / Condo):
+For condominium owners. Covers personal property, liability, loss
+of use, and improvements/betterments inside the unit. The building
+shell is covered by the condo association's master policy. See the
+Renters and Condo overview.
+
+HO-8 (Modified Form):
+For older homes where replacement cost would significantly exceed
+market value. Pays on a modified actual cash value basis. Named-
+perils coverage similar to HO-2 but narrower (no theft of property
+away from premises, for example).
+
+DP forms (Dwelling Property):
+A separate family for non-owner-occupied dwellings — rental
+properties, seasonal homes, vacant dwellings. DP-1, DP-2, DP-3
+parallel HO-2/3 in scope.
+
+
+COVERAGE PARTS A THROUGH F
+==========================
+
+Standard homeowners policies use a Coverage A/B/C/D/E/F structure:
+
+Coverage A — Dwelling:
+The main structure, attached structures (attached garage, attached
+deck), built-in fixtures, and materials on premises intended for
+use in construction. Limit selected at quoting based on replacement
+cost.
+
+Coverage B — Other Structures:
+Detached structures (detached garage, shed, fence, gazebo, in-
+ground pool structures). Default limit is typically 10% of Coverage
+A; can be increased by endorsement.
+
+Coverage C — Personal Property:
+Contents — furniture, clothing, electronics, appliances. Default
+limit is typically 50%-70% of Coverage A. Includes coverage for
+property anywhere in the world (subject to sub-limits for property
+away from premises). Sub-limits apply to specific categories:
+jewelry, watches, furs, firearms, silverware, business property,
+cash. To exceed sub-limits, schedule items individually.
+
+Coverage D — Loss of Use:
+Additional living expense (ALE) when the home is uninhabitable due
+to a covered loss — hotel, restaurant meals over normal grocery
+costs, temporary rental. Also covers fair rental value if part of
+the home was rented out. Default limit is typically 20%-30% of
+Coverage A. Sometimes paid on an actual-loss basis with a time
+limit instead of a dollar cap.
+
+Coverage E — Personal Liability:
+Pays for bodily injury or property damage the insured is legally
+liable for. Defense costs are typically in addition to the limit.
+Common limit options: $100K, $300K, $500K, $1M. Excludes business,
+auto, intentional acts, and certain other exposures.
+
+Coverage F — Medical Payments to Others:
+No-fault payments for medical expenses of someone injured on the
+premises or by the insured's activities, regardless of liability.
+Doesn't cover the insured or resident family members. Typical
+limits: $1K-$5K per person.
+
+
+REPLACEMENT COST vs ACTUAL CASH VALUE
+======================================
+
+Coverage A (dwelling) on HO-3 and HO-5 is typically written on a
+replacement cost basis: the carrier pays to rebuild without
+deduction for depreciation, subject to the policy limit. To
+collect full replacement cost, the insured usually has to actually
+rebuild — otherwise payment is on an actual cash value (ACV) basis
+first, with replacement cost holdback paid after rebuilding.
+
+Coverage C (personal property) defaults to ACV — replacement cost
+minus depreciation — but can be upgraded to replacement cost via
+endorsement. Most modern homeowners policies sold today include
+replacement cost on contents as a standard feature, but read the
+declarations to confirm.
+
+Coinsurance / insurance-to-value:
+Most homeowners forms require the dwelling to be insured to at
+least 80% of replacement cost. If under-insured below that
+threshold, a coinsurance penalty applies at partial loss — the
+carrier pays only the proportion of the loss equal to (amount
+carried / amount required). Insurance-to-value is enforced
+because partial losses are far more common than total losses.
+
+
+INFLATION GUARD AND EXTENDED REPLACEMENT COST
+=============================================
+
+Inflation guard endorsement:
+Automatically increases the Coverage A limit periodically (often
+quarterly or annually) to keep pace with construction cost
+inflation. Common on most modern HO policies.
+
+Extended replacement cost:
+Pays a percentage above the Coverage A limit (often 25%-50%) if
+rebuilding costs exceed the policy limit — protection against
+under-insurance from rapid cost spikes.
+
+Guaranteed replacement cost:
+Pays whatever it costs to rebuild, even above the policy limit.
+Increasingly rare due to cost spikes; often subject to
+underwriting restrictions (recent inspection, home in good
+condition, accurate Coverage A from a replacement cost estimator).
+
+
+COMMON HO ENDORSEMENTS
+======================
+
+Water Backup of Sewers and Drains (HO 04 95):
+Covers damage from water backing up through sewers, drains, or
+sump pump failure. NOT covered by the base HO-3 — must be added.
+Common claim type, often added by default at modest premium.
+
+Scheduled Personal Property (HO 04 61):
+Schedules specific high-value items (jewelry, art, firearms,
+collectibles, musical instruments) individually with appraised
+values. Removes Coverage C sub-limits for those items, often
+covers on an open-perils basis including mysterious disappearance.
+
+Ordinance or Law (HO 04 77):
+Covers the increased cost to rebuild to current building code when
+repairing a damaged home that doesn't meet current code. Base
+policy excludes the "code upgrade" portion of repair costs.
+
+Identity Theft Coverage (HO 04 55):
+Covers expenses associated with restoring identity after theft —
+attorney fees, lost wages, notarization, mailing.
+
+Service Line Coverage:
+Covers damage to underground utility lines (water, sewer, gas,
+electrical, fiber) running from the street to the home — base
+policy excludes these.
+
+Equipment Breakdown:
+Covers mechanical breakdown of major systems (HVAC, water heater,
+electrical panel) — base policy excludes "mechanical breakdown."
+
+Earthquake Endorsement:
+Earthquake is excluded from base HO. Endorsement adds coverage,
+typically with a separate (percentage-based) deductible.
+
+Animal Liability:
+Some carriers exclude or sub-limit dog bites (especially for
+certain breeds). Endorsement may be required to include or
+restore.
+
+Home-Sharing / Short-Term Rental:
+Standard HO excludes "business" use, which courts have applied to
+Airbnb/VRBO income. Endorsement adds short-term rental coverage.
+
+
+COMMON EXCLUSIONS
+=================
+
+Standard HO exclusions include:
+- Flood (separate NFIP or private flood policy required)
+- Earthquake (separate endorsement or policy)
+- War and nuclear hazard
+- Wear and tear, deterioration, mechanical breakdown
+- Mold (often capped or excluded; can sometimes be endorsed back
+  with sub-limits)
+- Intentional acts by the insured
+- Business pursuits (with narrow exceptions for incidental home
+  business)
+- Motor vehicles (except riding mowers, golf carts, etc. with
+  conditions)
+- Aircraft and watercraft above sub-limits
+- Loss to the dwelling caused by vacancy beyond a stated period
+  (typically 60 days)
+- Earth movement, sinkhole (in some states; separate endorsement
+  may be available)
+
+
+DEDUCTIBLES
+===========
+
+Per-occurrence dollar deductibles ($500, $1,000, $2,500, $5,000)
+are standard. Some perils have separate deductibles:
+
+- Wind/hail deductible: in catastrophe-prone states (FL, TX, OK,
+  coastal states), wind/hail often carries a percentage deductible
+  (1%-5% of Coverage A) instead of the flat deductible.
+- Hurricane deductible: in named-storm coastal states, a separate
+  percentage hurricane deductible triggers when a storm is named.
+- Earthquake deductible: typically 10%-25% of the building limit.
+
+
+MORTGAGEE AND ADDITIONAL INTERESTS
+===================================
+
+Mortgagee clause: if the home has a mortgage, the lender is named
+as mortgagee. The mortgagee has rights independent of the insured
+— including the right to receive notice of cancellation and to
+collect on loss payments up to its insurable interest. Mortgagees
+require evidence of insurance (ACORD 27) at closing and annually.
+
+Additional insured: less common on HO but sometimes used for an
+ex-spouse with a financial interest, a co-owner, or an estate.
+
+
+WHEN AN HO POLICY IS NOT THE RIGHT FIT
+=======================================
+
+- Rental properties: use Dwelling Property (DP-1/2/3) instead.
+- Tenants: use HO-4 (renters).
+- Condo unit owners: use HO-6.
+- Vacant homes awaiting sale: use a Vacant Dwelling policy or
+  specialty form — most HO policies suspend or limit coverage
+  after 30-60 days of vacancy.
+- Mobile/manufactured homes: use a Mobile Homeowners form.
+- High-value homes ($2M+ replacement cost): consider a high-value
+  carrier (Chubb, AIG Private Client, PURE, Cincinnati Executive)
+  with cash-out / agreed value provisions.
+- Seasonal / secondary homes: may need a Seasonal Dwelling form,
+  often with vacancy provisions.

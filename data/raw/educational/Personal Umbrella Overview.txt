@@ -1,0 +1,240 @@
+Personal Umbrella Insurance: Excess Liability for Individuals
+==============================================================
+
+This document explains what a personal umbrella policy (PUP) is,
+how it relates to underlying primary policies, what it covers
+beyond underlying, and when an insured should carry one.
+
+
+WHAT A PERSONAL UMBRELLA IS
+============================
+
+A personal umbrella policy is an excess liability contract that
+sits on top of underlying primary policies (auto, homeowners,
+sometimes watercraft and recreational vehicle policies). Its job
+is twofold:
+
+1. Provide additional limits when an underlying policy is
+   exhausted — pay the portion of a liability claim that exceeds
+   the underlying limit, up to the umbrella's own limit.
+2. Provide broader coverage than the underlying — fill certain
+   coverage gaps the underlying excludes (with conditions; see
+   below).
+
+Common umbrella limits: $1M, $2M, $3M, $5M, $10M. The most common
+size for an individual is $1M-$2M; high-net-worth individuals
+commonly carry $5M+.
+
+Premium is typically modest relative to the coverage — a $1M
+umbrella for a typical household often costs $200-$500/year
+because it sits behind underlying limits and the carrier expects
+claims that high to be rare.
+
+
+HOW THE UMBRELLA ATTACHES TO UNDERLYING
+========================================
+
+Umbrellas require the insured to maintain "underlying limits"
+specified in the umbrella's declarations. Typical underlying
+requirements:
+
+- Personal auto: 250/500/100 BI/PD (or CSL $500K)
+- Personal auto UM/UIM: matching auto BI limit, often required
+- Homeowners liability: $300K-$500K
+- Watercraft liability (if applicable): $300K-$500K
+- Recreational vehicles (ATV, motorcycle, golf cart, snowmobile):
+  varies
+
+If the insured drops below the required underlying, the umbrella
+treats them as if the required limit was still in place — meaning
+the insured personally absorbs the gap between actual underlying
+and required underlying. This is sometimes called the "self-
+insured retention by default" mechanic.
+
+If the insured maintains underlying as required, the umbrella
+attaches immediately above the underlying limit with no gap.
+
+
+SELF-INSURED RETENTION (SIR)
+=============================
+
+When the umbrella covers something the underlying does NOT cover
+at all (a coverage broader than underlying), the umbrella requires
+the insured to satisfy a self-insured retention — typically $250
+or $1,000 — out of pocket before the umbrella pays. The SIR
+functions like a deductible for the umbrella-only exposures.
+
+Example: an umbrella covers worldwide personal injury including
+libel and slander. The auto and HO policies don't cover libel/
+slander. If the insured is sued for defamation, the umbrella pays
+above the SIR amount.
+
+
+WHAT AN UMBRELLA COVERS THAT UNDERLYING USUALLY DOESN'T
+========================================================
+
+Personal injury (in the liability sense):
+Standard auto and HO cover "bodily injury" and "property damage."
+Umbrellas often add "personal injury" — libel, slander,
+defamation, false arrest, invasion of privacy, malicious
+prosecution. This is the most commonly cited broader coverage.
+
+Worldwide coverage:
+Some auto/HO policies have geographic limitations. Umbrellas
+typically cover liability worldwide.
+
+Landlord activities:
+If the insured rents out a property (a vacation home, a single
+rental unit), the umbrella often extends to that exposure if
+underlying DP/rental dwelling coverage is in place. Excessive
+rental operations move the insured into commercial territory.
+
+Volunteer / nonprofit board service:
+Some umbrellas extend to "incidental" volunteer work or unpaid
+board service for nonprofits. NOT a substitute for D&O — for
+paid board service or material exposure, get D&O.
+
+
+WHAT UMBRELLAS TYPICALLY EXCLUDE
+=================================
+
+- Business pursuits (most umbrellas are personal-only; business
+  activities require Commercial Umbrella)
+- Professional services (need separate E&O / professional
+  liability)
+- Aircraft (often excluded; some umbrellas allow scheduled
+  aircraft for additional premium)
+- Watercraft above certain size/horsepower (often $500K-$1M
+  underlying watercraft policy required; large yachts excluded)
+- Intentional acts
+- Criminal acts
+- Workers compensation obligations (if the insured is liable as
+  an employer)
+- Damage to property in the insured's care, custody, or control
+- Auto racing / speed contests
+- Discrimination (varies by carrier; some umbrellas exclude
+  entirely, others have sub-limits)
+
+
+DROP-DOWN vs FOLLOW-FORM
+=========================
+
+Drop-down umbrella:
+If the underlying primary is exhausted by other claims (so the
+limit is depleted before this claim attaches), the umbrella
+"drops down" and replaces the underlying's coverage from dollar
+one of this claim (subject to SIR). Not all umbrellas drop down
+— some require the underlying to still be in force.
+
+Follow-form umbrella:
+The umbrella adopts the underlying's coverage definitions and
+exclusions. If underlying covers it, the umbrella covers it
+(subject to umbrella exclusions). If underlying excludes it, the
+umbrella likely also excludes it.
+
+Most personal umbrellas are a hybrid: follow-form for most
+exposures, with a defined broader-than-underlying scope for
+personal injury and a few other categories.
+
+
+WHO IS COVERED
+==============
+
+The named insured and resident family members, usually with the
+same definition as the underlying HO and PAP.
+
+Some umbrellas extend coverage to non-resident college students,
+nannies/domestic employees on duty, and other narrowly defined
+groups — read the umbrella's "insured" definition carefully.
+
+
+WHEN TO CARRY AN UMBRELLA
+=========================
+
+Common triggers for recommending umbrella:
+- Net worth above underlying limits — anyone with assets a
+  plaintiff could reach beyond auto/HO limits should consider
+  umbrella
+- Teenage drivers in the household (high accident frequency,
+  often serious injuries)
+- Swimming pool, trampoline, dog of a breed associated with
+  bite claims, or other "attractive nuisance" exposures
+- Frequent entertaining at the residence
+- Boat ownership above small-craft size
+- Rental properties (modest rental exposure; large landlord
+  portfolios need commercial umbrella)
+- Volunteer board service for nonprofits
+- High-profile or high-income individuals at greater risk of
+  large-claim litigation
+- Anyone in a profession where social-media or reputational
+  exposure could lead to defamation claims
+
+Industry rule of thumb: carry umbrella limits at least equal to
+total assets plus a margin for future earnings. Plaintiffs collect
+against assets and wages — the umbrella exists to protect them.
+
+
+UMBRELLA vs EXCESS LIABILITY
+=============================
+
+The terms "umbrella" and "excess" are sometimes used
+interchangeably, but technically:
+
+- Umbrella: provides excess limits AND broader-than-underlying
+  coverage (with SIR for the broader piece). What's standard in
+  the personal market.
+- True Excess: provides excess limits only — follows underlying
+  exactly, no broader coverage. More common in commercial. Less
+  expensive than an umbrella because it doesn't add coverage.
+
+Most personal "umbrella" products do include the broader
+coverage piece, even when marketed simply as excess liability.
+
+
+CARRIER UMBRELLA vs STANDALONE
+===============================
+
+Two common structures:
+
+Companion umbrella:
+Written by the same carrier as the underlying auto/HO. Simpler
+because the carrier already knows the underlying. Often slightly
+cheaper. Usually requires the insured to also carry their
+auto/HO with that carrier.
+
+Standalone umbrella:
+Written by a specialty carrier (Chubb, RLI, Cincinnati, etc.)
+separately from auto/HO. More flexibility — the insured can
+shop auto/HO without losing the umbrella. Useful for high-net-
+worth households with unusual underlying carriers, or for
+insureds whose auto/HO carrier doesn't offer adequate umbrella
+limits.
+
+
+CLAIMS AND DEFENSE
+==================
+
+When a claim exceeds underlying limits (or hits an umbrella-only
+exposure):
+1. The underlying carrier defends and pays up to its limit.
+2. When underlying limits are exhausted (or for umbrella-only
+   exposures, after the SIR), the umbrella takes over defense
+   and payment.
+3. Defense costs are typically IN ADDITION to the umbrella limit
+   for follow-form claims, but check the policy — some umbrellas
+   include defense within the limit.
+4. The insured must cooperate with the umbrella carrier's
+   investigation and defense, same as with the underlying.
+
+
+WHEN UMBRELLA ISN'T THE RIGHT FIT
+==================================
+
+- Pure business exposure → Commercial Umbrella
+- Pure professional exposure → Professional Liability / E&O
+- Watercraft above modest size → Yacht policy with high
+  liability limits (umbrella as excess on top)
+- Aviation exposure → Aircraft hull and liability policy, with
+  aviation umbrella as needed
+- D&O for paid board service or significant nonprofit
+  governance → D&O policy, not personal umbrella

@@ -1,0 +1,251 @@
+Renters (HO-4) and Condo (HO-6) Insurance
+==========================================
+
+This document explains the two homeowners forms designed for
+insureds who don't own the building they live in — renters (HO-4)
+and condominium unit owners (HO-6). Both are members of the
+homeowners family but cover materially less than HO-3 because
+someone else (landlord or condo association) is responsible for
+the building itself.
+
+
+HO-4 — RENTERS / TENANTS COVERAGE
+==================================
+
+What it is:
+HO-4 (Contents Broad Form) is the homeowners form for tenants —
+people who rent an apartment, house, or other dwelling. It covers
+the tenant's belongings, liability, and loss of use, but NOT the
+building.
+
+Why renters need it:
+The landlord's policy covers the building only. It does NOT cover
+the tenant's personal property and does NOT defend the tenant
+against liability claims. A tenant without renters insurance is
+exposed to:
+- Loss of furniture, electronics, clothing, etc. from fire,
+  theft, water damage, vandalism
+- Liability if a guest is injured in the rented unit
+- Liability if the tenant causes damage to the building (a
+  kitchen fire spreading to neighboring units)
+- Cost of temporary housing if the unit is uninhabitable
+
+Coverage parts on HO-4:
+
+Coverage C — Personal Property:
+The core coverage. Pays for damage to the tenant's belongings on
+a named-perils basis (the standard HO peril list: fire,
+lightning, windstorm, hail, smoke, theft, vandalism, etc.).
+Limit selected at quoting based on an inventory of contents —
+typical range $15K-$50K for an apartment, more for a furnished
+house.
+
+Sub-limits apply to specific categories (jewelry, electronics,
+firearms, business property, cash) — same structure as HO-3.
+
+Coverage D — Loss of Use:
+Pays additional living expense if the rented unit is uninhabitable
+after a covered loss. Typically a percentage of Coverage C.
+
+Coverage E — Personal Liability:
+Pays for bodily injury or property damage the tenant is legally
+liable for. Includes liability for fire damage to the landlord's
+property (the "fire legal liability" exposure). Common limits
+$100K-$500K. Defense costs in addition.
+
+Coverage F — Medical Payments:
+No-fault medical payments for guests injured at the unit. Common
+limits $1K-$5K.
+
+What HO-4 does NOT cover:
+- The building itself (the landlord's responsibility)
+- Tenant improvements that become part of the realty (in some
+  forms)
+- Roommate's belongings (each roommate needs their own policy)
+- Flood and earthquake (separate coverage)
+
+Replacement cost vs ACV:
+HO-4 contents default to ACV but can be upgraded to replacement
+cost — strongly recommended given the typical age of tenant
+belongings.
+
+
+HO-6 — CONDO / UNIT-OWNERS COVERAGE
+====================================
+
+What it is:
+HO-6 is the homeowners form for condominium unit owners and
+cooperative apartment owners. It bridges the gap between what the
+condo association's master policy covers (the building shell)
+and what the unit owner is responsible for (everything inside).
+
+Coverage parts on HO-6:
+
+Coverage A — Building / Improvements and Betterments:
+Covers the unit owner's interest in:
+- Improvements and betterments inside the unit (cabinets,
+  flooring, fixtures the unit owner installed or paid for)
+- Items not covered by the master policy (varies by master
+  policy type — see below)
+- The unit's interior walls in some master policy structures
+
+Coverage A limits on HO-6 are typically much lower than on HO-3
+($20K-$100K is common) because the master policy carries the bulk
+of the building exposure.
+
+Coverage C — Personal Property:
+Contents — furniture, clothing, electronics. Same structure as
+HO-4 / HO-3 Coverage C.
+
+Coverage D — Loss of Use:
+ALE if the unit is uninhabitable.
+
+Coverage E — Personal Liability:
+Liability for the unit owner's activities. Some exposures the
+association handles via the master policy, but personal liability
+(slip-and-fall in your unit, dog bite by your dog, etc.) is on
+the unit owner.
+
+Coverage F — Medical Payments to Others:
+Same as HO-3 Coverage F.
+
+Loss Assessment Coverage:
+A coverage unique to condo policies. If the association levies a
+special assessment on unit owners to cover a loss the master
+policy didn't fully cover (a deductible, a coverage gap, or
+liability above the master limit), Loss Assessment pays the unit
+owner's share, up to the limit. Default is often $1,000; commonly
+increased to $10K-$50K.
+
+
+MASTER POLICY TYPES — WHAT THE ASSOCIATION COVERS
+==================================================
+
+The HO-6 unit owner's Coverage A limit depends on what the condo
+association's master policy covers. There are three common
+structures:
+
+Bare Walls (least association coverage):
+The master policy covers only the building structure — exterior
+walls, roof, common areas. The unit owner is responsible for
+everything inside the unit walls: drywall, paint, flooring,
+fixtures, cabinets, appliances. The unit owner needs a HIGH
+Coverage A limit on HO-6.
+
+Single Entity / Standard (middle ground):
+The master policy covers the original construction as built —
+including standard fixtures, flooring, cabinets, etc. — but NOT
+upgrades the unit owner has made. The unit owner needs Coverage A
+mainly for upgrades and improvements (and may need significant
+limits if they've remodeled).
+
+All-In / All-Inclusive (most association coverage):
+The master policy covers the original construction AND any
+upgrades/improvements the unit owner has made. The unit owner
+needs the LEAST Coverage A on HO-6 — just enough for any items
+the master excludes (sometimes interior decorations).
+
+Determining which type:
+The condo association's master policy declarations or the
+condominium bylaws/CC&Rs specify what the master covers. The
+agent should obtain the master policy declarations when writing
+HO-6 to size Coverage A appropriately.
+
+
+COMMON HO-4 / HO-6 ENDORSEMENTS
+================================
+
+Scheduled Personal Property (HO 04 61):
+Same as HO-3 — schedules high-value items individually beyond
+Coverage C sub-limits.
+
+Water Backup (HO 04 95):
+Covers sewer/drain backup damage to the insured's property — not
+covered by the base form.
+
+Replacement Cost on Contents:
+Upgrades Coverage C from ACV to replacement cost.
+
+Identity Theft:
+Same as HO-3.
+
+Earthquake / Flood:
+Same exclusions as HO-3; same separate-policy or endorsement
+solutions.
+
+Increased Loss Assessment (HO-6 only):
+Raises the loss assessment limit above the default $1,000.
+
+Pet Liability:
+Some carriers exclude or sub-limit dog liability; endorsements
+restore or limit coverage.
+
+Home Business / Incidental Business:
+Covers limited business activity from the residence — base form
+excludes most business pursuits.
+
+
+COMMON EXCLUSIONS (HO-4 AND HO-6)
+==================================
+
+Same as HO-3 base exclusions:
+- Flood
+- Earthquake
+- War
+- Wear and tear
+- Intentional acts
+- Business pursuits beyond narrow exceptions
+- Mold (often sub-limited)
+- Vacancy beyond stated period
+
+
+WHO IS A NAMED INSURED
+======================
+
+The tenant (HO-4) or unit owner (HO-6) is the named insured.
+Resident family members are covered automatically. Roommates who
+aren't related are NOT covered — they need their own policy.
+Some carriers allow naming a roommate as an additional insured
+on the same policy; many don't, and separate policies are usually
+cleaner.
+
+
+COMMON CLAIMS SCENARIOS
+=======================
+
+HO-4 / renters:
+- Theft of laptop, electronics, bike
+- Water damage from a unit upstairs leaking into the rented unit
+- Kitchen fire — coverage for tenant's contents and for fire
+  legal liability against the landlord's building
+- Hotel stay after a building fire forces evacuation
+- Dog bite — guest injured at the unit
+
+HO-6 / condo:
+- Burst pipe damaging the unit's flooring and cabinets — HO-6
+  Coverage A pays the unit owner's portion, master policy pays
+  the building portion
+- Special assessment for a roof replacement after a storm exceeds
+  the master policy limit — Loss Assessment pays the unit
+  owner's share
+- Liability claim from a guest slipping in the unit
+
+
+WHEN HO-4 / HO-6 IS NOT THE RIGHT FIT
+======================================
+
+- Tenant of a single-family rental house who's responsible for
+  significant exterior maintenance: still HO-4, but make sure the
+  lease doesn't shift building exposure to the tenant
+- Subletter or short-term tenant: most HO-4 forms require the
+  tenant to be the primary occupant for some duration; short-
+  term arrangements may need a different form
+- Cooperative apartment in NY: HO-6 with co-op-specific
+  endorsements; the structure is similar but the legal interest
+  differs (shares in the cooperative rather than fee ownership)
+- Condo used as a rental property (landlord, not owner-occupant):
+  use a DP form or a Condo Rental Unit Owner policy, not HO-6
+- College student living in a dorm: often covered as personal
+  property of a resident family member under the parents' HO-3
+  Coverage C (up to a sub-limit) — separate HO-4 may not be
+  needed
