@@ -1,0 +1,351 @@
+Professional Liability (Errors and Omissions) Insurance
+========================================================
+
+This document explains what Professional Liability / Errors and
+Omissions (E&O) insurance is, what it covers, how it differs
+structurally from general liability, the common claims scenarios,
+and the variations across professions.
+
+
+WHAT PROFESSIONAL LIABILITY COVERS
+===================================
+
+Professional Liability — also called Errors and Omissions (E&O)
+— covers a professional's legal liability for financial harm
+caused to a client by negligent acts, errors, or omissions in
+the performance of professional services.
+
+The core risk: a client hires a professional, the professional
+makes a mistake (or fails to do something they should have),
+the client suffers financial loss as a result, and the client
+sues. General liability won't respond because GL excludes
+"professional services" — that's E&O's job.
+
+Key distinction from CGL:
+- CGL covers bodily injury and property damage
+- E&O covers economic loss / financial damage from professional
+  mistakes
+- A doctor leaving a sponge in a patient is malpractice (a form
+  of E&O); a wet floor in the waiting room is GL
+- An accountant filing taxes incorrectly causes financial harm
+  with no bodily injury or property damage — pure E&O
+
+What "professional services" means:
+The definition is in the policy, often listed by activity or
+profession. Typical coverage attaches to advice, recommendations,
+calculations, designs, opinions, certifications, or any service
+requiring specialized training or expertise.
+
+
+CLAIMS-MADE vs OCCURRENCE — A CRITICAL DISTINCTION
+===================================================
+
+Most professional liability policies are written on a CLAIMS-
+MADE basis, not occurrence. This is one of the most important
+structural differences between E&O and most other liability
+lines (which are usually occurrence).
+
+Occurrence policy:
+Responds to losses that OCCUR during the policy period,
+regardless of when the claim is made. A 2020 occurrence policy
+covers a 2020 incident even if the claim doesn't come in until
+2026. This is how CGL typically works.
+
+Claims-made policy:
+Responds to CLAIMS made and reported during the policy period,
+regardless of when the underlying incident occurred (subject to
+retroactive date — see below). A claims-made policy bound in
+2026 covers a 2020 incident only if (a) the claim is made and
+reported in 2026, and (b) the retroactive date is 2020 or
+earlier.
+
+Why E&O is claims-made:
+Professional liability losses often surface long after the
+service was performed (an accounting error discovered three
+years later in audit; a design defect that doesn't manifest
+until years after construction). Claims-made structure lets
+the carrier price for the claims actually reported in the
+year, rather than waiting decades to know what a policy year
+will ultimately cost. Occurrence pricing for E&O would be
+nearly impossible to predict.
+
+Retroactive date:
+The "look-back" boundary. The policy covers acts/errors that
+occurred on or after the retroactive date. An act/error before
+the retro date is not covered, even if the claim comes in
+during the current policy period.
+
+When you change carriers or rewrite an E&O policy, preserving
+the original retroactive date is critical. A new policy with a
+new retroactive date (the renewal date) creates a coverage
+gap — work done before the new retro date is no longer
+covered by the new policy, and the old policy is no longer in
+force to respond.
+
+Extended Reporting Period (ERP) / Tail coverage:
+When a claims-made policy terminates (carrier change,
+retirement, business sale), claims that report AFTER
+termination for acts during the policy period would otherwise
+have no coverage. ERP / tail coverage extends the reporting
+window beyond termination — common options are 1, 3, 5, or
+unlimited years. Critical for retiring professionals or
+businesses winding down operations.
+
+Prior Acts / Nose coverage:
+The reverse situation — when starting a new claims-made policy
+after a gap, prior acts coverage agrees to cover work done
+before the new policy started (subject to a retroactive date).
+Used to bridge from a prior policy or to provide coverage when
+prior-policy tail isn't purchased.
+
+
+COVERAGE PARTS
+==============
+
+Most professional liability policies include:
+
+Liability coverage:
+Pays damages the insured is legally obligated to pay because of
+a covered wrongful act in the rendering of professional
+services. Includes covered judgments, settlements, and related
+costs.
+
+Defense:
+Attorney fees, court costs, expert witness fees. Depending on
+the policy:
+- Defense costs IN ADDITION to the limit (broader — more
+  common in higher-end policies)
+- Defense costs ERODE the limit (less broad — defense reduces
+  what's available to pay damages, common in lower-cost
+  policies)
+
+The "eroding limits" structure can be a problem on long-
+running, expensive cases — defense costs can consume the
+limit before any damages are even decided.
+
+Disciplinary proceedings:
+Some E&O policies cover defense costs for licensing board /
+disciplinary proceedings even when no monetary claim is made.
+Important for licensed professionals where a board complaint
+can damage reputation and license status regardless of
+whether the client sues.
+
+Subpoena response:
+Costs of responding to subpoenas about the insured's
+professional services in cases where the insured isn't a party
+— increasingly common as a coverage feature.
+
+
+COMMON E&O EXCLUSIONS
+======================
+
+Standard exclusions across most E&O forms:
+
+- Bodily injury and property damage (these belong on CGL —
+  except in medical malpractice, which is itself a specialty
+  E&O variant that DOES cover BI)
+- Intentional / dishonest / fraudulent acts (with severability
+  — typically only the perpetrator is excluded, innocent
+  partners can still have defense)
+- Criminal acts
+- Insured vs insured (one partner suing another in the same
+  firm; carve-backs for whistleblower and certain employment
+  claims)
+- Prior known acts (claims the insured was aware of before
+  policy inception)
+- Contractual liability beyond what the law would impose
+  (liability the insured assumed in a contract above and
+  beyond common-law duty)
+- Patent infringement (often excluded; may be covered with
+  endorsement on tech/IP-focused E&O)
+- Pollution (separate environmental coverage)
+- War and nuclear
+- Specific professional services not declared on the
+  application
+
+
+PROFESSIONS COMMONLY E&O-INSURED
+================================
+
+Different professions have different coverage forms, limit
+norms, and pricing patterns:
+
+Medical professionals (Medical Malpractice):
+Doctors, nurses, dentists, chiropractors, psychotherapists.
+Often written on specialty malpractice forms; very state-
+specific due to varying tort reform regimes (caps on damages,
+collateral source rules, joint and several liability rules).
+Limits typically $1M/$3M (per claim / aggregate) for routine
+practice, much higher for high-risk specialties.
+
+Legal professionals (Lawyers Professional Liability / LPL):
+Attorneys and law firms. Bar association-sponsored programs
+common in some states; commercial market also active. Limits
+scale with practice size and area (M&A and securities firms
+carry far higher limits than family law solo practitioners).
+
+Architects and Engineers (A&E):
+Design professionals. Long claims tails (errors may not
+manifest until construction completes years later). Many
+contracts require A&E professionals to carry specific limits
+and waiver of subrogation. Coverage often integrated with
+project-specific Professional Liability for large
+construction projects.
+
+Accountants:
+CPAs, bookkeepers, tax preparers. Coverage often includes
+defense for IRS proceedings and state tax authority
+proceedings.
+
+Insurance Agents and Brokers:
+E&O for the act of placing insurance — failing to recommend
+adequate coverage, misrepresenting policy terms, failure to
+report a claim timely. Required by most carriers as a
+condition of agent appointment.
+
+Real Estate Agents and Brokers:
+Liability for disclosure failures, misrepresentation of
+property condition, failure to advise on inspections.
+
+Financial Advisors:
+Investment advisors, broker-dealers, financial planners.
+Coverage for suitability claims, misrepresentation, failure
+to follow client instructions. Often paired with specialized
+fiduciary coverage.
+
+Consultants:
+Management consultants, IT consultants, marketing
+consultants. Broad "miscellaneous professional liability"
+forms accommodate the variety.
+
+Technology Professionals (Tech E&O):
+Software developers, IT services, SaaS providers, managed
+service providers. Modern Tech E&O often integrates with
+Cyber coverage — a single integrated form covering both
+professional errors AND data breach exposure. (See Cyber
+Liability Overview for the cyber side.)
+
+Miscellaneous Professional Liability:
+For professions not covered by a dedicated form — translators,
+mediators, expert witnesses, educational consultants, etc.
+
+
+COMMON CLAIMS SCENARIOS
+========================
+
+Accountants:
+- Tax filing error causes penalty / interest assessment
+- Audit fails to detect embezzlement or fraud
+- Bookkeeping error causes business decisions made on bad data
+
+Lawyers:
+- Statute of limitations missed
+- Conflict of interest not disclosed
+- Inadequate due diligence on a transaction
+- Negligent drafting of contract or estate document
+
+Architects / Engineers:
+- Design defect discovered after construction
+- Failure to specify code-compliant materials
+- Inadequate site analysis leading to foundation problems
+- Specification error causing cost overrun
+
+Insurance Agents:
+- Failure to procure requested coverage
+- Failure to advise client of available coverage
+- Failure to report claim to carrier within policy timeframe
+- Misrepresentation of policy terms
+
+Real Estate:
+- Failure to disclose known property defect
+- Misrepresentation of square footage or zoning
+- Failure to recommend inspection
+
+Financial Advisors:
+- Unsuitable investment recommendation
+- Unauthorized trading
+- Failure to execute client instructions
+- Inadequate disclosure of fees or risks
+
+
+LIMITS AND DEDUCTIBLES
+=======================
+
+Per claim / aggregate structure:
+Most E&O policies have a per-claim limit and a separate
+aggregate limit (e.g. $1M per claim / $3M aggregate). The
+per-claim limit caps what's available for any single claim;
+the aggregate caps total payouts across all claims in the
+policy period.
+
+Defense in or outside limits:
+As above, defense costs may reduce or be in addition to the
+limit. Always specified in declarations.
+
+Deductible / SIR:
+Most professional liability has a per-claim deductible — the
+insured pays the first portion (e.g. $5K, $25K, $100K)
+including defense costs that fall within the deductible.
+Larger firms with higher deductibles often have their own
+in-house counsel handling minor matters that resolve within
+the deductible.
+
+Some policies use a Self-Insured Retention (SIR) instead of
+a deductible — the difference being that the SIR is paid
+BEFORE the carrier's defense duty triggers; with a
+deductible, the carrier defends from day one and seeks
+reimbursement up to the deductible.
+
+
+WHEN E&O ISN'T ENOUGH
+======================
+
+Common gaps an insured may need to address separately:
+
+- Cyber breach / privacy liability — Cyber policy (sometimes
+  integrated with Tech E&O)
+- Employment practices (wrongful termination, discrimination)
+  — EPLI
+- Director/officer governance liability — D&O
+- Crime / employee dishonesty — Crime policy or Fidelity bond
+- Bodily injury at the office — CGL
+- Bodily injury to employees — Workers Comp
+- Auto liability — Commercial Auto
+
+
+REGULATORY AND CONTRACTUAL REQUIREMENTS
+========================================
+
+Many professions have E&O requirements imposed externally:
+
+- State bar associations may require minimum LPL coverage for
+  attorneys in private practice
+- Many state real estate commissions require minimum E&O for
+  licensure
+- Architecture and engineering boards in some states require
+  E&O for licensure
+- Most carriers require agents to carry minimum E&O as a
+  condition of appointment
+- Client contracts — especially in tech, consulting, and
+  construction — increasingly specify minimum E&O limits,
+  retroactive date provisions, and waiver of subrogation
+- Government contracts often require specific E&O limits and
+  endorsement of the government entity as additional insured
+
+
+KEY TAKEAWAYS
+=============
+
+- E&O covers financial harm from professional mistakes;
+  separate and distinct from CGL
+- Claims-made structure means timing of CLAIM matters more
+  than timing of underlying ACT
+- Retroactive date and tail coverage are the structural
+  elements that prevent coverage gaps on carrier changes or
+  business termination
+- Profession-specific forms vary substantially — what
+  "professional services" means differs by profession
+- Defense-in-limits vs defense-outside-limits is a major
+  coverage-quality differentiator
+- Common adjacent coverages (Cyber, EPLI, D&O) fill gaps E&O
+  doesn't address

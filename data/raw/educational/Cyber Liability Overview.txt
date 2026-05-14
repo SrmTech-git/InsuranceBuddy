@@ -1,0 +1,392 @@
+Cyber Liability Insurance
+=========================
+
+This document explains what cyber liability insurance is, the
+distinctive first-party / third-party split, what kinds of
+incidents trigger coverage, the typical exclusions, and how the
+market has evolved as ransomware and breach costs have grown.
+
+
+WHAT CYBER LIABILITY COVERS
+============================
+
+Cyber liability insurance covers losses arising from:
+- Data breaches involving personally identifiable information,
+  protected health information, or other sensitive data
+- Ransomware and other cyber extortion events
+- Network security failures
+- Business interruption from a cyber incident
+- Liability to third parties harmed by a security or privacy
+  failure
+- Regulatory investigations and fines tied to privacy /
+  security incidents
+
+Why standalone cyber exists:
+Traditional property and liability policies were written
+before digital exposure existed and contain explicit cyber
+exclusions or simply don't fit the loss patterns. A
+ransomware payment isn't bodily injury or property damage in
+the CGL sense. A data breach isn't a tangible property loss
+in the property-insurance sense. Cyber policies were
+developed to address losses the legacy market wasn't
+covering.
+
+
+FIRST-PARTY vs THIRD-PARTY COVERAGE
+=====================================
+
+Cyber policies are split into two main coverage groups —
+first-party (the insured's own losses) and third-party
+(liability to others).
+
+FIRST-PARTY COVERAGES:
+
+Breach response / incident response:
+The costs of responding to a confirmed or suspected breach:
+- Forensic investigation (identifying scope and cause)
+- Notification of affected individuals (often statutorily
+  required)
+- Credit monitoring and identity theft remediation services
+  for affected individuals
+- Public relations and crisis management
+- Legal review of notification obligations and regulatory
+  reporting
+
+Breach response is typically the FIRST coverage triggered in
+an incident and often consumes substantial dollars before
+any third-party liability claim arises.
+
+Business interruption (cyber BI):
+Lost income and continuing expenses when a security incident
+or system failure disrupts the insured's operations.
+Distinct from property-policy BI, which typically requires
+physical damage to trigger.
+
+Common variations:
+- "System failure" coverage: BI from accidental IT failure,
+  not just malicious incidents
+- "Dependent business interruption": BI from a cyber event
+  at a key vendor (a cloud provider outage, a critical SaaS
+  service failure)
+
+Waiting period / time deductible:
+Cyber BI typically has a time deductible — coverage attaches
+only after a stated number of hours of outage (8, 12, 24
+hours common). Brief outages don't trigger.
+
+Cyber extortion / ransomware:
+Coverage for ransom demands and the related response —
+ransom payment itself (in policies that permit it), incident
+response, negotiation services, decryption assistance,
+restoration costs. The ransomware-coverage market has
+tightened substantially as ransomware frequency has spiked.
+
+Data restoration:
+Costs to restore corrupted or destroyed data and software
+from backups or by rebuilding. Doesn't cover business losses
+during restoration — that's BI's job.
+
+Funds transfer fraud / social engineering / cyber crime:
+Coverage for funds lost when an employee is tricked into
+transferring money to a fraudulent recipient (a fake CEO
+email instructing a wire transfer, an invoice fraud
+intercepting vendor payments). This coverage overlaps with
+crime policies — important to coordinate.
+
+Bricking coverage:
+Covers cost of replacing hardware rendered unusable by a
+malware attack (firmware destruction, infected IoT devices).
+Less common but growing.
+
+Reputational harm / loss of trust:
+Income lost from customer flight after a publicized breach.
+Often offered as a separate sub-coverage with its own
+waiting period and proof requirements.
+
+THIRD-PARTY COVERAGES:
+
+Privacy liability:
+Liability to individuals whose personal information was
+exposed in a breach. Includes defense and indemnity for
+class actions, individual suits, and regulatory enforcement.
+
+Network security liability:
+Liability to third parties harmed by a security failure on
+the insured's network — for example, malware spreading
+from the insured's network to a customer's network, or the
+insured's compromised systems being used to attack others.
+
+Regulatory defense and fines:
+Costs of defending privacy/security regulatory investigations
+(FTC, state AGs, HHS for HIPAA, EU regulators for GDPR,
+California for CCPA/CPRA, etc.) AND, where insurable, the
+fines and penalties themselves. Fine insurability varies by
+jurisdiction — GDPR fines insurability is contested in some
+EU member states.
+
+Media liability / multimedia:
+Liability for content the insured publishes — defamation,
+copyright infringement, trademark infringement, invasion of
+privacy. Important for content-heavy businesses; some cyber
+policies include it, others sell it separately.
+
+PCI fines and assessments:
+Penalties imposed by payment card brands (Visa, MasterCard,
+etc.) when a breach involves card data. Coverage scope and
+sub-limits vary by policy.
+
+
+HOW CYBER POLICIES TRIGGER
+===========================
+
+Cyber is almost universally CLAIMS-MADE for the third-party
+coverages — the privacy, security, and regulatory liability
+parts respond to claims first made during the policy period.
+First-party coverages typically respond on a "loss
+discovered" basis — coverage applies to incidents the insured
+becomes aware of during the policy period, regardless of when
+the underlying intrusion began (subject to retroactive date
+on the third-party side).
+
+Like other claims-made coverages, retroactive date matters.
+"Prior acts" coverage on a new cyber policy preserves
+coverage for incidents that occurred before the new policy
+but are discovered after.
+
+
+THE RANSOMWARE EVOLUTION
+=========================
+
+The cyber market has reshaped substantially since the late
+2010s as ransomware grew from nuisance to systemic risk.
+
+What changed:
+- Average ransom demands grew from thousands to millions
+- "Double extortion" emerged (encrypt AND threaten to leak
+  data publicly), making refusal to pay riskier
+- Critical infrastructure attacks raised regulatory and
+  geopolitical stakes
+- Some carriers exited the market; others sharply restricted
+  capacity
+- Premium increased 50%-300% in some years
+- Underwriting tightened materially — MFA, EDR, backups
+  tested and offline, patching cadence, employee training
+  all became expected baseline
+
+Modern underwriting expectations:
+- Multi-factor authentication on email, remote access,
+  privileged accounts, and any internet-facing systems
+- Endpoint detection and response (EDR) deployed across
+  endpoints
+- Encrypted, offline, regularly tested backups (so
+  ransomware-encrypted production data isn't the only copy)
+- Network segmentation between IT and OT, between business
+  systems and backups
+- Email filtering and security awareness training
+- Documented incident response plan
+- Vulnerability management program
+- Privileged access management
+
+Carriers that previously bound coverage on a short
+questionnaire now require detailed security assessments,
+external scanning, and in some cases penetration test
+reports. Insureds without baseline controls may not be
+insurable at all in the current market.
+
+Coinsurance and sub-limits:
+Ransomware sub-limits have become standard — many policies
+cap ransomware coverage at a fraction of the policy limit
+(e.g. $1M ransomware sub-limit within a $5M policy). Some
+require coinsurance on the ransomware piece. Some exclude
+ransom payment entirely while still covering response costs
+and BI.
+
+
+COMMON CYBER EXCLUSIONS
+========================
+
+Standard exclusions across most cyber forms:
+
+War and hostile acts:
+War, terrorism, and cyber operations attributed to nation-
+states. Following the NotPetya litigation (Merck and others
+recovered against carriers despite war exclusions, with
+courts holding that traditional war exclusions don't
+clearly apply to cyber events), carriers have rewritten
+cyber war exclusions with more specific language. The
+"cyberwar" carve-out is one of the most actively litigated
+areas in cyber coverage.
+
+Prior known incidents:
+Incidents the insured was aware of before policy inception.
+
+Bodily injury and tangible property damage:
+Generally excluded (those belong on CGL and property). Some
+cyber policies provide narrow buy-backs for BI/PD arising
+from a cyber event.
+
+Patent and trade secret infringement:
+Often excluded; sometimes covered with sub-limits.
+
+Contractual liability:
+Liability the insured assumed in a contract beyond what
+common law would impose — often excluded, with carve-backs
+for standard customer/vendor contract liabilities.
+
+Failure to maintain security standards:
+If the insured represented at underwriting that certain
+controls were in place and they were not, claims arising
+from that gap may be excluded. (Coverage rescission for
+material misrepresentation is also an issue.)
+
+Acts of insureds:
+Intentional acts by senior management; criminal acts.
+
+Infrastructure failures:
+Power outages, ISP outages, generalized internet outages —
+often excluded from cyber BI (these belong on a broader
+business interruption or "infrastructure" coverage if
+available).
+
+Unencrypted devices:
+Some policies sub-limit or exclude breaches involving
+unencrypted laptops/portable devices.
+
+Failure to apply known patches:
+Specific exclusions for events caused by failure to apply
+publicly available security patches.
+
+Bricking of vehicles, aircraft, vessels:
+Cyber events affecting transportation assets typically
+require specialized coverage.
+
+
+HOW CYBER INTERACTS WITH OTHER POLICIES
+=========================================
+
+Cyber sits at the intersection of multiple traditional
+coverages, creating coordination questions:
+
+Crime policies:
+Funds transfer fraud and social engineering overlap with
+cyber. Some carriers offer cyber-included; others rely on
+the crime policy. Coverage gaps can arise when both
+policies have sub-limits or exclude what the other covers.
+
+Property policies:
+Most property policies have cyber exclusions, but some
+ambiguity remained on physical damage caused by cyber
+events (NotPetya again). Industry standard cyber exclusion
+language is now generally clear that cyber events shift to
+cyber policies.
+
+CGL:
+The data breach itself isn't typically BI/PD. Privacy
+liability in CGL has been pushed out via exclusion. Some
+narrow CGL coverage (Coverage B, personal and advertising
+injury) historically arguable for privacy claims; carriers
+have largely closed that.
+
+D&O:
+Failure-of-oversight derivative suits following a breach
+(directors allegedly failed to oversee cyber risk) are D&O
+claims, not cyber. Cyber policies don't cover director
+liability for governance failures.
+
+Tech E&O:
+Integrated tech E&O + cyber policies are common — a
+software/IT services company has both professional errors
+exposure and cyber breach exposure, often covered on a
+combined form.
+
+Kidnap and Ransom (K&R):
+Ransomware sits awkwardly between cyber and K&R. Most
+ransomware claims flow through cyber; some specialty K&R
+forms address it as well.
+
+
+HIGH-PROFILE REGULATORY FRAMEWORKS
+====================================
+
+Cyber claims are shaped by overlapping regulatory regimes:
+
+HIPAA (US health information):
+Triggers OCR investigations and breach notification
+obligations for healthcare entities and business
+associates.
+
+GLBA (US financial information):
+Financial institution privacy and security requirements,
+state-administered enforcement.
+
+State breach notification laws:
+All 50 US states have breach notification statutes. Timing,
+content, and recipient requirements vary substantially. A
+multi-state breach triggers parallel notification
+obligations under each affected state's law.
+
+CCPA / CPRA (California):
+Private right of action for breaches of certain personal
+information, statutory damages per consumer per incident.
+
+GDPR (European Union):
+Applies to data of EU residents regardless of where the
+processor is located. Fines up to 4% of global annual
+turnover. 72-hour breach notification.
+
+State comprehensive privacy laws:
+A growing patchwork — California, Virginia, Colorado,
+Connecticut, Utah, and many others have enacted broad
+privacy regimes with breach implications.
+
+Sector-specific:
+SEC cybersecurity disclosure rules for public companies,
+NY DFS Cybersecurity Regulation (financial institutions),
+FERC/NERC for energy sector, and many more.
+
+Cyber policies typically cover regulatory defense across
+these frameworks; coverage of FINES specifically depends on
+the policy and on local law on fine insurability.
+
+
+WHO BUYS CYBER
+===============
+
+Practically every business with internet-connected systems
+and any sensitive data has cyber exposure. Higher-risk
+profiles include:
+
+- Healthcare (PHI under HIPAA)
+- Financial services (PCI, GLBA, state regulators)
+- Retail (cardholder data, customer PII)
+- Technology / SaaS (data of customers' customers, dependency
+  exposure for downstream BI claims)
+- Professional services (client confidential data)
+- Manufacturing (OT/ICS exposure, ransomware downtime cost)
+- Education (student data, large user populations)
+- Government and government contractors (sensitive data, FAR
+  and DFARS cybersecurity requirements)
+- Critical infrastructure (energy, water, transport)
+
+Cyber adoption among small business has grown rapidly as
+small-business ransomware claims have risen and as
+contractual cyber requirements (often imposed by larger
+customers) have spread.
+
+
+KEY TAKEAWAYS
+=============
+
+- Cyber is a multi-coverage product splitting first-party
+  (insured's own losses) from third-party (liability to
+  others)
+- First-party costs (incident response, BI, extortion) often
+  exceed third-party liability on a given incident
+- The market has hardened substantially around ransomware,
+  with controls expectations now central to underwriting
+- Coordination with crime, property, D&O, tech E&O, and K&R
+  policies matters — gaps and overlaps are common
+- Cyber war exclusions, ransomware sub-limits, and waiting
+  periods are major coverage-quality differentiators
+- The regulatory landscape (HIPAA, GDPR, state privacy laws)
+  drives much of the third-party exposure and defense cost

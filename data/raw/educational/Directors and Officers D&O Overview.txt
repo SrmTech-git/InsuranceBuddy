@@ -1,0 +1,379 @@
+Directors and Officers (D&O) Liability Insurance
+=================================================
+
+This document explains what D&O insurance is, the three-side
+structure that makes it distinctive, what kinds of claims it
+responds to, how public-company D&O differs from private-company
+and nonprofit D&O, and the typical exclusions and gaps.
+
+
+WHAT D&O COVERS
+================
+
+D&O liability insurance covers directors and officers personally,
+and (often) the entity itself, for claims alleging "wrongful
+acts" in their capacity as directors or officers. The classic
+claim: a shareholder, regulator, employee, or creditor alleges
+that a board or executive team breached its fiduciary duty,
+mismanaged the company, made false disclosures, or otherwise
+caused harm through a governance failure.
+
+Why D&O exists:
+Directors and officers face personal liability for their
+corporate roles. Corporate indemnification (the company
+agreeing to defend and indemnify) may be unavailable when the
+company is insolvent, when state law prohibits indemnification
+for certain claims, or when the company itself is the
+plaintiff. D&O insurance fills the gap by responding directly
+to the individual D&O.
+
+What "wrongful act" means:
+Defined broadly in most policies — any actual or alleged act,
+error, omission, misstatement, misleading statement, neglect,
+or breach of duty in the insured's capacity as a director or
+officer. The breadth of "wrongful act" is one of D&O's
+distinguishing features.
+
+
+THE THREE-SIDE STRUCTURE — A, B, C
+====================================
+
+D&O policies are structured around three "sides" of coverage,
+each addressing a different scenario.
+
+Side A — Direct coverage for individual D&Os:
+Pays the individual director or officer when the company has
+NOT indemnified them (because it can't — insolvency, legal
+prohibition, refused to indemnify, etc.). Side A is
+non-rescindable in most modern policies, meaning the carrier
+can't void coverage for fraud committed by other insureds —
+critical for innocent D&Os.
+
+Side A is the personal protection layer. For many directors,
+the Side A piece is the most important — it's what stands
+between them and personal asset exposure when the company
+can't help.
+
+Side B — Reimbursement of the company:
+Reimburses the company when the company HAS indemnified its
+directors and officers as permitted by law and bylaws. The
+company pays the indemnification; the policy reimburses the
+company.
+
+Side B is the most heavily used side in practice — most D&O
+claims involve company-indemnified D&Os, and the company
+recovers from the policy.
+
+Side C — Entity coverage:
+Covers the company itself (the "entity") for claims against
+the entity. For public companies, Side C is typically
+LIMITED to securities claims — claims under federal or state
+securities law (10b-5 claims, Section 11 claims, etc.). For
+private companies and nonprofits, Side C is often broader,
+covering any claim against the entity (subject to
+exclusions).
+
+Why public-company Side C is limited:
+If Side C covered all entity claims for a public company,
+the carrier would essentially be writing commercial general
+liability and other lines under the D&O policy, which would
+explode pricing. The narrow Side C focuses D&O on the
+distinctive entity exposure — securities lawsuits — that
+other policies don't cover.
+
+Side A-only / Difference-in-Conditions (DIC) policies:
+Excess policies sitting above the main D&O program,
+providing additional Side A protection for individual D&Os.
+DIC policies "drop down" to fill gaps when the underlying
+policy doesn't respond (carrier insolvency, certain
+exclusions, etc.) — providing extra layers of personal
+protection for board members.
+
+
+CLAIMS-MADE COVERAGE
+=====================
+
+Like E&O, D&O is universally claims-made. The same
+retroactive date / tail coverage mechanics apply:
+
+Retroactive date:
+Acts before the retro date aren't covered.
+
+Extended Reporting Period:
+When the policy terminates, ERP / tail extends the reporting
+window. Critical when a company is sold, goes private, or
+winds down — the predecessor company's D&Os may face claims
+years after termination.
+
+Run-off coverage:
+A specific form of tail coverage purchased when a company is
+acquired or merged out of existence. The run-off policy
+provides extended reporting for the predecessor entity and
+its former D&Os, typically for 6 years (matching common
+statute of limitations on derivative claims). Run-off is
+often negotiated as part of the M&A transaction and may be
+mandatory under the merger agreement.
+
+
+WHO IS INSURED
+==============
+
+The basic insured definition:
+- Directors and officers (current, former, and future during
+  the policy period)
+- Often: employees, in their capacity as directors or
+  officers when acting on behalf of the company
+- Often: spouses, domestic partners, estates, and heirs of
+  insureds (protecting personal assets)
+- Often: outside directors of subsidiaries and affiliated
+  entities (subsidiary coverage)
+
+"Outside Directorship Liability" (ODL):
+Coverage extension for individuals who serve on outside
+boards at the company's direction or with company consent.
+Common for executives serving on nonprofit boards, trade
+association boards, or boards of portfolio companies. ODL
+usually applies excess of any other insurance available
+through the outside entity.
+
+
+COMMON D&O CLAIMS
+==================
+
+Securities class actions:
+The most prominent D&O claim type. Shareholders allege the
+company and its officers made false or misleading statements
+about the company's prospects, financial condition, or
+material events, causing the stock to drop when truth
+emerged. Filed under 10b-5, Section 11, or state securities
+law. The bread and butter of public-company D&O.
+
+Derivative suits:
+Shareholders sue in the name of the company against
+directors/officers, alleging breach of fiduciary duty caused
+harm to the company. Procedurally complex; often follows a
+securities class action or merger.
+
+Merger objection suits:
+Shareholders of the target challenge the merger price,
+process, or disclosures. Once nearly automatic on any public
+M&A, these have shifted from class actions to disclosure-
+only settlements in recent years.
+
+Regulatory investigations and enforcement:
+SEC investigations, DOJ inquiries, state AG actions, FTC
+investigations. D&O often covers defense costs even before
+a formal claim is made — "informal investigation" coverage
+varies by policy.
+
+Bankruptcy-related claims:
+When a company fails, creditors and bankruptcy trustees often
+sue former directors and officers alleging breach of duty,
+fraudulent transfer, or deepening insolvency. Some of the
+largest D&O claims arise in bankruptcy.
+
+Employment-related claims by senior executives:
+Wrongful termination, discrimination, or retaliation by
+former officers can be claims against the company AND against
+the directors who voted for the termination. Often overlaps
+with EPLI; coordination of coverage matters.
+
+Government contractor claims:
+False Claims Act suits, contract violation allegations
+against government contractors implicate D&O for officers
+and directors.
+
+Cyber-related D&O:
+Increasingly, breach incidents trigger derivative or
+shareholder suits against directors alleging failure of
+oversight on cybersecurity. Cyber-specific exclusions in
+D&O policies are a focus area.
+
+
+PUBLIC vs PRIVATE vs NONPROFIT D&O
+====================================
+
+The three markets differ substantially:
+
+Public-company D&O:
+- Dominant claim type: securities class actions
+- High limits common ($10M to $100M+ programs)
+- Narrow Side C (securities-only)
+- High pricing relative to private
+- Heavy underwriting on financials, MD&A disclosures, stock
+  volatility, recent M&A activity
+- "Going public" D&O — separate policy structure for IPO
+  exposures (Section 11 risk)
+
+Private-company D&O:
+- Dominant claim types: employment-related claims (often
+  overlaps with EPLI), commercial disputes, creditor claims,
+  M&A claims
+- Lower limits typical ($1M-$10M programs)
+- Broader Side C (covers entity claims, not just securities)
+- Often packaged with EPLI, fiduciary, and crime in a
+  "private company management liability" package
+- Pricing more correlated with employee count and revenue
+  than financial complexity
+
+Nonprofit D&O:
+- Dominant claim types: employment-related, regulatory,
+  donor disputes, fiduciary breach
+- Modest limits typical ($1M-$5M)
+- Often packaged with EPLI for nonprofit organizations
+- Volunteer Protection Act provides some statutory immunity
+  to volunteer directors of qualifying nonprofits, but D&O
+  is still important for defense costs and exceptions to
+  immunity
+- Lower pricing than commercial private
+
+
+COMMON D&O EXCLUSIONS
+======================
+
+Conduct exclusions (the "moral hazard" exclusions):
+- Fraud / dishonesty: typically requires a "final adjudication"
+  in the underlying matter before the exclusion bites —
+  meaning the carrier defends until proven fraud, protecting
+  innocent defense costs
+- Personal profit / illegal remuneration: similar final-
+  adjudication trigger
+- Severability: only the wrongdoer is excluded — innocent
+  D&Os retain coverage
+
+Insured vs insured exclusion:
+Bars claims by one insured against another. Designed to
+prevent collusive suits (the company suing its own directors
+to recover from the D&O policy). Common carve-backs:
+- Bankruptcy trustee suits (so creditor recovery isn't
+  blocked)
+- Whistleblower claims
+- Employment claims
+- Derivative suits brought independently by shareholders
+
+Prior acts exclusion:
+Acts before the retro date.
+
+Prior and pending litigation exclusion:
+Matters pending or threatened before the policy inception.
+
+Bodily injury / property damage:
+Belongs on CGL.
+
+Professional services:
+Belongs on E&O. (Some policies provide partial professional
+services coverage as a buy-back.)
+
+ERISA / employee benefits:
+Belongs on Fiduciary liability policy.
+
+Antitrust:
+Often excluded outright; sometimes covered with sub-limits or
+endorsement.
+
+Pollution:
+Belongs on Environmental policy.
+
+Wage and hour claims:
+Often excluded or sub-limited even in employment-related
+coverage extensions.
+
+Specific named matters:
+Carriers often exclude particular pending or threatened
+matters identified at underwriting (a known investigation, a
+threatened derivative suit).
+
+
+KEY POLICY STRUCTURE FEATURES
+==============================
+
+Defense in or outside limits:
+D&O defense is typically WITHIN limits — defense costs erode
+what's available to pay claims. Eroding limits is a major
+consideration on long-running securities cases where defense
+can run tens of millions before any settlement.
+
+Allocation:
+When a claim involves both covered and uncovered matters, or
+both insured and non-insured parties (the company as a
+non-insured in some private policies), the carrier and
+insured must "allocate" defense costs and settlements between
+covered and non-covered portions. Modern policies often
+provide pre-set allocation percentages for securities cases
+favorable to insureds.
+
+Order of payments:
+Side A claims have payment priority — the policy is designed
+to protect individual D&Os first when the entity is
+insolvent. The "order of payments" provision sets out who
+gets paid first when multiple claims are pending.
+
+Severability:
+For both the application (one insured's misrepresentation
+doesn't void coverage for innocent insureds) and exclusions
+(only the wrongdoer is excluded for conduct exclusions).
+Severability provisions are heavily negotiated in larger
+placements.
+
+Non-rescindability:
+Modern Side A coverage is often non-rescindable — the
+carrier can't void coverage for application fraud committed
+by other insureds. Critical for individual D&Os relying on
+Side A.
+
+
+THE D&O PROGRAM STRUCTURE
+==========================
+
+Larger companies typically build D&O coverage as a tower:
+
+- Primary policy (typically $10M-$25M): the first layer,
+  carries the most coverage detail and exclusions; sets the
+  template for following form policies above
+- Excess policies (each $10M-$25M+): "follow form" the
+  primary, adding limits
+- Side A DIC policies on top of or alongside the tower:
+  additional Side A capacity that drops down to fill gaps in
+  the main program
+
+A typical large-public-company program might be $50M-$200M
+of total D&O limits across 5-15 carriers, with Side A DIC
+adding additional protection.
+
+
+COMMON ADJACENT COVERAGES
+==========================
+
+D&O is part of a broader "management liability" suite:
+
+- Employment Practices Liability (EPLI) — employment claims
+- Fiduciary Liability — ERISA / employee benefits plan
+  governance
+- Crime / Fidelity — employee theft, social engineering
+- Kidnap and Ransom (K&R) — for international exposures
+- Cyber Liability — privacy and security breaches
+- Representations and Warranties (R&W) Insurance — for M&A
+  transactions
+
+Many carriers package private-company D&O with EPLI,
+Fiduciary, and Crime in a single "management liability"
+form. Public-company D&O is almost always written as a
+standalone policy.
+
+
+KEY TAKEAWAYS
+=============
+
+- D&O covers directors and officers personally (Side A), the
+  company's reimbursement of indemnified D&Os (Side B), and
+  the company itself for certain claims (Side C)
+- Public-company Side C is securities-only; private and
+  nonprofit Side C is broader
+- Claims-made structure means retroactive date and tail
+  coverage are critical, especially on M&A transactions
+- Conduct exclusions typically have "final adjudication"
+  triggers preserving defense costs
+- Insured vs insured exclusion bars internal claims with
+  important carve-backs
+- D&O sits alongside EPLI, Fiduciary, Crime, and Cyber in a
+  management liability program

@@ -1,0 +1,378 @@
+Employment Practices Liability Insurance (EPLI)
+================================================
+
+This document explains what EPLI covers, the kinds of employment
+claims it responds to, who is insured, the common exclusions,
+and how EPLI relates to other management liability coverages
+like D&O and Fiduciary.
+
+
+WHAT EPLI COVERS
+=================
+
+EPLI covers the employer's liability arising from employment
+practices — claims by employees, former employees, and
+applicants alleging wrongful treatment in the employment
+relationship.
+
+Why standalone EPLI exists:
+General liability and workers compensation don't cover
+employment claims:
+- CGL excludes employment-related practices via the
+  "employment-related practices" exclusion
+- Workers comp covers physical workplace injuries, not
+  discrimination, harassment, or wrongful termination
+
+EPLI emerged as a distinct coverage in the 1990s as
+employment litigation grew — protected-class discrimination
+suits, sexual harassment claims, ADA claims, retaliation
+claims. The market has expanded to cover a wide range of
+employment-related exposures.
+
+
+COVERED CLAIM TYPES
+====================
+
+Standard EPLI policies cover:
+
+Discrimination:
+Claims alleging adverse employment action based on a
+protected characteristic — race, color, national origin,
+sex, age, religion, disability, pregnancy, sexual
+orientation, gender identity, veteran status, genetic
+information, and others (federal under Title VII, ADEA, ADA,
+GINA, etc., plus state and local protected classes that
+extend further).
+
+Harassment:
+Hostile work environment claims, sexual harassment, and
+harassment based on any protected characteristic. Both
+"quid pro quo" and "hostile work environment" theories
+typically covered.
+
+Wrongful termination:
+Claims that a termination violated law (discrimination,
+retaliation, public policy violations) or contract (implied
+contract claims, severance disputes). At-will employment
+limits these in many states, but exceptions to at-will
+exist in every jurisdiction.
+
+Retaliation:
+Claims that the employer retaliated against an employee for
+engaging in protected activity — complaining about
+discrimination, filing a workers comp claim, reporting
+safety violations (OSHA), whistleblowing on financial
+fraud, refusing to participate in illegal conduct.
+
+Failure to hire / failure to promote:
+Discrimination claims from job applicants or current
+employees passed over for promotion based on protected
+characteristics.
+
+Constructive discharge:
+Resignation claims where the employee alleges the work
+environment was made so intolerable by the employer's
+discrimination, harassment, or retaliation that no
+reasonable person could continue — treated legally as a
+termination.
+
+Workplace defamation, invasion of privacy:
+Claims arising from reference statements about former
+employees, invasion of workplace privacy (electronic
+monitoring claims), or defamatory internal communications.
+
+Negligent hiring / supervision / retention:
+Claims by third parties (sometimes employees, sometimes
+outsiders) that the employer knew or should have known about
+an employee's dangerous propensities. Coverage scope varies
+by policy.
+
+Wage and hour:
+Largely EXCLUDED from standard EPLI or sub-limited heavily.
+Class actions under FLSA and state wage laws have become
+some of the most expensive employment exposures, and most
+carriers won't write full coverage for them. Defense-only
+coverage with sub-limits is sometimes available.
+
+Third-party harassment / discrimination:
+Some EPLI policies extend coverage to claims by NON-employees
+(customers, vendors, visitors) alleging discrimination or
+harassment by the insured's employees. Important for
+consumer-facing businesses.
+
+
+WHO IS INSURED
+==============
+
+The named insured (the employer entity) and:
+- Directors, officers, partners, members (in their capacity
+  as employees or supervisors)
+- Employees (when acting within scope of employment)
+- Former employees (for acts during their employment)
+- Often: independent contractors, when the policy includes
+  "leased employees" or similar extensions
+
+WHO IS A CLAIMANT (the people who can sue):
+- Current employees
+- Former employees
+- Applicants for employment
+- Third parties (for third-party harassment / discrimination
+  if the coverage extension applies)
+- Independent contractors and temporary workers (depending
+  on policy and on the legal status — joint employer claims
+  blur this line)
+
+
+CLAIMS-MADE COVERAGE
+=====================
+
+EPLI is universally claims-made. Same mechanics as E&O and
+D&O:
+
+- Retroactive date — acts before the retro date aren't
+  covered
+- Tail / Extended Reporting Period — extends reporting
+  window after termination
+- Prior acts coverage — preserves coverage for prior work
+  when starting a new policy
+
+Specific to employment: claims often follow termination or
+adverse action by months or years. An employee fired in 2024
+may file an EEOC charge in early 2025, get a right-to-sue
+letter, and file suit later in 2025 — meaning the claim hits
+the carrier in force at the time the EEOC charge or suit is
+filed, not the carrier in force at termination. Retro date
+and tail provisions need to align with this timing pattern.
+
+
+DEFENSE COSTS
+==============
+
+Defense is usually WITHIN limits on EPLI — defense erodes
+what's available for settlement. Employment litigation is
+expensive (depositions, document discovery, expert witnesses,
+class certification battles for class actions), and defense
+costs commonly consume a significant portion of the limit on
+contested cases.
+
+Counsel selection:
+Some EPLI policies let the carrier select defense counsel;
+others let the insured choose from a carrier panel; some
+allow free choice of counsel subject to carrier billing
+rates. Larger and more sophisticated insureds negotiate
+counsel selection rights.
+
+Settlement consent:
+Most policies require carrier consent to settle. "Hammer
+clause" provisions cap the carrier's liability if the
+insured refuses to settle within limits when the carrier
+recommends settlement — limiting the carrier's exposure to
+what would have been paid if the recommended settlement
+had been accepted.
+
+EEOC and administrative agency proceedings:
+EEOC charges, state human rights commission charges, and
+similar administrative proceedings typically trigger
+defense coverage before any lawsuit is filed. Some policies
+cover administrative defense as a separate sub-limit; others
+fold it into the main limit.
+
+
+COMMON EPLI EXCLUSIONS
+=======================
+
+Wage and hour:
+As noted, largely excluded or sub-limited. The FLSA and
+state wage law class action exposure has been a major
+underwriting issue.
+
+Bodily injury and property damage:
+Belongs on CGL.
+
+Workers compensation:
+Belongs on WC. EPLI excludes claims that are statutorily
+within the workers comp system.
+
+Breach of contract:
+Some breach-of-employment-contract claims are excluded;
+some are covered (carve-back for "wrongful termination"
+including breach of implied contract). Read the specific
+policy.
+
+ERISA / employee benefits:
+Belongs on Fiduciary Liability.
+
+Acts of insureds:
+Intentional discrimination by senior management may be
+excluded, with severability so innocent insureds retain
+coverage. "Knowing wrongdoing" exclusions typically require
+final adjudication.
+
+Strike, lockout, labor disputes:
+Labor relations claims often excluded.
+
+WARN Act:
+Federal and state plant-closing/mass-layoff notification
+violations may be excluded or sub-limited.
+
+Immigration / I-9 claims:
+Often excluded.
+
+Specific named matters:
+Pending or threatened matters identified at underwriting.
+
+Prior acts / prior known matters:
+Standard claims-made exclusion.
+
+OSHA citations and fines:
+Regulatory penalties from OSHA typically excluded as
+uninsurable (though defense costs sometimes covered).
+
+
+EPLI AND THE MANAGEMENT LIABILITY SUITE
+=========================================
+
+EPLI is one of the four core management liability coverages:
+- D&O (governance and securities liability)
+- EPLI (employment claims)
+- Fiduciary Liability (ERISA and benefits plan governance)
+- Crime / Fidelity (employee theft, social engineering)
+
+Private companies and nonprofits often buy these as a
+package on a single combined form ("management liability"
+package). Public companies typically buy D&O standalone and
+the others separately or in smaller packages.
+
+Coordination issues:
+- A claim by a senior executive alleging wrongful
+  termination AND breach of fiduciary duty by the board can
+  trigger BOTH EPLI and D&O. Allocation between the policies
+  matters.
+- A retaliation claim by a whistleblower who reported
+  financial fraud can implicate EPLI (retaliation) AND D&O
+  (the underlying fraud allegation against the board).
+  Coordination provisions and "other insurance" clauses
+  determine which responds first.
+- Discrimination claims from senior executives can hit both
+  EPLI and D&O depending on policy structure.
+
+
+COMMON RIDERS AND ENDORSEMENTS
+================================
+
+Third-party EPLI:
+Extends to claims by non-employees (customers, clients,
+vendors). Important for retail, hospitality, healthcare,
+education.
+
+Wage and hour defense:
+Limited coverage for defense of wage/hour class actions, with
+sub-limits and often coinsurance. Indemnity for FLSA
+violations remains largely uninsurable.
+
+Immigration practices liability:
+Adds I-9 audit defense and limited immigration practices
+coverage.
+
+ESL coaching / pre-litigation consulting:
+Some EPLI carriers provide free or discounted access to
+employment law hotlines and HR consulting services — value-
+added services that help prevent claims and structure
+responses.
+
+
+HOW EPLI UNDERWRITING WORKS
+============================
+
+Underwriters look at:
+- Employee count, industry, and geographic distribution
+  (some states are more litigious than others — California,
+  New York, New Jersey, Illinois, Massachusetts, DC are
+  often noted)
+- Employee turnover rate
+- Existence and quality of written employment policies
+  (handbook, anti-harassment policy, complaint procedures,
+  arbitration agreements)
+- HR function (in-house counsel, professional HR staff, EAP)
+- Training programs (anti-harassment training, manager
+  training, documented training records)
+- Prior claims history
+- Recent reductions in force, plant closures, or
+  reorganizations
+- Pending or threatened matters
+
+Workforce composition and industry-specific risks (healthcare
+patient interaction, retail customer interaction) factor in.
+Underwriting questionnaires can be detailed.
+
+
+COMMON CLAIMS SCENARIOS
+========================
+
+- Terminated employee files EEOC charge alleging age
+  discrimination after position is eliminated in
+  restructuring
+- Female employee alleges hostile work environment after
+  reporting harassment was met with retaliation
+- Class action under FLSA alleging misclassification of
+  workers as exempt rather than non-exempt
+- ADA claim from employee with disability alleging failure
+  to accommodate
+- Pregnancy discrimination claim from employee terminated
+  shortly after disclosing pregnancy
+- Failure-to-hire claim from rejected applicant alleging
+  discriminatory interview process
+- Constructive discharge claim from employee who resigned
+  after being subjected to discriminatory comments by
+  supervisor
+- Whistleblower retaliation claim from employee who
+  reported safety violations to OSHA and was subsequently
+  terminated
+
+
+WHO BUYS EPLI
+==============
+
+Most employers benefit from EPLI. The risk-justifying
+factors:
+
+- Employee count above a small threshold (some carriers
+  decline below 10-25 employees due to spread of risk; the
+  small market has expanded over time)
+- Industry — healthcare, retail, hospitality, technology,
+  financial services often have heightened exposures
+- Geographic concentration — operating in employee-favorable
+  jurisdictions
+- Workforce profile — high turnover, diverse workforce,
+  recent reductions in force, customer-facing employees
+- Specific risk events — recent terminations, ongoing
+  reorganizations, recent acquisitions integrating
+  workforces with different cultures
+- Contractual requirements — increasingly, business
+  partners and customers require their vendors to carry
+  EPLI
+
+Small businesses and nonprofits historically underbought
+EPLI; the market has expanded coverage availability and
+affordability, and EPLI is now common at most size tiers.
+
+
+KEY TAKEAWAYS
+=============
+
+- EPLI covers employment-related claims — discrimination,
+  harassment, wrongful termination, retaliation — that CGL
+  and WC don't cover
+- Wage and hour is largely excluded or heavily sub-limited;
+  the most expensive exposure carriers won't fully insure
+- Claims-made structure with retro date and tail mechanics;
+  timing aligns with EEOC charge / lawsuit filing, not
+  termination
+- Defense costs typically within limits — eroding limits is
+  a real consideration on contested cases
+- Sits alongside D&O, Fiduciary, and Crime in management
+  liability programs; coordination across policies matters
+- Third-party harassment/discrimination extensions important
+  for consumer-facing businesses
+- Underwriting focuses on workforce profile, HR
+  infrastructure, training, and prior claims history
