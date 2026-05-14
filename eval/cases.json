@@ -1,0 +1,170 @@
+[
+  {
+    "id": "regression-pap-part-c",
+    "tags": ["regression", "chunker", "personal-lines"],
+    "query": "What is Part C on a personal auto policy?",
+    "expected_sources": ["Personal Auto Overview"],
+    "expected_content": ["uninsured", "underinsured", "UM"],
+    "should_have_info": true
+  },
+  {
+    "id": "regression-duty-to-cooperate",
+    "tags": ["regression", "chunker", "conditions"],
+    "query": "What is the duty to cooperate?",
+    "expected_sources": ["Exclusions and Conditions Overview"],
+    "expected_content": ["cooperate", "statement", "investigation"],
+    "should_have_info": true
+  },
+  {
+    "id": "regression-other-insurance-clause",
+    "tags": ["regression", "chunker", "conditions"],
+    "query": "What is an other insurance clause?",
+    "expected_sources": ["Exclusions and Conditions Overview"],
+    "expected_content": ["primary", "excess", "pro rata"],
+    "should_have_info": true
+  },
+  {
+    "id": "regression-cg-20-10",
+    "tags": ["regression", "routing", "form-shaped-concept"],
+    "query": "What is CG 20 10?",
+    "expected_sources": ["Endorsements Overview"],
+    "expected_content": ["additional insured", "endorsement"],
+    "should_have_info": true
+  },
+  {
+    "id": "regression-dec-package",
+    "tags": ["regression", "routing", "form-shaped-concept"],
+    "query": "What's in a dec package?",
+    "expected_sources": ["ACORD Forms Overview"],
+    "expected_content": ["declarations", "named insured", "policy period"],
+    "should_have_info": true
+  },
+  {
+    "id": "regression-late-notice",
+    "tags": ["regression", "routing", "statute-shaped-concept"],
+    "query": "What happens if I give late notice of a claim?",
+    "expected_sources": ["Exclusions and Conditions Overview"],
+    "expected_content": ["prejudice", "notice"],
+    "should_have_info": true
+  },
+  {
+    "id": "form-lookup-acord-25",
+    "tags": ["routing", "form-lookup"],
+    "query": "What does ACORD 25 capture?",
+    "expected_sources": ["ACORD 25"],
+    "expected_content": ["certificate", "liability"],
+    "should_have_info": true
+  },
+  {
+    "id": "form-lookup-acord-130",
+    "tags": ["routing", "form-lookup"],
+    "query": "What does ACORD 130 capture?",
+    "expected_sources": ["ACORD 130"],
+    "expected_content": ["workers compensation"],
+    "should_have_info": true
+  },
+  {
+    "id": "statute-lookup-orc-3937-18",
+    "tags": ["routing", "statute-lookup"],
+    "query": "What does ORC 3937.18 say?",
+    "expected_sources": ["ORC3937.18"],
+    "expected_content": ["uninsured motorist"],
+    "should_have_info": true
+  },
+  {
+    "id": "multi-form-comparison",
+    "tags": ["routing", "multi-form"],
+    "query": "Compare ACORD 24 and ACORD 28",
+    "expected_sources": ["ACORD 24", "ACORD 28"],
+    "expected_content": ["property", "evidence"],
+    "should_have_info": true
+  },
+  {
+    "id": "form-as-context",
+    "tags": ["routing", "intent-context"],
+    "query": "Per ACORD 25 standards, what is general liability?",
+    "expected_sources": ["Intro to General Liability"],
+    "expected_content": ["bodily injury", "property damage"],
+    "should_have_info": true
+  },
+  {
+    "id": "cross-state-comparison",
+    "tags": ["routing", "multi-state"],
+    "query": "Compare uninsured motorist requirements between Ohio and Indiana",
+    "expected_sources": [],
+    "expected_content": ["Ohio", "Indiana"],
+    "should_have_info": true
+  },
+  {
+    "id": "concept-ho3-coverage",
+    "tags": ["content", "personal-lines"],
+    "query": "What does HO-3 cover?",
+    "expected_sources": ["Homeowners Overview"],
+    "expected_content": ["dwelling", "open-perils"],
+    "should_have_info": true
+  },
+  {
+    "id": "concept-eo-insurance",
+    "tags": ["content", "specialty-lines"],
+    "query": "What is errors and omissions insurance?",
+    "expected_sources": ["Professional Liability E&O Overview"],
+    "expected_content": ["professional", "negligent", "financial"],
+    "should_have_info": true
+  },
+  {
+    "id": "concept-treaty-vs-facultative",
+    "tags": ["content", "market-structure"],
+    "query": "How does treaty reinsurance differ from facultative?",
+    "expected_sources": ["Distribution and Reinsurance"],
+    "expected_content": ["treaty", "facultative", "individual"],
+    "should_have_info": true
+  },
+  {
+    "id": "concept-admitted-vs-surplus",
+    "tags": ["content", "market-structure"],
+    "query": "What is the difference between admitted and surplus lines carriers?",
+    "expected_sources": ["Insurance Market Structure and Regulation"],
+    "expected_content": ["admitted", "surplus", "guaranty"],
+    "should_have_info": true
+  },
+  {
+    "id": "concept-bad-faith",
+    "tags": ["content", "claims"],
+    "query": "What is bad faith in claims handling?",
+    "expected_sources": ["Claims Process Overview"],
+    "expected_content": ["unreasonable", "denial"],
+    "should_have_info": true
+  },
+  {
+    "id": "concept-fnol",
+    "tags": ["content", "claims"],
+    "query": "What is first notice of loss?",
+    "expected_sources": ["Claims Process Overview"],
+    "expected_content": ["FNOL", "notify", "carrier"],
+    "should_have_info": true
+  },
+  {
+    "id": "ohio-um-requirement",
+    "tags": ["state-specific", "regulatory"],
+    "query": "Does Ohio require uninsured motorist coverage?",
+    "expected_sources": [],
+    "expected_content": ["Ohio", "uninsured motorist"],
+    "should_have_info": true
+  },
+  {
+    "id": "should-refuse-nonexistent-form",
+    "tags": ["negative", "refusal"],
+    "query": "What does ACORD 9999 say?",
+    "expected_sources": [],
+    "expected_content": [],
+    "should_have_info": false
+  },
+  {
+    "id": "should-refuse-no-state-content",
+    "tags": ["negative", "refusal"],
+    "query": "What are the auto insurance statutes in Wyoming?",
+    "expected_sources": [],
+    "expected_content": [],
+    "should_have_info": false
+  }
+]

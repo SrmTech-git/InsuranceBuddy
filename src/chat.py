@@ -3,6 +3,7 @@
 import logging
 import os
 import re
+from dataclasses import dataclass, field
 from dotenv import load_dotenv
 import anthropic
 from retrieve import query, find_form, list_all_forms
@@ -15,6 +16,23 @@ from config import (
     CLASSIFIER_MAX_TOKENS,
     ANSWER_MAX_TOKENS,
 )
+
+
+@dataclass
+class AskTrace:
+    """Structured result from ask_traced() — answer plus pipeline state.
+
+    Used by the eval framework (and any other caller that needs visibility
+    into routing/retrieval decisions). For chat use, prefer the plain ask()
+    wrapper.
+    """
+    question: str
+    answer: str
+    collections_searched: list[str]
+    intent: str
+    detected_forms: list[str]
+    detected_states: list[str]
+    retrieved_sources: list[dict] = field(default_factory=list)
 
 load_dotenv(override=True)
 
@@ -494,13 +512,32 @@ def _call_llm(question: str, context: str, sources_str: str, collections_searche
 
 def ask(question: str) -> str:
     """Classify the query, retrieve relevant context, and return an answer."""
-    question = expand_abbreviations(question)
-    detected_forms = detect_form_numbers(question)
-    collections, intent = detect_collection(question, detected_forms)
+    return ask_traced(question).answer
 
-    inventory_response = _handle_inventory(question, collections)
+
+def ask_traced(question: str) -> AskTrace:
+    """Like ask() but returns the full pipeline trace alongside the answer.
+
+    Used by the eval framework to score routing, retrieval, and content
+    correctness. The trace captures the router's decisions, what forms
+    and states were detected, and which source documents were retrieved.
+    """
+    expanded = expand_abbreviations(question)
+    detected_forms = detect_form_numbers(expanded)
+    collections, intent = detect_collection(expanded, detected_forms)
+    states = detect_states(expanded)
+
+    inventory_response = _handle_inventory(expanded, collections)
     if inventory_response is not None:
-        return inventory_response
+        return AskTrace(
+            question=question,
+            answer=inventory_response,
+            collections_searched=collections,
+            intent=intent,
+            detected_forms=detected_forms,
+            detected_states=states,
+            retrieved_sources=[],
+        )
 
     # Apply the form filter only when the LLM classifier judged the forms
     # are the subject of the query. When the intent is "context" (forms
@@ -511,25 +548,61 @@ def ask(question: str) -> str:
         form_collections: list[str] | None = None
         logger.info("Form intent is context — skipping form filter")
     else:
-        filters, form_collections, error = _resolve_form_filter(question)
+        filters, form_collections, error = _resolve_form_filter(expanded)
         if error:
-            return error
+            return AskTrace(
+                question=question,
+                answer=error,
+                collections_searched=collections,
+                intent=intent,
+                detected_forms=detected_forms,
+                detected_states=states,
+                retrieved_sources=[],
+            )
 
     if form_collections:
         collections = form_collections
 
-    # Detect states and combine with any form-number filter
-    states = detect_states(question)
     state_filter = _build_state_filter(states)
     combined_filters = _merge_filters(filters, state_filter)
 
-    documents, metadatas, labels = _retrieve_chunks(question, collections, combined_filters)
+    documents, metadatas, labels = _retrieve_chunks(expanded, collections, combined_filters)
 
     if not documents:
-        return "No relevant results found in the database."
+        return AskTrace(
+            question=question,
+            answer="No relevant results found in the database.",
+            collections_searched=collections,
+            intent=intent,
+            detected_forms=detected_forms,
+            detected_states=states,
+            retrieved_sources=[],
+        )
 
     context, sources_str = _build_context(documents, metadatas, labels)
-    return _call_llm(question, context, sources_str, " + ".join(collections))
+    answer = _call_llm(expanded, context, sources_str, " + ".join(collections))
+
+    # Capture per-chunk source info — used by eval scoring
+    retrieved_sources = [
+        {
+            "filename": m.get("filename", ""),
+            "form_number": m.get("form_number", ""),
+            "description": m.get("description", ""),
+            "state": m.get("state", ""),
+            "collection": label,
+        }
+        for m, label in zip(metadatas, labels)
+    ]
+
+    return AskTrace(
+        question=question,
+        answer=answer,
+        collections_searched=collections,
+        intent=intent,
+        detected_forms=detected_forms,
+        detected_states=states,
+        retrieved_sources=retrieved_sources,
+    )
 
 
 # ---------------------------------------------------------------------------

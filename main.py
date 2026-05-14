@@ -42,6 +42,11 @@ def cmd_migrate(args: argparse.Namespace) -> None:
     migrate(args.collection, args.state, dry_run=args.dry_run)
 
 
+def cmd_eval(args: argparse.Namespace) -> None:
+    from eval.run_eval import run_eval_from_cli
+    run_eval_from_cli(args)
+
+
 def cmd_scrape(args: argparse.Namespace) -> None:
     from scrape_orc import detect_code_type, fetch_chapter_page, find_pdf_sections, download_pdfs
 
@@ -90,6 +95,19 @@ def main() -> None:
     migrate_parser.add_argument("--state", default="OH", help="State code to apply to untagged chunks (default: OH)")
     migrate_parser.add_argument("--dry-run", action="store_true", help="Preview without writing")
 
+    # eval
+    eval_parser = subparsers.add_parser("eval", help="Run the eval suite against test cases")
+    eval_parser.add_argument(
+        "--tags",
+        default=None,
+        help="Comma-separated tags to filter cases (e.g. 'regression,routing')",
+    )
+    eval_parser.add_argument(
+        "--baseline",
+        action="store_true",
+        help="Also overwrite eval/baseline.md with this run's report",
+    )
+
     # scrape
     scrape_parser = subparsers.add_parser("scrape", help="Download authenticated PDFs from codes.ohio.gov")
     scrape_parser.add_argument(
@@ -100,7 +118,7 @@ def main() -> None:
     )
 
     args = parser.parse_args()
-    dispatch = {"chat": cmd_chat, "ingest": cmd_ingest, "migrate": cmd_migrate, "scrape": cmd_scrape}
+    dispatch = {"chat": cmd_chat, "ingest": cmd_ingest, "migrate": cmd_migrate, "eval": cmd_eval, "scrape": cmd_scrape}
     dispatch[args.command](args)
 
 
