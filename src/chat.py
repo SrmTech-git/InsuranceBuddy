@@ -299,6 +299,7 @@ def _llm_route(question: str, detected_forms: list[str] | None = None) -> tuple[
     response = _get_client().messages.create(
         model=GENERATION_MODEL,
         max_tokens=CLASSIFIER_MAX_TOKENS,
+        temperature=0,  # routing should be deterministic — same query, same route
         messages=[{"role": "user", "content": prompt}],
     )
     return _parse_route_response(response.content[0].text, detected_forms)
@@ -615,6 +616,7 @@ def _call_llm(question: str, context: str, sources_str: str, collections_searche
     response = _get_client().messages.create(
         model=GENERATION_MODEL,
         max_tokens=ANSWER_MAX_TOKENS,
+        temperature=0,  # grounded answers should be deterministic and faithful to context
         system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": user_message}],
     )
