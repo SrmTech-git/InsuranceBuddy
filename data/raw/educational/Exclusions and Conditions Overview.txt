@@ -1,0 +1,634 @@
+Exclusions and Conditions: The Other Two Pillars of a Policy
+=============================================================
+
+This document explains the two policy components that sit
+alongside the coverage form and endorsements — exclusions
+(what's NOT covered) and conditions (what the insured has to
+DO for coverage to apply). It's a conceptual companion to the
+Endorsements Overview; together those three components — base
+form, endorsements, exclusions, and conditions — make up the
+full insurance contract.
+
+This doc is intentionally written without form numbers so it
+serves general "how do exclusions work" / "what is a condition"
+queries broadly.
+
+
+THE FULL POLICY ANATOMY
+========================
+
+An insurance policy is built from layered components:
+
+- Declarations: the cover sheet — named insured, policy
+  period, limits, premium, list of attached forms and
+  endorsements
+- Insuring Agreement: the carrier's promise to pay for a
+  defined category of loss (the affirmative coverage grant)
+- Definitions: terms with policy-specific meanings
+- Exclusions: what the policy does NOT cover
+- Conditions: rules and duties governing how coverage works
+- Endorsements: amendments modifying any of the above
+
+Exclusions and conditions are sometimes overlooked because
+they don't grant coverage — but they're often what determines
+whether a claim actually gets paid. The insuring agreement
+opens the door; exclusions close specific doors; conditions
+say what the insured has to do to walk through.
+
+
+PART ONE — EXCLUSIONS
+======================
+
+
+WHAT AN EXCLUSION IS
+====================
+
+An exclusion is a provision that removes coverage the
+insuring agreement would otherwise provide. Exclusions narrow
+the affirmative coverage grant — they don't grant any
+coverage, only take it away.
+
+Reading order matters:
+1. Insuring agreement establishes what the policy covers in
+   principle
+2. Definitions clarify the scope of key terms
+3. Exclusions remove specific categories from that coverage
+4. Endorsements may add coverage back (an "exception" or
+   "carve-back" to an exclusion) or add further exclusions
+
+A claim is covered only if it falls within the insuring
+agreement AND no exclusion applies. The carrier bears the
+burden of proving an exclusion applies; the insured bears the
+burden of proving the claim falls within the insuring
+agreement.
+
+
+WHY EXCLUSIONS EXIST
+====================
+
+Carriers use exclusions for several reasons:
+
+Risk that doesn't fit the line:
+A general liability policy isn't designed to cover auto
+exposures — those belong on commercial auto. The CGL
+auto exclusion isn't denying coverage maliciously; it's
+keeping the line in its lane.
+
+Risk that's separately insured:
+Workers compensation exposures go on WC, not on CGL or EPLI.
+Professional services exposures go on E&O, not CGL.
+Excluding these from one line directs them to the right
+line.
+
+Catastrophic risk requiring separate underwriting:
+Flood, earthquake, war, nuclear — these are excluded because
+their potential aggregate exposure would destabilize a normal
+carrier's book. Either they go uncovered, get covered by
+specialty markets (NFIP for flood), or get added back by
+specific endorsement with separate underwriting.
+
+Risk that's uninsurable as a matter of public policy:
+Intentional acts, criminal acts, punitive damages in some
+states — public policy prohibits insuring these because
+insuring them would undermine the deterrent function of
+liability.
+
+Risk the underwriter declines on this specific account:
+Account-specific exclusions added by endorsement during
+underwriting. A contractor with a history of mold claims
+might have a mold exclusion added; a restaurant with prior
+assault and battery claims might have an A&B exclusion.
+
+Adverse selection management:
+Wear and tear, intentional damage, and similar exclusions
+prevent the policy from becoming a maintenance contract —
+insurance covers fortuitous losses, not predictable
+deterioration.
+
+
+TYPES OF EXCLUSIONS
+====================
+
+Absolute exclusions:
+Remove coverage with no carve-backs. The excluded category is
+simply not covered, period. Examples: nuclear hazard exclusion
+on most policies, intentional act exclusions for most
+purposes.
+
+Exclusions with exceptions ("carve-backs"):
+Remove coverage but specify situations where the exclusion
+doesn't apply, restoring some coverage. The exclusion narrows
+the original grant; the carve-back partially restores it.
+Most common exclusions have at least some carve-backs.
+
+Example: a typical CGL pollution exclusion excludes pollution
+liability broadly, but the carve-back may preserve coverage
+for hostile fire, building heating equipment, and certain
+specific named situations. Reading the carve-backs is as
+important as reading the exclusion.
+
+Conditional exclusions:
+Exclude coverage if a stated condition is met. Example: an
+exclusion for property damage to property in the insured's
+care, custody, or control — applies when the property is
+"in the insured's care, custody, or control" but not
+otherwise.
+
+Named-peril vs all-peril exclusions:
+Property forms can be written named-perils (covers only listed
+causes) or open-perils (covers all causes except those
+excluded). In open-perils forms, the exclusions do the work
+of defining coverage scope. In named-perils forms, exclusions
+play a more limited role because most causes are already
+outside the affirmative grant.
+
+Personal/separate vs property/concurrent causation:
+When two causes contribute to a loss — one covered, one
+excluded — different policies handle the question differently.
+Anti-concurrent causation clauses say if any excluded cause
+contributes, the loss is excluded; some courts disregard such
+clauses. The interaction between covered and excluded causes
+is one of the most heavily litigated areas in property
+insurance.
+
+
+COMMON EXCLUSIONS ACROSS LINES
+================================
+
+Some exclusions appear in nearly every policy:
+
+War and military action:
+Excludes losses from war, civil war, insurrection, and
+related military hostilities. Heavily litigated for cyber
+events attributed to nation-states.
+
+Nuclear hazard:
+Excludes losses from nuclear reaction, radiation, or
+radioactive contamination. A holdover from Cold War-era
+underwriting concerns; nuclear losses are addressed through
+specialized pools.
+
+Intentional acts:
+Excludes losses the insured intentionally caused or expected.
+Limits insurance to fortuitous losses. Severability provisions
+typically preserve coverage for innocent co-insureds even
+when one insured acted intentionally.
+
+Criminal acts:
+Excludes acts that constitute a crime. Sometimes overlaps
+with intentional acts; sometimes broader (a negligent crime
+like negligent homicide).
+
+Wear and tear / inherent vice / latent defect:
+Excludes deterioration and gradual breakdown. Insurance
+covers sudden fortuitous losses, not maintenance.
+
+Mechanical breakdown:
+Excludes losses from mechanical failure of equipment.
+Equipment Breakdown coverage is a separate line or
+endorsement.
+
+Pollution:
+Excludes pollution liability. Common in CGL and property.
+Pollution coverage is a separate environmental insurance
+market.
+
+Asbestos, lead, mold, silica:
+Often excluded due to mass tort exposure. Coverage may be
+restored with sub-limits via endorsement; specialty markets
+provide standalone coverage.
+
+Communicable disease:
+Added widely after COVID-19 disrupted business interruption
+markets. Specifically excludes losses from communicable
+disease and pandemic.
+
+Cyber / data breach:
+Most property and CGL policies have explicit cyber exclusions
+directing those exposures to cyber liability policies.
+
+Professional services:
+On CGL, excludes liability for professional services
+(directing those to E&O). On property, excludes loss to
+property arising from professional services.
+
+Employment practices:
+On CGL, excludes employment-related practices (directing
+those to EPLI).
+
+Auto:
+On CGL, excludes auto liability (directing to commercial
+auto). On property, may exclude damage to vehicles.
+
+Aircraft and watercraft:
+Often excluded above a threshold size on personal and
+commercial property policies — these have specialty
+markets.
+
+Earth movement / earthquake:
+Excluded from most property policies. Separate earthquake
+endorsement or specialty policy adds coverage.
+
+Flood:
+Excluded from virtually all property policies. NFIP or
+private flood is required.
+
+Terrorism:
+TRIA-compliant terrorism exclusions/inclusions on commercial
+policies. Personal policies typically include limited
+terrorism coverage.
+
+Punitive damages:
+Insurability varies by state — some states permit insurance
+of punitive damages, some prohibit it, some permit only
+vicarious punitives. Exclusions often track state law.
+
+
+ENDORSEMENT EXCLUSIONS
+=======================
+
+In addition to base-form exclusions, exclusions can be added
+by endorsement during underwriting. Common endorsement-added
+exclusions:
+
+- Total Pollution Exclusion (eliminates the carve-backs in
+  the base pollution exclusion)
+- Asbestos / lead / mold exclusions when the base form
+  doesn't already have them
+- Designated Operations Exclusion (excludes specific types of
+  operations the insured engages in)
+- Designated Premises Exclusion (excludes losses at specific
+  named locations)
+- Communicable Disease Exclusion
+- Cyber Exclusion (on legacy policies that didn't have one)
+- Specific named risk exclusions (a particular product line
+  the underwriter declined)
+
+Endorsement exclusions take precedence over the base form
+because they're the more specific document. If an endorsement
+exclusion conflicts with base-form coverage, the endorsement
+controls.
+
+
+HOW COURTS READ EXCLUSIONS
+============================
+
+Insurance contracts are construed in favor of coverage:
+
+- Ambiguity is read against the carrier (contra proferentem
+  — interpreted against the drafter)
+- Exclusions are narrowly construed; coverage grants
+  broadly construed
+- The reasonable expectations of the insured matter,
+  especially when the policy language is technical
+- The carrier bears the burden of proving an exclusion
+  applies
+
+These doctrines push back against overly broad exclusion
+language. Carriers have responded with more specific
+exclusion drafting over time — older, broader exclusion
+language has often been narrowed or replaced.
+
+
+READING AN EXCLUSION IN PRACTICE
+=================================
+
+When evaluating whether an exclusion applies to a claim:
+
+1. Read the affirmative coverage grant — is the claim within
+   it in principle?
+2. Read the exclusion as a whole — what category does it
+   remove?
+3. Identify carve-backs / exceptions — what restored
+   coverage might apply?
+4. Map the actual facts onto the exclusion language — does
+   the exclusion clearly apply, or is there ambiguity?
+5. Check for endorsements that may modify or override the
+   base exclusion
+6. Apply state-law construction principles — narrow reading
+   of exclusions, ambiguity against the carrier
+
+Many coverage disputes turn on which exclusion's specific
+language matches the loss facts, not on broad principles. A
+well-drafted exclusion is one whose words clearly fit the
+exposures the carrier intended to exclude — and the litigation
+record is full of cases where the words didn't fit cleanly.
+
+
+PART TWO — CONDITIONS
+======================
+
+
+WHAT A CONDITION IS
+====================
+
+A condition is a provision specifying what the insured (and
+sometimes the carrier) must DO for coverage to apply or
+continue. Conditions are duties, procedures, and rules — they
+don't grant or remove coverage directly, but failure to
+comply can extinguish coverage for a claim.
+
+Conditions vs exclusions:
+- Exclusions remove a category of loss from coverage
+- Conditions impose duties on the insured related to the
+  claim or policy
+- A loss may be within coverage and outside any exclusion,
+  yet still denied because the insured breached a condition
+
+
+COMMON CONDITIONS
+==================
+
+Prompt / timely notice of loss:
+The insured must notify the carrier promptly after a loss.
+Some policies specify a timeframe (within 30 days, within 60
+days); most use "as soon as practicable" or "promptly."
+
+Why it matters:
+- Allows the carrier to investigate while evidence is fresh
+- Allows control over claim handling and defense decisions
+- Allows reserve setting and reinsurance reporting
+
+Consequences of breach:
+Vary by state. Some states require the carrier to show
+PREJUDICE from late notice before denying — late notice
+alone isn't enough if the carrier wasn't actually harmed.
+Other states treat late notice as voiding coverage per se.
+The trend has been toward requiring prejudice.
+
+Duty to cooperate:
+The insured must cooperate with the carrier's investigation
+— providing statements, attending depositions, producing
+documents, attending examinations under oath if demanded.
+
+For third-party claims, cooperation extends to defense —
+the insured must assist defense counsel, not undermine the
+defense (e.g. by giving statements adverse to the carrier's
+defense position).
+
+Consequences of breach:
+Material non-cooperation can void coverage. Courts generally
+require the carrier to show the non-cooperation was
+substantial and prejudicial.
+
+Proof of Loss:
+For property claims, the insured must submit a sworn
+statement documenting the loss — typically within a stated
+period (often 60 days from carrier's request). Proof of loss
+formally establishes what the insured is claiming and
+triggers carrier deadlines to accept, reject, or request
+more information.
+
+No voluntary payments / no admission of liability:
+The insured cannot make payments, assume obligations, or
+admit liability without the carrier's consent. Protects the
+carrier from the insured undermining defense or settling
+prematurely. Carve-backs typically permit emergency first
+aid and protection-of-property expenses.
+
+Subrogation / transfer of rights of recovery:
+The insured assigns to the carrier any right to recover from
+third parties for the loss the carrier paid. The insured
+must cooperate with subrogation pursuit and must not waive
+or impair subrogation rights without consent.
+
+Waiver of subrogation: the insured may waive subrogation
+against specific parties IF done in writing BEFORE the loss
+(a written waiver of subrogation endorsement, or contractual
+language pre-loss). Waiving subrogation post-loss without
+carrier consent breaches the condition.
+
+Other Insurance:
+Specifies how the policy responds when other insurance also
+applies to the same loss. Common structures:
+
+- Primary: this policy responds first up to its limit
+- Excess: this policy responds only after other insurance
+  is exhausted
+- Pro rata: this policy and other insurance share
+  proportionally
+- Escape: this policy provides no coverage if other
+  insurance applies (older, disfavored)
+
+When two policies both claim to be excess to each other,
+courts often impose pro rata sharing as a fallback.
+
+Cancellation and non-renewal:
+Specifies the procedures for cancelling or non-renewing the
+policy — notice timeframes, permissible reasons,
+return-premium calculation. Heavily regulated by state law
+to protect consumers and notice requirements (typically 10
+days for non-payment, 30-45 days for other reasons).
+
+Audit (commercial):
+For policies rated on auditable exposure bases (workers comp
+payroll, GL receipts/payroll, commercial auto fleets), the
+carrier has the right to audit the insured's records at year-
+end. Premium is adjusted up or down based on actual exposure.
+Failure to cooperate with audit can result in policy
+cancellation and presumed exposure billing.
+
+Examination Under Oath (EUO):
+The carrier may demand the insured submit to a sworn formal
+examination on claim facts. Common in suspected fraud
+investigations. Refusing to attend an EUO can breach the
+cooperation condition and void coverage for the claim.
+
+Action against the company / legal action clause:
+Sets the procedural prerequisites for the insured to sue the
+carrier — typically requires full compliance with policy
+conditions, exhaustion of internal claim procedures, and
+suit filed within a specified period (often two years).
+
+Concealment, misrepresentation, or fraud:
+Voids the policy (in some states, voids it ab initio — from
+the beginning) if the insured misrepresents material facts or
+conceals information from the carrier, whether at
+application, during the policy period, or in claims. The
+standard is usually MATERIALITY — the misrepresentation must
+have affected the carrier's underwriting or claim decision.
+
+Severability of conditions:
+Some conditions are severable — one insured's breach doesn't
+void coverage for innocent co-insureds. Important on policies
+with multiple insureds (corporate policies, family policies).
+Read the specific severability language; it varies.
+
+Bankruptcy of the insured:
+Bankruptcy or insolvency of the insured doesn't relieve the
+carrier of its obligations. The carrier continues to be
+liable for covered claims even when the insured can't pay
+deductibles or self-insured retentions (though the carrier
+may take a position against the bankrupt estate for
+unrecovered SIRs).
+
+Inspection rights:
+The carrier has the right to inspect insured property and
+operations. Used for underwriting (initial inspection),
+periodic monitoring, and post-loss investigation. Refusing
+inspection rights breaches the condition.
+
+Premium audit (commercial):
+Already noted above — annual audit on auditable lines.
+
+Choice of law / forum selection:
+Specifies what state's law governs disputes and where suit
+must be filed. Enforcement varies by state — some
+jurisdictions decline to enforce forum-selection clauses
+that disadvantage insureds.
+
+
+CONDITIONS vs WARRANTIES
+=========================
+
+A related concept that's now largely historical:
+
+Warranty:
+In older insurance law, a "warranty" was a strict statement
+of fact by the insured — and any breach, regardless of
+materiality, voided the policy. Modern statute has largely
+eliminated strict warranty doctrine in favor of materiality
+standards: a misstatement voids coverage only if it was
+material to the carrier's underwriting or claim decision.
+
+Representation:
+A statement the insured makes during application. Modern law
+treats most application statements as representations subject
+to materiality, not warranties subject to strict compliance.
+
+Conditions:
+Continuing duties during the policy period — distinct from
+warranties (one-time statements) and representations
+(application statements).
+
+
+CONSEQUENCES OF CONDITION BREACH
+=================================
+
+The consequences of breaching a condition depend on:
+
+The nature of the condition:
+- Conditions precedent to coverage: must be performed for
+  coverage to attach. Failure means no coverage for that
+  claim.
+- Conditions subsequent: ongoing obligations whose breach may
+  void coverage or trigger other remedies.
+
+State law on prejudice:
+Many states require the carrier to show actual prejudice
+before a condition breach voids coverage — the carrier must
+prove the breach actually harmed its investigation, defense,
+or position. The "no harm, no foul" approach has gained
+ground over strict per-se voiding.
+
+The specific policy language:
+Some conditions are absolute by their terms ("no coverage
+shall be afforded under this policy unless..."). Others are
+softer and require the carrier to show prejudice or
+materiality.
+
+Severability:
+On policies with multiple insureds, severability provisions
+may preserve coverage for innocent co-insureds even when one
+insured breaches a condition.
+
+
+READING CONDITIONS IN PRACTICE
+================================
+
+When evaluating whether a condition has been breached:
+
+1. Identify the specific condition at issue
+2. Determine what the condition requires (timeline, action,
+   notice, etc.)
+3. Compare the insured's actual conduct to the requirement
+4. Determine whether the policy makes the condition
+   absolute or subject to prejudice / materiality
+5. Apply state law on prejudice requirements
+6. Check severability — does breach by one insured affect
+   innocent co-insureds?
+
+Coverage denials based on condition breach are common but
+often contestable. Insureds and their counsel should not
+assume that a denial based on "late notice" or "failure to
+cooperate" is the end of the matter — the carrier may need
+to demonstrate prejudice that didn't actually occur.
+
+
+HOW EXCLUSIONS AND CONDITIONS INTERACT WITH ENDORSEMENTS
+==========================================================
+
+Endorsements can modify exclusions and conditions just as
+they modify coverage grants:
+
+- Endorsement adds an exclusion not in the base form
+  (Designated Operations, Total Pollution, etc.)
+- Endorsement REMOVES or NARROWS a base-form exclusion
+  (Water Backup endorsement narrows the water exclusion;
+  Ordinance or Law endorsement narrows the code-upgrade
+  exclusion)
+- Endorsement modifies a condition (adds an additional
+  insured with different notice obligations; extends the
+  reporting period on a claims-made policy)
+- Endorsement creates a separate condition (a specific
+  warranty endorsement requiring particular safety
+  equipment, for example)
+
+Order of precedence: endorsements take precedence over base
+form. When endorsement language conflicts with base form
+language, the endorsement controls. When endorsements
+conflict with each other, courts typically read them
+together if possible, with ambiguities favoring coverage.
+
+
+COVERAGE ANALYSIS — PUTTING IT ALL TOGETHER
+=============================================
+
+A complete coverage analysis for a claim requires:
+
+1. Identify the relevant declarations (named insured, policy
+   period, limits, attached forms)
+2. Read the insuring agreement — what does the policy
+   affirmatively cover?
+3. Read the definitions — what do the key terms mean?
+4. Check exclusions — does any exclusion remove this loss
+   from coverage?
+5. Check carve-backs to exclusions — does any exception
+   restore coverage?
+6. Read all endorsements in order — do any add, remove, or
+   modify coverage, exclusions, or conditions?
+7. Check conditions — has the insured complied with all
+   applicable duties?
+8. Apply state-law construction principles to any ambiguity
+9. Document the analysis with specific policy language
+   citations
+
+The order matters because conclusions at each step affect
+later steps — an exclusion that initially seems to apply may
+be narrowed by an endorsement carve-back, or a condition
+breach that appears to void coverage may not actually do so
+under state prejudice law.
+
+
+KEY TAKEAWAYS
+=============
+
+- Exclusions remove specific categories from the affirmative
+  coverage grant; the carrier bears the burden of proving
+  they apply
+- Common exclusions reflect line-of-business boundaries,
+  separately insured exposures, catastrophic risks, public
+  policy limits, account underwriting decisions, and
+  fortuity requirements
+- Carve-backs (exceptions to exclusions) often matter as
+  much as the exclusions themselves
+- Conditions impose duties on the insured — prompt notice,
+  cooperation, proof of loss, no voluntary payments,
+  subrogation cooperation, and others
+- Many states require prejudice before condition breach voids
+  coverage; older per-se voiding has lost ground
+- Endorsements can modify both exclusions and conditions and
+  take precedence over the base form
+- A complete coverage analysis works through declarations,
+  insuring agreement, definitions, exclusions and carve-
+  backs, endorsements, and conditions in order
