@@ -12,12 +12,13 @@
 from chunkers.base import Chunker
 from chunkers.default import default_chunker
 from chunkers.educational import educational_chunker
+from chunkers.forms import forms_chunker
 
 # Registry: collection name -> chunker function.
 # Add new entries as collection-specific chunkers are written.
 CHUNKER_REGISTRY: dict[str, Chunker] = {
     "educational": educational_chunker,
-    # "forms":       forms_chunker,         # Phase 3
+    "forms":       forms_chunker,
     # "regulatory":  regulatory_chunker,    # Phase 4
 }
 

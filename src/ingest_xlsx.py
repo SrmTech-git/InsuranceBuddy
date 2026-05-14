@@ -4,13 +4,8 @@ import openpyxl
 from pathlib import Path
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from states import STATE_MAP
+from states import HEADER_TO_STATE_MAP
 from config import CHUNK_SIZE, CHUNK_OVERLAP
-
-# Spreadsheet column headers use Title Case ("Ohio"); STATE_MAP keys are
-# lowercase ("ohio") to match folder names. Derive once so adding a state
-# in states.py is the only change needed.
-_HEADER_TO_STATE: dict[str, str] = {name.title(): code for name, code in STATE_MAP.items()}
 
 # Row types to skip when parsing data rows
 _SKIP_DATA_POINTS = {"Data Point", None}
@@ -21,8 +16,8 @@ def _find_state_columns(ws, header_row: int = 4) -> dict[int, str]:
     state_cols = {}
     for col in range(1, ws.max_column + 1):
         header = ws.cell(row=header_row, column=col).value
-        if header in _HEADER_TO_STATE:
-            state_cols[col] = _HEADER_TO_STATE[header]
+        if header in HEADER_TO_STATE_MAP:
+            state_cols[col] = HEADER_TO_STATE_MAP[header]
     return state_cols
 
 
@@ -39,8 +34,8 @@ def _parse_quick_reference(ws, state_lines: dict[str, list[str]]) -> None:
     header = rows[1]
     state_cols: dict[int, str] = {}
     for i, val in enumerate(header):
-        if val and str(val).strip() in _HEADER_TO_STATE:
-            state_cols[i] = _HEADER_TO_STATE[str(val).strip()]
+        if val and str(val).strip() in HEADER_TO_STATE_MAP:
+            state_cols[i] = HEADER_TO_STATE_MAP[str(val).strip()]
     if not state_cols:
         return
 
@@ -166,7 +161,7 @@ def load_xlsx_by_state(file_path: str) -> list[tuple[str, list[Document]]]:
             continue
 
         state_name = next(
-            (name for name, code in _HEADER_TO_STATE.items() if code == state_code),
+            (name for name, code in HEADER_TO_STATE_MAP.items() if code == state_code),
             state_code,
         )
         header = (

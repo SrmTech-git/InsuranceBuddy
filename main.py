@@ -43,8 +43,8 @@ def cmd_migrate(args: argparse.Namespace) -> None:
 
 
 def cmd_eval(args: argparse.Namespace) -> None:
-    from eval.run_eval import run_eval_from_cli
-    run_eval_from_cli(args)
+    from eval.run_eval import run_eval
+    run_eval(args)
 
 
 def cmd_scrape(args: argparse.Namespace) -> None:
@@ -75,7 +75,7 @@ def main() -> None:
 
     # ingest — choices are sourced from chat.COLLECTION_REGISTRY so adding
     # a new collection there automatically extends this CLI.
-    from chat import COLLECTION_REGISTRY
+    from router import COLLECTION_REGISTRY
     ingest_parser = subparsers.add_parser("ingest", help="Batch-embed documents from data/raw/")
     ingest_parser.add_argument(
         "--collection",

@@ -16,10 +16,14 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-# Make src/ importable when run via python main.py eval
+# Make src/ and the project root importable. src/ is needed so `from chat
+# import ...` resolves; the project root is needed so `from eval.scorer
+# import ...` resolves when this file is run directly as a script (the CLI
+# path through main.py already has both).
 _THIS_DIR = Path(__file__).resolve().parent
 _ROOT = _THIS_DIR.parent
 sys.path.insert(0, str(_ROOT / "src"))
+sys.path.insert(0, str(_ROOT))
 
 # Silence noisy library loggers — the eval doesn't need HTTP traces or
 # embedding model progress bars. Has to happen before sentence_transformers
@@ -27,6 +31,7 @@ sys.path.insert(0, str(_ROOT / "src"))
 logging.getLogger("httpx").setLevel(logging.WARNING)
 logging.getLogger("anthropic").setLevel(logging.WARNING)
 logging.getLogger("chat").setLevel(logging.WARNING)
+logging.getLogger("retrieve").setLevel(logging.WARNING)
 os.environ.setdefault("HF_HUB_DISABLE_PROGRESS_BARS", "1")
 os.environ.setdefault("TQDM_DISABLE", "1")
 
@@ -117,58 +122,41 @@ def render_report(scores: list[CaseScore], timestamp: str) -> str:
     return "\n".join(lines) + "\n"
 
 
-def main() -> None:
+def run_eval(args) -> None:
+    """Run the eval suite from parsed args.
+
+    Shared entry point for both the standalone `python eval/run_eval.py`
+    invocation and the `python main.py eval` CLI dispatch — both produce
+    the same argparse.Namespace shape (.tags, .baseline).
+    """
+    tag_filter = [t.strip() for t in args.tags.split(",")] if args.tags else None
+    cases = load_cases(tag_filter)
+    print(f"Running {len(cases)} eval case(s)\n")
+
+    scores = run_cases(cases)
+
+    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    report = render_report(scores, timestamp)
+
+    REPORTS_DIR.mkdir(exist_ok=True)
+    report_path = REPORTS_DIR / f"{timestamp}.md"
+    report_path.write_text(report, encoding="utf-8")
+    print(f"\nReport: {report_path}")
+
+    if args.baseline:
+        BASELINE_PATH.write_text(report, encoding="utf-8")
+        print(f"Baseline updated: {BASELINE_PATH}")
+
+    passed = sum(1 for s in scores if s.passed)
+    print(f"\n{passed}/{len(scores)} passed")
+
+
+def _parse_cli_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Run the eval suite")
     parser.add_argument("--tags", default=None, help="Comma-separated tags to filter cases")
     parser.add_argument("--baseline", action="store_true", help="Also overwrite eval/baseline.md")
-    args = parser.parse_args()
-
-    tag_filter = [t.strip() for t in args.tags.split(",")] if args.tags else None
-    cases = load_cases(tag_filter)
-    print(f"Running {len(cases)} eval case(s)\n")
-
-    scores = run_cases(cases)
-
-    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    report = render_report(scores, timestamp)
-
-    REPORTS_DIR.mkdir(exist_ok=True)
-    report_path = REPORTS_DIR / f"{timestamp}.md"
-    report_path.write_text(report, encoding="utf-8")
-    print(f"\nReport: {report_path}")
-
-    if args.baseline:
-        BASELINE_PATH.write_text(report, encoding="utf-8")
-        print(f"Baseline updated: {BASELINE_PATH}")
-
-    # Summary line for shell scripting
-    passed = sum(1 for s in scores if s.passed)
-    print(f"\n{passed}/{len(scores)} passed")
-
-
-def run_eval_from_cli(args) -> None:
-    """Entry point used by main.py CLI dispatch."""
-    tag_filter = [t.strip() for t in args.tags.split(",")] if args.tags else None
-    cases = load_cases(tag_filter)
-    print(f"Running {len(cases)} eval case(s)\n")
-
-    scores = run_cases(cases)
-
-    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    report = render_report(scores, timestamp)
-
-    REPORTS_DIR.mkdir(exist_ok=True)
-    report_path = REPORTS_DIR / f"{timestamp}.md"
-    report_path.write_text(report, encoding="utf-8")
-    print(f"\nReport: {report_path}")
-
-    if args.baseline:
-        BASELINE_PATH.write_text(report, encoding="utf-8")
-        print(f"Baseline updated: {BASELINE_PATH}")
-
-    passed = sum(1 for s in scores if s.passed)
-    print(f"\n{passed}/{len(scores)} passed")
+    return parser.parse_args()
 
 
 if __name__ == "__main__":
-    main()
+    run_eval(_parse_cli_args())

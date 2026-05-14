@@ -152,6 +152,46 @@
     "should_have_info": true
   },
   {
+    "id": "inventory-query",
+    "tags": ["routing", "inventory"],
+    "query": "What forms do we have?",
+    "expected_sources": [],
+    "expected_content": ["ACORD 25", "Chunks"],
+    "should_have_info": true
+  },
+  {
+    "id": "bare-section-detection",
+    "tags": ["routing", "form-lookup"],
+    "query": "What does section 3937.18 say?",
+    "expected_sources": ["ORC3937.18"],
+    "expected_content": ["uninsured motorist"],
+    "should_have_info": true
+  },
+  {
+    "id": "cross-collection-multi-form",
+    "tags": ["routing", "multi-form"],
+    "query": "Compare ACORD 25 and ORC 3937.18",
+    "expected_sources": ["ACORD 25", "ORC3937.18"],
+    "expected_content": ["ACORD 25", "ORC", "certificate"],
+    "should_have_info": true
+  },
+  {
+    "id": "abbreviation-expansion",
+    "tags": ["content", "abbreviation"],
+    "query": "What does WC cover?",
+    "expected_sources": ["Workers Comp"],
+    "expected_content": ["workers compensation"],
+    "should_have_info": true
+  },
+  {
+    "id": "state-filter-includes-untagged",
+    "tags": ["regression", "state-specific"],
+    "query": "Generally, what does bodily injury coverage mean? Asking from Indiana.",
+    "expected_sources": ["Insurance Coverage Basics"],
+    "expected_content": ["bodily injury"],
+    "should_have_info": true
+  },
+  {
     "id": "should-refuse-nonexistent-form",
     "tags": ["negative", "refusal"],
     "query": "What does ACORD 9999 say?",

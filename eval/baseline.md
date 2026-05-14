@@ -1,6 +1,6 @@
-# Eval Report — 2026-05-14_12-53-25
+# Eval Report — 2026-05-14_17-03-40
 
-**Summary:** 21/21 cases passed (100%)
+**Summary:** 26/26 cases passed (100%)
 
 - Average source recall:   1.00
 - Average content recall:  1.00
@@ -28,5 +28,10 @@
 | ✅ PASS | `concept-bad-faith` | 1.00 | 1.00 | - |
 | ✅ PASS | `concept-fnol` | 1.00 | 1.00 | - |
 | ✅ PASS | `ohio-um-requirement` | 1.00 | 1.00 | - |
+| ✅ PASS | `inventory-query` | 1.00 | 1.00 | - |
+| ✅ PASS | `bare-section-detection` | 1.00 | 1.00 | - |
+| ✅ PASS | `cross-collection-multi-form` | 1.00 | 1.00 | - |
+| ✅ PASS | `abbreviation-expansion` | 1.00 | 1.00 | - |
+| ✅ PASS | `state-filter-includes-untagged` | 1.00 | 1.00 | - |
 | ✅ PASS | `should-refuse-nonexistent-form` | 1.00 | 1.00 | - |
 | ✅ PASS | `should-refuse-no-state-content` | 1.00 | 1.00 | - |

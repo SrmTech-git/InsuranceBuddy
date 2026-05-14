@@ -21,12 +21,12 @@ class TestStatesModule(unittest.TestCase):
     """Verify states.py is the single source of truth used everywhere."""
 
     def setUp(self):
-        from states import STATE_MAP
+        from states import STATE_MAP, STATE_ABBR_MAP, HEADER_TO_STATE_MAP
         from ingest_batch import STATE_FOLDER_MAP
-        from chat import _STATE_NAME_MAP
         self.canonical = STATE_MAP
         self.folder_map = STATE_FOLDER_MAP
-        self.name_map = _STATE_NAME_MAP
+        self.abbr_map = STATE_ABBR_MAP
+        self.header_map = HEADER_TO_STATE_MAP
 
     def test_state_map_nonempty(self):
         self.assertGreater(len(self.canonical), 0)
@@ -35,9 +35,17 @@ class TestStatesModule(unittest.TestCase):
         self.assertIs(self.folder_map, self.canonical,
                       "STATE_FOLDER_MAP in ingest_batch should be the same object as STATE_MAP")
 
-    def test_chat_uses_canonical_map(self):
-        self.assertIs(self.name_map, self.canonical,
-                      "_STATE_NAME_MAP in chat should be the same object as STATE_MAP")
+    def test_query_parsing_imports_canonical_maps(self):
+        """query_parsing should import STATE_MAP / STATE_ABBR_MAP directly,
+        not re-derive them locally (would silently drift on edits)."""
+        import query_parsing
+        self.assertIs(query_parsing.STATE_MAP, self.canonical)
+        self.assertIs(query_parsing.STATE_ABBR_MAP, self.abbr_map)
+
+    def test_ingest_xlsx_imports_canonical_header_map(self):
+        """ingest_xlsx must import HEADER_TO_STATE_MAP from states, not re-derive."""
+        import ingest_xlsx
+        self.assertIs(ingest_xlsx.HEADER_TO_STATE_MAP, self.header_map)
 
     def test_all_known_states_present(self):
         expected = {"OH", "IN", "IL", "KY", "MN", "VA", "MI", "GA", "TN", "IA", "WI"}
@@ -53,13 +61,16 @@ class TestStatesModule(unittest.TestCase):
             self.assertEqual(val, val.upper(), f"Value '{val}' should be uppercase")
             self.assertEqual(len(val), 2, f"State code '{val}' should be 2 characters")
 
-    def test_xlsx_header_map_derived_from_canonical(self):
-        """ingest_xlsx must derive its header map from STATE_MAP, not hardcode it."""
-        from ingest_xlsx import _HEADER_TO_STATE
-        # Same set of state codes
-        self.assertEqual(set(_HEADER_TO_STATE.values()), set(self.canonical.values()))
-        # Title-cased keys ("Ohio") match the spreadsheet column headers
-        for header, code in _HEADER_TO_STATE.items():
+    def test_abbr_map_derived_from_canonical(self):
+        """STATE_ABBR_MAP keys/values are the codes from STATE_MAP."""
+        self.assertEqual(set(self.abbr_map.keys()), set(self.canonical.values()))
+        for k, v in self.abbr_map.items():
+            self.assertEqual(k, v, "STATE_ABBR_MAP should be identity (code -> code)")
+
+    def test_header_map_derived_from_canonical(self):
+        """HEADER_TO_STATE_MAP must Title-Case STATE_MAP keys, codes unchanged."""
+        self.assertEqual(set(self.header_map.values()), set(self.canonical.values()))
+        for header, code in self.header_map.items():
             self.assertEqual(header, header.title(),
                              f"Header '{header}' should be Title Case")
             self.assertEqual(self.canonical.get(header.lower()), code,
@@ -282,7 +293,7 @@ class TestParseFilename(unittest.TestCase):
 
 class TestDetectFormNumber(unittest.TestCase):
     def setUp(self):
-        from chat import detect_form_number, detect_bare_section
+        from query_parsing import detect_form_number, detect_bare_section
         self.detect = detect_form_number
         self.detect_bare = detect_bare_section
 
@@ -345,7 +356,7 @@ class TestDetectFormNumbers(unittest.TestCase):
     """Multi-form detection — finds every form number in a query, deduped."""
 
     def setUp(self):
-        from chat import detect_form_numbers
+        from query_parsing import detect_form_numbers
         self.detect = detect_form_numbers
 
     def test_no_forms(self):
@@ -381,7 +392,7 @@ class TestDetectFormNumbers(unittest.TestCase):
 
 class TestIsInventoryQuery(unittest.TestCase):
     def setUp(self):
-        from chat import is_inventory_query
+        from query_parsing import is_inventory_query
         self.check = is_inventory_query
 
     def test_what_forms_do_we_have(self):
@@ -408,7 +419,7 @@ class TestIsInventoryQuery(unittest.TestCase):
 
 class TestDetectStates(unittest.TestCase):
     def setUp(self):
-        from chat import detect_states
+        from query_parsing import detect_states
         self.detect = detect_states
 
     def test_full_name_ohio(self):
@@ -453,28 +464,31 @@ class TestDetectStates(unittest.TestCase):
 
 class TestBuildStateFilter(unittest.TestCase):
     def setUp(self):
-        from chat import _build_state_filter
-        self.build = _build_state_filter
+        from query_parsing import build_state_filter
+        self.build = build_state_filter
 
     def test_no_states(self):
         self.assertIsNone(self.build([]))
 
     def test_single_state(self):
+        # State filter always includes state="" so untagged content
+        # (educational, industry-general forms) survives the filter.
         result = self.build(["OH"])
-        self.assertEqual(result, {"state": "OH"})
+        self.assertEqual(result, {"$or": [{"state": "OH"}, {"state": ""}]})
 
     def test_two_states(self):
         result = self.build(["IN", "OH"])
         self.assertIn("$or", result)
-        self.assertEqual(len(result["$or"]), 2)
+        # 2 detected states + the always-included untagged ("")
+        self.assertEqual(len(result["$or"]), 3)
         state_values = {c["state"] for c in result["$or"]}
-        self.assertEqual(state_values, {"IN", "OH"})
+        self.assertEqual(state_values, {"IN", "OH", ""})
 
 
 class TestMergeFilters(unittest.TestCase):
     def setUp(self):
-        from chat import _merge_filters
-        self.merge = _merge_filters
+        from query_parsing import merge_filters
+        self.merge = merge_filters
 
     def test_all_none(self):
         self.assertIsNone(self.merge(None, None))
@@ -503,12 +517,12 @@ class TestCollectionRegistry(unittest.TestCase):
     """Verify the expected set of collections is registered."""
 
     def test_expected_collections_registered(self):
-        from chat import COLLECTION_REGISTRY
+        from router import COLLECTION_REGISTRY
         expected = {"regulatory", "educational", "forms"}
         self.assertEqual(set(COLLECTION_REGISTRY.keys()), expected)
 
     def test_each_collection_has_nonempty_description(self):
-        from chat import COLLECTION_REGISTRY
+        from router import COLLECTION_REGISTRY
         for name, desc in COLLECTION_REGISTRY.items():
             self.assertGreater(len(desc), 20,
                                f"Collection {name!r} has a too-short description")
@@ -517,7 +531,7 @@ class TestCollectionRegistry(unittest.TestCase):
 class TestComparisonRouting(unittest.TestCase):
     """detect_collection comparison fast-path — no API call needed."""
     def setUp(self):
-        from chat import detect_collection, COLLECTION_REGISTRY
+        from router import detect_collection, COLLECTION_REGISTRY
         self.detect = detect_collection
         self.all_collections = list(COLLECTION_REGISTRY.keys())
 
@@ -548,7 +562,7 @@ class TestParseRouteResponse(unittest.TestCase):
     """Parser tests for the LLM router output. No API calls needed."""
 
     def setUp(self):
-        from chat import _parse_route_response
+        from router import _parse_route_response
         self.parse = _parse_route_response
 
     def test_routing_with_intent_none(self):
@@ -603,6 +617,79 @@ class TestParseRouteResponse(unittest.TestCase):
         collections, intent = self.parse("regulatory. | subject.", None)
         self.assertEqual(collections, ["regulatory"])
         self.assertEqual(intent, "subject")
+
+
+class TestChunkerRegistry(unittest.TestCase):
+    """Verify the chunker registry routes each collection to its expected chunker."""
+
+    def test_educational_uses_section_aware_chunker(self):
+        from chunkers import get_chunker
+        from chunkers.educational import educational_chunker
+        self.assertIs(get_chunker("educational"), educational_chunker)
+
+    def test_forms_uses_atomic_chunker(self):
+        from chunkers import get_chunker
+        from chunkers.forms import forms_chunker
+        self.assertIs(get_chunker("forms"), forms_chunker)
+
+    def test_unregistered_falls_back_to_default(self):
+        from chunkers import get_chunker
+        from chunkers.default import default_chunker
+        self.assertIs(get_chunker("regulatory"), default_chunker)
+        self.assertIs(get_chunker("nonexistent"), default_chunker)
+
+
+class TestFormsChunker(unittest.TestCase):
+    """The forms chunker must produce exactly one chunk per input document,
+    no matter how long the card is. Splitting a library card breaks the
+    'card catalog' guarantee — purpose/captures/when-used must travel as
+    one semantic unit."""
+
+    def setUp(self):
+        from chunkers.forms import forms_chunker
+        from langchain_core.documents import Document
+        self.chunk = forms_chunker
+        self.Doc = Document
+        self.meta = {"form_number": "ACORD 25", "edition_date": "2025-12",
+                     "description": "Cert of Liability", "filename": "ACORD 25.txt",
+                     "parsed": True}
+
+    def test_single_short_card_one_chunk(self):
+        pages = [self.Doc(page_content="ACORD 25\nShort card body.", metadata={})]
+        chunks = self.chunk(pages, self.meta)
+        self.assertEqual(len(chunks), 1)
+        self.assertEqual(chunks[0].metadata["form_number"], "ACORD 25")
+
+    def test_oversized_card_stays_one_chunk(self):
+        """A 3000-char card (well past CHUNK_SIZE) must still produce ONE chunk."""
+        big_body = "Purpose. " * 400  # ~3600 chars
+        pages = [self.Doc(page_content=big_body, metadata={})]
+        chunks = self.chunk(pages, self.meta)
+        self.assertEqual(len(chunks), 1,
+                         "forms chunker must never split a card, even oversized ones")
+        self.assertIn("Purpose.", chunks[0].page_content)
+
+    def test_multiple_pages_concatenated(self):
+        """If a loader emits multiple Documents (PDF pages), they merge into one chunk."""
+        pages = [
+            self.Doc(page_content="Page one content.", metadata={}),
+            self.Doc(page_content="Page two content.", metadata={}),
+        ]
+        chunks = self.chunk(pages, self.meta)
+        self.assertEqual(len(chunks), 1)
+        self.assertIn("Page one content.", chunks[0].page_content)
+        self.assertIn("Page two content.", chunks[0].page_content)
+
+    def test_empty_input_returns_empty(self):
+        chunks = self.chunk([self.Doc(page_content="", metadata={})], self.meta)
+        self.assertEqual(chunks, [])
+
+    def test_metadata_isolated_per_chunk(self):
+        """Mutating one chunk's metadata must not affect file_metadata or other chunks."""
+        pages = [self.Doc(page_content="card", metadata={})]
+        chunks = self.chunk(pages, self.meta)
+        chunks[0].metadata["form_number"] = "MUTATED"
+        self.assertEqual(self.meta["form_number"], "ACORD 25")
 
 
 # =============================================================================
@@ -707,7 +794,8 @@ class TestAskEndToEnd(unittest.TestCase):
     """Full pipeline tests — skipped if --skip-api flag is passed."""
 
     def setUp(self):
-        from chat import ask, detect_collection
+        from chat import ask
+        from router import detect_collection
         self.ask = ask
         self.detect_collection = detect_collection
 
@@ -777,6 +865,8 @@ if __name__ == "__main__":
         TestCollectionRegistry,
         TestComparisonRouting,
         TestParseRouteResponse,
+        TestChunkerRegistry,
+        TestFormsChunker,
         TestDatabase,
         TestRetrieve,
         TestAskEndToEnd,
