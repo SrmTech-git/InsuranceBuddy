@@ -44,6 +44,8 @@ User query
     └─ Claude Haiku generation (context-only, sources cited)
 ```
 
+The routing classifier is encouraged to pick **multiple collections** for conceptual questions that happen to name a form or statute (e.g. "What is CG 20 10?" → `forms, educational`; "What is late notice?" → `regulatory, educational`). Pure form lookups (`show me ACORD 25`) and pure statute lookups (`what does ORC 3937.18 say`) stay single-collection.
+
 ### Collections
 
 | Collection | Contents | State-tagged |
@@ -52,7 +54,18 @@ User query
 | `educational` | Coverage concept docs (.txt, .docx) | No |
 | `forms` | Insurance forms — dec pages, ACORD/ISO forms, endorsements, certificates, state notice forms | Yes |
 
-New collections are registered in `COLLECTION_REGISTRY` in `src/chat.py`. The Haiku router prompt updates automatically.
+New collections are registered in `COLLECTION_REGISTRY` in `src/chat.py`. The Haiku router prompt updates automatically. If the new collection has a distinctive document structure (statute sections, library cards, etc.), also register a chunker for it — see [Chunker Strategy](#chunker-strategy) below.
+
+### Chunker Strategy
+
+Chunkers are pluggable per collection (`src/chunkers/`). Each collection's documents have different natural structural units — concept docs use section headers, statute PDFs use lettered subsections, ACORD library cards are atomic — so a single generic chunker can't respect all of those boundaries.
+
+| Collection | Chunker | What it does |
+|---|---|---|
+| `educational` | `educational_chunker` | Parses `===`-underlined section structure in .txt docs and emits chunks with breadcrumb prefixes: `[Doc Title > MAJOR SECTION > Subsection]\n\nbody`. The breadcrumb gives short keyword queries (`Part C`, `duty to cooperate`) a direct token match and gives the LLM clear context about which section it's reading. Falls back to the default chunker for docs without recognizable structure (most .docx). |
+| everything else | `default_chunker` | Wraps `RecursiveCharacterTextSplitter` (`CHUNK_SIZE=1000`, `CHUNK_OVERLAP=100`). |
+
+Adding a new chunker: write a function matching the `Chunker` protocol in `src/chunkers/base.py` and register it in `CHUNKER_REGISTRY` (`src/chunkers/__init__.py`). Unregistered collections fall back to the default chunker, so the system never regresses on already-working content during transitions.
 
 ### State Metadata
 
@@ -88,13 +101,19 @@ insurance-rag/
 │   ├── states.py                  # Single source of truth for state name → code mapping
 │   ├── db.py                      # Shared ChromaDB client + embedding function (singleton)
 │   ├── retrieve.py                # Vector search & metadata lookup (QueryResult dataclass)
-│   ├── ingest.py                  # Document loading & chunking (.pdf, .txt, .docx)
+│   ├── ingest.py                  # Document loading & chunking dispatch (.pdf, .txt, .docx)
 │   ├── ingest_xlsx.py             # Multi-state Excel spreadsheet parser
 │   ├── ingest_batch.py            # Batch ingestion — scans data/raw/ folder tree
 │   ├── embed.py                   # Embedding & ChromaDB storage
 │   ├── abbreviations.py           # Insurance abbreviation expansion (60+ terms)
 │   ├── scrape_orc.py              # Scraper for codes.ohio.gov PDFs (atomic + retrying)
-│   └── migrate_state_tags.py      # Back-fill state metadata on existing chunks
+│   ├── migrate_state_tags.py      # Back-fill state metadata on existing chunks
+│   │
+│   └── chunkers/                  # Pluggable per-collection chunkers
+│       ├── __init__.py            # CHUNKER_REGISTRY + get_chunker()
+│       ├── base.py                # Chunker protocol
+│       ├── default.py             # Generic char-based chunker (fallback)
+│       └── educational.py         # Section-aware breadcrumbed chunker for .txt concept docs
 │
 ├── tools/
 │   ├── build_acord_cards.py       # Generates the 180 ACORD library cards from inline index

@@ -480,3 +480,113 @@ Smoke tested 7 queries that previously fell into content gaps:
 ### Honest note about a remaining quirk
 
 *"Per ACORD 25 standards, what is general liability coverage?"* still returns "I don't have enough information" — but for an interesting reason. The form-intent classifier correctly routes to `educational` with intent `context`, retrieves the GL content, and the LLM is being scrupulously literal: it doesn't have anything titled "ACORD 25 standards." The system is being technically correct (there is no "ACORD 25 standard for GL" — ACORD 25 just documents coverage limits, it doesn't define GL). The same query without "Per ACORD 25 standards" answers cleanly. Filed as a phrasing-literalism quirk, not a content or routing issue.
+
+---
+
+## Session 12 — Educational Library Buildout
+
+The educational collection was thin outside the original commercial line intros. A top-down review surfaced four major gaps: foundational reference (endorsements, ACORD forms as a concept, claims process), personal lines (homeowners/auto/renters/umbrella/flood), specialty lines (E&O/D&O/cyber/EPLI), and market structure (admitted vs surplus, distribution, reinsurance). Plus exclusions and conditions as the third leg of the policy-component trilogy alongside endorsements.
+
+### Five waves of content
+
+| Wave | Docs | Theme |
+|---|---|---|
+| 1 | ACORD Forms Overview · Endorsements Overview | Foundational reference, dense .txt style |
+| 2 | Homeowners · Personal Auto · Renters & Condo · Personal Umbrella · Flood (NFIP) | Full personal lines set |
+| 3 | Claims Process Overview | 9-stage step map + full prose on FNOL, investigation, ROR, reserves, first-party vs third-party, post-payment, failure modes |
+| 4 | Insurance Market Structure and Regulation · Distribution and Reinsurance | Carrier types, McCarran-Ferguson, admitted/E&S, guaranty funds, rating agencies, Lloyd's, MGAs/wholesalers, treaty vs facultative, market cycles. Deliberately no form numbers so these don't get pulled by form-shaped queries. |
+| 5 | Professional Liability E&O · Directors and Officers D&O · Cyber Liability · Employment Practices Liability EPLI | Specialty lines — claims-made mechanics, three-side D&O structure, ransomware market, EPLI wage-and-hour exclusion |
+| 6 | Exclusions and Conditions Overview | Completes endorsements/exclusions/conditions trilogy. No form numbers — general-purpose conceptual reference |
+
+13 new educational docs total. Smoke-tested ~30 queries across the new content. Most returned rich grounded answers on first try.
+
+### A design choice worth noting
+
+The Claims Process doc opens with a 9-stage linear step map (`1. LOSS → 2. FNOL → 3. SETUP → ...`) rather than a 2D ASCII flow diagram. Linear keeps each line independently meaningful — when the chunker splits the doc, mid-chunk slices still read cleanly. A 2D diagram would have produced retrieval-degraded chunks because box outlines and arrows don't embed well.
+
+### Stats after Session 12
+
+- `educational` collection: ~140 chunks across 24 docs
+- Total system: ~2,500 vectors
+
+---
+
+## Session 13 — Retrieval Diagnostics + Architectural Fix
+
+Smoke testing the educational expansion surfaced six recurring failures. Diagnosis revealed two distinct failure modes:
+
+**Routing too narrow.** The classifier was capable of returning comma-separated collections (the parser handled it), but the routing rules were written as single-target arrows ("X → regulatory") which biased it toward picking one. Burying the "include all" fallback at the end didn't override the framing. Affected queries:
+- "What is CG 20 10?" — forms-only, missed the Endorsements educational doc
+- "What's in a dec package?" — forms-only, missed the ACORD Forms Overview
+- "Late notice of a claim?" — regulatory-only, missed the educational prejudice content
+
+**Chunking burial.** Long docs (10K+ chars) chunked into 10-13 pieces, and the doc-title/summary chunks outranked specific-subtopic chunks for natural-language queries. Diagnostic probe confirmed the subtopic chunks existed and ranked well *when the query contained the doc's keywords*, but lost to title-chunk noise on natural phrasing:
+- "What is Part C on a PAP?" — found Parts E and F but not C (best chunk d=0.428, was title chunk)
+- "What is the duty to cooperate?" — surface mentions in EPLI/Claims beat deep section in Exclusions/Conditions
+- "What is an other insurance clause?" — Exclusions/Conditions retrieved, but the Other Insurance subsection chunk wasn't in top 8
+
+### Fix 1 — Router prompt tuning
+
+Rewrote the routing rules to explicitly invite multi-collection picks for conceptual queries that mention forms or statutes. Examples list expanded to show multi-collection patterns. "Why this matters" and "thank you for your attention" rationale preserved per user.
+
+Result: all three routing-class misses fixed immediately.
+
+### Token usage analysis (sanity check before harder changes)
+
+Instrumented the pipeline to measure actual token usage across 7 representative queries. Per-query average: ~2,386 input + ~292 output. At Haiku 4.5 pricing (~$1/MTok in, $5/MTok out), that's $0.0039/query. Confirmed both LLM calls (classifier + answer) are Haiku — single `GENERATION_MODEL` constant in config. Briefly considered Sonnet for answers; chose to leave as Haiku for now — "if Haiku produces decent and correct answers there's no reason to bump it; if we hit a wall on reasoning, then try Sonnet."
+
+Bumped `CHUNKS_PER_COLLECTION` 8→12 and `CONTEXT_CAP` 10→15 to test the chunking misses. **Did not help** — the right chunks weren't in the top 15 either. Reverted.
+
+### Fix 2 — Pluggable chunker architecture
+
+Diagnosis showed the issue was embedding signal, not retrieval depth. The doc-title and summary chunks shared too much generic topic vocabulary with the rest of the doc, drowning out subtopic-specific chunks on natural-language queries.
+
+Designed a per-collection chunker registry to handle this and future doc-shape variations:
+
+```
+src/chunkers/
+├── __init__.py     # CHUNKER_REGISTRY: collection -> chunker fn
+├── base.py         # Chunker protocol
+├── default.py      # Wraps RecursiveCharacterTextSplitter (current behavior)
+└── educational.py  # Section-aware breadcrumbed chunker
+```
+
+`ingest.py` and `embed.py` thread `collection_name` through the pipeline; the registry routes to the right chunker. Unregistered collections fall back to the default — zero regression risk during transitions.
+
+### Fix 3 — Educational chunker (section-aware, breadcrumbed)
+
+Parses the `===`-underlined section structure used in all foundational reference docs. Subsection headers (lines ending with `:`) become natural chunk boundaries. Each chunk's embedded text starts with a breadcrumb:
+
+```
+[Personal Auto Overview > POLICY STRUCTURE — THE SIX PARTS > Part C — Uninsured / Underinsured Motorist (UM/UIM)]
+
+Pays the insured's own damages when the at-fault driver has no
+insurance (UM) or insufficient insurance (UIM)...
+```
+
+The breadcrumb does double duty:
+1. **Embedding signal** — short keyword queries like "Part C" or "duty to cooperate" hit the breadcrumb tokens directly instead of competing with doc-summary chunks for semantic similarity
+2. **LLM context** — the model sees exactly which doc section it's reading
+
+Handles the parent-header carry-forward case (when a subsection header has no body before another header appears, e.g. "Part D —" followed immediately by "Two sub-coverages:" — the chunker carries Part D forward as a parent prefix). Falls back to default chunker on docs without recognizable structure (most .docx files).
+
+### Verification
+
+Re-ingested educational with `--force`. Collection grew 142 → 606 vectors (finer-grained subsection chunks).
+
+All three chunking-class misses fixed:
+- "Part C on PAP" — full UM/UIM answer
+- "Duty to cooperate" — full duty answer from Exclusions/Conditions
+- "Other insurance clause" — all four structures (primary, excess, pro rata, escape)
+
+Regression-tested 8 previously-working queries: all still passing.
+
+### Stats after Session 13
+
+- `educational` collection: 606 vectors (was 142 — finer chunking)
+- Total system: ~2,660 vectors
+- Two clean commits: `65f4e72` (router prompt), `84dc4b0` (chunker architecture)
+
+### Architectural payoff
+
+Adding a new chunker is now a single function + registry entry. Phases 3 (forms-atomic chunker — never split a library card) and 4 (regulatory statute-section chunker) are deferred since those collections aren't currently failing, but the scaffolding is in place when retrieval quality on them becomes the bottleneck.
