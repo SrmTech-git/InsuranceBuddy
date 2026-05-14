@@ -1,6 +1,6 @@
-# Eval Report — 2026-05-14_12-06-14
+# Eval Report — 2026-05-14_12-43-51
 
-**Summary:** 18/21 cases passed (86%)
+**Summary:** 19/21 cases passed (90%)
 
 - Average source recall:   0.95
 - Average content recall:  0.98
@@ -14,12 +14,12 @@
 | ✅ PASS | `regression-other-insurance-clause` | 1.00 | 1.00 | - |
 | ✅ PASS | `regression-cg-20-10` | 1.00 | 1.00 | - |
 | ✅ PASS | `regression-dec-package` | 1.00 | 1.00 | - |
-| ❌ FAIL | `regression-late-notice` | 0.00 | 1.00 | missing sources: ['Exclusions and Conditions Overview']; system refused but case expected info |
+| ❌ FAIL | `regression-late-notice` | 0.00 | 1.00 | missing sources: ['Exclusions and Conditions Overview'] |
 | ✅ PASS | `form-lookup-acord-25` | 1.00 | 1.00 | - |
 | ✅ PASS | `form-lookup-acord-130` | 1.00 | 1.00 | - |
 | ✅ PASS | `statute-lookup-orc-3937-18` | 1.00 | 1.00 | - |
 | ✅ PASS | `multi-form-comparison` | 1.00 | 1.00 | - |
-| ❌ FAIL | `form-as-context` | 1.00 | 1.00 | system refused but case expected info |
+| ✅ PASS | `form-as-context` | 1.00 | 1.00 | - |
 | ❌ FAIL | `cross-state-comparison` | 1.00 | 1.00 | system refused but case expected info |
 | ✅ PASS | `concept-ho3-coverage` | 1.00 | 1.00 | - |
 | ✅ PASS | `concept-eo-insurance` | 1.00 | 1.00 | - |
@@ -37,13 +37,7 @@
 **Query:** What happens if I give late notice of a claim?
 - Source recall: 0.00
 - Content recall: 1.00
-- Notes: missing sources: ['Exclusions and Conditions Overview']; system refused but case expected info
-
-### `form-as-context`
-**Query:** Per ACORD 25 standards, what is general liability?
-- Source recall: 1.00
-- Content recall: 1.00
-- Notes: system refused but case expected info
+- Notes: missing sources: ['Exclusions and Conditions Overview']
 
 ### `cross-state-comparison`
 **Query:** Compare uninsured motorist requirements between Ohio and Indiana

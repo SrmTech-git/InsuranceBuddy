@@ -137,6 +137,45 @@ def detect_form_number(text: str) -> str | None:
     return forms[0] if forms else None
 
 
+def strip_form_context_prefix(question: str) -> str:
+    """Strip leading form-reference clauses from a query.
+
+    Used when the router has classified a form as CONTEXT (not subject),
+    meaning the form is mentioned only as backdrop for a conceptual
+    question. Without stripping, the LLM sees the form name in the
+    question and can refuse on literalism grounds even when relevant
+    conceptual content was retrieved.
+
+    Strips patterns like:
+        "Per ACORD 25 standards, what is GL?"   -> "what is GL?"
+        "Under ORC 3937.18, what is UM?"         -> "what is UM?"
+        "According to ACORD 25, explain..."      -> "explain..."
+
+    Only strips when the form reference appears at the BEGINNING of the
+    query (after optional whitespace). Mid-sentence form references are
+    left alone since they may carry semantic weight the LLM needs.
+    """
+    prefixes = "|".join(_KNOWN_PREFIXES)
+    # Connector words that introduce a form-context clause
+    connectors = (
+        r"(?:per|under|according\s+to|in|using|on|with|based\s+on|via|"
+        r"as\s+(?:described|defined|outlined|stated)\s+in|"
+        r"from|by|in\s+accordance\s+with)"
+    )
+    pattern = (
+        rf"^\s*{connectors}\s+"
+        rf"(?:the\s+)?"
+        rf"(?:{prefixes})\s*\d+[A-Z]*(?:[.\-]\d+)*"
+        rf"(?:\s+(?:standards?|form|rules?|guidelines?|requirements?))?"
+        rf"[\s,;:\-]*"
+    )
+    cleaned = re.sub(pattern, "", question, count=1, flags=re.IGNORECASE).strip()
+    # Capitalize the first letter if the strip left a lowercase question
+    if cleaned and cleaned[0].islower():
+        cleaned = cleaned[0].upper() + cleaned[1:]
+    return cleaned if cleaned else question
+
+
 def detect_bare_section(text: str) -> str | None:
     """Return a bare section number if the query contains one (no prefix), else None.
 
@@ -580,7 +619,22 @@ def ask_traced(question: str) -> AskTrace:
         )
 
     context, sources_str = _build_context(documents, metadatas, labels)
-    answer = _call_llm(expanded, context, sources_str, " + ".join(collections))
+
+    # When the form was mentioned only as context for a conceptual question,
+    # strip the form-reference prefix before sending to the LLM. Retrieval
+    # used the original query (so the form keyword still helped semantic
+    # match), but the LLM otherwise refuses on literalism grounds — "Per
+    # ACORD 25 standards, what is GL?" -> the LLM doesn't find anything
+    # titled "ACORD 25 standards" and declines, even when the right
+    # educational chunks are right there in context.
+    if intent == "context" and detected_forms:
+        llm_query = strip_form_context_prefix(expanded)
+        if llm_query != expanded:
+            logger.info(f"Stripped form-context prefix for LLM: {llm_query!r}")
+    else:
+        llm_query = expanded
+
+    answer = _call_llm(llm_query, context, sources_str, " + ".join(collections))
 
     # Capture per-chunk source info — used by eval scoring
     retrieved_sources = [
