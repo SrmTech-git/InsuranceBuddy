@@ -1,0 +1,61 @@
+ACORD 90TN (2015-12) — Tennessee Personal Auto Application
+===========================================================
+Form number: ACORD 90TN
+Edition: 2015-12
+Title: Tennessee Personal Auto Application
+Type: Insurance form (ACORD industry standard, Tennessee state variant)
+States: TN
+Policy term: 6 months (typical for personal auto); 12-month terms also issued depending on carrier
+Transaction types: New business; renewal applications (where required); adding driver/vehicle; significant midterm changes
+
+Purpose:
+Standalone application for a personal auto policy in Tennessee. Captures
+the applicant, drivers, vehicles, coverages, and state-required
+disclosures needed to underwrite, bind, and issue a Tennessee auto
+policy under Tennessee's Financial Responsibility Law (Tenn. Code
+Ann. § 55-12).
+
+Captures:
+- Producer / agency information
+- Applicant: name, address, DOB, marital status, occupation, contact
+- Driver list: license number/status, DOB, marital status, occupation
+- Driver history (typically 3-5 years): accidents, violations, suspensions
+- Vehicle list: VIN, year/make/model, body type, garaging address
+- Vehicle use: pleasure / commute / business, annual mileage
+- Lienholder / additional interest information
+- Coverages: BI, PD, UM/UIM, MedPay, comp, coll
+- Deductibles (comp and coll)
+- Optional coverages
+- Discounts claimed
+- Prior insurance carrier and lapse history
+- Loss history
+- Tennessee-required disclosures and acknowledgments
+- Fraud statement and applicant signature
+
+When used:
+- New business — applying for a Tennessee personal auto policy
+- Renewal applications (where required)
+- Adding a driver or vehicle to an existing Tennessee policy
+- Midterm changes that require fresh underwriting
+
+Notes:
+- Tennessee operates an electronic insurance verification program (IVPS)
+  — carriers report active policy status electronically
+- UM coverage is mandatory; insured may reject in writing
+- Section version (290TN) drops applicant identity in favor of ACORD 88
+- Tennessee minimum liability limits: 25/50/15 (TCA § 55-12-107).
+  Alternative: $65,000 surety bond or cash deposit with TN Dept of
+  Revenue in lieu of insurance.
+- Tennessee UM: INCLUDED BY DEFAULT in every auto liability policy at
+  limits equal to BI; insured may reject in writing or select lower
+  limits not below statutory minimums (TCA § 56-7-1201)
+- Tennessee UIM: offered (not separately mandated); REDUCED-BY (DIL)
+  structure — UIM pays difference between at-fault BI and insured UIM
+- TN is at-fault with MODIFIED COMPARATIVE FAULT (50% bar)
+- Primary statutes: TCA § 55-12-107 (minimums), § 56-7-1201 (UM/UIM),
+  § 56-7-1301–1305 (cancellation/non-renewal), § 56-8-105 (Unfair
+  Claims), § 56-7-105 (bad faith — 25% penalty)
+- State regulator: Tennessee Department of Commerce and Insurance
+  (TDCI); Tennessee Dept. of Safety and Homeland Security handles
+  driver licensing and SR-22
+- Electronic verification: "Drive Insured TN" verification system

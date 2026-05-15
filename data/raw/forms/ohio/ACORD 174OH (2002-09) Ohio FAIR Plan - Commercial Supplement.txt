@@ -1,0 +1,42 @@
+ACORD 174OH (2002-09) — Ohio FAIR Plan – Commercial Supplement
+===============================================================
+Form number: ACORD 174OH
+Edition: 2002-09
+Title: Ohio FAIR Plan – Commercial Supplement
+Type: Insurance form (ACORD industry standard, Ohio state variant)
+States: OH
+Policy term: 12 months (matches the master 171OH FAIR Plan submission)
+Transaction types: New business; renewal; midterm change
+
+Purpose:
+Commercial property supplement to the Ohio FAIR Plan Basic Property
+Application (171OH). Captures information specific to commercial
+properties — retail, office, light manufacturing, vacant commercial,
+small mercantile, etc. — covered under a commercial FAIR Plan policy.
+
+Captures:
+- Commercial occupancy classification (mercantile, service, office,
+  manufacturing, vacant, etc.)
+- Tenant information (multi-tenant buildings)
+- Building coverage (building only, building + contents, contents only)
+- Business personal property limits
+- Tenants' improvements and betterments
+- Business income / extra expense (if available through FAIR Plan)
+- Special hazards or features of the operation
+- Applicant signature and date
+
+When used:
+- Commercial property FAIR Plan submission — attached to 171OH
+- Renewal of existing FAIR Plan commercial property coverage
+- Reporting occupancy or commercial use changes
+
+Notes:
+- Used in combination with the master 171OH (Basic Property Application)
+- Commercial FAIR Plan coverage is typically named-perils only (fire,
+  extended coverage, VMM) — broader perils require voluntary-market or
+  excess-and-surplus-lines placement
+- General Liability is NOT included — separate GL needed
+- Companion supplements: 172OH (Homeowners), 173OH (Dwelling Fire),
+  175OH (Farm), 176OH (Rehabilitation), 177OH (Bowling Alley)
+- [TBD — verify current Ohio FAIR Plan commercial perils and coverage
+  options]

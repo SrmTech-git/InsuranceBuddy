@@ -10,11 +10,6 @@
 # state tag are touched. Useful any time a collection gets bulk-imported
 # without state metadata.
 
-import sys
-from pathlib import Path
-
-sys.path.insert(0, str(Path(__file__).parent))
-
 from db import get_collection
 
 
@@ -43,29 +38,3 @@ def migrate(collection_name: str, state_code: str, dry_run: bool = False) -> Non
 
     collection.update(ids=ids_to_update, metadatas=new_metadatas)
     print(f"  Tagged {len(ids_to_update)} chunk(s) with state: {state_code}")
-
-
-if __name__ == "__main__":
-    import argparse
-
-    parser = argparse.ArgumentParser(
-        description="Back-fill state metadata on existing regulatory chunks."
-    )
-    parser.add_argument(
-        "--collection",
-        default="regulatory",
-        help="Collection to migrate (default: regulatory)",
-    )
-    parser.add_argument(
-        "--state",
-        default="OH",
-        help="State code to apply to untagged chunks (default: OH)",
-    )
-    parser.add_argument(
-        "--dry-run",
-        action="store_true",
-        help="Preview changes without writing anything",
-    )
-    args = parser.parse_args()
-
-    migrate(args.collection, args.state, dry_run=args.dry_run)

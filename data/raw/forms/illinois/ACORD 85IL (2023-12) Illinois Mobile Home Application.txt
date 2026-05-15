@@ -1,0 +1,58 @@
+ACORD 85IL (2023-12) — Illinois Mobile Home Application
+========================================================
+Form number: ACORD 85IL
+Edition: 2023-12
+Title: Illinois Mobile Home Application
+Type: Insurance form (ACORD industry standard, Illinois state variant)
+States: IL
+Policy term: 12 months (typical for mobile home insurance)
+Transaction types: New business, renewal, midterm change
+
+Purpose:
+Standalone application for a mobile home (manufactured home) policy
+in Illinois. Captures applicant, mobile home unit, coverages,
+underwriting questions, and Illinois-required disclosures.
+State-specific variant of national ACORD 85.
+
+Captures:
+- Producer / agency information
+- Applicant: name, address, DOB, contact, occupation
+- Mobile home location and address (park name if in mobile home park)
+- Mobile home description: make, model, year, VIN / serial number,
+  dimensions (single-wide / double-wide / triple-wide), square footage
+- Anchoring / tie-down details (statutorily required in some states;
+  affects underwriting)
+- Setup details: foundation type (slab / piers / pad), skirting
+- Park or owned-lot information (rental lot vs owned land)
+- Coverage form: ACORD/HO mobile home equivalent (HO-7 / MH-style)
+- Coverage A (Mobile Home — Dwelling), B (Other Structures), C
+  (Personal Property), D (Loss of Use), E (Liability), F (Medical
+  Payments)
+- Deductible selected
+- Replacement cost vs actual cash value selection (often ACV for
+  older units)
+- Discounts: multi-policy, alarm, age, claim-free
+- Endorsements: trip / transit coverage (if mobile home is moved),
+  scheduled personal property, water backup
+- Mortgagee / lienholder information
+- Prior insurance carrier and lapse history
+- Loss history
+- Underwriting questions: dogs, age of mobile home (some carriers
+  decline pre-HUD-code units pre-1976)
+- Illinois-required disclosures and acknowledgments
+- Fraud statement and applicant signature
+
+When used:
+- New business — applying for an Illinois mobile home policy
+- Renewal where the carrier requires a fresh application
+- Adding endorsements (trip coverage for relocation, etc.)
+- Midterm changes that require fresh underwriting
+
+Notes:
+- Pre-1976 mobile homes (manufactured before HUD code took effect)
+  are often declined or rated higher due to construction quality
+- Mobile homes in flood zones are particularly exposed — flood
+  endorsement or NFIP coverage often essential
+- Wind exposure is heightened compared to site-built homes
+- [TBD — verify current Illinois mobile home anchoring requirements
+  and any state-mandated endorsements]

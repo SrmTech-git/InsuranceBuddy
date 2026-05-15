@@ -1,0 +1,51 @@
+ACORD 136WI (2010-04) — Wisconsin Supplement Limited Other States Coverage Request
+===================================================================================
+Form number: ACORD 136WI
+Edition: 2010-04
+Title: Wisconsin Supplement Limited Other States Coverage Request
+Type: Insurance form (ACORD industry standard, Wisconsin state variant)
+States: WI
+Policy term: Matches the underlying WC policy term (typically 12 months)
+Transaction types: New business (Other States Coverage election); change in other-states exposure
+
+Purpose:
+Wisconsin Workers' Compensation supplement requesting "Limited Other
+States Coverage" — Item 3.C of the WC policy — which extends Wisconsin
+WC coverage to employees who temporarily work in other listed states.
+Without Other States Coverage, a Wisconsin WC policy may not respond
+to injuries that occur outside Wisconsin. This form lists the other
+states where coverage is needed.
+
+Captures:
+- Employer / policy information
+- States to be added to Item 3.C "Other States Coverage" of the WC
+  policy
+- Description of employee activities in the other states (travel,
+  temporary work, sales calls, etc.)
+- Estimated payroll exposure in each other state
+- Confirmation that no employees are HIRED or RESIDE in the listed
+  other states (typically a condition of "limited" other states
+  coverage; permanent presence in another state usually requires
+  WC coverage IN that state via a separate policy or extraterritorial
+  endorsement)
+- Authorized signatory and date
+
+When used:
+- New Wisconsin WC submission where employees travel to other states
+- Adding states to Other States Coverage when business expands
+  exposure
+- Midterm endorsement adding states
+
+Notes:
+- "Other States Coverage" (Item 3.C) is distinct from "States
+  Covered" (Item 3.A — the primary state listed on the policy)
+- Limited Other States Coverage typically applies only to:
+  * Employees temporarily in the other state
+  * Activities of less than 90 days (carrier-specific)
+  * Non-resident employees
+- For employees hired in or residing in another state, separate
+  state WC coverage is required (some carriers use multi-state
+  endorsement; others require separate policies)
+- Companion forms: 133WI (Pool), 4WI (FROI)
+- [TBD — verify carrier-specific definitions of "limited" vs full
+  Other States Coverage]

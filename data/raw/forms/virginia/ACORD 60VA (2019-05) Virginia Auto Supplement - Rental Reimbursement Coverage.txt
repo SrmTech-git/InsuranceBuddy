@@ -1,0 +1,47 @@
+ACORD 60VA (2019-05) — Virginia Auto Supplement – Rental Reimbursement Coverage
+================================================================================
+Form number: ACORD 60VA
+Edition: 2019-05
+Title: Virginia Auto Supplement – Rental Reimbursement Coverage
+Type: Insurance form (ACORD industry standard, Virginia state variant)
+States: VA
+Policy term: Matches the underlying auto policy term; election persists until changed in writing
+Transaction types: New business (rental reimbursement election), change to rental coverage
+
+Purpose:
+Virginia-specific notice and election form for Rental Reimbursement
+(also called Transportation Expense) coverage on a personal auto
+policy. Rental reimbursement pays for substitute transportation
+(rental car, ride-share, public transit) while the insured's
+vehicle is being repaired after a covered loss. Coverage is typically
+offered with daily and per-loss caps.
+
+Captures:
+- Description of rental reimbursement coverage
+- Available limit options (typical examples: $30/day for 30 days /
+  $900 maximum; $40/day; $50/day; higher tiers)
+- Description of qualifying losses (typically those payable under
+  comprehensive or collision)
+- Insured's election to accept rental coverage at selected limits
+  or reject
+- Selected daily and per-loss maximum limits
+- Insured signature and date
+
+When used:
+- New Virginia auto submission — rental reimbursement election
+- Renewal where rental coverage is being modified
+- Midterm endorsement adding or changing rental coverage
+
+Notes:
+- Rental reimbursement is a relatively low-premium coverage that
+  many insureds elect because vehicle downtime from collision
+  repairs averages 1-2 weeks
+- Without rental reimbursement, the insured pays out-of-pocket for
+  rental during repairs (or may not be eligible for a rental at all
+  if the at-fault driver is uninsured / not yet identified)
+- Coverage typically does not apply to mechanical breakdowns —
+  only to losses covered under comp/coll
+- Companion Virginia auto supplements: 61VA (Optional Medical and
+  Disability Notice), 65VA / 66VA / 68VA / 69VA (UM/UIM elections)
+- [TBD — verify Virginia-specific rental reimbursement disclosure
+  requirements]

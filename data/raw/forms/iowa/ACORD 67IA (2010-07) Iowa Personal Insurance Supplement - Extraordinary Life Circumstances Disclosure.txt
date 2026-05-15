@@ -1,0 +1,57 @@
+ACORD 67IA (2010-07) — Iowa Personal Insurance Supplement – Extraordinary Life Circumstances Disclosure
+========================================================================================================
+Form number: ACORD 67IA
+Edition: 2010-07
+Title: Iowa Personal Insurance Supplement – Extraordinary Life Circumstances Disclosure
+Type: Insurance form (ACORD industry standard, Iowa state variant)
+States: IA
+Policy term: Disclosure delivered at issuance and at periodic renewals
+Transaction types: New business (disclosure required), renewal (re-disclosure where required)
+
+Purpose:
+Iowa-required disclosure addressing how insurers may consider
+"extraordinary life circumstances" when making underwriting and rating
+decisions for personal insurance. Iowa law recognizes that certain
+life events (catastrophic illness, divorce, death of a family member,
+unemployment, identity theft, etc.) may temporarily affect a consumer's
+financial or credit profile in ways that don't reflect ordinary
+underwriting risk. The disclosure informs insureds of their right to
+request consideration of such circumstances.
+
+Captures:
+- Statutory description of "extraordinary life circumstances"
+  recognized under Iowa law:
+  * Catastrophic illness or injury
+  * Death of a spouse, child, or parent
+  * Loss of employment for 3+ months
+  * Divorce
+  * Identity theft
+  * Temporary loss of income
+  * Military deployment
+  * Natural disaster affecting the insured
+- Insured's right to request that the carrier consider the
+  circumstance in underwriting or rating
+- Process for requesting consideration (typically written request
+  with supporting documentation)
+- Insured acknowledgment of receipt of the disclosure
+- Insured signature and date
+
+When used:
+- New Iowa personal insurance submission — disclosure delivered with
+  application
+- Renewal — many carriers redeliver the disclosure annually
+- After adverse underwriting or rating decision where the insured
+  may invoke an extraordinary life circumstance
+
+Notes:
+- The "extraordinary life circumstances" framework is part of Iowa's
+  consumer-protection insurance regulation — typically tied to credit-
+  based insurance scoring use
+- Iowa is one of several states with extraordinary life circumstances
+  provisions designed to mitigate adverse credit-scoring effects from
+  temporary hardship
+- Companion forms: 65IA (aftermarket parts), 66IA (claims history use)
+- The 2010-07 edition is older; [TBD — verify whether this is still
+  the current ACORD-published edition]
+- [TBD — verify current Iowa extraordinary-life-circumstances statute
+  and the precise list of qualifying events]

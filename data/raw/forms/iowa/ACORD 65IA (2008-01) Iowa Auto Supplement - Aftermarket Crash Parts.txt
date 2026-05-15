@@ -1,0 +1,49 @@
+ACORD 65IA (2008-01) — Iowa Auto Supplement – Aftermarket Crash Parts
+======================================================================
+Form number: ACORD 65IA
+Edition: 2008-01
+Title: Iowa Auto Supplement – Aftermarket Crash Parts
+Type: Insurance form (ACORD industry standard, Iowa state variant)
+States: IA
+Policy term: Matches the underlying auto policy term; disclosure delivered at issuance
+Transaction types: New business (disclosure required), renewal (re-disclosure where required)
+
+Purpose:
+Iowa-required disclosure to auto insureds explaining that the policy
+may pay for repairs using aftermarket (non-OEM, non-original-
+equipment-manufacturer) crash parts rather than OEM parts. Iowa
+statute requires carriers to disclose this practice to insureds so
+they understand the potential parts-source difference at the time
+of repair after a covered loss.
+
+Captures:
+- Statutory disclosure that the carrier may specify or pay for the
+  use of aftermarket crash parts in repairs
+- Description of "aftermarket parts" (non-OEM replacement parts —
+  may be made by various manufacturers, certified or non-certified)
+- Insured's rights regarding parts selection (where applicable
+  under Iowa law)
+- Statement of the warranty / quality standards for aftermarket
+  parts the carrier specifies
+- Insured acknowledgment of receipt
+- Insured signature and date
+
+When used:
+- New Iowa auto policy issuance — disclosure delivered with the
+  application
+- Renewal — many carriers redeliver the disclosure annually
+- Reporting of an auto claim — disclosure may be reiterated when
+  parts selection is being discussed
+
+Notes:
+- Aftermarket crash parts have been a long-standing consumer-protection
+  issue — concerns about fit, quality, and safety relative to OEM
+- Iowa Insurance Division regulates this disclosure under Iowa
+  insurance regulations (specific code section [TBD verify])
+- Insureds may have the option to upgrade to OEM parts at their own
+  cost in some cases — depends on carrier policy and Iowa rules
+- Companion forms: 61IA, 62IA, 64IA (UM/UIM supplements), 66IA, 67IA
+  (other Iowa personal lines disclosures)
+- The 2008-01 edition is older; [TBD — verify whether this is still
+  the current ACORD-published edition or has been superseded]
+- [TBD — verify current Iowa aftermarket parts disclosure requirements]

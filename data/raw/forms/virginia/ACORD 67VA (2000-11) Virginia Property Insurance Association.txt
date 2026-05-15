@@ -1,0 +1,48 @@
+ACORD 67VA (2000-11) — Virginia Property Insurance Association
+===============================================================
+Form number: ACORD 67VA
+Edition: 2000-11
+Title: Virginia Property Insurance Association
+Type: Insurance form (ACORD industry standard, Virginia state variant)
+States: VA
+Policy term: 12 months (typical for residual-market property)
+Transaction types: New business (VPIA submission); renewal; midterm change
+
+Purpose:
+Application for property coverage through the Virginia Property
+Insurance Association (VPIA) — Virginia's FAIR-Plan-equivalent
+residual property insurance market. VPIA provides basic property
+coverage for property owners who cannot obtain coverage in the
+voluntary market.
+
+Captures:
+- Applicant / owner information (name, address, contact)
+- Property location and address
+- Property description: construction type, year built, square footage,
+  occupancy (owner-occupied / rental / vacant / commercial),
+  protection class
+- Coverage selected: building, contents, additional living expense
+  or fair rental value (depending on property type)
+- Coverage amounts and deductibles
+- Mortgagee / loss payee information
+- Prior insurance carrier(s), denial dates, and reasons for denial
+- Loss history (typically 5 years)
+- Virginia VPIA statutory disclosures and acknowledgments
+- Applicant signature and date
+
+When used:
+- Submission to VPIA after voluntary-market denial — applies to
+  residential, dwelling fire, and commercial property exposures
+- Renewal of existing VPIA policy
+- Reporting property changes
+
+Notes:
+- VPIA = Virginia Property Insurance Association
+- Coverage typically named-perils only (basic fire + extended
+  coverage + VMM)
+- VPIA premium is generally higher than voluntary-market coverage
+- The 2000-11 edition is older; [TBD — verify whether this is still
+  the current ACORD-published edition or has been superseded]
+- [TBD — verify current VPIA coverage forms, perils, and limits]
+- [TBD — verify whether VPIA has separate ACORD forms for different
+  property types (homeowners, dwelling, commercial) or a single master]

@@ -1,0 +1,85 @@
+ACORD 834MN (2014-12) — Minnesota Cyber and Privacy Coverage Section
+=====================================================================
+Form number: ACORD 834MN
+Edition: 2014-12
+Title: Minnesota Cyber and Privacy Coverage Section
+Type: Insurance form (ACORD industry standard, Minnesota state variant)
+States: MN
+Policy term: 12 months (typical for cyber — claims-made, some first-party occurrence-style components)
+Transaction types: New business, renewal, midterm change (especially common as carrier re-rates frequently)
+
+Purpose:
+Minnesota-specific section for Cyber and Privacy Liability coverage —
+addresses data breach response, privacy liability, network security
+liability, business interruption from cyber events, cyber extortion
+(ransomware), and related exposures. The cyber market has changed
+dramatically since the 2014-12 edition of this form (especially due
+to ransomware proliferation 2018-onward), and underwriting questions
+have grown more rigorous. Used alongside ACORD 125.
+
+Captures:
+- Insured entity information
+- Industry and data sensitivity (healthcare, financial services,
+  retail, etc.)
+- Annual revenue
+- Number of records held by data type:
+  * PII (personally identifiable information)
+  * PHI (protected health information — HIPAA-regulated)
+  * PCI (payment card information — PCI DSS scope)
+  * SSN, financial account, biometric, other regulated data
+- Data security practices (often the heart of underwriting):
+  * Encryption at rest and in transit
+  * Multi-factor authentication (MFA) for remote access, privileged
+    accounts, email
+  * Backup practices: offline/immutable backups, restore testing
+  * Patch management cadence
+  * Endpoint detection and response (EDR) deployment
+  * Security awareness training, phishing simulation
+  * Network segmentation
+  * Incident response plan, tabletop testing
+- Prior cyber coverage and claims (cyber claims history is a major
+  underwriting factor)
+- Underwriting questions:
+  * Prior data breaches (HIPAA, state breach notification triggers)
+  * Prior ransomware events
+  * Recent network intrusions, attempted intrusions
+  * Vendor / third-party data sharing
+- Coverage selections (cyber is multi-section):
+  * First-party (insured's own losses):
+    - Breach response (notification, credit monitoring, PR, forensics)
+    - Business interruption from cyber events
+    - Cyber extortion / ransomware
+    - Data restoration / digital asset restoration
+    - Reputational harm
+  * Third-party (claims by others):
+    - Privacy liability (HIPAA, state breach laws, FTC)
+    - Network security liability (transmission of malware,
+      contractual breach)
+    - Regulatory defense and penalties
+    - Media liability (online content, copyright, defamation)
+- Limits, retentions, and sub-limits per coverage section
+- Minnesota-required disclosures and acknowledgments
+- Authorized signatory and date
+
+When used:
+- New Minnesota cyber submission — section attached to ACORD 125
+- Renewal where cyber coverage is being modified (often re-rated
+  significantly each renewal as market conditions and security
+  practices change)
+- Reporting significant cyber exposure changes (M&A, new data
+  collection, security incident)
+
+Notes:
+- Cyber market has hardened significantly since 2018; ransomware
+  changed underwriting requirements (MFA, EDR, immutable backups
+  often required)
+- This 2014-12 edition predates the ransomware-driven market shift —
+  newer ACORD cyber forms have substantially more detailed
+  underwriting questions [TBD — verify whether 2014-12 is still the
+  current ACORD-published edition or has been superseded]
+- HIPAA (federal) and Minnesota breach notification law both apply
+  to Minnesota PHI holders
+- Companion forms: 807MN (D&O), 832MN (Misc E&O) — coordination
+  important for tech-related exposures
+- [TBD — verify Minnesota-specific cyber disclosure requirements
+  and the Minnesota Consumer Data Privacy Act (or successor) impact]

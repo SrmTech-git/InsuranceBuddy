@@ -1,0 +1,42 @@
+ACORD 138IA (2015-12) — Iowa Garage and Dealers
+================================================
+Form number: ACORD 138IA
+Edition: 2015-12
+Title: Iowa Garage and Dealers
+Type: Insurance form (ACORD industry standard, Iowa state variant)
+States: IA
+Policy term: 12 months (typical for commercial garage policy)
+Transaction types: New business, renewal, midterm change, audit-driven adjustment
+
+Purpose:
+Iowa-specific Garage and Dealers section. Captures business
+information, exposures, coverages, and Iowa-required disclosures for a
+Garage / Dealers policy. State-specific overlay to the national ACORD
+128 (Garage and Dealers Section).
+
+Captures:
+- Insured business type: new-car dealer, used-car dealer, service station,
+  body shop, repair shop, towing operation, etc.
+- Dealer / business license number(s)
+- Premises: locations, age, square footage, lot size
+- Operations: gross receipts, vehicles in inventory / sold / serviced
+- Garage liability (premises and operations)
+- Auto Liability (covered autos)
+- Garagekeepers (CCC — care, custody, control)
+- Products and Completed Operations
+- UM/UIM for covered autos
+- Iowa-required dealer disclosures and acknowledgments
+
+When used:
+- New garage policy submission for an Iowa auto-related business
+- Renewal where Iowa-specific coverages or dealer info are reselected
+- Adding/removing locations or operations
+- Midterm endorsement that changes coverage or operations
+
+Notes:
+- Iowa dealer regulations are administered by the Iowa Department of
+  Transportation (Motor Vehicle Division)
+- Iowa personal-auto minimums applicable to garage covered autos:
+  20/40/15 (Iowa Code § 321A.21)
+- State regulator: Iowa Insurance Division (IID)
+- [TBD — verify current Iowa dealer bonding / minimum coverage requirements]

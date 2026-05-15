@@ -1,0 +1,51 @@
+ACORD 860MI (2020-07) — Michigan Auto Supplement – Declaration of Intent to Reside
+===================================================================================
+Form number: ACORD 860MI
+Edition: 2020-07
+Title: Michigan Auto Supplement – Declaration of Intent to Reside
+Type: Insurance form (ACORD industry standard, Michigan state variant)
+States: MI
+Policy term: Matches the underlying auto policy term; declaration persists until residency changes
+Transaction types: New business (residency declaration); renewal where residency must be reaffirmed; residency change
+
+Purpose:
+Captures the insured's declaration of Michigan residence — or
+definite intent to reside in Michigan for at least 30 days — for the
+voluntary auto market. Michigan auto policies require the insured
+to be a Michigan resident or to have demonstrable intent to reside
+in Michigan; this supplement documents that declaration outside of
+the MAIPF residual-market context.
+
+Captures:
+- Michigan address (current and intended)
+- Declaration of current Michigan residence or definite intent to
+  reside in Michigan for at least 30 days
+- Statement explaining the basis for residency / intent
+- Acknowledgment that policy eligibility and PIP tier qualifications
+  depend on Michigan residency
+- Acknowledgment of the requirement to maintain Michigan no-fault
+  insurance coverage during the residency period
+- Driver license number
+- Insured signature and date
+
+When used:
+- New Michigan voluntary-market auto submission — declaration captured
+  at issuance
+- Renewal where residency must be reaffirmed
+- Reporting a change in residency that affects policy eligibility
+
+Notes:
+- 860MI is the VOLUNTARY-MARKET counterpart to 60MI (which is the
+  MAIPF / assigned-risk version). Same underlying declaration purpose,
+  different distribution channel:
+  * 60MI title leads with "Michigan Automobile Insurance Placement
+    Facility" — MAIPF only
+  * 860MI title is the generic "Michigan Auto Supplement" — voluntary
+    market
+- 2020-07 edition is the first major edition after the July 2, 2020
+  no-fault reform effective date — reflects post-reform language and
+  the importance of Michigan residency to PIP tier eligibility
+  (residency required to qualify for opt-out and $50K PIP tiers
+  under MCL 500.3107c)
+- 30-day residency / intent threshold is the standard Michigan auto
+  residency standard tied to compulsory insurance requirements

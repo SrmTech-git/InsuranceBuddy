@@ -1,0 +1,42 @@
+ACORD 173OH (2002-09) — Ohio FAIR Plan – Dwelling Fire Supplement
+==================================================================
+Form number: ACORD 173OH
+Edition: 2002-09
+Title: Ohio FAIR Plan – Dwelling Fire Supplement
+Type: Insurance form (ACORD industry standard, Ohio state variant)
+States: OH
+Policy term: 12 months (matches the master 171OH FAIR Plan submission)
+Transaction types: New business; renewal; midterm change
+
+Purpose:
+Dwelling Fire (DP) supplement to the Ohio FAIR Plan Basic Property
+Application (171OH). Captures information specific to non-owner-
+occupied residential properties — rentals, seasonal homes, vacant
+dwellings — covered under a DP-style FAIR Plan policy.
+
+Captures:
+- Occupancy: rental / seasonal / vacant / under renovation
+- Tenant information (multi-unit dwellings)
+- Dwelling coverage form selection (DP-1 / DP-2 / DP-3 style or FAIR
+  Plan equivalent where available)
+- Fair rental value coverage
+- Additional living expense (where available)
+- Personal property limits (insured's contents, where any are stored)
+- Special endorsements or limits relevant to dwelling fire
+- Applicant signature and date
+
+When used:
+- Non-owner-occupied residential FAIR Plan submission — attached to 171OH
+- Renewal of existing FAIR Plan dwelling fire coverage
+- Reporting occupancy or property changes
+
+Notes:
+- Used in combination with the master 171OH (Basic Property Application)
+- Dwelling Fire FAIR Plan coverage typically excludes liability (no
+  landlord liability) — separate liability needed
+- Vacant properties typically have tighter underwriting and may
+  require specific endorsements
+- Companion supplements: 172OH (Homeowners — for owner-occupied),
+  174OH (Commercial), 175OH (Farm), 176OH (Rehabilitation), 177OH
+  (Bowling Alley)
+- [TBD — verify current Ohio FAIR Plan dwelling fire coverage forms]

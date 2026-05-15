@@ -1,0 +1,36 @@
+ACORD 50IA (2025-04) — Iowa Financial Responsibility Card
+==========================================================
+Form number: ACORD 50IA
+Edition: 2025-04
+Title: Iowa Financial Responsibility Card
+Type: Insurance form (ACORD industry standard, Iowa state variant)
+States: IA
+Policy term: Matches the underlying auto policy term (typically 6 or 12 months); reissued at each renewal
+Transaction types: N/A (proof-of-insurance card, not a transaction document)
+
+Purpose:
+Proof of liability insurance issued under an Iowa personal auto policy.
+Iowa requires drivers to demonstrate financial responsibility, typically
+satisfied by carrying liability insurance meeting state minimum limits.
+
+Captures:
+- Insured's name and address
+- Policy number
+- Policy effective and expiration dates
+- Year, make, model, and VIN of the insured vehicle
+- Insurer name and NAIC code
+- Agent / agency name and contact (if applicable)
+
+When used:
+- Carried in the vehicle as proof of insurance
+- Presented to law enforcement during a traffic stop or accident investigation
+- Presented to the Iowa Department of Transportation for registration / DOT processes
+- Required after an at-fault accident to demonstrate financial responsibility
+
+Notes:
+- Iowa's terminology uses "Financial Responsibility" rather than
+  "Identification Card" — reflects the state statute (Iowa Code 321A)
+- [TBD — verify whether Iowa is currently a compulsory-insurance state
+  or remains financial-responsibility-only; the law has been updated in
+  recent years and the answer affects how the card is described]
+- [TBD — verify current Iowa state minimum liability limits]

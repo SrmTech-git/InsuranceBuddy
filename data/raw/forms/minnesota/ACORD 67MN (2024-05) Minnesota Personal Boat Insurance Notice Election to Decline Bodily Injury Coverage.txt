@@ -1,0 +1,45 @@
+ACORD 67MN (2024-05) — Minnesota Personal Boat Insurance Notice Election to Decline Bodily Injury Coverage
+===========================================================================================================
+Form number: ACORD 67MN
+Edition: 2024-05
+Title: Minnesota Personal Boat Insurance Notice Election to Decline Bodily Injury Coverage
+Type: Insurance form (ACORD industry standard, Minnesota state variant)
+States: MN
+Policy term: Matches the underlying watercraft policy term; declination persists until changed in writing
+Transaction types: New business (BI decline election); change to boat liability coverage
+
+Purpose:
+Minnesota-specific notice and election form for declining Bodily
+Injury (BI) liability coverage on a personal watercraft (boat) policy.
+Minnesota statute requires carriers to offer BI liability on
+watercraft policies; the insured may decline BI coverage in writing
+on this form.
+
+Captures:
+- Statutory notice describing watercraft BI liability coverage and
+  what it pays (injuries to other persons caused by the insured's
+  watercraft operation)
+- Disclosure of the consequences of declining BI coverage (insured
+  bears personal responsibility for injury claims; no defense
+  provided by the carrier)
+- Insured's election to decline BI coverage on the boat policy
+- Insured signature and date
+
+When used:
+- New Minnesota watercraft policy submission where the insured wants
+  to decline BI coverage
+- Renewal where the BI election is being changed (declining or
+  reinstating)
+- Midterm change to boat liability coverage
+
+Notes:
+- Declining boat BI is unusual but permitted in Minnesota; most
+  insureds purchase BI coverage because watercraft-on-watercraft and
+  watercraft-on-swimmer injuries can result in significant liability
+- Property damage liability on the boat policy is typically separate
+  and not declined on this form
+- Companion forms: 82MN (Watercraft Application — standalone), 282MN
+  (Watercraft Section), umbrella policy may also be implicated if BI
+  is declined
+- [TBD — verify Minnesota statutory basis for BI decline option and
+  whether umbrellas can sit over a BI-declined boat policy]

@@ -1,0 +1,54 @@
+ACORD 90IL (2023-01) — Illinois Personal Auto Application
+==========================================================
+Form number: ACORD 90IL
+Edition: 2023-01
+Title: Illinois Personal Auto Application
+Type: Insurance form (ACORD industry standard, Illinois state variant)
+States: IL
+Policy term: 6 months (typical for personal auto); 12-month terms also issued depending on carrier
+Transaction types: New business; renewal applications (where required); adding driver/vehicle; significant midterm changes
+
+Purpose:
+Standalone application for a personal auto policy in Illinois. Captures
+the applicant, drivers, vehicles, coverages, and state-required
+disclosures needed to underwrite, bind, and issue an Illinois auto
+policy under the state's compulsory insurance law (625 ILCS 5/7-601).
+
+Captures:
+- Producer / agency information
+- Applicant: name, address, DOB, marital status, occupation, contact
+- Driver list: license number/status, DOB, marital status, occupation, relationship to applicant
+- Driver history (typically 3-5 years): accidents, violations, suspensions
+- Vehicle list: VIN, year/make/model, body type, garaging address, ownership
+- Vehicle use: pleasure / commute (miles each way) / business / farm, annual mileage
+- Lienholder / additional interest information
+- Coverages selected: BI, PD, UM/UIM, MedPay, comp, coll
+- Deductibles (comp and coll)
+- Optional coverages: rental reimbursement, towing, custom equipment, etc.
+- Discounts claimed: multi-policy, good student, defensive driver, etc.
+- Prior insurance carrier, prior limits, lapse history
+- Loss history (typically 3-5 years)
+- State-required Illinois disclosures and acknowledgments
+- Fraud statement and applicant signature
+
+When used:
+- New business — applying for an Illinois personal auto policy
+- Renewal applications (where required by the carrier)
+- Adding a driver or vehicle to an existing Illinois policy
+- Significant midterm changes that require fresh underwriting
+
+Notes:
+- Illinois requires UM coverage in limits equal to BI limits; UIM rejection
+  or reduction below BI limits must be in writing
+- Illinois Secretary of State conducts random insurance verification —
+  lapsed coverage can result in registration suspension
+- Standalone version (90IL) includes applicant info; the section version
+  (290IL) drops applicant identity in favor of ACORD 88 (Applicant
+  Information Section) for agencies using the modular ACORD system
+- Illinois minimum liability limits: 25/50/20 (625 ILCS 5/7-203)
+- Illinois UM is REQUIRED — cannot be waived (625 ILCS 5/7-601)
+- UIM not required at the minimum level but insurer must OFFER it
+  (215 ILCS 5/143a); reduction below BI liability limits must be in writing
+- PIP not part of Illinois framework (at-fault tort state)
+- Primary statutes: 215 ILCS 5 (Insurance Code), 625 ILCS 5 (Vehicle Code)
+- State insurance regulator: Illinois Department of Insurance (IDOI)

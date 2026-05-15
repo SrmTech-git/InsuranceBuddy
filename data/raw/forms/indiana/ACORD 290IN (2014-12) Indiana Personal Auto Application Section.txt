@@ -1,0 +1,47 @@
+ACORD 290IN (2014-12) — Indiana Personal Auto Application Section
+==================================================================
+Form number: ACORD 290IN
+Edition: 2014-12
+Title: Indiana Personal Auto Application Section
+Type: Insurance form (ACORD industry standard, Indiana state variant)
+States: IN
+Policy term: Matches the underlying personal auto policy term (typically 6 or 12 months)
+Transaction types: New business, renewal, midterm change — used as the auto-specific section in a modular ACORD application package
+
+Purpose:
+Auto-specific section of a personal auto application in Indiana. Used
+in combination with ACORD 88 (Personal Insurance Application —
+Applicant Information Section), which captures applicant identity. The
+290IN holds the auto-specific data needed to underwrite an Indiana
+auto policy under IC 9-25.
+
+Captures:
+- Drivers: license number/status, DOB, marital status, occupation,
+  3-5 year violation/accident history
+- Vehicles: VIN, year/make/model, body type, garaging address, ownership
+- Vehicle use: pleasure / commute / business, annual mileage
+- Lienholder / additional interest information
+- Coverages: BI, PD, UM/UIM, MedPay, comp, coll
+- Deductibles (comp and coll)
+- Optional coverages and discounts
+- Prior insurance carrier and lapse history
+- Loss history
+- Indiana-required disclosures and acknowledgments
+- Fraud statement and applicant signature
+(NOTE: Applicant identity is captured on ACORD 88, not duplicated here)
+
+When used:
+- New business — when the agency uses ACORD's modular section system
+  (88 + 290IN) rather than the standalone full app (90IN)
+- Renewal where the carrier requires fresh auto-section data while
+  reusing applicant info from 88
+- Adding a vehicle or driver to an existing modular-section policy
+
+Notes:
+- Indiana minimum liability limits: 25/50/25 (IC § 9-25)
+- Indiana UM/UIM: insurer must OFFER (IC § 27-7-6; UIM IC § 27-7-5-2);
+  insured may reject in writing
+- Primary statutes: IC Title 27 (Insurance), IC Title 9 (Motor Vehicles)
+- State insurance regulator: Indiana Department of Insurance (IDOI)
+- Electronic verification: Certificate of Compliance filed with Indiana BMV
+- Use 290IN with ACORD 88; use 90IN standalone

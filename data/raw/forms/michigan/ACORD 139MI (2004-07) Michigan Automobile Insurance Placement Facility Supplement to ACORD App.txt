@@ -1,0 +1,42 @@
+ACORD 139MI (2004-07) — Michigan Automobile Insurance Placement Facility Supplement to ACORD App. – Application for Commercial, Public Automobiles and Corporately Owned Vehicles
+==================================================================================================================================================================================
+Form number: ACORD 139MI
+Edition: 2004-07
+Title: Michigan Automobile Insurance Placement Facility Supplement to ACORD App. – Application for Commercial, Public Automobiles and Corporately Owned Vehicles
+Type: Insurance form (ACORD industry standard, Michigan state variant)
+States: MI
+Policy term: Matches the underlying MAIPF commercial auto policy term (typically 12 months)
+Transaction types: New MAIPF commercial business; renewal; fleet adjustments
+
+Purpose:
+MAIPF-specific supplement for commercial, public, and corporately
+owned auto applications. Used when a commercial fleet operator cannot
+obtain coverage in the voluntary market and applies to the Michigan
+Automobile Insurance Placement Facility (MAIPF) — Michigan's auto
+residual market. Used alongside the national commercial auto
+application package (ACORD 125 + 127 + state coverage forms).
+
+Captures:
+- Business identification and contact information
+- Type of commercial auto operation (trucking, public auto, corporate
+  fleet, etc.)
+- Description of fleet vehicles and operations
+- Reasons for voluntary-market denial (typically required by MAIPF)
+- Prior insurance history and lapses
+- MAIPF-specific underwriting disclosures
+- Authorized representative signature
+
+When used:
+- New MAIPF commercial / public auto submission
+- Renewal of MAIPF commercial coverage
+- Adding vehicles or operations to existing MAIPF fleet policy
+
+Notes:
+- MAIPF authority: MCL 500.3301 et seq.
+- Companion forms: 60MI (personal MAIPF residency declaration), 137MI
+  (commercial coverages section), 136MI (commercial PIP medical
+  selection), national 125 / 127 (commercial app + business auto section)
+- Predates the 2019 no-fault reform; underwriting language may not
+  reflect post-reform PIP tier mechanics
+- [TBD — verify whether 2004-07 is still the current ACORD-published
+  edition or has been superseded with post-reform updates]

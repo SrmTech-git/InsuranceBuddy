@@ -1,0 +1,55 @@
+ACORD 283MN (2025-07) — Minnesota Personal Umbrella Application Section
+========================================================================
+Form number: ACORD 283MN
+Edition: 2025-07
+Title: Minnesota Personal Umbrella Application Section
+Type: Insurance form (ACORD industry standard, Minnesota state variant)
+States: MN
+Policy term: Matches the underlying umbrella policy (typically 12 months)
+Transaction types: New business, renewal, increasing limits, midterm change to underlying policies
+
+Purpose:
+Personal umbrella-specific section of a Minnesota personal lines
+submission. Used in combination with ACORD 88 (Personal Insurance
+Application — Applicant Information Section), which captures applicant
+identity. The 283MN holds the umbrella-specific data: underlying
+policies, household exposures, umbrella limit selection, and
+Minnesota-required disclosures.
+
+Captures:
+- Underlying auto policy: carrier, policy number, BI/PD limits,
+  UM/UIM limits, no-fault PIP
+- Underlying homeowners policy: carrier, policy number, personal
+  liability and medical payments limits
+- Underlying watercraft policy: carrier, policy number, BI/PD limits
+  (significant in Minnesota)
+- Underlying recreational vehicle policy: carrier, limits — snowmobile,
+  ATV, recreational vehicle are common in Minnesota
+- Other underlying policies as applicable
+- Umbrella limit selected ($1M, $2M, $5M, $10M)
+- Drivers and licensed members of household
+- Vehicles, properties, watercraft, recreational vehicles owned
+- Loss history (typically 5 years)
+- Underwriting questions: prior umbrella, prior umbrella claims,
+  professional/occupational exposures, youthful drivers, business use
+- Minnesota-required disclosures, including Insurance Guaranty
+  Association notice
+- Fraud statement and applicant signature
+(NOTE: Applicant identity is captured on ACORD 88, not duplicated here)
+
+When used:
+- New Minnesota personal umbrella submission — when agency uses
+  ACORD's modular section system (88 + 283MN) rather than standalone
+  83MN
+- Renewal where the umbrella limit is being modified while reusing
+  applicant info from 88
+- Adding/removing underlying policies in a modular-section package
+
+Notes:
+- Section version (283MN) drops applicant identity; standalone version
+  is 83MN
+- Minnesota's recreational underlyings (snowmobile, ATV, watercraft)
+  often factor prominently into the umbrella underwriting picture
+- Companion forms: 88 (Applicant Info), 282MN (Watercraft Section),
+  290MN (Auto Section)
+- [TBD — verify whether Minnesota has a state-specific 88MN variant]

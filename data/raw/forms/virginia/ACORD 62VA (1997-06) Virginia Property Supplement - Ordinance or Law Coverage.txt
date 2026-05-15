@@ -1,0 +1,48 @@
+ACORD 62VA (1997-06) — Virginia Property Supplement Ordinance or Law Coverage; Additional Cov. Available
+=========================================================================================================
+Form number: ACORD 62VA
+Edition: 1997-06
+Title: Virginia Property Supplement Ordinance or Law Coverage; Additional Cov. Available
+Type: Insurance form (ACORD industry standard, Virginia state variant)
+States: VA
+Policy term: Matches the underlying property policy (typically 12 months); election persists until changed in writing
+Transaction types: New business (ordinance/law election); change in coverage
+
+Purpose:
+Virginia-required notice and election form for Ordinance or Law
+coverage. After a covered property loss, building codes may require
+reconstruction to higher current standards than what existed before
+the loss. Standard property policies include limited ordinance/law
+coverage (typically 10% of Coverage A); this form notifies the
+insured of the standard coverage and offers additional coverage as
+an endorsement.
+
+Captures:
+- Statutory description of ordinance or law coverage
+- Three coverage components typically:
+  * Coverage A — Loss to Undamaged Portion of Building (cost to
+    demolish undamaged portions that code requires removed)
+  * Coverage B — Demolition Cost (cost of demolition and debris
+    removal beyond standard limits)
+  * Coverage C — Increased Cost of Construction (cost to rebuild
+    to current code standards)
+- Standard included coverage (typically 10% of Coverage A)
+- Additional coverage available with selected higher limits
+- Insured's election to accept or reject additional ordinance/law
+- Insured signature and date
+
+When used:
+- New Virginia property submission — election captured at issuance
+- Renewal where the ordinance/law election is being modified
+- Anytime the insured wishes to add or remove additional coverage
+
+Notes:
+- Ordinance/law coverage matters most for older homes where current
+  building codes require significant upgrades after a partial loss
+  (e.g., electrical, plumbing, structural)
+- Without additional coverage, the insured may face significant out-
+  of-pocket costs to bring a partially-damaged older home back to
+  current code
+- The 1997-06 edition is quite old
+- [TBD — verify current Virginia ordinance/law notice and election
+  requirements]

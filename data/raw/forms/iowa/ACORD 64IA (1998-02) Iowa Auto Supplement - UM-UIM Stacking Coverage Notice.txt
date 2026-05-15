@@ -1,0 +1,40 @@
+ACORD 64IA (1998-02) — Iowa Auto Supplement – UM/UIM Stacking Coverage Notice
+==============================================================================
+Form number: ACORD 64IA
+Edition: 1998-02
+Title: Iowa Auto Supplement – UM/UIM Stacking Coverage Notice
+Type: Insurance form (ACORD industry standard, Iowa state variant)
+States: IA
+Policy term: Matches the underlying auto policy term; election persists until changed in writing
+Transaction types: New business (election required if multiple covered autos); change of stacking election
+
+Purpose:
+Iowa-specific notice and election form addressing UM/UIM "stacking" —
+the practice of combining UM or UIM limits across multiple insured
+vehicles on a single policy or across separate policies in the same
+household. Iowa permits or restricts stacking under certain conditions;
+this form notifies the insured and captures any election.
+
+Captures:
+- Statutory notice describing stacking and its effect on UM/UIM
+  available limits
+- Election regarding stacking (typically election to stack or not stack)
+- Insured acknowledgment and signature
+
+When used:
+- New Iowa auto submission with multiple covered autos
+- Adding a vehicle to an existing policy
+- Anytime the stacking election is being made or changed
+
+Notes:
+- Stacking can dramatically change UM/UIM recovery: e.g., 3 vehicles at
+  $100K UM each could provide $300K total if stacking is permitted, or
+  $100K if not
+- Iowa UM/UIM statutory authority: Iowa Code § 516A.1
+- Iowa UIM is REDUCED-BY (DIL) structure — UIM limits must exceed
+  at-fault driver's BI limits for any coverage to apply
+- Stacking and anti-stacking provisions are governed by policy
+  language and Iowa case law
+- Companion forms: 61IA (Offer/Rejection) and 62IA (Notice)
+- The 1998-02 edition is very old; [TBD — verify whether this is still
+  the current ACORD-published edition]

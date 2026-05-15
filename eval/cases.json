@@ -206,5 +206,125 @@
     "expected_sources": [],
     "expected_content": [],
     "should_have_info": false
+  },
+  {
+    "id": "state-variant-form-spaced",
+    "tags": ["state-form", "routing", "form-lookup"],
+    "query": "What is ACORD 66 MI?",
+    "expected_sources": ["ACORD 66MI"],
+    "expected_content": ["PIP medical", "Michigan"],
+    "should_have_info": true
+  },
+  {
+    "id": "state-variant-form-attached",
+    "tags": ["state-form", "routing", "form-lookup"],
+    "query": "What is ACORD 50IL?",
+    "expected_sources": ["ACORD 50IL"],
+    "expected_content": ["Illinois", "Insurance Identification Card"],
+    "should_have_info": true
+  },
+  {
+    "id": "mi-171-officer-exclusion",
+    "tags": ["state-form", "workers-comp", "mystery-resolution"],
+    "query": "What does ACORD 171 MI do?",
+    "expected_sources": ["ACORD 171MI"],
+    "expected_content": ["officer", "exclusion", "418.161"],
+    "should_have_info": true
+  },
+  {
+    "id": "ga-sr22-vs-sr22a",
+    "tags": ["state-form", "multi-form", "mystery-resolution"],
+    "query": "What's the difference between SR-22 and SR-22A in Georgia?",
+    "expected_sources": ["ACORD 54GA", "ACORD 55GA"],
+    "expected_content": ["prepayment", "SR-22A", "Georgia"],
+    "should_have_info": true
+  },
+  {
+    "id": "mi-60-vs-860",
+    "tags": ["state-form", "multi-form", "mystery-resolution"],
+    "query": "What's the difference between ACORD 60 MI and ACORD 860 MI?",
+    "expected_sources": ["ACORD 60MI", "ACORD 860MI"],
+    "expected_content": ["MAIPF", "voluntary", "Reside"],
+    "should_have_info": true
+  },
+  {
+    "id": "va-2025-limit-increase",
+    "tags": ["state-specific", "legislative-change"],
+    "query": "What changed about Virginia auto insurance liability minimums in 2025?",
+    "expected_sources": [],
+    "expected_content": ["50/100/25", "2025"],
+    "should_have_info": true
+  },
+  {
+    "id": "ga-sb121-dui",
+    "tags": ["state-form", "state-specific", "legislative-change"],
+    "query": "What does Georgia SB 121 change about auto insurance for DUI drivers?",
+    "expected_sources": [],
+    "expected_content": ["DUI", "50/100/50"],
+    "should_have_info": true
+  },
+  {
+    "id": "oh-um-not-required",
+    "tags": ["state-specific", "substantive-correction"],
+    "query": "Is uninsured motorist coverage mandatory in Ohio?",
+    "expected_sources": [],
+    "expected_content": ["Ohio", "not required"],
+    "should_have_info": true
+  },
+  {
+    "id": "mi-pip-tiers",
+    "tags": ["state-form", "state-specific", "michigan-no-fault"],
+    "query": "What does ACORD 66 MI capture about PIP medical tier options?",
+    "expected_sources": ["ACORD 66MI"],
+    "expected_content": ["Unlimited", "Medicaid", "tier"],
+    "should_have_info": true
+  },
+  {
+    "id": "va-uim-additive",
+    "tags": ["state-form", "state-specific", "legislative-change"],
+    "query": "How does Virginia's underinsured motorist coverage stack?",
+    "expected_sources": [],
+    "expected_content": ["additive", "Virginia"],
+    "should_have_info": true
+  },
+  {
+    "id": "ga-um-added-on",
+    "tags": ["state-form", "state-specific", "georgia-um"],
+    "query": "What does ACORD 62 GA say about Georgia's UM coverage structure?",
+    "expected_sources": ["ACORD 62GA"],
+    "expected_content": ["added", "reduced", "Georgia"],
+    "should_have_info": true
+  },
+  {
+    "id": "compare-il-ky-auto",
+    "tags": ["multi-state", "cross-state-comparison"],
+    "query": "List the personal auto liability minimums for Illinois and Kentucky",
+    "expected_sources": [],
+    "expected_content": ["Illinois", "Kentucky", "25"],
+    "should_have_info": true
+  },
+  {
+    "id": "oh-fair-plan-family",
+    "tags": ["state-form", "form-family", "fair-plan"],
+    "query": "What FAIR Plan forms does Ohio have?",
+    "expected_sources": ["171OH"],
+    "expected_content": ["FAIR Plan", "Ohio"],
+    "should_have_info": true
+  },
+  {
+    "id": "mine-subsidence-multistate",
+    "tags": ["multi-state-form", "general-folder"],
+    "query": "What is ACORD 67 mine subsidence?",
+    "expected_sources": ["Mine Subsidence"],
+    "expected_content": ["Illinois", "Kentucky"],
+    "should_have_info": true
+  },
+  {
+    "id": "no-california-forms",
+    "tags": ["state-form", "negative", "refusal"],
+    "query": "What is the ACORD 90 California personal auto application?",
+    "expected_sources": [],
+    "expected_content": [],
+    "should_have_info": false
   }
 ]

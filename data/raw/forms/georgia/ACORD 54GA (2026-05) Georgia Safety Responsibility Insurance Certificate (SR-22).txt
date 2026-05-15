@@ -1,0 +1,64 @@
+ACORD 54GA (2026-05) — Georgia Safety Responsibility Insurance Certificate (SR-22)
+===================================================================================
+Form number: ACORD 54GA
+Edition: 2026-05
+Title: Georgia Safety Responsibility Insurance Certificate (SR-22)
+Type: Insurance form (ACORD industry standard, Georgia state variant)
+States: GA
+Policy term: Matches the underlying auto policy term; SR-22 filing typically required for a multi-year period from the triggering event (see notes for duration)
+Transaction types: SR-22 filing (new), termination/cancellation of SR-22 (must be reported to state), renewal
+
+Purpose:
+Georgia-specific SR-22 financial responsibility filing. SR-22 is a
+state filing — NOT a separate insurance policy — that certifies to
+the Georgia Department of Driver Services (DDS) that a driver
+carries automobile liability insurance meeting Georgia minimum
+requirements. The SR-22 is required by the Georgia Safety
+Responsibility Law for drivers who have had certain driving
+infractions and need to demonstrate continuous financial
+responsibility to maintain or restore their license.
+
+Captures:
+- Driver's name, address, DOB, driver's license number
+- Driver's license issuing state
+- Insurance carrier name and NAIC code
+- Policy number
+- Policy effective and expiration dates
+- Liability limits carried (must meet or exceed Georgia minimum
+  BI/PD limits)
+- Type of SR-22 filing:
+  * Operator (covers the driver in any vehicle they drive,
+    including non-owned)
+  * Owner (covers vehicles the driver owns)
+  * Operator-Owner (combined)
+- Certification by the carrier to the Georgia DDS
+- Insured / driver signature acknowledgment
+- Filing transmission to Georgia DDS
+
+When used:
+- Required filing after triggering driving infractions in Georgia —
+  typically standard violation categories (multiple moving violations,
+  certain at-fault accident situations, license suspension reinstatement)
+- Required for license / registration reinstatement after suspension
+- Required to maintain license validity during the filing period
+- Termination notice required when policy cancels (cancellation
+  reported by carrier to state — typically triggers license suspension)
+
+Notes:
+- SR-22 is a CERTIFICATE / FILING, not an insurance policy. The
+  underlying liability policy is the actual insurance; SR-22 is the
+  state-required proof.
+- Companion form: 55GA — Georgia SR-22A (the variant used in more
+  serious situations involving security/bond posting or repeated
+  no-insurance violations — see 55GA card for details)
+- Cancellation or lapse of the underlying policy triggers automatic
+  notification to the Georgia DDS and typically results in license
+  suspension
+- Georgia Safety Responsibility Law: O.C.G.A. § 40-9 et seq.;
+  SR-22 specifically O.C.G.A. § 40-5-71
+- SR-22 filing duration in Georgia: typically 3 years continuous
+  coverage from the triggering event. Lapse triggers SR-26 to GA DDS
+  → immediate re-suspension.
+- 2025 SB 121 (Act 287, eff. May 14, 2025; O.C.G.A. § 33-7-16):
+  DUI convictions trigger ENHANCED liability minimums (50/100/50 for
+  1st DUI, higher for 2nd+) for 3 years — applies during SR-22 period

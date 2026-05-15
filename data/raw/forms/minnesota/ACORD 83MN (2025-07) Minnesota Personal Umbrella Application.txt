@@ -1,0 +1,62 @@
+ACORD 83MN (2025-07) — Minnesota Personal Umbrella Application
+===============================================================
+Form number: ACORD 83MN
+Edition: 2025-07
+Title: Minnesota Personal Umbrella Application
+Type: Insurance form (ACORD industry standard, Minnesota state variant)
+States: MN
+Policy term: 12 months (typical for personal umbrella)
+Transaction types: New business, renewal, increasing limits, midterm change to underlying policies
+
+Purpose:
+Standalone application for a personal umbrella liability policy in
+Minnesota. Captures the applicant, household members, underlying
+policies (auto, HO, watercraft, etc.) and their limits, and the
+umbrella limit selected. The umbrella provides excess liability
+coverage above underlying policy limits plus broader coverage for
+certain claims.
+
+Captures:
+- Producer / agency information
+- Applicant: name, address, DOB, contact, occupation
+- Household members: spouse, resident relatives, licensed drivers
+- Underlying auto policy: carrier, policy number, BI/PD limits,
+  UM/UIM limits — Minnesota's no-fault PIP also feeds into the
+  underlying coverage picture
+- Underlying homeowners policy: carrier, policy number, personal
+  liability and medical payments limits
+- Underlying watercraft policy: carrier, policy number, BI/PD limits
+  (significant in Minnesota given the recreational-boating exposure)
+- Other underlying policies (rental properties, recreational vehicles,
+  ATVs, snowmobiles — common in Minnesota)
+- Umbrella limit selected (typically $1M, $2M, $5M, $10M)
+- Drivers and licensed members of household
+- Vehicles, properties, watercraft, recreational vehicles owned
+- Loss history (typically 5 years)
+- Underwriting questions: prior umbrella, prior umbrella claims,
+  professional/occupational exposures, youthful drivers, business use
+- Minnesota-required disclosures, including Insurance Guaranty
+  Association notice
+- Fraud statement and applicant signature
+
+When used:
+- New Minnesota personal umbrella submission
+- Renewal where the umbrella limit is being modified
+- Adding/removing underlying policies
+- Reporting significant household or exposure changes
+
+Notes:
+- Personal umbrella requires underlying liability minimums to be met
+  (carrier-specific — typically 250/500/100 auto, $300K HO liability)
+- Coverage broader than underlying: defense costs in addition,
+  personal injury coverage, worldwide
+- Minnesota recreational exposures (boats, snowmobiles, ATVs) add
+  meaningful underlying-policy considerations for the umbrella
+  application
+- Companion forms: 88MN-equivalent (no 88MN in our catalog — likely
+  uses national 88), 283MN (Personal Umbrella Application Section
+  for modular structure)
+- [TBD — verify whether Minnesota has a state-specific 88 variant
+  (we only have national 88 plus 283MN for the section structure)]
+- [TBD — verify current carrier-typical underlying limit requirements
+  for Minnesota umbrellas]

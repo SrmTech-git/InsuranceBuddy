@@ -1,0 +1,55 @@
+ACORD 290VA (2025-11) — Virginia Personal Auto Application Section
+===================================================================
+Form number: ACORD 290VA
+Edition: 2025-11
+Title: Virginia Personal Auto Application Section
+Type: Insurance form (ACORD industry standard, Virginia state variant)
+States: VA
+Policy term: Matches the underlying personal auto policy term (typically 6 or 12 months)
+Transaction types: New business, renewal, midterm change — used as the auto-specific section in a modular ACORD application package
+
+Purpose:
+Auto-specific section of a personal auto application in Virginia. Used
+in combination with ACORD 88 (Personal Insurance Application —
+Applicant Information Section), which captures applicant identity. The
+290VA holds the auto-specific data and Virginia-specific UM elections.
+
+Captures:
+- Drivers: license number/status, DOB, marital status, occupation,
+  3-5 year violation/accident history
+- Vehicles: VIN, year/make/model, body type, garaging address
+- Vehicle use: pleasure / commute / business, annual mileage
+- Lienholder / additional interest information
+- Coverages: BI, PD, UM/UIM (with Virginia-specific UM elections),
+  MedPay, comp, coll, optional medical and disability coverage
+- Deductibles (comp and coll)
+- Optional coverages and discounts
+- Prior insurance carrier and lapse history
+- Loss history
+- Virginia-required disclosures and acknowledgments
+- Fraud statement and applicant signature
+(NOTE: Applicant identity is captured on ACORD 88, not duplicated here)
+
+When used:
+- New business — when the agency uses ACORD's modular section system
+  (88 + 290VA) rather than the standalone full app (90VA)
+- Renewal where the carrier requires fresh auto-section data while
+  reusing applicant info from 88
+- Adding a vehicle or driver to an existing modular-section policy
+
+Notes:
+- Virginia UM coverage typically required at limits equal to liability;
+  insureds may elect to reduce (66VA), accept alternative coverage
+  (68VA), or reject UM (69VA) via separate forms
+- Companion forms commonly used: 38VA (privacy), 60VA (rental), 61VA
+  (optional medical/disability notice), 65VA (UM notice), 66VA (UIM
+  reduction election), 68VA (UM alternative selection), 69VA (UM
+  selection/rejection)
+- Use 290VA with ACORD 88; use 90VA standalone
+- Virginia minimum liability limits: 50/100/25 (INCREASED Jan 1, 2025
+  from 30/60/20) under Va. Code § 46.2-472
+- VA UMV fee option ELIMINATED July 1, 2024 — insurance now mandatory
+- VA UM/UIM REQUIRED, must match liability limits; UIM ADDITIVE since
+  July 1, 2023 (Va. Code § 38.2-2206)
+- VA is strict contributory negligence state (1% bar)
+- State regulator: Virginia Bureau of Insurance / State Corp Commission

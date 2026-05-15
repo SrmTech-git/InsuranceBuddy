@@ -17,8 +17,9 @@ from chunkers.forms import forms_chunker
 # Registry: collection name -> chunker function.
 # Add new entries as collection-specific chunkers are written.
 CHUNKER_REGISTRY: dict[str, Chunker] = {
-    "educational": educational_chunker,
-    "forms":       forms_chunker,
+    "educational":  educational_chunker,
+    "forms":        forms_chunker,
+    "endorsements": forms_chunker,  # endorsement library cards are atomic, same shape as forms cards
     # "regulatory":  regulatory_chunker,    # Phase 4
 }
 

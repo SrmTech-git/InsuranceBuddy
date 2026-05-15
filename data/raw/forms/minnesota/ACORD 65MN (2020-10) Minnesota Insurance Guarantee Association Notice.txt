@@ -1,0 +1,43 @@
+ACORD 65MN (2020-10) — Minnesota Insurance Guarantee Association Notice
+========================================================================
+Form number: ACORD 65MN
+Edition: 2020-10
+Title: Minnesota Insurance Guarantee Association Notice
+Type: Insurance form (ACORD industry standard, Minnesota state variant)
+States: MN
+Policy term: Matches the underlying policy; notice delivered at issuance and renewal
+Transaction types: New business (notice required); renewal
+
+Purpose:
+Minnesota-required notice informing policyholders about the Minnesota
+Insurance Guaranty Association (MIGA) — the state's insurance
+guaranty fund that pays covered claims if a licensed property/casualty
+insurer becomes insolvent. Every state has a similar guaranty
+association; this form is the Minnesota-specific disclosure.
+
+Captures:
+- Statutory notice describing MIGA's purpose and what it covers
+- Coverage limits (typically a per-claim cap and per-policy aggregate;
+  precise amounts set by Minnesota statute)
+- Disclosure of what MIGA does NOT cover (e.g., reinsurance, surplus-
+  lines, certain large commercial policies above caps, life/health
+  policies — those have a separate guaranty association)
+- Statement that the existence of MIGA may not be used by carriers
+  for marketing purposes (standard guaranty notice rule)
+- Insured acknowledgment of receipt
+- Optional signature
+
+When used:
+- New Minnesota property/casualty policy issuance — notice delivered
+- Renewal — many carriers deliver the notice annually
+- Required by Minn. Stat. § 60C.20 (or similar) at policy issuance
+
+Notes:
+- MIGA = Minnesota Insurance Guaranty Association — Minn. Stat. Ch. 60C
+- Pays claims of insolvent Minnesota P&C insurers up to statutory caps
+- Funded by assessments on solvent member insurers
+- This is purely an informational notice — not a coverage form or
+  election
+- Most personal lines and commercial submissions in Minnesota include
+  this notice in the application package
+- [TBD — verify current MIGA coverage caps (per claim and aggregate)]

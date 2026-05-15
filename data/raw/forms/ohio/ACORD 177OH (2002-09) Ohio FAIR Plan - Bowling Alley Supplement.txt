@@ -1,0 +1,52 @@
+ACORD 177OH (2002-09) — Ohio FAIR Plan – Bowling Alley Supplement
+==================================================================
+Form number: ACORD 177OH
+Edition: 2002-09
+Title: Ohio FAIR Plan – Bowling Alley Supplement
+Type: Insurance form (ACORD industry standard, Ohio state variant)
+States: OH
+Policy term: 12 months (matches the master 171OH FAIR Plan submission)
+Transaction types: New business; renewal; midterm change
+
+Purpose:
+Specialty supplement to the Ohio FAIR Plan Basic Property Application
+(171OH) for bowling alley properties. Bowling alleys are a recognized
+hard-to-place property class in commercial markets — combination of
+large open-floor structure, specialized equipment, lane construction,
+food/beverage operations, and entertainment-venue exposure leads to
+voluntary-market denials. This supplement captures bowling-alley-
+specific underwriting info.
+
+Captures:
+- Number of lanes and lane construction type
+- Year of last major renovation
+- Building floor area and ceiling height
+- Pinsetter equipment description and value
+- Lane equipment (ball returns, scoring system) description and value
+- Food and beverage operations on premises (snack bar, full bar, etc.)
+- Other amenities (arcade, billiards, party rooms)
+- Property values for each component
+- Applicant signature and date
+
+When used:
+- Ohio FAIR Plan submission for a bowling alley — attached to 171OH
+- Renewal of existing FAIR Plan bowling alley coverage
+- Reporting bowling alley operational or property changes
+
+Notes:
+- Used in combination with the master 171OH (Basic Property Application)
+- Bowling alleys typically end up in residual markets due to
+  property age, large floor plates, and specialized equipment
+  exposure; voluntary-market commercial property carriers often
+  decline these risks
+- Coverage typically named-perils on building + business personal
+  property; lane equipment may be scheduled separately
+- General Liability is NOT included — separate GL needed for
+  slip-and-fall and entertainment-venue exposures
+- Companion supplements: 172OH (Homeowners), 173OH (Dwelling Fire),
+  174OH (Commercial), 175OH (Farm), 176OH (Rehabilitation)
+- The existence of a dedicated bowling-alley supplement in the Ohio
+  FAIR Plan family reflects how reliably bowling alleys land in the
+  residual market
+- [TBD — verify current Ohio FAIR Plan bowling alley coverage and
+  exclusions]

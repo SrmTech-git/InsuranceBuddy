@@ -5,18 +5,17 @@
 #   2. If forms are mentioned, whether they're the SUBJECT of the query
 #      or just CONTEXT for a conceptual question
 #
-# Comparison queries ("vs", "compare", "difference between") short-circuit
-# to all collections via fast regex — no API call needed.
-#
 # The Anthropic client lives here because router.py is the first module
 # in the dependency graph that needs it. chat.py imports _get_client from
 # here for the answer call.
 
+import logging
 import os
-import re
 import anthropic
 
 from config import GENERATION_MODEL, CLASSIFIER_MAX_TOKENS
+
+logger = logging.getLogger(__name__)
 
 
 # ---------------------------------------------------------------------------
@@ -28,7 +27,8 @@ from config import GENERATION_MODEL, CLASSIFIER_MAX_TOKENS
 COLLECTION_REGISTRY: dict[str, str] = {
     "regulatory": "state statutes and administrative code (e.g. Ohio ORC/OAC), compliance requirements, filing rules, penalties, legal limits",
     "educational": "conceptual explanations of insurance products, coverage types, and industry terms",
-    "forms": "insurance forms and document templates — declarations pages, applications, endorsements, certificates of insurance, ACORD/ISO forms, and state-required notice forms",
+    "forms": "insurance application forms and document templates — declarations pages, ACORD applications, sections, certificates of insurance, ID cards, and state-required notice forms (NOT policy endorsements — see endorsements collection)",
+    "endorsements": "policy endorsement forms that modify coverage — ISO/AAIS/NCCI standard endorsements (CG 20 10 Additional Insured, CA 99 23 Drive Other Car, HO 04 90 Personal Injury, etc.), exclusion endorsements, coverage extensions, and state-mandated coverage amendments",
 }
 
 
@@ -88,10 +88,15 @@ def _parse_route_response(raw: str, detected_forms: list[str] | None = None) -> 
     if not collections:
         collections = list(COLLECTION_REGISTRY.keys())
 
-    # If forms were detected but intent didn't classify them, default to
-    # "subject" so the form filter still applies. This preserves the prior
-    # behavior — we never get worse than before this change.
+    # If forms were detected but the LLM returned "none" (an invalid response
+    # per the prompt — forms-present queries must return "subject" or
+    # "context"), default to "subject" so the form filter still applies.
+    # Log it so silent prompt-compliance failures don't accumulate unseen.
     if detected_forms and intent == "none":
+        logger.warning(
+            "Router returned intent='none' despite forms detected (%s); defaulting to 'subject'. Raw response: %r",
+            detected_forms, raw,
+        )
         intent = "subject"
 
     return collections, intent
@@ -164,13 +169,7 @@ def _llm_route(question: str, detected_forms: list[str] | None = None) -> tuple[
 def detect_collection(text: str, detected_forms: list[str] | None = None) -> tuple[list[str], str]:
     """Return (collections, form_intent) for this query.
 
-    Comparison queries (vs, compare, difference between) always get all
-    collections via fast regex; intent defaults to "subject" when forms
-    are detected so the form filter still applies. Everything else is
-    routed by Haiku, which also classifies the form intent.
+    Routes via Haiku, which classifies both the collection(s) to search
+    and (when forms are detected) the form intent.
     """
-    comparison_patterns = [r"\bdifference\s+between\b", r"\bcompare\b", r"\bvs\.?\b"]
-    if any(re.search(p, text, re.IGNORECASE) for p in comparison_patterns):
-        intent = "subject" if detected_forms else "none"
-        return list(COLLECTION_REGISTRY.keys()), intent
     return _llm_route(text, detected_forms)

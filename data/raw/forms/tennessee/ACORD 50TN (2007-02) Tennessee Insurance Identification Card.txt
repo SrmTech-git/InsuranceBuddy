@@ -1,0 +1,37 @@
+ACORD 50TN (2007-02) — Tennessee Insurance Identification Card
+===============================================================
+Form number: ACORD 50TN
+Edition: 2007-02
+Title: Tennessee Insurance Identification Card
+Type: Insurance form (ACORD industry standard, Tennessee state variant)
+States: TN
+Policy term: Matches the underlying auto policy term (typically 6 or 12 months); reissued at each renewal
+Transaction types: N/A (proof-of-insurance card, not a transaction document)
+
+Purpose:
+Proof of mandatory liability insurance issued under a Tennessee personal
+auto policy. Carried in the vehicle to satisfy Tennessee's Financial
+Responsibility Law (Tenn. Code Ann. § 55-12), which requires drivers
+to maintain minimum liability coverage.
+
+Captures:
+- Insured's name and address
+- Policy number
+- Policy effective and expiration dates
+- Year, make, model, and VIN of the insured vehicle
+- Insurer name and NAIC code
+- Agent / agency name and contact (if applicable)
+
+When used:
+- Carried in the vehicle as proof of insurance
+- Presented to law enforcement during a traffic stop or accident investigation
+- Presented to the Tennessee Department of Revenue / county clerk for registration
+- Required at accident scenes
+
+Notes:
+- Tennessee operates an electronic insurance verification system
+  (Insurance Verification Program / IVPS) — carriers report active policy
+  status electronically; the ID card supplements the electronic record
+- [TBD — verify whether 2007-02 is still the current ACORD-published edition
+  for Tennessee ID cards]
+- [TBD — verify current Tennessee state minimum liability limits]

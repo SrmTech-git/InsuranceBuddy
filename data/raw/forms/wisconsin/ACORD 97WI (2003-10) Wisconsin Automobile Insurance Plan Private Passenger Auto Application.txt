@@ -1,0 +1,59 @@
+ACORD 97WI (2003-10) — Wisconsin Automobile Insurance Plan Private Passenger Auto Application
+==============================================================================================
+Form number: ACORD 97WI
+Edition: 2003-10
+Title: Wisconsin Automobile Insurance Plan Private Passenger Auto Application
+Type: Insurance form (ACORD industry standard, Wisconsin state variant)
+States: WI
+Policy term: 6 months (typical for WAIP private passenger auto) or 12 months depending on assignment
+Transaction types: New business (WAIP submission after voluntary-market denial), renewal, change in driver/vehicle
+
+Purpose:
+Application for private passenger automobile insurance through the
+Wisconsin Automobile Insurance Plan (WAIP) — Wisconsin's auto residual
+market / assigned-risk pool. Used when an applicant is unable to
+obtain coverage in the voluntary market (typically due to driving
+record, prior cancellations, or other underwriting factors). WAIP
+assigns applicants to participating carriers in proportion to their
+voluntary-market share.
+
+Captures:
+- Producer / agency information (where applicable; WAIP submissions
+  may be made by independent agents or directly by the applicant)
+- Applicant information: name, address, DOB, contact, occupation
+- Driver list: license number/status, DOB, marital status,
+  occupation, prior cancellations and denials (key to WAIP eligibility)
+- Driver history: violations, accidents, license suspensions —
+  typically more extensive than voluntary-market apps
+- Vehicle list: VIN, year/make/model, garaging address, ownership,
+  use, annual mileage
+- Lienholder / additional interest information
+- Coverages selected: BI, PD, UM (mandatory in WI), UIM, MedPay,
+  comp, coll — typically at or near state minimums for WAIP risks
+- Deductibles
+- Prior insurance and denial history (REQUIRED for WAIP eligibility
+  — typically need documentation of voluntary-market denials)
+- Loss history
+- WAIP-specific disclosures and acknowledgments
+- Applicant signature and date
+
+When used:
+- New Wisconsin private passenger auto submission to WAIP after
+  voluntary-market denial
+- Renewal of WAIP coverage (some risks return to voluntary market
+  after good loss experience)
+- Adding driver or vehicle to existing WAIP policy
+
+Notes:
+- WAIP = Wisconsin Automobile Insurance Plan — administered by AIPSO
+  (Automobile Insurance Plans Service Office) on behalf of Wisconsin
+- Applicants typically need documentation of voluntary-market denials
+  (carrier-specific — often 2+ rejections)
+- WAIP coverage is more expensive than voluntary market; coverage
+  limits typically at state minimums (insureds can elect higher with
+  premium impact)
+- Companion forms: 177WI (WAIP Business Auto), 178WI (WAIP Truckers)
+- The 2003-10 edition is older; [TBD — verify whether this is still
+  the current ACORD-published edition or has been superseded]
+- [TBD — verify current WAIP submission requirements and how
+  Wisconsin's 2010 transition to compulsory insurance affected WAIP]

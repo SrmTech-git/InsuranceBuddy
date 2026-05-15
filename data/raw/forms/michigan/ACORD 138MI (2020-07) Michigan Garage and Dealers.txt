@@ -1,0 +1,54 @@
+ACORD 138MI (2020-07) — Michigan Garage and Dealers
+====================================================
+Form number: ACORD 138MI
+Edition: 2020-07
+Title: Michigan Garage and Dealers
+Type: Insurance form (ACORD industry standard, Michigan state variant)
+States: MI
+Policy term: 12 months (typical for commercial garage policy)
+Transaction types: New business, renewal, midterm change, audit-driven adjustment
+
+Purpose:
+Michigan-specific Garage and Dealers section. Captures business
+information, exposures, coverages, and the Michigan no-fault elections
+required for a Garage / Dealers policy under MCL 500.3101 et seq.
+State-specific overlay to the national ACORD 128 (Garage and Dealers
+Section).
+
+Captures:
+- Insured business type: new-car dealer, used-car dealer, service station,
+  body shop, repair shop, towing operation, etc.
+- Dealer / business license number(s)
+- Premises: locations, age, square footage, lot size
+- Operations: gross receipts, vehicles in inventory / sold / serviced
+- Garage liability (premises and operations)
+- Auto Liability (covered autos) — Michigan Residual Liability rules apply
+- PIP medical (commercial tier — see companion 136MI)
+- PIP non-medical / PPI
+- Garagekeepers (CCC — care, custody, control)
+- Products and Completed Operations
+- UM/UIM for covered autos
+- Michigan-required dealer disclosures and acknowledgments
+
+When used:
+- New garage policy submission for a Michigan auto-related business
+- Renewal where Michigan-specific coverages or dealer info are reselected
+- Adding/removing locations or operations
+- Midterm endorsement that changes coverage or operations
+
+Notes:
+- 2020-07 edition is the first major edition after the July 2, 2020
+  effective date of the no-fault reform — incorporates PIP-tier
+  disclosure for commercial / garage covered autos
+- Companion forms: 136MI (PIP Medical Selection — Commercial), 61MI
+  (BI Liability Choice)
+- Michigan dealer regulations are administered by the Secretary of State
+- MCCA per-vehicle assessment applies to unlimited-tier PIP medical
+  for garage covered autos
+- Michigan default residual liability limits applicable to garage
+  covered autos: 250/500 BI (MCL § 500.3009); statutory floor 50/100;
+  PD $10K + separate mandatory PPI $1M
+- Michigan UM/UIM NOT required — optional
+- State regulator: Michigan DIFS
+
+- [TBD — verify current Michigan Garage policy minimum coverage requirements]

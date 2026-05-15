@@ -1,0 +1,48 @@
+ACORD 137IL (2015-12) — Illinois Commercial Auto
+=================================================
+Form number: ACORD 137IL
+Edition: 2015-12
+Title: Illinois Commercial Auto
+Type: Insurance form (ACORD industry standard, Illinois state variant)
+States: IL
+Policy term: 12 months (typical for commercial auto)
+Transaction types: New business, renewal, midterm change, audit-driven adjustment
+
+Purpose:
+Illinois-specific Commercial Auto Coverages section. Captures the
+coverage selections, limits, deductibles, and Illinois-required
+disclosures for a commercial auto policy. Used alongside the broader
+commercial auto submission (ACORD 125 Applicant Information + ACORD 127
+Business Auto Section + this state-coverages form 137IL).
+
+Captures:
+- Liability limits (BI/PD split or Combined Single Limit)
+- Comp / collision deductibles by vehicle class
+- UM / UIM coverage selections and limits
+- MedPay
+- Hired Auto Liability
+- Non-Owned Auto Liability
+- Drive Other Car coverage (where applicable)
+- Towing & labor / rental reimbursement / loss of use
+- Trailer interchange (for trucking risks)
+- Illinois-required disclosures and acknowledgments
+
+When used:
+- New commercial auto submission for an Illinois-based fleet
+- Renewal where Illinois-specific coverages are being reselected
+- Midterm endorsement that changes coverage or limits
+
+Notes:
+- Illinois requires UM in limits equal to BI; UIM rejection/reduction
+  below BI must be in writing — applies to commercial as well as personal
+- Pairs with national ACORD 125 (Applicant Info) and ACORD 127 (Business
+  Auto Section — vehicles, drivers, garaging)
+- Illinois personal-auto minimum limits: 25/50/20 (625 ILCS 5/7-203).
+  Commercial fleets subject to federal MCS-90 minimums for interstate
+  operations (typically $750K-$5M depending on cargo).
+- Illinois UM REQUIRED (625 ILCS 5/7-601) — applies to commercial as
+  well as personal
+- State regulator: Illinois Department of Insurance (IDOI)
+- [TBD — verify the exact structural relationship between 137IL and the
+  national 127 Business Auto Section; some carriers use 137IL as a
+  state-overlay to 127, others use it standalone]

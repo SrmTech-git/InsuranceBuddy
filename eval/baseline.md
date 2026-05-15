@@ -1,6 +1,6 @@
-# Eval Report — 2026-05-14_17-03-40
+# Eval Report — 2026-05-14_21-14-32
 
-**Summary:** 26/26 cases passed (100%)
+**Summary:** 41/41 cases passed (100%)
 
 - Average source recall:   1.00
 - Average content recall:  1.00
@@ -35,3 +35,18 @@
 | ✅ PASS | `state-filter-includes-untagged` | 1.00 | 1.00 | - |
 | ✅ PASS | `should-refuse-nonexistent-form` | 1.00 | 1.00 | - |
 | ✅ PASS | `should-refuse-no-state-content` | 1.00 | 1.00 | - |
+| ✅ PASS | `state-variant-form-spaced` | 1.00 | 1.00 | - |
+| ✅ PASS | `state-variant-form-attached` | 1.00 | 1.00 | - |
+| ✅ PASS | `mi-171-officer-exclusion` | 1.00 | 1.00 | - |
+| ✅ PASS | `ga-sr22-vs-sr22a` | 1.00 | 1.00 | - |
+| ✅ PASS | `mi-60-vs-860` | 1.00 | 1.00 | - |
+| ✅ PASS | `va-2025-limit-increase` | 1.00 | 1.00 | - |
+| ✅ PASS | `ga-sb121-dui` | 1.00 | 1.00 | - |
+| ✅ PASS | `oh-um-not-required` | 1.00 | 1.00 | - |
+| ✅ PASS | `mi-pip-tiers` | 1.00 | 1.00 | - |
+| ✅ PASS | `va-uim-additive` | 1.00 | 1.00 | - |
+| ✅ PASS | `ga-um-added-on` | 1.00 | 1.00 | - |
+| ✅ PASS | `compare-il-ky-auto` | 1.00 | 1.00 | - |
+| ✅ PASS | `oh-fair-plan-family` | 1.00 | 1.00 | - |
+| ✅ PASS | `mine-subsidence-multistate` | 1.00 | 1.00 | - |
+| ✅ PASS | `no-california-forms` | 1.00 | 1.00 | - |

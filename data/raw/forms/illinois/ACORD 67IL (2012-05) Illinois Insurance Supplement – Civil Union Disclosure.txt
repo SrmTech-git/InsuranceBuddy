@@ -1,0 +1,50 @@
+ACORD 67IL (2012-05) — Illinois Insurance Supplement – Civil Union Disclosure
+==============================================================================
+Form number: ACORD 67IL
+Edition: 2012-05
+Title: Illinois Insurance Supplement – Civil Union Disclosure
+Type: Insurance form (ACORD industry standard, Illinois state variant)
+States: IL
+Policy term: Notice delivered at issuance and at periodic renewals; not tied to a specific policy term
+Transaction types: New business (notice required), renewal (re-disclosure where required)
+
+Purpose:
+Illinois-required disclosure form addressing how civil union partners
+are treated under insurance policies in Illinois. Following the
+Illinois Religious Freedom Protection and Civil Union Act (effective
+June 1, 2011), civil union partners must be afforded the same
+insurance treatment as spouses under Illinois law. This form
+discloses that treatment and captures insured acknowledgment.
+
+Captures:
+- Statutory description of how civil union partners are treated
+  under the insurance policies issued in Illinois
+- Statement that civil union partners are treated as spouses for
+  coverage purposes under Illinois insurance policies (subject to
+  policy terms and Illinois statute)
+- Examples of coverages affected: spouse coverage on auto, HO,
+  health, life, disability
+- Insured acknowledgment of receipt of the disclosure
+- Insured signature and date (where applicable)
+
+When used:
+- New Illinois personal lines or commercial submission with potential
+  spousal coverage implications
+- Renewal (where re-disclosure is required)
+- Anytime a civil union relationship is being added or removed
+
+Notes:
+- Illinois Religious Freedom Protection and Civil Union Act (750 ILCS
+  75) — effective June 1, 2011 — established civil union recognition
+- Civil unions in Illinois afford the same rights, benefits, and
+  protections as marriage under state law (subject to federal limits)
+- After the Obergefell v. Hodges Supreme Court decision (2015) and
+  Illinois same-sex marriage law (2014), civil union became one of
+  several legal recognition options — couples may also marry. The
+  Civil Union Disclosure remains relevant for civil-union couples
+  not married.
+- Pure informational disclosure — no coverage election occurs
+- The 2012-05 edition predates Illinois same-sex marriage law (2014);
+  [TBD — verify whether this is still the current ACORD-published
+  edition or has been superseded with updated language reflecting
+  the post-Obergefell legal landscape]

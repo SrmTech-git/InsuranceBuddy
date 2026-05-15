@@ -1,0 +1,46 @@
+ACORD 50KY (2006-01) — Commonwealth of Kentucky Proof of Insurance
+===================================================================
+Form number: ACORD 50KY
+Edition: 2006-01
+Title: Commonwealth of Kentucky Proof of Insurance
+Type: Insurance form (ACORD industry standard, Kentucky state variant)
+States: KY
+Policy term: Matches the underlying auto policy term (typically 6 or 12 months); reissued at each renewal
+Transaction types: N/A (proof-of-insurance card, not a transaction document)
+
+Purpose:
+Proof of mandatory liability and no-fault insurance issued under a
+Kentucky personal auto policy. Carried in the vehicle to satisfy
+Kentucky's Motor Vehicle Reparations Act (KRS 304.39), which requires
+liability coverage and Personal Injury Protection (no-fault) by default.
+
+Captures:
+- Insured's name and address
+- Policy number
+- Policy effective and expiration dates
+- Year, make, model, and VIN of the insured vehicle
+- Insurer name and NAIC code
+- Agent / agency name and contact (if applicable)
+
+When used:
+- Carried in the vehicle as proof of insurance
+- Presented to law enforcement during a traffic stop or accident investigation
+- Presented to the Kentucky Transportation Cabinet for registration / renewal
+- Required at accident scenes to verify financial responsibility
+
+Notes:
+- Kentucky is a "choice no-fault" state — PIP (Personal Injury Protection)
+  applies by default, but drivers may reject the no-fault tort threshold
+  in writing on a separate election form
+- "Commonwealth of Kentucky" reflects Kentucky's status as one of four
+  U.S. commonwealths (terminology choice on the card itself)
+- [TBD — verify whether the 2006-01 edition is still the current
+  ACORD-published edition for Kentucky proof-of-insurance cards]
+- Kentucky minimum liability limits: 25/50/25 (or $60,000 CSL in lieu
+  of split limits) — Kentucky Motor Vehicle Reparations Act
+- Kentucky default PIP coverage: $10,000 minimum, required by default
+  under KRS § 304.39-020 (covers medical + lost wages up to $200/wk
+  regardless of fault); may be rejected in writing except for motorcycles
+- State insurance regulator: Kentucky Department of Insurance (KDI)
+- Electronic verification: monthly VIN reports to Dept. of Vehicle
+  Regulation; AVIS/KAVIS database

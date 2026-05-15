@@ -1,0 +1,71 @@
+ACORD 90GA (2022-10) — Georgia Personal Auto Application
+=========================================================
+Form number: ACORD 90GA
+Edition: 2022-10
+Title: Georgia Personal Auto Application
+Type: Insurance form (ACORD industry standard, Georgia state variant)
+States: GA
+Policy term: 6 months (typical for personal auto); 12-month terms also issued depending on carrier
+Transaction types: New business; renewal applications (where required); adding driver/vehicle; significant midterm changes
+
+Purpose:
+Standalone application for a personal auto policy in Georgia. Captures
+the applicant, drivers, vehicles, coverages, and state-required
+disclosures needed to underwrite, bind, and issue a Georgia auto policy
+under Georgia's compulsory insurance law (O.C.G.A. § 33-34).
+
+Captures:
+- Producer / agency information
+- Applicant: name, address, DOB, marital status, occupation, contact
+- Driver list: license number/status, DOB, marital status, occupation
+- Driver history (typically 3-5 years): accidents, violations, suspensions
+- Vehicle list: VIN, year/make/model, body type, garaging address
+- Vehicle use: pleasure / commute / business, annual mileage
+- Lienholder / additional interest information
+- Coverages: BI, PD, UM (with Georgia's "added-on vs reduced-by"
+  election), MedPay, comp, coll
+- Deductibles (comp and coll)
+- Optional coverages
+- Discounts claimed
+- Prior insurance carrier and lapse history
+- Loss history
+- Georgia-required disclosures and acknowledgments
+- Fraud statement and applicant signature
+
+When used:
+- New business — applying for a Georgia personal auto policy
+- Renewal applications (where required)
+- Adding a driver or vehicle to an existing Georgia policy
+- Midterm changes that require fresh underwriting
+
+Notes:
+- Georgia's UM coverage has a unique "added-on vs reduced-by" election —
+  the insured chooses whether UM stacks on top of the at-fault driver's
+  coverage ("added on" / true excess) or is offset by it ("reduced by" /
+  difference-in-limits). Election typically required at app stage.
+- Georgia uses an electronic insurance database (GEICO — Georgia
+  Electronic Insurance Compliance Online) — carriers report active
+  policy status electronically
+- Companion forms commonly used:
+  - 62GA — UM Coverage Selection/Rejection
+  - 54GA / 55GA — SR-22 / SR-22A (Safety Responsibility certificates,
+    when required for high-risk drivers)
+- Section version (290GA) drops applicant identity in favor of ACORD 88
+- Georgia minimum liability limits: 25/50/25 (O.C.G.A. § 40-6-10)
+- NEW: 2025 SB 121 (Act 287, effective May 14, 2025; O.C.G.A. § 33-7-16)
+  triggers ENHANCED minimums for DUI convictions for 3 years:
+  * 1st DUI conviction: 50/100/50
+  * 2nd+ DUI conviction: higher tier
+- Georgia UM/UIM: must include in every policy (add-on default); must
+  REJECT IN WRITING to remove (O.C.G.A. § 33-7-11). Two structures:
+  ADD-ON (excess on top of at-fault BI — default) or REDUCED-BY (DIL)
+- GA is at-fault tort with MODIFIED COMPARATIVE NEGLIGENCE (50% bar)
+- Primary statutes: O.C.G.A. § 40-6-10 (minimums), § 33-7-11 (UM/UIM),
+  § 33-24-44/45 (cancellation/non-renewal), § 33-6-34 (Unfair Claims),
+  § 33-7-16 (DUI enhanced minimums)
+- State regulator: Georgia Office of the Commissioner of Insurance and
+  Safety Fire (OCI) — "Safety Fire" reflects the Commissioner's
+  additional fire-safety oversight role, unique to Georgia
+- Electronic verification: GEICS (Georgia Electronic Insurance
+  Compliance System) under O.C.G.A. § 40-2-137 — real-time reporting;
+  10+ day lapse triggers automatic notification

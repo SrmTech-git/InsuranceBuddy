@@ -1,0 +1,52 @@
+ACORD 66IA (2006-07) — Iowa Personal Insurance Supplement – Disclosure Use of Claims History
+=============================================================================================
+Form number: ACORD 66IA
+Edition: 2006-07
+Title: Iowa Personal Insurance Supplement – Disclosure Use of Claims History
+Type: Insurance form (ACORD industry standard, Iowa state variant)
+States: IA
+Policy term: Disclosure delivered at issuance and at periodic renewals
+Transaction types: New business (disclosure required), renewal (re-disclosure where required)
+
+Purpose:
+Iowa-required disclosure informing personal insurance applicants and
+insureds that the carrier uses claims history information (typically
+obtained from CLUE — Comprehensive Loss Underwriting Exchange — and
+similar claims databases) in underwriting, rating, and renewal
+decisions. The disclosure helps the consumer understand how prior
+claims affect insurance availability and pricing.
+
+Captures:
+- Statutory disclosure that the carrier uses claims history in
+  underwriting and rating decisions
+- Description of typical sources: CLUE (auto and property), A-PLUS,
+  internal claims records, third-party claims databases
+- Description of how claims history is used: underwriting (accept /
+  decline), rating (premium adjustment), renewal decisions, eligibility
+  for discounts
+- Insured's rights under the Fair Credit Reporting Act (FCRA) and
+  Iowa Insurance Information and Privacy Protection Act to obtain
+  the report and dispute inaccuracies
+- Insured acknowledgment of receipt
+- Insured signature and date
+
+When used:
+- New Iowa personal insurance submission — disclosure delivered with
+  application
+- Renewal — many carriers redeliver the disclosure annually
+- After adverse underwriting decision based on claims history (where
+  required by FCRA)
+
+Notes:
+- Iowa Insurance Information and Privacy Protection Act (Iowa Code
+  Ch. 505B or similar — [TBD verify exact citation]) governs use of
+  personal information including claims history
+- FCRA (federal) also governs adverse-action notices when claims-
+  history-based decisions are made
+- Insureds have the right to obtain a free annual CLUE report from
+  LexisNexis (and similar disclosures from other providers)
+- Companion forms: 65IA (aftermarket parts), 67IA (extraordinary
+  life circumstances)
+- The 2006-07 edition is older; [TBD — verify whether this is still
+  the current ACORD-published edition or has been superseded]
+- [TBD — verify current Iowa claims-history disclosure requirements]

@@ -1,0 +1,48 @@
+ACORD 282MN (2025-07) — Minnesota Watercraft Section
+=====================================================
+Form number: ACORD 282MN
+Edition: 2025-07
+Title: Minnesota Watercraft Section
+Type: Insurance form (ACORD industry standard, Minnesota state variant)
+States: MN
+Policy term: Matches the underlying watercraft policy (typically 12 months or seasonal)
+Transaction types: New business, renewal, adding/removing watercraft
+
+Purpose:
+Watercraft-specific section of a Minnesota personal lines submission.
+Used in combination with ACORD 88 (Personal Insurance Application —
+Applicant Information Section), which captures applicant identity.
+The 282MN holds the watercraft-specific data: vessels, operators,
+coverages, and Minnesota-required disclosures.
+
+Captures:
+- Watercraft schedule, each with:
+  * Type, make, model, year, length, beam, HIN
+  * Engine details (HP, propulsion type)
+  * Hull material, insured value
+- Operators: name, DOB, boating experience, safety course completion
+- Use: pleasure, water-skiing, fishing, etc.
+- Storage: in-water, on-trailer, storage facility; seasonal vs
+  year-round
+- Coverage: hull, liability (with companion 67MN BI decline if
+  applicable), medical payments, uninsured boater, fuel spill,
+  towing, trailer
+- Limits and deductibles
+- Lienholder information
+- Prior insurance and loss history
+- Minnesota-required disclosures and acknowledgments
+- Fraud statement and applicant signature
+(NOTE: Applicant identity is captured on ACORD 88, not duplicated here)
+
+When used:
+- New Minnesota watercraft submission — when agency uses ACORD's
+  modular section system (88 + 282MN) rather than standalone 82MN
+- Renewal where watercraft data needs refresh while reusing applicant
+  info from 88
+- Adding watercraft to an existing modular-section package
+
+Notes:
+- Minnesota's boat BI decline option is captured on companion form
+  67MN (Personal Boat Insurance Notice Election to Decline BI)
+- Section version (282MN) drops applicant identity; standalone version
+  is 82MN

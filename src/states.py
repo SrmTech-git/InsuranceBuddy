@@ -25,10 +25,10 @@ STATE_MAP: dict[str, str] = {
     "wisconsin": "WI",
 }
 
-# Code -> code map. Useful for "is this token a known state abbreviation"
+# Set of state codes. Used for "is this token a known state abbreviation"
 # checks (matched case-sensitively against uppercase letters in queries
 # so common words like "in", "oh", "ia" don't trigger false positives).
-STATE_ABBR_MAP: dict[str, str] = {v: v for v in STATE_MAP.values()}
+STATE_ABBR_SET: set[str] = set(STATE_MAP.values())
 
 # Title-Case spreadsheet column header -> code. Used by ingest_xlsx to
 # identify per-state columns in the multi-state reference spreadsheet.

@@ -1,0 +1,49 @@
+ACORD 64MI (2000-10) — Michigan Basic Property Insurance Assn. Insurance Application
+=====================================================================================
+Form number: ACORD 64MI
+Edition: 2000-10
+Title: Michigan Basic Property Insurance Assn. Insurance Application
+Type: Insurance form (ACORD industry standard, Michigan state variant)
+States: MI
+Policy term: 12 months (typical for residual-market property)
+Transaction types: New business (MBPIA submission); renewal; midterm change
+
+Purpose:
+Application for property coverage through the Michigan Basic Property
+Insurance Association (MBPIA) — Michigan's FAIR-Plan-equivalent
+residual property insurance market. MBPIA provides coverage for
+property owners who cannot obtain coverage in the voluntary market,
+typically due to property condition, location (high-risk areas), or
+loss history.
+
+Captures:
+- Applicant / owner information (name, address, contact)
+- Property location and address
+- Property description: construction type, year built, square footage,
+  occupancy (owner-occupied / rental / vacant / commercial / mixed-use),
+  protection class
+- Coverage selected: dwelling / building, contents, additional living
+  expense or fair rental value (depending on property type)
+- Coverage amounts and deductibles
+- Mortgagee / loss payee information
+- Prior insurance carrier(s), denial dates, and reasons for denial
+- Loss history (typically 5 years)
+- MBPIA statutory disclosures and acknowledgments
+- Applicant signature and date
+
+When used:
+- Submission to MBPIA after voluntary-market denial — applies to
+  residential, dwelling fire, and commercial property exposures
+- Renewal of existing MBPIA policy
+- Reporting property changes
+
+Notes:
+- MBPIA = Michigan Basic Property Insurance Association
+- Coverage typically named-perils only (basic fire + extended
+  coverage + VMM)
+- MBPIA premium is generally higher than voluntary-market coverage
+- The 2000-10 edition is older; [TBD — verify whether this is still
+  the current ACORD-published edition or has been superseded]
+- [TBD — verify current MBPIA coverage forms, perils, and limits]
+- [TBD — verify whether MBPIA has separate ACORD forms for different
+  property types (homeowners, dwelling, commercial) or a single master]

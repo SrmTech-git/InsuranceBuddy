@@ -1,0 +1,38 @@
+ACORD 62IA (1998-02) — Iowa Auto Supplement – Notice regarding UM/UIM Coverage
+===============================================================================
+Form number: ACORD 62IA
+Edition: 1998-02
+Title: Iowa Auto Supplement – Notice regarding UM/UIM Coverage
+Type: Insurance form (ACORD industry standard, Iowa state variant)
+States: IA
+Policy term: Matches the underlying auto policy term; notice provided at issuance and renewal
+Transaction types: New business; renewal (notice may be reissued)
+
+Purpose:
+Statutory notice form describing Iowa's Uninsured Motorists (UM) and
+Underinsured Motorists (UIM) coverage rights to the insured. Separate
+from the election form (61IA), this is a pure informational notice
+delivered as part of an Iowa auto policy issuance.
+
+Captures:
+- Description of UM coverage purpose and how it pays
+- Description of UIM coverage purpose and how it pays
+- Statutory disclosure language required under Iowa Code 516A
+- Insured acknowledgment of receipt
+
+When used:
+- New Iowa auto submission — notice delivered with offer/rejection form
+- Renewal — many carriers deliver the notice annually
+- Whenever required by statute to refresh the insured's understanding
+
+Notes:
+- Pure informational notice — the actual election occurs on 61IA
+- Companion forms: 61IA (UM/UIM Offer/Rejection) and 64IA (Stacking Notice)
+- The 1998-02 edition is very old; [TBD — verify whether this is still
+  the current ACORD-published edition or whether it has been superseded
+  by a newer notice]
+- Iowa UM/UIM statutory authority: Iowa Code § 516A.1; UM/UIM must be
+  offered at minimum limits, rejectable in writing
+- Iowa UM applies to BI ONLY — does not cover vehicle property damage
+  (explicit notice required by Iowa Admin. Code 191-15.10)
+- Iowa minimum BI: 20/40 (§ 321A.21); UM minimum tracks BI minimum

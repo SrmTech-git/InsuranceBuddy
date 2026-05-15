@@ -1,0 +1,50 @@
+ACORD 171OH (2004-03) — Ohio FAIR Plan – Basic Property Application
+====================================================================
+Form number: ACORD 171OH
+Edition: 2004-03
+Title: Ohio FAIR Plan – Basic Property Application
+Type: Insurance form (ACORD industry standard, Ohio state variant)
+States: OH
+Policy term: 12 months (typical for FAIR Plan property)
+Transaction types: New business (FAIR Plan submission); renewal; midterm change
+
+Purpose:
+Master application form for all Ohio FAIR Plan property submissions.
+Captures the core property and applicant information common to every
+property type; property-type-specific details are captured on the
+appropriate supplement (172-177 OH). The Ohio FAIR Plan is Ohio's
+state-mandated residual property insurance market administered by
+the Ohio FAIR Plan Underwriting Association.
+
+Captures:
+- Applicant / owner information (name, address, contact)
+- Property location and address
+- Property description: construction type, year built, square footage,
+  occupancy class, number of stories, roof type, heating type,
+  protection class (PPC)
+- Building values (replacement cost or actual cash value)
+- Contents values
+- Coverage limits requested
+- Mortgagee / loss payee information
+- Prior insurance carrier(s), denial date(s), and reasons for denial
+- Loss history (typically 5 years)
+- Ohio FAIR Plan statutory disclosures and acknowledgments
+- Applicant signature and date
+
+When used:
+- New Ohio FAIR Plan submission for any property type — submitted
+  together with the applicable supplement (172-177 OH)
+- Renewal of existing Ohio FAIR Plan coverage
+- Reporting property changes that affect coverage
+
+Notes:
+- 171OH is always used in combination with one or more property-type
+  supplements:
+  * 172OH (Homeowners), 173OH (Dwelling Fire), 174OH (Commercial),
+    175OH (Farm), 176OH (Rehabilitation), 177OH (Bowling Alley)
+- Ohio FAIR Plan typically provides named-perils coverage (fire +
+  extended coverage + VMM); coverage scope depends on the property
+  type and selected limits
+- Coverage is typically more expensive and more limited than the
+  voluntary market — designed as last-resort coverage
+- [TBD — verify current Ohio FAIR Plan coverage forms and limits]

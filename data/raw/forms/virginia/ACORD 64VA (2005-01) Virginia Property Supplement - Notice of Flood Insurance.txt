@@ -1,0 +1,49 @@
+ACORD 64VA (2005-01) — Virginia Property Supplement – Notice of Flood Insurance
+================================================================================
+Form number: ACORD 64VA
+Edition: 2005-01
+Title: Virginia Property Supplement – Notice of Flood Insurance
+Type: Insurance form (ACORD industry standard, Virginia state variant)
+States: VA
+Policy term: Matches the underlying property policy; notice delivered at issuance and renewal
+Transaction types: New business (notice required); renewal
+
+Purpose:
+Virginia-required notice informing property insureds that flood
+coverage is NOT included in standard homeowners / dwelling policies
+and is available through the federal National Flood Insurance Program
+(NFIP) or through private flood insurance markets. Virginia has
+substantial flood exposure — coastal storm surge (Hampton Roads,
+Eastern Shore), riverine flooding, and increasingly significant
+inland flooding events.
+
+Captures:
+- Statutory notice that the standard policy excludes flood
+- Definition of "flood" (typically tied to NFIP definition: surface
+  water, overflow of inland or tidal waters, mudflow, etc.)
+- Information about NFIP coverage availability
+- Information about private flood insurance market alternatives
+- Flood zone determination (FEMA-mapped — high-risk zones require
+  flood insurance for federally-backed mortgages)
+- Insured acknowledgment of receipt of the notice
+- Insured signature
+
+When used:
+- New Virginia property submission — notice delivered at issuance
+- Renewal — many carriers deliver the notice annually
+- Anytime a property's flood zone determination changes (e.g., new
+  FEMA map)
+
+Notes:
+- The National Flood Insurance Program (NFIP) is the primary federal
+  flood insurance program; coverage caps at $250K dwelling /
+  $100K contents for residential (higher for commercial)
+- Private flood insurance offers higher limits and broader coverage
+  than NFIP — an increasingly viable market option
+- Properties in FEMA Special Flood Hazard Areas (SFHA — "high risk"
+  zones, typically Zone A or V) with federally-backed mortgages are
+  REQUIRED to carry flood insurance — the notice helps the agent
+  document compliance
+- The 2005-01 edition is older; [TBD — verify whether this is still
+  the current ACORD-published edition]
+- [TBD — verify current Virginia flood notice statutory requirements]

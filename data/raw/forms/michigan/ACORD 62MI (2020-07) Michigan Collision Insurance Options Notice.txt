@@ -1,0 +1,46 @@
+ACORD 62MI (2020-07) — Michigan Collision Insurance Options Notice
+===================================================================
+Form number: ACORD 62MI
+Edition: 2020-07
+Title: Michigan Collision Insurance Options Notice
+Type: Insurance form (ACORD industry standard, Michigan state variant)
+States: MI
+Policy term: Matches the underlying auto policy term (typically 6 or 12 months); election persists until changed in writing
+Transaction types: New business (collision option election); change to collision coverage
+
+Purpose:
+Notice and election form describing Michigan's three collision coverage
+options — Limited Collision, Broad Form Collision, and Standard
+Collision — and capturing the insured's selection. Michigan's
+collision options differ from most states because of how fault is
+treated under the no-fault statute.
+
+Captures:
+- Description of Limited Collision (pays only when the at-fault driver
+  is more than 50% at fault; insured collects from at-fault driver
+  in most scenarios)
+- Description of Broad Form Collision (pays regardless of fault; no
+  deductible if not more than 50% at fault, deductible applies if more
+  than 50% at fault)
+- Description of Standard Collision (pays regardless of fault, with
+  the chosen deductible applying in all cases)
+- Insured's selection of collision option
+- Selected deductible
+- Insured signature and date
+
+When used:
+- New Michigan auto submission — collision option election when comp/
+  coll is being added
+- Renewal where collision option is being modified
+- Midterm change to collision coverage type or deductible
+
+Notes:
+- Michigan's three-option collision structure is distinct nationally —
+  it reflects the interaction of no-fault with property damage liability
+- Limited Collision is cheapest but provides the least protection
+- Broad Form is middle-ground; Standard is most expensive
+- Companion forms: 90MI (Auto App), 61MI (BI Limits Choice)
+- 2020-07 edition is the first major edition after the July 2, 2020
+  no-fault reform effective date
+- [TBD — verify whether 2020-07 is still the current ACORD-published
+  edition or whether a newer reform-updated edition has superseded it]

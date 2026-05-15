@@ -1,0 +1,46 @@
+ACORD 136MI (2025-07) — Michigan Selection of Personal Injury Protection (PIP) Medical Coverage - Commercial Business
+======================================================================================================================
+Form number: ACORD 136MI
+Edition: 2025-07
+Title: Michigan Selection of Personal Injury Protection (PIP) Medical Coverage - Commercial Business
+Type: Insurance form (ACORD industry standard, Michigan state variant)
+States: MI
+Policy term: Matches the underlying commercial auto policy term (typically 12 months); selection persists until changed in writing
+Transaction types: New business (commercial PIP tier election); change of PIP tier; fleet adjustments
+
+Purpose:
+Commercial counterpart to 66MI. Captures the business entity's
+selection of a Personal Injury Protection (PIP) medical coverage tier
+for a commercial / fleet auto policy under Michigan's post-2019
+no-fault reform (MCL 500.3107c, effective July 2, 2020). Election is
+made at the entity / fleet level rather than per individual.
+
+Captures:
+- Description of each PIP medical tier available to commercial fleets
+  (unlimited, $500K, $250K, $250K with managed-care exclusions, $50K,
+  Medicaid-only opt-out where applicable)
+- Disclosure of premium and exposure differences across tiers
+- Business / fleet identification (named insured, policy number)
+- Entity representative's selection of tier
+- Disclosure that the election applies to all covered fleet vehicles
+- Authorized representative signature and date
+
+When used:
+- New Michigan commercial auto submission — PIP tier selection required
+- Renewal of commercial fleet where PIP tier is being re-selected
+- Adding fleet vehicles to an existing policy
+- Midterm change to fleet PIP coverage
+
+Notes:
+- Michigan's 2019 no-fault reform applies to commercial / fleet autos
+  as well as personal — fleets had to elect PIP tiers post-reform
+- For commercial fleets, the practical considerations differ from
+  personal: drivers are W-2 employees who often have employer health
+  coverage (which may qualify for $50K tier); fleet medical exposure
+  for the entity is also different from individual exposure
+- MCCA per-vehicle assessment applies to unlimited-tier commercial
+  fleets
+- Companion forms: 137MI (Commercial Auto Coverages section), 138MI
+  (Garage and Dealers), 90MI / 66MI (personal counterparts)
+- [TBD — verify whether commercial fleets have a separate tier menu
+  vs. the personal-tier menu]

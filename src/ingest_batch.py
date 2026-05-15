@@ -6,9 +6,8 @@
 #   data/raw/regulatory/reference/            → xlsx files, state tags applied per-chunk
 #
 # Collection is always inferred from the top-level subfolder name.
-# State is inferred from the second-level subfolder name via STATE_FOLDER_MAP.
+# State is inferred from the second-level subfolder name via STATE_MAP.
 
-import argparse
 from pathlib import Path
 from embed import embed_document, embed_chunks, get_collection, document_exists
 from ingest import parse_filename
@@ -18,9 +17,6 @@ from states import STATE_MAP
 RAW_DIR = Path("data/raw")
 SUPPORTED_EXTENSIONS = {".pdf", ".txt", ".docx"}
 XLSX_EXTENSIONS = {".xlsx"}
-
-# STATE_FOLDER_MAP is the authoritative state registry — see src/states.py.
-STATE_FOLDER_MAP = STATE_MAP
 
 # Subfolders whose files carry their own per-chunk state tags (xlsx processing)
 SELF_TAGGED_FOLDERS = {"reference"}
@@ -64,7 +60,7 @@ def find_files(
                 if subfolder in SELF_TAGGED_FOLDERS:
                     state_code = "SELF"  # xlsx handles its own state tags
                 else:
-                    state_code = STATE_FOLDER_MAP.get(subfolder, "")
+                    state_code = STATE_MAP.get(subfolder, "")
 
                 for filepath in sorted(entry.iterdir()):
                     ext = filepath.suffix.lower()
@@ -176,19 +172,3 @@ def ingest_all(force: bool = False, collection_override: str | None = None) -> N
     print(f"  Failed:    {failed}")
     print(f"  Total:     {total}")
     print("=" * 60)
-
-
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Batch ingest files into ChromaDB")
-    parser.add_argument(
-        "--collection",
-        default=None,
-        help="Override collection (default: infer from subfolder name)",
-    )
-    parser.add_argument(
-        "--force",
-        action="store_true",
-        help="Overwrite existing documents",
-    )
-    args = parser.parse_args()
-    ingest_all(force=args.force, collection_override=args.collection)

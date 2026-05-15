@@ -1,0 +1,53 @@
+ACORD 177WI (2011-11) — Wisconsin Automobile Insurance Plan Business Auto Application
+======================================================================================
+Form number: ACORD 177WI
+Edition: 2011-11
+Title: Wisconsin Automobile Insurance Plan Business Auto Application
+Type: Insurance form (ACORD industry standard, Wisconsin state variant)
+States: WI
+Policy term: 12 months (typical for WAIP business auto)
+Transaction types: New WAIP business, renewal, fleet adjustments
+
+Purpose:
+Application for commercial / business automobile insurance through
+the Wisconsin Automobile Insurance Plan (WAIP) — Wisconsin's auto
+residual market / assigned-risk pool. Used when a commercial fleet
+operator (other than truckers — see 178WI) is unable to obtain
+coverage in the voluntary market. WAIP assigns applicants to
+participating carriers.
+
+Captures:
+- Producer / agency information
+- Named insured (business entity): name, address, FEIN, business
+  structure
+- Business description, operations, NAICS / SIC
+- Years in business, number of employees
+- Vehicle list: VIN, year/make/model, type (sedan, light truck, van,
+  bus, etc.), garaging address, use (service, delivery, sales,
+  passenger transport, etc.)
+- Drivers: license info, history, training
+- Coverages selected: liability (CSL or split limits), UM/UIM,
+  MedPay, comp, coll, hired auto, non-owned auto
+- Limits and deductibles
+- Prior insurance and denial history (REQUIRED for WAIP eligibility)
+- Loss history (commercial fleets typically 3-5 years)
+- WAIP-specific disclosures and acknowledgments
+- Authorized signatory and date
+
+When used:
+- New Wisconsin business auto submission to WAIP after voluntary-
+  market denial (non-trucker fleets)
+- Renewal of WAIP business auto coverage
+- Adding vehicles or drivers to existing WAIP fleet
+
+Notes:
+- WAIP = Wisconsin Automobile Insurance Plan — administered by AIPSO
+- For truckers / motor carriers, see companion form 178WI (WAIP
+  Truckers Application) — separate underwriting and rate structure
+- For private passenger, see companion form 97WI
+- Federal motor carrier minimums (MCS-90) may apply to interstate
+  fleets — separate from WAIP limits
+- The 2011-11 edition is older; [TBD — verify whether this is still
+  the current ACORD-published edition]
+- [TBD — verify current WAIP business auto submission requirements
+  and assignment process]

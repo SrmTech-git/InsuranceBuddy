@@ -1,0 +1,47 @@
+ACORD 137VA (2025-11) — Virginia Commercial Auto
+=================================================
+Form number: ACORD 137VA
+Edition: 2025-11
+Title: Virginia Commercial Auto
+Type: Insurance form (ACORD industry standard, Virginia state variant)
+States: VA
+Policy term: 12 months (typical for commercial auto)
+Transaction types: New business, renewal, midterm change, audit-driven adjustment
+
+Purpose:
+Virginia-specific Commercial Auto Coverages section. Captures coverage
+selections, limits, deductibles, and Virginia-specific UM elections
+for a commercial auto policy. Used alongside national ACORD 125 and 127.
+
+Captures:
+- Liability limits (BI/PD split or Combined Single Limit)
+- Comp / collision deductibles
+- UM / UIM coverage selections and limits (Virginia equal-to-liability rule)
+- MedPay
+- Optional medical and disability coverage
+- Hired Auto Liability
+- Non-Owned Auto Liability
+- Drive Other Car coverage (where applicable)
+- Towing & labor / rental reimbursement / loss of use
+- Trailer interchange (for trucking)
+- Virginia-required disclosures and acknowledgments
+
+When used:
+- New commercial auto submission for a Virginia-based fleet
+- Renewal where Virginia-specific coverages are being reselected
+- Midterm endorsement that changes coverage or limits
+
+Notes:
+- Virginia UM coverage typically required at limits equal to liability
+  unless reduced/rejected via the appropriate election forms
+- Companion Virginia auto-supplement forms apply where relevant:
+  60VA (rental reimbursement), 61VA (optional medical/disability),
+  65VA (UM notice), 66VA (UIM reduction), 68VA (UM alternative),
+  69VA (UM selection/rejection)
+- Virginia personal-auto minimum limits: 50/100/25 (INCREASED Jan 1, 2025
+  from 30/60/20) under Va. Code § 46.2-472. Commercial fleets subject
+  to federal MCS-90 for interstate operations.
+- VA UMV fee option ELIMINATED July 1, 2024 — insurance now mandatory
+- VA UM/UIM REQUIRED, must match liability (Va. Code § 38.2-2206);
+  UIM ADDITIVE since July 1, 2023
+- State regulator: Virginia Bureau of Insurance / State Corp Commission

@@ -1,0 +1,45 @@
+ACORD 170OH (2002-09) — Ohio FAIR Plan – Instruction for Completion of Insurance Apps.
+=======================================================================================
+Form number: ACORD 170OH
+Edition: 2002-09
+Title: Ohio FAIR Plan – Instruction for Completion of Insurance Apps.
+Type: Insurance form (ACORD industry standard, Ohio state variant)
+States: OH
+Policy term: N/A (instructions / reference document, not a coverage form)
+Transaction types: N/A (informational / administrative aid)
+
+Purpose:
+Procedural instruction sheet for completing Ohio FAIR Plan
+applications. Not an underwriting form itself — this document guides
+the producer / applicant through which forms in the Ohio FAIR Plan
+family to complete depending on the property type and any required
+supplements, and how to submit them to the Ohio FAIR Plan
+Underwriting Association.
+
+Captures:
+- Step-by-step instructions for FAIR Plan submission
+- Which Basic Property Application (171OH) sections apply to each
+  property type
+- Which property-type supplements (172-177 OH) to attach
+- Documentation that must accompany the application
+- Submission address and processing notes
+
+When used:
+- Reference document used by producers when preparing an Ohio FAIR
+  Plan submission
+- Distributed with the Ohio FAIR Plan application kit
+
+Notes:
+- Pure administrative / instructional form — no coverage selection or
+  insured signature occurs on this document
+- Companion forms (the actual application set):
+  * 171OH — Basic Property Application (master)
+  * 172OH — Homeowners Supplement
+  * 173OH — Dwelling Fire Supplement
+  * 174OH — Commercial Supplement
+  * 175OH — Farm Supplement
+  * 176OH — Rehabilitation Supplement
+  * 177OH — Bowling Alley Supplement
+- The Ohio FAIR Plan Underwriting Association administers the plan
+- 2002-09 edition is older; [TBD — verify whether 2002-09 is still the
+  current ACORD-published edition or has been superseded]

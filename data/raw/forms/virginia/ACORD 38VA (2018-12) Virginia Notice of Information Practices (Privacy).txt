@@ -1,0 +1,54 @@
+ACORD 38VA (2018-12) — Virginia Notice of Information Practices (Privacy)
+==========================================================================
+Form number: ACORD 38VA
+Edition: 2018-12
+Title: Virginia Notice of Information Practices (Privacy)
+Type: Insurance form (ACORD industry standard, Virginia state variant)
+States: VA
+Policy term: Notice delivered at issuance and at periodic renewals; not tied to a specific policy term
+Transaction types: New business (notice required), renewal (re-disclosure where required)
+
+Purpose:
+Virginia-required privacy notice informing insurance applicants and
+insureds about the information practices of the carrier: what
+personal information is collected, how it is used, how it is shared
+with third parties, the insured's rights to access and correct
+information, and how to opt out of certain disclosures. State-level
+counterpart to federal Gramm-Leach-Bliley Act privacy disclosures,
+adapted for Virginia insurance regulations.
+
+Captures:
+- Statutory description of the carrier's information-collection
+  practices
+- Categories of personal information collected (identity, financial,
+  consumer report, MVR, CLUE, medical where applicable)
+- Categories of information sharing: with affiliates, with non-
+  affiliates for service, for marketing
+- Insured's right to access information held by the carrier
+- Insured's right to correct inaccurate information
+- Insured's right to opt out of certain disclosures
+- Contact information for the carrier's privacy officer
+- Insured acknowledgment of receipt
+- Insured signature and date (where applicable)
+
+When used:
+- New Virginia personal lines or commercial submission — notice
+  delivered with the application
+- Renewal (annual or biennial — carrier-specific)
+- Anytime privacy practices materially change
+
+Notes:
+- Virginia Insurance Information and Privacy Protection Act
+  (Va. Code § 38.2-600 et seq.) governs this disclosure
+- Federal GLBA also requires privacy notices; carriers typically
+  satisfy both with a single notice
+- Virginia Consumer Data Protection Act (VCDPA) — effective Jan 1,
+  2023 — adds additional consumer privacy rights for Virginia
+  residents that may interact with insurance-specific privacy notices
+- Pure informational notice — no coverage election occurs
+- Companion forms across states: 38IL (Illinois), 38MN (Minnesota
+  Authorization)
+- [TBD — verify current Virginia privacy notice requirements and any
+  VCDPA impacts on the 2018-12 ACORD form]
+- [TBD — verify whether 2018-12 is still the current ACORD-published
+  edition or has been superseded post-VCDPA]

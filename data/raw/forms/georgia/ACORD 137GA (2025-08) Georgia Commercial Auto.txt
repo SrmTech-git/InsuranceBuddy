@@ -1,0 +1,46 @@
+ACORD 137GA (2025-08) — Georgia Commercial Auto
+================================================
+Form number: ACORD 137GA
+Edition: 2025-08
+Title: Georgia Commercial Auto
+Type: Insurance form (ACORD industry standard, Georgia state variant)
+States: GA
+Policy term: 12 months (typical for commercial auto)
+Transaction types: New business, renewal, midterm change, audit-driven adjustment
+
+Purpose:
+Georgia-specific Commercial Auto Coverages section. Captures coverage
+selections, limits, deductibles, and Georgia-required disclosures for a
+commercial auto policy under O.C.G.A. § 33-34. Used alongside national
+ACORD 125 (Applicant Info) and ACORD 127 (Business Auto Section).
+
+Captures:
+- Liability limits (BI/PD split or Combined Single Limit)
+- Comp / collision deductibles
+- UM coverage selections (Georgia "added-on vs reduced-by" election)
+- MedPay
+- Hired Auto Liability
+- Non-Owned Auto Liability
+- Drive Other Car coverage (where applicable)
+- Towing & labor / rental reimbursement / loss of use
+- Trailer interchange (for trucking)
+- Georgia-required disclosures and acknowledgments
+
+When used:
+- New commercial auto submission for a Georgia-based fleet
+- Renewal where Georgia-specific coverages are being reselected
+- Midterm endorsement that changes coverage or limits
+
+Notes:
+- Georgia's UM "added-on vs reduced-by" election applies to commercial
+  as well as personal — captured here or on companion form 62GA
+- Georgia uses electronic insurance database (GEICO)
+- SR-22 / SR-22A (Georgia forms 54GA / 55GA) may apply for high-risk
+  drivers operating commercial vehicles
+- Georgia personal-auto minimum limits: 25/50/25 (O.C.G.A. § 40-6-10).
+  Commercial fleets subject to federal MCS-90 for interstate operations.
+- 2025 SB 121 (eff. May 14, 2025) triggers enhanced minimums for DUI
+  convictions for 3 years (1st: 50/100/50; 2nd+ higher)
+- Georgia UM/UIM: add-on default; reject in writing (O.C.G.A. § 33-7-11)
+- State regulator: Georgia OCI (Commissioner of Insurance and Safety Fire)
+- Electronic verification: GEICS

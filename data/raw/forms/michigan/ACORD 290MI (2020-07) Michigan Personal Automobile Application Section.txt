@@ -1,0 +1,62 @@
+ACORD 290MI (2020-07) — Michigan Personal Automobile Application Section
+=========================================================================
+Form number: ACORD 290MI
+Edition: 2020-07
+Title: Michigan Personal Automobile Application Section
+Type: Insurance form (ACORD industry standard, Michigan state variant)
+States: MI
+Policy term: Matches the underlying personal auto policy term (typically 6 or 12 months)
+Transaction types: New business, renewal, midterm change — used as the auto-specific section in a modular ACORD application package
+
+Purpose:
+Auto-specific section of a personal auto application in Michigan. Used
+in combination with ACORD 88 (Personal Insurance Application —
+Applicant Information Section), which captures applicant identity. The
+290MI holds the auto-specific data and PIP medical tier selection
+required under Michigan's no-fault statute (MCL 500.3101 et seq., as
+amended by the 2019 no-fault reform).
+
+Captures:
+- Drivers: license number/status, DOB, marital status, occupation,
+  3-5 year violation/accident history, qualifying health coverage
+  (Medicare/Medicaid) for PIP-tier eligibility
+- Vehicles: VIN, year/make/model, body type, garaging address
+- Vehicle use: pleasure / commute / business, annual mileage
+- Lienholder / additional interest information
+- Coverages: BI/PD (Residual Liability), PIP medical (tier selection),
+  PIP non-medical (wage loss / replacement services / survivor),
+  PPI (Property Protection — $1M statutory), UM/UIM, comp, coll
+- PIP medical tier choice: Medicaid-only opt-out (with proof),
+  $50K (qualifying Medicare/health-plan coverage), $250K, $500K,
+  or unlimited
+- Deductibles (comp and coll)
+- Optional coverages and discounts
+- Prior insurance carrier and lapse history
+- Loss history
+- Michigan-required disclosures and acknowledgments
+- Fraud statement and applicant signature
+(NOTE: Applicant identity is captured on ACORD 88, not duplicated here)
+
+When used:
+- New business — when the agency uses ACORD's modular section system
+  (88 + 290MI) rather than the standalone full app (90MI)
+- Renewal or PIP-tier re-selection at the auto-section level while
+  reusing applicant info from 88
+- Adding a vehicle or driver to an existing modular-section policy
+
+Notes:
+- 2020-07 edition is the first major edition after the July 2, 2020
+  effective date of the no-fault reform — incorporates PIP-tier
+  disclosure
+- Companion forms typically required: 61MI (BI choice), 62MI (collision
+  options), 66MI (PIP medical selection — individual), 60MI / 860MI
+  (MAIPF intent to reside, where applicable)
+- MCCA per-vehicle assessment applies to unlimited-tier and higher PIP
+  medical limit policies
+- Use 290MI with ACORD 88; use 90MI standalone
+- Michigan default BI: 250/500 (MCL § 500.3009); statutory floor 50/100
+- Michigan PD: $10K + separate mandatory PPI $1M (stationary property)
+- Michigan UM/UIM NOT required — optional; insurer must offer
+- Primary statute: MCL § 500.3101 et seq. (Michigan No-Fault Act)
+- State regulator: Michigan Department of Insurance and Financial
+  Services (DIFS)

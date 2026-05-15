@@ -120,9 +120,3 @@ def embed_document(
         print("No chunks created — nothing to store.")
         return get_collection(collection_name)
     return embed_chunks(chunks, collection_name=collection_name, state=state, force=force)
-
-
-if __name__ == "__main__":
-    # Use the batch ingester instead of running this directly:
-    #   python main.py ingest
-    print("Run `python main.py ingest` to embed documents from data/raw/.")

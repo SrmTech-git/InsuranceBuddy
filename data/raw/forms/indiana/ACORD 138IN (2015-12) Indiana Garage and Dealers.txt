@@ -1,0 +1,42 @@
+ACORD 138IN (2015-12) — Indiana Garage and Dealers
+===================================================
+Form number: ACORD 138IN
+Edition: 2015-12
+Title: Indiana Garage and Dealers
+Type: Insurance form (ACORD industry standard, Indiana state variant)
+States: IN
+Policy term: 12 months (typical for commercial garage policy)
+Transaction types: New business, renewal, midterm change, audit-driven adjustment
+
+Purpose:
+Indiana-specific Garage and Dealers section. Captures business
+information, exposures, coverages, and Indiana-required disclosures
+for a Garage / Dealers policy. State-specific overlay to the national
+ACORD 128 (Garage and Dealers Section).
+
+Captures:
+- Insured business type: new-car dealer, used-car dealer, service station,
+  body shop, repair shop, towing operation, etc.
+- Dealer / business license number(s)
+- Premises: locations, age, square footage, lot size
+- Operations: gross receipts, vehicles in inventory / sold / serviced
+- Garage liability (premises and operations)
+- Auto Liability (covered autos)
+- Garagekeepers (CCC — care, custody, control)
+- Products and Completed Operations
+- UM/UIM for covered autos
+- Indiana-required dealer disclosures and acknowledgments
+
+When used:
+- New garage policy submission for an Indiana auto-related business
+- Renewal where Indiana-specific coverages or dealer info are reselected
+- Adding/removing locations or operations
+- Midterm endorsement that changes coverage or operations
+
+Notes:
+- Indiana dealer regulations are administered by the Indiana Secretary
+  of State (Auto Dealer Services Division)
+- Indiana personal-auto minimums applicable to garage covered autos:
+  25/50/25 (IC § 9-25)
+- Primary statutes: IC Title 27 (Insurance), IC Title 9 (Motor Vehicles)
+- [TBD — verify current Indiana dealer bonding / minimum coverage requirements]

@@ -1,0 +1,66 @@
+ACORD 90IA (2015-12) — Iowa Personal Auto Application
+======================================================
+Form number: ACORD 90IA
+Edition: 2015-12
+Title: Iowa Personal Auto Application
+Type: Insurance form (ACORD industry standard, Iowa state variant)
+States: IA
+Policy term: 6 months (typical for personal auto); 12-month terms also issued depending on carrier
+Transaction types: New business; renewal applications (where required); adding driver/vehicle; significant midterm changes
+
+Purpose:
+Standalone application for a personal auto policy in Iowa. Captures the
+applicant, drivers, vehicles, coverages, and state-required disclosures
+needed to underwrite, bind, and issue an Iowa auto policy under Iowa's
+Financial Responsibility framework (Iowa Code 321A).
+
+Captures:
+- Producer / agency information
+- Applicant: name, address, DOB, marital status, occupation, contact
+- Driver list: license number/status, DOB, marital status, occupation
+- Driver history (typically 3-5 years): accidents, violations, suspensions
+- Vehicle list: VIN, year/make/model, body type, garaging address
+- Vehicle use: pleasure / commute / business, annual mileage
+- Lienholder / additional interest information
+- Coverages: BI, PD, UM/UIM, MedPay, comp, coll
+- Deductibles (comp and coll)
+- Optional coverages
+- Discounts claimed
+- Prior insurance carrier and lapse history
+- Loss history
+- Iowa-required disclosures and acknowledgments
+- Fraud statement and applicant signature
+
+When used:
+- New business — applying for an Iowa personal auto policy
+- Renewal applications (where required)
+- Adding a driver or vehicle to an existing Iowa policy
+- Midterm changes that require fresh underwriting
+
+Notes:
+- Iowa-specific supplements typically completed alongside this app:
+  - 61IA — UM/UIM Offer/Rejection
+  - 62IA — Notice regarding UM/UIM Coverage
+  - 64IA — UM/UIM Stacking Coverage Notice
+  - 65IA — Aftermarket Crash Parts
+  - 66IA — Disclosure Use of Claims History
+  - 67IA — Extraordinary Life Circumstances Disclosure
+- Section version (290IA) drops applicant identity in favor of ACORD 88
+- Iowa minimum liability limits: 20/40/15 (Iowa Code § 321A.21) — among
+  the lowest BI minimums in the U.S. Alternative: $55,000 surety bond
+  or cash deposit with Iowa DOT.
+- NOTE: A proposed Iowa law to raise minimums to 50/100/25 has been
+  discussed but not yet passed as of 2025
+- Iowa UM/UIM: insurer must OFFER at minimum limits; insured may reject
+  in writing (Iowa Code § 516A.1). UM applies to BI only — does NOT
+  cover vehicle damage (explicit notice required). UIM is REDUCED-BY
+  (DIL) — UIM limits must exceed tortfeasor's BI for coverage to apply.
+- Iowa is at-fault with MODIFIED COMPARATIVE FAULT (51% bar)
+  (Iowa Code § 668.3)
+- Primary statutes: Iowa Code § 321A.21 (minimums), § 516A.1 (UM/UIM),
+  Ch. 515D (Cancellation Control Act), § 507B.4 (Unfair Claims)
+- State regulator: Iowa Insurance Division (IID), part of Iowa
+  Department of Commerce
+- Electronic verification: Iowa DOT system. Iowa does NOT require
+  proof at vehicle registration but driver must carry proof while
+  driving.

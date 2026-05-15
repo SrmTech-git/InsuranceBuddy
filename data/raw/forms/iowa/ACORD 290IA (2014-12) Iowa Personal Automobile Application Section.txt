@@ -1,0 +1,52 @@
+ACORD 290IA (2014-12) — Iowa Personal Automobile Application Section
+=====================================================================
+Form number: ACORD 290IA
+Edition: 2014-12
+Title: Iowa Personal Automobile Application Section
+Type: Insurance form (ACORD industry standard, Iowa state variant)
+States: IA
+Policy term: Matches the underlying personal auto policy term (typically 6 or 12 months)
+Transaction types: New business, renewal, midterm change — used as the auto-specific section in a modular ACORD application package
+
+Purpose:
+Auto-specific section of a personal auto application in Iowa. Used in
+combination with ACORD 88 (Personal Insurance Application — Applicant
+Information Section), which captures applicant identity. The 290IA
+holds the auto-specific data needed to underwrite an Iowa auto policy
+under Iowa Code 321A.
+
+Captures:
+- Drivers: license number/status, DOB, marital status, occupation,
+  3-5 year violation/accident history
+- Vehicles: VIN, year/make/model, body type, garaging address
+- Vehicle use: pleasure / commute / business, annual mileage
+- Lienholder / additional interest information
+- Coverages: BI, PD, UM/UIM, MedPay, comp, coll
+- Deductibles (comp and coll)
+- Optional coverages and discounts
+- Prior insurance carrier and lapse history
+- Loss history
+- Iowa-required disclosures and acknowledgments
+- Fraud statement and applicant signature
+(NOTE: Applicant identity is captured on ACORD 88, not duplicated here)
+
+When used:
+- New business — when the agency uses ACORD's modular section system
+  (88 + 290IA) rather than the standalone full app (90IA)
+- Renewal where the carrier requires fresh auto-section data while
+  reusing applicant info from 88
+- Adding a vehicle or driver to an existing modular-section policy
+
+Notes:
+- Iowa-specific supplements typically completed alongside this section:
+  61IA, 62IA, 64IA (UM/UIM offer / notice / stacking); 65IA (aftermarket
+  parts); 66IA (claims history); 67IA (extraordinary life circumstances)
+- Use 290IA with ACORD 88; use 90IA standalone
+- Iowa minimum liability limits: 20/40/15 (Iowa Code § 321A.21) —
+  proof of financial responsibility framework; insurance is the
+  primary compliance method. Alternative: $55K surety bond.
+- Iowa UM/UIM: must offer; rejectable in writing (Iowa Code § 516A.1);
+  UIM is REDUCED-BY structure
+- Iowa is at-fault with modified comparative fault (51% bar)
+- State regulator: Iowa Insurance Division (IID)
+- Electronic verification: Iowa DOT

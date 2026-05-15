@@ -1,0 +1,48 @@
+ACORD 290OH (2014-12) — Ohio Personal Automobile Application Section
+=====================================================================
+Form number: ACORD 290OH
+Edition: 2014-12
+Title: Ohio Personal Automobile Application Section
+Type: Insurance form (ACORD industry standard, Ohio state variant)
+States: OH
+Policy term: Matches the underlying personal auto policy term (typically 6 or 12 months)
+Transaction types: New business, renewal, midterm change — used as the auto-specific section in a modular ACORD application package
+
+Purpose:
+Auto-specific section of a personal auto application in Ohio. Used in
+combination with ACORD 88 (Personal Insurance Application — Applicant
+Information Section), which captures applicant identity. The 290OH
+holds the auto-specific data needed to underwrite an Ohio auto policy
+under ORC 4509 (financial responsibility) and ORC 3937 (auto insurance
+statutes).
+
+Captures:
+- Drivers: license number/status, DOB, marital status, occupation,
+  3-5 year violation/accident history
+- Vehicles: VIN, year/make/model, body type, garaging address
+- Vehicle use: pleasure / commute / business, annual mileage
+- Lienholder / additional interest information
+- Coverages: BI, PD, UM/UIM, MedPay, comp, coll
+- Deductibles (comp and coll)
+- Optional coverages and discounts
+- Prior insurance carrier and lapse history
+- Loss history
+- Ohio-required disclosures and acknowledgments
+- Fraud statement and applicant signature
+(NOTE: Applicant identity is captured on ACORD 88, not duplicated here)
+
+When used:
+- New business — when the agency uses ACORD's modular section system
+  (88 + 290OH) rather than the standalone full app (90OH)
+- Renewal where the carrier requires fresh auto-section data while
+  reusing applicant info from 88
+- Adding a vehicle or driver to an existing modular-section policy
+
+Notes:
+- Ohio minimum liability limits: 25/50/25 (ORC § 4509)
+- Ohio UM/UIM is NOT required and has NO mandatory-offer requirement
+  since 2001 (ORC § 3937.18 as amended by S.B. 97). Insurer may omit
+  UM/UIM entirely; insured must affirmatively request to add it.
+- Ohio uses electronic insurance verification via Ohio BMV
+- Primary statutes: ORC Chapters 3937, 4509, 3901
+- Use 290OH with ACORD 88; use 90OH standalone

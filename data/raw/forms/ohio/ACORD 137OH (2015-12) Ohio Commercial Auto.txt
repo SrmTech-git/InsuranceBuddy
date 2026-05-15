@@ -1,0 +1,41 @@
+ACORD 137OH (2015-12) — Ohio Commercial Auto
+=============================================
+Form number: ACORD 137OH
+Edition: 2015-12
+Title: Ohio Commercial Auto
+Type: Insurance form (ACORD industry standard, Ohio state variant)
+States: OH
+Policy term: 12 months (typical for commercial auto)
+Transaction types: New business, renewal, midterm change, audit-driven adjustment
+
+Purpose:
+Ohio-specific Commercial Auto Coverages section. Captures coverage
+selections, limits, deductibles, and Ohio-required disclosures for a
+commercial auto policy under ORC 4509 (Financial Responsibility) and
+ORC 3937 (Auto Insurance). Used alongside national ACORD 125 and 127.
+
+Captures:
+- Liability limits (BI/PD split or Combined Single Limit)
+- Comp / collision deductibles
+- UM / UIM coverage selections and limits
+- MedPay
+- Hired Auto Liability
+- Non-Owned Auto Liability
+- Drive Other Car coverage (where applicable)
+- Towing & labor / rental reimbursement / loss of use
+- Trailer interchange (for trucking)
+- Ohio-required disclosures and acknowledgments
+
+When used:
+- New commercial auto submission for an Ohio-based fleet
+- Renewal where Ohio-specific coverages are being reselected
+- Midterm endorsement that changes coverage or limits
+
+Notes:
+- Ohio personal-auto minimum limits: 25/50/25 (ORC § 4509). Commercial
+  auto minimums may differ; federal MCS-90 minimums apply for
+  interstate motor carriers (typically $750K-$5M depending on cargo).
+- Ohio UM/UIM is NOT required and has NO mandatory-offer requirement
+  since 2001 (ORC § 3937.18 as amended by S.B. 97). Insurer may omit
+  UM/UIM entirely — applies to commercial as well as personal.
+- Pairs with national ACORD 125 and 127

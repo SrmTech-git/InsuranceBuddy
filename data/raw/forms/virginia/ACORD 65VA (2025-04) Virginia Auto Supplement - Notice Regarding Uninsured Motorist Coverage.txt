@@ -1,0 +1,38 @@
+ACORD 65VA (2025-04) — Virginia Auto Supplement – Notice Regarding Uninsured Motorist Coverage
+===============================================================================================
+Form number: ACORD 65VA
+Edition: 2025-04
+Title: Virginia Auto Supplement – Notice Regarding Uninsured Motorist Coverage
+Type: Insurance form (ACORD industry standard, Virginia state variant)
+States: VA
+Policy term: Matches the underlying auto policy term; notice provided at issuance and renewal
+Transaction types: New business; renewal (notice may be reissued)
+
+Purpose:
+Statutory notice form describing Virginia's Uninsured Motorists (UM)
+coverage requirements to the insured. Virginia requires UM coverage at
+limits equal to BI liability unless the insured elects in writing to
+reduce or reject. This notice informs the insured of those rights and
+limits.
+
+Captures:
+- Statutory disclosure describing UM coverage purpose and how it pays
+- Statement of Virginia's equal-to-liability UM rule
+- Description of the insured's right to reduce, alternative-select, or
+  reject UM
+- Insured acknowledgment of receipt
+
+When used:
+- New Virginia auto submission — notice delivered with election forms
+  (66VA, 68VA, 69VA)
+- Renewal — many carriers deliver the notice annually
+- Whenever required by statute to refresh the insured's understanding
+
+Notes:
+- Pure informational notice — the actual election occurs on companion
+  forms (66VA reduction, 68VA alternative selection, 69VA standard
+  selection/rejection)
+- Virginia UM is unique nationally for its equal-to-liability default
+  and the multiple election form variants
+- [TBD — verify current Virginia UM statutory minimums and notice
+  language requirements]

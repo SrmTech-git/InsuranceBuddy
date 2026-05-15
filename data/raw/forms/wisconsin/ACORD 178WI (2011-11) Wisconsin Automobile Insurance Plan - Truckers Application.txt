@@ -1,0 +1,66 @@
+ACORD 178WI (2011-11) — Wisconsin Automobile Insurance Plan – Truckers Application
+===================================================================================
+Form number: ACORD 178WI
+Edition: 2011-11
+Title: Wisconsin Automobile Insurance Plan – Truckers Application
+Type: Insurance form (ACORD industry standard, Wisconsin state variant)
+States: WI
+Policy term: 12 months (typical for WAIP truckers)
+Transaction types: New WAIP business, renewal, fleet adjustments
+
+Purpose:
+Application for trucker / motor carrier automobile insurance through
+the Wisconsin Automobile Insurance Plan (WAIP) — Wisconsin's auto
+residual market / assigned-risk pool. Used when a trucking operation
+is unable to obtain coverage in the voluntary market. Truckers
+typically have heightened underwriting requirements due to higher
+exposures and federal MCS-90 minimum limits for interstate
+operations.
+
+Captures:
+- Producer / agency information
+- Named insured (motor carrier): name, address, FEIN, business
+  structure, USDOT number, MC number (interstate operations), Wisconsin
+  intrastate authority where applicable
+- Operations: types of cargo, radius of operations (local, regional,
+  national), interstate vs intrastate
+- Vehicle list: VIN, year/make/model, GVWR class (light/medium/heavy
+  truck, tractor, trailer), garaging, use
+- Drivers: CDL info, endorsements, training, hours-of-service
+  compliance, MVR
+- Cargo / commodity types (HAZMAT, household goods, general freight,
+  refrigerated, etc.)
+- Coverages selected: liability (CSL — typically $750K-$1M minimum
+  for interstate fleets per MCS-90, sometimes $5M for HAZMAT), UM/UIM,
+  MedPay, comp, coll, hired auto, non-owned auto, trailer interchange,
+  motor truck cargo (often separate)
+- Limits and deductibles
+- Prior insurance and denial history
+- Loss history
+- WAIP-specific disclosures, including federal MCS-90 filing
+  requirements
+- Authorized signatory and date
+
+When used:
+- New Wisconsin trucker submission to WAIP after voluntary-market
+  denial
+- Renewal of WAIP trucker coverage
+- Adding tractors, trailers, or drivers to existing WAIP fleet
+
+Notes:
+- Trucking is the highest-exposure commercial auto risk class —
+  voluntary-market access has been challenging, increasing reliance
+  on WAIP and similar residual markets
+- Federal motor carrier minimums (FMCSA / MCS-90):
+  * $750,000 for general freight interstate carriers (>$10K GVWR)
+  * $5,000,000 for HAZMAT haulers (varies by HAZMAT class)
+  * Higher for bulk oil, passenger carriers
+- Wisconsin intrastate truckers must comply with state minimums
+  (Wis. Stat.); interstate truckers must additionally comply with
+  FMCSA
+- Companion forms: 97WI (WAIP Private Passenger), 177WI (WAIP
+  Business Auto)
+- The 2011-11 edition is older; [TBD — verify whether this is still
+  the current ACORD-published edition]
+- [TBD — verify current WAIP truckers submission requirements and
+  federal MCS-90 minimum limit thresholds]

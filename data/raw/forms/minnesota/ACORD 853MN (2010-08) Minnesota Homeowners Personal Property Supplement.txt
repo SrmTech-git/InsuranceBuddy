@@ -1,0 +1,48 @@
+ACORD 853MN (2010-08) — Minnesota Homeowners Personal Property Supplement
+==========================================================================
+Form number: ACORD 853MN
+Edition: 2010-08
+Title: Minnesota Homeowners Personal Property Supplement
+Type: Insurance form (ACORD industry standard, Minnesota state variant)
+States: MN
+Policy term: Matches the underlying homeowners policy (typically 12 months)
+Transaction types: New business (additional personal property disclosures); scheduled item additions; coverage changes
+
+Purpose:
+Minnesota-specific supplement to a homeowners application capturing
+additional personal property information — typically items requiring
+extra detail beyond the base Coverage C limit and standard internal
+sub-limits (jewelry, silverware, firearms, fine art, business
+property in the home, etc.). Used to support proper coverage and
+scheduling decisions for Minnesota homeowners.
+
+Captures:
+- Personal property categories with valuations:
+  * Jewelry, watches, furs (subject to standard HO sub-limits — typical
+    $1,500 per category — that this supplement may help schedule above)
+  * Silverware, goldware, pewter (typical $2,500 sub-limit)
+  * Firearms (typical $2,500 sub-limit)
+  * Cameras, computers, electronics
+  * Business personal property in the home (typical $2,500 sub-limit)
+  * Fine art, antiques, collectibles
+  * Other valuable items
+- Notes on whether each category is to be scheduled separately (via
+  ACORD 81 / personal inland marine floater) or kept under HO Coverage C
+- Insured signature and date
+
+When used:
+- New Minnesota homeowners submission where additional personal
+  property detail is needed
+- Renewal where personal property situation has changed
+- Adding scheduled items (links to ACORD 81 / personal articles)
+- Reporting significant personal property acquisitions
+
+Notes:
+- HO Coverage C sub-limits often inadequate for valuable items — this
+  supplement helps the producer identify items that should be
+  scheduled separately under a personal articles floater
+- [TBD — verify the exact content of this 853MN supplement and how it
+  pairs with 80MN (homeowners app) and any companion personal articles
+  forms]
+- [TBD — verify whether 2010-08 is still the current ACORD-published
+  edition; this is an older edition]

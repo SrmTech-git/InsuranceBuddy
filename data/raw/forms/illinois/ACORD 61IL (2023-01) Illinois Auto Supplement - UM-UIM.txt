@@ -1,0 +1,43 @@
+ACORD 61IL (2023-01) — Illinois Auto Supplement – UM/UIM
+=========================================================
+Form number: ACORD 61IL
+Edition: 2023-01
+Title: Illinois Auto Supplement – UM/UIM
+Type: Insurance form (ACORD industry standard, Illinois state variant)
+States: IL
+Policy term: Matches the underlying auto policy term (typically 6 or 12 months); election persists until changed in writing
+Transaction types: New business (UM/UIM election required); change of UM/UIM limits; UIM rejection/reduction
+
+Purpose:
+Captures the Illinois insured's Uninsured Motorists (UM) and
+Underinsured Motorists (UIM) coverage offer, selection, and election.
+Documents the insured's choices around UM and UIM limits, including
+any election to reduce UIM below the policy's BI liability limits — a
+choice that under Illinois law (215 ILCS 5/143a / 215 ILCS 5/143a-2)
+must be made in writing.
+
+Captures:
+- UM coverage offer and selection at specified limits
+- UIM coverage offer and selection at specified limits
+- Election to reduce UIM below BI liability limits (in writing)
+- Insured acknowledgment of UM/UIM rights
+- Insured signature and date
+
+When used:
+- New Illinois personal or commercial auto submission — UM/UIM election
+  is required at issuance
+- Renewal or midterm change where UM/UIM limits are being modified
+- Whenever UIM is being reduced below BI liability limits (written
+  election required)
+
+Notes:
+- Illinois UM coverage must be carried at limits equal to BI liability
+- UIM coverage must be carried at limits equal to BI unless the insured
+  elects in writing to reduce UIM to a lower amount (down to statutory
+  minimum)
+- Companion form: 64IL — UM Property Damage Coverage Notice and Election
+- Illinois UM is REQUIRED — cannot be waived (625 ILCS 5/7-601);
+  must be carried at limits equal to BI (minimum 25/50)
+- Illinois UIM is not mandatory but insurer must OFFER (215 ILCS 5/143a);
+  reduction below BI liability limits requires written election
+- Illinois minimum liability limits: 25/50/20 (625 ILCS 5/7-203)

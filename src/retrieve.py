@@ -2,7 +2,6 @@
 
 import logging
 from dataclasses import dataclass
-import chromadb
 from db import get_collection
 from config import CHUNKS_PER_COLLECTION, CONTEXT_CAP
 from query_parsing import merge_filters
@@ -50,15 +49,13 @@ def query(query_text: str, n_results: int = 8, filters: dict | None = None,
         collection_name: Which collection to search.
     """
 
-    collection = get_collection(collection_name)
-
-    # Build a ChromaDB 'where' clause from the filters dict
-    where = _build_where(filters) if filters else None
-
-    raw = collection.query(
+    # Callers already shape `filters` as a ChromaDB where-clause (via
+    # merge_filters / build_state_filter / form-filter construction), so it
+    # passes straight through.
+    raw = get_collection(collection_name).query(
         query_texts=[query_text],
         n_results=n_results,
-        where=where,
+        where=filters,
     )
 
     return QueryResult(
@@ -66,21 +63,6 @@ def query(query_text: str, n_results: int = 8, filters: dict | None = None,
         metadatas=raw["metadatas"][0],
         distances=raw["distances"][0],
     )
-
-
-def print_results(results: QueryResult) -> None:
-    """Pretty-print query results with scores and text."""
-
-    if not results:
-        print("  (no results)")
-        return
-
-    for i, (doc, meta, distance) in enumerate(results):
-        form = meta.get("form_number", "")
-        label = f" [{form}]" if form else ""
-        # ChromaDB returns L2 distance — lower is more relevant
-        print(f"\n--- Result {i + 1}{label} (distance: {distance:.4f}) ---")
-        print(doc)
 
 
 # ---------------------------------------------------------------------------
@@ -132,20 +114,6 @@ def list_all_forms(collection_name: str = "regulatory") -> list[dict]:
         seen[key]["chunk_count"] += 1
 
     return list(seen.values())
-
-
-def print_forms(collection_name: str = "regulatory") -> None:
-    """Print a summary table of all forms in the given collection."""
-    forms = list_all_forms(collection_name)
-    print(f"Found {len(forms)} document(s) in the '{collection_name}' collection:\n")
-    for f in forms:
-        label = f["form_number"] or "(no form number)"
-        print(f"  {label}")
-        print(f"    Edition:     {f['edition_date'] or '(none)'}")
-        print(f"    Description: {f['description'] or '(none)'}")
-        print(f"    Filename:    {f['filename']}")
-        print(f"    Chunks:      {f['chunk_count']}")
-        print()
 
 
 # ---------------------------------------------------------------------------
@@ -259,54 +227,3 @@ def retrieve_chunks_multistate(
     )
 
 
-# ---------------------------------------------------------------------------
-# Helpers
-# ---------------------------------------------------------------------------
-
-def _build_where(filters: dict) -> dict:
-    """Convert a flat filters dict into a ChromaDB 'where' clause.
-
-    Single filter:  {"form_number": "INS7059"}
-        -> {"form_number": "INS7059"}
-
-    Multiple filters: {"form_number": "INS7059", "edition_date": "Rev. 02/2021"}
-        -> {"$and": [{"form_number": "INS7059"}, {"edition_date": "Rev. 02/2021"}]}
-    """
-
-    conditions = [{k: v} for k, v in filters.items()]
-
-    if len(conditions) == 1:
-        return conditions[0]
-
-    return {"$and": conditions}
-
-
-# ---------------------------------------------------------------------------
-# Demo / testing
-# ---------------------------------------------------------------------------
-
-if __name__ == "__main__":
-    # 1. List all forms in the database
-    print("=" * 60)
-    print("ALL FORMS IN DATABASE (regulatory)")
-    print("=" * 60)
-    print_forms("regulatory")
-
-    # 2. Look up a specific form by number
-    print("=" * 60)
-    print("FORM LOOKUP: ORC3937.18")
-    print("=" * 60)
-    result = find_form("ORC3937.18")
-    if result:
-        print(f"  Found: {result}")
-    else:
-        print("  Not found in the database.")
-    print()
-
-    # 3. Unfiltered semantic search
-    test_query = "uninsured motorist coverage"
-    print("=" * 60)
-    print(f"SEMANTIC SEARCH: '{test_query}'")
-    print("=" * 60)
-    results = query(test_query)
-    print_results(results)

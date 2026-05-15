@@ -1,0 +1,47 @@
+ACORD 138GA (2025-08) — Georgia Garage and Dealers
+===================================================
+Form number: ACORD 138GA
+Edition: 2025-08
+Title: Georgia Garage and Dealers
+Type: Insurance form (ACORD industry standard, Georgia state variant)
+States: GA
+Policy term: 12 months (typical for commercial garage policy)
+Transaction types: New business, renewal, midterm change, audit-driven adjustment
+
+Purpose:
+Georgia-specific Garage and Dealers section. Captures business
+information, exposures, coverages, and Georgia-required disclosures
+for a Garage / Dealers policy under O.C.G.A. § 33-34. State-specific
+overlay to the national ACORD 128 (Garage and Dealers Section).
+
+Captures:
+- Insured business type: new-car dealer, used-car dealer, service station,
+  body shop, repair shop, towing operation, etc.
+- Dealer / business license number(s)
+- Premises: locations, age, square footage, lot size
+- Operations: gross receipts, vehicles in inventory / sold / serviced
+- Garage liability (premises and operations)
+- Auto Liability (covered autos)
+- Garagekeepers (CCC — care, custody, control)
+- Products and Completed Operations
+- UM for covered autos (Georgia "added-on vs reduced-by" election)
+- Georgia-required dealer disclosures and acknowledgments
+
+When used:
+- New garage policy submission for a Georgia auto-related business
+- Renewal where Georgia-specific coverages or dealer info are reselected
+- Adding/removing locations or operations
+- Midterm endorsement that changes coverage or operations
+
+Notes:
+- Georgia's UM "added-on vs reduced-by" election applies to garage
+  covered autos as well — captured here or on companion form 62GA
+- Georgia uses electronic insurance database (GEICO)
+- Georgia dealer regulations are administered by the Georgia State
+  Board of Registration of Used Motor Vehicle Dealers (and the
+  Department of Revenue for new dealers)
+- Georgia personal-auto minimums applicable to garage covered autos:
+  25/50/25 (O.C.G.A. § 40-6-10). UM add-on default per § 33-7-11.
+- State regulator: Georgia OCI (Commissioner of Insurance and Safety Fire)
+- Electronic verification: GEICS
+- [TBD — verify current Georgia dealer bonding / minimum coverage requirements]

@@ -1,0 +1,59 @@
+ACORD 832MN (2016-03) — Minnesota Miscellaneous E&O Section
+============================================================
+Form number: ACORD 832MN
+Edition: 2016-03
+Title: Minnesota Miscellaneous E&O Section
+Type: Insurance form (ACORD industry standard, Minnesota state variant)
+States: MN
+Policy term: 12 months (typical for Misc E&O — claims-made)
+Transaction types: New business, renewal, midterm change
+
+Purpose:
+Minnesota-specific section for Miscellaneous Errors & Omissions
+(E&O) coverage — the catch-all professional liability section for
+professions that don't have a named-line professional liability
+policy (Lawyers, Accountants, Architects/Engineers, Medical
+Professionals have their own). Common Misc E&O insureds include
+real estate professionals, consultants, IT service providers (where
+not on cyber/tech E&O), home inspectors, travel agents, etc. Used
+alongside ACORD 125.
+
+Captures:
+- Insured entity / professional information
+- Type of professional service performed (detailed description
+  required for proper underwriting)
+- Years in business / years performing this service
+- Staff size, professional qualifications/licenses
+- Annual gross receipts / professional service revenue
+- Client / customer profile (number, types, contract structures)
+- Standard contract terms used (LOEs, hold-harmless provisions)
+- Prior E&O coverage and claims
+- Underwriting questions:
+  * Prior claims, regulatory actions, license suspensions
+  * Subcontractor / vendor exposures
+  * Highest-fee-per-engagement client
+  * Largest contract / project size in past year
+- Coverage selections:
+  * Limits and retention
+  * Retro date / prior acts coverage
+  * Defense outside or inside limits
+  * Specific service exclusions or sub-limits
+- Minnesota-required disclosures and acknowledgments
+- Authorized signatory and date
+
+When used:
+- New Minnesota Miscellaneous E&O submission — section attached to
+  ACORD 125
+- Renewal where Misc E&O coverage is being modified
+- Reporting significant service-offering changes
+
+Notes:
+- Misc E&O is claims-made — retro date and continuity matter
+- "Misc" is a category, not a coverage form — many carriers use
+  insured-class-specific Misc E&O forms (consultant, real estate
+  agent, etc.) rather than one generic form
+- Companion forms: 807MN (D&O), 827MN (EPLI), 828MN (Fiduciary),
+  833MN (Lawyers PL), 834MN (Cyber), 838MN (Accountants PL)
+- For tech / IT exposures, may overlap with cyber (834MN) — careful
+  coverage coordination needed
+- [TBD — verify Minnesota-specific Misc E&O disclosure requirements]

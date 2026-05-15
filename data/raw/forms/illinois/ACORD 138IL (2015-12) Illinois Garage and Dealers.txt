@@ -1,0 +1,51 @@
+ACORD 138IL (2015-12) — Illinois Garage and Dealers
+====================================================
+Form number: ACORD 138IL
+Edition: 2015-12
+Title: Illinois Garage and Dealers
+Type: Insurance form (ACORD industry standard, Illinois state variant)
+States: IL
+Policy term: 12 months (typical for commercial garage policy)
+Transaction types: New business, renewal, midterm change, audit-driven adjustment
+
+Purpose:
+Illinois-specific Garage and Dealers section. Captures the
+business-specific information, exposures, coverages, and Illinois-
+required disclosures for a Garage / Dealers policy covering new- and
+used-car dealers, service stations, body shops, repair shops, and
+similar auto-related businesses. State-specific overlay to the
+national ACORD 128 (Garage and Dealers Section).
+
+Captures:
+- Insured business type: new-car dealer, used-car dealer, service station,
+  body shop, repair shop, towing operation, etc.
+- Dealer / business license number(s)
+- Premises: locations, age, square footage, lot size
+- Operations: gross receipts by operation type, number of vehicles
+  in inventory / sold / serviced annually
+- Garage liability coverage (premises and operations)
+- Auto Liability (covered autos — symbols, limits)
+- Garagekeepers (customers' vehicles in care, custody, control)
+- Products and Completed Operations
+- UM/UIM for covered autos (Illinois rules apply)
+- Illinois-required dealer disclosures and acknowledgments
+
+When used:
+- New garage policy submission for an Illinois auto-related business
+- Renewal where Illinois-specific coverages or dealer info are reselected
+- Adding/removing locations or operations
+- Midterm endorsement that changes coverage, limits, or operations
+
+Notes:
+- Illinois UM in limits equal to BI applies to covered autos
+- Illinois dealer regulations are administered by the Secretary of State
+  (Vehicle Services Department)
+- Companion form: national ACORD 128 (Garage and Dealers Section) where
+  agency uses modular ACORD 125 + 128 + 138IL structure
+- Illinois personal-auto minimums applicable to garage covered autos:
+  25/50/20 (625 ILCS 5/7-203). UM REQUIRED for covered autos.
+- Primary statutes: 215 ILCS 5, 625 ILCS 5
+- State regulator: Illinois Department of Insurance (IDOI)
+- [TBD — verify the structural relationship between 138IL and national
+  128 (overlay vs alternative) and which is typically used]
+- [TBD — verify current Illinois Garage policy minimum coverage requirements]

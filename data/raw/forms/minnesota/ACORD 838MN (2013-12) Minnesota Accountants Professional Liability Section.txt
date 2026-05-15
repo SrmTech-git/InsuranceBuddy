@@ -1,0 +1,71 @@
+ACORD 838MN (2013-12) — Minnesota Accountants Professional Liability Section
+=============================================================================
+Form number: ACORD 838MN
+Edition: 2013-12
+Title: Minnesota Accountants Professional Liability Section
+Type: Insurance form (ACORD industry standard, Minnesota state variant)
+States: MN
+Policy term: 12 months (typical for Accountants PL — claims-made)
+Transaction types: New business, renewal, midterm change (partner additions, service mix changes)
+
+Purpose:
+Minnesota-specific section for Accountants Professional Liability
+(APL) coverage — the E&O policy for CPAs, accounting firms, and tax
+practitioners. Covers claims arising from professional accounting
+services: audit failures, tax errors, advisory missteps, etc. Used
+alongside ACORD 125.
+
+Captures:
+- Firm information: name, address, year established, structure
+  (sole practitioner, partnership, LLP, PC, PA)
+- CPA licensing by state
+- Number of accountants by class: partner, manager, senior, staff,
+  contract
+- Service revenue breakdown by service line:
+  * Audit / attestation (typically highest exposure)
+  * Review and compilation
+  * Tax preparation and planning
+  * Advisory / consulting
+  * Bookkeeping
+  * Forensic / litigation support
+- Highest-risk service areas:
+  * Audits of SEC registrants (heightened PCAOB and SEC scrutiny)
+  * Audits of broker-dealers or investment advisers
+  * Audits of employee benefit plans (ERISA exposure)
+  * Tax shelter / aggressive tax position work
+  * Forensic / litigation support
+- Annual gross fees and average matter value
+- Largest single audit / engagement
+- Prior APL coverage and claims (typically 5-10 years)
+- Underwriting questions:
+  * Prior PCAOB inspections (if applicable) and findings
+  * Prior state board of accountancy actions
+  * Prior peer review results
+  * Conflict and independence policies
+  * Engagement letter practices
+- Coverage selections:
+  * Limits (per claim, aggregate)
+  * Retention
+  * Retro date / prior acts coverage (critical for continuity)
+  * Defense outside or inside limits
+  * Extended Reporting Period (ERP / "tail") availability
+- Minnesota-required disclosures and acknowledgments
+- Authorized signatory and date
+
+When used:
+- New Minnesota Accountants PL submission — section attached to
+  ACORD 125
+- Renewal where APL coverage is being modified
+- Reporting significant firm or service-mix changes
+
+Notes:
+- Accountants PL is claims-made — retro date and prior acts coverage
+  critical for continuity
+- Audit work carries the highest exposure; some carriers exclude or
+  sub-limit SEC audits
+- Companion forms: 807MN (D&O), 832MN (Misc E&O), 833MN (Lawyers PL)
+- Minnesota Board of Accountancy regulates Minnesota CPAs; AICPA
+  professional standards apply
+- The 2013-12 edition is older; [TBD — verify whether this is still
+  the current ACORD-published edition or has been superseded]
+- [TBD — verify Minnesota-specific APL disclosure requirements]

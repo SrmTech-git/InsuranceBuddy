@@ -1,0 +1,47 @@
+ACORD 62MN (2000-01) — Minnesota Auto Supplement
+=================================================
+Form number: ACORD 62MN
+Edition: 2000-01
+Title: Minnesota Auto Supplement
+Type: Insurance form (ACORD industry standard, Minnesota state variant)
+States: MN
+Policy term: Matches the underlying auto policy term; elections persist until changed in writing
+Transaction types: New business (Minnesota-required disclosures and elections); change to coverages or limits
+
+Purpose:
+General-purpose Minnesota auto supplement attached to personal and
+commercial auto submissions. Captures Minnesota-specific disclosures
+and coverage elections required under Minnesota's No-Fault Automobile
+Insurance Act (Minn. Stat. § 65B), including PIP basic economic loss
+benefit selection and UM / UIM coverage elections.
+
+Captures:
+- PIP basic economic loss benefits selection (medical + non-medical /
+  wage loss / replacement services / funeral — statutorily required)
+- UM coverage selection (typically at limits equal to liability)
+- UIM coverage selection (typically at limits equal to liability)
+- Other Minnesota-required disclosures and acknowledgments
+- Insured signature and date
+
+When used:
+- New Minnesota auto submission — PIP and UM/UIM elections required
+- Renewal where Minnesota-specific coverages are being modified
+- Midterm change
+
+Notes:
+- Minnesota is a no-fault state — PIP basic economic loss benefits are
+  mandatory at statutory amounts
+- UM and UIM typically required at limits equal to liability unless
+  rejected in writing
+- Companion forms: 38MN (Authorization), 65MN (Guaranty Association
+  Notice), 67MN (Personal Boat Insurance BI Decline — for boats)
+- The 2000-01 edition is very old; [TBD — verify whether this is still
+  the current ACORD-published edition or has been superseded]
+- [TBD — verify the exact content of this generic-titled "Minnesota Auto
+  Supplement"; the form may cover PIP + UM/UIM + other Minnesota
+  statutory disclosures. Confirm exact scope on the actual ACORD form.]
+- Minnesota minimum liability limits: 30/60/10
+- Minnesota mandatory PIP: $40,000 total per person ($20K medical +
+  $20K non-medical)
+- Minnesota UM REQUIRED 25/50 minimum; UIM REQUIRED 25/50 minimum
+  unless rejected in writing (REDUCED-BY structure)

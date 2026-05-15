@@ -1,0 +1,41 @@
+ACORD 137WI (2025-02) — Wisconsin Commercial Auto
+==================================================
+Form number: ACORD 137WI
+Edition: 2025-02
+Title: Wisconsin Commercial Auto
+Type: Insurance form (ACORD industry standard, Wisconsin state variant)
+States: WI
+Policy term: 12 months (typical for commercial auto)
+Transaction types: New business, renewal, midterm change, audit-driven adjustment
+
+Purpose:
+Wisconsin-specific Commercial Auto Coverages section. Captures coverage
+selections, limits, deductibles, and Wisconsin-required disclosures for
+a commercial auto policy under Wis. Stat. § 632.32 (compulsory auto
+insurance). Used alongside national ACORD 125 and 127.
+
+Captures:
+- Liability limits (BI/PD split or Combined Single Limit)
+- Comp / collision deductibles
+- UM (mandatory in Wisconsin) and UIM (where offered)
+- MedPay
+- Hired Auto Liability
+- Non-Owned Auto Liability
+- Drive Other Car coverage (where applicable)
+- Towing & labor / rental reimbursement / loss of use
+- Trailer interchange (for trucking)
+- Wisconsin-required disclosures and acknowledgments
+
+When used:
+- New commercial auto submission for a Wisconsin-based fleet
+- Renewal where Wisconsin-specific coverages are being reselected
+- Midterm endorsement that changes coverage or limits
+
+Notes:
+- Wisconsin moved from financial responsibility to compulsory auto
+  insurance in 2010 — applies to commercial as well as personal autos
+- Wisconsin requires UM; UIM is offered but may be rejected
+- Wisconsin personal-auto minimum limits: 25/50/10 (Wis. Stat. § 344.15).
+  Commercial fleets subject to federal MCS-90 for interstate operations.
+- WI UM MANDATORY at 25/50 (Wis. Stat. § 632.32(4)); UIM optional
+- State regulator: Wisconsin OCI; WisDOT for SR-22

@@ -1,0 +1,51 @@
+ACORD 171GA (2026-04) — Georgia State Board of Workers' Compensation – Notice of Election or Rejection of Workers' Compensation Coverage
+=========================================================================================================================================
+Form number: ACORD 171GA
+Edition: 2026-04
+Title: Georgia State Board of Workers' Compensation – Notice of Election or Rejection of Workers' Compensation Coverage
+Type: Insurance form (ACORD industry standard, Georgia state variant)
+States: GA
+Policy term: Matches the underlying WC policy term (typically 12 months); election persists until changed in writing
+Transaction types: New business (election/rejection notice), renewal, change in election
+
+Purpose:
+Georgia Workers' Compensation election or rejection form filed with
+the Georgia State Board of Workers' Compensation. Georgia allows
+certain workers — sole proprietors, partners, LLC members, and
+corporate officers of small businesses — to elect or reject WC
+coverage. This form documents that election or rejection on file
+with the State Board.
+
+Captures:
+- Employer / business information
+- Business structure (sole proprietorship, partnership, LLC, corporation)
+- Individual's name and role (sole proprietor, partner, LLC member,
+  corporate officer)
+- Election or rejection of WC coverage
+- Effective date of the election or rejection
+- Statement that an excluded/rejecting individual is not entitled to
+  WC benefits if injured
+- Individual signature and date
+- Authorized employer signatory
+- Filing acknowledgment with the Georgia State Board of WC
+
+When used:
+- New Georgia WC submission where eligible individuals are making
+  election decisions
+- Renewal where existing elections are being maintained or modified
+- Midterm change when an individual's election decision changes
+- Filed with the Georgia State Board of WC to be on the official record
+
+Notes:
+- Georgia State Board of Workers' Compensation administers WC under
+  O.C.G.A. Title 34, Chapter 9
+- Georgia WC threshold: employers with 3 or more regular employees
+  are required to carry WC; below threshold, coverage is optional —
+  [TBD verify current employee threshold]
+- Default treatment for owners/officers varies by entity:
+  * Sole proprietors and partners — typically excluded; may elect IN
+  * LLC members — typically excluded; may elect IN
+  * Corporate officers — typically auto-included; may opt OUT
+    (subject to limits on number of officers excludable)
+- [TBD — verify current Georgia statutory framework and election
+  procedures]

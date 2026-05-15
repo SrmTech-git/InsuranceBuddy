@@ -1,0 +1,57 @@
+ACORD 38MN (2021-08) — Minnesota Authorization
+===============================================
+Form number: ACORD 38MN
+Edition: 2021-08
+Title: Minnesota Authorization
+Type: Insurance form (ACORD industry standard, Minnesota state variant)
+States: MN
+Policy term: Authorization typically persists for the period needed to complete underwriting and beyond as permitted by statute
+Transaction types: New business (authorization required for consumer reports), renewal where re-authorization is needed
+
+Purpose:
+Minnesota-required authorization form by which the insurance applicant
+grants the carrier permission to obtain consumer reports, credit
+information, motor vehicle records (MVR), claims history (CLUE), and
+other underwriting information from third-party sources. The
+authorization satisfies federal Fair Credit Reporting Act (FCRA)
+requirements as well as Minnesota-specific privacy law requirements.
+
+Captures:
+- Applicant identification (name, address, DOB, SSN where required)
+- Categories of information the applicant authorizes the carrier to
+  obtain:
+  * Consumer reports (credit-based insurance scores)
+  * Motor Vehicle Records (MVR) from MN DPS-DVS
+  * CLUE (Comprehensive Loss Underwriting Exchange) claims history
+  * A-PLUS or similar claims database history
+  * Prior carrier loss runs (commercial submissions)
+  * Medical information (with separate HIPAA-compliant authorization
+    where applicable)
+- Statement of FCRA rights — applicant's right to obtain a free copy
+  of any consumer report used in an adverse decision
+- Duration of the authorization (typically the policy term plus an
+  underwriting tail)
+- Applicant signature and date
+
+When used:
+- New Minnesota insurance submission — authorization captured with
+  the application package
+- Renewal where re-authorization is needed (carrier-specific)
+- Reissuance after lapse / reinstatement
+- Anytime the carrier needs to obtain a fresh consumer report
+
+Notes:
+- Title is generically "Minnesota Authorization" — based on the form
+  context (ACORD 38 series across states being privacy / authorization
+  notices) and typical usage, this captures consumer-report
+  authorization
+- [TBD — VERIFY: confirm that 38MN is specifically a consumer-report
+  authorization form vs a broader notice; the generic title leaves
+  some ambiguity]
+- Federal FCRA and Minnesota privacy laws (Minn. Stat. § 72A.49 et
+  seq. — insurance information practices) govern this authorization
+- Companion forms across states: 38IL (Illinois privacy notice),
+  38VA (Virginia privacy notice) — note these are notices, while
+  38MN appears to be specifically an authorization
+- Companion Minnesota forms: 65MN (Insurance Guaranty Association
+  Notice — informational disclosure)

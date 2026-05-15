@@ -1,0 +1,43 @@
+ACORD 50MI (2010-08) — State of Michigan Certificate of No-Fault Insurance
+===========================================================================
+Form number: ACORD 50MI
+Edition: 2010-08
+Title: State of Michigan Certificate of No-Fault Insurance
+Type: Insurance form (ACORD industry standard, Michigan state variant)
+States: MI
+Policy term: Matches the underlying auto policy term (typically 6 or 12 months); reissued at each renewal
+Transaction types: N/A (proof-of-insurance card, not a transaction document)
+
+Purpose:
+Proof of no-fault insurance issued under a Michigan personal auto policy.
+Carried in the vehicle to satisfy Michigan's no-fault statute
+(MCL 500.3101 et seq.), which requires every vehicle owner to maintain
+Personal Protection Insurance (PIP), Property Protection Insurance (PPI),
+and Residual Liability (BI/PD) coverage.
+
+Captures:
+- Insured's name and address
+- Policy number
+- Policy effective and expiration dates
+- Year, make, model, and VIN of the insured vehicle
+- Insurer name and NAIC code
+- Agent / agency name and contact (if applicable)
+
+When used:
+- Carried in the vehicle as proof of no-fault insurance
+- Presented to law enforcement during a traffic stop or accident investigation
+- Presented to the Michigan Secretary of State for vehicle registration / renewal
+- Required to be shown at the scene of any accident
+
+Notes:
+- Michigan's no-fault system requires PIP medical coverage; since the
+  2019 no-fault reform (effective July 2, 2020), insureds choose from
+  tiered PIP medical limits — Medicaid-only opt-out, $50K (Medicare /
+  qualifying coverage), $250K, $500K, or unlimited
+- The card is titled "Certificate of No-Fault Insurance" rather than
+  "Identification Card" — distinct from other states' terminology
+- The 2010-08 edition predates the 2019 reform and likely does NOT reflect
+  post-reform PIP-tier disclosure that newer cards may include
+- [TBD — verify whether 2010-08 is still the current ACORD-published
+  edition for Michigan no-fault certificates, or whether a newer
+  post-reform edition has superseded it]

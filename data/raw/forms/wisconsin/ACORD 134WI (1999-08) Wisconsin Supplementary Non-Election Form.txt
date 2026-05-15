@@ -1,0 +1,50 @@
+ACORD 134WI (1999-08) — Wisconsin Supplementary Non-Election Form
+==================================================================
+Form number: ACORD 134WI
+Edition: 1999-08
+Title: Wisconsin Supplementary Non-Election Form
+Type: Insurance form (ACORD industry standard, Wisconsin state variant)
+States: WI
+Policy term: Matches the underlying WC policy term (typically 12 months); non-election persists until changed in writing
+Transaction types: New business (officer/owner non-election); election change
+
+Purpose:
+Wisconsin Workers' Compensation supplement capturing the non-election
+of WC coverage by an officer, owner, partner, or family member who
+would otherwise be eligible to elect coverage under Wisconsin WC law.
+Wisconsin WC default treatment varies by entity type (e.g., corporate
+officers are typically auto-covered with opt-out option; sole
+proprietors and partners are typically excluded with opt-in option) —
+this form documents the explicit non-election.
+
+Captures:
+- Employer / policy information
+- Individual's name, role (officer, owner, partner, family member)
+- Statement that the individual is NOT electing WC coverage under
+  the policy
+- Statement that the individual understands they will not be entitled
+  to WC benefits under the policy if injured
+- Individual signature and date
+
+When used:
+- At new business when an eligible officer / owner / partner / family
+  member is opting OUT of WC coverage
+- At renewal where the non-election is being maintained or changed
+- Midterm if a newly added officer/owner is making the non-election
+  decision
+
+Notes:
+- Wisconsin Wis. Stat. Ch. 102 governs WC coverage eligibility and
+  election/non-election rights
+- Default treatment varies by entity:
+  * Corporate officers — typically included; may opt out (this form)
+  * Sole proprietors / partners — typically excluded; may opt in
+    (companion 135WI)
+  * Family members of sole proprietors — typically excluded; may
+    opt in (companion 135WI)
+- Companion form: 135WI — Supplementary Election of Coverage Form
+  (the opt-in version)
+- [TBD — verify exact Wisconsin default treatment by entity type and
+  the current statutory framework for election/non-election]
+- The 1999-08 edition is very old; [TBD — verify whether this is still
+  the current ACORD-published edition or has been superseded]

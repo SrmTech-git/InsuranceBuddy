@@ -1,0 +1,37 @@
+ACORD 851IL (2025-01) — Illinois Property Supplement
+=====================================================
+Form number: ACORD 851IL
+Edition: 2025-01
+Title: Illinois Property Supplement
+Type: Insurance form (ACORD industry standard, Illinois state variant)
+States: IL
+Policy term: Matches the underlying property policy (typically 12 months); elections persist until changed in writing
+Transaction types: New business (Illinois-required property disclosures and elections); change to coverages or limits
+
+Purpose:
+General-purpose Illinois property supplement attached to homeowners
+and dwelling submissions. Captures Illinois-specific disclosures
+and property-coverage elections required under state statute that
+are not part of the standard ACORD 80IL homeowners application or
+the more specific notice forms (62IL earthquake, 64IL UMPD, etc.).
+
+Captures:
+- Illinois-specific statutory property disclosures
+- Coverage selections and acknowledgments specific to Illinois
+- Insured signature and date
+
+When used:
+- New Illinois homeowners or dwelling fire submission — companion to
+  80IL or 85IL applications
+- Renewal where Illinois-specific elections are being modified
+- Midterm change
+
+Notes:
+- [TBD — verify the exact content of this generic-titled "Illinois
+  Property Supplement"; the title is too general to know definitively
+  what fields and elections it captures without seeing the actual
+  ACORD-published form. Likely candidates: roof age disclosures,
+  rebuilding cost disclosures, replacement cost vs ACV elections,
+  specific Illinois coverage acknowledgments.]
+- 851 form numbers don't appear in the national ACORD set — this is
+  an Illinois-only form number

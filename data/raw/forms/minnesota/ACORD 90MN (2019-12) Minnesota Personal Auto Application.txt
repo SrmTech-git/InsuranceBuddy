@@ -1,0 +1,62 @@
+ACORD 90MN (2019-12) — Minnesota Personal Auto Application
+===========================================================
+Form number: ACORD 90MN
+Edition: 2019-12
+Title: Minnesota Personal Auto Application
+Type: Insurance form (ACORD industry standard, Minnesota state variant)
+States: MN
+Policy term: 6 months (typical for personal auto); 12-month terms also issued depending on carrier
+Transaction types: New business; renewal applications (where required); adding driver/vehicle; significant midterm changes
+
+Purpose:
+Standalone application for a personal auto policy in Minnesota. Captures
+the applicant, drivers, vehicles, coverages, and the no-fault PIP / UM /
+UIM elections required under Minnesota's No-Fault Automobile Insurance
+Act (Minn. Stat. § 65B).
+
+Captures:
+- Producer / agency information
+- Applicant: name, address, DOB, marital status, occupation, contact
+- Driver list: license number/status, DOB, marital status, occupation
+- Driver history (typically 3-5 years): accidents, violations, suspensions
+- Vehicle list: VIN, year/make/model, body type, garaging address
+- Vehicle use: pleasure / commute / business, annual mileage
+- Lienholder / additional interest information
+- Coverages: BI, PD, mandatory PIP (basic economic loss benefits),
+  UM, UIM, comp, coll, optional coverages
+- PIP basic economic loss benefit selection (medical + non-medical)
+- UM/UIM elections (typically mandatory at limits equal to liability
+  unless rejected)
+- Deductibles (comp and coll)
+- Discounts claimed
+- Prior insurance carrier and lapse history
+- Loss history
+- Minnesota-required disclosures, including Insurance Guaranty
+  Association notice
+- Fraud statement and applicant signature
+
+When used:
+- New business — applying for a Minnesota personal auto policy
+- Renewal applications (where required)
+- Adding a driver or vehicle to an existing Minnesota policy
+- Midterm changes that require fresh underwriting
+
+Notes:
+- Minnesota minimum liability limits: 30/60/10 (Minn. Stat. § 65B).
+  Note PD minimum of $10K is one of the LOWEST in the U.S.
+- Minnesota is a no-fault state — mandatory PIP at $40,000 total per
+  person: $20,000 medical + $20,000 non-medical (lost wages up to
+  $500/wk, replacement services, funeral up to $2,000) under
+  Minn. Stat. § 65B.44. PIP cannot be rejected.
+- Minnesota UM is REQUIRED at minimum 25/50 (cannot be waived); UIM
+  REQUIRED at minimum 25/50 unless rejected in writing (Minn. Stat.
+  § 65B.49 subd. 3a). UIM operates on REDUCED-BY (DIL) basis — UIM
+  pays the difference between at-fault driver's BI limits and insured's
+  UIM limits, not additive on top.
+- Primary statutes: Minn. Stat. Ch. 65B (Auto Ins / No-Fault),
+  § 72A.201 (Unfair Claims Settlement Practices), Ch. 169 (Traffic)
+- State insurance regulator: Minnesota Department of Commerce (not
+  "Department of Insurance" — MN's regulator is part of Commerce)
+- Companion forms commonly used: 38MN (Authorization), 62MN (Auto
+  Supplement), 65MN (Insurance Guarantee Association Notice)
+- Section version (290MN) drops applicant identity in favor of ACORD 88

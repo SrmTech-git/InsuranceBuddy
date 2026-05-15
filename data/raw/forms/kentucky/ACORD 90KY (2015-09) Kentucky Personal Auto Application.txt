@@ -1,0 +1,54 @@
+ACORD 90KY (2015-09) — Kentucky Personal Auto Application
+==========================================================
+Form number: ACORD 90KY
+Edition: 2015-09
+Title: Kentucky Personal Auto Application
+Type: Insurance form (ACORD industry standard, Kentucky state variant)
+States: KY
+Policy term: 6 months (typical for personal auto); 12-month terms also issued depending on carrier
+Transaction types: New business; renewal applications (where required); adding driver/vehicle; significant midterm changes
+
+Purpose:
+Standalone application for a personal auto policy in Kentucky. Captures
+the applicant, drivers, vehicles, coverages, and state-required
+disclosures needed to underwrite, bind, and issue a Kentucky auto
+policy under Kentucky's Motor Vehicle Reparations Act (KRS 304.39).
+
+Captures:
+- Producer / agency information
+- Applicant: name, address, DOB, marital status, occupation, contact
+- Driver list: license number/status, DOB, marital status, occupation
+- Driver history (typically 3-5 years): accidents, violations, suspensions
+- Vehicle list: VIN, year/make/model, body type, garaging address
+- Vehicle use: pleasure / commute / business, annual mileage
+- Lienholder / additional interest information
+- Coverages: BI, PD, UM/UIM, PIP (no-fault) elections, MedPay, comp, coll
+- Deductibles (comp and coll)
+- Optional coverages
+- Discounts claimed
+- Prior insurance carrier and lapse history
+- Loss history
+- Kentucky-required disclosures, PIP / no-fault election, and acknowledgments
+- Fraud statement and applicant signature
+
+When used:
+- New business — applying for a Kentucky personal auto policy
+- Renewal applications (where required)
+- Adding a driver or vehicle to an existing Kentucky policy
+- Midterm changes that require fresh underwriting
+
+Notes:
+- Kentucky minimum liability limits: 25/50/25 split (or $60,000 CSL in
+  lieu of split limits) under KRS § 304.39 (Motor Vehicle Reparations Act)
+- Kentucky is a "choice no-fault" state — PIP is mandatory by DEFAULT
+  at $10,000 minimum (KRS § 304.39-020); insured may reject the no-fault
+  tort threshold in writing (KRS § 304.39-060) and retain full tort
+  rights. Guest/pedestrian PIP still required even if insured rejects.
+- Kentucky UM/UIM: insurer must OFFER; insured may reject in writing
+  (KRS § 304.20-020)
+- Primary statutes: KRS Chapter 304 (Insurance Code), KRS § 304.39
+  (MVRA), KRS Chapter 186A (vehicle registration/verification)
+- State insurance regulator: Kentucky Department of Insurance (KDI)
+- Electronic verification: monthly VIN reports; AVIS/KAVIS database;
+  30-day notice sent if VIN absent for 2 consecutive months
+- Section version (290KY) drops applicant identity in favor of ACORD 88

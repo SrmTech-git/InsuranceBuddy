@@ -1,0 +1,51 @@
+ACORD 290WI (2016-06) — Wisconsin Personal Auto Application Section
+====================================================================
+Form number: ACORD 290WI
+Edition: 2016-06
+Title: Wisconsin Personal Auto Application Section
+Type: Insurance form (ACORD industry standard, Wisconsin state variant)
+States: WI
+Policy term: Matches the underlying personal auto policy term (typically 6 or 12 months)
+Transaction types: New business, renewal, midterm change — used as the auto-specific section in a modular ACORD application package
+
+Purpose:
+Auto-specific section of a personal auto application in Wisconsin. Used
+in combination with ACORD 88 (Personal Insurance Application —
+Applicant Information Section), which captures applicant identity. The
+290WI holds the auto-specific data needed to underwrite a Wisconsin
+auto policy under Wis. Stat. § 632.32 (compulsory auto insurance).
+
+Captures:
+- Drivers: license number/status, DOB, marital status, occupation,
+  3-5 year violation/accident history
+- Vehicles: VIN, year/make/model, body type, garaging address
+- Vehicle use: pleasure / commute / business, annual mileage
+- Lienholder / additional interest information
+- Coverages: BI, PD, UM (mandatory), UIM (where offered), MedPay,
+  comp, coll
+- Deductibles (comp and coll)
+- Optional coverages and discounts
+- Prior insurance carrier and lapse history
+- Loss history
+- Wisconsin-required disclosures and acknowledgments
+- Fraud statement and applicant signature
+(NOTE: Applicant identity is captured on ACORD 88, not duplicated here)
+
+When used:
+- New business — when the agency uses ACORD's modular section system
+  (88 + 290WI) rather than the standalone full app (90WI)
+- Renewal where the carrier requires fresh auto-section data while
+  reusing applicant info from 88
+- Adding a vehicle or driver to an existing modular-section policy
+
+Notes:
+- Wisconsin moved from financial responsibility to compulsory auto
+  insurance in 2010 (Wis. Stat. § 632.32)
+- Wisconsin requires UM; UIM is offered but may be rejected
+- Use 290WI with ACORD 88; use 90WI standalone
+- Wisconsin minimum liability limits: 25/50/10 (Wis. Stat. § 344.15)
+- WI UM MANDATORY at 25/50 (Wis. Stat. § 632.32(4)); cannot be waived.
+  UIM optional since 2011; if purchased, minimum 50/100.
+- WI is at-fault with modified comparative negligence (50% bar)
+- State regulator: Wisconsin OCI; WisDOT handles SR-22
+- Electronic verification: WisDOT Safety Responsibility

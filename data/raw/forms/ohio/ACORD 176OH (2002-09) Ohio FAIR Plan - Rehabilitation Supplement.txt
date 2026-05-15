@@ -1,0 +1,47 @@
+ACORD 176OH (2002-09) — Ohio FAIR Plan – Rehabilitation Supplement
+===================================================================
+Form number: ACORD 176OH
+Edition: 2002-09
+Title: Ohio FAIR Plan – Rehabilitation Supplement
+Type: Insurance form (ACORD industry standard, Ohio state variant)
+States: OH
+Policy term: 12 months (matches the master 171OH FAIR Plan submission)
+Transaction types: New business; renewal; midterm change
+
+Purpose:
+Rehabilitation supplement to the Ohio FAIR Plan Basic Property
+Application (171OH). Captures information specific to properties
+under renovation, rehabilitation, or major construction — including
+properties partially occupied or temporarily vacant during the rehab
+period. Rehabilitation supplements address the elevated risk profile
+during construction (theft, vandalism, fire, builders-risk-like
+exposure).
+
+Captures:
+- Rehabilitation project scope and timeline
+- Project description (gut rehab, partial rehab, addition, etc.)
+- Estimated completion date
+- General contractor / project lead information
+- Security measures during rehab (fencing, lighting, alarms)
+- Occupancy status during rehab (vacant / partially occupied)
+- Coverage during rehab and any specific endorsements
+- Applicant signature and date
+
+When used:
+- FAIR Plan submission for a property under rehabilitation — attached
+  to 171OH
+- Renewal of existing FAIR Plan rehab coverage if the project extends
+  beyond the original policy term
+- Reporting project changes (scope, contractor, schedule)
+
+Notes:
+- Used in combination with the master 171OH (Basic Property Application)
+- Rehab properties are higher-risk — vacant or partially-occupied
+  structures undergoing construction face elevated theft, vandalism,
+  and fire exposure
+- FAIR Plan rehab coverage may be transitional — once rehab is
+  complete, the property may be eligible for voluntary-market coverage
+- Companion supplements: 172OH (Homeowners), 173OH (Dwelling Fire),
+  174OH (Commercial), 175OH (Farm), 177OH (Bowling Alley)
+- [TBD — verify current Ohio FAIR Plan rehab supplement scope and
+  underwriting requirements]

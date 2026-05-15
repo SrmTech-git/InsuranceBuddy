@@ -1,0 +1,47 @@
+ACORD 138KY (2015-09) — Kentucky Garage and Dealers
+====================================================
+Form number: ACORD 138KY
+Edition: 2015-09
+Title: Kentucky Garage and Dealers
+Type: Insurance form (ACORD industry standard, Kentucky state variant)
+States: KY
+Policy term: 12 months (typical for commercial garage policy)
+Transaction types: New business, renewal, midterm change, audit-driven adjustment
+
+Purpose:
+Kentucky-specific Garage and Dealers section. Captures business
+information, exposures, coverages, and Kentucky-required disclosures
+for a Garage / Dealers policy under Kentucky's Motor Vehicle
+Reparations Act (KRS 304.39). State-specific overlay to the national
+ACORD 128 (Garage and Dealers Section).
+
+Captures:
+- Insured business type: new-car dealer, used-car dealer, service station,
+  body shop, repair shop, towing operation, etc.
+- Dealer / business license number(s)
+- Premises: locations, age, square footage, lot size
+- Operations: gross receipts, vehicles in inventory / sold / serviced
+- Garage liability (premises and operations)
+- Auto Liability (covered autos)
+- Garagekeepers (CCC — care, custody, control)
+- Products and Completed Operations
+- UM/UIM for covered autos
+- PIP (no-fault) — applies to garage covered autos in KY by default
+- Kentucky-required dealer disclosures and acknowledgments
+
+When used:
+- New garage policy submission for a Kentucky auto-related business
+- Renewal where Kentucky-specific coverages or dealer info are reselected
+- Adding/removing locations or operations
+- Midterm endorsement that changes coverage or operations
+
+Notes:
+- Kentucky is a "choice no-fault" state — PIP applies to garage covered
+  autos by default
+- Kentucky dealer regulations are administered by the Kentucky Motor
+  Vehicle Commission
+- Kentucky personal-auto minimums applicable to garage covered autos:
+  25/50/25 or $60K CSL (KRS § 304.39); default PIP $10K applies
+- Primary statutes: KRS 304 (Insurance), KRS 304.39 (MVRA)
+- State regulator: Kentucky Department of Insurance (KDI)
+- [TBD — verify current Kentucky dealer bonding / minimum coverage requirements]

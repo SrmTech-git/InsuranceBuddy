@@ -1,0 +1,53 @@
+ACORD 283VA (2025-07) — Virginia Personal Umbrella Application Section
+=======================================================================
+Form number: ACORD 283VA
+Edition: 2025-07
+Title: Virginia Personal Umbrella Application Section
+Type: Insurance form (ACORD industry standard, Virginia state variant)
+States: VA
+Policy term: Matches the underlying umbrella policy (typically 12 months)
+Transaction types: New business, renewal, increasing limits, midterm change to underlying policies
+
+Purpose:
+Personal umbrella-specific section of a Virginia personal lines
+submission. Used in combination with ACORD 88 (Personal Insurance
+Application — Applicant Information Section), which captures applicant
+identity. The 283VA holds the umbrella-specific data: underlying
+policies, household exposures, umbrella limit selection, and
+Virginia-required disclosures.
+
+Captures:
+- Underlying auto policy: carrier, policy number, BI/PD limits,
+  UM/UIM limits
+- Underlying homeowners policy: carrier, policy number, personal
+  liability and medical payments limits
+- Underlying watercraft policy: carrier, policy number, BI/PD limits
+- Underlying recreational vehicle policy: carrier, limits
+- Other underlying policies as applicable
+- Umbrella limit selected ($1M, $2M, $5M, $10M)
+- Drivers and licensed members of household
+- Vehicles, properties, watercraft, recreational vehicles owned
+- Loss history (typically 5 years)
+- Underwriting questions: prior umbrella, prior umbrella claims,
+  professional/occupational exposures, youthful drivers, business use
+- Virginia-required disclosures and acknowledgments
+- Fraud statement and applicant signature
+(NOTE: Applicant identity is captured on ACORD 88VA or national 88, not
+duplicated here)
+
+When used:
+- New Virginia personal umbrella submission — when agency uses
+  ACORD's modular section system (88 + 283VA) rather than standalone
+  83VA
+- Renewal where the umbrella limit is being modified while reusing
+  applicant info from 88
+- Adding/removing underlying policies in a modular-section package
+
+Notes:
+- Section version (283VA) drops applicant identity; standalone version
+  is 83VA
+- Companion forms: 88VA (Applicant Information Section), 290VA
+  (Personal Auto Section — feeds underlying auto data), 81VA
+  (Personal Inland Marine)
+- [TBD — verify carrier-typical underlying limit requirements for
+  Virginia umbrellas]

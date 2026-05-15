@@ -1,0 +1,47 @@
+ACORD 62GA (2025-08) — Georgia Auto Supplement – Uninsured Motorists Coverage Selection / Rejection
+====================================================================================================
+Form number: ACORD 62GA
+Edition: 2025-08
+Title: Georgia Auto Supplement – Uninsured Motorists Coverage Selection / Rejection
+Type: Insurance form (ACORD industry standard, Georgia state variant)
+States: GA
+Policy term: Matches the underlying auto policy term; election persists until changed in writing
+Transaction types: New business (UM election required, including added-on/reduced-by choice); change of UM coverage
+
+Purpose:
+Captures the Georgia insured's Uninsured Motorists (UM) coverage
+selection — including Georgia's distinctive "added-on vs reduced-by"
+election — at the chosen limits, or rejection of UM coverage in
+writing. Georgia statute (O.C.G.A. § 33-7-11) gives the insured two
+distinct structural choices for how UM applies relative to the
+at-fault driver's coverage.
+
+Captures:
+- UM coverage offer at specified limits
+- Election between "Added-On" UM (true excess; UM stacks ON TOP of
+  the at-fault driver's coverage) or "Reduced-By" UM (UM is offset
+  by the at-fault driver's coverage — difference-in-limits)
+- Limits selected
+- Rejection of UM coverage (in writing, where permitted)
+- Insured signature and date
+
+When used:
+- New Georgia auto submission — UM election (including added-on/
+  reduced-by choice) required
+- Renewal where UM coverage is being modified
+- Midterm change to UM coverage
+
+Notes:
+- Georgia's "Added-On vs Reduced-By" UM is distinctive nationally.
+  Added-on UM provides true excess recovery — e.g., $100K UM + $25K
+  at-fault BI = $125K total available. Reduced-by UM provides DIL
+  recovery — $100K UM − $25K at-fault BI = $75K UM available.
+- Added-on is typically more expensive and provides better protection;
+  reduced-by is cheaper but recovery-limited
+- Companion to the Georgia personal/commercial auto application
+- Georgia UM minimum: matches BI minimum 25/50 (O.C.G.A. § 40-6-10).
+  UM/UIM under O.C.G.A. § 33-7-11 — must include in every policy as
+  ADD-ON default; insured must REJECT IN WRITING to remove.
+- ~12% uninsured driver rate in Georgia — UM retention strongly
+  recommended; "Added-On" structure provides true excess recovery
+  while "Reduced-By" provides DIL recovery

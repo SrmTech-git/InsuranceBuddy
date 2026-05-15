@@ -1,0 +1,49 @@
+ACORD 38IL (2026-02) — Illinois Notice of Insurance Information Practices (Privacy)
+====================================================================================
+Form number: ACORD 38IL
+Edition: 2026-02
+Title: Illinois Notice of Insurance Information Practices (Privacy)
+Type: Insurance form (ACORD industry standard, Illinois state variant)
+States: IL
+Policy term: Notice delivered at issuance and at periodic renewals; not tied to a specific policy term
+Transaction types: New business (notice required), renewal (re-disclosure where required)
+
+Purpose:
+Illinois-required privacy notice informing insurance applicants and
+insureds about the information practices of the carrier: what
+personal information is collected, how it is used, how it is shared
+with third parties, the insured's rights to access and correct
+information, and how to opt out of certain disclosures. State-level
+counterpart to federal Gramm-Leach-Bliley Act privacy disclosures,
+adapted for Illinois insurance regulations.
+
+Captures:
+- Statutory description of the carrier's information-collection
+  practices
+- Categories of personal information collected (identity, financial,
+  consumer report, MVR, CLUE, medical where applicable)
+- Categories of information sharing: with affiliates, with non-
+  affiliates for service, for marketing
+- Insured's right to access information held by the carrier
+- Insured's right to correct inaccurate information
+- Insured's right to opt out of certain disclosures (where applicable)
+- Contact information for the carrier's privacy officer
+- Insured acknowledgment of receipt
+- Insured signature and date (where applicable)
+
+When used:
+- New Illinois personal lines or commercial submission — notice
+  delivered with the application
+- Renewal (annual or biennial — carrier-specific)
+- Anytime privacy practices materially change
+
+Notes:
+- Illinois Insurance Code privacy provisions (215 ILCS 5/1014 et seq.)
+  and Illinois insurance regulations require this disclosure
+- Federal GLBA also requires privacy notices; carriers typically
+  satisfy both with a single notice
+- Pure informational notice — no coverage election occurs
+- Companion forms across states: 38VA (Virginia), 38MN (Minnesota
+  Authorization), and similar state variants
+- [TBD — verify current Illinois privacy notice statutory
+  requirements and any 2024-2025 updates]

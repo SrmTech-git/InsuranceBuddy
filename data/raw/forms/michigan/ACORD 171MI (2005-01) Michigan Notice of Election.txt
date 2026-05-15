@@ -1,0 +1,58 @@
+ACORD 171MI (2005-01) — Michigan Notice of Election
+====================================================
+Form number: ACORD 171MI
+Edition: 2005-01
+Title: Michigan Notice of Election (Application for Exclusion of Executive Officers of a Corporation or Members/Managers of a Limited Liability Company)
+Type: Insurance form (ACORD industry standard, Michigan state variant)
+States: MI
+Policy term: Matches the underlying WC policy term (typically 12 months); exclusion election persists until revoked in writing
+Transaction types: New WC business (officer/LLC member exclusion election); renewal; change in officer/member status
+
+Purpose:
+Michigan Workers' Compensation form by which an executive officer of
+a corporation, or a member/manager of a Limited Liability Company,
+elects to be individually EXCLUDED from WC coverage under the
+policy. Authorized by Section 161(3) of the Michigan Workers'
+Disability Compensation Act (MCL 418.161(3)), which allows an
+employee who is an officer-stockholder of a corporation with no more
+than 10 stockholders (and who owns at least 10% of the corporation's
+stock), or a member/manager of an LLC, to elect to be individually
+excluded from WC coverage by giving written notice with the
+corporation's or LLC's consent.
+
+Captures:
+- Employer / policy information (named insured, FEIN, policy number)
+- Entity type (corporation with ≤10 stockholders, or LLC)
+- Individual's name, role (executive officer, stockholder, LLC
+  member, LLC manager)
+- Statement that the individual owns at least 10% of the corporation's
+  stock (where applicable) and that the corporation has ≤10
+  stockholders
+- Statement that the individual elects to be excluded from WC coverage
+- Statement that the corporation / LLC consents to the exclusion
+- Acknowledgment that the excluded individual is not entitled to WC
+  benefits if injured
+- Individual's signature and date
+- Entity authorized representative's signature
+
+When used:
+- New Michigan WC submission where an eligible executive officer or
+  LLC member is electing to be excluded
+- Renewal where the exclusion is being maintained or modified
+- Midterm change when officer/member status changes
+
+Notes:
+- Authorizing statute: MCL 418.161(3) — Michigan Workers' Disability
+  Compensation Act
+- Form completes Michigan's three-form WC EXCLUSION family:
+  * 171MI — Executive officers (corporations ≤10 stockholders, ≥10%
+    ownership) and LLC members/managers (this form)
+  * 172MI — Partner, spouse, child, or parent (family member exclusion)
+  * 173MI — Specific persons excluded under MWCPF (assigned-risk) policy
+- Form is executed in duplicate — one copy retained by employer, one
+  filed with the carrier
+- Despite the title "Notice of Election," the form is actually about
+  election to be EXCLUDED — the "election" refers to the statutory
+  election right under §161(3)
+- The 2005-01 edition is older; [TBD — verify whether this is still
+  the current ACORD-published edition]

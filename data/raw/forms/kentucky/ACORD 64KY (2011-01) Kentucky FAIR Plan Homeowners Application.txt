@@ -1,0 +1,48 @@
+ACORD 64KY (2011-01) — Kentucky FAIR Plan Homeowners Application
+=================================================================
+Form number: ACORD 64KY
+Edition: 2011-01
+Title: Kentucky FAIR Plan Homeowners Application
+Type: Insurance form (ACORD industry standard, Kentucky state variant)
+States: KY
+Policy term: 12 months (typical for FAIR Plan homeowners)
+Transaction types: New business (FAIR Plan submission); renewal; midterm change
+
+Purpose:
+Application for owner-occupied residential property coverage through
+the Kentucky FAIR Plan — Kentucky's state-mandated residual property
+insurance market for property owners who cannot obtain coverage in
+the voluntary market. FAIR (Fair Access to Insurance Requirements)
+Plans were created post-1968 federal Urban Property Protection and
+Reinsurance Act to ensure baseline property coverage availability.
+
+Captures:
+- Insured / owner information (name, address, contact)
+- Property location and address
+- Property description: construction type, year built, square footage,
+  number of stories, roof type, heating type, protection class
+- Occupancy: owner-occupied confirmation
+- Coverage selected: dwelling, other structures, personal property,
+  loss of use, personal liability (if available), medical payments
+- Coverage amounts and deductibles
+- Mortgagee / loss payee information
+- Prior insurance carrier(s), denial date(s), and reason(s) for denial
+- Loss history (typically 5 years)
+- Kentucky FAIR Plan statutory disclosures and acknowledgments
+- Applicant signature and date
+
+When used:
+- Submission to the Kentucky FAIR Plan after the applicant has been
+  denied coverage in the voluntary market
+- Renewal of an existing FAIR Plan homeowners policy
+- Reporting significant property changes that affect coverage
+
+Notes:
+- FAIR Plan coverage is typically more limited than voluntary-market
+  homeowners — often basic fire + extended perils with limited
+  liability or no liability coverage
+- Premium is generally higher than the voluntary market
+- Companion forms in the Kentucky FAIR Plan family: 65KY (Dwelling
+  Fire — non-owner-occupied), 66KY (Farm Fire), 68KY (Commercial Fire)
+- [TBD — verify current administrator name (Kentucky FAIR Plan
+  Reinsurance Association or similar) and current coverage limits/forms]

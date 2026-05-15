@@ -1,0 +1,49 @@
+ACORD 290IL (2014-12) — Illinois Personal Auto Application Section
+===================================================================
+Form number: ACORD 290IL
+Edition: 2014-12
+Title: Illinois Personal Auto Application Section
+Type: Insurance form (ACORD industry standard, Illinois state variant)
+States: IL
+Policy term: Matches the underlying personal auto policy term (typically 6 or 12 months)
+Transaction types: New business, renewal, midterm change — used as the auto-specific section in a modular ACORD application package
+
+Purpose:
+Auto-specific section of a personal auto application in Illinois. Used
+in combination with ACORD 88 (Personal Insurance Application —
+Applicant Information Section), which captures applicant identity. The
+290IL holds the auto-specific data: drivers, vehicles, coverages,
+history, and Illinois-required disclosures under 625 ILCS 5/7-601.
+
+Captures:
+- Drivers: license number/status, DOB, marital status, occupation,
+  relationship to applicant, 3-5 year violation/accident history
+- Vehicles: VIN, year/make/model, body type, garaging address, ownership
+- Vehicle use: pleasure / commute / business / farm, annual mileage
+- Lienholder / additional interest information
+- Coverages selected: BI, PD, UM/UIM, MedPay, comp, coll
+- Deductibles (comp and coll)
+- Optional coverages and discounts
+- Prior insurance carrier and lapse history
+- Loss history (3-5 years)
+- Illinois-required disclosures and acknowledgments
+- Fraud statement and applicant signature
+(NOTE: Applicant identity — name, address, DOB, occupation, contact —
+is captured on ACORD 88 instead, not duplicated on this section)
+
+When used:
+- New business — when the agency uses ACORD's modular section system
+  (88 + 290IL) rather than the standalone full app (90IL)
+- Renewal where the carrier requires fresh auto-section data while
+  reusing applicant info from 88
+- Adding a vehicle or driver to an existing modular-section policy
+
+Notes:
+- Illinois requires UM in limits equal to BI; UIM rejection/reduction
+  must be in writing
+- Illinois Secretary of State conducts random insurance verification
+- Use 290IL with ACORD 88; use 90IL standalone
+- Illinois minimum liability limits: 25/50/20 (625 ILCS 5/7-203)
+- Illinois UM REQUIRED (625 ILCS 5/7-601); UIM offered (215 ILCS 5/143a)
+- Primary statutes: 215 ILCS 5, 625 ILCS 5
+- State regulator: Illinois Department of Insurance (IDOI)

@@ -1,0 +1,41 @@
+ACORD 175OH (2002-09) — Ohio FAIR Plan – Farm Supplement
+=========================================================
+Form number: ACORD 175OH
+Edition: 2002-09
+Title: Ohio FAIR Plan – Farm Supplement
+Type: Insurance form (ACORD industry standard, Ohio state variant)
+States: OH
+Policy term: 12 months (matches the master 171OH FAIR Plan submission)
+Transaction types: New business; renewal; midterm change
+
+Purpose:
+Farm property supplement to the Ohio FAIR Plan Basic Property
+Application (171OH). Captures farm-specific information — farm
+dwelling, farm structures (barns, equipment sheds, silos), and other
+agricultural property — covered under a FAIR Plan farm fire policy.
+
+Captures:
+- Farm acreage and use (crops, livestock, mixed agricultural)
+- Farm dwelling description (separate from main 171OH if multiple)
+- Farm structure schedule: each barn, equipment shed, silo, outbuilding
+  with construction, year built, square footage, value
+- Coverage for each scheduled structure
+- Farm equipment coverage (where available)
+- Livestock / produce exclusions
+- Applicant signature and date
+
+When used:
+- Farm property FAIR Plan submission — attached to 171OH
+- Renewal of existing FAIR Plan farm coverage
+- Reporting farm property changes (added structures, structure damage,
+  use change)
+
+Notes:
+- Used in combination with the master 171OH (Basic Property Application)
+- Farm Fire FAIR Plan coverage is typically focused on dwelling and
+  structures with named perils
+- Livestock, growing crops, and farm liability typically excluded —
+  separate coverage required
+- Companion supplements: 172OH (Homeowners), 173OH (Dwelling Fire),
+  174OH (Commercial), 176OH (Rehabilitation), 177OH (Bowling Alley)
+- [TBD — verify current Ohio FAIR Plan farm coverage and exclusions]

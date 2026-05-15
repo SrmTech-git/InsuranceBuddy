@@ -1,0 +1,74 @@
+ACORD 55GA (2026-05) — Georgia Safety Responsibility Insurance Certificate (SR-22A)
+====================================================================================
+Form number: ACORD 55GA
+Edition: 2026-05
+Title: Georgia Safety Responsibility Insurance Certificate (SR-22A)
+Type: Insurance form (ACORD industry standard, Georgia state variant)
+States: GA
+Policy term: Matches the underlying auto policy term; SR-22A filing duration set by Georgia Safety Responsibility Law
+Transaction types: SR-22A filing (new), termination/cancellation (must be reported to state), renewal
+
+Purpose:
+Georgia-specific SR-22A financial responsibility filing — the more
+stringent variant of the SR-22 used in situations involving multiple
+uninsured-driving convictions, post-crash bond/security posting
+under Georgia's Safety Responsibility Law, or unsatisfied judgments.
+SR-22A imposes the additional requirement that the insured PREPAY
+the full policy premium in advance for a 6-month policy term — this
+guarantees continuous coverage and is meant to address drivers who
+have demonstrated a pattern of letting coverage lapse.
+
+Captures:
+- Driver's name, address, DOB, driver's license number
+- Driver's license issuing state
+- Insurance carrier name and NAIC code
+- Policy number
+- Policy effective and expiration dates
+- Liability limits carried (must meet or exceed Georgia minimum
+  BI/PD)
+- Certification by the carrier that the full 6-month policy premium
+  has been PREPAID in advance (the defining feature of SR-22A vs SR-22)
+- Type of SR-22A filing (operator / owner / operator-owner)
+- Certification by the carrier to the Georgia Department of Driver
+  Services (DDS)
+- Insured / driver signature acknowledgment
+- Filing transmission to Georgia DDS
+
+When used:
+- Required filing after specific triggering events:
+  * Multiple driving-without-insurance convictions
+  * License reinstatement after a second or subsequent conviction
+    for driving without insurance
+  * Unsatisfied judgments from a motor vehicle accident
+  * Post-crash security/bond posting requirements under Georgia's
+    Safety Responsibility Law
+- Required for license / registration reinstatement in these
+  situations
+- Termination notice required when policy cancels
+
+Notes:
+- KEY DIFFERENCE FROM SR-22: SR-22A requires PREPAYMENT of the full
+  6-month policy premium in advance. Standard SR-22 (54GA) does not
+  require prepayment — the policy can be paid in installments.
+- Required filing duration in Georgia: typically 3 years of
+  continuous coverage from the triggering event, requiring sequential
+  6-month prepaid policy terms; [TBD verify current Georgia duration]
+- The prepayment requirement reflects the regulatory concern that
+  drivers triggering SR-22A obligations have demonstrated a pattern
+  of letting coverage lapse — prepayment guarantees uninterrupted
+  coverage for the prepaid period
+- Georgia DDS may also require posting a cashier's check, certified
+  check, money order, real property bond, or surety bond as
+  additional security in some cases
+- SR-22A is a CERTIFICATE / FILING, not an insurance policy
+- Companion form: 54GA — Georgia SR-22 (the standard variant for
+  general triggering events without prepayment requirement)
+- Georgia Safety Responsibility Law: O.C.G.A. § 40-9 et seq.;
+  SR-22 statute: O.C.G.A. § 40-5-71
+- SR-22A duration: typically 3 years of continuous coverage via
+  sequential 6-month prepaid policy terms
+- 2025 SB 121 (Act 287, eff. May 14, 2025; O.C.G.A. § 33-7-16): DUI
+  convictions trigger ENHANCED liability minimums (50/100/50 for 1st
+  DUI; higher for 2nd+) for 3 years — applies during SR-22A period
+- [TBD — verify the exact list of triggering events that mandate
+  SR-22A vs SR-22 under current Georgia DDS rules]

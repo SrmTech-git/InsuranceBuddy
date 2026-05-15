@@ -1,0 +1,41 @@
+ACORD 50IN (2024-11) — Indiana Insurance Identification Card
+=============================================================
+Form number: ACORD 50IN
+Edition: 2024-11
+Title: Indiana Insurance Identification Card
+Type: Insurance form (ACORD industry standard, Indiana state variant)
+States: IN
+Policy term: Matches the underlying auto policy term (typically 6 or 12 months); reissued at each renewal
+Transaction types: N/A (proof-of-insurance card, not a transaction document)
+
+Purpose:
+Proof of mandatory liability insurance issued under an Indiana personal
+auto policy. Carried in the vehicle to satisfy Indiana's Financial
+Responsibility Law (IC 9-25), which requires drivers to maintain minimum
+liability coverage and provide proof on demand.
+
+Captures:
+- Insured's name and address
+- Policy number
+- Policy effective and expiration dates
+- Year, make, model, and VIN of the insured vehicle
+- Insurer name and NAIC code
+- Agent / agency name and contact (if applicable)
+
+When used:
+- Carried in the vehicle as proof of insurance
+- Presented to law enforcement during a traffic stop or accident investigation
+- Presented to the Indiana BMV for vehicle registration / renewal
+- Provided after an at-fault accident to satisfy financial responsibility verification
+
+Notes:
+- Indiana operates an electronic insurance verification system — carriers
+  report active policy status to the state; the ID card supplements the
+  electronic record
+- Indiana minimum liability limits: 25/50/25 (IC § 9-25)
+- Indiana UM/UIM: insurer must OFFER (UM under IC 27-7-6; UIM BI at $50K
+  minimum under IC 27-7-5-2); insured may reject in writing. UIM defaults
+  to insured's BI liability limits unless rejected.
+- State insurance regulator: Indiana Department of Insurance (IDOI)
+- Electronic verification: Certificate of Compliance filed electronically
+  with Indiana BMV

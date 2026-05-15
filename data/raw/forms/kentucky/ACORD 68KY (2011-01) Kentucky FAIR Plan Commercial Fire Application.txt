@@ -1,0 +1,49 @@
+ACORD 68KY (2011-01) — Kentucky FAIR Plan Commercial Fire Application
+======================================================================
+Form number: ACORD 68KY
+Edition: 2011-01
+Title: Kentucky FAIR Plan Commercial Fire Application
+Type: Insurance form (ACORD industry standard, Kentucky state variant)
+States: KY
+Policy term: 12 months (typical for FAIR Plan commercial fire)
+Transaction types: New business (FAIR Plan submission); renewal; midterm change
+
+Purpose:
+Application for commercial property coverage through the Kentucky
+FAIR Plan — the state's residual property market — when the
+commercial property owner cannot obtain coverage in the voluntary
+market. Covers commercial buildings, contents, and business
+improvements at properties such as small commercial buildings, vacant
+commercial structures, or hard-to-place properties.
+
+Captures:
+- Insured / business information (named insured, business type)
+- Property location and address
+- Building description: construction type, year built, square footage,
+  number of stories, occupancy class, protection class
+- Tenant information (multi-tenant buildings)
+- Coverage selected: building, business personal property, business
+  income (if available), tenants' improvements
+- Coverage amounts and deductibles
+- Mortgagee / loss payee information
+- Prior insurance and denial history
+- Loss history
+- Kentucky FAIR Plan statutory disclosures and acknowledgments
+- Applicant signature and date
+
+When used:
+- Submission to the Kentucky FAIR Plan for commercial property after
+  voluntary-market denial
+- Renewal of existing FAIR Plan commercial fire policy
+- Reporting commercial property or occupancy changes
+
+Notes:
+- Commercial FAIR Plan coverage is typically named-perils only — fire,
+  lightning, extended coverage (windstorm, hail, explosion, riot,
+  vehicle, smoke), vandalism / malicious mischief
+- General Liability is typically NOT included in FAIR Plan commercial
+  fire — separate GL coverage required
+- Companion forms: 64KY (Homeowners), 65KY (Dwelling Fire), 66KY
+  (Farm Fire)
+- [TBD — verify current Kentucky FAIR Plan commercial fire perils
+  covered and any liability availability]

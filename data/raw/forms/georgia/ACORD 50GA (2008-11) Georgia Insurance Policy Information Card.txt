@@ -1,0 +1,39 @@
+ACORD 50GA (2008-11) — Georgia Insurance Policy Information Card
+=================================================================
+Form number: ACORD 50GA
+Edition: 2008-11
+Title: Georgia Insurance Policy Information Card
+Type: Insurance form (ACORD industry standard, Georgia state variant)
+States: GA
+Policy term: Matches the underlying auto policy term (typically 6 or 12 months); reissued at each renewal
+Transaction types: N/A (proof-of-insurance card, not a transaction document)
+
+Purpose:
+Proof of mandatory liability insurance issued under a Georgia personal
+auto policy. Carried in the vehicle to satisfy Georgia's compulsory
+insurance law (O.C.G.A. § 33-34), which requires every owner to maintain
+minimum liability coverage.
+
+Captures:
+- Insured's name and address
+- Policy number
+- Policy effective and expiration dates
+- Year, make, model, and VIN of the insured vehicle
+- Insurer name and NAIC code
+- Agent / agency name and contact (if applicable)
+
+When used:
+- Carried in the vehicle as proof of insurance
+- Presented to law enforcement during a traffic stop or accident investigation
+- Presented to the Georgia Department of Revenue for registration / renewal
+- Required at accident scenes
+
+Notes:
+- Georgia uses an electronic insurance database (GEICO — Georgia Electronic
+  Insurance Compliance Online) — carriers report active policy status
+  electronically; the ID card supplements the electronic record
+- Title says "Policy Information Card" rather than "Identification Card"
+  — Georgia-specific terminology
+- [TBD — verify whether 2008-11 is still the current ACORD-published edition
+  for Georgia ID cards]
+- [TBD — verify current Georgia state minimum liability limits]

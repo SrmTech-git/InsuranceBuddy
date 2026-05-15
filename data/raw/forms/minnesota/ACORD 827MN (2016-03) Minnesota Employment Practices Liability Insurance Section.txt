@@ -1,0 +1,57 @@
+ACORD 827MN (2016-03) — Minnesota Employment Practices Liability Insurance Section
+===================================================================================
+Form number: ACORD 827MN
+Edition: 2016-03
+Title: Minnesota Employment Practices Liability Insurance Section
+Type: Insurance form (ACORD industry standard, Minnesota state variant)
+States: MN
+Policy term: 12 months (typical for EPLI — claims-made)
+Transaction types: New business, renewal, midterm change (employee count changes, M&A, layoffs)
+
+Purpose:
+Minnesota-specific section for Employment Practices Liability
+Insurance (EPLI) — covering employer liability for wrongful acts in
+employment relationships: discrimination, harassment, wrongful
+termination, retaliation, failure to promote, failure to accommodate,
+hostile work environment, and similar claims by employees, applicants,
+or (with third-party coverage) non-employees. Used alongside ACORD 125.
+
+Captures:
+- Employer information
+- Employee count: full-time, part-time, by state / location
+- Industry and risk factors
+- HR practices: employee handbook, anti-discrimination training,
+  anti-harassment training, exit interview process, performance
+  review process, complaint procedures
+- Recent workforce actions: layoffs (number, timing), recent
+  reorganizations, recent M&A activity
+- Wage and hour compliance practices
+- Prior EPLI coverage and claims
+- Pending or threatened employment claims
+- Underwriting questions: prior EEOC charges, prior MN Department
+  of Human Rights complaints, terminated employees with severance
+  agreements, pending NLRB actions
+- Coverage selections:
+  * Limits (per claim, aggregate)
+  * Retention / deductible
+  * Third-party coverage (claims by non-employees: customers,
+    vendors — typically discrimination by your employees against them)
+  * Wage and hour sub-limits (often excluded entirely or sub-limited)
+  * Defense outside or inside limits
+- Minnesota-required disclosures and acknowledgments
+- Authorized signatory and date
+
+When used:
+- New Minnesota EPLI submission — section attached to ACORD 125
+- Renewal where EPLI coverage is being modified
+- Reporting significant employee-count or practices changes
+
+Notes:
+- EPLI is claims-made — retro date matters
+- Wage and hour claims (FLSA-related) are increasingly excluded or
+  heavily sub-limited; check carrier appetite
+- Companion forms: 807MN (D&O), 828MN (Fiduciary), 832MN (Misc E&O)
+- Minnesota-specific note: Minnesota Human Rights Act provides
+  broader employment protections than federal Title VII — MN-specific
+  exposure may be higher
+- [TBD — verify Minnesota-specific EPLI disclosure requirements]

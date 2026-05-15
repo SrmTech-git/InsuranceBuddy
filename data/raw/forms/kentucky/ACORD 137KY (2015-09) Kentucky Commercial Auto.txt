@@ -1,0 +1,45 @@
+ACORD 137KY (2015-09) — Kentucky Commercial Auto
+=================================================
+Form number: ACORD 137KY
+Edition: 2015-09
+Title: Kentucky Commercial Auto
+Type: Insurance form (ACORD industry standard, Kentucky state variant)
+States: KY
+Policy term: 12 months (typical for commercial auto)
+Transaction types: New business, renewal, midterm change, audit-driven adjustment
+
+Purpose:
+Kentucky-specific Commercial Auto Coverages section. Captures coverage
+selections, limits, deductibles, and Kentucky-required disclosures for
+a commercial auto policy under Kentucky's Motor Vehicle Reparations
+Act (KRS 304.39). Used alongside national ACORD 125 and ACORD 127.
+
+Captures:
+- Liability limits (BI/PD split or Combined Single Limit)
+- Comp / collision deductibles
+- UM / UIM coverage selections and limits
+- PIP (no-fault) — applies to commercial autos in KY by default
+- MedPay
+- Hired Auto Liability
+- Non-Owned Auto Liability
+- Drive Other Car coverage (where applicable)
+- Towing & labor / rental reimbursement
+- Trailer interchange (for trucking)
+- Kentucky-required disclosures and acknowledgments
+
+When used:
+- New commercial auto submission for a Kentucky-based fleet
+- Renewal where Kentucky-specific coverages are being reselected
+- Midterm endorsement that changes coverage or limits
+
+Notes:
+- Kentucky is a "choice no-fault" state — PIP applies by default to
+  commercial autos; insured may reject no-fault tort threshold in writing
+- Kentucky personal-auto minimum limits: 25/50/25 split or $60K CSL
+  (KRS § 304.39). Commercial fleets subject to federal MCS-90 for
+  interstate operations.
+- KY default PIP: $10K minimum (KRS § 304.39-020); applies to commercial
+  by default; rejection in writing required to remove (KRS § 304.39-060)
+- State regulator: Kentucky Department of Insurance (KDI)
+- [TBD — verify how PIP rejection mechanics apply to commercial fleets
+  (entity-level vs per-driver)]

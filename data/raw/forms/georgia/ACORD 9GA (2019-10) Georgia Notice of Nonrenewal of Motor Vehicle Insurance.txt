@@ -1,0 +1,57 @@
+ACORD 9GA (2019-10) — Georgia Notice of Nonrenewal of Motor Vehicle Insurance
+==============================================================================
+Form number: ACORD 9GA
+Edition: 2019-10
+Title: Georgia Notice of Nonrenewal of Motor Vehicle Insurance
+Type: Insurance form (ACORD industry standard, Georgia state variant)
+States: GA
+Policy term: N/A (carrier-to-insured notification, not a coverage form)
+Transaction types: Nonrenewal notification
+
+Purpose:
+Georgia-required carrier notification informing the insured that the
+auto insurance policy will not be renewed at the upcoming expiration.
+Georgia statute requires advance written notice of nonrenewal —
+typically 30+ days before expiration — so the insured has time to
+obtain replacement coverage. The notice must state the reason for
+nonrenewal.
+
+Captures:
+- Carrier information (named insurer, NAIC code)
+- Policy number and expiration date
+- Effective date of nonrenewal (typically the policy expiration date)
+- Insured name and address (mailing address used for legal notification)
+- Reason(s) for nonrenewal — must be specific enough to satisfy
+  statutory disclosure requirements:
+  * Loss frequency / severity
+  * Vehicle modifications or use changes
+  * Material misrepresentation
+  * Driving record changes
+  * Carrier withdrawal from market or class
+  * Other statutorily-permitted reasons
+- Insured's rights to:
+  * Obtain alternative coverage (including through Georgia
+    Automobile Insurance Plan / GAIP if voluntary market unavailable)
+  * Request additional information about the nonrenewal decision
+  * Appeal the decision where applicable
+- Carrier signature / authorized representative
+- Date of notice issuance
+
+When used:
+- Carrier nonrenewal of a Georgia auto policy — sent in advance of
+  expiration (typically 30+ days)
+- Required documentation for both insured and Georgia insurance
+  regulators
+
+Notes:
+- Georgia O.C.G.A. § 33-24-46 et seq. governs cancellation and
+  nonrenewal notices for personal auto policies
+- The reason must be specific — vague reasons may not satisfy the
+  statutory requirement
+- Distinct from cancellation (which terminates mid-policy-term) —
+  nonrenewal terminates at expiration
+- Companion form: 10GA — Notice of Nonrenewal Based on Termination
+  of Agency (when the underlying cause is agent-carrier relationship
+  ending, not insured-level factors)
+- [TBD — verify current Georgia advance-notice timeframe and exact
+  statutory citation]

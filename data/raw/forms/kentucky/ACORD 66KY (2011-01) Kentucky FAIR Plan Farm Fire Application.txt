@@ -1,0 +1,50 @@
+ACORD 66KY (2011-01) — Kentucky FAIR Plan Farm Fire Application
+================================================================
+Form number: ACORD 66KY
+Edition: 2011-01
+Title: Kentucky FAIR Plan Farm Fire Application
+Type: Insurance form (ACORD industry standard, Kentucky state variant)
+States: KY
+Policy term: 12 months (typical for FAIR Plan farm fire)
+Transaction types: New business (FAIR Plan submission); renewal; midterm change
+
+Purpose:
+Application for farm property coverage through the Kentucky FAIR
+Plan — the state's residual property market — when the farm owner
+cannot obtain coverage in the voluntary market. Covers the farm
+dwelling, farm structures (barns, outbuildings), and other farm
+improvements.
+
+Captures:
+- Insured / farm owner information
+- Farm location and address
+- Property description for the farm dwelling (construction, year built,
+  square footage, protection class)
+- Description of farm outbuildings / structures (barns, equipment
+  sheds, silos, etc.) with values
+- Farm acreage and use (crops, livestock, mixed)
+- Coverage selected: dwelling, other structures, contents, farm
+  equipment, loss of use
+- Coverage amounts and deductibles
+- Mortgagee / loss payee information
+- Prior insurance and denial history
+- Loss history
+- Kentucky FAIR Plan statutory disclosures and acknowledgments
+- Applicant signature and date
+
+When used:
+- Submission to the Kentucky FAIR Plan for a farm property after
+  voluntary-market denial
+- Renewal of existing FAIR Plan farm fire policy
+- Reporting farm property changes
+
+Notes:
+- Farm Fire FAIR Plan coverage is typically more limited than voluntary
+  farm policies — focused on basic fire/lightning/wind on structures
+  rather than the comprehensive farm package
+- Livestock, growing crops, and farm liability typically excluded —
+  separate coverage required
+- Companion forms: 64KY (Homeowners), 65KY (Dwelling Fire), 68KY
+  (Commercial Fire)
+- [TBD — verify which farm exposures are included vs excluded in
+  current Kentucky FAIR Plan farm fire coverage]

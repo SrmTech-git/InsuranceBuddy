@@ -1,0 +1,59 @@
+ACORD 81VA (2025-07) — Virginia Personal Inland Marine Application
+===================================================================
+Form number: ACORD 81VA
+Edition: 2025-07
+Title: Virginia Personal Inland Marine Application
+Type: Insurance form (ACORD industry standard, Virginia state variant)
+States: VA
+Policy term: 12 months (typical for personal inland marine / scheduled items policy)
+Transaction types: New business, renewal, adding/removing scheduled items, value updates
+
+Purpose:
+Standalone application for a Virginia Personal Inland Marine policy.
+Captures the applicant and the scheduled valuable items (jewelry,
+fine art, furs, silverware, cameras, musical instruments, golf
+equipment, antiques, collectibles) that the insured wants to schedule
+under a personal articles / personal inland marine floater. State-
+specific variant of national ACORD 81.
+
+Captures:
+- Producer / agency information
+- Applicant: name, address, DOB, contact, occupation
+- Schedule of items to be covered, each with:
+  * Item description (e.g., "Diamond engagement ring, 1.5ct round
+    brilliant, platinum setting")
+  * Year acquired and source
+  * Insured value
+  * Serial / identifying number (where applicable)
+  * Appraisal information: appraiser name, date, value
+- Coverage type: all-risk (typical) vs named-perils
+- Per-item limits and any aggregate limit
+- Deductible (often zero or low for scheduled items)
+- Storage and security details: home safe, vault, frequent travel,
+  display use
+- Prior coverage and prior loss history on these items
+- Underwriting questions: items appraised within last 3-5 years,
+  storage when not in use
+- Virginia-required disclosures and acknowledgments
+- Fraud statement and applicant signature
+
+When used:
+- New Virginia personal articles / inland marine policy submission
+- Renewal where item values need to be updated (typical every 3-5 years
+  with fresh appraisal)
+- Adding new items to an existing schedule (engagement ring purchase,
+  fine art acquisition, etc.)
+- Removing items (sold, gifted, or no longer owned)
+
+Notes:
+- Personal inland marine floater coverage is generally broader than the
+  HO scheduled-personal-property endorsement: all-risk vs named-perils,
+  no deductible vs HO deductible, agreed-value vs actual cash value
+- Standard categories: jewelry, fine art, furs, silverware/flatware,
+  cameras and photographic equipment, musical instruments, golf
+  equipment, sporting equipment, firearms (in some states), antiques
+- Companion to Virginia personal lines: typically issued alongside or
+  separate from the homeowners policy
+
+- [TBD — verify any Virginia-specific scheduled item restrictions
+  (firearms, etc.)]

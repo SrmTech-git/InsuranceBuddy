@@ -1,0 +1,51 @@
+ACORD 90IN (2015-12) — Indiana Personal Auto Application
+=========================================================
+Form number: ACORD 90IN
+Edition: 2015-12
+Title: Indiana Personal Auto Application
+Type: Insurance form (ACORD industry standard, Indiana state variant)
+States: IN
+Policy term: 6 months (typical for personal auto); 12-month terms also issued depending on carrier
+Transaction types: New business; renewal applications (where required); adding driver/vehicle; significant midterm changes
+
+Purpose:
+Standalone application for a personal auto policy in Indiana. Captures
+the applicant, drivers, vehicles, coverages, and state-required
+disclosures needed to underwrite, bind, and issue an Indiana auto
+policy under Indiana's Financial Responsibility Law (IC 9-25).
+
+Captures:
+- Producer / agency information
+- Applicant: name, address, DOB, marital status, occupation, contact
+- Driver list: license number/status, DOB, marital status, occupation, relationship to applicant
+- Driver history (typically 3-5 years): accidents, violations, suspensions
+- Vehicle list: VIN, year/make/model, body type, garaging address, ownership
+- Vehicle use: pleasure / commute / business / farm, annual mileage
+- Lienholder / additional interest information
+- Coverages selected: BI, PD, UM/UIM, MedPay, comp, coll
+- Deductibles (comp and coll)
+- Optional coverages: rental reimbursement, towing, etc.
+- Discounts claimed: multi-policy, good student, defensive driver, etc.
+- Prior insurance carrier, prior limits, lapse history
+- Loss history (typically 3-5 years)
+- Indiana-required disclosures and acknowledgments
+- Fraud statement and applicant signature
+
+When used:
+- New business — applying for an Indiana personal auto policy
+- Renewal applications (where required)
+- Adding a driver or vehicle to an existing Indiana policy
+- Midterm changes that require fresh underwriting
+
+Notes:
+- Indiana minimum liability limits: 25/50/25 (IC § 9-25; Indiana
+  Financial Responsibility Law)
+- Indiana UM/UIM: insurer must OFFER; insured may reject in writing.
+  UM authority: IC § 27-7-6. UIM BI floor: $50K minimum (IC § 27-7-5-2);
+  UIM defaults to insured's BI liability limits unless rejected.
+- Primary statutes: IC Title 27 (Insurance Code), IC Title 9 (Motor Vehicles)
+- State insurance regulator: Indiana Department of Insurance (IDOI)
+- Indiana operates an electronic insurance verification system —
+  Certificate of Compliance filed electronically with Indiana BMV
+- Section version (290IN) drops applicant identity in favor of ACORD 88
+  (Applicant Information Section) for agencies using ACORD's modular system

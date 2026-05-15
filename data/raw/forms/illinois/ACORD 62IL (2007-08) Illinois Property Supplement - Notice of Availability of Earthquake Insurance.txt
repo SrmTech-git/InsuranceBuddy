@@ -1,0 +1,45 @@
+ACORD 62IL (2007-08) — Illinois Property Supplement – Notice of Availability of Earthquake Insurance
+=====================================================================================================
+Form number: ACORD 62IL
+Edition: 2007-08
+Title: Illinois Property Supplement – Notice of Availability of Earthquake Insurance
+Type: Insurance form (ACORD industry standard, Illinois state variant)
+States: IL
+Policy term: Matches the underlying property policy (typically 12 months); notice delivered at issuance and renewal
+Transaction types: New business (notice required); renewal
+
+Purpose:
+Illinois-required notice informing property insureds that earthquake
+coverage is NOT included in the standard homeowners / dwelling policy
+and is available as a separate endorsement. Illinois is particularly
+exposed to earthquake risk due to the New Madrid Seismic Zone in
+southern Illinois — historically one of the most seismically active
+zones in the central U.S.
+
+Captures:
+- Statutory notice that standard property coverage excludes earthquake
+- Description of earthquake coverage availability as an endorsement
+- Typical deductible structure (often a percentage of Coverage A —
+  e.g., 2%, 5%, 10% of dwelling limit — rather than a flat dollar
+  deductible)
+- Information about the New Madrid Seismic Zone exposure
+- Insured acknowledgment of receipt of the notice
+- Insured signature
+
+When used:
+- New Illinois property submission — notice delivered at issuance
+- Renewal — many carriers deliver the notice annually
+- Whenever required by statute to refresh the disclosure
+
+Notes:
+- The New Madrid Seismic Zone is the major earthquake exposure for
+  central U.S. states — runs through Missouri, Tennessee, Arkansas,
+  Kentucky, and southern Illinois
+- Earthquake coverage typically has a percentage deductible (large
+  for severe events) rather than the flat deductible of HO policies
+- Pure informational notice — the actual coverage is added by
+  earthquake endorsement, not on this form
+- The 2007-08 edition is older; [TBD — verify whether this is still
+  the current ACORD-published edition]
+- [TBD — verify current Illinois earthquake notice statutory
+  requirements]

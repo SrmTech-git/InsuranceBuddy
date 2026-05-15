@@ -1,0 +1,61 @@
+ACORD 133MI (2012-08) — Michigan Application for Workers' Compensation Insurance
+=================================================================================
+Form number: ACORD 133MI
+Edition: 2012-08
+Title: Michigan Application for Workers' Compensation Insurance
+Type: Insurance form (ACORD industry standard, Michigan state variant)
+States: MI
+Policy term: 12 months (typical for WC; subject to audit)
+Transaction types: New business, renewal, midterm change, audit-driven adjustment
+
+Purpose:
+Michigan-specific application for Workers' Compensation Insurance.
+Captures the employer, operations, payroll by classification, and
+loss history needed to underwrite a Michigan WC policy. Michigan WC
+operates as a competitive market with an assigned-risk facility
+(Michigan Workers' Compensation Placement Facility, MWCPF) for
+employers unable to obtain coverage in the voluntary market.
+
+Captures:
+- Producer / agency information
+- Employer (named insured): name, address, FEIN, business structure
+- Business description, operations, NAICS / SIC
+- Years in business, number of employees
+- Locations (each Michigan location)
+- Payroll by classification:
+  * NCCI class code (or Michigan-specific class code where applicable)
+  * Class description
+  * Annual payroll amount
+  * Number of employees in each class
+- Officer / partner / family member inclusion or exclusion elections
+  (see companion 172MI for partner/spouse/child/parent exclusion)
+- Subcontractor / 1099 contractor exposure
+- Prior carrier and experience modification factor (NCCI-based)
+- 3-5 year loss history (paid, reserved, incurred by year)
+- Safety programs, drug-testing programs, return-to-work programs
+- Other states coverage required
+- Additional insureds, waiver of subrogation requirements
+- General information: other policies in force, foreign operations,
+  prior cancellations, prior denials
+- Michigan-specific WC disclosures and acknowledgments
+- Authorized signatory and date
+
+When used:
+- New Michigan WC submission to a voluntary-market carrier
+- Renewal of existing Michigan WC policy
+- Submission to MWCPF (assigned-risk) when voluntary market declines —
+  see companion 173MI for placement-facility-specific person exclusions
+
+Notes:
+- Michigan WC is NOT monopolistic — both voluntary market and
+  assigned-risk facility (MWCPF) coverage available
+- Companion forms:
+  * 172MI — Application for Exclusion of Partner(s), Spouse, Child
+    or Parent (allows family member exclusion from WC)
+  * 173MI — Michigan WC Placement Facility Specific Person Exclusion
+- Experience modification factor (ex-mod) heavily influences MI WC
+  pricing — established by NCCI
+- [TBD — verify whether 2012-08 is still the current ACORD-published
+  edition or has been superseded]
+- [TBD — verify current Michigan WC voluntary-market vs MWCPF
+  application requirements]

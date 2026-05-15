@@ -1,0 +1,71 @@
+ACORD 833MN (2014-12) — Minnesota Lawyers Professional Liability Section
+=========================================================================
+Form number: ACORD 833MN
+Edition: 2014-12
+Title: Minnesota Lawyers Professional Liability Section
+Type: Insurance form (ACORD industry standard, Minnesota state variant)
+States: MN
+Policy term: 12 months (typical for Lawyers PL — claims-made)
+Transaction types: New business, renewal, midterm change (partner additions/departures, practice area changes)
+
+Purpose:
+Minnesota-specific section for Lawyers Professional Liability (LPL)
+coverage — the E&O policy for attorneys and law firms. Covers claims
+arising from professional services rendered (or failed to render) as
+a lawyer: malpractice, missed deadlines, conflicts of interest,
+inadequate representation, etc. Used alongside ACORD 125.
+
+Captures:
+- Firm information: name, address, year established, structure
+  (sole practitioner, partnership, LLP, PC, etc.)
+- Bar admissions for each attorney
+- Number of attorneys by class: equity partner, non-equity partner,
+  associate, of counsel, contract attorney
+- Practice area breakdown by revenue percentage (e.g., personal
+  injury 30%, real estate 20%, business transactions 15%, family
+  law 10%, etc.)
+- Highest-risk practice areas:
+  * Patent / IP / trademark prosecution (deadlines critical)
+  * Securities (heightened regulatory exposure)
+  * Trust / estate (large fiduciary exposure)
+  * Class action plaintiff work
+  * Personal injury (statute-of-limitations exposure)
+- Annual gross fees and average matter value
+- Largest single matter / case (revenue and exposure)
+- Prior LPL coverage and claims (over 5-10 years typical)
+- Underwriting questions:
+  * Prior bar disciplinary actions or grievances
+  * Conflicts management procedures and conflicts software
+  * Trust account / IOLTA practices
+  * Engagement letter / fee agreement practices
+  * Calendaring and deadline-management systems
+  * Lateral hire integration practices
+- Coverage selections:
+  * Limits (per claim, aggregate)
+  * Retention
+  * Retro date / prior acts coverage (extremely important for
+    Lawyers PL — gaps create exposure)
+  * Defense outside or inside limits
+  * Extended Reporting Period (ERP / "tail") availability
+  * Subpoena response / disciplinary defense sub-limits
+- Minnesota-required disclosures and acknowledgments
+- Authorized signatory and date
+
+When used:
+- New Minnesota Lawyers PL submission — section attached to ACORD 125
+- Renewal where LPL coverage is being modified
+- Reporting significant firm changes (lateral partner additions,
+  practice area expansion)
+
+Notes:
+- Lawyers PL is strictly claims-made — retro date and prior acts
+  coverage are critical for continuity
+- Lawyers face significant exposure from missed deadlines (statutes
+  of limitations) and from "drift" claims discovered years after
+  the underlying work
+- Companion forms: 807MN (D&O), 832MN (Misc E&O), 838MN
+  (Accountants PL)
+- Minnesota state bar regulates attorneys; the Minnesota Lawyers
+  Professional Responsibility Board handles disciplinary matters
+- [TBD — verify Minnesota-specific LPL disclosure requirements and
+  Minnesota State Bar mandatory-coverage rules if applicable]

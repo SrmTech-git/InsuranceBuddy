@@ -21,26 +21,20 @@ class TestStatesModule(unittest.TestCase):
     """Verify states.py is the single source of truth used everywhere."""
 
     def setUp(self):
-        from states import STATE_MAP, STATE_ABBR_MAP, HEADER_TO_STATE_MAP
-        from ingest_batch import STATE_FOLDER_MAP
+        from states import STATE_MAP, STATE_ABBR_SET, HEADER_TO_STATE_MAP
         self.canonical = STATE_MAP
-        self.folder_map = STATE_FOLDER_MAP
-        self.abbr_map = STATE_ABBR_MAP
+        self.abbr_set = STATE_ABBR_SET
         self.header_map = HEADER_TO_STATE_MAP
 
     def test_state_map_nonempty(self):
         self.assertGreater(len(self.canonical), 0)
 
-    def test_ingest_batch_uses_canonical_map(self):
-        self.assertIs(self.folder_map, self.canonical,
-                      "STATE_FOLDER_MAP in ingest_batch should be the same object as STATE_MAP")
-
     def test_query_parsing_imports_canonical_maps(self):
-        """query_parsing should import STATE_MAP / STATE_ABBR_MAP directly,
+        """query_parsing should import STATE_MAP / STATE_ABBR_SET directly,
         not re-derive them locally (would silently drift on edits)."""
         import query_parsing
         self.assertIs(query_parsing.STATE_MAP, self.canonical)
-        self.assertIs(query_parsing.STATE_ABBR_MAP, self.abbr_map)
+        self.assertIs(query_parsing.STATE_ABBR_SET, self.abbr_set)
 
     def test_ingest_xlsx_imports_canonical_header_map(self):
         """ingest_xlsx must import HEADER_TO_STATE_MAP from states, not re-derive."""
@@ -61,11 +55,9 @@ class TestStatesModule(unittest.TestCase):
             self.assertEqual(val, val.upper(), f"Value '{val}' should be uppercase")
             self.assertEqual(len(val), 2, f"State code '{val}' should be 2 characters")
 
-    def test_abbr_map_derived_from_canonical(self):
-        """STATE_ABBR_MAP keys/values are the codes from STATE_MAP."""
-        self.assertEqual(set(self.abbr_map.keys()), set(self.canonical.values()))
-        for k, v in self.abbr_map.items():
-            self.assertEqual(k, v, "STATE_ABBR_MAP should be identity (code -> code)")
+    def test_abbr_set_derived_from_canonical(self):
+        """STATE_ABBR_SET should hold exactly the codes from STATE_MAP."""
+        self.assertEqual(self.abbr_set, set(self.canonical.values()))
 
     def test_header_map_derived_from_canonical(self):
         """HEADER_TO_STATE_MAP must Title-Case STATE_MAP keys, codes unchanged."""
@@ -292,9 +284,15 @@ class TestParseFilename(unittest.TestCase):
 
 
 class TestDetectFormNumber(unittest.TestCase):
+    """First-match form-number cases + bare-section detection.
+
+    Exercises detect_form_numbers via a single-match adapter so the
+    normalization assertions remain covered, plus standalone tests for
+    detect_bare_section.
+    """
     def setUp(self):
-        from query_parsing import detect_form_number, detect_bare_section
-        self.detect = detect_form_number
+        from query_parsing import detect_form_numbers, detect_bare_section
+        self.detect = lambda text: (detect_form_numbers(text) or [None])[0]
         self.detect_bare = detect_bare_section
 
     def test_orc_with_dot(self):
@@ -518,7 +516,7 @@ class TestCollectionRegistry(unittest.TestCase):
 
     def test_expected_collections_registered(self):
         from router import COLLECTION_REGISTRY
-        expected = {"regulatory", "educational", "forms"}
+        expected = {"regulatory", "educational", "forms", "endorsements"}
         self.assertEqual(set(COLLECTION_REGISTRY.keys()), expected)
 
     def test_each_collection_has_nonempty_description(self):
@@ -526,36 +524,6 @@ class TestCollectionRegistry(unittest.TestCase):
         for name, desc in COLLECTION_REGISTRY.items():
             self.assertGreater(len(desc), 20,
                                f"Collection {name!r} has a too-short description")
-
-
-class TestComparisonRouting(unittest.TestCase):
-    """detect_collection comparison fast-path — no API call needed."""
-    def setUp(self):
-        from router import detect_collection, COLLECTION_REGISTRY
-        self.detect = detect_collection
-        self.all_collections = list(COLLECTION_REGISTRY.keys())
-
-    def test_vs_returns_all_collections(self):
-        collections, _ = self.detect("UM coverage in Ohio vs Indiana", None)
-        self.assertEqual(sorted(collections), sorted(self.all_collections))
-
-    def test_compare_returns_all_collections(self):
-        collections, _ = self.detect("Compare Ohio and Indiana BI limits", None)
-        self.assertEqual(sorted(collections), sorted(self.all_collections))
-
-    def test_difference_between_returns_all_collections(self):
-        collections, _ = self.detect("What is the difference between UM and UIM?", None)
-        self.assertEqual(sorted(collections), sorted(self.all_collections))
-
-    def test_intent_subject_when_forms_detected_in_comparison(self):
-        """Comparison + forms detected should default intent to 'subject'."""
-        _, intent = self.detect("Compare ACORD 24 and ACORD 28", ["ACORD 24", "ACORD 28"])
-        self.assertEqual(intent, "subject")
-
-    def test_intent_none_when_no_forms(self):
-        """Comparison with no forms detected should yield intent='none'."""
-        _, intent = self.detect("Compare UM and UIM coverage", None)
-        self.assertEqual(intent, "none")
 
 
 class TestParseRouteResponse(unittest.TestCase):
@@ -605,7 +573,7 @@ class TestParseRouteResponse(unittest.TestCase):
     def test_invalid_collections_fallback_to_all(self):
         """Mangled routing → search all collections as a safer fallback."""
         collections, intent = self.parse("nonsense | subject", None)
-        self.assertEqual(set(collections), {"regulatory", "educational", "forms"})
+        self.assertEqual(set(collections), {"regulatory", "educational", "forms", "endorsements"})
         self.assertEqual(intent, "subject")
 
     def test_uppercase_input_normalized(self):
@@ -863,7 +831,6 @@ if __name__ == "__main__":
         TestBuildStateFilter,
         TestMergeFilters,
         TestCollectionRegistry,
-        TestComparisonRouting,
         TestParseRouteResponse,
         TestChunkerRegistry,
         TestFormsChunker,

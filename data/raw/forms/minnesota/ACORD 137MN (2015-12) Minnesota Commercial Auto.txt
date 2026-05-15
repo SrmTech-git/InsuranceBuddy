@@ -1,0 +1,49 @@
+ACORD 137MN (2015-12) — Minnesota Commercial Auto
+==================================================
+Form number: ACORD 137MN
+Edition: 2015-12
+Title: Minnesota Commercial Auto
+Type: Insurance form (ACORD industry standard, Minnesota state variant)
+States: MN
+Policy term: 12 months (typical for commercial auto)
+Transaction types: New business, renewal, midterm change, audit-driven adjustment
+
+Purpose:
+Minnesota-specific Commercial Auto Coverages section. Captures coverage
+selections, limits, deductibles, and the no-fault PIP / UM / UIM
+elections required for commercial autos under Minnesota's No-Fault
+Automobile Insurance Act (Minn. Stat. § 65B). Used alongside national
+ACORD 125 and 127.
+
+Captures:
+- Liability limits (BI/PD split or Combined Single Limit)
+- Comp / collision deductibles
+- Mandatory PIP basic economic loss benefits (medical + non-medical)
+- UM / UIM coverage selections (typically at limits equal to liability)
+- MedPay
+- Hired Auto Liability
+- Non-Owned Auto Liability
+- Drive Other Car coverage (where applicable)
+- Towing & labor / rental reimbursement / loss of use
+- Trailer interchange (for trucking)
+- Minnesota-required disclosures, including Insurance Guaranty
+  Association notice
+- Acknowledgments and signatures
+
+When used:
+- New commercial auto submission for a Minnesota-based fleet
+- Renewal where Minnesota-specific coverages are being reselected
+- Midterm endorsement that changes coverage or limits
+
+Notes:
+- Minnesota is a no-fault state — PIP basic economic loss benefits are
+  mandatory and apply to commercial autos as well
+- Companion forms: 38MN (Authorization), 62MN (Auto Supplement),
+  65MN (Guaranty Association Notice)
+- Federal motor carrier minimums (MCS-90) may override state minimums
+  for interstate trucking risks
+- Minnesota personal-auto minimum limits: 30/60/10 (Minn. Stat. § 65B).
+  Commercial fleets subject to federal MCS-90 for interstate operations.
+- Mandatory PIP: $40,000 total ($20K medical + $20K non-medical);
+  applies to commercial autos as well
+- State regulator: Minnesota Department of Commerce

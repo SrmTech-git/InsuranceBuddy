@@ -1,0 +1,52 @@
+ACORD 172MI (1996-04) — Michigan Application for Exclusion of Partner(s), Spouse, Child or Parent
+==================================================================================================
+Form number: ACORD 172MI
+Edition: 1996-04
+Title: Michigan Application for Exclusion of Partner(s), Spouse, Child or Parent
+Type: Insurance form (ACORD industry standard, Michigan state variant)
+States: MI
+Policy term: Matches the underlying WC policy term (typically 12 months); exclusion persists until revoked in writing
+Transaction types: New business (exclusion election), renewal, change in family employee status
+
+Purpose:
+Michigan Workers' Compensation form documenting an employer's
+election to exclude specified family members — partner(s), spouse,
+child, or parent — from WC coverage under the policy. Michigan law
+allows certain family-member employees to be excluded from WC
+coverage at the employer's election; this form captures that
+exclusion. Common in small family-owned businesses where the
+business owner does not want to fund WC for family members.
+
+Captures:
+- Employer (named insured) information
+- Policy number
+- Name and role of each family member being excluded
+- Relationship to employer (partner, spouse, child, parent)
+- Statement that the excluded individual will not be entitled to WC
+  benefits under the policy if injured
+- Statement that the excluded individual's payroll will not be
+  included in the WC premium calculation
+- Excluded individual's signature acknowledging the exclusion and
+  its consequences
+- Employer / authorized signatory and date
+
+When used:
+- New Michigan WC submission where family members are being excluded
+- Renewal where exclusions are being maintained or modified
+- Midterm change when family member employment status changes
+
+Notes:
+- Michigan WC exclusion authorization: Michigan Workers' Disability
+  Compensation Act (MCL 418.161 family-member exclusion provisions)
+- Excluded family members lose WC benefit entitlement (medical and
+  indemnity) — they should consider personal disability/health
+  coverage alternatives
+- Premium impact: excluded individuals' payroll is not subject to WC
+  premium calculation
+- Part of Michigan's three-form WC EXCLUSION family:
+  * 171MI — Executive officers (corporations ≤10 stockholders) and
+    LLC members/managers; authorized by MCL 418.161(3)
+  * 172MI — Partner, spouse, child, or parent (this form)
+  * 173MI — Specific persons excluded under MWCPF (assigned-risk)
+- The 1996-04 edition is very old; [TBD — verify whether this is still
+  the current ACORD-published edition or has been superseded]

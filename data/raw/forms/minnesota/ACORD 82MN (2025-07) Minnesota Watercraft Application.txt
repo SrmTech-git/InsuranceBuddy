@@ -1,0 +1,70 @@
+ACORD 82MN (2025-07) — Minnesota Watercraft Application
+========================================================
+Form number: ACORD 82MN
+Edition: 2025-07
+Title: Minnesota Watercraft Application
+Type: Insurance form (ACORD industry standard, Minnesota state variant)
+States: MN
+Policy term: 12 months (typical for watercraft policy; some carriers offer seasonal terms)
+Transaction types: New business, renewal, adding/removing watercraft, midterm change
+
+Purpose:
+Standalone application for a Minnesota personal watercraft policy.
+Captures applicant, watercraft, operators, coverages, and Minnesota-
+required disclosures (including the boat BI decline notice — see
+companion 67MN). Minnesota is a meaningful watercraft state — 10,000+
+lakes and substantial recreational boating activity drive a large
+watercraft market.
+
+Captures:
+- Producer / agency information
+- Applicant: name, address, DOB, contact, occupation
+- Watercraft schedule, each with:
+  * Type: outboard, inboard/outboard, inboard, jet ski/PWC, sailboat,
+    pontoon, houseboat, canoe/kayak (where insured)
+  * Make, model, year, length, beam, HIN (Hull Identification Number)
+  * Engine: make, model, horsepower, propulsion type (outboard,
+    inboard, jet drive, sail)
+  * Hull material, insured value
+- Operators: name, DOB, boating experience, safety course completion
+- Use: pleasure, water-skiing, tubing, fishing, racing (typically
+  excluded or extra-rated)
+- Storage: in-water (slip/mooring), on-water-lift, on-trailer,
+  storage facility; seasonal vs year-round
+- Coverage selected:
+  * Hull (physical damage)
+  * Liability (BI/PD) — see companion 67MN for BI decline option
+  * Medical payments
+  * Uninsured boater
+  * Personal property on board
+  * Fuel spill / oil pollution
+  * Towing / on-water assistance
+  * Trailer coverage (if separately insured)
+- Limits, deductibles
+- Lienholder information (if financed)
+- Prior insurance carrier and lapse history
+- Loss history on watercraft
+- Minnesota-required disclosures, including Insurance Guaranty
+  Association notice
+- Fraud statement and applicant signature
+
+When used:
+- New Minnesota personal watercraft policy submission
+- Renewal where coverage is being modified
+- Adding a new watercraft to the schedule
+- Adding a new operator
+
+Notes:
+- Minnesota's lake culture makes watercraft a meaningful personal
+  lines exposure — boats, pontoons, jet skis, and ice fishing
+  shelters (some carriers cover) are common
+- Boat BI coverage is typically offered; the insured may decline BI
+  in writing — see companion form 67MN (Personal Boat Insurance
+  Notice Election to Decline BI Coverage)
+- Section version (282MN) drops applicant identity in favor of
+  ACORD 88
+- Off-season storage typically reduces premium; on-water year-round
+  storage (rare in MN climate) typically increases premium
+- [TBD — verify current Minnesota watercraft coverage requirements
+  and whether any boating safety course completion is mandatory for
+  certain operators]

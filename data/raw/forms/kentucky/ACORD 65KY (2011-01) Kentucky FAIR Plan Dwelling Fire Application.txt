@@ -1,0 +1,51 @@
+ACORD 65KY (2011-01) — Kentucky FAIR Plan Dwelling Fire Application
+====================================================================
+Form number: ACORD 65KY
+Edition: 2011-01
+Title: Kentucky FAIR Plan Dwelling Fire Application
+Type: Insurance form (ACORD industry standard, Kentucky state variant)
+States: KY
+Policy term: 12 months (typical for FAIR Plan dwelling fire)
+Transaction types: New business (FAIR Plan submission); renewal; midterm change
+
+Purpose:
+Application for non-owner-occupied (rental, seasonal, vacant)
+residential property coverage through the Kentucky FAIR Plan — the
+state's residual property market. Dwelling Fire (DP) is the residual-
+market equivalent to a voluntary DP-1/DP-2/DP-3 policy for properties
+the owner does not personally occupy.
+
+Captures:
+- Insured / owner information
+- Property location and address
+- Property description: construction, year built, square footage,
+  protection class, roof, heating
+- Occupancy: rental / seasonal / vacant / under renovation
+- Tenant information (where applicable)
+- Coverage selected: dwelling, other structures, fair rental value,
+  additional living expense, personal property of insured (if any
+  stored at the location)
+- Coverage amounts and deductibles
+- Mortgagee / loss payee information
+- Prior insurance and denial history
+- Loss history (typically 5 years)
+- Kentucky FAIR Plan statutory disclosures and acknowledgments
+- Applicant signature and date
+
+When used:
+- Submission to the Kentucky FAIR Plan for non-owner-occupied dwellings
+  after voluntary-market denial
+- Renewal of existing FAIR Plan dwelling fire policy
+- Reporting occupancy or property changes
+
+Notes:
+- Dwelling Fire coverage typically excludes the liability component
+  (no personal liability for landlord vs. tenant disputes — separate
+  landlord liability coverage may be needed)
+- Vacant properties typically face higher premiums and tighter
+  underwriting; some FAIR Plans restrict vacant property coverage
+  to specific endorsements
+- Companion forms: 64KY (Homeowners), 66KY (Farm Fire), 68KY
+  (Commercial Fire)
+- [TBD — verify current Kentucky FAIR Plan dwelling fire coverage
+  options and form availability]

@@ -1,0 +1,49 @@
+ACORD 290TN (2014-12) — Tennessee Personal Automobile Application Section
+==========================================================================
+Form number: ACORD 290TN
+Edition: 2014-12
+Title: Tennessee Personal Automobile Application Section
+Type: Insurance form (ACORD industry standard, Tennessee state variant)
+States: TN
+Policy term: Matches the underlying personal auto policy term (typically 6 or 12 months)
+Transaction types: New business, renewal, midterm change — used as the auto-specific section in a modular ACORD application package
+
+Purpose:
+Auto-specific section of a personal auto application in Tennessee. Used
+in combination with ACORD 88 (Personal Insurance Application —
+Applicant Information Section), which captures applicant identity. The
+290TN holds the auto-specific data needed to underwrite a Tennessee
+auto policy under Tenn. Code Ann. § 55-12.
+
+Captures:
+- Drivers: license number/status, DOB, marital status, occupation,
+  3-5 year violation/accident history
+- Vehicles: VIN, year/make/model, body type, garaging address
+- Vehicle use: pleasure / commute / business, annual mileage
+- Lienholder / additional interest information
+- Coverages: BI, PD, UM/UIM, MedPay, comp, coll
+- Deductibles (comp and coll)
+- Optional coverages and discounts
+- Prior insurance carrier and lapse history
+- Loss history
+- Tennessee-required disclosures and acknowledgments
+- Fraud statement and applicant signature
+(NOTE: Applicant identity is captured on ACORD 88, not duplicated here)
+
+When used:
+- New business — when the agency uses ACORD's modular section system
+  (88 + 290TN) rather than the standalone full app (90TN)
+- Renewal where the carrier requires fresh auto-section data while
+  reusing applicant info from 88
+- Adding a vehicle or driver to an existing modular-section policy
+
+Notes:
+- Tennessee operates an electronic insurance verification program (IVPS)
+- UM coverage mandatory; insured may reject in writing
+- Use 290TN with ACORD 88; use 90TN standalone
+- Tennessee minimum liability limits: 25/50/15 (TCA § 55-12-107)
+- TN UM included by default at BI limits; rejectable in writing
+  (TCA § 56-7-1201). UIM offered; REDUCED-BY structure.
+- TN is at-fault with modified comparative fault (50% bar)
+- State regulator: Tennessee Department of Commerce and Insurance (TDCI)
+- Electronic verification: "Drive Insured TN"

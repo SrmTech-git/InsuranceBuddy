@@ -1,0 +1,54 @@
+ACORD 10GA (2019-10) — Georgia Notice of Nonrenewal of Motor Vehicle Insurance Based on Termination of Agency
+==============================================================================================================
+Form number: ACORD 10GA
+Edition: 2019-10
+Title: Georgia Notice of Nonrenewal of Motor Vehicle Insurance Based on Termination of Agency
+Type: Insurance form (ACORD industry standard, Georgia state variant)
+States: GA
+Policy term: N/A (carrier-to-insured notification, not a coverage form)
+Transaction types: Nonrenewal notification (agency termination)
+
+Purpose:
+Georgia-specific carrier notification informing the insured that the
+auto insurance policy will not be renewed because the underlying
+agency relationship between the carrier and the producer/agent has
+ended. Unlike a standard nonrenewal (companion form 9GA) — which is
+based on insured-specific factors — this notice addresses the
+situation where the insured is being non-renewed for reasons external
+to the insured's own conduct or risk profile.
+
+Captures:
+- Carrier information (named insurer, NAIC code)
+- Policy number and expiration date
+- Effective date of nonrenewal (typically the policy expiration date)
+- Insured name and address
+- Statement that nonrenewal is based on termination of the agency
+  relationship — NOT on insured-specific factors
+- Agency / producer information (former producer of record)
+- Insured's rights to:
+  * Obtain replacement coverage through another carrier or producer
+  * Continue with the same carrier through a different producer
+    (where applicable)
+  * Obtain alternative coverage through Georgia Automobile Insurance
+    Plan if needed
+- Carrier signature / authorized representative
+- Date of notice issuance
+
+When used:
+- Carrier nonrenewal of a Georgia auto policy specifically because
+  the producer-carrier relationship has terminated (not because of
+  insured-level factors)
+- When an independent agency loses its appointment with the carrier
+  and the carrier elects not to retain the agency's book of business
+
+Notes:
+- This is a separate notice from the standard nonrenewal (9GA)
+  because the insured-protection considerations differ — a standard
+  nonrenewal involves insured-level factors the insured may need to
+  address; this nonrenewal is essentially external and the insured
+  may retain coverage with the same carrier under a different producer
+- Georgia O.C.G.A. § 33-24-46 et seq. and related statutes govern
+  agency-termination nonrenewals
+- Companion form: 9GA — standard Georgia auto nonrenewal notice
+- [TBD — verify current Georgia statutory framework for
+  agency-termination nonrenewals]

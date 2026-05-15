@@ -1,0 +1,43 @@
+ACORD 60KY (2017-11) — Kentucky Auto Supplement – Rejection of Uninsured / Underinsured Motorist Coverage
+==========================================================================================================
+Form number: ACORD 60KY
+Edition: 2017-11
+Title: Kentucky Auto Supplement – Rejection of Uninsured / Underinsured Motorist Coverage
+Type: Insurance form (ACORD industry standard, Kentucky state variant)
+States: KY
+Policy term: Matches the underlying auto policy term; rejection persists until revoked in writing
+Transaction types: New business (UM/UIM rejection election); change to UM/UIM coverage
+
+Purpose:
+Captures the Kentucky insured's rejection of Uninsured Motorists (UM)
+and/or Underinsured Motorists (UIM) coverage. Kentucky offers UM and
+UIM coverage as part of every auto policy by default; the insured may
+reject either or both coverages in writing per Kentucky's Motor
+Vehicle Reparations Act (KRS 304.39) and KRS 304.20-020.
+
+Captures:
+- Statutory notice describing UM/UIM coverage purposes
+- Insured's election to reject UM coverage (if applicable)
+- Insured's election to reject UIM coverage (if applicable)
+- Insured's election to select limits lower than BI liability
+  (if rejection not made but reduction elected)
+- Insured signature and date
+
+When used:
+- New Kentucky auto submission — UM/UIM are provided by default unless
+  rejected via this form
+- Renewal or midterm change where UM/UIM is being rejected or reduced
+- Anytime the insured wishes to reinstate or modify UM/UIM coverage
+
+Notes:
+- Kentucky UM and UIM are coverages offered by default with every auto
+  policy; written rejection is required to remove either coverage
+- Rejection remains effective until revoked in writing
+- Some Kentucky case law treats UIM rejection requirements strictly —
+  carriers must obtain a knowing, written waiver
+- Kentucky UM/UIM: insurer must OFFER; insured may reject in writing
+  (KRS § 304.20-020). UM minimum 25/50 (matches BI minimum).
+- Kentucky PIP/no-fault rejection is handled separately under KRS
+  § 304.39-060 — typically a distinct rejection form, not this 60KY
+  (which covers UM/UIM only)
+- Kentucky liability minimums: 25/50/25 split or $60K CSL

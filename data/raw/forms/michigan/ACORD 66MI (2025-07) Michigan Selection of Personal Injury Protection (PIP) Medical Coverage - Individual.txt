@@ -1,0 +1,58 @@
+ACORD 66MI (2025-07) — Michigan Selection of Personal Injury Protection (PIP) Medical Coverage - Individual
+============================================================================================================
+Form number: ACORD 66MI
+Edition: 2025-07
+Title: Michigan Selection of Personal Injury Protection (PIP) Medical Coverage - Individual
+Type: Insurance form (ACORD industry standard, Michigan state variant)
+States: MI
+Policy term: Matches the underlying auto policy term (typically 6 or 12 months); selection persists until changed in writing
+Transaction types: New business (PIP tier election required); change of PIP tier; re-selection at renewal where allowed
+
+Purpose:
+The single most consequential form in Michigan personal auto. Captures
+the individual insured's selection of a Personal Injury Protection
+(PIP) medical coverage tier under Michigan's post-2019 no-fault
+reform (MCL 500.3107c, effective July 2, 2020). The insured chooses
+from five PIP medical levels, each with different premium impact, and
+the choice — once made — applies to all auto-related medical expenses
+for that policy.
+
+Captures:
+- Description of each PIP medical tier and statutory eligibility:
+  * Unlimited PIP medical (the historical Michigan no-fault default)
+  * $500,000 per person per accident
+  * $250,000 per person per accident
+  * $250,000 with managed-care exclusions (where offered)
+  * $50,000 per person per accident (requires the insured AND every
+    resident relative to have qualifying health coverage — Medicare
+    Part A/B counts; Medicaid does NOT qualify for this tier)
+  * Opt-out (Medicaid-only) — available only if the insured AND every
+    resident relative are enrolled in Medicaid OR have other qualifying
+    PIP-equivalent health coverage
+- Disclosure of how each tier affects premium and out-of-pocket exposure
+- Documentation requirements for $50K and opt-out tiers (proof of
+  qualifying coverage)
+- Insured's selection of tier
+- Insured signature and date
+
+When used:
+- New Michigan personal auto submission — PIP tier selection mandatory
+- Renewal where PIP tier is being re-selected
+- Midterm change to PIP tier (subject to carrier underwriting)
+- Whenever qualifying health coverage status changes for the insured
+  or a resident relative (affects eligibility for $50K or opt-out tiers)
+
+Notes:
+- The 2019 no-fault reform was Michigan's largest auto insurance
+  overhaul in 40+ years; previously, unlimited lifetime medical was
+  mandatory for every Michigan auto policy
+- Michigan Catastrophic Claims Association (MCCA) per-vehicle assessment
+  applies to unlimited tier (and historically to high-tier policies);
+  lower tiers carry lower or no MCCA assessment
+- The opt-out and $50K tiers carry substantial risk: if the insured
+  loses qualifying health coverage, they may be uninsured for serious
+  auto injuries
+- Companion forms: 90MI (Auto App), 136MI (commercial-business version
+  of this PIP selection)
+- [TBD — verify current statutory tier limits and qualifying-coverage
+  rules; subject to legislative updates]

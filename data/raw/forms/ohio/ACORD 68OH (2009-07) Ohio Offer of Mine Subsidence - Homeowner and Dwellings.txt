@@ -1,0 +1,43 @@
+ACORD 68OH (2009-07) — Ohio Offer of Mine Subsidence – Homeowner and Dwellings
+===============================================================================
+Form number: ACORD 68OH
+Edition: 2009-07
+Title: Ohio Offer of Mine Subsidence – Homeowner and Dwellings
+Type: Insurance form (ACORD industry standard, Ohio state variant)
+States: OH
+Policy term: Matches the underlying property policy; election persists until changed in writing
+Transaction types: New business (mandatory offer); election change
+
+Purpose:
+Ohio-specific offer form for Mine Subsidence Insurance, delivered by
+the carrier to property owners in mining-county Ohio to make the
+statutorily required offer of coverage. The insured then elects to
+accept or reject. Distinct from 67OH (which is the supplement adding
+coverage); 68OH is the offer itself.
+
+Captures:
+- Statutory disclosure that Mine Subsidence Insurance is being offered
+- Description of what mine subsidence coverage covers (ground
+  collapse / settling from underground mine workings)
+- Description of what is NOT covered (earth movement, earthquake,
+  natural settling)
+- Coverage limit available (state-pool cap)
+- Insured election to accept coverage (which triggers issuance of
+  67OH as the active supplement) or reject coverage
+- Insured signature and date
+
+When used:
+- New Ohio HO or dwelling fire policy issuance in an eligible mining
+  county — the offer is required to be delivered
+- Renewal where the mandatory offer must be refreshed
+- Reporting changes that affect eligibility
+
+Notes:
+- Ohio's mandatory-offer rule means carriers must offer mine subsidence
+  to insureds in eligible counties — the insured may accept or reject
+- A rejected offer typically must be documented in writing on this form
+- Once accepted, the active coverage is captured on companion form 67OH
+- The 2009-07 edition is older; [TBD — verify whether this is still
+  the current ACORD-published edition]
+- [TBD — verify current Ohio mandatory-offer county list and coverage
+  caps]

@@ -1,0 +1,37 @@
+ACORD 51GA (2005-01) — Georgia Fleet Policy Information Card
+=============================================================
+Form number: ACORD 51GA
+Edition: 2005-01
+Title: Georgia Fleet Policy Information Card
+Type: Insurance form (ACORD industry standard, Georgia state variant)
+States: GA
+Policy term: Matches the underlying commercial auto / fleet policy term (typically 12 months); reissued at each renewal
+Transaction types: N/A (proof-of-insurance card, not a transaction document)
+
+Purpose:
+Proof of mandatory liability insurance for a fleet policy under Georgia
+law. Issued at the policy level rather than per individual vehicle, for
+commercial fleet operations where carrying a separate card for each
+vehicle is impractical.
+
+Captures:
+- Named insured (typically a business entity)
+- Policy number
+- Policy effective and expiration dates
+- Fleet description / coverage scope (e.g., "All owned vehicles")
+- Insurer name and NAIC code
+- Agent / agency name and contact
+
+When used:
+- Carried in any fleet vehicle as proof of insurance
+- Presented to law enforcement during a traffic stop or accident involving a fleet vehicle
+- Presented at vehicle registration for fleet-titled vehicles
+
+Notes:
+- The fleet card identifies the policy and the fleet; individual vehicles
+  are typically covered under the policy's fleet endorsement schedule
+- Used by trucking, delivery, rental, and large commercial-fleet operations
+- Companion form to ACORD 50GA (the per-vehicle Georgia ID card) — 51GA
+  is for fleet policies, 50GA is for non-fleet
+- [TBD — verify whether 2005-01 is still the current ACORD-published edition
+  for Georgia fleet cards]

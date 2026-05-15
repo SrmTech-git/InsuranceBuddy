@@ -1,0 +1,56 @@
+ACORD 137MI (2020-07) — Michigan Commercial Auto Coverages (Coverages/Limits Section)
+======================================================================================
+Form number: ACORD 137MI
+Edition: 2020-07
+Title: Michigan Commercial Auto Coverages (Coverages/Limits Section)
+Type: Insurance form (ACORD industry standard, Michigan state variant)
+States: MI
+Policy term: 12 months (typical for commercial auto)
+Transaction types: New business, renewal, midterm change, audit-driven adjustment
+
+Purpose:
+Michigan-specific Commercial Auto Coverages section — the
+coverages/limits portion of a Michigan commercial auto submission.
+Captures coverage selections, limits, deductibles, and the PIP medical
+tier selection required for commercial autos under Michigan's no-fault
+statute (MCL 500.3101 et seq., as amended by the 2019 no-fault reform).
+Used alongside national ACORD 125 (Applicant Info) and ACORD 127
+(Business Auto Section).
+
+Captures:
+- Residual Liability (BI/PD split or Combined Single Limit)
+- PIP medical (tier selection for commercial — see companion 136MI)
+- PIP non-medical (wage loss, replacement services, survivor benefits)
+- PPI (Property Protection Insurance — $1M statutory)
+- UM / UIM coverage selections and limits
+- Comp / collision deductibles
+- Hired Auto Liability
+- Non-Owned Auto Liability
+- Drive Other Car coverage (where applicable)
+- Towing & labor / rental reimbursement / loss of use
+- Trailer interchange (for trucking)
+- Michigan-required disclosures and acknowledgments
+
+When used:
+- New commercial auto submission for a Michigan-based fleet
+- Renewal where Michigan-specific coverages are being reselected
+- Anytime the PIP medical tier selection is being made or changed for
+  commercial autos
+- Midterm endorsement that changes coverage or limits
+
+Notes:
+- 2020-07 edition is the first major edition after the July 2, 2020
+  effective date of the no-fault reform — incorporates PIP-tier
+  disclosure for commercial autos
+- Companion form for commercial PIP medical selection: 136MI (PIP
+  Medical Selection — Commercial Business)
+- Companion form for BI choice: 61MI (BI Liability Coverage Limits)
+- MCCA per-vehicle assessment applies to unlimited-tier and higher
+  PIP medical limits — applies to commercial fleets as well
+- Federal motor carrier minimums (MCS-90) may override state minimums
+  for interstate trucking risks
+- Michigan default residual liability limits: 250/500 BI (MCL § 500.3009)
+  with $50/100 statutory floor; PD $10K + separate mandatory PPI $1M
+- Michigan UM/UIM NOT required for commercial fleets — optional
+- Primary statute: MCL § 500.3101 et seq. (Michigan No-Fault Act)
+- State regulator: Michigan DIFS

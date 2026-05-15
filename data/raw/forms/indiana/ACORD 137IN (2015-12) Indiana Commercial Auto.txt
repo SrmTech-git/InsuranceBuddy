@@ -1,0 +1,41 @@
+ACORD 137IN (2015-12) — Indiana Commercial Auto
+================================================
+Form number: ACORD 137IN
+Edition: 2015-12
+Title: Indiana Commercial Auto
+Type: Insurance form (ACORD industry standard, Indiana state variant)
+States: IN
+Policy term: 12 months (typical for commercial auto)
+Transaction types: New business, renewal, midterm change, audit-driven adjustment
+
+Purpose:
+Indiana-specific Commercial Auto Coverages section. Captures coverage
+selections, limits, deductibles, and Indiana-required disclosures for a
+commercial auto policy. Used alongside national ACORD 125 (Applicant
+Info) and ACORD 127 (Business Auto Section).
+
+Captures:
+- Liability limits (BI/PD split or Combined Single Limit)
+- Comp / collision deductibles
+- UM / UIM coverage selections and limits
+- MedPay
+- Hired Auto Liability
+- Non-Owned Auto Liability
+- Drive Other Car coverage (where applicable)
+- Towing & labor / rental reimbursement / loss of use
+- Trailer interchange (for trucking risks)
+- Indiana-required disclosures and acknowledgments
+
+When used:
+- New commercial auto submission for an Indiana-based fleet
+- Renewal where Indiana-specific coverages are being reselected
+- Midterm endorsement that changes coverage or limits
+
+Notes:
+- Indiana operates an electronic insurance verification system
+- Indiana Financial Responsibility Law (IC 9-25) applies to commercial
+  as well as personal autos
+- Indiana personal-auto minimum limits: 25/50/25 (IC § 9-25). Commercial
+  fleets subject to federal MCS-90 minimums for interstate operations
+  (typically $750K-$5M depending on cargo).
+- State insurance regulator: Indiana Department of Insurance (IDOI)

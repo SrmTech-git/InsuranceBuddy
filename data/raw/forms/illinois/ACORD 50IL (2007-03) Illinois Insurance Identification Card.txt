@@ -1,0 +1,42 @@
+ACORD 50IL (2007-03) — Illinois Insurance Identification Card
+==============================================================
+Form number: ACORD 50IL
+Edition: 2007-03
+Title: Illinois Insurance Identification Card
+Type: Insurance form (ACORD industry standard, Illinois state variant)
+States: IL
+Policy term: Matches the underlying auto policy term (typically 6 or 12 months); reissued at each renewal
+Transaction types: N/A (proof-of-insurance card, not a transaction document)
+
+Purpose:
+Proof of mandatory liability insurance issued under an Illinois personal
+auto policy. Carried in the vehicle to satisfy Illinois' compulsory
+insurance law (625 ILCS 5/7-601 et seq.), which requires drivers to
+maintain minimum liability coverage and produce evidence of insurance
+on demand.
+
+Captures:
+- Insured's name and address
+- Policy number
+- Policy effective and expiration dates
+- Year, make, model, and VIN of the insured vehicle
+- Insurer name and NAIC code
+- Agent / agency name and contact (if applicable)
+
+When used:
+- Carried in the vehicle as proof of insurance
+- Presented to law enforcement during a traffic stop or accident investigation
+- Presented to the Illinois Secretary of State for vehicle registration / renewal
+- Provided in response to random insurance verification requests issued by the SoS
+
+Notes:
+- One card issued per vehicle on the policy; new cards issued at each renewal
+- Illinois uses random insurance verification — the Secretary of State
+  periodically mails verification requests; failure to respond can result
+  in registration suspension
+- Illinois minimum liability limits: 25/50/20 (625 ILCS 5/7-203)
+- Illinois UM is REQUIRED — cannot be waived (625 ILCS 5/7-601)
+- Primary statutes: 215 ILCS 5 (Insurance Code), 625 ILCS 5 (Vehicle Code)
+- State insurance regulator: Illinois Department of Insurance (IDOI)
+- [TBD — verify whether the 2007-03 edition is still the current ACORD-published
+  edition for Illinois ID cards, or whether a newer edition has superseded it]

@@ -1,0 +1,54 @@
+ACORD 4WI (2026-05) — Wisconsin Employers First Report of Injury or Disease
+============================================================================
+Form number: ACORD 4WI
+Edition: 2026-05
+Title: Wisconsin Employers First Report of Injury or Disease
+Type: Insurance form (ACORD industry standard, Wisconsin state variant)
+States: WI
+Policy term: N/A (claim/loss event, not a policy form)
+Transaction types: N/A (loss notification — first report of injury / disease)
+
+Purpose:
+Wisconsin-specific First Report of Injury (FROI) form for Workers
+Compensation claims. Used by Wisconsin employers to report an
+employee injury, occupational disease, or fatality to the WC carrier
+and to the Wisconsin Department of Workforce Development (DWD) within
+the statutory reporting timeframe. Wisconsin state variant of the
+national ACORD 4 WC FROI.
+
+Captures:
+- Employer information (named insured, FEIN, NAICS, location)
+- Injured / ill employee information: name, DOB, SSN, address, hire
+  date, occupation, department, wage information
+- Injury / disease details:
+  * Date and time of injury / disease onset
+  * Location of injury (specific premises area)
+  * Body part(s) affected
+  * Nature of injury (laceration, fracture, strain, etc.)
+  * Cause of injury (slip, struck-by, lifting, repetitive motion, etc.)
+  * Equipment / object involved
+- Whether work was lost and expected duration
+- Medical treatment information: provider, facility, treatment received
+- Witnesses to the injury
+- Whether OSHA-recordable
+- Whether fatal
+- Wisconsin-specific statutory disclosure compliance
+- Employer signature and date submitted
+
+When used:
+- Within statutory timeframe (typically days to weeks depending on
+  severity) after a Wisconsin work-related injury or occupational
+  disease
+- Submitted to the WC carrier for claim setup
+- Submitted to Wisconsin Department of Workforce Development (DWD)
+  Worker's Compensation Division as required by Wis. Stat. Ch. 102
+
+Notes:
+- Wisconsin WC is administered by the DWD Worker's Compensation Division
+- Wis. Stat. Ch. 102 governs WC reporting requirements and benefit
+  schedules
+- Companion forms: 133WI (WC Insurance Pool / Assigned Risk),
+  134WI, 135WI (Election/Non-Election supplements), 136WI (Other
+  States Coverage)
+- [TBD — verify current Wisconsin FROI reporting timeframes and DWD
+  submission requirements]

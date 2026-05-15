@@ -1,0 +1,59 @@
+ACORD 80MN (2024-07) — Minnesota Homeowner Application
+=======================================================
+Form number: ACORD 80MN
+Edition: 2024-07
+Title: Minnesota Homeowner Application
+Type: Insurance form (ACORD industry standard, Minnesota state variant)
+States: MN
+Policy term: 12 months (typical for homeowners)
+Transaction types: New business, renewal, midterm change
+
+Purpose:
+Standalone application for a homeowners policy in Minnesota. Captures
+applicant, dwelling, coverages, underwriting questions, and Minnesota-
+required disclosures needed to underwrite and issue an HO policy.
+State-specific variant of national ACORD 80.
+
+Captures:
+- Producer / agency information
+- Applicant: name, address, DOB, contact, occupation
+- Property location and address
+- Property description: construction type, year built, square footage,
+  number of stories, roof type and age, heating type (cold-climate
+  factors more prominent), electrical, plumbing, foundation
+- Protection class (PPC)
+- Occupancy: primary / secondary / seasonal (cabin/lake property is
+  common in Minnesota)
+- Coverage form: HO-2 / HO-3 / HO-5 / HO-6 / HO-8
+- Coverage A through F at selected limits
+- Deductible selected
+- Wind/hail deductible (separate hail deductibles are common in
+  Minnesota due to hail exposure)
+- Discounts: multi-policy, alarm, smoke detectors, age, claim-free
+- Endorsements: scheduled personal property, water backup (sump pump
+  failure / sewer backup endorsement is meaningful in Minnesota),
+  service line, equipment breakdown, frozen-pipe and ice-dam coverage
+  considerations
+- Mortgagee / loss payee information
+- Prior insurance carrier and lapse history
+- Loss history
+- Underwriting questions: dogs, pools, business use, woodstoves /
+  wood-burning fireplaces, snow load on roof
+- Minnesota-required disclosures and acknowledgments, including
+  Insurance Guaranty Association notice (see companion 65MN)
+- Fraud statement and applicant signature
+
+When used:
+- New business — applying for a Minnesota homeowners policy
+- Renewal where the carrier requires a fresh application
+- Adding endorsements or scheduled property
+- Midterm changes that require fresh underwriting
+
+Notes:
+- Hail damage is a major Minnesota homeowners exposure — separate
+  wind/hail deductibles (often percentage-of-Coverage-A) are common
+- Ice dam and frozen pipe exposure is climate-driven; underwriting
+  often asks about roof insulation and heat-tape installation
+- Sump pump / sewer backup endorsement is a frequent add-on
+- [TBD — verify current Minnesota Insurance Guaranty Association
+  notice requirements and any state-mandated endorsements]

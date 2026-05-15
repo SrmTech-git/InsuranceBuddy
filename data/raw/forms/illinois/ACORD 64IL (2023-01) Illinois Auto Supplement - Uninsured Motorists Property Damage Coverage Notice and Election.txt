@@ -1,0 +1,37 @@
+ACORD 64IL (2023-01) — Illinois Auto Supplement: Uninsured Motorists Property Damage Coverage Notice and Election
+==================================================================================================================
+Form number: ACORD 64IL
+Edition: 2023-01
+Title: Illinois Auto Supplement: Uninsured Motorists Property Damage Coverage Notice and Election
+Type: Insurance form (ACORD industry standard, Illinois state variant)
+States: IL
+Policy term: Matches the underlying auto policy term (typically 6 or 12 months); election persists until changed in writing
+Transaction types: New business (notice/election required); change to UMPD coverage
+
+Purpose:
+Notice and election form for Uninsured Motorists Property Damage
+(UMPD) coverage in Illinois. UMPD covers the insured's own vehicle
+property damage caused by an at-fault uninsured driver. This form
+notifies the insured that UMPD is available and captures the insured's
+election or rejection.
+
+Captures:
+- Statutory notice describing what UMPD coverage is
+- Insured election of UMPD (with selected limits) or rejection
+- Insured acknowledgment and signature
+
+When used:
+- New Illinois auto submission — UMPD election or rejection at issuance
+- Renewal where UMPD is being added/removed
+- Midterm change to UMPD
+
+Notes:
+- UMPD differs from collision coverage: UMPD pays only when at-fault
+  driver is uninsured; collision pays regardless of fault
+- UMPD is typically a low-cost coverage and frequently elected by
+  insureds who do NOT carry collision (so they have some PD protection
+  if struck by an uninsured driver)
+- Companion form: 61IL — UM/UIM Auto Supplement
+- [TBD — verify whether UMPD is a mandatory-offer coverage in Illinois
+  or only commonly offered]
+- [TBD — verify current Illinois UMPD statutory minimum limits]

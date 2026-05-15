@@ -1,0 +1,47 @@
+ACORD 61VA (2026-01) — Virginia Auto Supplement – Notice of Optional Medical and Disability Coverage
+=====================================================================================================
+Form number: ACORD 61VA
+Edition: 2026-01
+Title: Virginia Auto Supplement – Notice of Optional Medical and Disability Coverage
+Type: Insurance form (ACORD industry standard, Virginia state variant)
+States: VA
+Policy term: Matches the underlying auto policy term; election persists until changed in writing
+Transaction types: New business (notice/election required), change to medical/disability coverage
+
+Purpose:
+Virginia-required notice and election form for optional Medical
+Expense Benefits and Income Loss (Disability) Benefits coverage on
+a personal auto policy. Virginia is not a no-fault state but does
+require carriers to offer first-party medical payments and income-
+loss benefits as elective coverages. This form notifies the insured
+of availability and captures election or rejection.
+
+Captures:
+- Statutory description of optional Medical Expense Benefits coverage
+  (similar in concept to MedPay in non-no-fault states)
+- Statutory description of optional Income Loss / Disability Benefits
+  coverage (pays for wages lost due to injury from auto accident)
+- Available limit options for each
+- Insured's election to accept (with limits selected) or reject each
+  coverage
+- Insured signature and date
+
+When used:
+- New Virginia auto submission — notice/election required
+- Renewal where medical or disability coverage is being modified
+- Midterm endorsement changing these coverages
+
+Notes:
+- Virginia is a tort state (not no-fault) — these optional coverages
+  function as first-party benefits alongside the at-fault liability
+  framework
+- Income Loss / Disability coverage is less common than Medical
+  Payments — many insureds rely on employer-provided short-term
+  disability or personal health insurance instead
+- Coverage limits are typically modest (e.g., $2K-$10K medical,
+  $50-$200/week wage loss) — meant as gap-fill, not replacement for
+  health/disability insurance
+- Companion Virginia auto supplements: 60VA (Rental Reimbursement),
+  65VA / 66VA / 68VA / 69VA (UM/UIM elections)
+- [TBD — verify current Virginia statutory mandatory-offer requirements
+  for these coverages and typical limit options]

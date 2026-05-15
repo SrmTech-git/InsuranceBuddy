@@ -1,0 +1,41 @@
+ACORD 172OH (2002-09) — Ohio FAIR Plan – Homeowners Supplement
+===============================================================
+Form number: ACORD 172OH
+Edition: 2002-09
+Title: Ohio FAIR Plan – Homeowners Supplement
+Type: Insurance form (ACORD industry standard, Ohio state variant)
+States: OH
+Policy term: 12 months (matches the master 171OH FAIR Plan submission)
+Transaction types: New business; renewal; midterm change
+
+Purpose:
+Homeowners-specific supplement to the Ohio FAIR Plan Basic Property
+Application (171OH). Captures information specific to owner-occupied
+residential properties that don't fit on the master 171OH — coverage
+selection, dwelling-specific exposures, and any homeowners-form
+selection (e.g., HO-2, HO-3 limited where available).
+
+Captures:
+- Owner-occupied confirmation
+- Homeowners coverage form selection (where multiple FAIR Plan
+  homeowners forms are offered)
+- Dwelling-specific replacement cost / actual cash value selection
+- Personal liability coverage (if available through Ohio FAIR Plan)
+- Medical payments coverage (if available)
+- Special endorsements or limits relevant to homeowners
+- Applicant signature and date
+
+When used:
+- Owner-occupied residential FAIR Plan submission — attached to 171OH
+- Renewal of existing FAIR Plan homeowners coverage
+- Reporting changes affecting owner-occupancy or coverage selection
+
+Notes:
+- Used in combination with the master 171OH (Basic Property Application)
+- Ohio FAIR Plan homeowners coverage is typically more limited than
+  voluntary-market HO-3 — fewer perils, lower liability availability
+- Companion supplements in the same family: 173OH (Dwelling Fire — for
+  non-owner-occupied), 174OH (Commercial), 175OH (Farm), 176OH
+  (Rehabilitation), 177OH (Bowling Alley)
+- [TBD — verify current Ohio FAIR Plan homeowners liability availability
+  and coverage form options]

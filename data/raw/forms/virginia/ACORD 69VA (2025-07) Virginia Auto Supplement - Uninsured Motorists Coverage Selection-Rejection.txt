@@ -1,0 +1,37 @@
+ACORD 69VA (2025-07) — Virginia Auto Supplement – Uninsured Motorists Coverage Selection/Rejection
+===================================================================================================
+Form number: ACORD 69VA
+Edition: 2025-07
+Title: Virginia Auto Supplement – Uninsured Motorists Coverage Selection/Rejection
+Type: Insurance form (ACORD industry standard, Virginia state variant)
+States: VA
+Policy term: Matches the underlying auto policy term; election persists until changed in writing
+Transaction types: New business (UM election required); change to UM coverage; UM rejection
+
+Purpose:
+Virginia-specific form capturing the insured's standard Uninsured
+Motorists (UM) coverage selection at chosen limits or rejection. By
+default Virginia UM matches BI liability; this form documents the
+insured's affirmative selection of UM limits (which may differ from
+liability) or rejection of UM coverage entirely.
+
+Captures:
+- Statement of Virginia UM equal-to-liability default
+- Insured's selection of UM limits at specified amounts
+- Insured's election to reject UM coverage entirely (where permitted)
+- Insured signature and date
+
+When used:
+- New Virginia auto submission — UM selection/rejection required
+- Renewal where the UM election is being modified
+- Midterm change to UM coverage
+
+Notes:
+- Virginia UMV-fee-in-lieu-of-insurance option was ELIMINATED effective
+  July 1, 2024 — insurance is now mandatory for all VA drivers; UM
+  rejection on this form does NOT remove the underlying liability
+  insurance requirement
+- Companion forms: 65VA (notice), 66VA (UIM reduction), 68VA (UM
+  alternative selection)
+- Virginia UM minimum: must match liability limits (50/100 as of Jan 1,
+  2025) under Va. Code § 38.2-2206. UIM is ADDITIVE since July 1, 2023.

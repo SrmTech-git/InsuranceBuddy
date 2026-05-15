@@ -1,0 +1,44 @@
+ACORD 66VA (2023-07) — Virginia Auto Supplement: Election to Reduce Underinsured Motorists
+===========================================================================================
+Form number: ACORD 66VA
+Edition: 2023-07
+Title: Virginia Auto Supplement: Election to Reduce Underinsured Motorists
+Type: Insurance form (ACORD industry standard, Virginia state variant)
+States: VA
+Policy term: Matches the underlying auto policy term; election persists until changed in writing
+Transaction types: New business (UIM reduction election); change to UIM coverage
+
+Purpose:
+Virginia-specific form capturing the insured's written election to
+reduce Underinsured Motorists (UIM) coverage below the policy's BI
+liability limits. By default Virginia UIM matches BI liability;
+written election on this form is required to reduce UIM to a lower
+amount (down to statutory minimum).
+
+Captures:
+- Statement of Virginia UIM equal-to-liability default
+- Insured's election to reduce UIM to a specified lower limit
+- Selected reduced UIM limits (BI per person / per accident / PD)
+- Insured signature and date
+
+When used:
+- New Virginia auto submission where the insured wants UIM at less than
+  BI liability
+- Renewal or midterm change reducing UIM
+- Anytime the insured wishes to lower UIM limits
+
+Notes:
+- UIM reduction requires written election under Virginia statute —
+  must be a knowing, voluntary choice
+- Companion forms: 65VA (notice), 68VA (UM alternative selection),
+  69VA (UM standard selection/rejection)
+- A future edition of 66VA dated 2026-01 was listed alongside this
+  Current edition in the state catalog
+- Virginia UIM became ADDITIVE (not reduced-by) on July 1, 2023 — UIM
+  now STACKS on top of at-fault driver's BI limits under Va. Code
+  § 38.2-2206. This 2023-07 edition was issued shortly after the
+  additive-UIM statutory change; the form mechanics reflect this.
+- Virginia UM/UIM defaults to match liability limits (50/100 as of
+  Jan 1, 2025); reduction below requires written election on this form
+- [TBD — verify whether 2023-07 is still the current ACORD-published
+  edition or whether the 2026-01 future edition has been released]

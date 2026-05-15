@@ -1,0 +1,60 @@
+ACORD 83VA (2025-07) — Virginia Personal Umbrella Application
+==============================================================
+Form number: ACORD 83VA
+Edition: 2025-07
+Title: Virginia Personal Umbrella Application
+Type: Insurance form (ACORD industry standard, Virginia state variant)
+States: VA
+Policy term: 12 months (typical for personal umbrella)
+Transaction types: New business, renewal, increasing limits, midterm change to underlying policies
+
+Purpose:
+Standalone application for a personal umbrella liability policy in
+Virginia. Captures the applicant, household members, underlying
+policies (auto, HO, watercraft, etc.) and their limits, and the
+umbrella limit selected. The umbrella provides excess liability
+coverage above the underlying policy limits, plus broader coverage
+for certain claims (e.g., personal injury) that the underlying
+policies may not cover.
+
+Captures:
+- Producer / agency information
+- Applicant: name, address, DOB, contact, occupation
+- Household members: spouse, resident relatives, licensed drivers
+- Underlying auto policy: carrier, policy number, BI/PD limits,
+  UM/UIM limits — Virginia underlyings typically require equal-to-
+  liability UM unless reduced
+- Underlying homeowners policy: carrier, policy number, personal
+  liability limit (Coverage E), medical payments limit (Coverage F)
+- Underlying watercraft policy: carrier, policy number, BI/PD limits
+- Underlying recreational vehicle policy: carrier, limits
+- Other underlying policies as applicable
+- Umbrella limit selected (typically $1M, $2M, $5M, $10M)
+- Drivers and licensed members of household
+- Vehicles owned, leased, or regularly operated
+- Properties owned (primary, secondary, rental)
+- Watercraft, recreational vehicles, aircraft owned
+- Loss history (typically 5 years)
+- Underwriting questions: prior umbrella coverage, prior umbrella
+  claims, professional/occupational exposures (e.g., serving on
+  HOA boards), youthful drivers, business use exposures
+- Virginia-required disclosures and acknowledgments
+- Fraud statement and applicant signature
+
+When used:
+- New Virginia personal umbrella submission
+- Renewal where the umbrella limit is being modified
+- Adding/removing underlying policies (auto, HO, watercraft)
+- Reporting significant household or exposure changes
+
+Notes:
+- Personal umbrella requires underlying liability minimums to be met
+  (typically 250/500/100 auto and $300K HO liability) — verify
+  carrier's required underlying limits
+- Coverage broader than underlying: defense costs in addition to
+  policy limits, personal injury coverage, worldwide coverage
+- Companion forms: 88VA (Applicant Information Section), 283VA
+  (Personal Umbrella Application Section — used when modular ACORD
+  88 + 283VA structure is preferred over standalone 83VA)
+- [TBD — verify current carrier-typical underlying limit requirements
+  for Virginia umbrellas]

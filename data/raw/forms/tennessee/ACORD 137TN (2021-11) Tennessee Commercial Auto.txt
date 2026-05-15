@@ -1,0 +1,45 @@
+ACORD 137TN (2021-11) — Tennessee Commercial Auto
+==================================================
+Form number: ACORD 137TN
+Edition: 2021-11
+Title: Tennessee Commercial Auto
+Type: Insurance form (ACORD industry standard, Tennessee state variant)
+States: TN
+Policy term: 12 months (typical for commercial auto)
+Transaction types: New business, renewal, midterm change, audit-driven adjustment
+
+Purpose:
+Tennessee-specific Commercial Auto Coverages section. Captures coverage
+selections, limits, deductibles, and Tennessee-required disclosures for
+a commercial auto policy under Tenn. Code Ann. § 55-12. Used alongside
+national ACORD 125 (Applicant Info) and ACORD 127 (Business Auto
+Section).
+
+Captures:
+- Liability limits (BI/PD split or Combined Single Limit)
+- Comp / collision deductibles
+- UM / UIM coverage selections and limits
+- MedPay
+- Hired Auto Liability
+- Non-Owned Auto Liability
+- Drive Other Car coverage (where applicable)
+- Towing & labor / rental reimbursement / loss of use
+- Trailer interchange (for trucking)
+- Tennessee-required disclosures and acknowledgments
+
+When used:
+- New commercial auto submission for a Tennessee-based fleet
+- Renewal where Tennessee-specific coverages are being reselected
+- Midterm endorsement that changes coverage or limits
+
+Notes:
+- Tennessee operates an electronic insurance verification program (IVPS)
+  — applies to commercial autos as well
+- UM coverage mandatory; insured may reject in writing
+- Federal motor carrier minimums (MCS-90) may override state minimums
+  for interstate trucking risks
+- Tennessee personal-auto minimum limits: 25/50/15 (TCA § 55-12-107).
+  Commercial fleets subject to federal MCS-90 for interstate operations.
+- TN UM included by default at BI limits (TCA § 56-7-1201)
+- State regulator: Tennessee Department of Commerce and Insurance (TDCI)
+- Electronic verification: "Drive Insured TN"

@@ -1,0 +1,58 @@
+ACORD 828MN (2016-03) — Minnesota Fiduciary Liability Coverage Section
+=======================================================================
+Form number: ACORD 828MN
+Edition: 2016-03
+Title: Minnesota Fiduciary Liability Coverage Section
+Type: Insurance form (ACORD industry standard, Minnesota state variant)
+States: MN
+Policy term: 12 months (typical for Fiduciary — claims-made)
+Transaction types: New business, renewal, midterm change (plan changes, M&A affecting plan structure)
+
+Purpose:
+Minnesota-specific section for Fiduciary Liability coverage — covers
+ERISA-related liability for sponsors and administrators of employee
+benefit plans (retirement, health, welfare). ERISA imposes strict
+fiduciary duties on plan sponsors and administrators; this coverage
+responds to claims alleging breach of those duties. Used alongside
+ACORD 125.
+
+Captures:
+- Plan sponsor / employer information
+- Plans covered:
+  * Retirement plans: 401(k), pension, profit-sharing, ESOP, 403(b)
+  * Health and welfare plans
+  * Other benefit plans
+- Plan financial information: total plan assets, participant count,
+  number of plans
+- Plan administrator and trustee information
+- Investment manager / fiduciary information
+- Prior fiduciary coverage and claims
+- Underwriting questions:
+  * Prior DOL or IRS investigations / audits
+  * Pending or threatened benefit-related claims
+  * Recent plan amendments or restructurings
+  * Recent M&A activity affecting benefit plans
+  * ESOP-specific exposure (heightened scrutiny)
+  * Stock-drop / pension underfunding considerations (if pension plan)
+- Coverage selections:
+  * Limits and retention
+  * Voluntary settlement program (e.g., DOL Voluntary Fiduciary
+    Correction Program, VFCP) — common Fiduciary endorsement
+  * Settlor capacity coverage
+  * Defense outside or inside limits
+- Minnesota-required disclosures and acknowledgments
+- Authorized signatory and date
+
+When used:
+- New Minnesota Fiduciary submission — section attached to ACORD 125
+- Renewal where Fiduciary coverage is being modified
+- Reporting plan changes, plan acquisitions/divestitures
+
+Notes:
+- Fiduciary is claims-made — retro date matters
+- ERISA Section 404 fiduciary duties: loyalty, prudence, diversification,
+  following plan documents — claims commonly allege breach of any
+- ESOP exposures are particularly scrutinized — heightened DOL focus
+- Companion forms: 807MN (D&O), 827MN (EPLI), 832MN (Misc E&O); often
+  packaged together as management liability program
+- [TBD — verify Minnesota-specific Fiduciary disclosure requirements]

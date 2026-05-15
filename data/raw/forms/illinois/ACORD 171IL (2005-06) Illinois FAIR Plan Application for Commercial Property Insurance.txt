@@ -1,0 +1,46 @@
+ACORD 171IL (2005-06) — Illinois FAIR Plan Application for Commercial Property Insurance
+=========================================================================================
+Form number: ACORD 171IL
+Edition: 2005-06
+Title: Illinois FAIR Plan Application for Commercial Property Insurance
+Type: Insurance form (ACORD industry standard, Illinois state variant)
+States: IL
+Policy term: 12 months (typical for FAIR Plan commercial property)
+Transaction types: New business (FAIR Plan submission); renewal; midterm change
+
+Purpose:
+Application for commercial property coverage through the Illinois
+FAIR Plan — Illinois' state-mandated residual property insurance
+market administered by the Illinois FAIR Plan Association. For
+commercial properties that cannot obtain coverage in the voluntary
+market due to location, condition, occupancy, or loss history.
+
+Captures:
+- Applicant / business information (named insured, business type, FEIN)
+- Property location and address
+- Building description: construction type, year built, square footage,
+  occupancy class, number of stories, roof type, protection class
+- Tenant information (multi-tenant buildings)
+- Coverage selected: building, business personal property, business
+  income (if available)
+- Coverage amounts and deductibles
+- Mortgagee / loss payee information
+- Prior insurance carrier(s), denial dates, and reasons for denial
+- Loss history (typically 5 years)
+- Illinois FAIR Plan statutory disclosures and acknowledgments
+- Applicant signature and date
+
+When used:
+- Submission to the Illinois FAIR Plan for commercial property after
+  voluntary-market denial
+- Renewal of existing FAIR Plan commercial property policy
+- Reporting commercial property or occupancy changes
+
+Notes:
+- Illinois FAIR Plan Association administers the plan
+- Coverage typically named-perils only — fire, extended coverage, VMM
+- General Liability is NOT included — separate GL needed
+- Commercial FAIR Plan is more limited and more expensive than
+  voluntary-market commercial property
+- [TBD — verify whether Illinois FAIR Plan also offers residential
+  forms and which ACORD forms apply to those]

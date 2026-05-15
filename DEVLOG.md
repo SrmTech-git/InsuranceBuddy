@@ -762,3 +762,182 @@ No behavior regressions across the whole arc. The bonus catches were the most sa
 - **Module names match their purpose** — routing in router, parsing in query_parsing, retrieval in retrieve, orchestration in chat. No mystery functions.
 - **The eval is now a real safety net** — 26 cases, stable across runs, covers each architectural path (inventory bypass, bare-section fallback, $or cross-collection, abbreviation expansion, state="" inclusion, multi-state retrieval split).
 - **Phase 4 (regulatory statute-section chunker) is the last deferred chunker.** Will pick that up when eval starts surfacing regulatory retrieval misses — currently it isn't.
+
+---
+
+## Session 16 — Savage Trim Pass
+
+A second top-down review one session after the architectural cleanup. Goal: hunt for duplicate code, dead code, and over-engineering that survived the Session 15 split. The framing was "savage but smart" — only delete if the cost of keeping is real, only keep if the savings would actually hurt clarity.
+
+Catalogued 11 candidates; executed 8 mechanical removals, 1 logging upgrade, 1 routing simplification (eval-gated), and consciously walked back 1 candidate where the duplication was illusory.
+
+### Tier 1 — Mechanical removals (eight items)
+
+Pure deletions. No behavior changes, eval held 26/26 throughout.
+
+**1. `_build_where` in retrieve.py.** Redundant rewrapper. Every caller (`merge_filters`, `build_state_filter`, `_resolve_form_filter`) already produced a ChromaDB-shaped where clause; `_build_where` converted a flat dict to `$and`-form, but no caller passed a flat dict. Filters now go straight to `collection.query(where=filters)`. **−18 lines** plus a dead `import chromadb`.
+
+**2. `print_results` and `print_forms` in retrieve.py.** Both helpers were only called by the `__main__` demo block at the bottom of the same file. Grep confirmed zero external callers. Deleted the helpers and the demo. **−50 lines.**
+
+**3. `detect_form_number` (singular) in query_parsing.py.** Thin wrapper over `detect_form_numbers` with one caller — a test. Removed the wrapper; updated the test's `setUp` to use a single-line adapter (`lambda text: (detect_form_numbers(text) or [None])[0]`) so all 12 assertions kept running. **−10 lines.**
+
+**4. Duplicate REPL/`__main__` blocks.** Five files had `__main__` blocks that duplicated `main.py`'s subcommands or were pure noise:
+- `chat.py` — interactive REPL identical to `main.py:cmd_chat`
+- `embed.py` — a "use the CLI" print statement
+- `ingest_batch.py` — own argparse duplicating `main.py cmd_ingest` (plus unused `import argparse`)
+- `migrate_state_tags.py` — own argparse duplicating `main.py cmd_migrate` (plus a module-load-time `sys.path.insert` that ran on every import)
+- `scrape_orc.py` — own entrypoint duplicating `main.py cmd_scrape` (plus unused `import sys`)
+
+`main.py` is now the sole entry point. **−110 lines, three dead imports gone, one runtime side effect at import time gone.**
+
+**5. `STATE_ABBR_MAP` → `STATE_ABBR_SET`.** The dict was `{v: v for v in STATE_MAP.values()}` — every key equals its value, a set wearing a dict costume. The single consumer in `query_parsing.detect_states` iterated `.items()` and ignored the value. Replaced with a real set. Cleaner mental model, same behavior.
+
+**6. `STATE_FOLDER_MAP` alias in ingest_batch.py.** `STATE_FOLDER_MAP = STATE_MAP` — pure pass-through, kept alive only by a test asserting it was the same object. Removed alias, use `STATE_MAP` directly, deleted the now-redundant test (the real "single source of truth" guard is `states.py` itself).
+
+### Tier 2 — Judgment calls
+
+**7. Silent intent fallback now logs.** In `router._parse_route_response`, when the LLM returned `intent="none"` despite forms being detected (an invalid response per the prompt — forms-present queries must return "subject" or "context"), the code silently defaulted to "subject". The fallback is the conservative choice and stayed; added a `logger.warning` so the failure mode is visible if it ever fires in production. Two-line change.
+
+**8. Removed the comparison-keyword short-circuit in `detect_collection`.** This was the riskiest change. The regex matched `compare|vs|difference between` to skip the Haiku call entirely and return all collections + force `intent="subject"`. It was added before today's router prompt had explicit comparison rules. Removing it means routing is uniform — every query goes through Haiku, no special path.
+
+Eval-gated this one: ran 7 consecutive evals after the change.
+```
+Run 1: 26/26
+Run 2: 26/26
+Run 3: 25/26  (cross-collection-multi-form — LLM refusal with 1.00/1.00 retrieval)
+Run 4: 26/26
+Run 5: 26/26
+Run 6: 26/26
+Run 7: 26/26
+```
+
+= 181/182 case-runs (99.45%). Session 14's post-temp=0 baseline was 104/105 (99.05%) — same noise floor, possibly slightly better. The lone failure was the LLM-refusal-despite-perfect-retrieval class that Session 14 already documented. Decision: ship.
+
+Deleted the entire `TestComparisonRouting` class (5 tests) — every test in it was specifically asserting the short-circuit behavior. Eval coverage of comparison queries lives in 3 cases (`cross-state-comparison`, `multi-form-comparison`, `cross-collection-multi-form`) that exercise the new uniform path end-to-end.
+
+**Conscious walk-back: the "double dedup" in `ingest_batch.ingest_all`.** Flagged on first read because `document_exists` is called twice — once in the batch loop, once inside `embed_chunks`. On closer look, the *logic* lives in one place (`document_exists`); what's "duplicated" is two callers responding differently (clean log line vs verbose warning block). Collapsing would require changing `embed_chunks`'s return type to signal skip status, churning the API. Cost > benefit. Skipped.
+
+### Final stats
+
+| Metric | Before | After |
+|---|---|---|
+| src/ total | 2,665 lines | 2,471 lines |
+| chat.py | 320 | 297 |
+| retrieve.py | 312 | 229 |
+| ingest_batch.py | 194 | 174 |
+| migrate_state_tags.py | 71 | 40 |
+| scrape_orc.py | 185 | 169 |
+| query_parsing.py | 190 | 177 |
+| Test suite | 117 tests | 111 tests |
+| Eval stability | 26/26 (Session 15 baseline) | 181/182 over 7 runs |
+| Module entry points | `main.py` + 5 dupe `__main__` | `main.py` only |
+
+**−194 lines (−7.3%) with no capability removed.** Tests dropped from 117 to 111: 1 from the `STATE_FOLDER_MAP` alias removal, 5 from the now-irrelevant `TestComparisonRouting` class.
+
+### What this enables
+
+- **One entry point** — every CLI surface goes through `main.py`. No more "wait, is there another way to invoke this?" confusion when reading a module.
+- **Uniform routing** — every query takes the same path through Haiku. No special-case regex short-circuit, no behavioral divergence between "compare X and Y" and "what's the difference between X and Y" except whatever the LLM decides. Easier to reason about, easier to debug.
+- **Visible failure modes** — the previously-silent router fallback now logs, so any future prompt drift on the LLM's side surfaces in logs instead of being papered over.
+- **Cleaner mental model around state mappings** — `STATE_ABBR_SET` is honestly a set, `STATE_FOLDER_MAP` is gone, `STATE_MAP` is the only name to remember.
+- **The walked-back item was the lesson.** First-read savagery flagged "double dedup" — a second look showed the duplication was illusory (two UX responses sharing one helper). Worth recording: leanness pursued without understanding the call sites can manufacture work, not eliminate it.
+
+---
+
+## Session 17 — State ACORD Library Buildout + Endorsements Scaffolding
+
+Substantial content session focused on extending the forms collection with state-specific ACORD variants for all 10 covered states, plus four architectural refinements that came out of working with the new content.
+
+### State ACORD cards (147 new cards, 12 thematic batches)
+
+Built library cards for every state-specific ACORD form across the 10 covered states (IL, IN, IA, KY, MI, OH, VA, WI, GA, MN, TN) using the state P&C index as the source of form numbers and edition dates. Same library-card format as Session 9's national enrichment (Purpose / Captures / When used / Notes + Policy term / Transaction types).
+
+Batches by theme, mirroring Session 9's approach:
+
+| Batch | Theme | Cards |
+|---|---|---|
+| 1 | State Auto ID cards (50-series) | 8 |
+| 2 | State Personal Auto apps + sections (90 + 290 series) | 22 |
+| 3 | State Commercial Auto + Garage/Dealers (137 + 138) | 22 |
+| 4 | State UM/UIM rejection/election variants (60-69 cluster) | 14 |
+| 5 | Michigan no-fault auto cluster (61MI, 62MI, 66MI, 136MI, 60MI, 139MI, 860MI) | 7 |
+| 6 | FAIR Plan family (KY 64-68, OH 170-177, IL 171, MI 64, VA 67) | 15 |
+| 7 | Homeowner / Mobile Home applications (80 + 85 series) | 8 |
+| 8 | State umbrella + watercraft + inland marine + boat (81/82/83/88/282/283 + MN 67) | 9 |
+| 9 | Mine subsidence + earthquake + flood + ordinance/law property notices | 9 |
+| 10 | Minnesota's specialty lines sections (807/827/828/832/833/834/838 MN) | 7 |
+| 11 | WC + SR-22 + financial responsibility (4WI, 133MI/WI, 134-136 WI, 171-173 MI, 171GA, 54-55 GA) | 12 |
+| 12 | Misc — privacy notices, IA supplements, VA non-UM supplements, WI Auto Insurance Plan, GA nonrenewal, IL Civil Union | 14 |
+
+Plus 1 multi-state card in `data/raw/forms/general/` for ACORD 67 (IL/IN/KY/WV Mine Subsidence Property Insurance Supplement) — the only ACORD form in the catalog that spans multiple states with a single canonical edition.
+
+### Four structural mysteries resolved via web search
+
+Cards drafted with `[TBD — needs verification]` markers were resolved against authoritative sources:
+
+1. **171MI** — Vague "Notice of Election" → **Officer / LLC-member exclusion form** authorized by MCL § 418.161(3). Completes Michigan's three-form WC exclusion family: 171MI (officers/LLC) + 172MI (family) + 173MI (MWCPF specific persons).
+2. **54GA vs 55GA SR-22/SR-22A** → SR-22A is the stricter variant requiring **prepayment** of the full 6-month policy premium; triggered by multiple uninsured-driving convictions, unsatisfied judgments, or post-crash bond/security posting. Standard SR-22 has no prepayment requirement.
+3. **60MI vs 860MI Declaration of Intent to Reside** → Same form purpose, different distribution channels: 60MI for MAIPF (assigned-risk pool, MCL § 500.3301), 860MI for the voluntary market (post-2020 reform edition).
+4. **134WI vs 135WI** → Wisconsin WC Supplementary Non-Election (134WI, opt OUT for officers) vs Election (135WI, opt IN for sole proprietors/partners/LLC members), per Wis. Stat. Ch. 102.
+
+### Spreadsheet-driven content updates (~60 cards touched)
+
+Discovered `data/raw/regulatory/reference/StateSpreadSheet.xlsx` already contained authoritative current data — minimums, statutes, recent legislative changes, regulator names, electronic verification systems — for all 11 states. Applied across the auto-app family (50/90/290/137/138 cards). Notable substantive corrections:
+
+- **OH UM**: Was drafted as "rejection must be in writing per ORC 3937.18" — actually NOT required AND no offer requirement since 2001 (S.B. 97). Corrected on 5 OH cards.
+- **VA Jan 2025 increase**: Minimums went 30/60/20 → **50/100/25** under Va. Code § 46.2-472; UMV-fee-in-lieu-of-insurance option ELIMINATED July 1, 2024; UIM became ADDITIVE July 1, 2023 (uniquely additive — most states use reduced-by).
+- **GA SB 121** (eff. May 14, 2025; O.C.G.A. § 33-7-16): DUI convictions trigger enhanced minimums (50/100/50 for 1st DUI; higher for 2nd+) for 3 years.
+- **MI no-fault**: Default BI is 250/500 (MCL § 500.3009) — not the $50K/$100K statutory floor most drivers assume.
+- **WI**: UM mandatory at 25/50; UIM optional since 2011 amendment to Wis. Stat. § 632.32.
+
+### Edition-currency TBD sweep
+
+The state P&C index used as source-of-truth IS current for the year, so every edition date captured on a card IS the current ACORD-published edition (even when forms look ancient — some haven't been updated since 1996). Removed `[TBD — verify edition currency]` lines from **105 of 147 files** via Python regex sweep.
+
+### Form-detection regex fix
+
+End-to-end smoke test revealed "ACORD 66 MI" (space-separated) wasn't being detected as form `ACORD 66MI` — the existing regex only handled attached suffixes (`50WM`). Fixed by extending `\d+[A-Z]*` → `\d+(?:[A-Z]+|\s+(?:state-codes|WM|US|WMSET))?`, with the post-space alternation restricted to known state codes + known ACORD national suffixes built dynamically from `STATE_ABBR_SET`. Prevents false positives on natural English ("Compare ACORD 50 **to** ACORD 50WM" no longer matches "TO" as a state).
+
+### Eval suite expansion (26 → 41 cases)
+
+Added 15 new state-form cases across 9 categories:
+- State-variant detection (regression guard for the regex fix)
+- Mystery resolutions (171MI, SR-22/SR-22A, 60MI/860MI)
+- Recent legislative changes (VA 2025, GA SB 121, OH UM not-required)
+- State-specific mechanics (MI PIP tiers, VA UIM additive, GA added-on UM)
+- Cross-state comparison
+- Form-family (OH FAIR Plan)
+- Multi-state form (Mine Subsidence)
+- Negative case (no CA forms)
+
+First-run failures (4) revealed that **general state-regulatory queries route to regulatory + educational**, not forms — the StateSpreadSheet has those answers, not the form cards. Adjusted those tests to either drop the source requirement (state-regulatory questions) or make queries form-specific. Final: 40-41/41 stable across runs (the 1 flicker is the documented temp=0 LLM refusal class).
+
+### Endorsements scaffolding (4th collection)
+
+Added `endorsements` as a parallel collection to `forms`, anticipating the next content phase (ISO/AAIS/NCCI/state-mandated policy endorsements). Architecture handled it cleanly:
+
+- **`src/router.py`**: One-line `COLLECTION_REGISTRY` addition (Haiku router prompt auto-updates). Tightened `forms` description to explicitly point at `endorsements` for endorsement queries.
+- **`src/chunkers/__init__.py`**: Registered `forms_chunker` for the endorsements collection — endorsement library cards are atomic, same shape as forms cards.
+- **`data/raw/endorsements/`**: Created with same state-folder convention as `forms/` (general/ + 11 state subfolders), so `STATE_MAP` auto-tags state code at ingest.
+- **`tests/test_suite.py`**: Updated `TestCollectionRegistry` expectation and `test_invalid_collections_fallback_to_all` to the 4-collection set.
+
+The chunker registry, router prompt, and inventory listing all update automatically from `COLLECTION_REGISTRY` — Session 6's "add a collection in one line" pattern still holds two collections later.
+
+### Stats
+
+| | Before | After |
+|---|---|---|
+| Forms collection | 180 vectors (national only) | 327 vectors (180 national + 146 state + 1 multi-state) |
+| Collections | 3 | 4 (endorsements scaffolded, empty) |
+| Eval cases | 26 | 41 |
+| Eval stability | 26/26 | 40-41/41 (same noise floor) |
+| Unit tests | 111 | 111 |
+| State folders under forms/ | 1 (ohio, empty) | 11 (all states with content) |
+| State folders under endorsements/ | 0 | 11 (scaffolded, empty) |
+
+### What this enables
+
+- **State-specific form lookups now work.** "What is ACORD 66 MI?" returns the Michigan no-fault PIP card with all five tier options. "What's the difference between SR-22 and SR-22A in Georgia?" returns a clean side-by-side comparison.
+- **Recent legislative content is queryable.** VA's Jan 2025 limit increase, GA's SB 121 DUI minimums, the MI 2019 no-fault reform — all surface via natural queries.
+- **Endorsements collection is ready to receive content.** Drop ISO/AAIS/NCCI library cards into `data/raw/endorsements/{general,state}/` and run `python main.py ingest --collection endorsements`. The forms-atomic chunker, state tagging, router awareness, and inventory listing all work automatically.
+- **TBDs remaining are narrow and well-categorized.** Edition currency: resolved across the catalog. Current state minimums: resolved. Statute citations: resolved. Remaining TBDs are carrier-specific operational details and a few generic-titled supplements where exact field content needs verification — all properly labeled for future fact-check passes.

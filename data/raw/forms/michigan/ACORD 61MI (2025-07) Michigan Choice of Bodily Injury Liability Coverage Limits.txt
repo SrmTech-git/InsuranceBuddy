@@ -1,0 +1,43 @@
+ACORD 61MI (2025-07) — Michigan Choice of Bodily Injury Liability Coverage Limits
+==================================================================================
+Form number: ACORD 61MI
+Edition: 2025-07
+Title: Michigan Choice of Bodily Injury Liability Coverage Limits
+Type: Insurance form (ACORD industry standard, Michigan state variant)
+States: MI
+Policy term: Matches the underlying auto policy term (typically 6 or 12 months); election persists until changed in writing
+Transaction types: New business (BI limits selection required); change of BI limits
+
+Purpose:
+Captures the Michigan insured's selection of Bodily Injury (BI)
+Residual Liability coverage limits. Post-2019 no-fault reform
+(effective July 2, 2020) introduced choices for residual liability
+limits that drivers can carry in addition to mandatory PIP and PPI.
+This form documents the insured's affirmative selection of BI limits,
+including any election to keep the statutory default minimum versus a
+higher limit.
+
+Captures:
+- Description of available BI limit options (e.g., 50/100, 100/300,
+  250/500, 500/1000)
+- Description of the statutory default minimum BI limit
+- Insured's selection of BI per-person / per-accident limits
+- Disclosure that BI residual liability covers claims by injured third
+  parties beyond what PIP / PPI cover
+- Insured signature and date
+
+When used:
+- New Michigan auto submission — BI limits selection required as part
+  of post-reform coverage menu
+- Renewal where BI limits are being modified
+- Midterm endorsement changing BI limits
+
+Notes:
+- Post-2019 no-fault reform: Michigan moved from a single statutory
+  BI minimum to a default with multiple selectable higher options
+- BI residual liability is distinct from PIP (which covers the
+  insured's own injuries) and from PPI (which covers property damage
+  to others' real property only, not vehicles)
+- Companion forms: 90MI (Personal Auto App), 66MI (PIP Medical
+  Selection — Individual), 62MI (Collision Options)
+- [TBD — verify current statutory default Michigan BI minimum limits]

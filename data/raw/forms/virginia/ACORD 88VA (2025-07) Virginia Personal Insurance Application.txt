@@ -1,0 +1,46 @@
+ACORD 88VA (2025-07) — Virginia Personal Insurance Application
+===============================================================
+Form number: ACORD 88VA
+Edition: 2025-07
+Title: Virginia Personal Insurance Application
+Type: Insurance form (ACORD industry standard, Virginia state variant)
+States: VA
+Policy term: Matches the personal lines policies being underwritten (typically 6 or 12 months)
+Transaction types: New business, renewal, changes to applicant identity / household composition
+
+Purpose:
+Virginia-specific Applicant Information Section. The modular ACORD
+personal lines submission package starts with the 88 series for
+applicant identity, then pairs with line-of-business section forms
+(290VA auto, 282MN watercraft, 283VA umbrella, etc.). Captures
+universal applicant identity that the line-of-business sections
+don't need to duplicate.
+
+Captures:
+- Producer / agency information
+- Applicant identity: name, address (mailing and physical),
+  DOB, SSN (last 4 typical), marital status, occupation, employer,
+  contact (phone, email)
+- Spouse / domestic partner identity
+- Resident household members (relationship, age)
+- Prior addresses (typically 3-5 years for fraud / claim history)
+- General Virginia-required personal lines disclosures
+- Authorization to obtain consumer reports (credit, MVR, CLUE)
+- Fraud statement and applicant signature
+
+When used:
+- Any personal lines submission in Virginia using ACORD's modular
+  section system — paired with the appropriate line-of-business
+  section (290VA auto, 283VA umbrella, etc.)
+- Renewal where applicant identity has changed
+- Initial onboarding submission across multiple personal lines policies
+
+Notes:
+- 88VA is the Virginia-adapted version of national ACORD 88
+- Companion line-of-business sections in Virginia:
+  290VA (Personal Auto Application Section), 283VA (Personal
+  Umbrella Application Section), 81VA (Personal Inland Marine)
+- Used when an agency prefers the modular 88 + section structure over
+  standalone full applications (e.g., 90VA, 83VA)
+- [TBD — verify Virginia-specific personal lines disclosure
+  requirements vs national ACORD 88 content]

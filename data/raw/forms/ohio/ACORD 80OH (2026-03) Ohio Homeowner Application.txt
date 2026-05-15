@@ -1,0 +1,56 @@
+ACORD 80OH (2026-03) — Ohio Homeowner Application
+==================================================
+Form number: ACORD 80OH
+Edition: 2026-03
+Title: Ohio Homeowner Application
+Type: Insurance form (ACORD industry standard, Ohio state variant)
+States: OH
+Policy term: 12 months (typical for homeowners)
+Transaction types: New business, renewal, midterm change
+
+Purpose:
+Standalone application for a homeowners policy in Ohio. Captures
+applicant, dwelling, coverages, underwriting questions, and Ohio-
+required disclosures needed to underwrite and issue an HO policy.
+State-specific variant of national ACORD 80.
+
+Captures:
+- Producer / agency information
+- Applicant: name, address, DOB, contact, occupation
+- Property location and address
+- Property description: construction type, year built, square footage,
+  number of stories, roof type and age, heating, electrical, plumbing,
+  foundation type (basement common in Ohio)
+- Protection class (PPC)
+- Occupancy: primary / secondary / seasonal
+- Coverage form: HO-2 / HO-3 (typical) / HO-5 / HO-6 / HO-8
+- Coverage A through F at selected limits
+- Deductible selected
+- Discounts: multi-policy, alarm, smoke detectors, age, claim-free
+- Endorsements: scheduled personal property, water backup, sewer/drain,
+  service line, equipment breakdown
+- Mine subsidence (Ohio coal-mining counties — see companion 67OH
+  Mine Subsidence Homeowners and Dwelling Supplement and 68OH Offer
+  of Mine Subsidence)
+- Mortgagee / loss payee information
+- Prior insurance carrier and lapse history
+- Loss history
+- Underwriting questions: dogs, pools, business use, woodstoves
+- Ohio-required disclosures and acknowledgments
+- Fraud statement and applicant signature
+
+When used:
+- New business — applying for an Ohio homeowners policy
+- Renewal where the carrier requires a fresh application
+- Adding endorsements or scheduled property
+- Midterm changes that require fresh underwriting
+
+Notes:
+- Ohio has a robust mine subsidence program for properties in former
+  coal-mining counties — see companion forms 67OH (Mine Subsidence
+  Homeowners and Dwelling Supplement) and 68OH (Offer of Mine
+  Subsidence Coverage)
+- Water/sewer backup is a notable Ohio coverage consideration given
+  older municipal infrastructure in many cities
+- [TBD — verify current Ohio homeowners minimum liability requirements
+  and any state-mandated endorsements]

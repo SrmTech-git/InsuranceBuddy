@@ -1,0 +1,57 @@
+ACORD 80KY (2026-03) — Kentucky Homeowner Application
+======================================================
+Form number: ACORD 80KY
+Edition: 2026-03
+Title: Kentucky Homeowner Application
+Type: Insurance form (ACORD industry standard, Kentucky state variant)
+States: KY
+Policy term: 12 months (typical for homeowners)
+Transaction types: New business, renewal, midterm change
+
+Purpose:
+Standalone application for a homeowners policy in Kentucky. Captures
+applicant, dwelling, coverages, underwriting questions, and Kentucky-
+required disclosures needed to underwrite and issue an HO policy.
+State-specific variant of national ACORD 80.
+
+Captures:
+- Producer / agency information
+- Applicant: name, address, DOB, contact, occupation
+- Property location and address
+- Property description: construction type, year built, square footage,
+  number of stories, roof type and age, heating type and age, electrical,
+  plumbing, foundation
+- Protection class (PPC)
+- Occupancy: primary / secondary / seasonal
+- Coverage form: HO-2 / HO-3 (typical) / HO-5 / HO-6 / HO-8
+- Coverage A (Dwelling) through Coverage F (Medical Payments)
+- Deductible selected
+- Discounts: multi-policy, alarm, smoke detectors, age, claim-free
+- Endorsements: scheduled personal property, water backup,
+  earthquake (Kentucky's western counties are in the New Madrid
+  Seismic Zone — earthquake coverage is a notable consideration)
+- Mortgagee / loss payee information
+- Prior insurance carrier and lapse history
+- Loss history (typically 5 years)
+- Underwriting questions: dogs, pools, business use, woodstoves
+- Mine subsidence acknowledgment (Kentucky has mining history in
+  several counties — see companion 67KY-equivalent or the multi-state
+  ACORD 67 Mine Subsidence Supplement)
+- Kentucky-required disclosures and acknowledgments
+- Fraud statement and applicant signature
+
+When used:
+- New business — applying for a Kentucky homeowners policy
+- Renewal where the carrier requires a fresh application
+- Adding endorsements or scheduled property
+- Midterm changes that require fresh underwriting
+
+Notes:
+- Kentucky's western counties lie within the New Madrid Seismic Zone —
+  earthquake endorsement is a meaningful consideration not present in
+  most non-quake states
+- Kentucky is one of four states in the multi-state ACORD 67 Mine
+  Subsidence Supplement (IL/IN/KY/WV) — mine subsidence is a relevant
+  Kentucky homeowner exposure in former mining counties
+- [TBD — verify current Kentucky homeowners minimum liability requirements
+  and any state-mandated endorsements]

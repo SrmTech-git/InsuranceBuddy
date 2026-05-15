@@ -1,0 +1,62 @@
+ACORD 90WI (2015-12) — Wisconsin Personal Auto Application
+===========================================================
+Form number: ACORD 90WI
+Edition: 2015-12
+Title: Wisconsin Personal Auto Application
+Type: Insurance form (ACORD industry standard, Wisconsin state variant)
+States: WI
+Policy term: 6 months (typical for personal auto); 12-month terms also issued depending on carrier
+Transaction types: New business; renewal applications (where required); adding driver/vehicle; significant midterm changes
+
+Purpose:
+Standalone application for a personal auto policy in Wisconsin. Captures
+the applicant, drivers, vehicles, coverages, and state-required
+disclosures needed to underwrite, bind, and issue a Wisconsin auto
+policy under Wisconsin's compulsory auto insurance statute (Wis. Stat.
+§ 632.32).
+
+Captures:
+- Producer / agency information
+- Applicant: name, address, DOB, marital status, occupation, contact
+- Driver list: license number/status, DOB, marital status, occupation
+- Driver history (typically 3-5 years): accidents, violations, suspensions
+- Vehicle list: VIN, year/make/model, body type, garaging address
+- Vehicle use: pleasure / commute / business, annual mileage
+- Lienholder / additional interest information
+- Coverages: BI, PD, UM (mandatory), UIM (where offered), MedPay,
+  comp, coll
+- Deductibles (comp and coll)
+- Optional coverages
+- Discounts claimed
+- Prior insurance carrier and lapse history
+- Loss history
+- Wisconsin-required disclosures and acknowledgments
+- Fraud statement and applicant signature
+
+When used:
+- New business — applying for a Wisconsin personal auto policy
+- Renewal applications (where required)
+- Adding a driver or vehicle to an existing Wisconsin policy
+- Midterm changes that require fresh underwriting
+
+Notes:
+- Wisconsin moved from financial responsibility to compulsory auto
+  insurance in 2010 under Wis. Stat. § 632.32
+- Wisconsin requires UM coverage; UIM is offered but may be rejected
+- Section version (290WI) drops applicant identity in favor of ACORD 88
+- Wisconsin minimum liability limits: 25/50/10 (Wis. Stat. § 344.15) —
+  PD minimum $10K is the LOWEST in the spreadsheet
+- Wisconsin UM: MANDATORY at 25/50 minimum; cannot be waived
+  (Wis. Stat. § 632.32(4)). UM covers BI only — not property damage.
+- Wisconsin UIM: NOT mandatory (since 2011 amendments to § 632.32);
+  insurer must NOTIFY policyholder UIM is available; insured may
+  reject in writing. If purchased, minimum 50/100.
+- WI is at-fault with MODIFIED COMPARATIVE NEGLIGENCE (50% bar)
+  (Wis. Stat. § 895.045) — slightly different from MN's 51% bar
+- Primary statutes: Wis. Stat. § 344.15 (minimums), § 632.32 (UM
+  mandatory, UIM optional since 2011, MedPay must offer), § 631.36
+  (cancellation/non-renewal); Wis. Admin. Code Ch. Ins 6
+- State regulator: Wisconsin Office of the Commissioner of Insurance
+  (OCI); WisDOT DMV handles SR-22 filings and Safety Responsibility
+  Law enforcement
+- Electronic verification: WisDOT Safety Responsibility system

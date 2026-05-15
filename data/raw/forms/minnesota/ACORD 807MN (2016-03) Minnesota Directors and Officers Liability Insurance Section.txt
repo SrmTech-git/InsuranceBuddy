@@ -1,0 +1,58 @@
+ACORD 807MN (2016-03) — Minnesota Directors & Officers Liability Insurance Section
+===================================================================================
+Form number: ACORD 807MN
+Edition: 2016-03
+Title: Minnesota Directors & Officers Liability Insurance Section
+Type: Insurance form (ACORD industry standard, Minnesota state variant)
+States: MN
+Policy term: 12 months (typical for D&O — claims-made)
+Transaction types: New business, renewal, midterm change (M&A activity, capital structure changes)
+
+Purpose:
+Minnesota-specific section for Directors & Officers (D&O) Liability
+coverage. Captures the underwriting information needed to underwrite
+a D&O policy — covering individual directors, officers, and (depending
+on coverage) the company itself, for "wrongful acts" in their
+capacity as such. Used alongside national ACORD 125 (Commercial
+Applicant Information Section) as the line-of-business section.
+
+Captures:
+- Insured entity information (corporate name, FEIN, ownership)
+- Entity type: public (SEC-reporting), private, non-profit, financial
+  institution
+- Industry / SIC / NAICS classification
+- Financial information: revenue, total assets, net worth
+- Subsidiaries and ownership percentages
+- Number of directors and officers
+- D&O coverage selections:
+  * Side A — coverage for individual D&Os when the company cannot
+    indemnify (e.g., bankruptcy, derivative suits, prohibited by law)
+  * Side B — reimbursement to company for indemnifying D&Os
+  * Side C — entity coverage for the company itself (typically
+    securities claims for public companies)
+- Limits and retention selected
+- Defense outside or inside policy limits selection
+- Prior D&O coverage carrier(s), limits, retro date
+- Prior claims history (D&O claims, regulatory actions)
+- Underwriting questions: prior bankruptcy, pending litigation,
+  pending M&A activity, IPO plans, recent stock listing status,
+  going-concern issues
+- Minnesota-required disclosures and acknowledgments
+- Authorized signatory and date
+
+When used:
+- New Minnesota D&O submission — section attached to ACORD 125
+- Renewal where D&O coverage is being modified
+- Reporting significant entity changes affecting D&O exposure
+  (M&A, IPO, going public, governance changes)
+
+Notes:
+- D&O is claims-made coverage — retro date and prior-acts coverage
+  matter significantly for continuity
+- Companion to ACORD 125 (Commercial Applicant Info)
+- Public-company D&O (with Side C entity coverage) is more complex
+  underwriting than private/non-profit D&O
+- Subset of related management liability forms: 827MN (EPLI),
+  828MN (Fiduciary), 832MN (Misc E&O); often packaged together
+- [TBD — verify Minnesota-specific D&O disclosure requirements vs
+  the national ACORD 807]

@@ -1,0 +1,43 @@
+ACORD 67OH (2009-07) — Ohio Mine Subsidence Homeowners and Dwelling Supplement
+===============================================================================
+Form number: ACORD 67OH
+Edition: 2009-07
+Title: Ohio Mine Subsidence Homeowners and Dwelling Supplement
+Type: Insurance form (ACORD industry standard, Ohio state variant)
+States: OH
+Policy term: Matches the underlying property policy (typically 12 months); election persists until changed in writing
+Transaction types: New business (mine subsidence supplement); change in coverage; election change at renewal
+
+Purpose:
+Ohio-specific supplement to a homeowners or dwelling fire policy
+adding Mine Subsidence Insurance coverage for property damage caused
+by collapse of underground mines. Ohio's mine subsidence program
+covers historical coal-mining counties in southeastern, eastern, and
+parts of central Ohio where underground mining occurred.
+
+Captures:
+- Property location and county (Ohio mine subsidence eligibility is
+  county-specific based on historical mining activity)
+- Property type (owner-occupied dwelling, dwelling fire / rental)
+- Coverage details: coverage amount, deductible
+- Insured election to accept mine subsidence coverage
+- Statutorily required disclosures
+- Insured signature and date
+
+When used:
+- New Ohio HO or dwelling fire policy in an eligible mining county
+- Renewal where the mine subsidence coverage is being added/modified
+- Reporting property changes
+
+Notes:
+- Ohio operates the Ohio Mine Subsidence Insurance Underwriting
+  Association (or successor pool) — provides state-administered
+  mine subsidence coverage [TBD verify exact administrator name]
+- Coverage typically capped at a statutory maximum (similar to other
+  state pools)
+- Companion form: 68OH (Offer of Mine Subsidence) — used when the
+  carrier is making the mandatory offer to the insured
+- The 2009-07 edition is older; [TBD — verify whether this is still
+  the current ACORD-published edition]
+- [TBD — verify current Ohio mine subsidence coverage caps and county
+  eligibility list]

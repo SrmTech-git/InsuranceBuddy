@@ -1,0 +1,58 @@
+ACORD 133WI (2010-04) — Wisconsin Workers Compensation Insurance Pool
+======================================================================
+Form number: ACORD 133WI
+Edition: 2010-04
+Title: Wisconsin Workers Compensation Insurance Pool
+Type: Insurance form (ACORD industry standard, Wisconsin state variant)
+States: WI
+Policy term: 12 months (typical for WC; subject to audit)
+Transaction types: New business (Pool submission), renewal, midterm change
+
+Purpose:
+Application for Workers' Compensation coverage through the Wisconsin
+Workers Compensation Insurance Pool — Wisconsin's residual market /
+assigned-risk facility for employers unable to obtain WC coverage in
+the voluntary market. The Pool is administered by the Wisconsin
+Compensation Rating Bureau (WCRB).
+
+Captures:
+- Employer information (named insured, FEIN, business structure)
+- Business description, operations, NAICS / SIC
+- Years in business, number of employees
+- Locations
+- Payroll by NCCI / Wisconsin classification:
+  * Class code
+  * Class description
+  * Annual payroll
+  * Number of employees
+- Officer / owner / partner inclusion or exclusion elections (see
+  companion 134WI and 135WI for election/non-election forms)
+- Subcontractor exposure
+- Prior carrier(s) and reasons for voluntary-market denial (required
+  for Pool submission)
+- Experience modification factor
+- 3-5 year loss history
+- Safety programs, drug testing, return-to-work
+- Other states coverage needed (see companion 136WI)
+- Pool-specific disclosures and acknowledgments
+- Authorized signatory and date
+
+When used:
+- New Wisconsin WC submission to the Pool after voluntary-market denial
+- Renewal of existing Pool coverage
+- Reporting significant exposure changes
+
+Notes:
+- Wisconsin WC Insurance Pool is administered by the Wisconsin
+  Compensation Rating Bureau (WCRB) — Wisconsin's WC rating
+  organization and Pool administrator
+- WC in Wisconsin is governed by Wis. Stat. Ch. 102; the DWD
+  Worker's Compensation Division administers state WC law
+- Pool submission typically requires documentation of voluntary-
+  market denials (usually 2+ rejections)
+- Companion forms:
+  * 134WI / 135WI — Election supplements (officer/owner coverage
+    elections)
+  * 136WI — Other States Coverage Request
+  * 4WI — Employers First Report of Injury or Disease (FROI)
+- [TBD — verify current WCRB Pool submission requirements]

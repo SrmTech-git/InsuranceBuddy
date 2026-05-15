@@ -1,0 +1,50 @@
+ACORD 290KY (2015-09) — Kentucky Personal Auto Application Section
+===================================================================
+Form number: ACORD 290KY
+Edition: 2015-09
+Title: Kentucky Personal Auto Application Section
+Type: Insurance form (ACORD industry standard, Kentucky state variant)
+States: KY
+Policy term: Matches the underlying personal auto policy term (typically 6 or 12 months)
+Transaction types: New business, renewal, midterm change — used as the auto-specific section in a modular ACORD application package
+
+Purpose:
+Auto-specific section of a personal auto application in Kentucky. Used
+in combination with ACORD 88 (Personal Insurance Application —
+Applicant Information Section), which captures applicant identity. The
+290KY holds the auto-specific data needed to underwrite a Kentucky
+auto policy under Kentucky's Motor Vehicle Reparations Act (KRS 304.39).
+
+Captures:
+- Drivers: license number/status, DOB, marital status, occupation,
+  3-5 year violation/accident history
+- Vehicles: VIN, year/make/model, body type, garaging address
+- Vehicle use: pleasure / commute / business, annual mileage
+- Lienholder / additional interest information
+- Coverages: BI, PD, UM/UIM, PIP (no-fault), MedPay, comp, coll
+- PIP / no-fault election (default applies; insured may reject the
+  no-fault tort threshold in writing)
+- Deductibles (comp and coll)
+- Optional coverages and discounts
+- Prior insurance carrier and lapse history
+- Loss history
+- Kentucky-required disclosures and acknowledgments
+- Fraud statement and applicant signature
+(NOTE: Applicant identity is captured on ACORD 88, not duplicated here)
+
+When used:
+- New business — when the agency uses ACORD's modular section system
+  (88 + 290KY) rather than the standalone full app (90KY)
+- Renewal where the carrier requires fresh auto-section data while
+  reusing applicant info from 88
+- Adding a vehicle or driver to an existing modular-section policy
+
+Notes:
+- Kentucky minimum liability limits: 25/50/25 split (or $60K CSL)
+- Kentucky is a "choice no-fault" state — PIP mandatory by default at
+  $10,000 (KRS § 304.39-020); insured may reject no-fault tort
+  threshold in writing (KRS § 304.39-060)
+- Kentucky UM/UIM: must OFFER; rejectable in writing (KRS § 304.20-020)
+- Primary statutes: KRS 304 (Insurance), KRS 304.39 (MVRA), KRS 186A
+- State regulator: Kentucky Department of Insurance (KDI)
+- Use 290KY with ACORD 88; use 90KY standalone

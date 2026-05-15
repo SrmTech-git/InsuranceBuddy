@@ -1,0 +1,47 @@
+ACORD 61WI (2025-02) — Wisconsin Auto Supplement
+=================================================
+Form number: ACORD 61WI
+Edition: 2025-02
+Title: Wisconsin Auto Supplement
+Type: Insurance form (ACORD industry standard, Wisconsin state variant)
+States: WI
+Policy term: Matches the underlying auto policy term; elections persist until changed in writing
+Transaction types: New business (Wisconsin-required disclosures and elections); change to coverages or limits
+
+Purpose:
+General-purpose Wisconsin auto supplement attached to personal and
+commercial auto submissions. Captures Wisconsin-specific disclosures
+and coverage elections required under Wisconsin's compulsory auto
+insurance statute (Wis. Stat. § 632.32), including UM (mandatory)
+and UIM (offered) selections.
+
+Captures:
+- UM coverage selection at statutory minimum or higher selected limits
+  (UM is mandatory in Wisconsin)
+- UIM coverage offer / selection / rejection (UIM is offered; insured
+  may reject in writing)
+- Medical Payments coverage selection (where applicable)
+- Other Wisconsin-required disclosures and acknowledgments
+- Insured signature and date
+
+When used:
+- New Wisconsin auto submission — UM/UIM selection and disclosures
+  required
+- Renewal where UM/UIM or other Wisconsin-specific coverages are being
+  modified
+- Midterm change
+
+Notes:
+- Wisconsin moved from financial responsibility to compulsory auto
+  insurance in 2010 — UM coverage is mandatory; UIM is offered but
+  may be rejected
+- [TBD — verify the exact content of this generic-titled "Wisconsin Auto
+  Supplement"; the title does not name specific coverages so the form
+  may cover UM/UIM + MedPay + other Wisconsin statutory disclosures.
+  Confirm exact scope on the actual ACORD-published form.]
+- Wisconsin UM MANDATORY at 25/50 (Wis. Stat. § 632.32(4)); cannot be
+  waived. UM covers BI only — not property damage.
+- Wisconsin UIM: NOT mandatory (since 2011 amendments to § 632.32);
+  insurer must NOTIFY policyholder UIM is available; insured may
+  reject in writing. If purchased, minimum 50/100.
+- Wisconsin liability minimums: 25/50/10 (§ 344.15)

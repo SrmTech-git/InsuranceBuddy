@@ -1,0 +1,75 @@
+ACORD 90MI (2020-07) — Michigan Personal Auto Application
+==========================================================
+Form number: ACORD 90MI
+Edition: 2020-07
+Title: Michigan Personal Auto Application
+Type: Insurance form (ACORD industry standard, Michigan state variant)
+States: MI
+Policy term: 6 months (typical for personal auto); 12-month terms also issued depending on carrier
+Transaction types: New business; renewal applications (where required); adding driver/vehicle; significant midterm changes
+
+Purpose:
+Standalone application for a personal auto policy in Michigan — the
+most complex state auto app in the country due to Michigan's no-fault
+system. Captures the applicant, drivers, vehicles, coverages, and the
+PIP medical tier selection required under Michigan's no-fault statute
+(MCL 500.3101 et seq., as amended by the 2019 no-fault reform).
+
+Captures:
+- Producer / agency information
+- Applicant: name, address, DOB, marital status, occupation, contact
+- Driver list: license number/status, DOB, marital status, occupation,
+  qualifying health coverage (Medicare/Medicaid) for PIP-tier eligibility
+- Driver history (typically 3-5 years): accidents, violations, suspensions
+- Vehicle list: VIN, year/make/model, body type, garaging address
+- Vehicle use: pleasure / commute / business, annual mileage
+- Lienholder / additional interest information
+- Coverages: BI/PD (Residual Liability), PIP medical (tier selection),
+  PIP non-medical (wage loss / replacement services / survivor),
+  PPI (Property Protection Insurance — $1M statutory), UM/UIM,
+  comp, coll, optional coverages
+- PIP medical tier choice: Medicaid-only opt-out (with proof),
+  $50K (qualifying Medicare/health-plan coverage), $250K, $500K,
+  or unlimited
+- Discounts claimed
+- Prior insurance carrier, prior limits, lapse history
+- Loss history
+- Michigan-required disclosures and acknowledgments
+- Fraud statement and applicant signature
+
+When used:
+- New business — applying for a Michigan personal auto policy
+- Renewal applications (where required)
+- Adding a driver or vehicle to an existing Michigan policy
+- Anytime the PIP medical tier selection is being made or changed
+- Midterm changes that require fresh underwriting
+
+Notes:
+- The 2020-07 edition is the first major edition issued AFTER the July 2,
+  2020 effective date of Michigan's no-fault reform, so it incorporates
+  PIP-tier disclosure language
+- Companion forms typically completed alongside this app:
+  - 61MI — Choice of Bodily Injury Liability Coverage Limits
+  - 62MI — Collision Insurance Options Notice
+  - 66MI — Selection of PIP Medical Coverage (Individual)
+  - 60MI — MAIPF Declaration of Intent to Reside (where assigned-risk)
+  - 860MI — Auto Supplement Declaration of Intent to Reside
+- Michigan Catastrophic Claims Association (MCCA) per-vehicle assessment
+  applies to policies with unlimited or higher PIP medical tiers
+- Section version (290MI) drops applicant identity in favor of ACORD 88
+- Michigan default BI limits: 250/500 DEFAULT (MCL § 500.3009).
+  Statutory floor: 50/100 — but policy defaults to 250/500 unless
+  insured signs DIFS-approved BI form to select lower limits.
+- Michigan minimum PD: $10K — same as MN, one of the lowest in the U.S.
+  But Michigan also requires SEPARATE Property Protection Insurance
+  (PPI) of $1,000,000 for damage to stationary property (buildings,
+  parked cars) — unique to MI no-fault.
+- Michigan UM/UIM is NOT REQUIRED — optional. Insurer must offer, but
+  insured may decline. Critical gap if insured chooses low BI limits
+  ($50K/$100K) without UIM.
+- Primary statutes: MCL § 500.3101-3179 (Michigan No-Fault Act),
+  § 500.3009 (liability minimums), § 500.3107c-d (PIP options),
+  § 500.3020/.2123/.3224 (cancellation/non-renewal)
+- State insurance regulator: Michigan Department of Insurance and
+  Financial Services (DIFS). Michigan Secretary of State handles
+  licensing/registration (no DMV).

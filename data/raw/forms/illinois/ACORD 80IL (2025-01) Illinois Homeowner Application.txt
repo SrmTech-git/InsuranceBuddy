@@ -1,0 +1,58 @@
+ACORD 80IL (2025-01) — Illinois Homeowner Application
+======================================================
+Form number: ACORD 80IL
+Edition: 2025-01
+Title: Illinois Homeowner Application
+Type: Insurance form (ACORD industry standard, Illinois state variant)
+States: IL
+Policy term: 12 months (typical for homeowners)
+Transaction types: New business, renewal, midterm change (coverage modification, mortgagee change, scheduled item additions)
+
+Purpose:
+Standalone application for a homeowners policy in Illinois. Captures
+applicant, dwelling, coverages, underwriting questions, and Illinois-
+required disclosures needed to underwrite and issue an HO policy in
+the voluntary market. State-specific variant of national ACORD 80.
+
+Captures:
+- Producer / agency information
+- Applicant: name, address, DOB, contact, occupation
+- Property location and address (insured location)
+- Property description: construction type, year built, square footage,
+  number of stories, roof type and age, heating type and age, electrical
+  type and age, plumbing type and age, foundation type
+- Protection class (PPC) — distance to fire hydrant and responding station
+- Occupancy: primary / secondary / seasonal
+- Coverage form: HO-2 (broad), HO-3 (special — typical), HO-5
+  (comprehensive), HO-6 (condo), HO-8 (older homes)
+- Coverage A (Dwelling), B (Other Structures — typically 10% of A),
+  C (Personal Property — typically 50% of A), D (Loss of Use),
+  E (Personal Liability), F (Medical Payments to Others)
+- Deductible selected (all perils and any peril-specific)
+- Discounts: multi-policy, monitored alarm, central station,
+  fire/smoke alarms, deadbolts, gated community, new home, age 55+,
+  claim-free
+- Endorsements: scheduled personal property, water backup, identity
+  theft, service line, equipment breakdown
+- Mortgagee / loss payee information
+- Prior insurance carrier and lapse history
+- Loss history (typically 5 years)
+- Underwriting questions: dog breed/bite history, pools/trampolines,
+  business use of premises, daycare operations, woodstoves/space heaters
+- Illinois-required disclosures and acknowledgments
+- Fraud statement and applicant signature
+
+When used:
+- New business — applying for an Illinois homeowners policy
+- Renewal where the carrier requires a fresh application (uncommon)
+- Adding endorsements or scheduled property to an existing policy
+- Significant midterm changes that require fresh underwriting
+
+Notes:
+- Illinois homeowners is a standard market — no unusual state
+  mechanics beyond typical statutory disclosures
+- Wind/hail is a covered peril without separate deductible (unlike
+  some coastal states)
+- [TBD — verify current Illinois Department of Insurance disclosure
+  requirements and whether any state-specific endorsements are now
+  mandatory]

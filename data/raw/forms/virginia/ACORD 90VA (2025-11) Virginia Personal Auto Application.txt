@@ -1,0 +1,72 @@
+ACORD 90VA (2025-11) — Virginia Personal Auto Application
+==========================================================
+Form number: ACORD 90VA
+Edition: 2025-11
+Title: Virginia Personal Auto Application
+Type: Insurance form (ACORD industry standard, Virginia state variant)
+States: VA
+Policy term: 6 months (typical for personal auto); 12-month terms also issued depending on carrier
+Transaction types: New business; renewal applications (where required); adding driver/vehicle; significant midterm changes
+
+Purpose:
+Standalone application for a personal auto policy in Virginia. Captures
+the applicant, drivers, vehicles, coverages, and the Virginia-specific
+UM elections needed to underwrite, bind, and issue a Virginia auto
+policy.
+
+Captures:
+- Producer / agency information
+- Applicant: name, address, DOB, marital status, occupation, contact
+- Driver list: license number/status, DOB, marital status, occupation
+- Driver history (typically 3-5 years): accidents, violations, suspensions
+- Vehicle list: VIN, year/make/model, body type, garaging address
+- Vehicle use: pleasure / commute / business, annual mileage
+- Lienholder / additional interest information
+- Coverages: BI, PD, UM/UIM (and Virginia-specific UM elections),
+  MedPay, comp, coll, optional medical and disability coverage
+- Deductibles (comp and coll)
+- Optional coverages: rental reimbursement, towing, etc.
+- Discounts claimed
+- Prior insurance carrier and lapse history
+- Loss history
+- Virginia-required disclosures and acknowledgments
+- Fraud statement and applicant signature
+
+When used:
+- New business — applying for a Virginia personal auto policy
+- Renewal applications (where required)
+- Adding a driver or vehicle to an existing Virginia policy
+- Midterm changes that require fresh underwriting
+
+Notes:
+- Virginia minimum liability limits: 50/100/25 — INCREASED Jan 1, 2025
+  (was 30/60/20) under Va. Code § 46.2-472. Applies to all policies
+  issued/renewed on or after Jan 1, 2025.
+- Virginia UMV-fee-in-lieu-of-insurance option ELIMINATED July 1, 2024
+  — insurance is now mandatory for all VA drivers
+- Virginia UM/UIM REQUIRED, must MATCH liability limits (Va. Code
+  § 38.2-2206); cannot be waived without specific written rejection.
+  MAJOR 2023 CHANGE: VA UIM now STACKS ADDITIVELY on top of at-fault
+  driver's BI limits (eff. July 1, 2023) — distinct from most states'
+  reduced-by structure. Example: at-fault has $25K BI, insured has
+  $100K UIM = $125K total available.
+- VA fault system: At-fault with STRICT CONTRIBUTORY NEGLIGENCE — if
+  insured is even 1% at fault, recovery from other driver may be
+  completely barred. One of only 4 states still using pure contributory
+  negligence — makes UM/UIM critically important.
+- Companion VA UM forms: 65VA (notice), 66VA (UIM reduction election),
+  68VA (UM alternative selection), 69VA (UM selection/rejection)
+- Companion forms commonly used alongside this app:
+  - 38VA — Notice of Information Practices (Privacy)
+  - 60VA — Rental Reimbursement Coverage supplement
+  - 61VA — Optional Medical and Disability Coverage notice
+  - 65VA — Notice Regarding UM Coverage
+  - 66VA — Election to Reduce UIM
+  - 68VA — UM Alternative Coverage Selection
+  - 69VA — UM Coverage Selection/Rejection
+- Section version (290VA) drops applicant identity in favor of ACORD 88
+- Primary statutes: Va. Code Title 38.2 (Insurance), § 38.2-2206 (UM/UIM),
+  § 46.2-472 (minimum limits), § 38.2-2212 (cancellation/non-renewal),
+  14 VAC 5-400 (claims handling regulations)
+- State regulator: Virginia Bureau of Insurance under the State
+  Corporation Commission (SCC) — not a standalone Department of Insurance

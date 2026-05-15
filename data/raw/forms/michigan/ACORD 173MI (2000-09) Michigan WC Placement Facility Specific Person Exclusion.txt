@@ -1,0 +1,50 @@
+ACORD 173MI (2000-09) — Michigan WC Placement Facility Specific Person Exclusion
+=================================================================================
+Form number: ACORD 173MI
+Edition: 2000-09
+Title: Michigan WC Placement Facility Specific Person Exclusion
+Type: Insurance form (ACORD industry standard, Michigan state variant)
+States: MI
+Policy term: Matches the underlying MWCPF WC policy term (typically 12 months); exclusion persists until revoked in writing
+Transaction types: New MWCPF business (exclusion election), renewal, change in person status
+
+Purpose:
+Michigan Workers' Compensation Placement Facility (MWCPF) form
+documenting the exclusion of a specific person from a WC policy
+issued through the Placement Facility — Michigan's WC residual
+market / assigned-risk pool. The MWCPF allows exclusion of specific
+named individuals from coverage (typically owners, officers, family
+members, or independent contractors); this form captures that
+exclusion.
+
+Captures:
+- Employer (named insured) information
+- MWCPF policy number
+- Excluded individual's name and role
+- Statement that the excluded individual will not be entitled to WC
+  benefits under the policy if injured
+- Statement that the excluded individual's payroll will not be
+  included in the WC premium calculation
+- Excluded individual's signature acknowledging the exclusion and
+  its consequences
+- Employer / authorized signatory and date
+- MWCPF-specific underwriting acknowledgments
+
+When used:
+- New MWCPF submission where specific persons are being excluded
+- Renewal where exclusions are being maintained or modified
+- Midterm change when person's status changes
+
+Notes:
+- MWCPF = Michigan Workers' Compensation Placement Facility — the
+  state's residual market / assigned-risk WC pool for employers
+  unable to obtain coverage in the voluntary market
+- Distinct from voluntary-market exclusions captured on 172MI
+  (Application for Exclusion of Partner(s), Spouse, Child or Parent)
+  — 173MI is the MWCPF version, 172MI is the voluntary-market version
+- Companion forms: 133MI (MI WC Application), 172MI (voluntary
+  exclusion form)
+- The 2000-09 edition is older; [TBD — verify whether this is still
+  the current ACORD-published edition or has been superseded]
+- [TBD — verify current MWCPF exclusion procedures and statutory
+  framework]

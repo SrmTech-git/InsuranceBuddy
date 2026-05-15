@@ -1,0 +1,39 @@
+ACORD 62OH (2011-05) — Ohio Auto Supplement – Important Optional Disclosure Notice Uninsured Motorist Property Damage Coverage
+===============================================================================================================================
+Form number: ACORD 62OH
+Edition: 2011-05
+Title: Ohio Auto Supplement – Important Optional Disclosure Notice Uninsured Motorist Property Damage Coverage
+Type: Insurance form (ACORD industry standard, Ohio state variant)
+States: OH
+Policy term: Matches the underlying auto policy term; election persists until changed in writing
+Transaction types: New business (notice/election required); change to UMPD coverage
+
+Purpose:
+Notice and disclosure form for Ohio's Uninsured Motorist Property
+Damage (UMPD) coverage. UMPD pays for damage to the insured's vehicle
+caused by an at-fault uninsured driver. Ohio requires carriers to
+offer UMPD; this form notifies the insured of availability and
+captures election or rejection.
+
+Captures:
+- Statutory disclosure describing what UMPD covers
+- Disclosure that UMPD is optional and how it differs from collision
+- Insured's election to accept UMPD (with selected limits) or reject
+- Insured signature and date
+
+When used:
+- New Ohio auto submission — UMPD disclosure delivered, election captured
+- Renewal where UMPD election is being modified
+- Midterm change to UMPD coverage
+
+Notes:
+- UMPD differs from collision: UMPD pays only when the at-fault driver
+  is uninsured; collision pays regardless of fault
+- Ohio insureds without collision often elect UMPD for at least basic
+  PD recovery against uninsured drivers
+- Ohio UM bodily injury is NOT required and has NO mandatory-offer
+  requirement since 2001 (ORC § 3937.18 as amended by S.B. 97). Insurer
+  may omit UM entirely; no written rejection needed. UMPD on this form
+  is the SEPARATE property-damage variant of UM coverage.
+- [TBD — verify current Ohio UMPD statutory minimum limits and offer
+  requirements]

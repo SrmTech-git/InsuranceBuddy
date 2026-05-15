@@ -1,0 +1,49 @@
+ACORD 60MI (2010-03) — Michigan Automobile Insurance Placement Facility: Michigan Auto Supplement – Declaration of Intent to Reside
+====================================================================================================================================
+Form number: ACORD 60MI
+Edition: 2010-03
+Title: Michigan Automobile Insurance Placement Facility: Michigan Auto Supplement – Declaration of Intent to Reside
+Type: Insurance form (ACORD industry standard, Michigan state variant)
+States: MI
+Policy term: Matches the underlying MAIPF auto policy term (typically 6 months); declaration persists until residency changes
+Transaction types: New MAIPF business; renewal where residency must be reaffirmed
+
+Purpose:
+Captures the insured's declaration that they reside in Michigan (or
+have a definite intent to reside in Michigan for at least 30 days) —
+a requirement for coverage through the Michigan Automobile Insurance
+Placement Facility (MAIPF), Michigan's auto residual market /
+assigned-risk pool. Drivers who cannot obtain coverage in the
+voluntary market apply through MAIPF, which requires bona fide
+Michigan residency.
+
+Captures:
+- Michigan address (current and intended)
+- Declaration of current Michigan residence or definite intent to
+  reside in Michigan for at least 30 days
+- Statement explaining the basis for residency / intent
+- Acknowledgment that MAIPF eligibility depends on this declaration
+- Acknowledgment of the requirement to maintain Michigan no-fault
+  insurance coverage during the residency period
+- Driver license number
+- Insured signature and date
+
+When used:
+- New MAIPF auto submission for an applicant denied in the voluntary
+  market
+- Renewal of MAIPF coverage where residency must be reaffirmed
+- Reporting a change in residency that affects MAIPF eligibility
+
+Notes:
+- MAIPF (Michigan Automobile Insurance Placement Facility) is
+  Michigan's auto residual market — provides coverage to drivers
+  rejected by the voluntary market
+- MCL 500.3301 et seq. authorizes MAIPF
+- Voluntary-market counterpart: 860MI (2020-07) — same underlying
+  declaration purpose ("Declaration of Intent to Reside") but used
+  for voluntary-market submissions rather than MAIPF
+- The form title difference is the key tell:
+  * 60MI title explicitly leads with "Michigan Automobile Insurance
+    Placement Facility" — MAIPF / assigned risk
+  * 860MI title omits the MAIPF prefix — voluntary market
+- The 2010-03 edition predates the 2019 no-fault reform

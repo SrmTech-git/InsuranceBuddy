@@ -1,0 +1,53 @@
+ACORD 67 (2025-01) — Illinois / Indiana / Kentucky / West Virginia Mine Subsidence Property Insurance Supplement
+=================================================================================================================
+Form number: ACORD 67
+Edition: 2025-01
+Title: Illinois / Indiana / Kentucky / West Virginia Mine Subsidence Property Insurance Supplement
+Type: Insurance form (ACORD industry standard, multi-state regional form)
+States: IL, IN, KY, WV
+Policy term: Matches the underlying property policy (typically 12 months); election persists until changed in writing
+Transaction types: New business (mine subsidence offer/election); change in coverage; election change at renewal
+
+Purpose:
+Multi-state supplement for Mine Subsidence Insurance — covering
+property damage caused by the collapse of underground mines —
+applicable in Illinois, Indiana, Kentucky, and West Virginia. Standard
+homeowners and dwelling fire policies exclude mine subsidence; each
+of these four states operates a state-administered mine subsidence
+insurance fund / pool that funds coverage offered through standard
+policies as an endorsement at state-set premiums and limits.
+
+Captures:
+- Property location and county (eligibility is typically county-
+  specific based on historical mining activity)
+- Property type (owner-occupied dwelling, dwelling fire / rental,
+  commercial)
+- State-specific election to accept or reject mine subsidence
+  coverage (each of the four states has its own mandatory-offer rules)
+- Coverage limit selected (state pools typically cap limits, e.g.,
+  up to $300,000 — varies by state and property type)
+- Insured signature and date
+
+When used:
+- New property policy submission in an eligible mining county in IL,
+  IN, KY, or WV — mandatory offer typically required
+- Renewal where the mine subsidence election is being changed
+- Reporting property changes that affect eligibility
+
+Notes:
+- State mine subsidence pools:
+  * Illinois Mine Subsidence Insurance Reserve Fund (administered
+    through the IL DOI)
+  * Indiana Mine Subsidence Insurance Fund
+  * Kentucky Mine Subsidence Insurance Fund
+  * West Virginia Mine Subsidence Insurance Fund
+- Coverage is for ground sinking / settling caused by collapse of
+  underground mine workings — distinct from earth movement (typically
+  excluded from HO) and earthquake (also typically excluded; see
+  separate earthquake notices)
+- Mandatory-offer counties vary by state — based on historical
+  underground mining (predominantly coal)
+- Companion Ohio forms: 67OH and 68OH cover Ohio mine subsidence
+  separately under Ohio's own program
+- [TBD — verify current coverage caps and county eligibility lists
+  for each of the four states]

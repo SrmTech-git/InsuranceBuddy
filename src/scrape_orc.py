@@ -2,7 +2,6 @@
 # Supports both Ohio Revised Code (ORC) and Ohio Administrative Code (OAC)
 
 import re
-import sys
 import time
 from pathlib import Path
 
@@ -168,18 +167,3 @@ def download_pdfs(sections: list[dict], code_type: str) -> None:
     print("=" * 60)
     print(f"Done! {success} downloaded, {skipped} skipped, {failed} failed, {total} total.")
     print("=" * 60)
-
-
-if __name__ == "__main__":
-    chapter_url = sys.argv[1] if len(sys.argv) > 1 else DEFAULT_CHAPTER_URL
-    code_type = detect_code_type(chapter_url)
-
-    print(f"Code type detected: {code_type}")
-    soup = fetch_chapter_page(chapter_url)
-    sections = find_pdf_sections(soup, code_type)
-
-    if not sections:
-        print("No PDF links found on the page.")
-    else:
-        print(f"\nFound {len(sections)} PDF links.\n")
-        download_pdfs(sections, code_type)

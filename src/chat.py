@@ -295,26 +295,3 @@ def ask_traced(question: str) -> AskTrace:
         for m, label in zip(metadatas, labels)
     ]
     return trace
-
-
-# ---------------------------------------------------------------------------
-# Demo / testing
-# ---------------------------------------------------------------------------
-
-if __name__ == "__main__":
-    print("Insurance Document Assistant (type 'quit' to exit)\n")
-
-    while True:
-        try:
-            question = input("You: ").strip()
-        except (EOFError, KeyboardInterrupt):
-            print("\nGoodbye!")
-            break
-
-        if not question:
-            continue
-        if question.lower() == "quit":
-            print("Goodbye!")
-            break
-
-        print(f"\n{ask(question)}\n")

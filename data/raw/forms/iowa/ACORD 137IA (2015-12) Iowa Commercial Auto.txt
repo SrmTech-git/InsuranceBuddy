@@ -1,0 +1,42 @@
+ACORD 137IA (2015-12) — Iowa Commercial Auto
+=============================================
+Form number: ACORD 137IA
+Edition: 2015-12
+Title: Iowa Commercial Auto
+Type: Insurance form (ACORD industry standard, Iowa state variant)
+States: IA
+Policy term: 12 months (typical for commercial auto)
+Transaction types: New business, renewal, midterm change, audit-driven adjustment
+
+Purpose:
+Iowa-specific Commercial Auto Coverages section. Captures coverage
+selections, limits, deductibles, and Iowa-required disclosures for a
+commercial auto policy. Used alongside national ACORD 125 (Applicant
+Info) and ACORD 127 (Business Auto Section).
+
+Captures:
+- Liability limits (BI/PD split or Combined Single Limit)
+- Comp / collision deductibles
+- UM / UIM coverage selections and limits
+- MedPay
+- Hired Auto Liability
+- Non-Owned Auto Liability
+- Drive Other Car coverage (where applicable)
+- Towing & labor / rental reimbursement / loss of use
+- Trailer interchange (for trucking risks)
+- Iowa-required disclosures and acknowledgments
+
+When used:
+- New commercial auto submission for an Iowa-based fleet
+- Renewal where Iowa-specific coverages are being reselected
+- Midterm endorsement that changes coverage or limits
+
+Notes:
+- Iowa-specific UM/UIM supplement family (61IA, 62IA, 64IA) may apply
+  to commercial autos as well as personal — depends on carrier and use
+- Iowa personal-auto minimum limits: 20/40/15 (Iowa Code § 321A.21).
+  Commercial fleets subject to federal MCS-90 for interstate operations.
+- Iowa UM/UIM: must offer; rejectable in writing (Iowa Code § 516A.1)
+- State regulator: Iowa Insurance Division (IID)
+- [TBD — verify which Iowa supplements apply to commercial fleets vs
+  personal-lines only]

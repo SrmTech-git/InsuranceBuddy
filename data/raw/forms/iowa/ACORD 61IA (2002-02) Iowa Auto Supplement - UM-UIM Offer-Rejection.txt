@@ -1,0 +1,40 @@
+ACORD 61IA (2002-02) — Iowa Auto Supplement – UM/UIM Offer/Rejection
+=====================================================================
+Form number: ACORD 61IA
+Edition: 2002-02
+Title: Iowa Auto Supplement – UM/UIM Offer/Rejection
+Type: Insurance form (ACORD industry standard, Iowa state variant)
+States: IA
+Policy term: Matches the underlying auto policy term (typically 6 or 12 months); election persists until changed in writing
+Transaction types: New business (offer/rejection required); change of UM/UIM limits
+
+Purpose:
+Captures the Iowa insured's election regarding Uninsured Motorists (UM)
+and Underinsured Motorists (UIM) coverage. UM is statutorily offered;
+UIM is statutorily offered and may be rejected in writing under Iowa
+Code 516A. This form documents both offers and any rejection.
+
+Captures:
+- UM coverage offer at statutory minimum (or higher selected limit)
+- UIM coverage offer at statutory minimum (or higher selected limit)
+- Selection of higher UM/UIM limits if elected
+- Rejection of UIM coverage (in writing per statute)
+- Insured acknowledgment and signature
+
+When used:
+- New Iowa auto submission — UM offer / UIM offer-or-rejection required
+- Renewal where UM/UIM limits are being modified
+- Midterm change to UM/UIM coverage
+
+Notes:
+- Iowa UM/UIM: insurer must OFFER at minimum limits; insured may REJECT
+  in writing (Iowa Code § 516A.1). Both UM and UIM are rejectable.
+- Iowa UM applies to BODILY INJURY ONLY — does not cover vehicle
+  property damage (explicit notice required on all Iowa policies)
+- Iowa UIM is REDUCED-BY (DIL) structure — UIM limits must exceed
+  tortfeasor's BI limits for coverage to apply; pays the difference
+- Iowa minimum BI/UM minimums: 20/40 (Iowa Code § 321A.21)
+- Companion forms: 62IA (UM/UIM Notice) and 64IA (Stacking Notice)
+- Authority: Iowa Code § 516A.1; Iowa Admin. Code 191-15.10
+- The 2002-02 edition is older; [TBD — verify whether this is still the
+  current ACORD-published edition or whether it has been superseded]

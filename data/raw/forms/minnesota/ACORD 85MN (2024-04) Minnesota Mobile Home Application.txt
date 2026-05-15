@@ -1,0 +1,58 @@
+ACORD 85MN (2024-04) — Minnesota Mobile Home Application
+=========================================================
+Form number: ACORD 85MN
+Edition: 2024-04
+Title: Minnesota Mobile Home Application
+Type: Insurance form (ACORD industry standard, Minnesota state variant)
+States: MN
+Policy term: 12 months (typical for mobile home insurance)
+Transaction types: New business, renewal, midterm change
+
+Purpose:
+Standalone application for a mobile home (manufactured home) policy
+in Minnesota. Captures applicant, mobile home unit, coverages,
+underwriting questions, and Minnesota-required disclosures.
+State-specific variant of national ACORD 85.
+
+Captures:
+- Producer / agency information
+- Applicant: name, address, DOB, contact, occupation
+- Mobile home location and address (park name if in mobile home park)
+- Mobile home description: make, model, year, VIN / serial number,
+  dimensions (single-wide / double-wide / triple-wide), square footage
+- Anchoring / tie-down details
+- Setup details: foundation type, skirting
+- Park or owned-lot information
+- Coverage form: ACORD/HO mobile home equivalent (HO-7 / MH-style)
+- Coverage A through F at selected limits
+- Deductible selected
+- Wind/hail deductible (separate hail deductibles are common in
+  Minnesota due to hail exposure)
+- Replacement cost vs actual cash value selection
+- Discounts: multi-policy, alarm, age, claim-free
+- Endorsements: trip / transit coverage, scheduled personal property,
+  water backup, frozen-pipe / ice-dam coverage considerations
+- Mortgagee / lienholder information
+- Prior insurance carrier and lapse history
+- Loss history
+- Underwriting questions: dogs, age of mobile home, snow load capacity
+- Minnesota-required disclosures and acknowledgments, including
+  Insurance Guaranty Association notice
+- Fraud statement and applicant signature
+
+When used:
+- New business — applying for a Minnesota mobile home policy
+- Renewal where the carrier requires a fresh application
+- Adding endorsements
+- Midterm changes that require fresh underwriting
+
+Notes:
+- Pre-1976 mobile homes are often declined or rated higher
+- Hail damage is a major Minnesota mobile home exposure — separate
+  wind/hail deductible common
+- Snow load on roof is a meaningful underwriting consideration in
+  Minnesota's climate
+- Frozen pipe and ice dam exposure is heightened for mobile homes
+  with less insulation than site-built homes
+- [TBD — verify current Minnesota mobile home anchoring requirements
+  and any state-mandated endorsements]

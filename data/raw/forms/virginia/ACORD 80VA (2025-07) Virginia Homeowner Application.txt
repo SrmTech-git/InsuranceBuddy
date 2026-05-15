@@ -1,0 +1,58 @@
+ACORD 80VA (2025-07) — Virginia Homeowner Application
+======================================================
+Form number: ACORD 80VA
+Edition: 2025-07
+Title: Virginia Homeowner Application
+Type: Insurance form (ACORD industry standard, Virginia state variant)
+States: VA
+Policy term: 12 months (typical for homeowners)
+Transaction types: New business, renewal, midterm change
+
+Purpose:
+Standalone application for a homeowners policy in Virginia. Captures
+applicant, dwelling, coverages, underwriting questions, and Virginia-
+required disclosures needed to underwrite and issue an HO policy.
+State-specific variant of national ACORD 80.
+
+Captures:
+- Producer / agency information
+- Applicant: name, address, DOB, contact, occupation
+- Property location and address
+- Property description: construction type, year built, square footage,
+  number of stories, roof type and age, heating, electrical, plumbing,
+  foundation
+- Protection class (PPC)
+- Distance to coast (Virginia coastal properties have wind exposure)
+- Occupancy: primary / secondary / seasonal
+- Coverage form: HO-2 / HO-3 / HO-5 / HO-6 / HO-8
+- Coverage A through F at selected limits
+- Deductible selected (all perils)
+- Hurricane / named-storm deductible (typical for Virginia coastal
+  properties — separate higher deductible applies for named storms)
+- Wind/hail deductible (where separate)
+- Discounts: multi-policy, alarm, smoke detectors, age, claim-free,
+  fortified roof (where applicable)
+- Endorsements: scheduled personal property, water backup, service line,
+  equipment breakdown, flood (coastal properties — flood is via NFIP
+  or private flood, not the HO policy)
+- Mortgagee / loss payee information
+- Prior insurance carrier and lapse history
+- Loss history
+- Underwriting questions: dogs, pools, business use, woodstoves
+- Virginia-required disclosures and acknowledgments
+- Fraud statement and applicant signature
+
+When used:
+- New business — applying for a Virginia homeowners policy
+- Renewal where the carrier requires a fresh application
+- Adding endorsements or scheduled property
+- Midterm changes that require fresh underwriting
+
+Notes:
+- Virginia coastal properties (Hampton Roads, Eastern Shore, Tidewater)
+  typically have hurricane / named-storm deductibles separate from the
+  all-peril deductible
+- Flood is NOT covered under the HO policy — separate NFIP or private
+  flood policy needed; see also Virginia's 64VA flood notice form
+- [TBD — verify current Virginia hurricane deductible rules and any
+  state-mandated disclosures for coastal properties]

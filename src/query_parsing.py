@@ -11,7 +11,7 @@
 # use them to decide WHAT to query.
 
 import re
-from states import STATE_MAP, STATE_ABBR_MAP
+from states import STATE_MAP, STATE_ABBR_SET
 
 
 # Known form-number prefixes across collections.
@@ -19,7 +19,7 @@ from states import STATE_MAP, STATE_ABBR_MAP
 #   spaces (e.g. "ORC3937.18", "OAC3901-1-54")
 # - ACORD: forms (industry-standard ACORD forms) — stored with a
 #   single space (e.g. "ACORD 25", "ACORD 50WM")
-# detect_form_number normalizes user queries to match the stored format
+# detect_form_numbers normalizes user queries to match the stored format
 # of whichever prefix it sees.
 KNOWN_PREFIXES = ("ORC", "OAC", "ACORD")
 
@@ -31,45 +31,46 @@ KNOWN_PREFIXES = ("ORC", "OAC", "ACORD")
 def detect_form_numbers(text: str) -> list[str]:
     """Return ALL normalized form numbers found in the query, in order, deduped.
 
-    Returns an empty list if none are present. Use this when a query may
-    reference multiple forms (e.g. "What's the difference between ACORD 24
-    and ACORD 28?"). For single-form-or-none cases, detect_form_number is
-    a thin wrapper that returns the first match.
+    Returns an empty list if none are present. Handles multi-form queries
+    like "What's the difference between ACORD 24 and ACORD 28?".
 
     Normalization matches how each prefix is stored in metadata:
     - ORC/OAC strip spaces ("ORC 3937.18" -> "ORC3937.18")
     - ACORD preserves a single space ("ACORD25" or "acord 25" -> "ACORD 25")
 
     The regex allows an alphabetic suffix after the digits to handle
-    ACORD forms like 50WM, 60US, 64US.
+    ACORD forms like 50WM, 60US, 64US (attached) and state variants
+    like 50 IL, 66 MI, 90 VA (space-separated, normalized to attached).
+
+    The space-separated suffix is restricted to known state codes and
+    known national ACORD suffixes so natural English like "ACORD 50 to
+    ACORD 50WM" doesn't capture "TO" as a suffix.
     """
     prefixes = "|".join(KNOWN_PREFIXES)
+    # State codes (IL, IN, IA, KY, MI, OH, VA, WI, GA, MN, TN) +
+    # known national ACORD suffixes (WM, US, WMSET) — the only valid
+    # tokens that may appear AFTER a space before a form-number boundary.
+    space_suffix_alts = "|".join(sorted(STATE_ABBR_SET) + ["WM", "WMSET", "US"])
     raw_matches = re.findall(
-        rf"\b((?:{prefixes})\s*\d+[A-Z]*(?:[.\-]\d+)*)\b", text, re.IGNORECASE
+        rf"\b((?:{prefixes})\s*\d+(?:[A-Z]+|\s+(?:{space_suffix_alts}))?(?:[.\-]\d+)*)\b",
+        text,
+        re.IGNORECASE,
     )
     seen: set[str] = set()
     result: list[str] = []
     for raw_match in raw_matches:
         raw = raw_match.strip().upper()
         if raw.startswith("ACORD"):
-            normalized = f"ACORD {raw[5:].lstrip()}"
+            # Collapse all internal whitespace so "ACORD 66 MI" -> "ACORD 66MI"
+            # matches the stored form_number ("ACORD" + number + attached suffix)
+            after = re.sub(r"\s+", "", raw[5:])
+            normalized = f"ACORD {after}"
         else:
             normalized = raw.replace(" ", "")
         if normalized not in seen:
             seen.add(normalized)
             result.append(normalized)
     return result
-
-
-def detect_form_number(text: str) -> str | None:
-    """Return the first normalized form number in the query, or None.
-
-    Thin wrapper over detect_form_numbers — use this when only the first
-    match matters. Most callers should use detect_form_numbers to handle
-    multi-form comparison queries cleanly.
-    """
-    forms = detect_form_numbers(text)
-    return forms[0] if forms else None
 
 
 def detect_bare_section(text: str) -> str | None:
@@ -154,8 +155,8 @@ def detect_states(text: str) -> list[str]:
         if re.search(rf"\b{re.escape(name)}\b", text, re.IGNORECASE):
             found.add(code)
 
-    for abbr, code in STATE_ABBR_MAP.items():
-        if re.search(rf"\b{abbr}\b", text):  # case-sensitive — uppercase only
+    for code in STATE_ABBR_SET:
+        if re.search(rf"\b{code}\b", text):  # case-sensitive — uppercase only
             found.add(code)
 
     return sorted(found)

@@ -1,0 +1,40 @@
+ACORD 68VA (2025-07) — Virginia Auto Supplement – Uninsured Motorists Alternative Coverage Selection
+=====================================================================================================
+Form number: ACORD 68VA
+Edition: 2025-07
+Title: Virginia Auto Supplement – Uninsured Motorists Alternative Coverage Selection
+Type: Insurance form (ACORD industry standard, Virginia state variant)
+States: VA
+Policy term: Matches the underlying auto policy term; election persists until changed in writing
+Transaction types: New business (alternative UM coverage election); change to UM coverage structure
+
+Purpose:
+Virginia-specific form capturing the insured's election of an
+"alternative" Uninsured Motorists (UM) coverage structure — distinct
+from the standard UM coverage and from a flat UM rejection. The
+alternative structure may differ in how UM stacks, applies, or pays
+under specific Virginia statutory variants.
+
+Captures:
+- Description of the alternative UM coverage structure being offered
+- Insured's election to accept the alternative UM coverage
+- Limits or terms selected under the alternative structure
+- Insured signature and date
+
+When used:
+- New Virginia auto submission where the insured is choosing an
+  alternative UM structure rather than standard UM or rejection
+- Renewal or midterm change electing the alternative
+- Anytime the insured wishes to switch between standard UM and the
+  alternative structure
+
+Notes:
+- Virginia offers multiple UM election paths: standard selection/
+  rejection (69VA), reduction below liability (66VA), or alternative
+  coverage (this form, 68VA)
+- [TBD — verify the exact statutory basis and mechanics of Virginia's
+  "Alternative UM Coverage Selection" — the distinction from 69VA
+  selection/rejection and the practical effect on coverage]
+
+- Companion forms: 65VA (notice), 66VA (UIM reduction), 69VA (UM
+  selection/rejection)
