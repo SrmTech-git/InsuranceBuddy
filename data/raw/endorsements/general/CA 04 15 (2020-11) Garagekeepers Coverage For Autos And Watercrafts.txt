@@ -1,0 +1,43 @@
+CA 04 15 (2020-11) — Garagekeepers Coverage For Autos And Watercrafts
+=====================================================================
+Form number: CA 04 15
+Edition: 2020-11
+Title: Garagekeepers Coverage For Autos And Watercrafts
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Extends garagekeepers coverage under the CA 00 01 or CA 00 20 policy to
+include watercraft left in the insured's care, custody, or control for
+service, storage, or safekeeping. Standard garagekeepers coverage applies
+only to autos; this endorsement adds watercrafts (boats, personal watercraft)
+to that coverage — relevant for marinas, marine dealers, and businesses that
+store or service both autos and watercraft.
+
+Captures:
+- Physical damage to watercraft in the insured's care, custody, or control
+  for service, repair, storage, or safekeeping
+- Coverage basis options: direct and excess (or legal liability)
+- Limit of insurance for watercraft (may be separate from the auto
+  garagekeepers limit)
+
+When used:
+- Marina operators that also service vehicles (storage facilities, dealers
+  handling both autos and boats)
+- Businesses with a boat/watercraft repair or storage component attached to
+  an auto-related operation
+- Resort or campground operators offering both auto and boat storage
+
+Notes:
+- Standard CA 00 01 garagekeepers coverage explicitly covers only "autos";
+  without this endorsement, watercraft in the insured's care have no physical
+  damage protection under the commercial auto policy
+- For standalone marine exposures, inland marine (boat dealers floater) may
+  be more appropriate; this endorsement is suited to mixed auto/watercraft
+  operations where a single policy is preferred
+- Coverage basis (direct vs. legal liability) should be confirmed at binding;
+  direct coverage pays regardless of the insured's legal liability, while
+  legal liability requires the insured to be at fault

@@ -1,0 +1,49 @@
+CA 99 90 (2013-10) — Optional Limits – Loss Of Use Expenses
+===========================================================
+Form number: CA 99 90
+Edition: 2013-10
+Title: Optional Limits – Loss Of Use Expenses
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying commercial auto policy
+Transaction types: New business; endorsement addition
+
+Purpose:
+Provides optional increased limits for loss-of-use expenses when a
+covered auto rented from others (hired auto) is damaged and the rental
+company charges for the period the vehicle is out of service for repair.
+The standard commercial auto form typically includes a low default limit
+for loss-of-use charges that a rental or leasing company imposes on the
+insured following damage to a rented vehicle. This endorsement allows the
+insured to select higher limits for these charges, which can be substantial
+for commercial-class rental vehicles.
+
+Captures:
+- Increased limits for loss-of-use charges imposed by rental/leasing
+  companies when a hired auto is damaged and out of service
+- Covers the daily rental company's revenue loss claim for the period
+  the vehicle is being repaired
+- Elected limit applies per occurrence for hired auto loss-of-use charges
+
+When used:
+- Any commercial auto program where the insured frequently rents
+  commercial vehicles (trucks, vans, specialty equipment)
+- Businesses that rent high-value or high-revenue commercial vehicles
+  where loss-of-use charges can be substantial
+- Programs where the default loss-of-use limit is insufficient for
+  the actual rental class being used
+
+Notes:
+- Compare with CA 99 23 (Rental Reimbursement Coverage), which covers
+  the insured's cost to rent a substitute vehicle; CA 99 90 covers
+  the rental company's loss-of-use charges imposed on the insured
+  when a rented vehicle is damaged — these are different exposures
+- The base CA 00 01 physical damage coverage extension for loss of use
+  provides $20 per day with a $600 maximum; CA 99 90 allows purchasing
+  higher per-day and aggregate limits beyond those base amounts
+- Commercial truck and equipment rental companies charge significant
+  daily rates for loss of use; the $20/$600 base limit is often
+  exhausted quickly for commercial-class vehicles
+- Review what the rental agreement specifies for loss-of-use liability
+  to determine whether the CA 99 90 limit is adequate

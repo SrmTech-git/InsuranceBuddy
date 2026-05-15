@@ -1,0 +1,42 @@
+CA 04 21 (2020-11) — Full Safety Glass Coverage
+===============================================
+Form number: CA 04 21
+Edition: 2020-11
+Title: Full Safety Glass Coverage
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Waives the comprehensive deductible for loss or damage to safety glass
+(windshields, windows, sunroofs) on covered autos. Without this endorsement,
+a comprehensive deductible applies to glass claims just as it would to any
+other comprehensive loss. For fleets with high windshield replacement
+frequency, eliminating the deductible for glass-only claims reduces
+administrative friction and out-of-pocket cost per incident.
+
+Captures:
+- Full coverage (no deductible) for damage to safety glass caused by a
+  comprehensive peril (road debris, vandalism, weather)
+- Applies to all scheduled autos with comprehensive coverage under the policy
+- The comprehensive deductible continues to apply to non-glass comprehensive
+  losses (theft, fire, hail damage to body panels, etc.)
+
+When used:
+- Fleet accounts where windshield chips and cracks are a recurring expense
+- Accounts in states or regions with high road debris or hail frequency
+- Any account that prefers to eliminate the per-occurrence deductible cost
+  for the most common type of comprehensive claim
+
+Notes:
+- Commonly referred to informally as "zero-deductible glass" coverage
+- Some states require insurers to offer this coverage by statute for personal
+  auto policies (e.g., Florida); for commercial auto it is optional
+- Adding this endorsement will increase comprehensive premium, so the net
+  benefit depends on glass claim frequency — high-frequency fleets benefit
+  most
+- Glass damage from a collision (rather than a comprehensive peril) is a
+  collision loss covered under collision coverage, not comprehensive; CA 04 21
+  has no effect on collision coverage or its deductible

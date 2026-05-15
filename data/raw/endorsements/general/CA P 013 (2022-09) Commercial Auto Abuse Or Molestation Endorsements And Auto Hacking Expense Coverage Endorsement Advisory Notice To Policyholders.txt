@@ -1,0 +1,38 @@
+CA P 013 (2022-09) — Commercial Auto Abuse Or Molestation Endorsements And Auto Hacking Expense Coverage Endorsement Advisory Notice To Policyholders
+=====================================================================================================================================================
+Form number: CA P 013
+Edition: 2022-09
+Title: Commercial Auto Abuse Or Molestation Endorsements And Auto Hacking Expense Coverage Endorsement Advisory Notice To Policyholders
+Type: ISO Commercial Auto policyholder advisory notice
+States: All
+
+Purpose:
+Advisory notice explaining two sets of new endorsements introduced in
+the 2022-09 ISO commercial auto filing: (1) the abuse or molestation
+endorsement suite (CA 27 21-24 and CA 28 03) addressing the CA 00 25
+dealer program and covered autos liability exposure, and (2) the CA 04 65
+Auto Hacking Expense Coverage Endorsement for all commercial auto programs.
+Both represent significant new coverage options addressing emerging risks
+not previously addressed in the ISO commercial auto program.
+
+Content:
+- Introduction of CA 27 21, 22, 23, 24 (abuse/molestation for dealer GL/AEO)
+  and CA 28 03 (abuse/molestation for covered autos liability)
+- Explanation of how the abuse/molestation exclusion and coverage options
+  work — which excludes, which provides affirmative coverage
+- Introduction of CA 04 65 Auto Hacking Expense Coverage
+- How auto hacking expense coverage addresses cyber incidents involving
+  covered autos
+
+When used:
+- Issued with commercial auto policies where any of these 2022-09 endorsements
+  are attached
+- Satisfies state notice requirements for new endorsement introductions
+
+Notes:
+- This is the most recent CA P advisory notice in the series as of 2026
+- The 2022-09 abuse/molestation endorsement suite and CA 04 65 represent
+  ISO's response to two distinct emerging risk categories: institutional
+  abuse liability and connected-vehicle cyber risk
+- Policyholders receiving CA 27 21/22 (exclusions) should understand
+  whether companion coverage (CA 27 23/24) is available through their insurer

@@ -1,0 +1,42 @@
+CA 20 56 (2013-10) — Fellow Employee Coverage For Designated Employees/Positions
+================================================================================
+Form number: CA 20 56
+Edition: 2013-10
+Title: Fellow Employee Coverage For Designated Employees/Positions
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Provides the same fellow employee coverage as CA 20 55, but limited to
+specifically named individuals or identified job positions rather than all
+employees of the named insured. Allows the underwriter or insured to target
+the fellow employee exclusion removal at specific roles or high-profile
+employees without extending the coverage broadly to the entire workforce.
+
+Captures:
+- Removal of the fellow employee exclusion for bodily injury, limited to
+  the scheduled employees or positions
+- CA liability coverage for employee-vs-employee auto claims involving the
+  designated individuals or job classifications
+- Schedule of covered employees (by name) or positions (by title or role)
+
+When used:
+- When blanket fellow employee coverage (CA 20 55) is not warranted for
+  all employees but specific individuals or roles need it
+- Executive or high-risk-role employees (company drivers, sales representatives
+  with high driving exposure) who face elevated risk of being sued by
+  injured coworkers
+- When underwriters are willing to grant fellow employee coverage for
+  some but not all of the named insured's workforce
+
+Notes:
+- CA 20 55 is the blanket (all employees) version; CA 20 56 is the
+  scheduled (named employees/positions) version
+- The schedule must be kept current — if a covered employee leaves and is
+  not removed, or a new employee who should be covered is not added, the
+  coverage intent may not align with the policy
+- The considerations about state WC exclusive remedy and when employees
+  can sue coworkers (see CA 20 55 notes) apply equally here

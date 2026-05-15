@@ -1,0 +1,45 @@
+CA 99 34 (2013-10) — Social Service Agencies – Volunteers As Insureds
+=====================================================================
+Form number: CA 99 34
+Edition: 2013-10
+Title: Social Service Agencies – Volunteers As Insureds
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying commercial auto policy
+Transaction types: New business; endorsement addition
+
+Purpose:
+Extends insured status under a social service agency's commercial auto
+policy to volunteers who use their personally-owned vehicles in the
+agency's service. Social service organizations (food banks, Meals on
+Wheels, nonprofits, transportation assistance programs) rely heavily on
+volunteer drivers who use personal vehicles. The standard commercial auto
+non-owned auto coverage may not adequately protect volunteers as insureds;
+this endorsement adds them explicitly, ensuring volunteers are covered
+when transporting clients or performing agency functions.
+
+Captures:
+- Volunteer insured status for auto liability coverage when volunteers
+  operate their personally-owned autos on behalf of the social service
+  agency (the key gap this form addresses)
+- Protects both the agency and the individual volunteer from auto
+  liability claims arising from agency volunteer activities
+- Applies to non-owned autos used in agency service
+
+When used:
+- Nonprofits and social service agencies with volunteer driver programs
+- Meal delivery, client transportation, and similar volunteer driving programs
+- Any organization where unpaid volunteers regularly drive for agency
+  purposes and need insured status under the agency's commercial auto policy
+
+Notes:
+- Volunteer drivers using their personal vehicles for agency activities
+  may have a coverage gap between their personal auto policy (which may
+  exclude commercial use) and the agency's commercial auto policy (which
+  may not cover volunteers)
+- This endorsement bridges that gap by making volunteers insureds under
+  the agency's policy
+- Compare with CA 04 39 (Volunteer Hired Autos) and CA 05 24 (Non-Ownership
+  Liability Volunteers), which address related but distinct aspects of
+  volunteer driver coverage

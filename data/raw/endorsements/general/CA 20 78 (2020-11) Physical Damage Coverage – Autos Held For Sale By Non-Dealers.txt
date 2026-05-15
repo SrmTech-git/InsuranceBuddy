@@ -1,0 +1,43 @@
+CA 20 78 (2020-11) — Physical Damage Coverage – Autos Held For Sale By Non-Dealers
+==================================================================================
+Form number: CA 20 78
+Edition: 2020-11
+Title: Physical Damage Coverage – Autos Held For Sale By Non-Dealers
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Provides physical damage coverage for autos held for sale by businesses that
+are not licensed auto dealers. A licensed dealer has access to open lot
+coverage under CA 00 25; a non-dealer business that sells vehicles (fleet
+liquidation, rental company remarketing, equipment companies selling old
+fleet units) does not have a natural home for inventory physical damage
+under standard commercial auto. This endorsement fills that gap.
+
+Captures:
+- Physical damage (comprehensive, collision, or specified causes) for
+  vehicles in the insured's inventory pending sale
+- Coverage for vehicles that are not currently in use by the insured
+  but are being actively marketed for resale
+- May cover a specific number or value of vehicles at any one time
+
+When used:
+- Fleet management companies or rental companies liquidating fleet vehicles
+- Corporations selling off excess company vehicles before replacing them
+  with a new fleet
+- Any non-dealer business with a meaningful number of vehicles awaiting
+  sale that represent a physical damage exposure
+
+Notes:
+- Licensed auto dealers should use CA 00 25 (Auto Dealers Coverage Form)
+  with its integrated open lot coverage; this endorsement is for non-dealer
+  entities only
+- The vehicles covered by this endorsement are typically no longer in
+  active service — they are being stored and marketed for sale; coverage
+  should reflect storage location and security
+- Valuation is typically ACV at the time of loss; the endorsement limit
+  should reflect the maximum aggregate value of vehicles in inventory
+  at any one time

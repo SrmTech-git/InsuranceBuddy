@@ -1,0 +1,44 @@
+CA 01 21 (2013-10) — Limited Mexico Coverage
+============================================
+Form number: CA 01 21
+Edition: 2013-10
+Title: Limited Mexico Coverage
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Extends the covered territory of a CA 00 01 or CA 00 20 policy to provide
+limited liability and physical damage coverage for covered autos traveling
+into Mexico. The base commercial auto coverage form excludes Mexico entirely;
+this endorsement carves out a narrow exception for short-duration, border-area
+trips by owned autos.
+
+Captures:
+- Liability coverage for bodily injury and property damage occurring in Mexico
+  for trips within 25 miles of the U.S.-Mexico border and a duration limit of
+  10 days per trip
+- Physical damage coverage on the same restricted basis
+- Coverage is excess over any valid and collectible Mexican insurance
+
+When used:
+- Commercial accounts that operate near the U.S.-Mexico border and whose
+  vehicles occasionally cross for short trips (deliveries, service calls)
+- Trucking or distribution operations with incidental Mexico exposure
+- NOT a substitute for a full Mexican auto policy issued by an admitted
+  Mexican insurer — for sustained Mexico operations, a separate Mexican
+  policy is required and this endorsement should not be relied upon
+
+Notes:
+- Mexico requires vehicles to carry insurance from an admitted Mexican insurer;
+  a U.S. policy alone (even with this endorsement) does not satisfy Mexican
+  financial responsibility law — this endorsement covers the U.S. insurer's
+  indemnification obligation, but the insured still needs a Mexican liability
+  card at the border
+- Coverage under this endorsement is strictly limited: distance from border,
+  trip duration, and specific covered autos must all be within the endorsement's
+  parameters or coverage does not apply
+- For significant Mexico exposure, excess and surplus or specialty Mexican auto
+  markets are the appropriate solution, not this endorsement

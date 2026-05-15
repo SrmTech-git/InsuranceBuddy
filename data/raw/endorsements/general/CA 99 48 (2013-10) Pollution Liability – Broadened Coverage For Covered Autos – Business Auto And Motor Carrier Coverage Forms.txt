@@ -1,0 +1,44 @@
+CA 99 48 (2013-10) — Pollution Liability – Broadened Coverage For Covered Autos – Business Auto And Motor Carrier Coverage Forms
+================================================================================================================================
+Form number: CA 99 48
+Edition: 2013-10
+Title: Pollution Liability – Broadened Coverage For Covered Autos – Business Auto And Motor Carrier Coverage Forms
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying CA 00 01 or CA 00 20 policy
+Transaction types: New business; endorsement addition
+
+Purpose:
+Broadens the pollution liability coverage for covered autos under the
+CA 00 01 Business Auto Coverage Form or CA 00 20 Motor Carrier Coverage
+Form by removing or modifying the standard pollution exclusion. The
+standard commercial auto liability forms exclude pollution liability
+arising from the discharge, dispersal, or release of pollutants from
+covered autos — relevant for fuel spills, cargo releases, and hazmat
+incidents. This endorsement provides coverage for pollution events arising
+from the operation, use, or maintenance of covered autos.
+
+Captures:
+- Liability coverage for bodily injury and property damage arising from
+  pollution released from or connected to covered autos
+- Covers fuel spills, fluid releases, and cargo pollution events
+  associated with covered auto operations
+- Removes the auto-connected pollution exclusion from CA 00 01 / CA 00 20
+
+When used:
+- Trucking and motor carrier operations transporting petroleum products,
+  chemicals, or other pollutants
+- Business auto fleets with fuel tanks, hydraulic systems, or other
+  fluid systems that create pollution spill risk
+- Any CA 00 01 or CA 00 20 program where the standard pollution exclusion
+  creates a meaningful coverage gap for auto-connected pollution events
+
+Notes:
+- The standard commercial auto pollution exclusion is broad; fuel spills
+  from vehicle accidents are a common, real-world claim scenario that this
+  endorsement covers
+- Compare with CA 99 55, which is the equivalent broadened pollution
+  coverage endorsement for the CA 00 25 Auto Dealers Coverage Form
+- For cargo pollution (vs. vehicle-connected pollution), separate motor
+  truck cargo or pollution liability coverage may also be needed

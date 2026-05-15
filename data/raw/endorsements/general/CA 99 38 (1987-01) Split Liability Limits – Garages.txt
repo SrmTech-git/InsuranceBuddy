@@ -1,0 +1,42 @@
+CA 99 38 (1987-01) — Split Liability Limits – Garages
+=====================================================
+Form number: CA 99 38
+Edition: 1987-01
+Title: Split Liability Limits – Garages
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Converts the combined single limit (CSL) liability coverage under the
+CA 00 25 Auto Dealers Coverage Form to split limits — separate per-person,
+per-occurrence bodily injury limits and a per-occurrence property damage
+limit. The CA 00 25 uses CSL by default; this endorsement provides the
+split-limit structure for dealers (and other garage operations) where split
+limits are required by the state, preferred by the insured, or required
+by a financing arrangement.
+
+Captures:
+- Separate per-person bodily injury liability limit
+- Separate per-occurrence bodily injury liability limit
+- Separate per-occurrence property damage liability limit
+- Applies to the covered autos liability and GL liability coverages
+  under the CA 00 25
+
+When used:
+- Auto dealers in states requiring or accepting split limits
+- Dealer programs where split limits are specified by franchise agreement,
+  floor plan financing requirements, or other contractual obligations
+- Any CA 00 25 program where CSL needs to be restructured as split limits
+
+Notes:
+- 1987-01 edition — this is one of the oldest forms in the CA 99 series
+  still in active use; the split vs. CSL structure question predates
+  modern commercial auto program revisions
+- The garage-specific nature of this form (vs. CA 99 27 for general
+  commercial auto) addresses the CA 00 25's combined liability structure
+  which includes both auto and GL coverages
+- Franchise dealer agreements may specify minimum split limits;
+  confirm compliance when attaching this endorsement

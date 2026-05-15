@@ -1,0 +1,42 @@
+CA 23 44 (2020-11) — Public Or Livery Passenger Conveyance Exclusion
+====================================================================
+Form number: CA 23 44
+Edition: 2020-11
+Title: Public Or Livery Passenger Conveyance Exclusion
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Explicitly excludes coverage for vehicles used as public or livery passenger
+conveyances — taxis, limousines, and vehicles operating under a transportation
+network company (TNC) arrangement such as Uber or Lyft. The 2020-11 edition
+of CA 00 20 added this exclusion to prevent motor carrier policies from
+inadvertently covering for-hire passenger transport exposures that are priced
+and regulated differently.
+
+Captures:
+- Exclusion of liability and physical damage coverage while a covered auto
+  is being used to carry passengers for hire as a taxi, livery, or TNC vehicle
+- Applies when the vehicle is dispatched for passenger transport as a
+  commercial-for-hire service
+
+When used:
+- Motor carrier and commercial auto policies where the underwriter wants
+  to confirm that for-hire passenger transport is not covered
+- Any CA 00 20 policy where there is concern about drivers using covered
+  autos for rideshare or taxi services on the side
+- Standard language confirming the CA policy does not extend to TNC or
+  taxi exposure
+
+Notes:
+- TNC/rideshare coverage (Uber, Lyft, etc.) requires specific TNC endorsements
+  that are typically issued at the TNC platform level; the standard commercial
+  auto policy is not designed to cover this exposure
+- CA 23 45 is a broader version that excludes BOTH livery passenger conveyance
+  AND on-demand delivery services (gig delivery like DoorDash, Amazon Flex)
+- Carriers writing large fleet accounts should confirm drivers are not
+  enrolled in TNC platforms using covered vehicles — this exclusion makes
+  clear the policy does not cover those activities

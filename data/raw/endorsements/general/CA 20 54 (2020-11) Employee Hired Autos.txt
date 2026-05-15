@@ -1,0 +1,44 @@
+CA 20 54 (2020-11) — Employee Hired Autos
+=========================================
+Form number: CA 20 54
+Edition: 2020-11
+Title: Employee Hired Autos
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Extends hired auto physical damage coverage to autos rented by an employee
+(in the employee's own name) for the named insured's business. Under standard
+CA 00 01 hired auto physical damage, the coverage applies when the named
+insured (the business) is the rental contracting party. When employees rent
+cars personally and the company reimburses them, the business is not the
+renter — creating a physical damage coverage gap this endorsement fills.
+
+Captures:
+- Physical damage (comprehensive and collision) for vehicles rented by
+  an employee in their personal capacity for the named insured's business
+  purposes
+- Coverage applies as if the named insured had rented the vehicle directly
+
+When used:
+- Companies with employee travel programs where employees book rental cars
+  on personal credit cards (not corporate accounts) and expense them
+- Any account where employees regularly rent vehicles for business travel
+  without using a centralized corporate rental account
+- Especially important where the employee's personal auto policy excludes
+  rental vehicles rented for business (some PAPs have this limitation)
+
+Notes:
+- Without this endorsement, physical damage to a rental car rented by an
+  employee personally falls outside the CA policy's hired auto coverage —
+  the business may face exposure through the rental company's damage waiver
+  or through the employee's PAP (which may not cover business rentals)
+- This is a physical damage endorsement; liability for accidents in
+  employee-rented vehicles is typically covered under the base CA 00 01
+  hired auto liability (Symbol 8) when the employee uses the vehicle for
+  business
+- Some carriers price this endorsement separately; others include it as
+  part of a hired auto physical damage package

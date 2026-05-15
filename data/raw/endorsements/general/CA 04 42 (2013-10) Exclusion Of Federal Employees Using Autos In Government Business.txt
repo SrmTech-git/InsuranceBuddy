@@ -1,0 +1,45 @@
+CA 04 42 (2013-10) — Exclusion Of Federal Employees Using Autos In Government Business
+======================================================================================
+Form number: CA 04 42
+Edition: 2013-10
+Title: Exclusion Of Federal Employees Using Autos In Government Business
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Excludes liability coverage under a CA 00 01 policy for claims arising from
+the use of covered autos by federal government employees while acting in the
+course of their official government employment. Used when a contractor's
+policy would otherwise be exposed to claims for which the U.S. Government is
+the appropriate insurer under the Federal Tort Claims Act or a government
+fleet program.
+
+Captures:
+- Exclusion of BI and PD liability coverage for any loss or claim arising
+  from a federal employee's use of a covered auto while acting within the
+  scope of official government duties
+- Removes the carrier's obligation to defend or indemnify in such claims
+
+When used:
+- Government contractors whose employees include federal workers who
+  occasionally use the contractor's vehicles in the performance of government
+  contracts
+- Federal agencies or contractors whose vehicles are also used by government
+  employees — the government carries its own fleet coverage and this
+  endorsement prevents double coverage
+- Required by some federal contract terms to prevent the government's exposure
+  from being shifted to the contractor's carrier
+
+Notes:
+- The Federal Tort Claims Act (FTCA) makes the U.S. Government the insurer
+  for torts committed by federal employees in the course of employment;
+  this endorsement prevents the contractor's CA policy from being reached
+  before the FTCA
+- Does not affect coverage for non-government employees of the named insured
+  using the same vehicles
+- Narrow in application — primarily relevant to government contractors and
+  federal agency partnerships; not a standard exclusion for typical
+  commercial accounts

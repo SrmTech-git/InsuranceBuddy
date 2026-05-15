@@ -1,0 +1,52 @@
+CA 04 65 (2022-09) — Auto Hacking Expense Coverage
+==================================================
+Form number: CA 04 65
+Edition: 2022-09
+Title: Auto Hacking Expense Coverage
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Covers expenses incurred to respond to and recover from a cyber attack or
+unauthorized electronic access that takes control of, disables, or compromises
+the electronic systems of a covered auto. Added in the 2022-09 revision as
+connected and semi-autonomous vehicles became more prevalent in commercial
+fleets. The base CA 00 01 (2020-11 edition) added a cyber exclusion for auto-
+hacking losses; this endorsement buys back the coverage for the response
+expense portion.
+
+Captures:
+- Diagnostic costs to determine the extent of a cyber compromise of a
+  covered auto's electronic systems
+- Costs to repair, reprogram, or replace compromised electronic components,
+  software, or firmware
+- Rental or substitute transportation costs while the compromised auto
+  is being repaired
+- Does not cover liability claims arising from a hack that causes an
+  accident (that remains subject to the cyber exclusion in the base form)
+
+When used:
+- Fleet operators with connected vehicles (telematics-equipped trucks,
+  internet-connected passenger vehicles, semi-autonomous commercial vehicles)
+- Any account where electronic system integrity is critical to safe operation
+- High-value or specialty vehicles with significant embedded software
+  (electric vehicles, autonomous delivery vehicles)
+
+Notes:
+- Eligible vehicles are limited to private passenger types and light/medium
+  trucks — not all commercial vehicles qualify; verify vehicle type before
+  attaching
+- The 2020-11 edition of CA 00 01 introduced a cyber/hacking exclusion;
+  without CA 04 65, a vehicle compromised by a hacker has no coverage for
+  the cost to diagnose and restore the electronic systems
+- This endorsement covers the insured's OWN expense to restore the vehicle;
+  it does not cover third-party liability if a hacked vehicle causes an
+  accident — that liability exposure may require a separate cyber liability
+  policy
+- CA P 013 (advisory notice) was issued in 2022 to explain the new abuse/
+  molestation endorsements and this hacking coverage endorsement to policyholders
+- Coverage is expected to grow in relevance as commercial fleets adopt more
+  connected and autonomous technology

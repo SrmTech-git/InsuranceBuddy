@@ -1,0 +1,43 @@
+CA 99 40 (2013-10) — Exclusion Or Excess Coverage Hazards Otherwise Insured
+===========================================================================
+Form number: CA 99 40
+Edition: 2013-10
+Title: Exclusion Or Excess Coverage Hazards Otherwise Insured
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying commercial auto policy
+Transaction types: New business; endorsement addition
+
+Purpose:
+Excludes coverage or converts coverage to excess for specific hazards that
+are otherwise insured under another policy. Used to prevent overlapping or
+duplicate coverage when the insured has a separate policy covering a
+specific auto-related exposure. Rather than having two policies potentially
+responding to the same claim, this endorsement designates the commercial
+auto policy as either excluded or excess for the identified hazard, ensuring
+the specifically tailored policy responds first.
+
+Captures:
+- Exclusion of named hazards from the commercial auto policy where
+  those hazards are covered under a separate, identified policy
+- Alternatively, converts coverage to excess-only for designated hazards
+  where another policy provides primary coverage
+- Coordinates coverage between the commercial auto policy and other
+  identified insurance programs
+
+When used:
+- Programs where the insured has overlapping coverage from multiple
+  policies (e.g., a separate contractor's equipment policy and a commercial
+  auto policy that both cover certain vehicles)
+- Situations where an underwriter wants to confirm the commercial auto
+  policy does not respond to specific hazards already covered elsewhere
+- Any commercial auto program requiring coordination with another policy
+
+Notes:
+- This endorsement requires clear identification of both the excluded/excess
+  hazard and the other policy that covers it
+- Improperly worded coordination of coverage endorsements can leave gaps
+  if the "other" policy also excludes or limits coverage for the hazard
+- Brokers should confirm that the identified other coverage is actually
+  in force and adequate before relying on this endorsement for coverage coordination

@@ -1,0 +1,40 @@
+CA 25 60 (2013-10) — Worldwide General Liability Coverages
+===========================================================
+Form number: CA 25 60
+Edition: 2013-10
+Title: Worldwide General Liability Coverages
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Expands the coverage territory for the CA 00 25 General Liability
+coverages to anywhere in the world, removing the default restriction
+to the United States, its territories and possessions, and Canada.
+
+Captures:
+- Replaces the standard Coverage Territory definition with a worldwide
+  definition for Section II — General Liability Coverages
+- Coverage applies to bodily injury, property damage, personal and
+  advertising injury, and products/completed operations occurring
+  anywhere in the world
+
+When used:
+- Dealers who export vehicles or have warranty, service, or sales
+  operations outside the standard U.S./Canada territory
+- Situations where GL exposure may arise from activities in foreign
+  markets
+
+Notes:
+- OFAC carve-out: countries or jurisdictions subject to U.S. economic
+  or trade sanctions or embargoes remain excluded
+- Suit requirement retained: any suit to collect covered damages must
+  be brought in the United States, its territories or possessions, or
+  Canada — the insured has worldwide exposure coverage but must be
+  sued in U.S. or Canadian courts
+- CA 25 61 is the targeted alternative when only specific foreign
+  countries need to be added rather than all jurisdictions
+- Parallel to CG 24 22 (Amendment of Coverage Territory – Worldwide
+  Coverage) in the standard CGL program

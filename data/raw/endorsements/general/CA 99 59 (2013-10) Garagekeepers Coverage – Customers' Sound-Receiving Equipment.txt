@@ -1,0 +1,47 @@
+CA 99 59 (2013-10) — Garagekeepers Coverage – Customers' Sound-Receiving Equipment
+==================================================================================
+Form number: CA 99 59
+Edition: 2013-10
+Title: Garagekeepers Coverage – Customers' Sound-Receiving Equipment
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying commercial auto policy with garagekeepers coverage
+Transaction types: New business; endorsement addition
+
+Purpose:
+Extends garagekeepers coverage to include customers' sound-receiving
+equipment (radios, audio systems, CB radios, and similar equipment)
+installed in customers' vehicles. Standard garagekeepers coverage covers
+the vehicle itself but typically excludes audio, electronic, and custom
+equipment installed in the vehicle. This endorsement adds coverage for
+sound-receiving equipment owned by the customer and installed in their
+vehicle while the vehicle is in the insured's care, custody, or control.
+
+Captures:
+- Physical damage (comprehensive and collision) coverage for customers'
+  sound-receiving equipment permanently installed in customers' vehicles
+  while in the insured's garagekeepers custody
+- Equipment must be permanently installed — portable sound equipment
+  is not covered under this endorsement
+- Covers damage to the equipment during the garagekeepers period
+  (repair, storage, service)
+- Theft of sound-receiving equipment is excluded
+- Subject to any applicable sublimit for sound-receiving equipment
+
+When used:
+- Auto repair shops and service operations with garagekeepers coverage
+  where customers bring in vehicles with aftermarket audio systems
+- Specialty shops (audio/stereo installers, custom shops) where
+  high-value audio equipment in customer vehicles is a routine exposure
+- Any garage operation where customer vehicle electronic equipment loss
+  during custody is a meaningful risk
+
+Notes:
+- Standard garagekeepers coverage excludes electronic equipment; this
+  endorsement is the add-back for sound/audio equipment specifically
+- Compare with CA 99 60 (Audio, Visual And Data Electronic Equipment
+  Coverage Added Limits), which addresses broader electronic equipment
+  coverage for the insured's own vehicles
+- High-value aftermarket audio equipment can be worth thousands of dollars;
+  confirm sublimits are adequate for the operations handled

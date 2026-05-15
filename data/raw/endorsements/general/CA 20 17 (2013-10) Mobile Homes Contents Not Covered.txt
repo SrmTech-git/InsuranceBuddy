@@ -1,0 +1,39 @@
+CA 20 17 (2013-10) — Mobile Homes Contents Not Covered
+======================================================
+Form number: CA 20 17
+Edition: 2013-10
+Title: Mobile Homes Contents Not Covered
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Explicitly excludes coverage for personal property and contents inside
+mobile homes under the CA policy. Used when there is any ambiguity about
+whether the policy might respond to contents claims — the endorsement
+removes that ambiguity and makes clear that only the mobile home structure
+(as a vehicle) is covered, not its contents.
+
+Captures:
+- Exclusion of coverage for personal property, furnishings, and contents
+  located inside any covered mobile home auto
+- Applies to all physical damage coverages under the policy
+
+When used:
+- Any mobile home on the CA policy where the carrier does not intend to
+  cover personal property inside the home
+- When the insured has or will have a separate policy (dwelling, renter's,
+  or manufactured home) that covers contents
+- As a companion to standard CA coverage where the underwriter wants to
+  make explicit what the base policy already excludes
+
+Notes:
+- CA 20 16 is the mirror endorsement that ADDS contents coverage;
+  use one or the other depending on the program intent
+- This exclusion endorsement may be standard carrier practice for mobile
+  home fleet operators (transport companies) that have no interest in
+  insuring residents' personal property
+- The contents exclusion should be disclosed to the insured so they
+  understand their contents are not protected under the CA policy

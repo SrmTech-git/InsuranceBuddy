@@ -1,0 +1,40 @@
+CA 25 02 (2013-10) — Dealers Driveaway Collision Coverage
+=========================================================
+Form number: CA 25 02
+Edition: 2013-10
+Title: Dealers Driveaway Collision Coverage
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Removes the distance limitation on collision coverage for dealer vehicles
+being driven or transported under the CA 00 25 Physical Damage Coverage
+section. The base CA 00 25 contains a collision exclusion (Exclusion 3.d.(3))
+that limits driveaway collision coverage; this endorsement eliminates that
+exclusion, extending collision protection to dealer autos driven or
+transported over any distance.
+
+Captures:
+- Removal of Exclusion 3.d.(3) from Section I Physical Damage Coverage
+  of CA 00 25, enabling collision coverage for driveaway operations
+  regardless of distance
+- Applies to covered autos driven or transported during the period
+  covered by the dealer's regular reports to the insurer
+
+When used:
+- Auto dealers who regularly drive or transport inventory vehicles
+  beyond the standard distance limit
+- Dealers with multi-location operations or long-distance delivery programs
+
+Notes:
+- The endorsement requires the dealer to include in regular monthly or
+  quarterly reports the point of origin, destination, and factory price
+  of each covered auto driven or transported
+- If the actual value of covered autos during a report period exceeds
+  the reported value, the insurer pays only a proportional percentage
+  of the loss
+- If the first report due is delinquent at the date of loss, payment
+  is capped at 75% of the applicable location's limit of insurance

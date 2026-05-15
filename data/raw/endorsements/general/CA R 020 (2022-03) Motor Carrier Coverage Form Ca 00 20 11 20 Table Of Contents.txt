@@ -1,0 +1,36 @@
+CA R 020 (2022-03) — Motor Carrier Coverage Form Ca 00 20 11 20 Table Of Contents
+=================================================================================
+Form number: CA R 020
+Edition: 2022-03
+Title: Motor Carrier Coverage Form Ca 00 20 11 20 Table Of Contents
+Type: ISO Commercial Auto form table of contents
+States: All
+
+Purpose:
+Table of contents for the CA 00 20 (11 20) Motor Carrier Coverage Form,
+providing a structural index to the trucking policy form. Issued as a
+companion reference document to the CA 00 20 to help insureds, agents,
+brokers, and adjusters navigate the motor carrier policy. The CA 00 20 is
+more complex than the CA 00 01 due to its trucking-specific provisions,
+trailer interchange sections, and FMCSA regulatory compliance requirements.
+
+Content:
+- Section index for CA 00 20 (2020-11 edition): covered autos liability,
+  physical damage, trailer interchange, trucking-specific conditions
+- Reference to motor carrier-specific definitions (for-hire motor carrier,
+  trailer interchange, etc.)
+- Page references for each component of the Motor Carrier Coverage Form
+
+When used:
+- Issued with CA 00 20 policies as a navigation aid
+- Used by agents, trucking program underwriters, claims adjusters, and
+  policyholders to locate specific motor carrier policy provisions
+
+Notes:
+- The CA 00 20 is the successor to the retired Truckers Coverage Form;
+  its table of contents reflects a more complex structure than CA 00 01
+  due to trucking-specific coverages and FMCSA requirements
+- Trailer interchange sections, motor carrier-specific definitions, and
+  FMCSA filing provisions are key areas referenced in this table of contents
+- Used in combination with CA R 001 (CA 00 01 TOC) and CA R 025 (CA 00 25 TOC)
+  for agents who need to navigate across multiple base forms

@@ -1,0 +1,40 @@
+CA 23 86 (2013-10) — Exclusion Of Terrorism Above Minimum Statutory Limits
+==========================================================================
+Form number: CA 23 86
+Edition: 2013-10
+Title: Exclusion Of Terrorism Above Minimum Statutory Limits
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Partially excludes terrorism coverage by capping the terrorism liability at
+state-mandated minimum liability limits, excluding terrorism losses above
+those minimums. This is a hybrid approach: the policy still responds to
+terrorism claims up to the state financial responsibility minimum (ensuring
+compliance with state liability laws), but excess terrorism exposure above
+the minimum is excluded.
+
+Captures:
+- Terrorism liability coverage limited to state-mandated financial
+  responsibility minimums only (e.g., the statutory minimum BI and PD limits)
+- Exclusion of terrorism coverage above those minimums
+- The policy still responds at the minimum level, satisfying state auto
+  insurance laws
+
+When used:
+- States where auto financial responsibility laws require minimum liability
+  coverage even for excluded perils, and the carrier needs to satisfy the
+  state minimum while excluding excess terrorism exposure
+- Commercial auto programs where the insurer provides minimum statutory
+  coverage but does not want to extend full policy limits to terrorism
+
+Notes:
+- The "above minimum statutory limits" structure satisfies state mandatory
+  auto insurance requirements while limiting the carrier's terrorism exposure
+- CA 23 84 is the full terrorism exclusion (no coverage); CA 23 86 is the
+  partial exclusion (minimum coverage only)
+- CA 23 87 is the NBC version of this partial exclusion for nuclear,
+  biological, or chemical terrorism specifically

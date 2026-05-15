@@ -1,0 +1,37 @@
+CA 25 49 (2020-11) — Limited Product Withdrawal Expense Endorsement
+====================================================================
+Form number: CA 25 49
+Edition: 2020-11 (most states); 2013-10 (HI and VI only)
+Title: Limited Product Withdrawal Expense Endorsement
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Reimburses the named insured for expenses incurred in withdrawing or
+recalling a product from the market. This is a first-party expense
+reimbursement coverage — it does not provide third-party liability
+coverage or defense costs.
+
+Captures:
+- Reimbursement of product withdrawal expenses as defined in the
+  endorsement, subject to the limits and conditions on the schedule
+- Applies to covered autos and other products associated with the
+  dealer's operations as described in the endorsement
+
+When used:
+- Auto dealers seeking coverage for the costs of notifying customers
+  and retrieving products subject to a recall or withdrawal
+- Dealers with parts sales or accessory operations where recall expenses
+  are a realistic exposure
+
+Notes:
+- Does NOT provide liability coverage or defense cost coverage — expense
+  reimbursement only
+- Subject to an aggregate limit, deductible, participation percentage,
+  and cut-off date, all of which must be entered on the endorsement
+  schedule
+- Hawaii and Virgin Islands use the older 2013-10 edition; all other
+  states and territories use the 2020-11 edition

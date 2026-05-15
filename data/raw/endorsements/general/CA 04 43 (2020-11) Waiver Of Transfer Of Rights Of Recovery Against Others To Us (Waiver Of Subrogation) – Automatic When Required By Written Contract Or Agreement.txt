@@ -1,0 +1,46 @@
+CA 04 43 (2020-11) — Waiver Of Transfer Of Rights Of Recovery Against Others To Us (Waiver Of Subrogation) – Automatic When Required By Written Contract Or Agreement
+=====================================================================================================================================================================
+Form number: CA 04 43
+Edition: 2020-11
+Title: Waiver Of Transfer Of Rights Of Recovery Against Others To Us (Waiver Of Subrogation) – Automatic When Required By Written Contract Or Agreement
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Waives the insurer's subrogation rights against any party when a written
+contract or agreement in effect before the loss requires the named insured
+to waive subrogation. "Automatic" means the waiver applies to all qualifying
+contracts without requiring the insured to name each third party on the
+endorsement — far more practical for insureds with many vendor, contractor,
+or tenant agreements that contain waiver-of-subrogation clauses.
+
+Captures:
+- Blanket waiver of the insurer's right to recover payments from a third party
+  when a pre-loss written contract required the named insured to grant that
+  waiver
+- Applies automatically to any qualifying contract — no scheduling required
+- Does not apply retroactively to contracts executed after a loss occurs
+
+When used:
+- Any commercial auto account with ongoing contracts (leases, construction
+  agreements, service contracts, vendor agreements) that include standard
+  waiver-of-subrogation language
+- Required by most commercial leases, general contractors, and large
+  certificate holders
+- Preferred over CA 04 44 (scheduled version) when the insured has multiple
+  or fluid third-party relationships
+
+Notes:
+- The key requirement is that the written contract must have been in place
+  BEFORE the loss — the insured cannot execute a new contract after a loss
+  to retroactively waive subrogation
+- CA 04 44 is the scheduled (non-automatic) version, requiring each party
+  to be listed by name; use CA 04 44 when the carrier wants more control
+  over which parties receive the waiver
+- A waiver of subrogation affects the carrier's ability to recover losses;
+  underwriters may price this endorsement separately for high-severity fleets
+- Certificates of insurance should reflect this endorsement when required by
+  contract (ACORD 25 has a checkbox for waiver of subrogation)

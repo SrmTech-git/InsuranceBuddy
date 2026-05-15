@@ -1,0 +1,33 @@
+CA 27 15 (2020-11) — Amendment Of Personal And Advertising Injury Definition – General Liability Coverages
+==========================================================================================================
+Form number: CA 27 15
+Edition: 2020-11
+Title: Amendment Of Personal And Advertising Injury Definition – General Liability Coverages
+Type: ISO Commercial Auto endorsement
+States: All (multi-state)
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Narrows the scope of Coverage B (Personal and Advertising Injury
+Liability) under the CA 00 25 by removing privacy-violation claims from
+the definition of personal and advertising injury.
+
+Captures:
+- Removal of "oral or written publication that violates a person's right
+  of privacy" from the personal and advertising injury definition in
+  Section II — General Liability Coverages
+- Effect: data breach, unauthorized disclosure, and other privacy
+  violation claims are no longer covered under Coverage B after this
+  endorsement is attached
+
+When used:
+- Insurers who want to exclude cyber/privacy exposure from the CA 00 25
+  GL section, typically when that exposure is addressed by a separate
+  cyber liability policy
+- Dealers where privacy claims are considered outside the intended scope
+  of the CA 00 25
+
+Notes:
+- Part of the November 2020 ISO Auto Dealers form revision cycle

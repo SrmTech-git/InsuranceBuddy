@@ -1,0 +1,40 @@
+CA 25 01 (2013-10) — Broad Form Products Coverage
+=================================================
+Form number: CA 25 01
+Edition: 2013-10
+Title: Broad Form Products Coverage
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Removes the Defective Products exclusion (Exclusion 2.h.) from the Bodily
+Injury and Property Damage Liability section of the CA 00 25 General
+Liability Coverages. Without this endorsement, property damage caused by
+defects in the dealer's own products is excluded. With it, that coverage
+is reinstated, subject to a $500 per-accident threshold for property
+damage to the dealer's products.
+
+Captures:
+- Removal of Exclusion 2.h. (Defective Products) from Section II —
+  General Liability Coverages of CA 00 25
+- Coverage applies to property damage to the dealer's products that
+  exceeds $500 for any one accident, subject to the GL BI/PD each
+  accident limit
+- Bodily injury from defective products is covered without the $500
+  threshold
+
+When used:
+- Auto dealers under CA 00 25 who want products liability coverage
+  for defective products claims
+- Dealers with parts sales, accessories, or service operations where
+  product defect claims are a realistic exposure
+
+Notes:
+- The $500 property damage threshold per accident applies specifically
+  to property damage to the dealer's own products — it does not apply
+  to bodily injury claims
+- This endorsement modifies Section II (General Liability) of CA 00 25,
+  not the covered autos liability section

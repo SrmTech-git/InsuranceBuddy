@@ -1,0 +1,45 @@
+CA 99 37 (2013-10) — Garagekeepers Coverage
+===========================================
+Form number: CA 99 37
+Edition: 2013-10
+Title: Garagekeepers Coverage
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying commercial auto policy (CA 00 01)
+Transaction types: New business; endorsement addition
+
+Purpose:
+Adds garagekeepers coverage to a CA 00 01 Business Auto Coverage Form
+for auto service operations. The CA 00 01 does not include garagekeepers
+coverage; it must be added by endorsement. Garagekeepers coverage protects
+auto repair shops, service stations, parking operations, and similar
+businesses against loss or damage to customers' vehicles while in the
+insured's care, custody, or control. Without this coverage, these
+businesses have a significant gap in their property damage liability.
+
+Captures:
+- Physical damage to customers' vehicles while in the insured's care,
+  custody, or control (for service, storage, or repair)
+- Coverage options: legal liability (only when insured is legally liable),
+  direct primary (regardless of fault), or direct excess (excess over
+  customer's own insurance)
+- Applies to autos left in the insured's custody for service, repair,
+  storage, or safekeeping
+
+When used:
+- Auto repair shops, body shops, service stations, oil change operations
+- Parking garages, valet parking services
+- Car washes with customer vehicle storage
+- Any business that takes custody of customers' autos as part of operations
+  and uses the CA 00 01 as its base commercial auto form
+
+Notes:
+- The CA 00 25 Auto Dealers Coverage Form includes garagekeepers as a
+  built-in coverage option; CA 99 37 is for non-dealer service operations
+  using CA 00 01
+- The coverage basis (legal liability vs. direct) significantly affects
+  when and how claims are paid; direct primary is the broadest and most
+  customer-friendly option
+- Per-vehicle and per-occurrence limits must be adequate for the
+  highest-value customer vehicles the business handles

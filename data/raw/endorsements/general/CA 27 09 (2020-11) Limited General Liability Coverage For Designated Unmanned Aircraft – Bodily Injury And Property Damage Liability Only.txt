@@ -1,0 +1,32 @@
+CA 27 09 (2020-11) — Limited General Liability Coverage For Designated Unmanned Aircraft – Bodily Injury And Property Damage Liability Only
+=============================================================================================================================================
+Form number: CA 27 09
+Edition: 2020-11
+Title: Limited General Liability Coverage For Designated Unmanned Aircraft – Bodily Injury And Property Damage Liability Only
+Type: ISO Commercial Auto endorsement
+States: All (multi-state)
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Excludes Coverage A (Bodily Injury and Property Damage Liability)
+for drones and restores it only for specifically scheduled unmanned
+aircraft and operations. Coverage B (Personal and Advertising Injury
+Liability) is not affected by this endorsement.
+
+Captures:
+- Exclusion of BI/PD drone claims under Coverage A
+- Giveback: BI/PD coverage restored for designated unmanned aircraft
+  and scheduled operations
+- Does not touch Coverage B
+
+When used:
+- Dealers who want scheduled drone BI/PD coverage while leaving their
+  personal and advertising injury coverage entirely unmodified
+
+Notes:
+- CA 27 08 is the full (both A and B) version with the same scheduled
+  giveback structure
+- CA 27 10 is the Coverage B-only variant
+- Part of the November 2020 ISO Auto Dealers form revision cycle

@@ -1,0 +1,33 @@
+CA 27 06 (2020-11) — Unmanned Aircraft Exclusion For General Liability Coverages – Bodily Injury And Property Damage Liability Only
+=====================================================================================================================================
+Form number: CA 27 06
+Edition: 2020-11
+Title: Unmanned Aircraft Exclusion For General Liability Coverages – Bodily Injury And Property Damage Liability Only
+Type: ISO Commercial Auto endorsement
+States: All (multi-state)
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Excludes unmanned aircraft (drone) claims from Coverage A (Bodily
+Injury and Property Damage Liability) only under Section II — General
+Liability Coverages. Coverage B (Personal and Advertising Injury
+Liability) is not affected.
+
+Captures:
+- Exclusion of BI/PD claims arising from unmanned aircraft under
+  Section II, Coverage A — Bodily Injury and Property Damage Liability
+  only
+
+When used:
+- Situations where only the physical injury and property damage exposure
+  from drones needs to be excluded while retaining personal and
+  advertising injury coverage related to drone use (e.g., aerial photo
+  copyright or privacy claims)
+
+Notes:
+- CA 27 05 is the full exclusion covering both Coverage A and Coverage B
+- CA 27 07 is the Coverage B-only (personal and advertising injury)
+  variant
+- Part of the November 2020 ISO Auto Dealers form revision cycle

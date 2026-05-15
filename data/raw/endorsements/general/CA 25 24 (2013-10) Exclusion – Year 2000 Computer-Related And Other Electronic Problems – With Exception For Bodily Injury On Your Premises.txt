@@ -1,0 +1,23 @@
+CA 25 24 (2013-10) — Exclusion – Year 2000 Computer-Related And Other Electronic Problems – With Exception For Bodily Injury On Your Premises
+=============================================================================================================================================
+Form number: CA 25 24
+Edition: 2013-10
+Title: Exclusion – Year 2000 Computer-Related And Other Electronic Problems – With Exception For Bodily Injury On Your Premises
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy (HISTORICAL — no longer used in active placement)
+Transaction types: Historical reference only
+
+Purpose:
+A Y2K exclusion variant that excluded most Y2K-related liability but retained
+coverage for bodily injury claims occurring on the insured's premises
+(e.g., a customer injured at the dealership due to a Y2K-triggered system
+failure). A narrow coverage carve-back within the broader exclusion.
+
+Captures:
+- (Historical) Y2K exclusion with a BI-on-premises exception under CA 00 25 GL
+
+When used:
+- HISTORICAL ONLY — no current use
+- See CA 25 18 for full Y2K series context

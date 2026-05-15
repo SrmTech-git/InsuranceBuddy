@@ -1,0 +1,40 @@
+CA 25 15 (2013-10) — Full Covered Autos Liability Limit For Customers
+======================================================================
+Form number: CA 25 15
+Edition: 2013-10
+Title: Full Covered Autos Liability Limit For Customers
+Type: ISO Commercial Auto endorsement
+States: All (see Notes for state availability limitations)
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Elevates the liability protection extended to dealer customers operating
+covered autos from the state compulsory financial responsibility minimum
+up to the policy's full covered autos liability limit. Without this
+endorsement, customers are limited insureds capped at state minimums.
+
+Captures:
+- Removal of the financial responsibility minimum cap on customer
+  liability coverage under Section I — Covered Autos Liability Coverage
+- Customers (test-drive prospects, loaner recipients, etc.) receive
+  insured status at the same full covered autos liability limit carried
+  by the named insured
+
+When used:
+- Dealers who want customers operating dealer-owned vehicles to have
+  full policy limit protection rather than state minimum coverage
+- Dealers with loaner programs, courtesy vehicles, or active test-drive
+  operations
+
+Notes:
+- An additional premium applies; industry practice indicates approximately
+  25% of the liability premium
+- Coverage applies only while the customer is operating a designated
+  covered auto
+- This endorsement is reported as not available (not filed) in New York
+  and New Jersey, which impose their own mandatory coverage frameworks
+  for dealer-loaned or dealer-operated vehicles; this state limitation
+  has not been confirmed from a primary regulatory source and should be
+  verified for specific state submissions

@@ -1,0 +1,42 @@
+CA 26 01 (2020-11) — Single Interest Automobile Physical Damage Insurance Policy (Individual Policy Form)
+=========================================================================================================
+Form number: CA 26 01
+Edition: 2020-11
+Title: Single Interest Automobile Physical Damage Insurance Policy (Individual Policy Form)
+Type: ISO Commercial Auto coverage form
+States: All
+
+Policy term: Matches underlying loan or lease term
+Transaction types: New business; force-placed coverage; lender-required coverage
+
+Purpose:
+The individual policy form for single-interest automobile physical damage
+insurance — coverage that protects only the lender's financial interest in
+a financed vehicle, not the borrower's. Issued on a per-borrower, per-vehicle
+basis when a lender needs to force-place physical damage coverage on a specific
+loan where the borrower has failed to maintain required insurance. Protects
+the outstanding loan balance up to the vehicle's ACV.
+
+Captures:
+- Physical damage (comprehensive and collision) coverage for the lender's
+  financial interest in a single financed vehicle
+- Named beneficiary is the lender; the borrower is not a protected party
+- Coverage for the vehicle's ACV up to the outstanding loan balance
+- May include conversion, embezzlement, or secretion coverage to protect
+  against borrower-related vehicle loss
+
+When used:
+- Force-placed auto insurance when a borrower lapses coverage on a financed
+  vehicle and the lender must protect its collateral
+- Individual loans where the lender needs coverage for a specific vehicle
+  and borrower without enrolling in a master program
+
+Notes:
+- CA 26 01 is an individual policy form (one borrower, one vehicle);
+  CA 26 02 is the finance master policy form for portfolio-level programs
+- The borrower is NOT covered by this policy and receives no benefit
+  from a physical damage claim; any payout goes to the lender to satisfy
+  the loan balance
+- Lenders typically notify borrowers of force-placed coverage; the premium
+  is often added to the borrower's loan balance, increasing the amount owed
+- Also called collateral protection insurance (CPI) in the lending industry

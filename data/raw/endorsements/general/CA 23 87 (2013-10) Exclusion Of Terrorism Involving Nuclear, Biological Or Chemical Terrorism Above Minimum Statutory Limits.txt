@@ -1,0 +1,41 @@
+CA 23 87 (2013-10) — Exclusion Of Terrorism Involving Nuclear, Biological Or Chemical Terrorism Above Minimum Statutory Limits
+==============================================================================================================================
+Form number: CA 23 87
+Edition: 2013-10
+Title: Exclusion Of Terrorism Involving Nuclear, Biological Or Chemical Terrorism Above Minimum Statutory Limits
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Partially excludes nuclear, biological, or chemical (NBC) terrorism coverage
+by capping NBC terrorism liability at state-mandated minimum limits while
+excluding NBC terrorism losses above those minimums. Combines the partial-
+exclusion approach of CA 23 86 (terrorism above minimums) with the NBC-
+specific targeting of CA 23 85. Allows the policy to satisfy minimum state
+auto liability requirements for NBC terror events while excluding excess
+NBC terrorism exposure.
+
+Captures:
+- NBC terrorism liability coverage limited to state-mandated financial
+  responsibility minimums only
+- Exclusion of all NBC terrorism coverage above the statutory minimum limits
+- The policy responds at the state minimum level for NBC terrorism events
+
+When used:
+- States with mandatory minimum auto liability where even NBC terrorism claims
+  must receive some response, but the carrier excludes excess NBC exposure
+- Commercial auto programs adopting a partial-exclusion approach specifically
+  for NBC terrorism
+
+Notes:
+- This is the most specific and narrowest of the four terrorism endorsements:
+  CA 23 84 (full exclusion), CA 23 85 (NBC full exclusion), CA 23 86
+  (conventional terrorism above minimums excluded), CA 23 87 (NBC terrorism
+  above minimums excluded)
+- In practice, CA 23 84 + CA 23 85 (full exclusions) are more commonly used;
+  CA 23 86 and CA 23 87 are for situations where partial compliance is needed
+- The four endorsements can be mixed: e.g., CA 23 86 excludes conventional
+  terrorism above minimums while CA 23 85 fully excludes NBC terrorism

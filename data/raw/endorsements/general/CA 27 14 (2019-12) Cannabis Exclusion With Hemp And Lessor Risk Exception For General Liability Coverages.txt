@@ -1,0 +1,35 @@
+CA 27 14 (2019-12) — Cannabis Exclusion With Hemp And Lessor Risk Exception For General Liability Coverages
+============================================================================================================
+Form number: CA 27 14
+Edition: 2019-12
+Title: Cannabis Exclusion With Hemp And Lessor Risk Exception For General Liability Coverages
+Type: ISO Commercial Auto endorsement
+States: All (multi-state; part of ISO's December 2019 cannabis exclusion filing)
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Same cannabis exclusion as CA 27 13 — with both the hemp exception and
+an additional lessor risk exception. Designed for auto dealers who also
+lease premises to cannabis-related tenants and need GL coverage for
+claims arising from those tenants' operations.
+
+Captures:
+- All exclusions and hemp exception identical to CA 27 13
+- Lessor risk exception: the exclusion does NOT apply to claims arising
+  from premises owned or maintained by the insured and leased to others
+  — a dealer acting as landlord retains GL coverage for cannabis-related
+  claims from a tenant's operations on leased premises
+
+When used:
+- Dealers who lease out building or lot space to cannabis-related
+  businesses and need coverage for claims arising from tenants' cannabis
+  operations
+- Situations where a flat cannabis exclusion (CA 27 13) would
+  inadvertently remove lessor coverage the dealer needs
+
+Notes:
+- CA 27 13 is the version without the lessor exception
+- Both CA 27 13 and CA 27 14 are from the December 2019 filing cycle,
+  separate from the November 2020 CA 27 revision

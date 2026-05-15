@@ -1,0 +1,45 @@
+CA DS 26 (2020-11) — Auto Dealers Declarations
+==============================================
+Form number: CA DS 26
+Edition: 2020-11
+Title: Auto Dealers Declarations
+Type: ISO Commercial Auto declarations form
+States: All
+
+Policy term: Sets the policy period for the CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; renewal; endorsement
+
+Purpose:
+The declarations page for the CA 00 25 Auto Dealers Coverage Form.
+The most complex of the three commercial auto declarations forms, it
+documents the auto dealer's bundled coverage structure — covered autos
+liability, general liability, acts/errors/omissions (AEO) liability,
+garagekeepers, open lot physical damage, and all associated limits and
+deductibles. Also records the dealer's franchises, locations, estimated
+annual sales volume, and service department revenue (used for rating).
+
+Captures:
+- Named insured (dealer entity), DBA names, and all franchise locations
+- Policy period
+- Covered auto symbols and liability limits
+- General liability and AEO limits and sublimits
+- Garagekeepers coverage basis, limits, and deductibles per location
+- Open lot physical damage coverage and inventory limits
+- Schedule of covered autos (loaners, demonstrators, service vehicles)
+- Annual sales volume, used car volume, service revenue estimates
+- All CA 27 series and other endorsements attached
+- Premium breakdown by coverage section
+
+When used:
+- Every CA 00 25 Auto Dealers Coverage Form policy
+- Required for all franchised and independent auto dealer programs
+
+Notes:
+- The CA DS 26 is the companion form to the CA 00 25 and CA 26 03
+  (which handles the single-interest program declarations); they serve
+  different program components
+- Dealer declarations are among the most information-dense in commercial
+  lines due to the CA 00 25's bundled multi-coverage structure
+- Annual revenue estimates in the declarations directly affect premium;
+  dealers should report accurate sales and service volumes to avoid
+  premium audits or coverage disputes

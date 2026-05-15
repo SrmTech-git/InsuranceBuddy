@@ -1,0 +1,37 @@
+CA 25 65 (2013-10) — Total Bankruptcy Or Insolvency Exclusion For Acts, Errors Or Omissions Liability Coverages
+================================================================================================================
+Form number: CA 25 65
+Edition: 2013-10
+Title: Total Bankruptcy Or Insolvency Exclusion For Acts, Errors Or Omissions Liability Coverages
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Strengthens the standard bankruptcy/insolvency exclusion in the AEO
+section by eliminating all exceptions to it. The base CA 00 25 AEO
+section excludes bankruptcy/insolvency claims but preserves an exception
+when the insurer placed had an A.M. Best's B+ or higher rating.
+CA 25 65 removes that exception entirely, making the exclusion absolute.
+
+Captures:
+- Replacement of the modified bankruptcy/insolvency exclusion in
+  Section III — Acts, Errors Or Omissions Liability Coverages with
+  an absolute exclusion containing no exceptions
+- If the named insured or any party in the covered transaction is in
+  bankruptcy or insolvency proceedings, no AEO coverage applies —
+  period
+
+When used:
+- Insurers who want to ensure that AEO coverage cannot be invoked
+  by a bankruptcy trustee or creditor on behalf of an insolvent dealer
+- Situations where even the A.M. Best's B+ exception in the base form
+  presents unacceptable claims exposure
+
+Notes:
+- CA 25 62 is the alternative when the goal is only to change the
+  rating threshold, not eliminate the exception entirely
+- The base CA 00 25 uses A.M. Best's B+ as the threshold for the
+  exception; CA 25 65 voids this exception without substitution

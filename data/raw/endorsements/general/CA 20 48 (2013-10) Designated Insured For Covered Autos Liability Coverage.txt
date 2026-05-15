@@ -1,0 +1,44 @@
+CA 20 48 (2013-10) — Designated Insured For Covered Autos Liability Coverage
+============================================================================
+Form number: CA 20 48
+Edition: 2013-10
+Title: Designated Insured For Covered Autos Liability Coverage
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Adds a designated person or organization as an insured for covered autos
+liability coverage under the named insured's CA policy — essentially
+expanding who qualifies as "an insured" for auto liability purposes to
+include a scheduled third party. Unlike a standard additional insured
+endorsement that focuses on protecting a third party from claims arising
+from the named insured's operations, CA 20 48 gives the designated insured
+broader insured status for the auto liability section.
+
+Captures:
+- A specifically named person or organization added as an insured for
+  covered autos liability (BI/PD)
+- The designated insured's liability coverage is provided to the same extent
+  as the named insured for claims involving covered autos
+
+When used:
+- Joint ventures or business partners that share vehicle operations and need
+  insured status on each other's policies
+- Government entities or project owners that require contractor auto policies
+  to name them as insureds (not just additional insureds)
+- Any arrangement where a third party needs full insured treatment (not just
+  AI status) for the auto liability coverage
+
+Notes:
+- The designated insured is added as an insured for covered autos liability;
+  the scope of their coverage is generally limited to what the underlying
+  "Who Is An Insured" provision provides — the endorsement adds the party
+  by name but does not independently expand coverage beyond that baseline
+- Used in conjunction with other endorsements (primary/noncontributory,
+  waiver of subrogation) for comprehensive contractual compliance packages
+- Should be scheduled carefully — broad insured designation can affect
+  the policy's limits allocation if both parties have claims on the same
+  policy

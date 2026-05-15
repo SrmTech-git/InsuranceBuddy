@@ -1,0 +1,49 @@
+CA 05 24 (2020-11) — Non-Ownership Liability Coverage For Volunteers
+====================================================================
+Form number: CA 05 24
+Edition: 2020-11
+Title: Non-Ownership Liability Coverage For Volunteers
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Extends the named insured's non-owned auto liability coverage to include
+autos owned by volunteers while those volunteers are performing duties on
+behalf of the organization. The standard non-owned auto coverage under
+CA 00 01 typically covers employees' personal vehicles used for business;
+this endorsement explicitly adds volunteers — who are not employees — to
+that coverage, protecting the organization from vicarious liability arising
+from volunteer-driver accidents.
+
+Captures:
+- Non-owned auto liability coverage for the named insured's vicarious
+  liability when a volunteer's personal auto is involved in an accident
+  during organizational activities
+- Coverage is excess over the volunteer's own personal auto insurance
+- Applies to liability (BI/PD) only — not physical damage to the
+  volunteer's personal vehicle
+
+When used:
+- Nonprofit organizations, churches, civic associations, and volunteer-driven
+  service organizations (food banks, hospices, Meals on Wheels programs, etc.)
+- Any named insured that relies on volunteers who drive their own vehicles
+  to perform work on behalf of the organization
+- Complements CA 04 39 (Volunteer Hired Autos) — the two endorsements address
+  different aspects of the volunteer vehicle exposure
+
+Notes:
+- Without this endorsement, a volunteer-driver accident could expose the
+  organization to uncovered vicarious liability — volunteers are not employees
+  or partners/members, so the CA 00 01 base non-owned auto provisions do not
+  extend insured status to them
+- This endorsement covers the ORGANIZATION's liability — not the volunteer's
+  personal liability (the volunteer's own PAP remains primary for their
+  personal exposure)
+- CA 04 39 treats volunteer vehicles as "hired autos" and may also trigger
+  physical damage coverage; CA 05 24 is purely a liability extension on
+  the non-owned auto side
+- Volunteers should maintain their own personal auto insurance; the
+  organization's coverage is excess and does not replace the volunteer's PAP

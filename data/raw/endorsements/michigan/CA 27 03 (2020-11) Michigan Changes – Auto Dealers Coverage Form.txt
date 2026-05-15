@@ -1,0 +1,28 @@
+CA 27 03 (2020-11) — Michigan Changes – Auto Dealers Coverage Form
+===================================================================
+Form number: CA 27 03
+Edition: 2020-11
+Title: Michigan Changes – Auto Dealers Coverage Form
+Type: ISO Commercial Auto endorsement — Michigan specific
+States: MI
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; mandatory Michigan attachment
+
+Purpose:
+Modifies the CA 00 25 Auto Dealers Coverage Form to conform with
+Michigan insurance law and regulatory requirements. This is a mandatory
+state amendatory endorsement that adjusts policy terms, conditions, or
+definitions as required by Michigan statute or the Michigan Department
+of Insurance and Financial Services (DIFS).
+
+When used:
+- Required on all CA 00 25 policies issued in Michigan
+- Attached automatically whenever a Michigan dealer policy is written
+  on the CA 00 25
+
+Notes:
+- Michigan-specific mandatory amendatory endorsement
+- Specific provisions modified are governed by Michigan filing
+  requirements; full language requires reference to the actual ISO
+  form or carrier policy specimen

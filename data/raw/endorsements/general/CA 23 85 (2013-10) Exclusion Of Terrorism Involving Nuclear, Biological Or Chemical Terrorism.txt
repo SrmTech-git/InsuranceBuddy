@@ -1,0 +1,45 @@
+CA 23 85 (2013-10) — Exclusion Of Terrorism Involving Nuclear, Biological Or Chemical Terrorism
+===============================================================================================
+Form number: CA 23 85
+Edition: 2013-10
+Title: Exclusion Of Terrorism Involving Nuclear, Biological Or Chemical Terrorism
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Excludes coverage specifically for acts of terrorism involving nuclear,
+biological, or chemical (NBC) agents. NBC terrorism represents a distinct
+and extreme risk category; even insurers that provide conventional terrorism
+coverage under TRIA typically exclude NBC attacks due to the potentially
+unlimited, uninsurable scale of such events. This endorsement carves out
+the NBC terrorism exclusion while leaving conventional terrorism coverage
+(CA 23 84) as a separate decision.
+
+Captures:
+- Exclusion of all BI, PD, and physical damage claims arising from terrorism
+  involving nuclear detonation, biological agents (anthrax, pathogens), or
+  chemical weapons (nerve agents, toxic chemicals)
+- Applies regardless of whether the event qualifies as a certified TRIA act
+  of terrorism
+
+When used:
+- Commercial auto policies where the insurer will not provide NBC terrorism
+  coverage under any circumstances
+- Used alongside CA 23 84 (full terrorism exclusion) or independently when
+  the insured accepts conventional terrorism coverage but the insurer
+  excludes NBC
+- Standard attachment in many large commercial auto programs due to NBC
+  uninsurability
+
+Notes:
+- NBC exclusions exist across virtually all property and casualty lines;
+  the auto version (CA 23 85) is part of the ISO suite that addresses
+  terrorism across all commercial lines
+- TRIA does not mandate coverage for NBC acts where the insurer has a
+  standard exclusion; the mandate applies to certified conventional
+  terrorist acts
+- CA 23 87 is the companion form that excludes NBC terrorism ABOVE minimum
+  statutory limits (partial exclusion variant)

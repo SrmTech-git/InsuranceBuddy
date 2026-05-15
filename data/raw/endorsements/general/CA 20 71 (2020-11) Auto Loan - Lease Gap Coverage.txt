@@ -1,0 +1,46 @@
+CA 20 71 (2020-11) — Auto Loan/Lease Gap Coverage
+=================================================
+Form number: CA 20 71
+Edition: 2020-11
+Title: Auto Loan/Lease Gap Coverage
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Covers the difference ("gap") between the actual cash value (ACV) settlement
+the insurer pays on a total-loss covered auto and the outstanding loan or
+lease balance owed on that vehicle. When a vehicle is totaled and the ACV
+is less than the loan payoff amount — which commonly occurs with new vehicles
+due to rapid depreciation — the insured is left personally responsible for
+the remaining balance. This endorsement eliminates that out-of-pocket gap.
+
+Captures:
+- Gap payment between the ACV total-loss settlement and the outstanding
+  loan or lease balance
+- Applies to vehicles financed or leased through a financial institution
+  or lessor
+- Covers the gap on a per-vehicle basis for scheduled autos or eligible
+  financed vehicles
+
+When used:
+- Company fleets with financed or leased vehicles where negative equity
+  (owe more than ACV) is possible
+- Any commercial account with newer vehicles under loan or lease that
+  could be total losses
+- Especially relevant for vehicles purchased with low down payments,
+  longer loan terms (60–84 months), or rapidly depreciating vehicle types
+
+Notes:
+- Gap coverage is very common in personal auto; CA 20 71 brings the same
+  concept to the commercial auto space
+- The gap is most pronounced in the first 1–3 years of a loan/lease and
+  narrows as the loan amortizes; gap coverage becomes less valuable for
+  older vehicles with equity
+- Does not pay for amounts attributable to overdue loan payments, late
+  charges, or financial penalties from the lender — only the true ACV-to-
+  balance gap
+- Lenders and lessors often require gap coverage as a lease or loan condition
+  for commercial fleets

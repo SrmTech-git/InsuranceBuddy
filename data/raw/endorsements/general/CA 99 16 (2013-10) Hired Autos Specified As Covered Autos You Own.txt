@@ -1,0 +1,44 @@
+CA 99 16 (2013-10) — Hired Autos Specified As Covered Autos You Own
+===================================================================
+Form number: CA 99 16
+Edition: 2013-10
+Title: Hired Autos Specified As Covered Autos You Own
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying commercial auto policy
+Transaction types: New business; endorsement addition
+
+Purpose:
+Treats specifically identified hired autos (leased, rented, or borrowed
+vehicles) as if they were covered autos the insured owns, for purposes
+of physical damage coverage. Under standard commercial auto coverage,
+hired autos have liability coverage but may not have physical damage
+coverage equivalent to owned vehicles. This endorsement designates specific
+hired autos as "autos you own," triggering the same physical damage
+coverage terms (comprehensive, collision) that apply to owned fleet vehicles.
+
+Captures:
+- Physical damage coverage for specifically identified hired/rented/leased
+  autos treated as owned for coverage purposes
+- Comprehensive and collision coverage applies to the designated hired autos
+  at the same terms as owned vehicles on the policy
+- Eliminates the gap between owned auto physical damage and hired auto
+  physical damage coverage
+
+When used:
+- Long-term vehicle leases where the lessee needs owned-vehicle-equivalent
+  physical damage coverage
+- Specific equipment or specialty vehicle rentals where the insured has
+  ongoing physical damage exposure
+- Any program where a hired auto needs to be fully integrated into the
+  physical damage coverage structure
+
+Notes:
+- Distinct from general hired auto physical damage coverage — this form
+  specifies particular autos rather than providing blanket hired auto coverage
+- Lessors (rental car companies, fleet leasing companies) typically require
+  physical damage coverage on leased units; this endorsement can satisfy
+  that requirement for designated vehicles
+- The coverage limit for each specified hired auto must be reviewed against
+  the vehicle's actual value

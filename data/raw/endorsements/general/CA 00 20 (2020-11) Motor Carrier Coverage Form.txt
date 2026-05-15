@@ -1,0 +1,50 @@
+CA 00 20 (2020-11) — Motor Carrier Coverage Form
+=================================================
+Form number: CA 00 20
+Edition: 2020-11
+Title: Motor Carrier Coverage Form
+Type: ISO Commercial Auto coverage form
+States: All
+
+Policy term: 12 months standard; other terms available
+Transaction types: New business; renewal; midterm endorsement; policy rewrite
+
+Purpose:
+ISO coverage form designed for motor carriers — trucking companies, common
+carriers, and contract carriers subject to FMCSA (federal) or state public
+liability filing requirements. Parallels CA 00 01 in structure but adds
+trucking-specific provisions: trailer interchange, leased unit treatment,
+named lessee insured status, and compatibility with the MCS-90 endorsement
+required for federally regulated for-hire carriers.
+
+Captures:
+- Liability coverage (BI/PD) for owned, hired, and non-owned autos on a
+  symbol-driven framework (Symbols 1–9 plus motor-carrier-specific symbols)
+- Physical damage: comprehensive, collision, specified causes of loss
+- Trailer interchange coverage (fire and theft, or all-cause, via CA 23 13
+  or CA 23 98) for non-owned trailers under interchange agreements
+- Leased-unit provisions: named lessee as insured (CA 23 12), excess
+  coverage for named lessors (CA 23 08)
+- Named insured as both owner and operator; recognizes lease structures
+  common in trucking
+
+When used:
+- New or renewal policy for a for-hire motor carrier subject to FMCSA
+  authority (common carrier, contract carrier)
+- Trucking risks where trailer interchange is material
+- Any account requiring an MCS-90 endorsement (federal filing) — MCS-90
+  is attached separately but is designed to work with CA 00 20
+- Private carriers operating entirely intrastate may use CA 00 01 instead
+
+Notes:
+- FMCSA requires Form MCS-90 for for-hire carriers in interstate commerce;
+  CA 00 20 is the policy form that MCS-90 is attached to
+- MCS-90 provides absolute liability up to federal minimums ($750K general
+  freight, $5M hazmat) regardless of policy exclusions — the most significant
+  difference from a standard CA 00 01 account
+- Motor Carrier form replaced the older Truckers form (CA 00 12) after the
+  2010 multistate revision; CA P 005 advisory notice describes the transition
+- CA 23 series endorsements are specifically designed for motor carrier
+  exposures (rolling stores, wrong delivery, UIIE, public livery exclusion)
+- 2020-11 edition added public/livery and on-demand delivery exclusions
+  (CA 23 44, CA 23 45) to address TNC/gig-economy exposures

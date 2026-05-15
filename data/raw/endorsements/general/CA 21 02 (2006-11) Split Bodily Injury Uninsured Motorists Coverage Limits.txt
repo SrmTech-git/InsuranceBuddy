@@ -1,0 +1,41 @@
+CA 21 02 (2006-11) — Split Bodily Injury Uninsured Motorists Coverage Limits
+============================================================================
+Form number: CA 21 02
+Edition: 2006-11
+Title: Split Bodily Injury Uninsured Motorists Coverage Limits
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm change
+
+Purpose:
+Establishes split per-person/per-accident limits for bodily injury uninsured
+motorist (UM) coverage on a commercial auto policy. Rather than a single
+combined UM limit, this endorsement sets separate limits — one per claimant
+and one per accident — consistent with the split-limit structure common in
+many state UM requirements and commercial auto programs.
+
+Captures:
+- UM bodily injury coverage structured as a per-person limit and a per-
+  accident aggregate limit (e.g., $100,000 per person / $300,000 per accident)
+- Applies to bodily injury claims only (not property damage UM — see UMPD)
+- The split-limit structure controls the maximum payout per injured person
+  and per occurrence
+
+When used:
+- Commercial auto policies in states that permit or require split-limit UM
+- Accounts that prefer the split-limit structure for cost control (the per-
+  person cap limits high-severity single-claimant payouts)
+- When the underlying liability is written on a split limit basis and the
+  carrier wants UM limits to mirror the liability structure
+
+Notes:
+- CA 21 02 (BI only) vs. CA 21 07 (both BI and PD): use CA 21 02 in states
+  where UM covers only bodily injury; CA 21 07 for states where UM includes
+  property damage
+- Split limits (e.g., 100/300) cap per-claimant recovery at $100K regardless
+  of the number of claimants or accident severity; a CSL (combined single
+  limit) of $300K would allow one claimant to receive the full $300K
+- Some states mandate that commercial UM limits match liability limits
+  unless the insured rejects higher limits in writing

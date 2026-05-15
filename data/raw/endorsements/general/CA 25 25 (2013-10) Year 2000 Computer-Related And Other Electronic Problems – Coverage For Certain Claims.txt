@@ -1,0 +1,24 @@
+CA 25 25 (2013-10) — Year 2000 Computer-Related And Other Electronic Problems – Coverage For Certain Claims
+===========================================================================================================
+Form number: CA 25 25
+Edition: 2013-10
+Title: Year 2000 Computer-Related And Other Electronic Problems – Coverage For Certain Claims
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy (HISTORICAL — no longer used in active placement)
+Transaction types: Historical reference only
+
+Purpose:
+Provided affirmative Y2K coverage for specifically defined, limited categories
+of claims under the CA 00 25 GL section. The counterpart to the exclusion
+forms in the Y2K series — where CA 25 18-24 excluded or limited Y2K coverage,
+this form provided it for certain scheduled claim types.
+
+Captures:
+- (Historical) Affirmative liability coverage for scheduled Y2K-related
+  claims under CA 00 25 general liability coverages
+
+When used:
+- HISTORICAL ONLY — no current use
+- See CA 25 18 for full Y2K series context

@@ -1,0 +1,34 @@
+CA 27 04 (2020-11) — Michigan Extended Reporting Period Endorsement For Employee Benefits Liability Coverage
+============================================================================================================
+Form number: CA 27 04
+Edition: 2020-11
+Title: Michigan Extended Reporting Period Endorsement For Employee Benefits Liability Coverage
+Type: ISO Commercial Auto endorsement — Michigan specific
+States: MI
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form with CA 27 01 (Michigan Employee Benefits Liability Coverage) attached
+Transaction types: Endorsement addition (upon policy cancellation or non-renewal)
+
+Purpose:
+Provides a tail period following policy cancellation or non-renewal
+during which Employee Benefits Liability claims can be reported for
+acts, errors, or omissions that occurred during the policy period.
+Attaches to CA 27 01 (Michigan Employee Benefits Liability Coverage),
+which is written on a claims-made basis.
+
+Captures:
+- Extended reporting period for Employee Benefits Liability claims
+  under CA 27 01 after the Michigan CA 00 25 policy terminates
+- Claims arising from benefits administration errors during the policy
+  period may be reported during the tail period
+
+When used:
+- Michigan dealers who carried CA 27 01 Employee Benefits Liability
+  Coverage and are canceling or non-renewing the policy
+- Michigan-specific equivalent of CA 25 67 for the 2020-11 cycle
+
+Notes:
+- Michigan-specific form; not available in other states
+- Applies only on a claims-made basis consistent with CA 27 01
+- Schedule must specify the limit of insurance, aggregate limit,
+  retained limit, retroactive date, and tail premium

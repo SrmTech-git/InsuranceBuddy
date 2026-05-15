@@ -1,0 +1,35 @@
+CA 21 51 (2013-10) — Split Bodily Injury Underinsured Motorists Coverage Limits
+===============================================================================
+Form number: CA 21 51
+Edition: 2013-10
+Title: Split Bodily Injury Underinsured Motorists Coverage Limits
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm change
+
+Purpose:
+Establishes split per-person/per-accident limits for bodily injury only
+underinsured motorist (UIM) coverage on a commercial auto policy. The BI-only
+version applies in states where UIM does not cover property damage, limiting
+UIM recovery to bodily injury losses where the at-fault driver's coverage
+is insufficient.
+
+Captures:
+- UIM bodily injury coverage structured as split per-person / per-accident
+  limits
+- Does not cover property damage; BI only
+- Applies when the at-fault driver's liability is exhausted and additional
+  BI damages remain uncompensated
+
+When used:
+- Commercial auto policies in states where UIM is limited to bodily injury
+- Accounts where the carrier writes split-limit UIM on the BI side only
+
+Notes:
+- CA 21 51 (BI only UIM) vs. CA 21 46 (BI + PD UIM): select based on
+  state statute
+- CA 21 02 is the UM (uninsured) equivalent for BI-only split limits
+- The 2013-10 edition is more current than CA 21 46 (1993-12); use CA 21 51
+  in states where the 2013 version has been filed and approved

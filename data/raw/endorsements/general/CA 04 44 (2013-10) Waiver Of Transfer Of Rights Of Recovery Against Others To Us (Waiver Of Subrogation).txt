@@ -1,0 +1,42 @@
+CA 04 44 (2013-10) — Waiver Of Transfer Of Rights Of Recovery Against Others To Us (Waiver Of Subrogation)
+==========================================================================================================
+Form number: CA 04 44
+Edition: 2013-10
+Title: Waiver Of Transfer Of Rights Of Recovery Against Others To Us (Waiver Of Subrogation)
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Waives the insurer's subrogation rights against specifically named third
+parties. The scheduled (non-automatic) version of the commercial auto waiver
+of subrogation. The insured must list each party by name on the endorsement
+schedule; the waiver applies only to those listed parties, not to all
+contract counterparties.
+
+Captures:
+- Waiver of the insurer's right to recover payments made on behalf of the
+  insured from the scheduled third parties
+- Applies only to the specifically named persons or organizations listed
+  on the endorsement schedule
+
+When used:
+- When only one or a few specific parties need the waiver and the carrier
+  or underwriter prefers to control scope
+- Joint venture partners, named lessors, or specific contractors where
+  the waiver obligation is clear and limited
+- As an alternative to CA 04 43 (automatic blanket version) when the carrier
+  wants to review and approve each waiver recipient
+
+Notes:
+- CA 04 43 (automatic version) is more commonly requested because commercial
+  contracts routinely include blanket waiver-of-subrogation language;
+  CA 04 44 requires the insured to actively identify and schedule each party
+- The scheduling requirement can create a coverage gap if the insured forgets
+  to add a party with whom they have a waiver obligation
+- Underwriters may prefer this form to maintain oversight of which parties
+  the carrier is waiving rights against, particularly for high-value accounts
+- Certificates of insurance should reflect this endorsement for the listed
+  parties when contractually required

@@ -1,0 +1,37 @@
+CA R 262 (2022-03) — Single Interest Automobile Physical Damage Insurance Policy (Finance Master Policy Form) Ca 26 02 11 20 Table Of Contents
+==============================================================================================================================================
+Form number: CA R 262
+Edition: 2022-03
+Title: Single Interest Automobile Physical Damage Insurance Policy (Finance Master Policy Form) Ca 26 02 11 20 Table Of Contents
+Type: ISO Commercial Auto form table of contents
+States: All
+
+Purpose:
+Table of contents for the CA 26 02 (11 20) Single Interest Automobile
+Physical Damage Insurance Policy — Finance Master Policy Form. Provides
+a structural index to the master single-interest CPI policy used by
+lenders to cover their entire auto loan portfolio under a blanket program,
+rather than individual per-vehicle policies. Helps lenders, program
+administrators, and claims adjusters navigate the CA 26 02 master policy
+form, which is the more common structure for large-volume CPI programs.
+
+Content:
+- Section index for CA 26 02 (2020-11 edition): coverage agreement,
+  definitions, portfolio-wide coverage triggers, exclusions, conditions,
+  lender and borrower notification requirements
+- Page references for each section of the master single-interest policy
+- Reference to endorsement attachment points for CA 26 04-07
+
+When used:
+- Issued with CA 26 02 single-interest master policy programs as a
+  navigation reference for lenders and program administrators
+- Used by CPI program adjusters handling master policy portfolio claims
+
+Notes:
+- CA R 262 numbering aligns with CA 26 02 (262 = CA 26 02); companion to
+  CA R 261 (for the CA 26 01 individual policy form)
+- The master policy form (CA 26 02) is the standard structure for
+  bank and credit union CPI programs covering large auto loan portfolios;
+  the individual policy form (CA 26 01) is used for specific high-value loans
+- Program administrators for large CPI programs should use this table of
+  contents to ensure claims staff can navigate the master policy efficiently

@@ -1,0 +1,46 @@
+CA 26 02 (2020-11) — Single Interest Automobile Physical Damage Insurance Policy (Finance Master Policy Form)
+=============================================================================================================
+Form number: CA 26 02
+Edition: 2020-11
+Title: Single Interest Automobile Physical Damage Insurance Policy (Finance Master Policy Form)
+Type: ISO Commercial Auto coverage form
+States: All
+
+Policy term: Ongoing; individual loans attach and terminate as originated and paid off
+Transaction types: New business; ongoing master program enrollment
+
+Purpose:
+The master program form for single-interest automobile physical damage
+insurance, covering a lender's entire portfolio of auto loans under a single
+master policy. Rather than issuing individual policies per borrower (CA 26 01),
+a master program covers all qualifying loans in the lender's portfolio that
+lack required borrower-maintained insurance. Administratively efficient for
+lenders with large loan portfolios.
+
+Captures:
+- Physical damage coverage for the lender's interest across all enrolled
+  loans in the portfolio
+- Coverage automatically applies to loans where the borrower's own insurance
+  has lapsed or been cancelled
+- Tracking and monitoring system for borrower insurance compliance integrated
+  into the program
+- Claims paid to the lender for outstanding loan balances on total-loss or
+  damaged vehicles
+
+When used:
+- Banks, credit unions, and auto finance companies with large auto loan
+  portfolios needing a blanket CPI program
+- Any lender that wants systematic insurance compliance monitoring and
+  automatic force-placement when borrowers lapse
+- Portfolio-level coverage rather than loan-by-loan individual policies
+
+Notes:
+- CA 26 02 (master form) is used with CA 26 03 (declarations), CA 26 04
+  (additional coverage), CA 26 05 (additional property), CA 26 06 (blanket
+  loan payment), and CA 26 07 (involuntary unemployment) — the CA 26 series
+  is an integrated set of forms for lender CPI programs
+- Master programs are administered by insurance companies specializing in
+  lender-placed insurance; they are not typically offered through standard
+  commercial auto brokers
+- Individual borrowers are notified before force-placement per federal
+  and state lending regulations

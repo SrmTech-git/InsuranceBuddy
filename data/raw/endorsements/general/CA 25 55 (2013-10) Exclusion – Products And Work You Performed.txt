@@ -1,0 +1,37 @@
+CA 25 55 (2013-10) — Exclusion – Products And Work You Performed
+================================================================
+Form number: CA 25 55
+Edition: 2013-10
+Title: Exclusion – Products And Work You Performed
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Excludes all off-premises bodily injury or property damage arising from
+the named insured's products or work performed, removing both the
+products liability and completed operations components from Section II
+— General Liability Coverages. This is a blanket, schedule-free
+exclusion covering both exposure types entirely.
+
+Captures:
+- Exclusion of off-premises BI/PD arising from any of the named
+  insured's products (e.g., vehicles sold with defective parts that
+  cause injury after delivery)
+- Exclusion of off-premises BI/PD arising from any work the named
+  insured performed (e.g., a repair job that fails and causes damage
+  elsewhere after leaving the shop)
+
+When used:
+- Dealers where products liability and completed operations exposure is
+  being written on a separate standalone policy
+- Insurers who want to remove these exposures entirely from the CA 00 25
+  GL section
+
+Notes:
+- On-premises incidents may still be covered under the premises liability
+  component of Section II
+- CA 25 56 is the scheduled alternative — it excludes only designated
+  work types rather than all products and work

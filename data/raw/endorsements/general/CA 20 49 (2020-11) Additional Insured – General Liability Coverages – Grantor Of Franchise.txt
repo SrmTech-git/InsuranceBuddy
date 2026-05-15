@@ -1,0 +1,41 @@
+CA 20 49 (2020-11) — Additional Insured – General Liability Coverages – Grantor Of Franchise
+============================================================================================
+Form number: CA 20 49
+Edition: 2020-11
+Title: Additional Insured – General Liability Coverages – Grantor Of Franchise
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Used with the Auto Dealers Coverage Form (CA 00 25) to add the grantor of
+a franchise as an additional insured for the general liability coverages
+section of the dealer form. The franchisor may be a vehicle manufacturer,
+a service franchisor, or any other entity that has granted the dealer a
+franchise; their franchise agreement typically requires the dealer to provide
+AI status on the dealer's liability policy.
+
+Captures:
+- Named grantor of franchise added as additional insured for the CA 00 25
+  general liability coverages section
+- AI protection extends to claims arising from the dealer's operations as
+  a franchisee
+- Schedule identifies the franchisor
+
+When used:
+- Franchised auto dealers (new-car dealers holding a manufacturer franchise)
+  whose franchise agreements require the manufacturer to be named as AI
+- Any dealer with a franchisor that requires AI status as a condition of
+  the franchise agreement
+
+Notes:
+- Specific to CA 00 25 (Auto Dealers Coverage Form) — the only ISO CA form
+  with an integrated general liability section; cannot be used with CA 00 01
+- The manufacturer's AI status under this endorsement is for the dealer's
+  GL exposure arising from dealership operations, not for auto liability
+  claims under the dealer's CA coverages section
+- Automakers typically require this endorsement from all of their franchised
+  dealers as part of standard franchise requirements — it is a routine part
+  of any new-car dealer's insurance program

@@ -1,0 +1,44 @@
+CA 23 94 (2013-10) — Silica Or Silica-Related Dust Exclusion For Covered Autos Exposure
+=======================================================================================
+Form number: CA 23 94
+Edition: 2013-10
+Title: Silica Or Silica-Related Dust Exclusion For Covered Autos Exposure
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Excludes bodily injury and property damage claims arising from silica dust
+or silica-related dust exposure from the commercial auto liability coverage.
+Silicosis (lung disease caused by silica dust inhalation) has been the
+subject of mass tort litigation; this exclusion prevents the commercial auto
+policy from being implicated in silicosis BI claims when the exposure is
+connected to auto-related operations (e.g., a truck delivering sand or
+cement mix creates a silica dust exposure to workers loading/unloading).
+
+Captures:
+- Exclusion of BI claims for silicosis, silica-related disease, or exposure
+  to silica or silica-related dust arising from the use of covered autos
+- Excludes PD claims related to silica contamination connected to auto use
+- Applies to liability under the commercial auto policy (not physical damage)
+
+When used:
+- Commercial auto policies for accounts in mining, quarrying, construction,
+  cement/concrete distribution, or any industry where silica dust exposure
+  is a material risk
+- Carriers whose underwriting guidelines exclude silica-related exposure
+  across all lines including commercial auto
+- Accounts with large truck fleets delivering silica-containing materials
+  (sand, gravel, concrete, glass)
+
+Notes:
+- Silica exclusions were widely adopted across commercial lines (CGL, WC,
+  auto) in the 2000s-2010s following the asbestos litigation experience;
+  CA 23 94 is the commercial auto-specific version
+- The exclusion targets claims where silica exposure is connected to covered
+  auto use; claims unrelated to auto operations are not affected
+- Accounts with significant silica exposure typically need specialty
+  coverage or riders addressing the silicosis exposure separately from
+  standard commercial lines

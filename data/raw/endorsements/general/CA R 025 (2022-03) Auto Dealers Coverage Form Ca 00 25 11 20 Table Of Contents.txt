@@ -1,0 +1,37 @@
+CA R 025 (2022-03) — Auto Dealers Coverage Form Ca 00 25 11 20 Table Of Contents
+================================================================================
+Form number: CA R 025
+Edition: 2022-03
+Title: Auto Dealers Coverage Form Ca 00 25 11 20 Table Of Contents
+Type: ISO Commercial Auto form table of contents
+States: All
+
+Purpose:
+Table of contents for the CA 00 25 (11 20) Auto Dealers Coverage Form,
+providing a structural index to the most complex of the three ISO commercial
+auto base forms. The CA 00 25 bundles auto liability, general liability, AEO
+liability, garagekeepers, and open lot physical damage into a single form;
+its table of contents is correspondingly more complex than CA R 001 or
+CA R 020, reflecting the multi-coverage structure of the dealer program.
+
+Content:
+- Section index for CA 00 25 (2020-11 edition): covered autos liability,
+  general liability coverages, AEO (acts, errors and omissions) coverages,
+  garagekeepers, physical damage, conditions, definitions
+- Reference to dealer-specific coverage sections not found in CA 00 01
+  or CA 00 20 (AEO, open lot, garagekeepers)
+- Page references for each coverage section and sub-section
+
+When used:
+- Issued with CA 00 25 policies as a navigation aid
+- Used by dealers, agents, program underwriters, and claims adjusters
+  to locate specific provisions within the complex dealer policy form
+
+Notes:
+- The CA 00 25's table of contents reflects the bundled nature of the
+  dealer form — navigating between auto liability (Section I), GL (Section II),
+  AEO (Section III), garagekeepers (Section IV), and physical damage (Section V)
+  requires a clear structural reference
+- The CA 27 series endorsements modify specific sections of the CA 00 25;
+  the table of contents helps identify which section each CA 27 form modifies
+- Issued 2022-03, coordinated with the CA R 001 and CA R 020 companion TOC forms

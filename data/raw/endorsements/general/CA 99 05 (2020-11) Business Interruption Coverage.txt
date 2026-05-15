@@ -1,0 +1,45 @@
+CA 99 05 (2020-11) — Business Interruption Coverage
+===================================================
+Form number: CA 99 05
+Edition: 2020-11
+Title: Business Interruption Coverage
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying commercial auto policy
+Transaction types: New business; endorsement addition
+
+Purpose:
+Adds a daily-benefit business interruption coverage to a commercial auto
+policy when a specifically scheduled covered auto is out of service due
+to a covered physical damage loss. This is a scheduled daily indemnity
+form — the insured selects a daily benefit amount and a maximum benefit
+period; coverage is not based on actual income loss documentation in the
+way standalone commercial property BI is. A 24-hour waiting period applies
+before the daily benefit begins. Coverage ends when the vehicle is repaired,
+replaced, or the maximum benefit days are exhausted.
+
+Captures:
+- A scheduled daily benefit amount for each day a specifically listed
+  covered auto is out of service following a covered physical damage loss
+- Subject to a 24-hour waiting period before the daily benefit begins
+- Coverage ends at the earlier of vehicle repair/replacement or the
+  maximum benefit period scheduled in the endorsement
+
+When used:
+- Businesses where revenue is directly tied to specific vehicles being
+  operational (trucking, delivery, contractors, specialty equipment operators)
+- Any commercial auto program where vehicle downtime creates quantifiable
+  income loss
+- Programs for fleets where each vehicle contributes directly to revenue generation
+
+Notes:
+- 2020-11 edition; updated in conjunction with the 2020-11 commercial auto
+  program revision
+- This is a relatively uncommon endorsement for most commercial auto programs;
+  more commonly used in specialty fleet and trucking programs
+- Business interruption coverage under a commercial auto policy is narrower
+  than standalone BI coverage — it is vehicle-specific and tied to physical
+  damage losses only
+- Insureds with broader operational continuity concerns should also consider
+  commercial property BI coverage

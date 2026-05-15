@@ -1,0 +1,37 @@
+CA 25 11 (2013-10) — Named Driver Collision Coverage
+====================================================
+Form number: CA 25 11
+Edition: 2013-10
+Title: Named Driver Collision Coverage
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Restricts collision coverage under the dealer's physical damage section
+to trips operated by specifically named drivers within a 50-mile radius.
+Reduces moral hazard associated with broad dealer-lot vehicle movement by
+tying collision coverage to a known, limited pool of drivers.
+
+Captures:
+- Three simultaneous restrictions on collision coverage:
+  1. Named driver requirement — collision applies only when a driver
+     listed by name on the endorsement schedule is operating the vehicle
+  2. Distance limit — coverage is limited to trips where the distance
+     between pickup and destination does not exceed 50 miles
+  3. Scheduled deductible — a deductible specific to this endorsement
+     applies rather than the policy's standard deductible
+
+When used:
+- Dealers who use a limited pool of known delivery or transport drivers
+  for moving inventory
+- Situations where the insurer requires driver identification and distance
+  controls as a condition of collision coverage
+
+Notes:
+- Unnamed drivers operating covered autos have no collision coverage
+  while this endorsement is attached
+- Losses occurring beyond the 50-mile radius are not covered regardless
+  of who is driving

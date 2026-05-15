@@ -1,0 +1,39 @@
+CA 04 22 (2020-11) — Earlier Notice Of Cancellation Provided By Us
+==================================================================
+Form number: CA 04 22
+Edition: 2020-11
+Title: Earlier Notice Of Cancellation Provided By Us
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Modifies the standard cancellation notice provision in the CA 00 01 (or other
+CA coverage form) to provide the insured with MORE than the minimum statutory
+notice period before cancellation takes effect. The base form uses state-
+mandated minimums (typically 10–30 days for non-payment, 60–90 days for
+underwriting cancellations); this endorsement extends that period to a
+longer, scheduled number of days.
+
+Captures:
+- The number of days of advance notice the carrier will provide before
+  cancellation becomes effective (e.g., 60 days, 90 days, or a custom period)
+- Applies to cancellations initiated by the carrier (not to insureds' requests
+  for cancellation)
+
+When used:
+- Required by lienholders, certificate holders, or additional insureds whose
+  contracts specify a longer notice period than the state statutory minimum
+- Large construction projects, loan covenants, or government contracts that
+  require 60 or 90 days' notice
+- When an agent or insured negotiates extended cancellation protection
+
+Notes:
+- This endorsement gives the insured MORE notice (more favorable), NOT less
+- Distinguished from state-specific cancellation endorsements that are filed
+  to comply with individual state statutes — this is a contractual extension
+  beyond the statutory minimum
+- Providing extended notice does not obligate the carrier to continue coverage;
+  it only extends the advance warning period before the cancellation date

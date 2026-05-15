@@ -1,0 +1,46 @@
+CA 04 45 (2013-10) — Golf Carts And Low-Speed Vehicles
+======================================================
+Form number: CA 04 45
+Edition: 2013-10
+Title: Golf Carts And Low-Speed Vehicles
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Extends commercial auto coverage to golf carts and other low-speed vehicles
+used in the named insured's operations. These vehicles typically fall outside
+the standard definition of "auto" in CA 00 01 because they are not licensed
+for road use and may not meet the definition of a land motor vehicle; this
+endorsement explicitly brings them within covered auto status. "Low-speed
+vehicle" relies on the applicable state or federal LSV classification (federal
+definition caps top speed at 20–25 mph) rather than a speed threshold defined
+within the endorsement itself.
+
+Captures:
+- Liability (BI/PD) coverage for golf carts and low-speed vehicles used in
+  the insured's operations
+- Physical damage coverage where elected
+- Vehicles may be scheduled or covered on a blanket basis depending on
+  endorsement structure
+
+When used:
+- Golf courses, resorts, retirement communities, and campgrounds that own
+  and operate fleets of golf carts
+- Industrial facilities, warehouses, and large campuses using low-speed
+  utility vehicles or personal mobility devices
+- Any business where golf carts, NEVs (neighborhood electric vehicles), or
+  similar low-speed equipment are a meaningful operational asset
+
+Notes:
+- Without this endorsement, golf carts and LSVs may be uninsured under the
+  commercial auto policy — they may also be excluded from general liability
+  as "mobile equipment" once they are used on public roads
+- Some states have separate licensing and registration requirements for
+  low-speed vehicles (NEVs), which may affect how they are treated under
+  state financial responsibility laws
+- Coverage for golf carts used only on private property (never on public
+  roads) may alternatively be handled under a property or inland marine
+  floater; consult coverage territory and use limitations

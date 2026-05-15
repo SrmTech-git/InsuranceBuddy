@@ -1,0 +1,34 @@
+CA 25 59 (2013-10) — Designated Location(s) General Liability Aggregate Limit For Certain General Liability Coverages
+======================================================================================================================
+Form number: CA 25 59
+Edition: 2013-10
+Title: Designated Location(s) General Liability Aggregate Limit For Certain General Liability Coverages
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Creates a separate general liability aggregate limit for each location
+listed on the endorsement schedule, preventing losses at one location
+from eroding the aggregate available to other locations.
+
+Captures:
+- Each scheduled location receives its own aggregate limit equal to
+  (or as otherwise specified in the schedule) the policy's General
+  Aggregate Limit
+- Claims arising from a scheduled location draw only against that
+  location's aggregate, not the master policy aggregate
+
+When used:
+- Auto dealer groups with multiple rooftops on a single CA 00 25 policy
+  who want to prevent a major loss at one location from exhausting the
+  GL aggregate for all other locations
+- Dealers with locations that have materially different risk profiles
+
+Notes:
+- Operations, premises, or losses not attributable to any scheduled
+  location continue to share the policy's overall aggregate
+- Parallel to CG 25 04 (Designated Location(s) General Aggregate Limit)
+  in the standard CGL program

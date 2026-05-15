@@ -1,0 +1,44 @@
+CA 24 02 (2013-10) — Public Transportation Autos
+================================================
+Form number: CA 24 02
+Edition: 2013-10
+Title: Public Transportation Autos
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Modifies the CA 00 01 Business Auto Coverage Form to enable coverage for
+autos used in public transportation operations. The standard CA 00 01 excludes
+coverage for "public or livery conveyance" use; CA 24 02 removes that exclusion
+for designated vehicles and also removes the care, custody, or control exclusion
+as it applies to property of passengers carried in the covered auto. Applies
+broadly to bus companies, shuttle services, charter/tour operators, and
+paratransit providers — not limited to municipal or public-sector operators.
+
+Captures:
+- Removal of the public or livery conveyance exclusion for covered autos used
+  in public transportation operations
+- Removal of the care, custody, or control exclusion for passenger property
+  carried in a covered auto
+- Liability coverage for the insured's bus, shuttle, charter, and paratransit
+  operations
+
+When used:
+- Scheduled-route bus operators and regional transit providers
+- Charter and tour bus operators
+- Shuttle services and non-emergency medical transport providers
+- ADA paratransit providers (demand-response service for disabled passengers)
+- Any for-hire passenger carrier operation using covered autos
+
+Notes:
+- The critical function of this endorsement is removing the livery conveyance
+  exclusion — without it, the CA 00 01 would not respond to claims arising
+  from carrying fare-paying or contract passengers
+- Also modifies the care/custody exclusion so passenger property losses are
+  covered under the auto policy
+- State public utility commission (PUC) authority and CDL requirements may
+  apply depending on vehicle size and state; regulatory compliance is separate
+  from this endorsement's coverage function

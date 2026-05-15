@@ -1,0 +1,46 @@
+CA 23 12 (2013-10) — Motor Carriers – Named Lessee As Insured
+=============================================================
+Form number: CA 23 12
+Edition: 2013-10
+Title: Motor Carriers – Named Lessee As Insured
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Adds the motor carrier (lessee) to the owner-operator's commercial auto
+policy as an additional insured. In owner-operator lease arrangements,
+the truck is owned by the owner-operator but leased to a carrier; both
+parties can face liability when the truck is involved in an accident while
+under the carrier's dispatch. This endorsement ensures the carrier has
+insured status on the owner-operator's underlying policy, which may be
+required by federal regulations or lease terms.
+
+Captures:
+- Motor carrier (lessee) added as a named insured on the owner-operator's
+  CA 00 20 or CA 00 01 policy
+- Coverage for the carrier as an insured for liability arising from the
+  leased vehicle's operation under the carrier's authority
+- Coverage applies for the duration of the lease period, not limited to
+  periods when the owner-operator is under the carrier's active dispatch
+
+When used:
+- Owner-operator insurance programs where the leasing carrier requires
+  insured status on the owner-operator's policy
+- Situations where federal or state regulations require the carrier to be
+  covered as an insured on owner-operated equipment
+- Lease programs pairing CA 23 12 (carrier as insured on owner's policy)
+  with CA 23 08 (carrier's excess layer above owner's primary)
+
+Notes:
+- Federal motor carrier regulations (49 CFR Part 376) create complex
+  liability allocation between carriers and owner-operators; this endorsement
+  helps structure the policy to reflect those regulatory requirements
+- The carrier being named as insured on the owner-operator's policy does
+  not eliminate the carrier's need for its own CA 00 20; it provides an
+  additional layer of coverage in the event the owner-operator's policy
+  is called upon
+- FMCSA Form MCS-90 is typically attached to the carrier's own policy,
+  not the owner-operator's policy

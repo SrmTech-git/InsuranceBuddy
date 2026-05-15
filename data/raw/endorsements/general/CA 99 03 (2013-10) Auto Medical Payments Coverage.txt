@@ -1,0 +1,43 @@
+CA 99 03 (2013-10) — Auto Medical Payments Coverage
+===================================================
+Form number: CA 99 03
+Edition: 2013-10
+Title: Auto Medical Payments Coverage
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying commercial auto policy (CA 00 01, CA 00 20, CA 00 25)
+Transaction types: New business; endorsement addition
+
+Purpose:
+Adds auto medical payments coverage (MedPay) to a commercial auto policy.
+The base CA 00 01, CA 00 20, and CA 00 25 do not include medical payments
+coverage by default — it must be added by endorsement. MedPay covers
+reasonable medical expenses for bodily injury sustained by the named
+insured and passengers in covered autos, regardless of fault, up to the
+selected limit. Serves as a no-fault first-party medical expense benefit
+in states that have not enacted mandatory PIP.
+
+Captures:
+- Reasonable and necessary medical and funeral expenses for bodily injury
+  caused by accident involving a covered auto
+- Covers the named insured, family members, and other occupants of
+  covered autos
+- No-fault benefit — pays regardless of who caused the accident
+- Subject to a per-person limit selected at policy inception
+
+When used:
+- Commercial auto programs in non-PIP states where the insured wants
+  no-fault medical benefits for vehicle occupants
+- Employers who want medical payments coverage for employees using
+  company vehicles
+- Any commercial auto policy where MedPay is desired as a supplemental
+  medical benefit
+
+Notes:
+- MedPay is distinct from PIP (Personal Injury Protection) — PIP covers
+  broader income loss and rehabilitation; MedPay is limited to medical
+  and funeral expenses
+- In PIP states, PIP endorsements (CA 21 series) replace or supplement MedPay
+- The 2013-10 edition is the current ISO standard; this endorsement applies
+  across all three base commercial auto forms

@@ -1,0 +1,41 @@
+CA 20 27 (2013-10) — Registration Plates Not Issued For A Specific Auto
+=======================================================================
+Form number: CA 20 27
+Edition: 2013-10
+Title: Registration Plates Not Issued For A Specific Auto
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Addresses the coverage question that arises when registration plates are
+not permanently assigned to a single vehicle — such as dealer license plates,
+in-transit plates, or fleet plates that move between vehicles. Standard CA
+policy language ties coverage to specific identified autos; this endorsement
+clarifies that covered auto status applies to any vehicle bearing the
+scheduled registration plates, regardless of which specific vehicle is
+using the plate at a given time.
+
+Captures:
+- Coverage for any vehicle using the named insured's dealer plates,
+  in-transit plates, or other non-vehicle-specific registration plates
+- Liability and physical damage coverage follow the plate rather than
+  requiring a specific VIN to be scheduled
+
+When used:
+- Auto dealers that use dealer plates on demo vehicles, test drives, and
+  vehicles in transit
+- Businesses that use fleet or in-transit plates across multiple interchangeable
+  vehicles
+- Any account where plate assignment is not vehicle-specific and coverage
+  needs to follow plate use
+
+Notes:
+- Without this endorsement, a CA policy scheduled to specific VINs might
+  not respond to a loss involving a dealer plate on an unlisted vehicle
+- Dealer plate coverage is a routine need for any dealership; this
+  endorsement is commonly paired with a dealer's CA 00 01 or CA 00 25 policy
+- Coverage limits and conditions still apply normally; only the vehicle
+  identification method changes (plate-based vs. VIN-based)

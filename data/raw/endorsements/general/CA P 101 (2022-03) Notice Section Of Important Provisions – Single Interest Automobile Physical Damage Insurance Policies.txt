@@ -1,0 +1,42 @@
+CA P 101 (2022-03) — Notice Section Of Important Provisions – Single Interest Automobile Physical Damage Insurance Policies
+===========================================================================================================================
+Form number: CA P 101
+Edition: 2022-03
+Title: Notice Section Of Important Provisions – Single Interest Automobile Physical Damage Insurance Policies
+Type: ISO Commercial Auto policyholder advisory notice
+States: All
+
+Purpose:
+Policyholder notice specifically for the single-interest automobile physical
+damage insurance program (CA 26 series), explaining important provisions
+of that program to covered borrowers. Unlike standard commercial auto
+advisory notices (CA P 001-013) which address business policyholders,
+CA P 101 is directed at individual borrowers who are the subject of
+lender-placed (force-placed) single-interest CPI coverage. Explains the
+nature of lender-placed insurance — that it protects the lender's interest,
+not the borrower's — and communicates key provisions and borrower rights.
+
+Content:
+- Explanation that single-interest CPI coverage is placed by the lender
+  to protect the lender's collateral interest, not the borrower's property
+- Key provisions of the CA 26 program affecting the borrower
+- Borrower rights and notification requirements
+- How the single-interest policy relates to (but does not replace)
+  the borrower's own auto insurance
+- Important limitations of single-interest coverage from the borrower's
+  perspective
+
+When used:
+- Issued to borrowers on loans covered under CA 26 01 (individual policy)
+  or CA 26 02 (master policy) single-interest programs
+- Satisfies state consumer notice requirements for lender-placed insurance
+  that must be disclosed to the borrower
+
+Notes:
+- The 100-series numbering (CA P 101 vs. CA P 001-013) indicates this is
+  a CPI/single-interest specific notice rather than a standard commercial
+  auto program notice
+- State regulations governing lender-placed insurance often require specific
+  borrower disclosures; CA P 101 provides ISO's standard form for this purpose
+- Borrowers who receive this notice are not the named insured — the lender
+  is; this notice explains that distinction and its practical implications

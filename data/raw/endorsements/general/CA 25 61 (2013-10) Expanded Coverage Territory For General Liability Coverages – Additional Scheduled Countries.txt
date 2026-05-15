@@ -1,0 +1,36 @@
+CA 25 61 (2013-10) — Expanded Coverage Territory For General Liability Coverages – Additional Scheduled Countries
+=================================================================================================================
+Form number: CA 25 61
+Edition: 2013-10
+Title: Expanded Coverage Territory For General Liability Coverages – Additional Scheduled Countries
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+A targeted alternative to CA 25 60 (Worldwide General Liability
+Coverages). Expands the GL coverage territory to include only the
+specific countries listed on the endorsement schedule, rather than
+granting full worldwide coverage.
+
+Captures:
+- Replaces the Coverage Territory definition with one that includes the
+  standard U.S./territories/Canada territory plus any country
+  specifically named on the endorsement schedule
+- Applies to Section II — General Liability Coverages only
+
+When used:
+- Dealers who regularly export vehicles or have warranty/service
+  obligations in specific foreign markets (e.g., Mexico, Caribbean
+  nations) without needing — or being able to obtain — full worldwide
+  coverage
+- Insurers who want to grant country-by-country territory expansion for
+  more precise premium rating and risk selection
+
+Notes:
+- Suit requirement retained: suits must be brought in the U.S., its
+  territories/possessions, or Canada
+- Unlisted countries remain outside the coverage territory
+- CA 25 60 is the alternative when full worldwide coverage is needed

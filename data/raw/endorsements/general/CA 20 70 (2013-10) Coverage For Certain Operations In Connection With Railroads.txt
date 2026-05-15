@@ -1,0 +1,44 @@
+CA 20 70 (2013-10) — Coverage For Certain Operations In Connection With Railroads
+=================================================================================
+Form number: CA 20 70
+Edition: 2013-10
+Title: Coverage For Certain Operations In Connection With Railroads
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Modifies or removes the railroad protective liability exclusion in the CA
+00 01 policy for insureds whose vehicles and operations take place in, on,
+or adjacent to railroad rights-of-way. Standard commercial lines policies
+(both CA and CGL) exclude liability for damage to railroad property or
+claims arising from railroad operations; contractors and vendors working
+near railroads need this exclusion modified to obtain meaningful coverage.
+
+Captures:
+- Removal or modification of the railroad exclusion for specifically
+  scheduled operations conducted in connection with railroads
+- Liability coverage for BI and PD arising from covered auto use near or
+  on railroad rights-of-way during the described operations
+
+When used:
+- Infrastructure contractors whose vehicles operate in railroad corridors
+  (utility contractors, road crews near crossings, telecom contractors
+  with equipment crossing rail lines)
+- Railroad vendors and service providers whose vehicles must enter
+  railroad property
+- Any account whose scope of work contractually requires auto coverage
+  in railroad environments
+
+Notes:
+- Railroad companies typically require separate Railroad Protective Liability
+  (RPL) policies from contractors working near tracks; CA 20 70 modifies
+  the contractor's own CA policy but does NOT substitute for an RPL policy
+  that the railroad itself may require as a named insured
+- The scope of operations covered by this endorsement should be clearly
+  described — only the scheduled operations have the exclusion removed
+- Underwriters price railroad exposure carefully due to the catastrophic
+  loss potential; this endorsement may require special underwriting
+  approval and higher premiums

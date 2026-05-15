@@ -1,0 +1,39 @@
+CA 25 57 (2013-10) — Communicable Disease Exclusion For General Liability Coverages
+====================================================================================
+Form number: CA 25 57
+Edition: 2013-10
+Title: Communicable Disease Exclusion For General Liability Coverages
+Type: ISO Commercial Auto endorsement
+States: All except WA and IL
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Excludes all claims arising from the actual or alleged transmission of
+communicable diseases from all three subsections of Section II — General
+Liability Coverages. The exclusion applies to the GL section only; the
+covered autos liability section is not affected.
+
+Captures:
+- Exclusion of BI/PD arising from communicable disease transmission
+  from Section II, Subsection A (Bodily Injury and Property Damage
+  Liability)
+- Exclusion of personal and advertising injury claims from communicable
+  disease from Section II, Subsection B
+- Exclusion of medical payments claims from communicable disease from
+  Section II, Subsection C (Locations and Operations Medical Payments)
+
+When used:
+- Dealers and insurers seeking to limit GL exposure from communicable
+  disease claims (became more widely deployed following COVID-19
+  litigation)
+- Situations where communicable disease exposure is addressed by a
+  separate policy or excluded entirely
+
+Notes:
+- Blanket exclusion — no schedule, no disease-specific carve-outs
+- Does not affect the auto liability section (Section I) of CA 00 25
+- No evidence of a post-2013 revised ISO national edition; the 10 13
+  edition appears to be the only published version as of 2024
+- Not filed in Washington (WA) or Illinois (IL)

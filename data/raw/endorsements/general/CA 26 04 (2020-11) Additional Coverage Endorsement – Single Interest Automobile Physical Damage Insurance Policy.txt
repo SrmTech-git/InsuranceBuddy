@@ -1,0 +1,46 @@
+CA 26 04 (2020-11) Additional Coverage Endorsement – Single Interest Automobile Physical Damage Insurance Policy
+==================================================================================================================
+Form number: CA 26 04
+Edition: 2020-11
+Title: Additional Coverage Endorsement – Single Interest Automobile Physical Damage Insurance Policy
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying CA 26 01 or CA 26 02 policy
+Transaction types: New business; program addition
+
+Purpose:
+Amends the CA 26 01 or CA 26 02 single interest physical damage policy to
+exclude coverage when the financed vehicle is being used for public or
+livery passenger conveyance or on-demand delivery services (ride-share,
+transportation network company use, food/package delivery). The confirmed
+ISO title is "Amendment of Single Interest Policy Provisions – Public or
+Livery Passenger Conveyance and On-Demand Delivery Services Exclusion."
+It removes coverage for physical damage losses that occur during those
+commercial-use activities.
+
+Captures:
+- Exclusion of physical damage coverage under the single interest policy
+  when the financed vehicle is being operated as a livery/ride-share vehicle
+  or for on-demand delivery services
+- Protects the lender-placed insurer from claims arising from commercial
+  use that the borrower undertook without obtaining appropriate commercial
+  auto or TNC coverage
+
+When used:
+- Lender CPI programs where the insurer excludes claims arising from
+  ride-share or gig-economy delivery use by the borrower
+- Any single interest program where TNC/delivery-use exposure is carved
+  out of the physical damage coverage
+
+Notes:
+- This is an EXCLUSION endorsement — it removes coverage for commercial
+  gig-economy vehicle use; it does not add coverages; the file title
+  "Additional Coverage Endorsement" does not match the confirmed ISO
+  form content
+- Confirmed ISO title: "Amendment of Single Interest Policy Provisions –
+  Public or Livery Passenger Conveyance and On-Demand Delivery Services
+  Exclusion"
+- Borrowers using a financed personal vehicle for ride-share or delivery
+  without appropriate commercial/TNC coverage create a gap that this
+  endorsement specifically carves out of the lender's CPI policy

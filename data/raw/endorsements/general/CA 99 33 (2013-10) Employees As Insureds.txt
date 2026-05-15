@@ -1,0 +1,49 @@
+CA 99 33 (2013-10) — Employees As Insureds
+==========================================
+Form number: CA 99 33
+Edition: 2013-10
+Title: Employees As Insureds
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying commercial auto policy
+Transaction types: New business; endorsement addition
+
+Purpose:
+Extends insured status under the commercial auto liability coverage to
+employees who use their own personally-owned vehicles for the named
+insured's business. Under the base commercial auto forms, employees driving
+the named insured's covered autos are already insureds. The gap this
+endorsement fills is different: when an employee uses their personally-owned
+auto on company business, that vehicle is not a "covered auto" under the
+employer's BAP, so the employee has no insured status under the employer's
+policy for that trip. CA 99 33 extends insured status to employees in
+that non-covered-auto scenario, making the employer's policy respond on
+excess over the employee's personal auto coverage.
+
+Captures:
+- Employee insured status for auto liability coverage when using their
+  personally-owned autos for the named insured's business
+- The employer's commercial auto policy responds on an excess basis over
+  the employee's personal auto insurance in these situations
+- Provides individual employees with liability protection and defense
+  under the employer's CA policy for personal-vehicle business trips
+
+When used:
+- Employers whose employees use personal vehicles for business errands,
+  client visits, or other company purposes
+- Any commercial auto program where employee-owned vehicle use on company
+  business creates a meaningful liability exposure for both the employee
+  and the employer
+- Programs seeking to confirm that the employer's CA policy responds when
+  an employee's personal coverage is inadequate or absent
+
+Notes:
+- The gap this endorsement addresses is the personal-vehicle-on-company-
+  business scenario — not the employer-owned fleet vehicle scenario;
+  employees driving fleet vehicles are already insureds under the base forms
+- The employer's policy typically responds excess over the employee's
+  personal auto policy limit
+- Compare with CA 04 39 (Volunteer Hired Autos) and CA 99 34 (Social
+  Service Agencies – Volunteers As Insureds) which cover non-employee
+  volunteer drivers

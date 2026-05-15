@@ -1,0 +1,47 @@
+CA 99 60 (2013-10) — Audio, Visual And Data Electronic Equipment Coverage Added Limits
+======================================================================================
+Form number: CA 99 60
+Edition: 2013-10
+Title: Audio, Visual And Data Electronic Equipment Coverage Added Limits
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying commercial auto policy
+Transaction types: New business; endorsement addition
+
+Purpose:
+Adds coverage and/or increases limits for audio, visual, and data
+electronic equipment installed in covered autos — including equipment
+permanently installed and portable equipment used in the vehicle. The
+standard commercial auto physical damage forms limit coverage for
+electronic equipment that is not standard factory equipment. For
+commercial vehicles with significant investments in non-standard
+electronics (GPS, communications systems, data terminals, cameras,
+audio systems), this endorsement provides coverage at specified limits
+for that equipment.
+
+Captures:
+- Coverage for audio, visual, and data electronic equipment permanently
+  installed in covered autos
+- Coverage for portable electronic equipment regularly used in covered autos
+- Added or increased limits beyond the base policy's electronic equipment
+  sublimit
+- Applies to equipment that is part of the covered auto's use profile
+  (trucking communications, route data terminals, dashcams, etc.)
+
+When used:
+- Commercial vehicles with significant non-standard electronic equipment
+  (GPS fleet management systems, communications equipment, data terminals)
+- Specialty vehicles equipped with cameras, sensors, or recording equipment
+- Any commercial auto policy where the base electronic equipment sublimit
+  is insufficient for the actual equipment investment
+
+Notes:
+- The base commercial auto form includes a $1,000 sublimit for audio,
+  visual, and data electronic equipment that is not standard factory
+  equipment; CA 99 60 allows scheduling higher per-loss limits above
+  that $1,000 threshold for specific vehicles
+- The endorsement requires identification of covered equipment categories
+  or specific items and applicable limits
+- Compare with CA 99 59 (Garagekeepers Coverage – Customers' Sound-Receiving
+  Equipment) for equipment in customer vehicles in garagekeepers custody

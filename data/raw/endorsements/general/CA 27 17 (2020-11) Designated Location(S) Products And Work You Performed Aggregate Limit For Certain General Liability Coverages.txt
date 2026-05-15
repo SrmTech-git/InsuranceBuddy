@@ -1,0 +1,35 @@
+CA 27 17 (2020-11) — Designated Location(s) Products And Work You Performed Aggregate Limit For Certain General Liability Coverages
+=====================================================================================================================================
+Form number: CA 27 17
+Edition: 2020-11
+Title: Designated Location(s) Products And Work You Performed Aggregate Limit For Certain General Liability Coverages
+Type: ISO Commercial Auto endorsement
+States: All (multi-state)
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Creates a separate products and completed operations aggregate limit for
+each location listed on the endorsement schedule, preventing losses at
+one dealership from exhausting the products/work performed aggregate
+available to all other locations.
+
+Captures:
+- Per-location products and completed operations aggregate limit for
+  each scheduled location under Section II — General Liability Coverages
+- Claims attributable to a scheduled location draw against that
+  location's dedicated aggregate, not the policy-wide aggregate
+
+When used:
+- Auto dealer groups with multiple rooftops where service, parts, or
+  repair operations at one location should not erode products/completed
+  operations coverage for all other locations
+- Multi-location dealer groups with materially different service
+  operation risk profiles by location
+
+Notes:
+- Parallel in concept to CG 25 04 (Designated Location(s) General
+  Aggregate Limit) in the standard CGL program, but specifically
+  for the products and completed operations aggregate
+- Part of the November 2020 ISO Auto Dealers form revision cycle

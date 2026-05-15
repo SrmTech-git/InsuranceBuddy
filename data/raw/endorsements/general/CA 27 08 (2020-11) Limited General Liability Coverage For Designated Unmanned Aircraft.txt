@@ -1,0 +1,39 @@
+CA 27 08 (2020-11) — Limited General Liability Coverage For Designated Unmanned Aircraft
+=========================================================================================
+Form number: CA 27 08
+Edition: 2020-11
+Title: Limited General Liability Coverage For Designated Unmanned Aircraft
+Type: ISO Commercial Auto endorsement
+States: All (multi-state)
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Excludes GL coverage (both Coverage A and Coverage B) for drones, but
+restores coverage for specific unmanned aircraft and their operations
+that are scheduled on the endorsement. Provides targeted coverage for
+dealers who actually operate named drones rather than a blanket
+exclusion.
+
+Captures:
+- Exclusion of all GL coverage for unmanned aircraft from Section II
+- Giveback: coverage is restored for designated unmanned aircraft and
+  their specific operations/projects as scheduled on the endorsement
+- Option to apply a separate drone-specific aggregate limit (subject to
+  the policy general aggregate)
+
+When used:
+- Dealers who actively operate drones (e.g., for aerial inventory
+  photography or marketing) and want coverage for those specific
+  scheduled operations while excluding all other drone exposure
+- The most flexible drone endorsement for dealers with actual drone
+  programs
+
+Notes:
+- CA 27 09 is the Coverage A-only (BI/PD) variant with the same
+  scheduled giveback structure
+- CA 27 10 is the Coverage B-only (personal and advertising injury)
+  variant with the same structure
+- CA 27 05 is the flat blanket exclusion with no giveback
+- Part of the November 2020 ISO Auto Dealers form revision cycle

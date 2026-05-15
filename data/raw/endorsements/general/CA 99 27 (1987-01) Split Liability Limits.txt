@@ -1,0 +1,42 @@
+CA 99 27 (1987-01) — Split Liability Limits
+===========================================
+Form number: CA 99 27
+Edition: 1987-01
+Title: Split Liability Limits
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying commercial auto policy
+Transaction types: New business; endorsement addition
+
+Purpose:
+Converts the standard commercial auto single combined single limit (CSL)
+liability coverage into split limits — separate limits for bodily injury
+per person, bodily injury per occurrence, and property damage per
+occurrence. The base commercial auto forms use a single combined limit;
+some states, insurers, or insureds prefer the traditional split-limit
+structure (e.g., 100/300/100). This endorsement restructures the liability
+coverage accordingly.
+
+Captures:
+- Separate per-person bodily injury limit
+- Separate per-occurrence bodily injury limit
+- Separate per-occurrence property damage limit
+- Replaces the single combined single limit with the three-part split
+  limit structure
+
+When used:
+- Commercial auto policies where the insured or state requires split limits
+- Programs where the CSL equivalent does not match the insured's
+  desired or contractually required split-limit structure
+- Any commercial auto policy where split liability limits are preferred
+  over a combined single limit
+
+Notes:
+- 1987-01 edition — an older form that has remained in use because the
+  split vs. CSL structure question is a longstanding program design choice
+- Most modern commercial auto programs use CSL; split limits are more
+  common in personal auto
+- When using split limits, all three components must be adequate — a
+  low per-person limit with a high per-occurrence limit may not provide
+  adequate protection in severe single-claimant accidents

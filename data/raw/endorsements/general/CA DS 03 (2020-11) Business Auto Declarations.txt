@@ -1,0 +1,46 @@
+CA DS 03 (2020-11) — Business Auto Declarations
+===============================================
+Form number: CA DS 03
+Edition: 2020-11
+Title: Business Auto Declarations
+Type: ISO Commercial Auto declarations form
+States: All
+
+Policy term: Sets the policy period for the CA 00 01 Business Auto Coverage Form
+Transaction types: New business; renewal; endorsement
+
+Purpose:
+The declarations page for the CA 00 01 Business Auto Coverage Form.
+Documents all policy-level information that, combined with the CA 00 01
+coverage form, constitutes the insured's commercial auto policy. The
+declarations summarize the named insured, policy period, covered autos
+with their designated coverage symbols, liability limits, physical damage
+coverages and deductibles, premium schedule, and all endorsements attached.
+Functions as the single-page summary of the complete policy structure.
+
+Captures:
+- Named insured, mailing address, and agent/broker information
+- Policy period (effective and expiration dates)
+- Covered auto symbols assigned to each coverage (liability, MedPay,
+  uninsured motorists, physical damage)
+- Liability limits (combined single limit or split limits)
+- Physical damage coverage selections: comprehensive, collision, or both;
+  deductibles per vehicle or by class
+- Schedule of covered autos with vehicle descriptions, VINs, garaging
+  locations, and values
+- Premium breakdown by coverage and vehicle
+- List of all endorsements attached to the policy
+
+When used:
+- Every CA 00 01 Business Auto Coverage Form policy
+- Required as the defining document for all commercial auto liability and
+  physical damage coverage structures under the CA 00 01
+
+Notes:
+- The declarations + CA 00 01 form set is the complete standard ISO
+  commercial auto policy for businesses (non-trucking, non-dealer)
+- Coverage symbols in the declarations determine which autos are covered
+  under each coverage; incorrect symbols are a leading cause of coverage
+  disputes at claim time
+- Premium schedule in the declarations provides the rating basis; changes
+  to the vehicle schedule require declaration page updates

@@ -1,0 +1,49 @@
+CA 00 01 (2020-11) — Business Auto Coverage Form
+=================================================
+Form number: CA 00 01
+Edition: 2020-11
+Title: Business Auto Coverage Form
+Type: ISO Commercial Auto coverage form
+States: All
+
+Policy term: 12 months standard; other terms available
+Transaction types: New business; renewal; midterm endorsement; policy rewrite
+
+Purpose:
+The standard ISO coverage form for commercial auto liability and physical
+damage for most non-dealer, non-trucking commercial risks. Provides liability
+(BI/PD) for covered autos and physical damage (comprehensive, collision,
+specified causes of loss) on a symbol-driven framework that lets the insured
+and underwriter control exactly which autos are covered under each coverage.
+
+Captures:
+- Liability coverage for bodily injury and property damage arising from
+  covered auto use (Symbols 1–9 define which autos qualify)
+- Physical damage coverage: comprehensive, collision, specified causes of
+  loss; actual cash value or stated amount basis
+- Medical payments (attached separately via CA 99 03)
+- Uninsured/underinsured motorists (attached via state UM/UIM endorsements)
+- Defined coverage territory (U.S., territories, Canada, international
+  extension by endorsement)
+- Exclusions: expected/intended, contractual, workers comp, pollution
+  (broadened by CA 99 48), racing, war
+
+When used:
+- New commercial auto policy for a business that owns, hires, or uses autos
+  in connection with its operations (not a dealer or motor carrier)
+- Renewal of an existing Business Auto policy
+- Rewrite when changing program, carrier, or coverage structure
+- Does NOT replace the Motor Carrier form (CA 00 20) for FMCSA-regulated
+  truckers or the Auto Dealers form (CA 00 25) for dealer inventory risks
+
+Notes:
+- Symbol system is the defining feature: Symbol 1 (any auto — broadest)
+  through Symbol 9 (non-owned autos only); Symbols 7/8/9 are common for
+  hired/non-owned liability; Symbol 2 (owned autos only) is most common
+  for physical damage
+- 2020-11 edition introduced cyber/hacking exclusion language (see CA 04 65
+  for optional hacking expense coverage) and updated pollution exclusion
+- CA 00 01 is the backbone for most commercial auto accounts; endorsements
+  from the CA 20, CA 23, and CA 99 series modify and extend it
+- Not used for personal auto (use PAP/ACORD 80); not used for dealers
+  (use CA 00 25) or motor carriers requiring MCS-90 (use CA 00 20)

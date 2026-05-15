@@ -1,0 +1,46 @@
+CA 20 55 (2013-10) — Fellow Employee Coverage
+=============================================
+Form number: CA 20 55
+Edition: 2013-10
+Title: Fellow Employee Coverage
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Removes the fellow employee exclusion from the CA policy's liability section,
+allowing coverage for bodily injury claims brought by one employee against
+another employee for auto-related injuries. The base CA 00 01 excludes BI
+to a fellow employee injured by an insured employee's negligent driving
+(those claims are typically handled under workers' compensation); this
+endorsement provides the named insured's CA policy as a defense and
+indemnification source for such employee-vs-employee auto claims.
+
+Captures:
+- Removal of the fellow employee exclusion for bodily injury claims
+- Provides CA liability coverage when an injured employee sues a fellow
+  employee-driver for auto negligence
+- Applies blanket to all employees of the named insured
+
+When used:
+- Accounts where employees have successfully sued coworkers for auto-related
+  injuries and the employer wants the CA policy to respond
+- States where workers' compensation exclusive remedy does not bar auto
+  negligence suits between coworkers (depends on state law)
+- High-fleet accounts with significant employee-to-employee driving exposure
+  (delivery companies, rideshare-adjacent operations)
+
+Notes:
+- Workers' compensation generally covers employee injury, but many states
+  allow an injured employee to sue a negligent coworker in tort (outside
+  of WC exclusive remedy) — in those cases the CA policy is implicated
+- CA 20 55 provides blanket coverage for all employees; CA 20 56 provides
+  the same coverage but only for specifically designated employees or
+  positions — use CA 20 56 when broader coverage is not appropriate for all
+  employees
+- The employer's own BI coverage under the CA policy does not change;
+  this endorsement protects the named insured from being dragged into
+  employee-vs-employee lawsuits by ensuring the CA policy covers the
+  coworker-defendant

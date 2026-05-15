@@ -1,0 +1,44 @@
+CA 20 09 (2013-10) — Leasing Or Rental Concerns – Contingent Coverage
+=====================================================================
+Form number: CA 20 09
+Edition: 2013-10
+Title: Leasing Or Rental Concerns – Contingent Coverage
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Provides contingent liability coverage to a vehicle leasing or rental
+company for claims arising from lessee/renter use of leased vehicles —
+but only when the lessee's own insurance is unavailable, insufficient,
+or exhausted. The leasing company's policy becomes a backstop rather than
+primary coverage, protecting the lessor from gaps in the lessee's insurance
+program without converting the lessor's policy into the primary layer.
+
+Captures:
+- Contingent (excess) liability for BI/PD claims arising from a lessee's
+  or renter's use of a leased/rented vehicle
+- Coverage triggers only when the lessee has no valid insurance or their
+  limits are insufficient to cover the claim
+- Protects the leasing company from exposure when lessees fail to maintain
+  required insurance
+
+When used:
+- Leasing and rental companies that require lessees to carry their own auto
+  insurance but want a backstop for compliance failures or coverage gaps
+- Fleet programs where the lessor wants excess protection without becoming
+  the primary insurer
+- Rental programs with high-risk customer segments where insurance lapses
+  are possible
+
+Notes:
+- "Contingent" means the coverage only fires when the lessee's own insurance
+  is missing or exhausted — it is NOT a primary layer; the lessee's policy
+  must respond first
+- Differs from CA 20 14 (Second Level Coverage) in that CA 20 09 is
+  triggered by absence of lessee coverage, while CA 20 14 is an intentional
+  second-layer design where both layers are part of the program structure
+- Many leasing companies use CA 20 09 as a financial backstop while
+  requiring lessees to maintain minimum liability limits as a lease condition

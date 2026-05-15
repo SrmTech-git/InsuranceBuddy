@@ -1,0 +1,44 @@
+CA 20 01 (2020-11) — Lessor – Additional Insured And Loss Payee
+===============================================================
+Form number: CA 20 01
+Edition: 2020-11
+Title: Lessor – Additional Insured And Loss Payee
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Adds the lessor of a leased vehicle as an additional insured for liability
+and as a loss payee for physical damage on the insured's commercial auto
+policy. When a company leases vehicles from a fleet leasing company or
+financial institution, the lessor requires both liability AI status (in
+case they are named in a suit) and loss payee status (to protect their
+financial interest in the physical asset).
+
+Captures:
+- Named lessor added as additional insured for covered autos liability
+  (BI/PD arising from the use of the leased vehicle)
+- Named lessor added as loss payee for physical damage coverage on the
+  leased vehicle(s)
+- Schedule of leased autos and the associated lessor information
+
+When used:
+- Fleet leases where a leasing company (e.g., Enterprise Fleet Management,
+  ARI, LeasePlan) provides vehicles and requires AI/loss payee status
+- Financial institution vehicle leases where the lienholder or lessor
+  demands policy evidence of their interests
+- Any long-term commercial vehicle lease with a third-party owner
+
+Notes:
+- Differs from a simple loss payee endorsement: CA 20 01 provides both
+  liability AI status AND physical damage loss payee status to the lessor,
+  reflecting the lessor's dual exposure (liability as vehicle owner, and
+  financial interest in the physical asset)
+- The lessor is protected only for claims arising from the lessee's use
+  of the covered leased autos — not for the lessor's own negligence
+- CA 20 08 is the parallel form designed for use on the LEASING COMPANY'S
+  own policy (the lessor insures the fleet and adds lessees); CA 20 01
+  is used on the LESSEE'S policy (the named insured is the company using
+  the leased vehicles)

@@ -1,0 +1,41 @@
+CA 23 24 (2020-11) — Agricultural Produce Trailers – Seasonal
+=============================================================
+Form number: CA 23 24
+Edition: 2020-11
+Title: Agricultural Produce Trailers – Seasonal
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy (seasonal use periods)
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Provides commercial auto coverage for agricultural produce trailers that are
+used only seasonally. These trailers are typically pulled by farm tractors
+on private property during harvest and may also be towed on public roads
+for short distances; their seasonal, dual-use nature (farm equipment vs.
+auto) can create classification ambiguity. This endorsement establishes CA
+coverage for the defined seasonal use period.
+
+Captures:
+- Liability and physical damage coverage for scheduled agricultural produce
+  trailers during defined seasonal use periods
+- Coverage applies while trailers are in use for produce transport during
+  harvest and related operations
+
+When used:
+- Agricultural operations and farms that haul produce by trailer during
+  harvest season
+- Any insured with seasonal trailers that are put away between harvests
+  and need coverage only during active use periods
+
+Notes:
+- Seasonal coverage means premium is typically pro-rated for the active
+  use period; trailers idle in a barn during off-season may be unscheduled
+  or suspended
+- Agricultural trailers used exclusively on private property may not need
+  CA coverage (they are mobile equipment on private land); this endorsement
+  addresses trailers that also travel on public roads during harvest season
+- Farm Bureau and agricultural insurance markets sometimes handle these
+  trailers under farmowners policies; CA 23 24 provides the equivalent
+  coverage under a standard commercial auto program

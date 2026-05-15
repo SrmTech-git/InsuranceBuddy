@@ -1,0 +1,34 @@
+CA 25 52 (2013-10) — Exclusion – Locations And Operations Medical Payments
+==========================================================================
+Form number: CA 25 52
+Edition: 2013-10
+Title: Exclusion – Locations And Operations Medical Payments
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Eliminates all Medical Payments coverage from the CA 00 25 General
+Liability section. In place of Medical Payments, first aid expenses
+incurred at the scene of an accident are added to Supplementary
+Payments to preserve the insured's ability to render immediate
+assistance without triggering coverage concerns.
+
+Captures:
+- Removal of the Locations and Operations Medical Payments coverage
+  from Section II — General Liability Coverages
+- Addition of first aid expenses to the Supplementary Payments
+  provision, covering reasonable costs of first aid at the scene
+
+When used:
+- Dealers where the insurer does not want to provide Medical Payments
+  coverage on a no-fault basis under the GL section
+- Situations where Medical Payments exposure is addressed separately
+  or where the premium savings justify removal
+
+Notes:
+- The addition of first aid to Supplementary Payments ensures dealers
+  are not discouraged from providing emergency assistance at the scene
+  out of concern that doing so admits liability or triggers coverage

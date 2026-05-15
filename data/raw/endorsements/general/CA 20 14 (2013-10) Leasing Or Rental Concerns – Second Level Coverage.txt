@@ -1,0 +1,44 @@
+CA 20 14 (2013-10) — Leasing Or Rental Concerns – Second Level Coverage
+=======================================================================
+Form number: CA 20 14
+Edition: 2013-10
+Title: Leasing Or Rental Concerns – Second Level Coverage
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Establishes the leasing or rental company's policy as a second-level (excess)
+layer of liability coverage that activates only after the lessee's or renter's
+primary auto insurance is exhausted. Unlike contingent coverage (CA 20 09),
+which is a backstop for when lessee insurance fails entirely, second-level
+coverage is an intentional program design where both the lessee's primary
+coverage and the lessor's second-level coverage are expected to respond in
+defined sequence.
+
+Captures:
+- Excess liability coverage on the leasing/rental company's policy that
+  sits above the renter's primary auto insurance
+- Defines the amount of coverage (limit) available at the second level
+- Specifies triggering conditions: lessee's primary coverage must respond
+  first and be exhausted or unavailable before the second level activates
+
+When used:
+- Rental car programs that offer renters a "second level" of liability
+  protection as an optional purchase (damage waivers and liability
+  supplements in rental agreements)
+- Fleet lease programs with tiered coverage structures where the lessee
+  carries primary and the lessor provides excess
+- Any structured two-tier lease/rental liability program
+
+Notes:
+- Second-level coverage is intentional layering — both tiers are expected
+  to work together; compare to CA 20 09 (contingent coverage) which is
+  a safety net for the unexpected failure of lessee insurance
+- Consumer rental programs often market the second-level coverage as
+  "additional liability protection" or "supplemental liability coverage"
+  (SLP) — this endorsement provides the policy mechanism
+- The rental company charges a daily fee for second-level protection; the
+  CA 20 14 endorsement covers those claims when the renter elects the option

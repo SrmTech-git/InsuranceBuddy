@@ -1,0 +1,39 @@
+CA 23 05 (2013-10) — Wrong Delivery Of Liquid Products
+======================================================
+Form number: CA 23 05
+Edition: 2013-10
+Title: Wrong Delivery Of Liquid Products
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Excludes liability coverage for property damage arising from the delivery
+of the wrong liquid product or delivery to the wrong location. The base
+commercial auto policy may otherwise respond to PD claims when a driver
+delivers the wrong fuel, chemical, or other liquid into a customer's
+receiving tank or equipment; this endorsement removes that coverage.
+
+Captures:
+- Exclusion of PD liability arising from wrong-product or wrong-location
+  liquid delivery
+- Applies to covered autos liability coverage section
+
+When used:
+- Policies for petroleum distributors, chemical carriers, or liquid bulk
+  haulers where the underwriter excludes wrong-delivery PD from the CA
+  policy
+- Accounts where wrong-product delivery is considered a non-auto (products
+  or professional liability) exposure and is carved out of the CA form
+
+Notes:
+- This is an EXCLUSION endorsement — it removes coverage, it does not
+  provide it; a card or summary describing CA 23 05 as covering wrong-
+  delivery PD claims would be incorrect
+- Insureds with meaningful wrong-delivery exposure (fuel oil, chemicals,
+  food-grade liquids) need separate products liability or cargo coverage
+  to address contamination and wrong-delivery PD
+- Pollution exclusions in the CA policy may also be separately implicated
+  in liquid delivery scenarios involving environmental release

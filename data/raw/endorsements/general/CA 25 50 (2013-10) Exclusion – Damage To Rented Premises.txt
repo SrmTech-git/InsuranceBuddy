@@ -1,0 +1,35 @@
+CA 25 50 (2013-10) — Exclusion – Damage To Rented Premises
+===========================================================
+Form number: CA 25 50
+Edition: 2013-10
+Title: Exclusion – Damage To Rented Premises
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Removes coverage for property damage to premises rented to or temporarily
+occupied by the named insured. Eliminates the "Damage to Premises Rented
+to You" coverage available under the base CA 00 25 General Liability
+section.
+
+Captures:
+- Exclusion of property damage to premises rented to or temporarily
+  occupied by the named insured from Section II — General Liability
+  Coverages
+- Removal of the "Damage to Premises Rented to You" limit from the
+  policy declarations
+
+When used:
+- Dealers where the rented premises exposure is being addressed by a
+  separate policy (e.g., a commercial property or GL policy held by
+  the dealer or landlord)
+- Insurers who want to remove the rented premises fire liability
+  sublimit from the CA 00 25 GL section
+
+Notes:
+- Without this endorsement, the base CA 00 25 GL section provides
+  limited coverage (subject to a sublimit shown in declarations) for
+  fire damage to rented premises

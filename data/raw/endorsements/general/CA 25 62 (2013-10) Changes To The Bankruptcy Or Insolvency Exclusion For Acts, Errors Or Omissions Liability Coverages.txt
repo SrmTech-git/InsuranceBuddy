@@ -1,0 +1,42 @@
+CA 25 62 (2013-10) — Changes To The Bankruptcy Or Insolvency Exclusion For Acts, Errors Or Omissions Liability Coverages
+=========================================================================================================================
+Form number: CA 25 62
+Edition: 2013-10
+Title: Changes To The Bankruptcy Or Insolvency Exclusion For Acts, Errors Or Omissions Liability Coverages
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Modifies the mechanics of the exception to the bankruptcy/insolvency
+exclusion in the AEO (Acts, Errors or Omissions) Liability section of
+CA 00 25. The base form's AEO section excludes coverage for claims
+arising from the bankruptcy or insolvency of an insurer the dealer
+placed coverage with for a customer, but contains an exception when
+the placed insurer had an A.M. Best's rating of B+ or higher at time
+of placement. This endorsement makes that threshold variable rather
+than fixed.
+
+Captures:
+- Replaces the hardcoded A.M. Best's B+ threshold in the AEO
+  bankruptcy/insolvency exception with a fill-in schedule
+- Allows the parties to designate a different rating bureau and/or a
+  different minimum rating threshold for the exception to apply
+
+When used:
+- Situations where the insured and insurer agree to a different financial
+  strength standard than the ISO default A.M. Best's B+ threshold
+- Insurers who prefer a different rating agency or a higher/lower
+  minimum rating for the coverage exception
+
+Notes:
+- Does NOT eliminate the bankruptcy/insolvency exclusion — it only
+  changes the mechanics of the exception that can restore coverage
+- CA 25 65 is the alternative if the goal is to eliminate all exceptions
+  to the exclusion (i.e., make the bankruptcy/insolvency exclusion
+  absolute)
+- The schedule must be completed with the agreed rating bureau and
+  minimum credit score/rating; an incomplete schedule may leave the
+  exception unenforceable

@@ -1,0 +1,44 @@
+CA 23 98 (2013-10) — Trailer Interchange Coverage
+=================================================
+Form number: CA 23 98
+Edition: 2013-10
+Title: Trailer Interchange Coverage
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Provides comprehensive and collision physical damage coverage for non-owned
+trailers in the insured's possession under trailer interchange agreements.
+The full-coverage version of trailer interchange physical damage — covering
+all physical damage perils (comprehensive and collision) rather than just
+fire or fire+theft as in CA 23 13. Essential for motor carriers who regularly
+interchange trailers with other carriers and are contractually responsible
+for physical damage during their custody period.
+
+Captures:
+- Comprehensive and collision physical damage coverage for non-owned trailers
+  while in the insured's possession under trailer interchange agreements
+- Applies per the limit of insurance scheduled for interchange coverage
+- Covers the trailer from pickup through return to the owning carrier
+
+When used:
+- Motor carriers with active trailer interchange programs who need full
+  physical damage coverage on borrowed trailers
+- Carriers whose interchange agreements require comprehensive and collision
+  coverage (not just fire/theft)
+- LTL carriers, truckload carriers, and intermodal operators who regularly
+  pull trailers owned by other carriers or leasing companies
+
+Notes:
+- CA 23 13 is the limited version (fire only or fire + theft); CA 23 98
+  provides full comprehensive + collision coverage — choose based on the
+  interchange agreement's requirements
+- CA 23 98 attaches to CA 00 01 (Business Auto Coverage Form); CA 00 20
+  (Motor Carrier Coverage Form) includes native trailer interchange
+  physical damage provisions and does not require CA 23 98
+- Trailer interchange coverage is valued per-trailer or per-occurrence at a
+  scheduled limit; the limit should reflect the value of trailers being
+  interchanged (many van trailers are $30K–$70K; refrigerated trailers more)

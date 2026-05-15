@@ -1,0 +1,46 @@
+CA 28 03 (2022-09) — Abuse Or Molestation Exclusion For Covered Autos Liability Exposure
+========================================================================================
+Form number: CA 28 03
+Edition: 2022-09
+Title: Abuse Or Molestation Exclusion For Covered Autos Liability Exposure
+Type: ISO Commercial Auto endorsement
+States: All except FL, NY, TX
+
+Policy term: Matches underlying covered autos liability policy
+Transaction types: New business; endorsement addition
+
+Purpose:
+Excludes coverage for bodily injury or property damage arising from abuse
+or molestation from the covered autos liability coverage portion of
+commercial auto policies. While CA 27 21 through CA 27 24 address the
+dealer GL/AEO context (CA 00 25), CA 28 03 operates on the covered autos
+liability side — applicable to commercial auto policies broadly (CA 00 01,
+CA 00 20, CA 00 25 auto coverages) where the insurer will not underwrite
+abuse/molestation liability arising out of covered auto operations.
+
+Captures:
+- Exclusion of bodily injury and property damage arising from actual,
+  alleged, or threatened abuse or molestation connected to covered autos
+- Also excludes negligent hiring, employment, investigation, supervision,
+  retention, and failure-to-report claims where the underlying conduct
+  falls within the abuse or molestation exclusion
+
+When used:
+- Commercial auto programs where the insurer excludes abuse/molestation
+  from auto liability as an underwriting position
+- Transportation network and passenger transport operations where
+  abuse/molestation exposure in covered autos is a concern
+- Any commercial auto program issued after 2022-09 where the insurer
+  adopts the abuse/molestation exclusion for the auto side
+
+Notes:
+- 2022-09 edition form; part of ISO's broader 2022 abuse/molestation
+  endorsement suite across commercial lines; replaces the previously
+  available CA 25 28 (now withdrawn)
+- Distinct from CA 27 21: that form applies to the CA 00 25 dealer GL/AEO
+  coverages; CA 28 03 applies to the covered autos liability side
+- For dealers, both CA 27 21 and CA 28 03 may be attached — covering
+  the GL/AEO exclusion and the auto liability exclusion separately
+- Ride-share, transportation, and livery operations should pay particular
+  attention to this exclusion as driver/passenger abuse claims are a
+  known emerging exposure

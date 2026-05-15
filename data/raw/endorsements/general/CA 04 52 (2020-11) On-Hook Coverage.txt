@@ -1,0 +1,47 @@
+CA 04 52 (2020-11) — On-Hook Coverage
+=====================================
+Form number: CA 04 52
+Edition: 2020-11
+Title: On-Hook Coverage
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Provides physical damage coverage for vehicles in tow — non-owned autos that
+the named insured is transporting on a hook, tow bar, or tow line. Standard
+garagekeepers coverage applies to vehicles in the insured's care for service
+or storage; it does not clearly cover a vehicle while it is actively being
+towed. On-hook coverage fills that gap for tow truck operators and recovery
+services.
+
+Captures:
+- Physical damage to a non-owned auto being towed by the insured's tow truck
+  or recovery vehicle (the vehicle "on the hook")
+- Coverage during active towing — while the vehicle is being transported from
+  point of pickup to the drop-off location
+- Comprehensive and collision losses to the towed vehicle are typically
+  covered under a single limit
+- Coverage ends once the vehicle is parked or placed in storage (at which
+  point garagekeepers coverage applies)
+
+When used:
+- Towing companies, roadside assistance operators, and vehicle recovery
+  services
+- Any account with tow trucks that regularly haul non-owned vehicles
+- Distinguishes the towing exposure from the garagekeepers exposure —
+  both endorsements may be needed for a full tow operation
+
+Notes:
+- On-hook and garagekeepers coverage work together for a towing operation:
+  on-hook covers vehicles in transit on the tow truck; garagekeepers covers
+  vehicles stored at the tow yard or in the shop
+- The limit for on-hook coverage should reflect the maximum value of vehicles
+  likely to be towed — luxury or exotic vehicle transport requires higher limits
+- Unlike garagekeepers, on-hook coverage applies to vehicles the insured
+  actively transports, not just stores; the vehicle's owner is not present
+  to accept the risk
+- Some towing contracts may shift liability to the tow operator, making
+  on-hook coverage especially important

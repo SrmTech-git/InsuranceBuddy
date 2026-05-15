@@ -1,0 +1,39 @@
+CA 20 11 (2013-10) — Leasing Or Rental Concerns – Exclusion Of Certain Leased Autos
+===================================================================================
+Form number: CA 20 11
+Edition: 2013-10
+Title: Leasing Or Rental Concerns – Exclusion Of Certain Leased Autos
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm change
+
+Purpose:
+Removes specific leased autos from coverage under a leasing company's CA
+policy. Allows the lessor to carve out particular vehicles or categories
+of leased vehicles — for example, vehicles leased to high-risk lessees,
+certain use classes, or autos covered separately under another policy.
+
+Captures:
+- Exclusion of scheduled autos (by VIN, description, or lessee) from the
+  leasing company's CA policy
+- Affected autos are removed from all coverages provided under the policy
+
+When used:
+- Leasing companies that want to exclude certain risk categories from their
+  master fleet policy (e.g., vehicles leased for commercial transport or
+  taxi use, which carry elevated risk)
+- Situations where a specific lessee or vehicle is being transferred to a
+  different policy or program
+- Large fleet programs that segment risk into multiple policies by class
+  or use
+
+Notes:
+- The excluded autos receive no coverage under this policy; the lessee
+  or a separate program must arrange coverage independently
+- Underwriters may require this endorsement when a lessor's fleet includes
+  a mix of standard and non-standard risk vehicles and the non-standard
+  vehicles need to be priced separately
+- Should be used carefully: improperly excluding a vehicle that later has
+  a loss creates coverage disputes; the exclusion schedule must be current

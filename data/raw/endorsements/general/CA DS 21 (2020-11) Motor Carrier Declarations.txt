@@ -1,0 +1,44 @@
+CA DS 21 (2020-11) — Motor Carrier Declarations
+===============================================
+Form number: CA DS 21
+Edition: 2020-11
+Title: Motor Carrier Declarations
+Type: ISO Commercial Auto declarations form
+States: All
+
+Policy term: Sets the policy period for the CA 00 20 Motor Carrier Coverage Form
+Transaction types: New business; renewal; endorsement
+
+Purpose:
+The declarations page for the CA 00 20 Motor Carrier Coverage Form.
+Documents all policy-level information for trucking and motor carrier
+commercial auto policies. In addition to the standard auto declarations
+information, the motor carrier declarations captures trucking-specific
+items: FMCSA carrier authority information, MCS-90 endorsement details,
+trailer interchange schedules, and the unique coverage features relevant
+to for-hire and private motor carrier operations.
+
+Captures:
+- Named insured, carrier authority information (USDOT, MC numbers)
+- Policy period
+- Covered auto symbols and liability limits
+- Physical damage coverages and deductibles
+- Schedule of covered autos (tractors, trailers, interchanged trailers)
+- Trailer interchange agreement details if CA 23 13 or CA 23 98 is attached
+- MCS-90 endorsement details and filing limit
+- Premium breakdown including trucking-specific rating factors
+- All endorsements attached including motor carrier-specific forms
+
+When used:
+- Every CA 00 20 Motor Carrier Coverage Form policy
+- Required for all for-hire motor carrier programs and private carrier
+  programs using the CA 00 20 as the base form
+
+Notes:
+- The CA DS 21 must be updated when FMCSA authority information changes,
+  when the motor carrier adds or removes authority, or when the trailer
+  interchange agreement changes
+- MCS-90 endorsement details in the declarations must match the FMCSA
+  filing limits required for the carrier's authority type
+- Trucking programs have significantly more complex declarations than
+  standard business auto due to regulatory filing requirements

@@ -1,0 +1,43 @@
+CA 23 30 (2020-11) — Motor Carrier Endorsement
+==============================================
+Form number: CA 23 30
+Edition: 2020-11
+Title: Motor Carrier Endorsement
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Attaches to the CA 00 01 (Business Auto Coverage Form) to bring
+motor-carrier-specific provisions into a business auto policy for insureds
+that operate as for-hire motor carriers under FMCSA authority but are
+written on a BAP rather than the CA 00 20 Motor Carrier Coverage Form.
+Adds definitions, conditions, and coverage terms that reflect the regulatory
+and operational environment of motor carriers subject to FMCSA authority.
+
+Captures:
+- Motor carrier-specific definitions, conditions, and coverage provisions
+  added to CA 00 01
+- May address leased equipment, owner-operators, and FMCSA endorsement
+  interaction as scheduled
+- Effectively converts a CA 00 01 into a motor-carrier-capable form for
+  applicable accounts
+
+When used:
+- For-hire motor carriers written on CA 00 01 (not CA 00 20) that need
+  motor-carrier provisions in their policy
+- Accounts where the underwriter or program uses a BAP base form but the
+  insured's operations require FMCSA-regulated motor carrier coverage terms
+- Large fleet or program business where the standard CA 00 01 is customized
+  with CA 23 30 to address carrier-specific requirements
+
+Notes:
+- CA 23 30 attaches to CA 00 01 (Business Auto), NOT CA 00 20 (Motor
+  Carrier Coverage Form); CA 00 20 already contains native motor carrier
+  provisions and does not need this endorsement
+- Used in conjunction with MCS-90 (FMCSA filing) and other regulatory
+  endorsements that attach to motor carrier policies
+- For accounts with complex trucking operations, CA 00 20 is generally the
+  preferred base form; CA 23 30 is the alternative path when CA 00 01 is used

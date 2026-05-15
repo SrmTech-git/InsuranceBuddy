@@ -1,0 +1,37 @@
+CA 25 53 (2013-10) — Exclusion – Newly Acquired Or Formed Auto Dealership
+=========================================================================
+Form number: CA 25 53
+Edition: 2013-10
+Title: Exclusion – Newly Acquired Or Formed Auto Dealership
+Type: ISO Commercial Auto endorsement
+States: All except WA
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Removes the automatic insured status that the CA 00 25 base form would
+otherwise extend to newly acquired or formed auto dealership entities
+during the policy period. Any newly acquired or formed dealership
+operation is flatly excluded — no automatic coverage extension applies.
+
+Captures:
+- Removal of automatic coverage for newly acquired or formed dealership
+  entities from the "Who Is An Insured" provisions throughout the form
+- Applies across both Covered Autos Liability and General Liability
+  sections — the exclusion is policy-wide, not section-specific
+
+When used:
+- Insurers who want to reserve the right to underwrite any new dealership
+  entity before extending coverage, rather than granting automatic
+  mid-term coverage
+- Dealers with corporate structures where acquisition of new rooftops
+  is a realistic mid-term event
+
+Notes:
+- No schedule is required — the exclusion is absolute and covers any
+  organization that would otherwise qualify as a newly acquired or
+  formed dealership under the base form
+- New dealership entities must be added by formal endorsement after
+  underwriting review; coverage does not attach until then
+- Not filed in Washington (WA)

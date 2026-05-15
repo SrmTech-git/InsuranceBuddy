@@ -1,0 +1,43 @@
+CA 20 15 (2020-11) — Mobile Equipment
+=====================================
+Form number: CA 20 15
+Edition: 2020-11
+Title: Mobile Equipment
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Reclassifies certain mobile equipment — vehicles that would normally be
+treated as "mobile equipment" outside the CA auto definition — as covered
+autos under the commercial auto policy. The ISO coverage system splits
+vehicles between "autos" (CA policy) and "mobile equipment" (CGL policy);
+some equipment falls in a gray area and this endorsement resolves ambiguity
+by explicitly bringing the scheduled items into the CA program.
+
+Captures:
+- Scheduled mobile equipment items reclassified and treated as covered
+  autos for liability and/or physical damage purposes
+- Liability and physical damage for the scheduled items under the CA policy
+  (removing them from the CGL mobile equipment coverage)
+
+When used:
+- Contractors with equipment like large forklifts, cranes, or specialty
+  vehicles that travel on public roads but may be classified as mobile
+  equipment under standard ISO definitions
+- Accounts where the underwriter or insured prefers to have all vehicle-type
+  equipment on the CA policy for unified coverage and limit management
+- Situations where the CGL insurer excludes mobile equipment that is
+  licensed for road use
+
+Notes:
+- The auto vs. mobile equipment distinction in ISO forms is based on
+  vehicle purpose and road use: equipment designed primarily for off-road
+  use is mobile equipment (CGL); vehicles designed for road use are autos (CA)
+- When mobile equipment is used on public roads, it can move between
+  classifications; CA 20 15 resolves the ambiguity for scheduled items
+- Physical damage on mobile equipment may alternatively be handled on a
+  contractors' equipment inland marine floater if better rates are available
+  through that line

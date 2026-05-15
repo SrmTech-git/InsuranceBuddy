@@ -1,0 +1,24 @@
+CA 25 20 (2013-10) — Year 2000 Limited Coverage Options – Computer-Related And Other Electronic Problems
+========================================================================================================
+Form number: CA 25 20
+Edition: 2013-10
+Title: Year 2000 Limited Coverage Options – Computer-Related And Other Electronic Problems
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy (HISTORICAL — no longer used in active placement)
+Transaction types: Historical reference only
+
+Purpose:
+Provided limited, optional Y2K coverage for auto dealers who wanted some
+protection against Y2K-related BI/PD claims rather than a total exclusion.
+Offered a tiered coverage option as an alternative to the blanket exclusions
+in CA 25 18-19.
+
+Captures:
+- (Historical) Limited liability coverage options for Y2K-related claims
+  under CA 00 25 general liability coverages
+
+When used:
+- HISTORICAL ONLY — no current use
+- See CA 25 18 for full Y2K series context

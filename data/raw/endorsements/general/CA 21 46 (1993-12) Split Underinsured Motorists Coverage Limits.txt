@@ -1,0 +1,39 @@
+CA 21 46 (1993-12) — Split Underinsured Motorists Coverage Limits
+=================================================================
+Form number: CA 21 46
+Edition: 1993-12
+Title: Split Underinsured Motorists Coverage Limits
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm change
+
+Purpose:
+Establishes split per-person/per-accident limits for underinsured motorist
+(UIM) coverage that includes both bodily injury and property damage on a
+commercial auto policy. UIM coverage applies when the at-fault driver has
+insufficient liability insurance to fully compensate the injured party;
+this endorsement structures that coverage with split limits.
+
+Captures:
+- UIM coverage (BI and PD) in split per-person / per-accident limit format
+- Applies when the at-fault driver's liability limits are exhausted and
+  the damages exceed those limits, up to the insured's UIM split limits
+
+When used:
+- Commercial auto policies in states where UIM covers both BI and PD and
+  split limits are available
+- Accounts that prefer split-limit UIM to match their liability structure
+
+Notes:
+- Mirrors CA 21 07 (UM) for underinsured motorist coverage
+- CA 21 51 is the BI-only UIM split-limit form; CA 21 46 covers both BI and PD
+- UIM triggers differently from UM: UM requires the tortfeasor to have
+  NO insurance; UIM requires the tortfeasor to have SOME insurance but
+  insufficient to cover all damages
+- In some states commercial vehicles may reject or limit UIM coverage;
+  verify state statute requirements
+- This is an older edition (1993); some states may have more current
+  state-specific UIM forms that supersede this; verify state filing
+  requirements before using

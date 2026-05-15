@@ -1,0 +1,47 @@
+CA 23 25 (2013-10) — Coverage For Injury To Leased Workers
+==========================================================
+Form number: CA 23 25
+Edition: 2013-10
+Title: Coverage For Injury To Leased Workers
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Extends the commercial auto policy to cover bodily injury to workers leased
+to the named insured from staffing agencies or professional employer
+organizations (PEOs). The base CA 00 01 excludes BI to employees; leased
+workers may fall into an ambiguous category — they work for the named insured
+but are technically employees of the staffing agency. This endorsement
+provides coverage for those leased workers' BI claims arising from auto
+accidents.
+
+Captures:
+- Bodily injury coverage for leased workers (temporary employees, staffing
+  agency workers) injured in a covered auto accident during the course
+  of their work for the named insured
+- Removes the uncertainty about whether leased workers qualify for the
+  employee BI exclusion or are treated as third-party claimants
+
+When used:
+- Any named insured that uses temporary staffing agency workers who
+  operate company vehicles or ride in company vehicles as part of their
+  work
+- Motor carriers with owner-operators or temporary dispatched drivers
+  from staffing agencies
+- Construction, agriculture, and logistics companies with high temp-worker
+  vehicle usage
+
+Notes:
+- Workers' compensation should be the primary coverage for leased worker
+  injuries; CA 23 25 is a backup for situations where WC does not fully
+  respond or the leased worker relationship creates ambiguity about
+  WC applicability
+- The staffing agency typically carries its own WC; the named insured's
+  auto policy with this endorsement provides additional protection
+- Without this endorsement, a leased worker injured in the named insured's
+  vehicle may fall into a coverage gap between the employee exclusion
+  (in the CA policy) and the third-party coverage (which they qualify for
+  if not an employee)

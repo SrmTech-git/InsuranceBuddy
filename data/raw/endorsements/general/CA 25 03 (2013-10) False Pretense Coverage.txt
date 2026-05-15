@@ -1,0 +1,34 @@
+CA 25 03 (2013-10) — False Pretense Coverage
+============================================
+Form number: CA 25 03
+Edition: 2013-10
+Title: False Pretense Coverage
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Provides physical damage coverage for a dealer who voluntarily parts with
+a covered auto as a result of a trick, scheme, or false pretenses — losses
+not covered under standard comprehensive coverage, which requires a taking
+without consent. Also covers the dealer who acquires a vehicle from someone
+who did not have legal title to it.
+
+Captures:
+- Loss of a covered auto voluntarily surrendered due to fraud, trick,
+  scheme, or false pretenses by the person who obtained it
+- Loss arising from the dealer acquiring a vehicle from a person who
+  lacked legal title
+
+When used:
+- Auto dealers under CA 00 25 seeking coverage for fraud-related
+  vehicle losses beyond what standard comprehensive provides
+- Dealers exposed to stolen-identity transactions, fraudulent financing
+  approvals, or title fraud
+
+Notes:
+- Excludes losses where a bank or drawee fails to pay a negotiable
+  instrument for any reason — bounced checks alone do not trigger coverage
+- Coverage is subject to a limit scheduled in the endorsement

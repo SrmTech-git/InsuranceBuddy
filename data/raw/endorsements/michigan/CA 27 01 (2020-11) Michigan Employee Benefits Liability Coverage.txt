@@ -1,0 +1,34 @@
+CA 27 01 (2020-11) — Michigan Employee Benefits Liability Coverage
+==================================================================
+Form number: CA 27 01
+Edition: 2020-11
+Title: Michigan Employee Benefits Liability Coverage
+Type: ISO Commercial Auto endorsement — Michigan specific
+States: MI
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Adds Employee Benefits Liability coverage to the CA 00 25 Auto Dealers
+Coverage Form for use in Michigan. Covers the named insured's liability
+for errors or omissions in the administration of employee benefits
+programs offered to employees.
+
+Captures:
+- Liability for acts, errors, or omissions by the named insured or any
+  employee in the administration of the dealer's employee benefits
+  program
+- Written on a claims-made basis
+
+When used:
+- Michigan auto dealers under CA 00 25 who want employee benefits
+  liability coverage incorporated into the dealers policy rather than
+  on a separate policy
+- Michigan-specific equivalent of CA 25 48 (Employee Benefits Liability
+  Coverage) for the 2020-11 form cycle
+
+Notes:
+- Michigan-specific form; not available in other states
+- CA 27 04 provides the Extended Reporting Period (tail) endorsement
+  for this coverage

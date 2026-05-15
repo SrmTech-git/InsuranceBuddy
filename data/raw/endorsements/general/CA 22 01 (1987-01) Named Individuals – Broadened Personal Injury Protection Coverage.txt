@@ -1,0 +1,44 @@
+CA 22 01 (1987-01) — Named Individuals – Broadened Personal Injury Protection Coverage
+======================================================================================
+Form number: CA 22 01
+Edition: 1987-01
+Title: Named Individuals – Broadened Personal Injury Protection Coverage
+Type: ISO Commercial Auto endorsement
+States: FL, KS, KY, MI, MN, ND, NJ, NY, OR, UT
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Extends and broadens personal injury protection (PIP) coverage for specifically
+named individuals under a commercial auto policy. PIP (no-fault coverage) pays
+for medical expenses, lost wages, and other out-of-pocket costs regardless of
+fault; the standard commercial auto PIP may have lower limits or narrower
+eligibility than an individual owner or executive needs. This endorsement
+provides enhanced PIP for scheduled individuals.
+
+Captures:
+- Broadened PIP benefits (higher limits, broader eligibility, or both) for
+  named individuals beyond standard commercial PIP coverage
+- Medical expense coverage, income continuation/lost wages, and other PIP
+  benefits for the scheduled individuals and their relatives arising out of
+  use or operation of any motor vehicle
+
+When used:
+- Sole proprietors, partners, officers, or executives who ride in or use
+  company vehicles and want higher or broader PIP protection than the
+  standard commercial auto PIP provides
+- Any commercial auto in a PIP/no-fault state where key individuals need
+  enhanced first-party coverage
+- Only relevant in states that require or permit PIP on commercial autos
+  (many no-fault states limit PIP to personal auto)
+
+Notes:
+- PIP availability and requirements vary significantly by state; in most
+  states PIP is associated with personal auto policies (PAP) and may not
+  apply to commercial vehicles or may apply in modified form
+- The 1987-01 edition is very old; verify that this form remains current
+  in the applicable state's commercial auto filing before using
+- In no-fault states like Michigan, Florida, and New York, PIP mechanics
+  differ; state-specific endorsements typically govern PIP for commercial
+  vehicles in those jurisdictions

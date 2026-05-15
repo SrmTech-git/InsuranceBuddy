@@ -1,0 +1,36 @@
+CA 25 04 (2013-10) — Fire, Fire And Theft And Limited Specified Causes Of Loss Coverage For Dealers
+====================================================================================================
+Form number: CA 25 04
+Edition: 2013-10
+Title: Fire, Fire And Theft And Limited Specified Causes Of Loss Coverage For Dealers
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Provides a menu-driven, named-peril physical damage coverage for auto dealer
+inventory as an alternative to comprehensive/collision. Three tiers are
+available, each selected on the endorsement schedule.
+
+Captures:
+- Tier 1 — Fire: includes lightning, explosion, and loss from sinking,
+  burning, collision, or derailment of a transporting conveyance
+- Tier 2 — Fire and Theft: all Tier 1 perils plus theft
+- Tier 3 — Limited Specified Causes of Loss: all Tier 2 perils plus
+  windstorm, hail, earthquake, flood, and mischief/vandalism
+- Coverage can be extended to the dealer, lender interests (floor-plan),
+  or manufacturer interests as scheduled
+
+When used:
+- Auto dealers, manufacturers, or financial institutions (floor-plan
+  lenders) seeking narrow named-peril physical damage protection rather
+  than broad comprehensive coverage
+- Situations where only collateral protection is needed on dealer inventory
+
+Notes:
+- Schedule must specify: applicable cause(s) of loss, covered parties and
+  interests, limits, deductibles, and types of vehicles included
+- Explicitly excludes business property, sales samples, and exhibition
+  property regardless of tier selected

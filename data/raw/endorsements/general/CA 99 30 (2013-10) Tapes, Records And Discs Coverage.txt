@@ -1,0 +1,46 @@
+CA 99 30 (2013-10) — Tapes, Records And Discs Coverage
+======================================================
+Form number: CA 99 30
+Edition: 2013-10
+Title: Tapes, Records And Discs Coverage
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying commercial auto policy
+Transaction types: New business; endorsement addition
+
+Purpose:
+Adds coverage for tapes, records, discs, and similar audio/visual media
+stored in covered autos. Standard commercial auto physical damage
+coverage excludes electronic media (tapes, CDs, records, and similar
+items) from coverage because they are considered personal property rather
+than part of the vehicle. This endorsement extends physical damage
+coverage to include these items when they are in a covered auto and
+damaged in a covered loss.
+
+Captures:
+- Physical damage coverage for tapes, records, compact discs, and
+  similar physical media objects used with audio, visual, or data
+  electronic equipment in covered autos
+- Coverage applies when the media is damaged as part of a covered
+  physical damage loss to the vehicle; applies under Comprehensive
+- Subject to a $200 per-occurrence sublimit; no deductible applies
+- Covers physical media objects only — not intangible digital files
+  or content stored in cloud or internal device memory
+
+When used:
+- Vehicles where employees regularly carry audio/visual media for
+  business use (mobile music, audio books, training materials)
+- Any commercial auto policy where employees transport personal or
+  business media in covered vehicles
+
+Notes:
+- This is a 2013-10 edition form that predates the modern era of
+  digital streaming and cloud-based media; physical media (CDs, DVDs,
+  tapes) has become less common in vehicles
+- Modern equivalents may involve damage to digital media storage devices —
+  those are addressed by CA 99 60 (Audio, Visual And Data Electronic
+  Equipment Coverage Added Limits) rather than this form
+- This endorsement has limited practical use in current programs given
+  the decline of physical media in vehicles; it remains available for
+  operations that still use physical audio/visual media

@@ -1,0 +1,41 @@
+CA 23 04 (2013-10) — Rolling Stores
+===================================
+Form number: CA 23 04
+Edition: 2013-10
+Title: Rolling Stores
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Excludes liability coverage for bodily injury or property damage arising
+from products sold, distributed, or dispensed from a vehicle (a "rolling
+store") after those products leave the insured's possession. The base
+commercial auto policy's products liability exclusion may not fully address
+the mobile retail scenario; this endorsement specifically excludes
+post-sale products liability for merchandise sold from covered autos.
+
+Captures:
+- Exclusion of BI/PD liability arising from products sold or distributed
+  from the insured's vehicle after leaving the insured's possession
+- Applies to covered autos liability coverage
+
+When used:
+- Policies for mobile vendors (food trucks, produce trucks, mobile retail)
+  where the underwriter excludes post-sale products liability from the CA
+  policy and expects it to be addressed under a separate CGL or products
+  liability policy
+- Accounts where the products-off-the-truck exposure is being carved out
+  of the auto policy
+
+Notes:
+- This is an EXCLUSION endorsement — it removes coverage, it does not
+  provide it; a card or summary describing it as extending coverage would
+  be incorrect
+- Rolling store operators typically need separate products liability
+  coverage (under a CGL or BOP) for claims arising from merchandise sold
+- The CA policy with this endorsement still covers auto liability
+  (e.g., the truck striking a pedestrian); it excludes the products
+  component after goods leave possession

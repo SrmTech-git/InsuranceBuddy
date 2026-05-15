@@ -1,0 +1,49 @@
+CA 99 23 (2013-10) — Rental Reimbursement Coverage
+==================================================
+Form number: CA 99 23
+Edition: 2013-10
+Title: Rental Reimbursement Coverage
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying commercial auto policy
+Transaction types: New business; endorsement addition
+
+Purpose:
+Adds rental reimbursement coverage to a commercial auto policy, covering
+the cost of renting a substitute vehicle when a covered auto is out of
+service due to a covered physical damage loss. The standard commercial
+auto physical damage coverage pays to repair or replace the damaged
+vehicle but does not include the cost of a rental during the repair
+period. This endorsement fills that gap, providing a daily rental
+reimbursement benefit up to a maximum per-day and per-occurrence limit.
+
+Captures:
+- Daily rental vehicle cost incurred while a covered auto is being
+  repaired or replaced following a covered physical damage loss
+- A 24-hour waiting period applies before reimbursement begins
+- Subject to a maximum daily limit and a maximum per-loss limit as
+  scheduled in the endorsement
+- Covers the rental period until the vehicle is repaired, replaced,
+  or the benefit maximum is reached
+- Coverage is triggered by physical damage losses only — not by liability
+  losses or other causes of vehicle downtime
+
+When used:
+- Any commercial auto program where the insured needs substitute
+  transportation during vehicle repair
+- Businesses where a down vehicle creates operational disruption
+  requiring a rental replacement
+- Fleets of all sizes where downtime creates meaningful rental cost exposure
+
+Notes:
+- The daily limit and maximum period should reflect actual rental costs
+  in the relevant market — standard limits may be inadequate for
+  commercial-class vehicles (trucks, specialty equipment, large SUVs)
+- Compare with CA 99 90 (Optional Limits – Loss Of Use Expenses), which
+  addresses the insured's loss-of-use liability to rental companies
+  when a rented vehicle is damaged
+- Rental reimbursement under commercial auto operates similarly to
+  personal auto rental reimbursement coverage
+- Coverage is not available if the insured has other spare or reserve
+  autos available for use in operations

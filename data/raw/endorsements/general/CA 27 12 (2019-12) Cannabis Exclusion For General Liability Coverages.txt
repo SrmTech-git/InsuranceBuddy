@@ -1,0 +1,37 @@
+CA 27 12 (2019-12) — Cannabis Exclusion For General Liability Coverages
+========================================================================
+Form number: CA 27 12
+Edition: 2019-12
+Title: Cannabis Exclusion For General Liability Coverages
+Type: ISO Commercial Auto endorsement
+States: All (multi-state; part of ISO's December 2019 cannabis exclusion filing)
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Adds a flat cannabis exclusion to the General Liability coverages
+(Coverage A and Coverage B) of the CA 00 25. No hemp exception is
+included — this is the broadest of the three cannabis exclusion options
+in the CA 27 series.
+
+Captures:
+- Exclusion of bodily injury, property damage, and personal and
+  advertising injury arising from cannabis operations (cultivation,
+  manufacture, storage, sale, distribution, etc.)
+- Exception: does not exclude BI/PD when someone merely consumes
+  cannabis, as long as the insured was not the one who sold or
+  furnished it to them
+
+When used:
+- Dealers or insurers who want a complete cannabis exclusion with no
+  carve-outs for hemp-derived products
+- The most restrictive cannabis exclusion option — no hemp exception
+  and no lessor risk exception
+
+Notes:
+- CA 27 13 is the alternative that adds a hemp exception (products
+  derived from hemp remain covered)
+- CA 27 14 adds both the hemp exception and a lessor risk exception
+- Filed December 2019 — separate from the November 2020 CA 27 revision
+  cycle; the file was originally mislabeled with a 2020-11 edition date

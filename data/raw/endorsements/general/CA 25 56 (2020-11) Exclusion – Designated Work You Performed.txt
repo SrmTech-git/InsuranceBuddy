@@ -1,0 +1,36 @@
+CA 25 56 (2020-11) — Exclusion – Designated Work You Performed
+==============================================================
+Form number: CA 25 56
+Edition: 2020-11 (most states); 2013-10 (HI and VI only)
+Title: Exclusion – Designated Work You Performed
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+A surgical, schedule-driven alternative to CA 25 55. Excludes off-premises
+bodily injury or property damage arising only from work types specifically
+listed on the endorsement schedule, leaving all other work-performed
+exposure covered under Section II — General Liability Coverages.
+
+Captures:
+- Exclusion of off-premises BI/PD from completed operations for the
+  specific categories of work listed on the endorsement schedule
+- All unlisted work types retain coverage under Section II
+
+When used:
+- Dealers or insurers who want to carve out a specific high-risk work
+  type (e.g., engine rebuilds, transmission overhauls) while retaining
+  completed operations coverage for routine service work
+- Situations where discrete work exposures need to be priced and managed
+  separately rather than excluded wholesale
+
+Notes:
+- The schedule must identify the specific work descriptions to be
+  excluded; unlisted work is not affected
+- CA 25 55 is the blanket alternative that excludes all products and
+  work-performed exposure
+- Hawaii and Virgin Islands use the older 2013-10 edition; all other
+  states and territories use the 2020-11 edition

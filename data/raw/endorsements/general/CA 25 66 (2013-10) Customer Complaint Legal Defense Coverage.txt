@@ -1,0 +1,39 @@
+CA 25 66 (2013-10) — Customer Complaint Legal Defense Coverage
+==============================================================
+Form number: CA 25 66
+Edition: 2013-10
+Title: Customer Complaint Legal Defense Coverage
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Adds a separate, affirmative defense-costs-only coverage grant for the
+legal expenses incurred by an auto dealer in responding to customer
+complaints and regulatory proceedings arising from the dealer's
+operations (sale, service, or repair of autos). Does not pay damages,
+judgments, or settlements — attorney fees and defense expenses only.
+
+Captures:
+- Defense costs for responding to a complaint or regulatory proceeding
+  by a customer related to the named insured's auto dealer operations
+- Covers sale, service, and repair operations as defined in the
+  endorsement
+
+When used:
+- Auto dealers seeking protection against defense costs from state
+  motor vehicle dealer board complaints, consumer protection agency
+  proceedings, or customer-initiated regulatory actions
+- Dealers with active F&I, service, or used-car operations where
+  regulatory complaints are a realistic exposure
+
+Notes:
+- Claims-made basis — claims must be reported during the policy period
+- Defense costs only — indemnity payments, judgments, and settlements
+  are not covered under this endorsement
+- Carries its own per-complaint limit and aggregate limit, entered on
+  the endorsement schedule separately from the main policy limits
+- Contains its own exclusions section; coverage does not extend beyond
+  the defined AEO-type dealer activities

@@ -1,0 +1,43 @@
+CA 23 13 (2013-10) — Trailer Interchange Fire And Fire And Theft Coverages
+==========================================================================
+Form number: CA 23 13
+Edition: 2013-10
+Title: Trailer Interchange Fire And Fire And Theft Coverages
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Provides limited physical damage coverage — fire only, or fire and theft
+— for non-owned trailers in the insured's possession under trailer
+interchange agreements. Trailer interchange is common in trucking: carriers
+temporarily use trailers owned by other carriers. The base CA 00 20 covers
+owned trailers; CA 23 13 extends limited physical damage to non-owned
+trailers under interchange without providing the full comprehensive and
+collision coverage of the broader CA 23 98 trailer interchange endorsement.
+
+Captures:
+- Physical damage coverage limited to fire losses, or fire and theft losses,
+  on non-owned trailers under interchange agreements
+- Applies while the trailer is in the insured's possession under a valid
+  trailer interchange agreement
+
+When used:
+- Motor carriers whose interchange agreements require them to carry physical
+  damage on non-owned trailers but only need fire coverage or fire + theft
+  (not full comprehensive and collision)
+- Cost-conscious carriers that want to limit their physical damage scope
+  to the most likely catastrophic perils (fire, theft) rather than paying
+  for collision coverage on borrowed trailers
+
+Notes:
+- CA 23 13 is the limited version (fire only or fire + theft); CA 23 98
+  is the broader form covering comprehensive and collision for non-owned
+  trailers under interchange — use CA 23 98 if the interchange agreement
+  requires full physical damage coverage
+- Trailer interchange agreements typically specify what physical damage
+  coverage the borrowing carrier must maintain; the endorsement should
+  match the contractual requirement
+- Limit of coverage should reflect the value of the trailers being interchanged

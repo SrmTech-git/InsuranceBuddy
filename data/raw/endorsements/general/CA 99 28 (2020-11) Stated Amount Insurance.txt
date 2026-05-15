@@ -1,0 +1,47 @@
+CA 99 28 (2020-11) — Stated Amount Insurance
+============================================
+Form number: CA 99 28
+Edition: 2020-11
+Title: Stated Amount Insurance
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying commercial auto policy
+Transaction types: New business; endorsement addition
+
+Purpose:
+Modifies the physical damage coverage on a commercial auto policy to pay
+on a stated amount basis rather than actual cash value (ACV) or replacement
+cost. The insured and insurer agree in advance on a stated value for each
+covered vehicle; in the event of a total loss, the insurer pays the lesser
+of the stated amount, ACV, or the cost of repair. Used for vehicles where
+ACV is difficult to determine or where the insured wants certainty in
+claim settlement value — such as classic, antique, modified, or specialty
+vehicles.
+
+Captures:
+- Physical damage settlement based on a pre-agreed stated amount
+  for each covered vehicle
+- In total loss situations, pays the lesser of stated amount, ACV,
+  or repair cost — not automatically the stated amount
+- Provides settlement certainty for vehicles where market value is
+  unclear or disputed
+
+When used:
+- Classic, antique, or collector vehicles where standard ACV is
+  not a meaningful measure of value
+- Custom or modified vehicles whose value exceeds standard book value
+- High-value specialty vehicles where the insured wants to cap exposure
+  uncertainty in claim settlement
+- Any vehicle where the standard ACV calculation would undercompensate
+  the insured for a total loss
+
+Notes:
+- 2020-11 edition; updated in the current commercial auto program revision
+- Stated amount is NOT the same as agreed value — stated amount pays
+  the lesser of the stated amount or ACV; agreed value pays the stated
+  amount regardless of ACV
+- Insureds seeking guaranteed-value coverage should confirm whether this
+  form provides stated amount (lesser-of) or agreed value (full amount)
+- Stated amounts should be reviewed regularly to ensure they reflect
+  current market values for the vehicle

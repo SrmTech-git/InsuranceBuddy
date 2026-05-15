@@ -1,0 +1,39 @@
+CA 02 38 (2013-10) — Reinstatement Of Insurance
+===============================================
+Form number: CA 02 38
+Edition: 2013-10
+Title: Reinstatement Of Insurance
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Attached for the reinstatement transaction only
+Transaction types: Policy reinstatement after cancellation
+
+Purpose:
+Reinstates coverage on autos that were previously suspended under CA 02 40
+(Suspension of Insurance). CA 02 38 is the companion reinstatement form to
+CA 02 40 — it is not a post-cancellation reinstatement tool. The endorsement
+establishes the reinstatement effective date and lists the specific autos
+being reinstated on a schedule; only those autos listed on the schedule have
+their coverage restored. Applies to Business Auto, Garage, and Motor Carrier
+coverage forms.
+
+Captures:
+- Reinstatement effective date for suspended coverage
+- Schedule of specific autos being reinstated (only autos listed are
+  reinstated; others remain suspended)
+- Any applicable premium charges for the reinstated coverage period
+
+When used:
+- Insured is returning a previously suspended vehicle to service and needs
+  coverage restored under CA 02 40
+- Fleet vehicles completing extended storage, repair, or rebuild periods
+- Seasonal equipment returning to active use after a lay-up suspension
+
+Notes:
+- Reinstatement under CA 02 38 is NOT automatic — the insured or agent must
+  proactively request and attach this endorsement; forgetting to do so leaves
+  the vehicle uninsured upon return to service
+- Coverage resumes from the CA 02 38 effective date only; no retroactive
+  coverage for the suspension period
+- Any premium charges for reinstated coverage become due upon reinstatement

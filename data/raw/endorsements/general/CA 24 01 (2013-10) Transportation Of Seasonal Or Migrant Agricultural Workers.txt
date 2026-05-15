@@ -1,0 +1,46 @@
+CA 24 01 (2013-10) — Transportation Of Seasonal Or Migrant Agricultural Workers
+===============================================================================
+Form number: CA 24 01
+Edition: 2013-10
+Title: Transportation Of Seasonal Or Migrant Agricultural Workers
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Provides commercial auto liability coverage for the transportation of
+seasonal or migrant agricultural workers in covered autos. The Migrant
+and Seasonal Agricultural Worker Protection Act (MSPA, 29 CFR Part 500
+Subpart D) requires farm labor contractors and agricultural employers who
+transport workers to carry insurance. This endorsement ensures the CA
+policy responds to those MSPA obligations and includes a mandatory 30-day
+prior-notice-of-cancellation requirement to the U.S. Department of Labor.
+
+Captures:
+- Liability coverage (BI/PD) for the transportation of seasonal or migrant
+  agricultural workers in covered autos
+- Compliance with MSPA insurance requirements (29 CFR §500.121): $100,000
+  per seat, capped at $5,000,000 per vehicle
+- 30-day prior cancellation notice to the DOL Wage and Hour Division as
+  required by MSPA
+
+When used:
+- Agricultural growers, farm labor contractors, and farm operations that
+  transport workers to and from fields
+- Any insured required to comply with MSPA insurance requirements for
+  agricultural worker transportation
+- Labor contractors who specialize in agricultural worker transport
+
+Notes:
+- MSPA vehicle safety and insurance standards (29 CFR Part 500 Subpart D)
+  apply to any vehicle transporting migrant or seasonal agricultural workers —
+  there is no minimum worker-count threshold for MSPA compliance
+- The MSPA insurance formula is $100,000 per seat with a $5,000,000 per-vehicle
+  cap (29 CFR §500.121); this is a DOL/MSPA requirement, distinct from FMCSA
+  passenger carrier limits
+- State agricultural labor laws may impose additional requirements beyond
+  federal minimums; verify applicable state regulations
+- Passenger vans and buses used for worker transport may require CDLs and
+  state public utility commission authority depending on vehicle size and state

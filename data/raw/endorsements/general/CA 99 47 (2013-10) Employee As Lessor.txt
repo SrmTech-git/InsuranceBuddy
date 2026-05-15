@@ -1,0 +1,46 @@
+CA 99 47 (2013-10) — Employee As Lessor
+=======================================
+Form number: CA 99 47
+Edition: 2013-10
+Title: Employee As Lessor
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying commercial auto policy
+Transaction types: New business; endorsement addition
+
+Purpose:
+Modifies the commercial auto policy to provide coverage when an employee
+leases or rents their personally owned vehicle to the employer for business
+use. In some arrangements, employees formally lease their personal vehicles
+to their employer rather than receiving a mileage reimbursement; the
+vehicle is then used as a "hired auto" under the commercial auto policy.
+Without this endorsement, the employee-as-lessor arrangement may create
+a coverage gap because the employee's personal auto policy may exclude
+business/commercial use, and the employer's commercial auto may not
+recognize the employee's vehicle as a covered hired auto.
+
+Captures:
+- The employee-lessor is added as an insured under the employer's
+  commercial auto policy for liability arising from use of the leased vehicle
+- The leased vehicle is treated as a covered auto owned by the named insured
+  (not merely as a hired auto), making liability and physical damage coverage
+  available on the same terms as owned fleet vehicles
+- Addresses both the liability and physical damage exposure for the
+  employee-owned, employer-leased vehicle
+
+When used:
+- Employer programs where employees lease personal vehicles to the company
+- Vehicle allowance or lease-to-employer programs
+- Any arrangement where an employee's personal vehicle is formally
+  designated as a hired auto under the employer's commercial auto policy
+
+Notes:
+- The legal form of the employee-to-employer vehicle arrangement matters
+  for coverage purposes; a written lease agreement supports the hired auto
+  treatment
+- Employees in these arrangements should also confirm their personal auto
+  policy covers commercial use or that the commercial auto policy provides
+  adequate protection for their vehicle
+- This is a relatively specialized form not commonly encountered in
+  standard commercial auto programs

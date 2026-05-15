@@ -1,0 +1,41 @@
+CA 27 13 (2019-12) — Cannabis Exclusion With Hemp Exception For General Liability Coverages
+============================================================================================
+Form number: CA 27 13
+Edition: 2019-12
+Title: Cannabis Exclusion With Hemp Exception For General Liability Coverages
+Type: ISO Commercial Auto endorsement
+States: All (multi-state; part of ISO's December 2019 cannabis exclusion filing)
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Adds a cannabis exclusion to the General Liability coverages (Coverage A
+and Coverage B) of the CA 00 25, with a carve-out preserving coverage
+for hemp-derived goods. Part of the ISO December 2019 cannabis exclusion
+suite rolled out across all commercial lines.
+
+Captures:
+- Exclusion of bodily injury, property damage, and personal and
+  advertising injury arising from the design, cultivation, manufacture,
+  storage, processing, packaging, handling, testing, distribution, sale,
+  serving, furnishing, possession, or disposal of cannabis
+- Exclusion of claims from inhalation, ingestion, absorption, or contact
+  with cannabis (actual, alleged, or suspected)
+- Hemp exception: the exclusion does NOT apply to goods containing or
+  derived from hemp (seeds, food, clothing, lotions, oils, extracts,
+  building materials, paper)
+
+When used:
+- Dealers or insurers seeking to exclude cannabis-related GL claims while
+  preserving coverage for hemp-derived products
+- The standard cannabis exclusion option when hemp exposure is acceptable
+
+Notes:
+- The hemp exception is voided if hemp goods are prohibited under
+  applicable state or local law where the injury or damage occurs
+- CA 27 14 is the alternative that adds a second exception for dealers
+  acting in a lessor capacity (leasing to cannabis tenants)
+- Filed December 2019 — separate from the November 2020 CA 27 revision
+  cycle; note that the file was originally mislabeled with a 2020-11
+  edition date

@@ -215,8 +215,15 @@ def ask_traced(question: str) -> AskTrace:
     correctness. The trace captures the router's decisions, what forms
     and states were detected, and which source documents were retrieved.
     """
+    # Form detection runs on the ORIGINAL question, before abbreviation
+    # expansion — some abbreviations collide with ISO/AAIS line prefixes
+    # (CA -> "commercial auto", WC -> "workers compensation", HO ->
+    # "homeowner", BOP -> "businessowners policy"). Expanding first would
+    # turn "CA 99 23" into "commercial auto 99 23" and form detection
+    # would fail. The expanded query is still used for routing, state
+    # detection, and the LLM context.
+    detected_forms = detect_form_numbers(question)
     expanded = expand_abbreviations(question)
-    detected_forms = detect_form_numbers(expanded)
     collections, intent = detect_collection(expanded, detected_forms)
     states = detect_states(expanded)
 

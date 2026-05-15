@@ -1,0 +1,34 @@
+CA 25 51 (2020-11) — Exclusion – Designated Products
+=====================================================
+Form number: CA 25 51
+Edition: 2020-11
+Title: Exclusion – Designated Products
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Excludes bodily injury or property damage arising from specifically
+designated products listed on the endorsement schedule. Provides a
+surgical, schedule-driven alternative to a blanket products exclusion.
+
+Captures:
+- Exclusion of BI/PD claims arising from products listed on the
+  endorsement schedule when the damage occurs off the dealer's premises
+- Only scheduled products are excluded; unscheduled products retain
+  coverage under Section II — General Liability Coverages
+
+When used:
+- Dealers or insurers who want to carve out a specific product line
+  (e.g., a particular parts brand or accessory type) while retaining
+  GL products coverage for all other products
+- Situations where certain products present disproportionate claims
+  exposure warranting separate handling
+
+Notes:
+- Exclusion applies to off-premises damage from designated products;
+  on-premises incidents may still be covered under the premises liability
+  component of Section II
+- The schedule must identify the specific products to be excluded

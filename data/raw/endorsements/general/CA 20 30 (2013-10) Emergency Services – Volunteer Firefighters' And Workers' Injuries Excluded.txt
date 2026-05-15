@@ -1,0 +1,43 @@
+CA 20 30 (2013-10) — Emergency Services – Volunteer Firefighters' And Workers' Injuries Excluded
+================================================================================================
+Form number: CA 20 30
+Edition: 2013-10
+Title: Emergency Services – Volunteer Firefighters' And Workers' Injuries Excluded
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Excludes bodily injury coverage under the CA policy for volunteer firefighters
+and emergency service workers who are injured while responding to emergencies
+using covered autos (fire trucks, rescue vehicles, etc.). These workers may
+be covered under separate state volunteer firefighter compensation programs,
+accident insurance plans, or dedicated municipal benefit programs; this
+endorsement prevents the CA auto policy from becoming an unintended first
+responder for those BI claims.
+
+Captures:
+- Exclusion of BI coverage for volunteer firefighters and emergency service
+  personnel injured in the course of emergency response operations
+- Applies while the insured's covered autos (fire apparatus, ambulances,
+  rescue vehicles) are used in emergency service operations
+
+When used:
+- Volunteer fire departments and emergency service organizations
+- Municipalities that operate fire/rescue/EMS services using volunteer personnel
+- Any account where separate state or organizational programs cover volunteer
+  worker injuries and the CA policy should not overlap
+
+Notes:
+- Many states have dedicated benefit programs for injured volunteer
+  firefighters (e.g., state firefighter relief funds, Workers' Comp
+  extensions for volunteers) — these programs are designed to be the primary
+  payer; this endorsement ensures the CA policy does not conflict
+- Without this exclusion, a BI claim by an injured volunteer responder
+  against the municipality's fire truck policy could create unexpected
+  CA liability exposure
+- This endorsement does not exclude coverage for third parties injured by
+  emergency vehicles — only for volunteer responders riding in or operating
+  the insured's emergency vehicles

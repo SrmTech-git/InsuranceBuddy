@@ -1,0 +1,40 @@
+CA 20 13 (2013-10) — Leasing Or Rental Concerns – Schedule Of Limits For Owned Autos
+====================================================================================
+Form number: CA 20 13
+Edition: 2013-10
+Title: Leasing Or Rental Concerns – Schedule Of Limits For Owned Autos
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm change
+
+Purpose:
+Allows a leasing or rental company to assign different liability limits to
+different vehicles or vehicle categories on their owned fleet rather than
+applying a single blanket limit to all covered autos. Useful when the fleet
+contains a mix of vehicle types with different risk profiles — for example,
+standard passenger cars at one limit and larger commercial vehicles or
+specialty vehicles at higher limits.
+
+Captures:
+- Separate scheduled liability limits (BI/PD) for each scheduled auto or
+  class of autos on the leasing/rental company's policy
+- Replaces the single blanket limit that would otherwise apply to all owned
+  autos equally
+
+When used:
+- Large fleet owners with heterogeneous fleets where risk and contractual
+  requirements vary by vehicle class
+- Leasing companies whose lease agreements specify different minimum
+  liability limits for different vehicle types
+- Programs where regulatory requirements mandate higher limits for
+  certain vehicle categories (e.g., passenger vans vs. sedans)
+
+Notes:
+- This endorsement provides coverage design flexibility for the lessor's
+  own fleet policy; it does not alter coverage for lessees (whose limits
+  are governed by their own policy or the rental agreement)
+- Scheduled limits can result in audit complexity at renewal if the fleet
+  composition changes frequently; carriers may prefer blanket limits for
+  simpler fleet programs

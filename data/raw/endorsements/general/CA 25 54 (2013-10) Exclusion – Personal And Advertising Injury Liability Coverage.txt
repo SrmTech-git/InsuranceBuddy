@@ -1,0 +1,36 @@
+CA 25 54 (2013-10) — Exclusion – Personal And Advertising Injury Liability Coverage
+====================================================================================
+Form number: CA 25 54
+Edition: 2013-10
+Title: Exclusion – Personal And Advertising Injury Liability Coverage
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Completely removes the Personal and Advertising Injury Liability
+sub-coverage from Section II — General Liability Coverages of the
+CA 00 25. This is a full elimination, not a narrowing.
+
+Captures:
+- Deletion of Section II, Subsection B — Personal and Advertising
+  Injury Liability from the policy
+- Removes coverage for claims such as defamation, false arrest,
+  malicious prosecution, wrongful eviction, copyright infringement,
+  and advertising injury arising from the dealership's operations
+
+When used:
+- Dealers whose insurer determines the personal and advertising injury
+  exposure is being addressed by a separate professional liability or
+  media liability policy
+- Situations where the PA&I exposure is considered outside the scope
+  of the intended CA 00 25 coverage
+
+Notes:
+- No schedule or carve-outs — once attached, there is zero coverage for
+  personal injury or advertising injury claims regardless of the nature
+  of the offense
+- This endorsement modifies Section II only; it does not affect the
+  auto liability section

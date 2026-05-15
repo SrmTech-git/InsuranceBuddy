@@ -1,0 +1,46 @@
+CA 99 55 (2013-10) — Pollution Liability – Broadened Coverage For Covered Autos – Auto Dealers Coverage Form
+============================================================================================================
+Form number: CA 99 55
+Edition: 2013-10
+Title: Pollution Liability – Broadened Coverage For Covered Autos – Auto Dealers Coverage Form
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Broadens the pollution liability coverage for covered autos under the
+CA 00 25 Auto Dealers Coverage Form by removing or modifying the standard
+auto pollution exclusion. Equivalent to CA 99 48 but specifically for
+dealer operations under CA 00 25. Covers pollution events arising from
+the operation, use, or maintenance of covered autos in the dealer context —
+including new/used vehicle delivery, test drives, loaner operations, and
+the movement of inventory. Also relevant for service department vehicles
+and fuel system maintenance.
+
+Captures:
+- Liability for bodily injury and property damage arising from pollution
+  released from or connected to covered autos in dealer operations
+- Covers fuel spills, fluid releases, and vehicle-connected pollution
+  events during dealer operations
+- Removes the auto-connected pollution exclusion from the CA 00 25
+
+When used:
+- Auto dealers with covered auto pollution spill exposure (test drives,
+  delivery runs, service department vehicle operations)
+- Dealers in jurisdictions with active enforcement of environmental
+  liability for petroleum spills
+- Any CA 00 25 program where auto-connected pollution events are a
+  meaningful risk
+
+Notes:
+- Distinct from CA 27 08 (Total Pollution Exclusion for Dealer GL) —
+  this endorsement broadens auto pollution coverage; CA 27 08 tightens
+  the GL pollution exclusion; the two forms address separate portions
+  of the dealer's pollution exposure
+- Compare with CA 99 48, which is the equivalent form for CA 00 01 /
+  CA 00 20 (non-dealer commercial auto)
+- Dealer fuel storage tanks, service pit drainage, and vehicle washing
+  operations create additional pollution exposure beyond just covered autos;
+  those are addressed under the dealer's premises environmental coverage

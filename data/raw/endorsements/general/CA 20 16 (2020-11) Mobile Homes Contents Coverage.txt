@@ -1,0 +1,45 @@
+CA 20 16 (2020-11) — Mobile Homes Contents Coverage
+===================================================
+Form number: CA 20 16
+Edition: 2020-11
+Title: Mobile Homes Contents Coverage
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Adds coverage for personal property and contents inside mobile homes that
+are scheduled as covered autos. The physical structure of a mobile home
+qualifies as an "auto" under CA 00 01 while it is in transit; however,
+the personal contents inside are typically excluded from physical damage
+coverage. This endorsement extends coverage to the personal property within
+the mobile home.
+
+Captures:
+- Physical damage coverage for personal property/contents inside a covered
+  mobile home auto
+- Coverage applies to the same perils covered under the mobile home's
+  physical damage coverage (comprehensive, collision, specified causes)
+- Limit for contents separate from the vehicle limit
+
+When used:
+- Manufactured home transport companies or dealers that regularly move
+  mobile homes containing furnishings or personal property
+- Individuals transporting a mobile home (as an auto) with contents inside
+- Any insured whose mobile home in transit contains property that would
+  be a meaningful loss if damaged
+
+Notes:
+- The physical mobile home structure is covered as an auto; this endorsement
+  adds the contents layer
+- CA 20 17 is the companion endorsement that explicitly excludes contents
+  coverage — use one or the other (not both)
+- Contents coverage under a CA policy is unusual; for mobile homes that
+  are stationary and used as residences, a separate dwelling or manufactured
+  home policy covers contents (not the CA policy)
+- Coverage applies to contents inside the mobile home and to property within
+  25 feet of it; there is no confirmed "in transit only" restriction — for
+  stationary mobile homes used as residences, a separate dwelling or
+  manufactured home policy is the appropriate vehicle for contents coverage

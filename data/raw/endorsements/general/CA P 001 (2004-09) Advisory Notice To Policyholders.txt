@@ -1,0 +1,35 @@
+CA P 001 (2004-09) — Advisory Notice To Policyholders
+=====================================================
+Form number: CA P 001
+Edition: 2004-09
+Title: Advisory Notice To Policyholders
+Type: ISO Commercial Auto policyholder advisory notice
+States: All
+
+Purpose:
+General advisory notice issued to commercial auto policyholders to explain
+changes in the commercial auto program or to communicate information
+about policy terms and conditions. The CA P 001 is the baseline ISO
+advisory notice form introduced in the 2004-09 program filing, providing
+policyholders with transparency about how their commercial auto coverage
+works or how recent program changes affect them.
+
+Content:
+- General policyholder communication about commercial auto program terms
+- Explanation of coverage features, limitations, or program changes
+  relevant at the 2004-09 filing date
+- Not a coverage form — provides no insurance coverage independently
+
+When used:
+- Issued with new or renewal policies where policyholder communication
+  about program terms is required
+- Used by insurers adopting ISO advisory notices as part of their
+  policyholder communication program
+
+Notes:
+- Advisory notices in the CA P series are non-coverage documents;
+  they communicate information but do not modify coverage
+- Each CA P form corresponds to a specific ISO filing or program revision
+  cycle; CA P 001 is the earliest in the current series
+- Successive CA P forms (002 through 013) correspond to subsequent ISO
+  program revisions and topic-specific notices

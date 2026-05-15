@@ -1,0 +1,45 @@
+CA 99 10 (2013-10) — Drive Other Car Coverage – Broadened Coverage For Named Individuals
+========================================================================================
+Form number: CA 99 10
+Edition: 2013-10
+Title: Drive Other Car Coverage – Broadened Coverage For Named Individuals
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying commercial auto policy
+Transaction types: New business; endorsement addition
+
+Purpose:
+Extends commercial auto liability and physical damage coverage to named
+individuals when they drive autos they do not own — including personal
+vehicles. Company executives, owners, and employees who drive company-provided
+vehicles often have no personal auto policy of their own; when they
+drive a non-owned vehicle (a rental, a spouse's car, a borrowed vehicle),
+their employer's commercial auto policy does not automatically cover them.
+This endorsement fills that gap by providing named individuals with coverage
+while driving other autos not covered by the commercial policy.
+
+Captures:
+- Liability coverage for named individuals operating non-owned autos
+  not covered by the commercial auto policy
+- Physical damage coverage (if selected) for non-owned autos while
+  operated by named individuals
+- Covers the named individual personally in a manner similar to a
+  personal auto policy for non-owned vehicle use
+
+When used:
+- Business owners and executives who rely solely on a company car and
+  have no personal auto policy
+- Key employees who are provided company vehicles and drive non-owned
+  autos on personal time
+- Any individual named on a commercial auto policy who needs protection
+  when driving autos not listed on the policy
+
+Notes:
+- This is the commercial auto equivalent of the "Drive Other Car"
+  coverage available on personal auto policies
+- Without this endorsement, a business owner driving a rental car
+  on a personal trip has no commercial auto coverage and may have
+  no personal auto coverage either — a significant gap
+- Named individuals must be specifically scheduled on the endorsement;
+  coverage is not blanket for all employees

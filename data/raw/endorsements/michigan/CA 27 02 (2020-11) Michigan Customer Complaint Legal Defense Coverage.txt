@@ -1,0 +1,33 @@
+CA 27 02 (2020-11) — Michigan Customer Complaint Legal Defense Coverage
+========================================================================
+Form number: CA 27 02
+Edition: 2020-11
+Title: Michigan Customer Complaint Legal Defense Coverage
+Type: ISO Commercial Auto endorsement — Michigan specific
+States: MI
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Adds defense-costs-only coverage for Michigan auto dealers responding
+to customer complaints and regulatory proceedings arising from the
+dealer's operations. Michigan-specific equivalent of CA 25 66
+(Customer Complaint Legal Defense Coverage) for the 2020-11 form cycle.
+
+Captures:
+- Defense costs for responding to customer complaints or regulatory
+  proceedings related to the named insured's auto dealer operations
+  (sale, service, or repair of autos)
+- Defense costs only — does not pay damages, judgments, or settlements
+
+When used:
+- Michigan auto dealers under CA 00 25 seeking coverage for legal
+  defense costs from state regulatory complaints or customer-initiated
+  proceedings
+
+Notes:
+- Michigan-specific form; not available in other states
+- Claims-made basis
+- Carries its own per-complaint and aggregate limits scheduled on the
+  endorsement separately from main policy limits

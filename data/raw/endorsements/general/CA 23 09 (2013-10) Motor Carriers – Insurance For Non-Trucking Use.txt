@@ -1,0 +1,44 @@
+CA 23 09 (2013-10) — Motor Carriers – Insurance For Non-Trucking Use
+====================================================================
+Form number: CA 23 09
+Edition: 2013-10
+Title: Motor Carriers – Insurance For Non-Trucking Use
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Provides liability coverage for an owner-operator's truck when it is being
+used for personal, non-commercial purposes — NOT under dispatch or in the
+service of the motor carrier. When an owner-operator is under dispatch,
+the carrier's primary policy applies; when they use their truck for personal
+errands, the carrier's policy is typically excluded and the owner-operator's
+personal-use coverage applies. This endorsement (commonly called "bobtail"
+or "deadhead" insurance) fills that personal-use gap.
+
+Captures:
+- Liability coverage (BI/PD) for the owner-operator's tractor while being
+  used for purposes outside of the motor carrier's operations
+- Applies when the unit is not under dispatch, not pulling a loaded trailer
+  for the carrier, and not generating revenue for the carrier
+- Sometimes called "non-trucking use" or "NTU" coverage in the industry
+
+When used:
+- Owner-operators who lease to a carrier (the carrier covers them when
+  under dispatch; this endorsement covers them between loads)
+- Trucking lease programs where the carrier's policy excludes non-dispatch use
+- Bobtail situations: tractor traveling without a trailer, traveling home,
+  or running personal errands
+
+Notes:
+- "Bobtail" technically refers to a tractor running without a trailer;
+  "deadhead" refers to running with an empty trailer; CA 23 09 covers
+  both scenarios broadly as "non-trucking use"
+- This endorsement is often purchased by owner-operators as a stand-alone
+  or as part of their own small fleet policy to sit alongside the carrier's
+  policy and eliminate the non-dispatch gap
+- Without NTU coverage, an owner-operator involved in an accident while
+  driving home may have no coverage from either the carrier's policy (not
+  under dispatch) or their personal auto policy (a commercial vehicle)

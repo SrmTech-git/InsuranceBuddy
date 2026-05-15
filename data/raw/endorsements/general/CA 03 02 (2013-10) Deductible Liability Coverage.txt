@@ -1,0 +1,42 @@
+CA 03 02 (2013-10) — Deductible Liability Coverage
+==================================================
+Form number: CA 03 02
+Edition: 2013-10
+Title: Deductible Liability Coverage
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm change
+
+Purpose:
+Introduces a per-accident liability deductible under a commercial auto policy.
+The insurer defends and settles claims and is obligated to advance the deductible
+on behalf of the insured, then seeks reimbursement. The mandatory payment
+obligation ("will pay") is the sole structural distinction from CA 03 01 ("may
+pay"). Applies to CA 00 01 (Business Auto), CA 00 20 (Motor Carrier), CA 00 05
+(Garage), and CA 00 25 (Auto Dealers).
+
+Captures:
+- Per-accident deductible amount, applicable to all liability (BI + PD) or to
+  property damage only, depending on schedule selection
+- Insurer's mandatory obligation to pay claims and then seek reimbursement
+  from the insured for amounts within the deductible
+- Premium credit per the ISO rating plan for the selected deductible amount
+
+When used:
+- Accounts where the carrier requires mandatory deductible funding rather
+  than discretionary reimbursement
+- Large commercial or fleet accounts with loss-sensitive program structures
+  that need a defined pay-and-reimburse mechanism
+
+Notes:
+- The only documented distinction from CA 03 01 is the payment language:
+  CA 03 02 = insurer "will" pay and seek reimbursement (mandatory);
+  CA 03 01 = insurer "may" seek reimbursement (discretionary)
+- Both forms offer flexible deductible structures (all-liability or PD-only);
+  neither is a "split BI/PD" deductible form exclusively
+- The deductible is a reimbursement obligation, not a true SIR; the insurer
+  controls defense and settlement
+- Collateral requirements for deductible reimbursement are typically negotiated
+  separately in a loss-sensitive program agreement

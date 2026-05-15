@@ -1,0 +1,39 @@
+CA 27 21 (2022-09) — Abuse Or Molestation Exclusion For General Liability And Acts, Errors Or Omissions Liability Coverages
+==============================================================================================================================
+Form number: CA 27 21
+Edition: 2022-09
+Title: Abuse Or Molestation Exclusion For General Liability And Acts, Errors Or Omissions Liability Coverages
+Type: ISO Commercial Auto endorsement
+States: All except FL, NY, TX
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Broadly excludes all claims arising from abuse or molestation — not
+limited to sexual acts — from both the General Liability (Section II)
+and Acts, Errors or Omissions Liability (Section III) coverages of
+CA 00 25. This is the broader of the two abuse exclusion endorsements
+in the CA 27 series.
+
+Captures:
+- Exclusion of bodily injury, property damage, and personal and
+  advertising injury arising from any form of abuse or molestation by
+  any person
+- Exclusion of negligent employment, supervision, and retention claims
+  connected to abuse or molestation
+- Applies to both Section II — General Liability Coverages and
+  Section III — Acts, Errors Or Omissions Liability Coverages
+
+When used:
+- Dealers or insurers who want to exclude all forms of abuse or
+  molestation exposure from the CA 00 25 rather than only sexual abuse
+- Part of the September 2022 ISO filing that restructured abuse/molestation
+  exclusion and coverage options across commercial lines
+
+Notes:
+- CA 27 22 is the narrower alternative, excluding only sexual abuse or
+  molestation while leaving other forms of abuse potentially covered
+- Not available in FL, NY, or TX
+- Part of the same 2022 ISO filing cycle that introduced parallel forms
+  in the CGL program (CG 40 28/40 29)

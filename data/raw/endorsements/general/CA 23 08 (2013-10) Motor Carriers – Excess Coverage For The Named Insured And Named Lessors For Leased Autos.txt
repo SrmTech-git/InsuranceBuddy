@@ -1,0 +1,43 @@
+CA 23 08 (2013-10) — Motor Carriers – Excess Coverage For The Named Insured And Named Lessors For Leased Autos
+==============================================================================================================
+Form number: CA 23 08
+Edition: 2013-10
+Title: Motor Carriers – Excess Coverage For The Named Insured And Named Lessors For Leased Autos
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Provides excess liability coverage for the named motor carrier and specified
+lessors for claims arising from leased autos. In motor carrier operations,
+owner-operators lease their equipment to carriers; when a leased truck is
+involved in an accident, multiple parties may have liability exposure —
+the owner-operator's primary policy, the carrier's policy, and the equipment
+lessor. This endorsement layers the carrier's coverage above the owner-
+operator's primary coverage for leased autos.
+
+Captures:
+- Excess liability for the named insured (motor carrier) when an owner-
+  operator's leased truck is involved in a covered auto accident
+- Protects named lessors (equipment owners) as excess insureds
+- Defines the relationship between the owner-operator's primary policy and
+  the carrier's excess layer
+
+When used:
+- Motor carriers that lease equipment from owner-operators under trip or
+  permanent lease arrangements
+- Carriers that want to ensure they have excess coverage above the owner-
+  operator's primary limits for leased-in equipment
+- Fleet programs with mixed owned and leased equipment
+
+Notes:
+- The 90-day lease provision under federal regulations (49 CFR §376.12)
+  affects how liability flows between carriers and owner-operators; this
+  endorsement works within that regulatory framework
+- Without this endorsement, the carrier's CA 00 20 policy may be treated
+  as primary alongside the owner-operator's policy, creating coverage
+  conflicts; the excess structure prevents that
+- CA 23 12 (Named Lessee as Insured) is the companion endorsement that
+  adds the lessee (the carrier) to the owner-operator's policy

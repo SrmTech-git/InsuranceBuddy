@@ -1,0 +1,35 @@
+CA R 261 (2022-03) — Single Interest Automobile Physical Damage Insurance Policy (Individual Policy Form) Ca 26 01 11 20 Table Of Contents
+==========================================================================================================================================
+Form number: CA R 261
+Edition: 2022-03
+Title: Single Interest Automobile Physical Damage Insurance Policy (Individual Policy Form) Ca 26 01 11 20 Table Of Contents
+Type: ISO Commercial Auto form table of contents
+States: All
+
+Purpose:
+Table of contents for the CA 26 01 (11 20) Single Interest Automobile
+Physical Damage Insurance Policy — Individual Policy Form. Provides a
+structural index to the individual single-interest CPI policy issued
+to a lender for a specific financed vehicle. Helps lenders, program
+administrators, and claims adjusters navigate the CA 26 01 policy form,
+which is a specialized lender-placed insurance document distinct from
+standard commercial auto forms.
+
+Content:
+- Section index for CA 26 01 (2020-11 edition): coverage agreement,
+  definitions, exclusions, conditions, lender's rights and obligations
+- Page references for each section of the individual single-interest policy
+- Reference to endorsement attachment points for CA 26 04-07
+
+When used:
+- Issued with CA 26 01 single-interest individual policy programs as a
+  navigation reference for lenders and program administrators
+- Used by CPI program adjusters handling individual policy claims
+
+Notes:
+- The CA R 261 numbering aligns with the CA 26 01 base form it references
+  (261 = CA 26 01); CA R 262 is the companion for CA 26 02 (master policy)
+- Single-interest CPI policies are used in specialty lender-placed insurance
+  programs; the table of contents is a program administration tool
+- The individual policy form (CA 26 01) covers a single financed vehicle;
+  the master policy form (CA 26 02) covers a lender's entire loan portfolio

@@ -1,0 +1,43 @@
+CA 20 19 (2020-11) — Repossessed Autos
+======================================
+Form number: CA 20 19
+Edition: 2020-11
+Title: Repossessed Autos
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Extends commercial auto coverage to vehicles that the named insured has
+repossessed from a defaulting borrower. After repossession, the lender
+or their agent (a repossession company) takes temporary custody of the
+vehicle pending resale; during this period the vehicle is neither fully
+owned in the usual sense nor insured by the defaulting borrower. This
+endorsement ensures the repossessing party has liability and physical
+damage coverage during the post-repossession period.
+
+Captures:
+- Liability (BI/PD) coverage for repossessed autos while in the named
+  insured's custody
+- Physical damage coverage for repossessed autos during the custody period
+- Applies from the time of repossession until the vehicle is sold or
+  returned to the borrower
+
+When used:
+- Auto lenders, credit unions, and finance companies that repossess
+  vehicles from defaulting borrowers
+- Repossession agencies acting as agents for lenders
+- Dealers that purchase and resell repossessed vehicles before sale
+
+Notes:
+- Standard CA 00 01 covers "owned autos" — a repossessed vehicle is in a
+  gray area: the lender may have a security interest but not clear title
+  until the repossession process is complete; this endorsement resolves
+  that ambiguity
+- Repossession companies face both driving liability (while moving the
+  repossessed vehicle) and storage liability (while the vehicle is on
+  the lot awaiting sale); both exposures are addressed
+- For high-volume repossession operations, inland marine (garagekeepers
+  floater) may also be relevant for physical damage on the storage lot

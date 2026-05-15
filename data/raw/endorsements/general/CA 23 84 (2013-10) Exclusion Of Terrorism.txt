@@ -1,0 +1,46 @@
+CA 23 84 (2013-10) — Exclusion Of Terrorism
+===========================================
+Form number: CA 23 84
+Edition: 2013-10
+Title: Exclusion Of Terrorism
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Excludes coverage for losses arising from any act of terrorism as defined
+by TRIA and applicable ISO definitions. TRIA requires insurers to offer
+terrorism coverage; this endorsement is the exclusion instrument that
+removes terrorism-related claims from the CA policy. It is not a
+declination document — it is the policy form itself that effects the
+exclusion once the named insured has declined the offer.
+
+Captures:
+- Exclusion of all BI, PD, and physical damage claims arising from a
+  certified act of terrorism under TRIA
+- A "certified act of terrorism" under TRIA requires a determination by
+  the Secretary of the Treasury; losses must exceed the program's
+  aggregate industry loss threshold (currently $200 million) before TRIA
+  certification applies
+
+When used:
+- Any commercial auto account where the named insured has declined the
+  insurer's TRIA terrorism coverage offer
+- Most large commercial auto renewals where terrorism is separately priced
+  and offered under TRIA requirements; if declined, this endorsement
+  attaches
+
+Notes:
+- Under TRIA (Terrorism Risk Insurance Act), insurers must OFFER terrorism
+  coverage to commercial policyholders; if the insured declines, the
+  exclusion endorsement must attach
+- CA 23 85 excludes specifically nuclear, biological, or chemical (NBC)
+  terrorism — a distinct category with different pricing and availability
+- CA 23 86 and CA 23 87 are partial-exclusion forms that exclude terrorism
+  coverage ABOVE state-mandated minimum liability limits, allowing the
+  policy to still respond at the minimum-required level while excluding
+  excess terrorism exposure
+- Terrorism coverage pricing has decreased significantly since 9/11 as
+  the reinsurance market matured; many insureds now accept terrorism coverage

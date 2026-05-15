@@ -1,0 +1,36 @@
+CA 25 09 (2020-11) — Additional Insured – General Liability Coverages – Owners Of Leased Or Rented Land Or Premises
+====================================================================================================================
+Form number: CA 25 09
+Edition: 2020-11
+Title: Additional Insured – General Liability Coverages – Owners Of Leased Or Rented Land Or Premises
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Adds the owner or lessor of land or premises leased or rented by the
+dealer as an additional insured under the General Liability coverages of
+CA 00 25. This is the CA 00 25 analog to CG 20 11 (Additional Insured —
+Managers or Lessors of Premises) in the CGL program.
+
+Captures:
+- Additional insured status for the scheduled landlord/premises owner
+  under Section II — General Liability Coverages
+- Coverage limited to liability arising out of the named insured's
+  occupancy or use of the described premises or land
+
+When used:
+- Auto dealers whose landlord requires additional insured status as a
+  condition of the lease
+- Common for dealers who lease showroom, service, or lot space from a
+  third-party property owner
+
+Notes:
+- Does not extend to Covered Autos Liability, Physical Damage, or
+  Garagekeepers sections — GL coverage only
+- Does not cover the landlord's independent acts or pre-existing
+  conditions at the premises; coverage is tied to the dealer's own
+  liability
+- The 2020-11 edition reflects the November 2020 ISO revision cycle

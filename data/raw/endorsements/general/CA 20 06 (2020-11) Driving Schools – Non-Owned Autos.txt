@@ -1,0 +1,45 @@
+CA 20 06 (2020-11) — Driving Schools – Non-Owned Autos
+======================================================
+Form number: CA 20 06
+Edition: 2020-11
+Title: Driving Schools – Non-Owned Autos
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Extends the driving school's CA policy to cover liability arising from the
+use of non-owned autos — specifically vehicles owned by students — during
+instruction. Some driving schools provide their own vehicles (covered as
+owned autos under CA 00 01); others conduct lessons in the student's own
+car. When the instructor uses the student's vehicle, a standard CA policy
+may not cover the school's liability if an accident occurs in a non-owned
+vehicle used for instruction.
+
+Captures:
+- Non-owned auto liability coverage for the named insured (the driving
+  school) when instructors operate students' personal vehicles during
+  lessons
+- Coverage applies during supervised instruction only, while the named
+  insured's employee-instructor is in the vehicle
+- Protects the school from vicarious liability for accidents during
+  student-vehicle instruction
+
+When used:
+- Driving schools that offer "behind-the-wheel" instruction in the
+  student's own vehicle
+- Commercial driver training programs where training may occur in a
+  student-owned commercial vehicle
+
+Notes:
+- Without this endorsement, a school that teaches in the student's car
+  has potential liability exposure that falls outside the standard CA 00 01
+  non-owned auto definition — the school isn't leasing or borrowing the car
+  in the traditional sense
+- The student's own personal auto policy may respond first, but the school
+  needs coverage for its own organizational liability
+- This endorsement covers the school's exposure; it does not insure the
+  student's vehicle (physical damage to the student's car remains the
+  student's concern under their own policy)

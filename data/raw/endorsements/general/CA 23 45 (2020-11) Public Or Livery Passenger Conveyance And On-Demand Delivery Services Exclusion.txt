@@ -1,0 +1,44 @@
+CA 23 45 (2020-11) — Public Or Livery Passenger Conveyance And On-Demand Delivery Services Exclusion
+====================================================================================================
+Form number: CA 23 45
+Edition: 2020-11
+Title: Public Or Livery Passenger Conveyance And On-Demand Delivery Services Exclusion
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Extends the public/livery conveyance exclusion (CA 23 44) to also exclude
+on-demand delivery services — gig-economy delivery platforms such as
+DoorDash, Amazon Flex, Instacart, and similar services. Added in the
+2020-11 edition to address the proliferation of gig delivery activity, which
+creates the same underwriting exposure as TNC rideshare but in the delivery
+context: employees using company vehicles (or personal vehicles on company
+time) for off-policy gig work.
+
+Captures:
+- Exclusion of coverage for vehicles used as for-hire passenger conveyances
+  (taxis, TNC, livery) — same as CA 23 44
+- PLUS exclusion of coverage while the vehicle is being used for on-demand
+  delivery services (gig platforms, app-dispatched delivery)
+- Applies during the period the vehicle is available for or actively engaged
+  in gig delivery or rideshare dispatch
+
+When used:
+- CA 00 20 and CA 00 01 policies where the underwriter wants to exclude
+  both rideshare AND gig delivery exposures in a single endorsement
+- Fleet accounts where drivers might use company vehicles for side income
+  through delivery apps
+- Any account where the broader exclusion is preferred over the narrower
+  CA 23 44 (passenger only)
+
+Notes:
+- CA 23 44 covers passenger conveyance only; CA 23 45 covers both passenger
+  AND delivery — use CA 23 45 when both exposures need to be excluded
+- Gig delivery exclusions have become increasingly standard as app-based
+  delivery platforms expanded significantly; insurers do not price standard
+  commercial auto for that use
+- Carriers should verify that fleet drivers have contractual restrictions
+  against using company vehicles for gig work, supporting the policy exclusion

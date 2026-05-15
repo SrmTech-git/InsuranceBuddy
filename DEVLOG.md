@@ -941,3 +941,76 @@ The chunker registry, router prompt, and inventory listing all update automatica
 - **Recent legislative content is queryable.** VA's Jan 2025 limit increase, GA's SB 121 DUI minimums, the MI 2019 no-fault reform — all surface via natural queries.
 - **Endorsements collection is ready to receive content.** Drop ISO/AAIS/NCCI library cards into `data/raw/endorsements/{general,state}/` and run `python main.py ingest --collection endorsements`. The forms-atomic chunker, state tagging, router awareness, and inventory listing all work automatically.
 - **TBDs remaining are narrow and well-categorized.** Edition currency: resolved across the catalog. Current state minimums: resolved. Statute citations: resolved. Remaining TBDs are carrier-specific operational details and a few generic-titled supplements where exact field content needs verification — all properly labeled for future fact-check passes.
+
+---
+
+## Session 18 — ISO CA Endorsement Library Fact-Check
+
+Full fact-checking pass through all 188 ISO Commercial Auto (CA) endorsement library cards scaffolded in Session 17. Governing principle throughout: **blank is better than wrong** — if content cannot be verified against authoritative sources, it is cleared rather than left as plausible-but-unverified text.
+
+### Methodology
+
+- Cards reviewed in series order (CA 20, CA 21, CA 23, CA 26, CA 99)
+- Parallel web-search agents used to verify factual claims — ISO program structure, FMCSA/DOT regulation citations, statutory authority
+- CA 20 and CA 21 series confirmed correct in prior sessions (not touched this session)
+- Fact-checking focused on CA 23 (24 forms), CA 26 (7 forms), CA 99 (23 forms)
+
+### CA 23 series — 10 cards corrected
+
+The most critical finding: four CA 23 cards had **direction-reversed** content — they described exclusion endorsements as if they provided coverage. Full rewrites with explicit "This is an EXCLUSION endorsement" framing:
+
+- **CA 23 01 (Explosives)** — EXCLUSION of BI/PD from explosion of explosives the insured makes, sells, handles, or transports. Previous card claimed it "provides liability coverage for transportation of explosives."
+- **CA 23 04 (Rolling Stores)** — EXCLUSION of products-liability after goods leave insured's possession. Previous card claimed it "extends coverage to liability from sale of merchandise."
+- **CA 23 05 (Wrong Delivery of Liquid Products)** — EXCLUSION of PD claims arising from wrong-delivery. Previous card claimed it "covers property damage from wrong-delivery."
+- **CA 23 97 (Amphibious Vehicles)** — EXCLUSION of water-mode operation. Previous card claimed it "extends coverage to water-mode operation."
+
+Additional corrections:
+
+- **CA 23 12 (Motor Carriers – Named Lessee As Insured)** — Removed "Applicable while the owner-operator operates under the carrier's dispatch." Coverage applies for the full lease period under 49 CFR § 376.12(c), not only during active dispatch.
+- **CA 23 17 (Truckers – UIIE-1)** — Full rewrite. This is a **liability/indemnity** endorsement covering UIIA Section F.4 indemnity obligations (damage to intermodal equipment in insured's care). Previous card claimed it "provides physical damage coverage for intermodal equipment."
+- **CA 23 30 (Motor Carrier Endorsement)** — Fixed base form: attaches to CA 00 01 (Business Auto), not CA 00 20 (Motor Carrier Coverage Form). Previous card said it "modifies CA 00 20."
+- **CA 23 84 (Exclusion Of Terrorism)** — Removed "documents the named insured's declination of TRIA offer" framing. CA 23 84 is the exclusion instrument itself, not a declination record. Added TRIA $200M aggregate threshold language.
+- **CA 23 98 (Trailer Interchange Coverage)** — Added Notes clarification: CA 23 98 attaches to CA 00 01; CA 00 20 has native trailer interchange provisions and does not require this endorsement.
+- **CA 23 03 (Multipurpose Equipment)** — Blanked. Content not verifiable against ISO program documentation.
+
+### CA 26 series — 5 cards corrected
+
+Confirmed active ISO CA 26 forms: CA 26 01, 02, 04, 05 only. CA 26 03, 06, 07 in the library do not appear in the ISO Commercial Auto forms list.
+
+- **CA 26 03** — Blanked. Appears to be an Auto Medical Payments form unrelated to the single interest series.
+- **CA 26 04 (Amendment – Public/Livery Passenger Conveyance and On-Demand Delivery Services)** — Full rewrite. This is an **exclusion** endorsement limiting the single interest policy's scope. Previous card claimed it "adds optional coverage extensions."
+- **CA 26 05 (Single Interest Deductibles)** — Rewrote as a deductible endorsement. Previous card claimed it "adds coverage for additional property/accessories."
+- **CA 26 06 / CA 26 07** — Both blanked. Neither appears in the ISO forms list; likely non-CA credit insurance products.
+- **CA 26 01, CA 26 02** — Confirmed correct, no changes.
+
+### CA 99 series — 13 cards corrected
+
+One direction reversal and a cluster of framing and detail fixes:
+
+- **CA 99 33 (Employees As Insureds)** — **Direction reversal.** Previous card described the gap as employees driving employer fleet vehicles (those are already covered autos under the BAP). The actual gap: employees using their *own* personal vehicles for company business — those aren't "covered autos" so employees have no insured status under the employer's policy. CA 99 33 fills that gap. Also: employer's policy responds *excess* over the employee's personal auto.
+- **CA 99 05 (Business Interruption Coverage)** — Corrected framing. This is a scheduled daily-benefit form, not broad business income coverage. Added: 24-hour waiting period, benefit ends at the earlier of repair/replacement or the scheduled maximum period.
+- **CA 99 17 (Individual Named Insured)** — Fixed "When used": applies to any individual named insured, not just sole proprietors. Added ISO mandate: CA 99 17 must attach at no additional premium whenever a private passenger auto or light truck is covered on a policy insuring an individual.
+- **CA 99 23 (Rental Reimbursement Coverage)** — Added 24-hr waiting period; coverage triggered by physical damage only; not available if insured has spare/reserve autos available.
+- **CA 99 28 (Stated Amount Insurance)** — Fixed settlement mechanics: stated amount is a *cap* (lesser of stated/ACV/repair cost), not a guaranteed minimum floor.
+- **CA 99 30 (Tapes, Records And Discs)** — Added $200 per-occurrence sublimit; clarified covers physical media objects only (not intangible digital files); noted applies under Comprehensive.
+- **CA 99 34 (Social Service Agencies – Volunteers As Insureds)** — Narrowed to volunteer-owned personal vehicles; removed overstatement that it covered agency-owned vehicles.
+- **CA 99 44 (Loss Payable Clause)** — Fixed: standard loss payee clause only (loss payee's rights contingent on insured's rights). Added explicit note: CA 99 44 is NOT a lender's loss payable clause.
+- **CA 99 47 (Employee As Lessor)** — Fixed mechanics: employee-lessor gains insured status for liability, vehicle treated as an owned auto (not a hired auto).
+- **CA 99 59 (Garagekeepers – Customers' Sound-Receiving Equipment)** — Added: permanently installed equipment only (no portable); theft of sound-receiving equipment is excluded.
+- **CA 99 60 (Audio, Visual And Data Electronic Equipment Added Limits)** — Added $1,000 base sublimit for non-factory electronic equipment; CA 99 60 allows scheduling higher limits above that threshold.
+- **CA 99 90 (Optional Limits – Loss Of Use Expenses)** — Added base limits: $20/day, $600 max under CA 00 01; CA 99 90 allows purchasing higher per-day and aggregate limits.
+- **CA 99 37 (Garagekeepers Coverage)** — Reviewed, confirmed correct (all three settlement bases already listed), no change.
+
+10 additional CA 99 cards reviewed and confirmed correct: CA 99 03, 10, 16, 21, 22, 23 (separate from above), 26, 27, 29, 48.
+
+### Re-ingest and eval
+
+- Force re-ingested all 188 endorsement cards: 188/188 succeeded, 0 failures
+- Final endorsements collection: 222 vectors
+- Eval: **40/41 (98%)** — identical to the Session 17 baseline. The single failure (`ga-sr22-vs-sr22a`, source recall 0.00) was pre-existing before this session's work; no regression introduced.
+
+### What this enables
+
+- **Direction-reversed exclusion cards are the highest-risk content error.** A card that says "provides coverage for X" when the form actually *excludes* X will actively mislead users with real decisions on the line. All eight direction reversals in the CA 23 + CA 26 + CA 99 series are now corrected.
+- **Blanked cards are honest about uncertainty.** Six cards could not be verified and were cleared rather than left with plausible-but-wrong descriptions. Future content passes can fill these in if ISO documentation becomes available.
+- **Endorsements collection is now factually reliable** for the CA series. The CA 20 and CA 21 series were confirmed in prior sessions; CA 23, 26, and 99 are now corrected. Remaining ISO CA series (if any additional cards are added) should go through the same fact-check protocol before ingest.

@@ -1,0 +1,46 @@
+CA 23 17 (2020-11) — Truckers – Uniform Intermodal Interchange Endorsement Form UIIE-1
+========================================================================================
+Form number: CA 23 17
+Edition: 2020-11
+Title: Truckers – Uniform Intermodal Interchange Endorsement Form Uiie – 1
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Extends liability coverage to satisfy the insured trucker's indemnity
+obligations under Section F.4 of the Uniform Intermodal Interchange and
+Facilities Agreement (UIIA). The UIIA requires participating truckers to
+defend and indemnify equipment providers (chassis lessors, rail carriers,
+ocean carriers) for losses arising from the trucker's use of intermodal
+equipment; this endorsement modifies the CA policy to provide that
+liability/indemnity protection. This is a LIABILITY endorsement, not a
+physical damage endorsement.
+
+Captures:
+- Liability coverage for the insured trucker's UIIA Section F.4 indemnity
+  obligations to intermodal equipment providers
+- Coverage for BI/PD and related defense costs arising from the trucker's
+  use of UIIA-governed intermodal equipment (chassis, containers)
+- Does not provide physical damage coverage for the equipment itself —
+  that is a separate intermodal physical damage coverage question
+
+When used:
+- Drayage carriers and truckers enrolled in the UIIA who must satisfy
+  the liability/indemnity insurance requirements to participate in the
+  intermodal program
+- Any trucker that picks up and delivers intermodal containers from ports
+  or rail yards using equipment governed by UIIA agreements
+
+Notes:
+- CA 23 17 is a LIABILITY/INDEMNITY endorsement — it does not provide
+  physical damage coverage for intermodal equipment; a card or summary
+  describing it as physical damage coverage would be incorrect
+- The UIIA is the governing contract for most intermodal interchange in
+  North America; UIIA membership requires the trucker's policy to include
+  a UIIE-1 or equivalent endorsement
+- Physical damage coverage for non-owned intermodal chassis while in
+  the trucker's custody is a separate coverage need, typically addressed
+  through a trailer interchange or inland marine endorsement

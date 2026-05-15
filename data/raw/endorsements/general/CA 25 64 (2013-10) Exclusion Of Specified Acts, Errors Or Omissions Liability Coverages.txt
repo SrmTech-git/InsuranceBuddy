@@ -1,0 +1,33 @@
+CA 25 64 (2013-10) — Exclusion Of Specified Acts, Errors Or Omissions Liability Coverages
+==========================================================================================
+Form number: CA 25 64
+Edition: 2013-10
+Title: Exclusion Of Specified Acts, Errors Or Omissions Liability Coverages
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+A surgical, schedule-driven alternative to CA 25 63. Removes only the
+specific AEO sub-coverage categories listed on the endorsement schedule,
+leaving all unscheduled AEO coverages intact under Section III.
+
+Captures:
+- Exclusion of only the AEO sub-coverages specifically identified in
+  the endorsement schedule
+- All unlisted AEO sub-coverages remain in force under Section III —
+  Acts, Errors Or Omissions Liability Coverages
+
+When used:
+- Insurers who want to exclude specific high-risk AEO sub-coverages
+  (e.g., Truth-in-Lending Act violations) while retaining coverage
+  for other AEO activities (e.g., odometer disclosure errors)
+- Situations where certain AEO exposures are being written separately
+  while others remain on the CA 00 25
+
+Notes:
+- The endorsement schedule must identify the specific sub-coverages to
+  be excluded; unlisted items are not affected
+- CA 25 63 is the alternative for a total, blanket AEO exclusion

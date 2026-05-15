@@ -1,0 +1,40 @@
+CA 27 23 (2022-09) — Sexual Abuse Or Sexual Molestation Liability Coverage
+==========================================================================
+Form number: CA 27 23
+Edition: 2022-09
+Title: Sexual Abuse Or Sexual Molestation Liability Coverage
+Type: ISO Commercial Auto endorsement
+States: All except LA, NY (limited multi-state availability)
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Provides affirmative liability coverage for sexual abuse or molestation
+claims on a claims-made basis. This is a coverage grant — the counterpart
+to the exclusion endorsements CA 27 21 and CA 27 22. Covers liability
+for sexual abuse or molestation by any person for whom the insured bears
+responsibility.
+
+Captures:
+- Liability coverage for bodily injury, property damage, and personal
+  and advertising injury arising from sexual abuse or molestation by
+  any person for whom the named insured is responsible
+- Applies to Section II — General Liability Coverages and/or
+  Section III — Acts, Errors Or Omissions Liability Coverages as
+  specified in the endorsement
+
+When used:
+- Dealers who want affirmative coverage for sexual abuse/molestation
+  claims rather than an exclusion
+- Situations where the underlying CA 00 25 policy otherwise excludes
+  this exposure and the insured wants it reinstated
+
+Notes:
+- Claims-made basis — coverage applies to claims first made and reported
+  during the policy period
+- CA 27 24 is the narrower alternative — it limits coverage to acts
+  committed directly by the named insured rather than any person
+- Parallel to CG 04 14/04 15 series under the standard CGL program
+- Part of the September 2022 ISO filing cycle
+- Not available in LA or NY

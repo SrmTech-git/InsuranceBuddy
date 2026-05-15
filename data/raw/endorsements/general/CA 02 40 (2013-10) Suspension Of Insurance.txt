@@ -1,0 +1,44 @@
+CA 02 40 (2013-10) — Suspension Of Insurance
+============================================
+Form number: CA 02 40
+Edition: 2013-10
+Title: Suspension Of Insurance
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Applies for the duration of the suspension period
+Transaction types: Midterm policy change — coverage suspension
+
+Purpose:
+Temporarily suspends coverage on one or more specifically identified autos
+during a defined period when those autos are not in use. The insured receives
+a return premium credit if the suspension exceeds 30 days. Coverage does NOT
+automatically resume — reinstatement requires the insured to proactively
+attach CA 02 38 (Reinstatement of Insurance) with a new effective date.
+Applies to Business Auto, Garage, and Motor Carrier coverage forms.
+
+Captures:
+- Specific auto(s) being suspended (by schedule)
+- Suspension effective date
+- Return premium credit for suspensions exceeding 30 days
+
+When used:
+- Seasonal equipment or vehicles stored for winter (farm equipment, seasonal
+  trucks, construction equipment)
+- Fleet vehicles temporarily taken out of service for major repairs or rebuild
+- Autos that the insured has surrendered possession of but not yet removed
+  from the policy
+
+Notes:
+- Coverage does NOT automatically resume when a suspension period ends —
+  the insured must request CA 02 38 to reinstate; vehicles returning to
+  service without CA 02 38 attached are uninsured
+- Return premium credit applies only if the suspension exceeds 30 days;
+  shorter suspensions do not generate a return premium
+- Suspending liability coverage on a registered vehicle is high-risk:
+  many states (including California and Georgia) require liability coverage
+  to remain active on registered vehicles; suspending liability while a
+  vehicle is still registered can trigger registration suspension or leave
+  the insured exposed to uninsured liability claims
+- Differs from deleting a vehicle: suspension keeps the vehicle on the policy
+  in a suspended state; deletion removes it and requires re-adding as new

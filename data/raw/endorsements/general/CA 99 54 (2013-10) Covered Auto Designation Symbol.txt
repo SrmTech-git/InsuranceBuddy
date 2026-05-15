@@ -1,0 +1,44 @@
+CA 99 54 (2013-10) — Covered Auto Designation Symbol
+====================================================
+Form number: CA 99 54
+Edition: 2013-10
+Title: Covered Auto Designation Symbol
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying commercial auto policy
+Transaction types: New business; endorsement addition
+
+Purpose:
+Creates a custom covered auto designation symbol when the standard
+ISO symbol system (Symbols 1-9) does not adequately define which autos
+should be covered under a specific commercial auto program. The standard
+symbols (1 = any auto, 7 = specifically described autos, 8 = hired autos,
+9 = non-owned autos, etc.) may not fit unusual fleet compositions or
+program designs. This endorsement allows the insurer and insured to craft
+a unique symbol with a customized definition of covered autos tailored
+to their specific needs.
+
+Captures:
+- Custom definition of which autos qualify as "covered autos" under
+  the designated symbol
+- Applied to specific coverages in the declarations to define the auto
+  scope for those coverages
+- Used where standard Symbols 1-9 do not precisely describe the intended
+  covered auto population
+
+When used:
+- Specialty auto programs with unusual vehicle classifications or
+  coverage triggers not captured by standard symbols
+- Fleet programs where covered auto eligibility has specific criteria
+  beyond standard symbol definitions
+- Program business or specialty underwriting where customization of
+  the covered auto definition is required
+
+Notes:
+- The ISO symbol system is designed to cover most commercial auto
+  scenarios; CA 99 54 is used when the standard system falls short
+- Custom symbols must be carefully defined to avoid ambiguity at claim
+  time — vague definitions create coverage disputes
+- This endorsement is most commonly seen in specialty or program markets
+  rather than standard commercial auto placements

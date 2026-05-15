@@ -1,0 +1,38 @@
+CA P 012 (2020-12) — 2020 Commercial Auto Multistate Form Revisions Advisory Notice To Policyholders
+====================================================================================================
+Form number: CA P 012
+Edition: 2020-12
+Title: 2020 Commercial Auto Multistate Form Revisions Advisory Notice To Policyholders
+Type: ISO Commercial Auto policyholder advisory notice
+States: All
+
+Purpose:
+Advisory notice explaining the 2020-11 commercial auto multistate forms
+revision — the most significant ISO commercial auto program update since
+the 2013-10 revision. The 2020-11 revision updated all three base coverage
+forms (CA 00 01, CA 00 20, CA 00 25) and their associated endorsements,
+incorporating over a decade of coverage evolution including cyber risk
+(auto hacking exclusion), ridesharing, communicable disease, and updated
+regulatory provisions. This notice explains those changes to policyholders.
+
+Content:
+- Summary of material changes in the 2020-11 commercial auto program revision
+- New coverages introduced: CA 04 65 (Auto Hacking Expense)
+- New exclusions added: communicable disease (CA 27 16 for dealers),
+  cannabis, and updated cyber provisions
+- Structural changes to all three base forms
+- New and revised endorsements across the CA 00, 04, 20-27, and 99 series
+- Explanation of how the 2020-11 revision affects policyholders
+
+When used:
+- Issued with all commercial auto policies transitioning to or newly written
+  on 2020-11 edition forms
+- Required by most states' policyholder notice regulations for major form changes
+
+Notes:
+- The 2020-11 revision is the current standard ISO commercial auto program
+  as of 2026; most active policies should be on 2020-11 forms
+- Policyholders renewing from 2013-10 or earlier editions experienced the
+  full scope of changes described in this notice
+- Note: CA P 011 does not appear in the current program — numbering skips
+  from CA P 010 (2019-12) to CA P 012 (2020-12)

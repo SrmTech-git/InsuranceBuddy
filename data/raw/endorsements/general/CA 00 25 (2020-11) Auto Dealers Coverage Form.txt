@@ -1,0 +1,52 @@
+CA 00 25 (2020-11) — Auto Dealers Coverage Form
+================================================
+Form number: CA 00 25
+Edition: 2020-11
+Title: Auto Dealers Coverage Form
+Type: ISO Commercial Auto coverage form
+States: All
+
+Policy term: 12 months standard
+Transaction types: New business; renewal; midterm endorsement; policy rewrite
+
+Purpose:
+ISO coverage form designed specifically for auto dealerships. Unlike CA 00 01,
+which must be paired with a separate CGL policy to cover premises and products
+liability, CA 00 25 bundles covered autos liability, physical damage, dealer
+inventory (open lot), garagekeepers, and a general liability section in a
+single form. This integration is necessary because a standard CGL excludes
+auto-related liability that is the core exposure for a dealer.
+
+Captures:
+- Covered autos liability (BI/PD) for owned, hired, and non-owned autos
+- Dealer inventory physical damage: open lot coverage for autos held for
+  sale (vehicles owned, consigned, or held under floorplan financing)
+- Garagekeepers coverage for customers' autos in the dealer's care, custody,
+  or control for service, repair, storage, or safekeeping
+- General Liability coverages section (premises BI/PD, products/completed
+  operations, personal and advertising injury, medical payments)
+- Acts, Errors and Omissions (AEO) liability for wrongful acts in the sale,
+  lease, financing, or service of vehicles
+- Drive-away operations, false pretense, broad form products (added by CA 25
+  and CA 27 series endorsements)
+
+When used:
+- New franchise or independent auto dealership account
+- Renewal of existing dealer policy
+- Accounts selling new or used cars, trucks, motorcycles, or RVs
+- Does NOT apply to service-only garages without a dealer sales operation
+  (use CA 00 01 + CGL for repair shops without inventory)
+
+Notes:
+- The CA 27 series endorsements are new forms added in the 2020-11 and
+  2022-09 revision cycles (drone exclusions, cannabis exclusions, cross-suit
+  exclusion, LLC auto status, abuse/molestation); they do not supersede the
+  CA 25 series — both coexist
+- Open lot coverage is physical damage on dealer-owned inventory; it differs
+  from garagekeepers (which covers customer vehicles)
+- AEO coverage is a significant feature: covers the dealer for wrongful acts
+  in the sales/F&I process — e.g., misrepresentation, failure to disclose,
+  improper financing disclosures
+- Floorplan lenders are typically named as loss payees on the open lot
+  physical damage section
+- CA DS 26 is the companion declarations form for this coverage form

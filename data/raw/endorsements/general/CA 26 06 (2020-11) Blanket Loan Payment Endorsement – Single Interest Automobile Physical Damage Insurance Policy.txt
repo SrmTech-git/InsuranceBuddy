@@ -1,0 +1,21 @@
+CA 26 06 (2020-11) — Blanket Loan Payment Endorsement – Single Interest Automobile Physical Damage Insurance Policy
+===================================================================================================================
+Form number: CA 26 06
+Edition: 2020-11
+Title: Blanket Loan Payment Endorsement – Single Interest Automobile Physical Damage Insurance Policy
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying CA 26 01 or CA 26 02 policy
+Transaction types: New business; program addition
+
+Purpose:
+
+Captures:
+
+When used:
+
+Notes:
+- CA 26 06 does not appear on the ISO Commercial Auto forms list; the
+  confirmed active CA 26 series forms are CA 26 01, CA 26 02, CA 26 04,
+  and CA 26 05 — content has been blanked pending verification

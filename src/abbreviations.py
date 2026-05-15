@@ -119,13 +119,21 @@ def expand_abbreviations(query: str) -> str:
 
     Iterates longest-first so multi-word abbreviations like "MED PAY" are
     matched before any shorter overlap could clobber them.
+
+    Does NOT expand abbreviations that are immediately followed by whitespace
+    and a digit — that pattern indicates the abbreviation is being used as a
+    form-number prefix (e.g., "CA 99 23" for an ISO Commercial Auto endorsement,
+    "WC 00 03 13" for an NCCI WC form, "HO 04 90" for an ISO Homeowners
+    endorsement). Expanding "CA" to "commercial auto" in those contexts would
+    break form-number detection and routing.
     """
     expanded = query
 
     for abbrev in sorted(INSURANCE_ABBREVIATIONS, key=len, reverse=True):
         full_term = INSURANCE_ABBREVIATIONS[abbrev]
-        # Match whole words only, case insensitive
-        pattern = r'\b' + re.escape(abbrev) + r'\b'
+        # Match whole words only, case insensitive, and NOT when followed by
+        # whitespace + digit (form-prefix context).
+        pattern = r'\b' + re.escape(abbrev) + r'\b(?!\s+\d)'
         expanded = re.sub(pattern, full_term, expanded, flags=re.IGNORECASE)
 
     return expanded

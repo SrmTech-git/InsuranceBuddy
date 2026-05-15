@@ -1,0 +1,45 @@
+CA 99 44 (2013-10) — Loss Payable Clause
+========================================
+Form number: CA 99 44
+Edition: 2013-10
+Title: Loss Payable Clause
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying commercial auto policy
+Transaction types: New business; endorsement addition
+
+Purpose:
+Adds a loss payable clause to a commercial auto physical damage policy,
+directing physical damage claim payments to a named loss payee — typically
+a lienholder, lender, or financing institution that has a security interest
+in the covered vehicle. Protects the lender's financial interest in the
+collateral by ensuring that physical damage insurance proceeds are paid
+to the lender (or jointly to lender and insured) rather than only to the
+insured borrower.
+
+Captures:
+- Payment of physical damage proceeds to a named loss payee with a
+  financial interest in the covered vehicle
+- Standard loss payee clause: the loss payee's rights are contingent
+  on the insured's rights — if the insured's coverage is voided by fraud
+  or policy violation, the loss payee's claim is also impaired
+- Applies to scheduled vehicles with corresponding loss payee designations
+
+When used:
+- Any commercial auto policy where a vehicle is financed and the lender
+  requires a loss payable clause
+- Fleet vehicles subject to equipment financing or leaseback arrangements
+- Standard practice for financed commercial vehicles of all types
+
+Notes:
+- CA 99 44 is a standard loss payee clause — the loss payee's rights
+  are contingent on the insured's coverage remaining valid; it is NOT
+  a lender's loss payable clause (which would protect the lender even
+  if the insured's coverage is voided by the insured's own acts)
+- Loss payees should be named specifically with correct lender names
+  and loan identification; generic "as their interest may appear" language
+  may create dispute over which lender receives payment
+- Compare with CA 99 61 (Loss Payable Clause – Audio, Visual And Data
+  Electronic Equipment Coverage Added Limits) for loss payable on
+  electronic equipment coverage specifically

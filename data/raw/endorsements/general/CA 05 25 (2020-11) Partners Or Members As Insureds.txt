@@ -1,0 +1,45 @@
+CA 05 25 (2020-11) — Partners Or Members As Insureds
+====================================================
+Form number: CA 05 25
+Edition: 2020-11
+Title: Partners Or Members As Insureds
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Extends the definition of "insured" under a CA 00 01 policy to include
+individual partners of a partnership or individual members of a limited
+liability company (LLC) when they are using a covered auto in connection
+with the named insured's business. The base CA 00 01 insured definition
+may not automatically extend to partners/members in their individual capacity
+depending on how the named insured entity is structured; this endorsement
+eliminates that ambiguity.
+
+Captures:
+- Individual partners of a partnership or individual members of an LLC
+  qualify as insureds while using a covered auto for the named insured's
+  business
+- Extends liability protection to these individuals for claims arising from
+  their use of covered autos in their capacity as partners or members
+
+When used:
+- Partnerships (general partnerships, limited partnerships) where individual
+  partners drive company vehicles and need explicit insured status
+- LLCs where individual members operate company-owned autos and the insured
+  definition under CA 00 01 may leave a gap for member-individuals
+- Any account where the entity structure raises questions about whether
+  non-employee owners have coverage as insureds under the base policy
+
+Notes:
+- The CA 00 01 insured definition extends to "you" (the named insured) and
+  anyone else using a covered auto with permission; for corporate entities
+  this is reasonably clear, but for partnerships and LLCs the extension to
+  individual partners/members is less certain without this endorsement
+- Does not affect coverage for employees or other permissive users — those
+  are already covered under the base form
+- Partners or members using their own personal vehicles (not covered autos)
+  for business remain subject to the non-owned auto coverage provisions,
+  not this endorsement

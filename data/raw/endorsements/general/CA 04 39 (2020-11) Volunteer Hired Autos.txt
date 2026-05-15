@@ -1,0 +1,46 @@
+CA 04 39 (2020-11) — Volunteer Hired Autos
+==========================================
+Form number: CA 04 39
+Edition: 2020-11
+Title: Volunteer Hired Autos
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Adds "volunteer" as an insured under the hired auto coverage of a CA 00 01
+policy when a volunteer rents or hires an auto in their own personal name on
+behalf of the named insured. Under the base form, a volunteer who rents a car
+in their own name for organizational activities is not an insured — the named
+insured did not lease or rent the vehicle. This endorsement closes that gap
+for hired/rented vehicles; it does not cover volunteers driving their own
+personally-owned vehicles (that exposure is addressed by CA 05 24).
+
+Captures:
+- Liability coverage for the volunteer as an insured while operating a hired
+  or rented auto in their personal name for the named insured's activities
+- Physical damage coverage for the hired/rented vehicle (where the underlying
+  policy includes hired auto physical damage coverage)
+- Clarifies that the named insured's liability exposure for volunteer-rented
+  vehicle use is covered
+
+When used:
+- Nonprofit organizations, charitable foundations, religious institutions, or
+  community groups whose volunteers regularly drive personal vehicles for
+  organizational purposes
+- Any named insured with Symbol 8 (hired autos) coverage where volunteer-
+  driven personal vehicles are a meaningful exposure
+- Typical use: delivering meals, transporting clients, running errands for
+  the organization
+
+Notes:
+- Without this endorsement, a volunteer who rents a car in their own name for
+  organizational use is not an insured under the named insured's CA policy —
+  the volunteer's own coverage would be their only resource
+- CA 05 24 (Non-Ownership Liability for Volunteers) is the companion form for
+  volunteers using their own personally-owned vehicles; CA 04 39 covers hired/
+  rented vehicles; an organization with both exposures needs both endorsements
+- Volunteers renting vehicles for organizational use should still be directed
+  to follow the organization's vehicle rental and reimbursement policies

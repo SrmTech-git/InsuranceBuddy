@@ -1,0 +1,45 @@
+CA 04 49 (2016-11) — Primary And Noncontributory – Other Insurance Condition
+============================================================================
+Form number: CA 04 49
+Edition: 2016-11
+Title: Primary And Noncontributory – Other Insurance Condition
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Modifies the "other insurance" condition in the CA 00 01 policy so that the
+named insured's commercial auto coverage is primary and non-contributing
+relative to any other available insurance when required by a written contract
+or agreement. Without this endorsement, multiple insurers typically share
+a loss proportionally; this endorsement makes the named insured's policy pay
+first, with no contribution from the additional insured's own carrier.
+
+Captures:
+- Primary and noncontributory treatment for the named insured's CA policy
+  when a written contract requires it
+- Applies to all additional insureds or specified parties per the endorsement
+  schedule (or blanket, depending on version)
+
+When used:
+- Required by construction contracts, lease agreements, and vendor contracts
+  that specify the insured's carrier must provide primary and noncontributory
+  coverage for additional insureds
+- Certificate of insurance requests that specifically list "primary and
+  noncontributory" as a required condition
+- When a general contractor or property owner requires their subcontractor's
+  auto policy to be primary ahead of the GC's own coverage
+
+Notes:
+- This is one of the most commonly requested endorsements in commercial
+  lines — most standard contracts require it
+- Without this endorsement, the CA policy's standard "other insurance"
+  condition makes it pro rata (proportional) with other available coverage —
+  meaning the additional insured's own carrier would also be called upon to
+  contribute, which they and their insured typically want to avoid
+- The ACORD 25 certificate of insurance has a checkbox for "primary and
+  noncontributory" — evidence of this endorsement supports that representation
+- The 2016-11 edition appears to be the first (and current) edition of this
+  form; no prior edition of CA 04 49 has been identified

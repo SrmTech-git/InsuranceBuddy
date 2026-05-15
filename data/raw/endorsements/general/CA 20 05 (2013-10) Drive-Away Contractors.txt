@@ -1,0 +1,40 @@
+CA 20 05 (2013-10) — Drive-Away Contractors
+===========================================
+Form number: CA 20 05
+Edition: 2013-10
+Title: Drive-Away Contractors
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Provides liability coverage for drive-away contractors — businesses or
+individuals hired to transport new or used vehicles from one location to
+another (manufacturer to dealer, auction to dealer, dealer to customer,
+etc.). Drive-away contractors take temporary possession of vehicles they do
+not own; their exposure is primarily liability during transit, not physical
+damage to the delivered vehicle (which remains the seller's/buyer's risk).
+
+Captures:
+- Liability (BI/PD) coverage for the named insured's drive-away operations
+- Coverage for vehicles being driven under their own power during drive-away
+  transit
+- May include liability for vehicles in driveaway convoys
+
+When used:
+- Drive-away or auto transport companies that deliver vehicles under their
+  own power (as opposed to transported on a car carrier)
+- Auto auction companies and dealers that operate driveaway services
+- Any account engaged in delivering vehicles for third-party owners
+
+Notes:
+- Drive-away contractors are distinct from auto transporters (who load
+  vehicles onto carriers) — drive-away means the vehicle is driven to
+  its destination under its own power
+- Physical damage to the vehicle during drive-away is typically the concern
+  of the vehicle owner, not the contractor; but liability for accidents
+  during delivery is the contractor's exposure
+- Garagekeeper/dealers sometimes use CA 20 05 for their own driveaway
+  operations delivering customer vehicles

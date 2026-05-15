@@ -1,0 +1,45 @@
+CA 20 18 (2013-10) — Professional Services Not Covered
+======================================================
+Form number: CA 20 18
+Edition: 2013-10
+Title: Professional Services Not Covered
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Excludes liability coverage for bodily injury or property damage arising
+from the rendering or failure to render professional services, even when the
+injury occurs in connection with the use of a covered auto. Designed for
+businesses where vehicle-based professional services create a blended
+liability exposure — this endorsement restricts the CA policy to the
+vehicle-operation exposure only, leaving the professional services liability
+to a separate professional liability or E&O policy.
+
+Captures:
+- Exclusion of claims arising from professional services rendered in
+  connection with covered auto use
+- Applies to BI and PD liability under the CA policy
+
+When used:
+- Medical transport companies, ambulance services, or mobile healthcare
+  providers where auto accidents may involve both driving negligence and
+  medical care negligence
+- Mobile service businesses (mobile veterinary, mobile mechanics, mobile
+  IT) where professional errors and vehicle accidents could be intertwined
+- When the underwriter wants to clearly separate the vehicle exposure
+  from the professional exposure across two different policies
+
+Notes:
+- Without this endorsement, a CA insurer could face arguments that a
+  professional services claim arising during vehicle use (e.g., a paramedic
+  error during patient transport) is covered under the CA policy because
+  the vehicle was involved
+- Professional liability policies often have their own auto exclusions
+  (or vice versa); coordination between the CA policy and the professional
+  liability policy requires clear exclusionary language on both sides
+- Agents placing ambulance services or mobile professional services should
+  confirm both the CA and professional liability policies coordinate
+  properly before binding

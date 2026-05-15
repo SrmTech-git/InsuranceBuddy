@@ -1,0 +1,36 @@
+CA 21 07 (1993-12) — Split Uninsured Motorists Coverage Limits
+==============================================================
+Form number: CA 21 07
+Edition: 1993-12
+Title: Split Uninsured Motorists Coverage Limits
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm change
+
+Purpose:
+Establishes split per-person/per-accident limits for uninsured motorist (UM)
+coverage that includes both bodily injury (BI) and property damage (PD) on
+a commercial auto policy. Used in states where UM coverage extends to
+property damage (in addition to bodily injury) and the insured wants split
+limits rather than a combined single limit.
+
+Captures:
+- UM coverage (BI and PD) structured as split per-person / per-accident
+  limits
+- Both bodily injury and property damage claims from uninsured motorists
+  are subject to the scheduled limits
+
+When used:
+- Commercial auto policies in states where UM covers both BI and PD and
+  split limits are permitted
+- Accounts that want to match their liability split-limit structure for UM
+
+Notes:
+- CA 21 07 covers BOTH BI and PD; CA 21 02 covers BI ONLY — select the
+  appropriate form based on the state's UM statute
+- This is an older edition (1993); some states may have more current
+  state-specific UM forms that supersede this; verify state filing
+  requirements before using
+- CA 21 46 and CA 21 51 are the UIM (underinsured motorist) equivalents

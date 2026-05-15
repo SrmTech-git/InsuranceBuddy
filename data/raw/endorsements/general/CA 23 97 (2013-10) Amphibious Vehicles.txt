@@ -1,0 +1,40 @@
+CA 23 97 (2013-10) — Amphibious Vehicles
+========================================
+Form number: CA 23 97
+Edition: 2013-10
+Title: Amphibious Vehicles
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Excludes coverage for bodily injury, property damage, and physical damage
+arising from the operation of an amphibious vehicle while in water mode.
+The base commercial auto policy may cover amphibious vehicles on land;
+this endorsement removes coverage for the water-mode exposure, which is
+considered a watercraft/marine risk rather than an auto risk.
+
+Captures:
+- Exclusion of BI/PD liability and physical damage for amphibious vehicles
+  while operating on water
+- Land-mode auto coverage is unaffected; only water-mode operation is excluded
+
+When used:
+- Policies where the underwriter is willing to insure amphibious vehicles
+  for road use but not for water operations
+- Accounts where water-mode coverage is intended to be placed separately
+  under a marine or inland marine policy
+
+Notes:
+- This is an EXCLUSION endorsement — it removes water-mode coverage, it
+  does not extend coverage to water operation; a card or summary describing
+  it as providing dual land/water coverage would be incorrect
+- Operators of passenger-carrying amphibious vehicles (Duck Boats) need
+  separate marine/vessel liability coverage for water-mode operation
+- Coast Guard regulations apply when amphibious vehicles operate on
+  navigable waterways; the CA policy with this endorsement does not
+  satisfy those requirements for water-mode operation
+- Past Duck Boat accidents (Philadelphia 1999, Seattle 2015, Branson 2018)
+  illustrate the severity of water-mode losses in this class

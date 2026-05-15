@@ -1,0 +1,42 @@
+CA 20 47 (2020-11) — Additional Insured – General Liability Coverages – Lessor Of Leased Equipment
+==================================================================================================
+Form number: CA 20 47
+Edition: 2020-11
+Title: Additional Insured – General Liability Coverages – Lessor Of Leased Equipment
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Adds the lessor of leased equipment as an additional insured for the
+non-auto liability (garage operations – other than covered autos) coverage
+section of the named insured's commercial auto policy. Businesses that lease
+equipment for their operations (lifts, compressors, diagnostic tools, etc.)
+are commonly required by the equipment lessor to provide AI status on their
+liability policy. Available for use with CA 00 01 (Business Auto) as well
+as CA 00 25 (Auto Dealers Coverage Form).
+
+Captures:
+- Named equipment lessor added as additional insured for liability arising
+  from the named insured's use or maintenance of the leased equipment
+- AI status is limited to the operations/premises liability section — not
+  the covered autos liability or garagekeepers sections
+- Schedule identifies the lessor and description of leased equipment
+
+When used:
+- Businesses (including auto dealerships) that lease equipment from
+  third-party equipment lessors whose agreements require AI coverage
+- Any account with an equipment lease agreement requiring AI status on
+  the liability policy
+
+Notes:
+- Available for use with both CA 00 01 and CA 00 25; not restricted to
+  the Auto Dealers form
+- The AI protection covers liability from the named insured's use or
+  maintenance of the leased equipment — the lessor is NOT made an AI
+  for auto liability or garagekeepers coverage
+- CA 20 01 covers vehicle lessors (owner of vehicles); CA 20 47 covers
+  equipment lessors (owner of tools/machinery); both may be needed
+  simultaneously for large operations

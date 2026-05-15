@@ -1,0 +1,47 @@
+CA 04 41 (2020-11) — Replacement Cost Coverage – Private Passenger Types
+========================================================================
+Form number: CA 04 41
+Edition: 2020-11
+Title: Replacement Cost Coverage – Private Passenger Types
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Changes the physical damage valuation basis for private passenger autos
+from actual cash value (ACV) to replacement cost — the cost to replace the
+damaged or stolen vehicle with a new vehicle of the same make, model, and
+equipment without a deduction for depreciation. Eliminates the depreciation
+penalty that insured organizations face when newer fleet vehicles are
+totaled.
+
+Captures:
+- Replacement cost valuation for total loss settlements on private passenger
+  type covered autos (sedans, SUVs, minivans, light trucks used as passenger
+  vehicles)
+- No deduction for depreciation on covered total losses
+- Replacement cost benefit applies only when: (1) the auto has been owned
+  24 months or less at time of loss, (2) the named insured is the original
+  owner, and (3) the odometer shows fewer than 24,000 miles at time of loss
+- Replacement cost is capped at 110% of the replaced vehicle's MSRP
+
+When used:
+- Company fleets of newer private passenger vehicles where ACV would leave
+  the insured short on replacement cost
+- Executives or key employees whose company vehicles represent a significant
+  benefit
+- Any account with high vehicle turnover and newer fleet composition where
+  depreciation exposure is meaningful
+
+Notes:
+- Applies only to "private passenger types" — typically sedans, SUVs, station
+  wagons, and light-duty pickups used for passenger transport; does not
+  extend to commercial trucks, trailers, or specialized equipment
+- The replacement cost benefit does not apply once the 24-month ownership or
+  24,000-mile threshold is exceeded; ACV applies beyond those limits
+- Premium impact is meaningful for newer fleets; the benefit diminishes as
+  vehicles age and ACV approaches replacement cost
+- This endorsement applies to physical damage coverage only; it has no effect
+  on liability coverage limits

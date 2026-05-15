@@ -1,0 +1,44 @@
+CA 20 33 (2020-11) — Autos Leased, Hired, Rented Or Borrowed With Drivers – Physical Damage Coverage
+====================================================================================================
+Form number: CA 20 33
+Edition: 2020-11
+Title: Autos Leased, Hired, Rented Or Borrowed With Drivers – Physical Damage Coverage
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Extends physical damage coverage to autos that are leased, hired, rented, or
+borrowed along with their drivers — "staffed vehicles." Standard hired auto
+physical damage coverage typically applies to vehicles the insured hires
+without a driver (the insured's own employees drive the rented vehicle).
+When a vehicle comes with its own driver provided by a third party, the
+insured's physical damage exposure is different, and this endorsement
+specifically covers that scenario.
+
+Captures:
+- Physical damage coverage for vehicles supplied with their own driver
+  (e.g., a charter bus with a contracted driver, a hired limousine with
+  a chauffeur, a staffed crane or equipment vehicle)
+- Coverage is for the named insured's liability for physical damage to
+  the vehicle, not the insured's own employees' driving
+
+When used:
+- Companies that hire vehicle-and-driver packages for events, projects,
+  or operations (chauffeured vehicles, staffed equipment)
+- Construction firms using hired cranes or specialty equipment that comes
+  with an operator
+- Any account where vehicles are rented with the owner's driver as part
+  of the transaction
+
+Notes:
+- Without this endorsement, physical damage to a hired-with-driver vehicle
+  may not be covered under standard hired auto physical damage because the
+  vehicle is operated by the owner's driver, not the insured's employee
+- The damage exposure still exists if the insured's operations contribute
+  to the physical damage (e.g., directing where a crane parks, instructing
+  a driver who then collides)
+- Liability for third-party BI/PD involving a staffed vehicle is a separate
+  question; this endorsement addresses the physical damage coverage only

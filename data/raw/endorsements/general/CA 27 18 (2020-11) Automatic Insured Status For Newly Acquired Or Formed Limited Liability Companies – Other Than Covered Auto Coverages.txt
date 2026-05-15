@@ -1,0 +1,36 @@
+CA 27 18 (2020-11) — Automatic Insured Status For Newly Acquired Or Formed Limited Liability Companies – Other Than Covered Auto Coverages
+=============================================================================================================================================
+Form number: CA 27 18
+Edition: 2020-11
+Title: Automatic Insured Status For Newly Acquired Or Formed Limited Liability Companies – Other Than Covered Auto Coverages
+Type: ISO Commercial Auto endorsement
+States: All (multi-state)
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Grants automatic insured status under the non-auto coverages of the
+CA 00 25 (General Liability, Garagekeepers, AEO) to newly acquired or
+formed LLCs, without requiring an immediate endorsement to add the
+entity. Applies to other-than-covered-auto coverages only.
+
+Captures:
+- Automatic extension of insured status to a newly acquired or formed
+  LLC under Section II (GL), Section III (AEO), and Garagekeepers
+  coverages of CA 00 25 for a limited automatic period
+- Coverage ends at the earliest of: 90 days after the LLC is formed
+  or acquired, the end of the policy period, or the date the LLC is
+  formally added to the policy by endorsement
+
+When used:
+- Dealer groups that regularly form or acquire new LLCs and need
+  immediate automatic GL/AEO/Garagekeepers coverage before the policy
+  can be formally endorsed
+- Situations where the covered autos liability automatic extension is
+  not the concern, but the non-auto GL exposure is
+
+Notes:
+- Does not apply to Covered Autos Liability — that section has its own
+  automatic coverage provisions in the base form
+- Part of the November 2020 ISO Auto Dealers form revision cycle

@@ -1,0 +1,36 @@
+CA 26 05 (2020-11) Additional Covered Property Endorsement – Single Interest Automobile Physical Damage Insurance Policy
+==========================================================================================================================
+Form number: CA 26 05
+Edition: 2020-11
+Title: Additional Covered Property Endorsement – Single Interest Automobile Physical Damage Insurance Policy
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying CA 26 01 or CA 26 02 policy
+Transaction types: New business; program addition
+
+Purpose:
+Introduces deductible amounts to the physical damage coverages provided
+under the CA 26 01 or CA 26 02 single interest policy. The confirmed ISO
+title for this endorsement is "Single Interest Deductibles." By adding a
+deductible to comprehensive and/or collision coverage, this endorsement
+adjusts the cost-sharing structure of the single interest program.
+
+Captures:
+- Scheduled deductible amounts applied to comprehensive and/or collision
+  physical damage claims under the single interest policy
+- Modifies the base CA 26 01/02 coverage to impose a deductible on
+  covered losses
+
+When used:
+- Lender CPI programs where the insurer or program administrator introduces
+  a deductible to manage claim frequency and premium cost
+- Any single interest program structured with a cost-sharing deductible
+
+Notes:
+- This endorsement adds deductibles to existing coverage — it is not an
+  additional covered property form; the file title does not match the
+  confirmed ISO form content
+- Confirmed ISO title: "Single Interest Deductibles"
+- The four confirmed active CA 26 series forms are CA 26 01, CA 26 02,
+  CA 26 04, and CA 26 05

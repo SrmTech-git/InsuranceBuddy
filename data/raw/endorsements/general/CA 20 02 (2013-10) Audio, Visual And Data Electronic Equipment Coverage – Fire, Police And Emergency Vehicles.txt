@@ -1,0 +1,44 @@
+CA 20 02 (2013-10) — Audio, Visual And Data Electronic Equipment Coverage – Fire, Police And Emergency Vehicles
+===============================================================================================================
+Form number: CA 20 02
+Edition: 2013-10
+Title: Audio, Visual And Data Electronic Equipment Coverage – Fire, Police And Emergency Vehicles
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy
+Transaction types: New business; renewal; midterm add
+
+Purpose:
+Extends physical damage coverage to the specialized audio, visual, and data
+electronic equipment permanently installed in fire, police, and emergency
+vehicles. The base CA 00 01 policy limits or excludes coverage for electronic
+equipment; emergency vehicles carry extremely high-value radio systems,
+mobile data terminals, video equipment, and communications arrays that exceed
+the base form's coverage parameters.
+
+Captures:
+- Physical damage coverage for permanently installed AV and data equipment
+  in scheduled fire, police, and emergency vehicles
+- Covers: mobile data terminals, two-way radio systems, dashcams and body
+  cam recording equipment, GPS/AVL systems, emergency dispatch consoles,
+  and similar fixed electronic equipment
+- Coverage limit for the equipment (scheduled or per vehicle)
+
+When used:
+- Municipal and county governments insuring fire trucks, police vehicles,
+  ambulances, and emergency management vehicles
+- Private ambulance and emergency transport companies
+- Any account with specialized emergency vehicles where the installed
+  electronics represent significant value beyond the vehicle itself
+
+Notes:
+- Standard CA physical damage covers the vehicle itself; the exclusion or
+  limitation on electronic equipment in CA 00 01 is designed to avoid
+  covering consumer electronics and aftermarket add-ons — but it catches
+  legitimate essential equipment in emergency vehicles
+- The equipment in a modern police cruiser or paramedic unit can represent
+  $30,000–$80,000+ in communications and data systems — far exceeding the
+  value that base CA physical damage would cover without this endorsement
+- Should be scheduled with up-to-date equipment values per vehicle to avoid
+  underinsurance at the time of a total loss or fire

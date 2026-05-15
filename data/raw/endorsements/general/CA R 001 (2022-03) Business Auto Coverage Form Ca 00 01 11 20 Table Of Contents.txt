@@ -1,0 +1,36 @@
+CA R 001 (2022-03) — Business Auto Coverage Form Ca 00 01 11 20 Table Of Contents
+=================================================================================
+Form number: CA R 001
+Edition: 2022-03
+Title: Business Auto Coverage Form Ca 00 01 11 20 Table Of Contents
+Type: ISO Commercial Auto form table of contents
+States: All
+
+Purpose:
+Table of contents for the CA 00 01 (11 20) Business Auto Coverage Form,
+providing a structural index to the coverage form's sections. Issued as a
+companion reference document to help policyholders, agents, and adjusters
+navigate the CA 00 01 policy. The table of contents identifies each major
+section of the coverage form and the page or location of each coverage
+section, definition, exclusion, and condition.
+
+Content:
+- Section index for CA 00 01 (2020-11 edition): coverage agreements,
+  definitions, exclusions, conditions
+- Page references for each component of the Business Auto Coverage Form
+- Reference tool for locating specific policy provisions
+
+When used:
+- Issued with CA 00 01 policies as a navigation aid for the coverage form
+- Used by agents, claims adjusters, and policyholders to locate specific
+  provisions within the policy
+
+Notes:
+- The CA R series (R for "reference") provides table of contents documents
+  for the major ISO commercial auto base forms; there is no coverage
+  content in CA R forms — they are pure reference documents
+- The 2022-03 edition corresponds to the 2020-11 CA 00 01 base form;
+  the CA R 001 was issued in 2022-03 as a companion to the 2020-11 edition
+- Knowing the table of contents structure helps with retrieval — Section I
+  is covered autos, Section II is liability, Section III is physical damage,
+  Section IV is conditions, Section V is definitions

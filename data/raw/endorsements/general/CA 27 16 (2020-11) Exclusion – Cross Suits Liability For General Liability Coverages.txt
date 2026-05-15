@@ -1,0 +1,30 @@
+CA 27 16 (2020-11) — Exclusion – Cross Suits Liability For General Liability Coverages
+========================================================================================
+Form number: CA 27 16
+Edition: 2020-11
+Title: Exclusion – Cross Suits Liability For General Liability Coverages
+Type: ISO Commercial Auto endorsement
+States: All (multi-state)
+
+Policy term: Matches underlying CA 00 25 Auto Dealers Coverage Form
+Transaction types: New business; endorsement addition
+
+Purpose:
+Eliminates General Liability coverage for suits brought by one named
+insured against another named insured on the same CA 00 25 policy.
+Prevents inter-entity claims within a dealer group from triggering
+GL coverage.
+
+Captures:
+- Exclusion of any claim or suit by one named insured against another
+  named insured under Section II — General Liability Coverages
+
+When used:
+- Auto dealer groups with multiple entities all named on a single
+  CA 00 25 policy, where inter-company suits could otherwise trigger
+  GL coverage
+- Insurers who want to eliminate the risk of intra-group litigation
+  being funded by the GL section
+
+Notes:
+- Part of the November 2020 ISO Auto Dealers form revision cycle

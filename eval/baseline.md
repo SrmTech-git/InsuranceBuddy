@@ -1,9 +1,9 @@
-# Eval Report — 2026-05-14_21-14-32
+# Eval Report — 2026-05-15_09-36-24
 
-**Summary:** 41/41 cases passed (100%)
+**Summary:** 40/41 cases passed (98%)
 
-- Average source recall:   1.00
-- Average content recall:  1.00
+- Average source recall:   0.98
+- Average content recall:  0.99
 
 ## Per-case results
 
@@ -38,7 +38,7 @@
 | ✅ PASS | `state-variant-form-spaced` | 1.00 | 1.00 | - |
 | ✅ PASS | `state-variant-form-attached` | 1.00 | 1.00 | - |
 | ✅ PASS | `mi-171-officer-exclusion` | 1.00 | 1.00 | - |
-| ✅ PASS | `ga-sr22-vs-sr22a` | 1.00 | 1.00 | - |
+| ❌ FAIL | `ga-sr22-vs-sr22a` | 0.00 | 0.67 | missing sources: ['ACORD 54GA', 'ACORD 55GA']; missing content phrases: ['prepayment']; system refused but case expected info |
 | ✅ PASS | `mi-60-vs-860` | 1.00 | 1.00 | - |
 | ✅ PASS | `va-2025-limit-increase` | 1.00 | 1.00 | - |
 | ✅ PASS | `ga-sb121-dui` | 1.00 | 1.00 | - |
@@ -50,3 +50,12 @@
 | ✅ PASS | `oh-fair-plan-family` | 1.00 | 1.00 | - |
 | ✅ PASS | `mine-subsidence-multistate` | 1.00 | 1.00 | - |
 | ✅ PASS | `no-california-forms` | 1.00 | 1.00 | - |
+
+## Failed cases — detail
+
+### `ga-sr22-vs-sr22a`
+**Query:** What's the difference between SR-22 and SR-22A in Georgia?
+- Source recall: 0.00
+- Content recall: 0.67
+- Notes: missing sources: ['ACORD 54GA', 'ACORD 55GA']; missing content phrases: ['prepayment']; system refused but case expected info
+

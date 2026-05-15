@@ -19,9 +19,17 @@ from states import STATE_MAP, STATE_ABBR_SET
 #   spaces (e.g. "ORC3937.18", "OAC3901-1-54")
 # - ACORD: forms (industry-standard ACORD forms) — stored with a
 #   single space (e.g. "ACORD 25", "ACORD 50WM")
+# - CA: ISO Commercial Auto endorsements — stored with internal spaces
+#   (e.g. "CA 99 23", "CA P 001", "CA DS 03")
+# Future ISO/AAIS/NCCI line prefixes (CG, CP, CR, HO, etc.) can be
+# added as those endorsement libraries are ingested.
 # detect_form_numbers normalizes user queries to match the stored format
 # of whichever prefix it sees.
-KNOWN_PREFIXES = ("ORC", "OAC", "ACORD")
+KNOWN_PREFIXES = ("ORC", "OAC", "ACORD", "CA")
+# Subset of KNOWN_PREFIXES that use ISO-style multi-token form numbers
+# (e.g. "CA 99 23" where the form has digit groups separated by spaces,
+# or "CA P 001" where a secondary letter group appears before the digits).
+ISO_LINE_PREFIXES = ("CA",)
 
 
 # ---------------------------------------------------------------------------
@@ -51,8 +59,22 @@ def detect_form_numbers(text: str) -> list[str]:
     # known national ACORD suffixes (WM, US, WMSET) — the only valid
     # tokens that may appear AFTER a space before a form-number boundary.
     space_suffix_alts = "|".join(sorted(STATE_ABBR_SET) + ["WM", "WMSET", "US"])
+    # Form-number body patterns, tried in order. The "ISO style" patterns
+    # MUST come before "ACORD style" because ISO has an optional secondary
+    # letter group ("CA P 001", "CA DS 03") that would otherwise be eaten
+    # by the broader prefix match.
     raw_matches = re.findall(
-        rf"\b((?:{prefixes})\s*\d+(?:[A-Z]+|\s+(?:{space_suffix_alts}))?(?:[.\-]\d+)*)\b",
+        rf"\b("
+        rf"(?:{prefixes})"
+        rf"(?:"
+        # ISO style: optional secondary letter group + digits + optional more digits
+        rf"\s+[A-Z]{{1,2}}\s+\d+(?:\s+\d+)?"
+        rf"|"
+        # ACORD/ORC/OAC style: digits + optional alpha-suffix or state-code or
+        # extra digit group, then optional dot/dash digit groups
+        rf"\s*\d+(?:[A-Z]+|\s+(?:{space_suffix_alts})|\s+\d+)?(?:[.\-]\d+)*"
+        rf")"
+        rf")\b",
         text,
         re.IGNORECASE,
     )
@@ -65,6 +87,9 @@ def detect_form_numbers(text: str) -> list[str]:
             # matches the stored form_number ("ACORD" + number + attached suffix)
             after = re.sub(r"\s+", "", raw[5:])
             normalized = f"ACORD {after}"
+        elif any(raw.startswith(p + " ") or raw.startswith(p) for p in ISO_LINE_PREFIXES):
+            # ISO forms preserve internal whitespace: "ca 99 23" -> "CA 99 23"
+            normalized = re.sub(r"\s+", " ", raw)
         else:
             normalized = raw.replace(" ", "")
         if normalized not in seen:

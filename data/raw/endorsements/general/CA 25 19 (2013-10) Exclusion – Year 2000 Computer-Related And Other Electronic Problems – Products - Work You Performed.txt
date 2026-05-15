@@ -1,0 +1,25 @@
+CA 25 19 (2013-10) — Exclusion – Year 2000 Computer-Related And Other Electronic Problems – Products/Work You Performed
+=======================================================================================================================
+Form number: CA 25 19
+Edition: 2013-10
+Title: Exclusion – Year 2000 Computer-Related And Other Electronic Problems – Products/Work You Performed
+Type: ISO Commercial Auto endorsement
+States: All
+
+Policy term: Matches underlying policy (HISTORICAL — no longer used in active placement)
+Transaction types: Historical reference only
+
+Purpose:
+Excluded products liability coverage for BI or PD arising from Y2K-related
+failures in the dealer's products or completed work. Targeted the products
+and completed operations exposure specifically, as distinct from CA 25 18
+which covered general premises/operations liability.
+
+Captures:
+- (Historical) Exclusion of Y2K-related products and completed operations
+  claims under CA 00 25 general liability coverages
+
+When used:
+- HISTORICAL ONLY — no current use
+- Companion to CA 25 18; the 18 covers operations, the 19 covers products
+- See CA 25 18 for full Y2K series context
